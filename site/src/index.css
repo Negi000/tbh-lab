@@ -2269,6 +2269,204 @@ a {
   font-weight: 900;
 }
 
+.progress-hero-panel {
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(233, 67, 67, 0.12), transparent 42%),
+    linear-gradient(180deg, rgba(21, 25, 27, 0.97), rgba(8, 10, 11, 0.98));
+}
+
+.progress-hero-panel small,
+.progress-static-note p {
+  display: block;
+  margin: 10px 0 0;
+  color: #b7aa93;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.progress-load-card {
+  display: grid;
+  gap: 10px;
+  align-content: center;
+  justify-items: end;
+}
+
+.progress-static-note {
+  padding: 14px 18px;
+  border-color: rgba(197, 130, 35, 0.5);
+  background: linear-gradient(180deg, rgba(32, 23, 10, 0.94), rgba(9, 8, 6, 0.96));
+}
+
+.progress-static-note p {
+  margin: 0;
+  color: #ffe0a0;
+}
+
+.progress-overview-panel {
+  background:
+    linear-gradient(180deg, rgba(19, 25, 25, 0.96), rgba(7, 10, 10, 0.96)),
+    repeating-linear-gradient(90deg, rgba(103, 197, 191, 0.035) 0 1px, transparent 1px 18px);
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.progress-card {
+  min-width: 0;
+  align-self: start;
+}
+
+.progress-stage-stack,
+.progress-rune-list,
+.progress-pet-list,
+.progress-inventory-list {
+  display: grid;
+  gap: 9px;
+}
+
+.progress-stage-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(120px, 0.5fr);
+  gap: 12px;
+  align-items: stretch;
+  padding: 11px;
+  border: 1px solid rgba(77, 96, 110, 0.66);
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(8, 12, 14, 0.92), rgba(3, 6, 8, 0.95));
+  color: #e8dcc8;
+}
+
+.progress-stage-row:hover {
+  border-color: rgba(103, 197, 191, 0.76);
+  color: #fff0bf;
+}
+
+.progress-stage-row span {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.progress-stage-row small,
+.progress-stage-row em,
+.progress-rune-row small,
+.progress-pet-row small,
+.progress-inventory-row small {
+  color: #98a5aa;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.progress-stage-row strong,
+.progress-rune-row strong,
+.progress-inventory-row strong {
+  overflow: hidden;
+  color: #ffedb7;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.progress-mini-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.progress-rune-row,
+.progress-inventory-row {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  min-height: 52px;
+  padding: 9px;
+  border: 1px solid rgba(75, 90, 103, 0.64);
+  border-radius: 4px;
+  background: rgba(4, 7, 9, 0.75);
+  color: #ded2bf;
+}
+
+.progress-rune-row.affordable {
+  border-color: rgba(103, 197, 191, 0.74);
+  box-shadow: inset 0 0 0 1px rgba(103, 197, 191, 0.08);
+}
+
+.progress-rune-row:hover,
+.progress-inventory-row:hover {
+  border-color: rgba(240, 207, 128, 0.68);
+}
+
+.progress-rune-row img,
+.progress-inventory-row img,
+.progress-icon-placeholder {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(240, 207, 128, 0.42);
+  border-radius: 4px;
+  background: #090b0c;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+
+.progress-rune-row em,
+.progress-inventory-row em {
+  min-width: 44px;
+  padding: 4px 7px;
+  border: 1px solid rgba(197, 130, 35, 0.42);
+  border-radius: 3px;
+  color: #ffd28b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: right;
+}
+
+.progress-pet-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 0.62fr);
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid rgba(77, 96, 110, 0.62);
+  border-radius: 4px;
+  background: rgba(4, 7, 9, 0.72);
+}
+
+.progress-pet-row > div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.progress-pet-row > div > strong {
+  color: #ffedb7;
+}
+
+.progress-pet-row > a {
+  display: grid;
+  gap: 3px;
+  align-content: center;
+  padding: 8px;
+  border: 1px solid rgba(103, 197, 191, 0.36);
+  border-radius: 3px;
+  background: rgba(7, 24, 25, 0.54);
+  color: #dff8f3;
+}
+
+.progress-pet-row a em {
+  color: #8ee8df;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .farm-hero-panel {
   overflow: hidden;
   background:
@@ -3051,6 +3249,10 @@ a {
   .farm-result-list {
     max-height: 360px;
   }
+
+  .progress-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 780px) {
@@ -3143,8 +3345,29 @@ a {
 
   .save-goal-grid,
   .save-mini-metrics,
+  .progress-mini-metrics,
   .farm-search-card {
     grid-template-columns: 1fr;
+  }
+
+  .progress-load-card {
+    justify-items: start;
+  }
+
+  .progress-stage-row,
+  .progress-pet-row {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-rune-row,
+  .progress-inventory-row {
+    grid-template-columns: 38px minmax(0, 1fr);
+  }
+
+  .progress-rune-row em,
+  .progress-inventory-row em {
+    grid-column: 2;
+    width: max-content;
   }
 
   .stage-map {

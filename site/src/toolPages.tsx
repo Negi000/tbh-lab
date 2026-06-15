@@ -68,9 +68,15 @@ type MarketManifest = {
 
 type RuneGraphLite = {
   nodes: Array<{
+    id?: string;
     runeKey: number;
+    title?: Localized;
+    icon?: string | null;
+    rarity?: string | null;
+    categoryKey?: string;
+    categoryColor?: string;
     maxLevel: number;
-    levels: Array<{ level: number; costValue: number }>;
+    levels: Array<{ level: number; costValue: number; effect?: Localized; statName?: Localized; value?: number }>;
   }>;
   totals: { allCost: number; nodeCount: number };
 };
@@ -90,9 +96,30 @@ type SaveSchemaPayload = {
 };
 
 type StageAtlasLite = {
-  acts: Array<{ act: number; stages: unknown[] }>;
+  acts: Array<{ act: number; label?: Localized; stages: PlanStage[] }>;
   difficulties: Array<{ id: string }>;
   generatedFrom: string[];
+};
+
+type PlanStage = {
+  id: string;
+  detailHref?: string | null;
+  title: Localized;
+  difficulty?: string;
+  difficultyLabel?: Localized;
+  difficultyColor?: string;
+  act?: number;
+  stageNo?: number;
+  stageLevel?: number;
+  waveAmount?: number;
+  rewards?: Array<{
+    labelKey?: string;
+    title?: Localized;
+    icon?: string | null;
+    rarity?: string | null;
+    detailHref?: string | null;
+    rate?: string | number | null;
+  }>;
 };
 
 type MarketItem = {
@@ -247,6 +274,13 @@ function percentText(value: string | number | null | undefined, locale: LocaleCo
   return `${new Intl.NumberFormat(locale === "ja" ? "ja-JP" : "en-US", { maximumFractionDigits: 3 }).format(rate)}%`;
 }
 
+function displayValue(value: string | number | Localized | null | undefined, locale: LocaleCode) {
+  if (value && typeof value === "object") {
+    return localText(value, locale) || "-";
+  }
+  return numberText(value, locale);
+}
+
 function hoursText(seconds: number, locale: LocaleCode) {
   return `${numberText(Math.round((seconds / 3600) * 10) / 10, locale)}h`;
 }
@@ -389,6 +423,26 @@ function ownedLookup(saveSnapshot: SaveSnapshot | null) {
 
 function marketManifestLookup(manifest: MarketManifest | null | undefined) {
   return new Map((manifest?.items ?? []).map((item) => [String(item.itemKey), item]));
+}
+
+function flattenPlanStages(stageAtlas: StageAtlasLite | null | undefined) {
+  return (stageAtlas?.acts ?? [])
+    .flatMap((act) => act.stages ?? [])
+    .filter((stage): stage is PlanStage => !!stage?.id)
+    .sort((a, b) => Number(a.id) - Number(b.id));
+}
+
+function stageByKey(stageAtlas: StageAtlasLite | null | undefined) {
+  return new Map(flattenPlanStages(stageAtlas).map((stage) => [String(stage.id), stage]));
+}
+
+function findNextStage(saveSnapshot: SaveSnapshot | null, stageAtlas: StageAtlasLite | null | undefined) {
+  const stages = flattenPlanStages(stageAtlas);
+  const bestKey = Number(saveSnapshot?.maxCompletedStage?.stageKey || saveSnapshot?.currentStage?.stageKey || 0);
+  if (!bestKey) {
+    return stages[0] ?? null;
+  }
+  return stages.find((stage) => Number(stage.id) > bestKey) ?? null;
 }
 
 function isoDateText(value: string | null | undefined, locale: LocaleCode) {
@@ -672,6 +726,295 @@ function FarmPlannerDetails({
         </li>
       ))}
     </RelationList>
+  );
+}
+
+export function ProgressPlannerWorkbench({
+  t,
+  text,
+  locale,
+  saveSnapshot,
+  onSaveLoaded,
+}: {
+  t: Translator;
+  text: TextResolver;
+  locale: LocaleCode;
+  saveSnapshot: SaveSnapshot | null;
+  onSaveLoaded: (snapshot: SaveSnapshot) => void;
+}) {
+  const relationshipsState = useJson<RelationshipPayload>("/generated/relationships.json");
+  const marketManifestState = useJson<MarketManifest>("/generated/market-manifest.json");
+  const runeGraphState = useJson<RuneGraphLite>("/generated/rune-graph.json");
+  const stageAtlasState = useJson<StageAtlasLite>("/generated/stage-atlas.json");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const manifestByItem = useMemo(() => marketManifestLookup(marketManifestState.data), [marketManifestState.data]);
+  const stagesByKey = useMemo(() => stageByKey(stageAtlasState.data), [stageAtlasState.data]);
+  const allStages = useMemo(() => flattenPlanStages(stageAtlasState.data), [stageAtlasState.data]);
+  const currentStage = saveSnapshot?.currentStage ? stagesByKey.get(String(saveSnapshot.currentStage.stageKey)) ?? null : null;
+  const bestStage = saveSnapshot?.maxCompletedStage ? stagesByKey.get(String(saveSnapshot.maxCompletedStage.stageKey)) ?? null : null;
+  const nextStage = useMemo(() => findNextStage(saveSnapshot, stageAtlasState.data), [saveSnapshot, stageAtlasState.data]);
+  const stageProgress = useMemo(() => {
+    const bestKey = Number(saveSnapshot?.maxCompletedStage?.stageKey ?? 0);
+    const reached = bestKey ? allStages.filter((stage) => Number(stage.id) <= bestKey).length : 0;
+    return { reached, total: allStages.length, percent: allStages.length ? Math.round((reached / allStages.length) * 100) : 0 };
+  }, [allStages, saveSnapshot]);
+  const runePlan = useMemo(() => {
+    const graph = runeGraphState.data;
+    if (!graph) {
+      return null;
+    }
+    let activeNodes = 0;
+    let currentLevels = 0;
+    let maxLevels = 0;
+    let spentCost = 0;
+    let remainingCost = 0;
+    const allCandidates = graph.nodes
+      .map((node) => {
+        const currentLevel = Math.max(0, Math.min(node.maxLevel, Number(saveSnapshot?.runeLevels[String(node.runeKey)]) || 0));
+        if (currentLevel > 0) {
+          activeNodes += 1;
+        }
+        currentLevels += currentLevel;
+        maxLevels += node.maxLevel;
+        node.levels.forEach((level) => {
+          const cost = Number(level.costValue) || 0;
+          if (Number(level.level) <= currentLevel) {
+            spentCost += cost;
+          } else {
+            remainingCost += cost;
+          }
+        });
+        const next = node.levels.find((level) => Number(level.level) > currentLevel);
+        return next
+          ? {
+              node,
+              currentLevel,
+              nextLevel: Number(next.level),
+              cost: Number(next.costValue) || 0,
+              effect: next.effect,
+              affordable: saveSnapshot ? Number(next.costValue) <= saveSnapshot.gold : true,
+            }
+          : null;
+      })
+      .filter((row): row is NonNullable<typeof row> => !!row)
+      .sort((a, b) => Number(b.affordable) - Number(a.affordable) || a.cost - b.cost);
+    return {
+      activeNodes,
+      currentLevels,
+      maxLevels,
+      spentCost,
+      remainingCost,
+      candidates: allCandidates.slice(0, 14),
+      affordableCount: allCandidates.filter((candidate) => candidate.affordable).length,
+    };
+  }, [runeGraphState.data, saveSnapshot]);
+  const petGoals = useMemo(() => {
+    const relationships = relationshipsState.data;
+    if (!relationships) {
+      return [];
+    }
+    const unlocked = new Set((saveSnapshot?.pets ?? []).filter((pet) => pet.unlocked).map((pet) => String(pet.petKey)));
+    return Object.entries(relationships.pets)
+      .map(([key, relation]) => ({ key, relation }))
+      .filter(({ key }) => !saveSnapshot || !unlocked.has(key))
+      .sort((a, b) => (Number(b.relation.recommendedStages[0]?.expectedPerWave) || 0) - (Number(a.relation.recommendedStages[0]?.expectedPerWave) || 0))
+      .slice(0, 8);
+  }, [relationshipsState.data, saveSnapshot]);
+  const inventoryRows = useMemo(() => {
+    if (saveSnapshot) {
+      return saveSnapshot.ownedItems
+        .map((owned) => ({ owned, manifest: manifestByItem.get(String(owned.itemKey)) }))
+        .filter((row): row is { owned: SaveOwnedItem; manifest: MarketManifestItem } => !!row.manifest && row.manifest.marketable)
+        .sort((a, b) => b.owned.quantity - a.owned.quantity)
+        .slice(0, 12);
+    }
+    return (marketManifestState.data?.items ?? [])
+      .filter((item) => item.marketable)
+      .sort((a, b) => (Number(b.level) || 0) - (Number(a.level) || 0))
+      .slice(0, 12)
+      .map((manifest) => ({ owned: null, manifest }));
+  }, [manifestByItem, marketManifestState.data, saveSnapshot]);
+  const unlockedPets = saveSnapshot?.pets.filter((pet) => pet.unlocked).length ?? 0;
+  const totalPets = saveSnapshot?.pets.length || Object.keys(relationshipsState.data?.pets ?? {}).length;
+
+  async function handleFile(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    if (!file) {
+      return;
+    }
+    setBusy(true);
+    setError(null);
+    try {
+      onSaveLoaded(await readTaskbarHeroSave(file));
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : t("save.error"));
+    } finally {
+      setBusy(false);
+      event.target.value = "";
+    }
+  }
+
+  return (
+    <div className="page-stack tool-page progress-page">
+      <section className="page-header panel progress-hero-panel">
+        <div>
+          <a className="back-link" href="#/">{t("nav.back")}</a>
+          <h1>{t("plan.title")}</h1>
+          <p>{t("plan.subtitle")}</p>
+          <small>{t("plan.loadHint")}</small>
+        </div>
+        <div className="progress-load-card">
+          <label className="file-button">
+            <input type="file" accept=".es3,.bak,application/octet-stream" onChange={handleFile} />
+            <span>{busy ? t("state.loading") : t("plan.loadSave")}</span>
+          </label>
+          <a className="inline-link" href="#/category/my-save">{t("plan.openSave")}</a>
+        </div>
+      </section>
+
+      {error ? <section className="panel state-panel compact-state"><h2>{t("save.error")}</h2><p>{error}</p></section> : null}
+      {!saveSnapshot ? <section className="panel progress-static-note"><p>{t("plan.staticMode")}</p></section> : null}
+
+      <section className="panel section progress-overview-panel">
+        <div className="section-heading">
+          <h2>{t("plan.overview")}</h2>
+          <span>{saveSnapshot ? saveSnapshot.fileName : t("save.notLoaded")}</span>
+        </div>
+        <div className="stat-grid save-stat-grid">
+          <SaveMetric label={t("field.gold")} value={saveSnapshot ? numberText(saveSnapshot.gold, locale) : "-"} />
+          <SaveMetric label={t("plan.progress")} value={`${numberText(stageProgress.reached, locale)} / ${numberText(stageProgress.total, locale)} (${numberText(stageProgress.percent, locale)}%)`} />
+          <SaveMetric label={t("save.pets")} value={`${numberText(unlockedPets, locale)} / ${numberText(totalPets, locale)}`} />
+          <SaveMetric label={t("save.runeLevels")} value={runePlan ? `${numberText(runePlan.currentLevels, locale)} / ${numberText(runePlan.maxLevels, locale)}` : "-"} />
+        </div>
+      </section>
+
+      <section className="progress-grid">
+        <article className="panel section progress-card progress-stage-card">
+          <div className="section-heading">
+            <h2>{t("plan.campaign")}</h2>
+            <a href="#/category/stages">{t("plan.openStages")}</a>
+          </div>
+          <div className="progress-stage-stack">
+            <ProgressStageRow label={t("plan.current")} route={saveSnapshot?.currentStage} stage={currentStage} text={text} locale={locale} />
+            <ProgressStageRow label={t("plan.best")} route={saveSnapshot?.maxCompletedStage} stage={bestStage} text={text} locale={locale} />
+            <ProgressStageRow label={t("plan.nextStage")} route={null} stage={nextStage} text={text} locale={locale} fallback={t("plan.noNextStage")} />
+          </div>
+        </article>
+
+        <article className="panel section progress-card">
+          <div className="section-heading">
+            <h2>{t("plan.runeBudget")}</h2>
+            <a href="#/category/runes">{t("save.openRunePlanner")}</a>
+          </div>
+          <div className="progress-mini-metrics">
+            <SaveMetric label={t("save.spentRuneCost")} value={numberText(runePlan?.spentCost, locale)} />
+            <SaveMetric label={t("save.remainingRuneCost")} value={numberText(runePlan?.remainingCost, locale)} />
+            <SaveMetric label={t("plan.affordableCount")} value={numberText(runePlan?.affordableCount, locale)} />
+          </div>
+          <div className="progress-rune-list">
+            {(runePlan?.candidates ?? []).length ? (
+              runePlan?.candidates.map((candidate) => (
+                <a className={`progress-rune-row ${candidate.affordable ? "affordable" : ""}`} href="#/category/runes" key={candidate.node.runeKey}>
+                  {candidate.node.icon ? <img src={candidate.node.icon} alt="" /> : <span className="progress-icon-placeholder" />}
+                  <span>
+                    <strong>{text(candidate.node.title) || `#${candidate.node.runeKey}`}</strong>
+                    <small>{numberText(candidate.currentLevel, locale)} to {numberText(candidate.nextLevel, locale)} / {displayValue(candidate.effect, locale)}</small>
+                  </span>
+                  <em>{numberText(candidate.cost, locale)}</em>
+                </a>
+              ))
+            ) : (
+              <p className="empty">{t("plan.noAffordableRunes")}</p>
+            )}
+          </div>
+        </article>
+
+        <article className="panel section progress-card">
+          <div className="section-heading">
+            <h2>{t("plan.petHunts")}</h2>
+            <a href="#/category/farm-planner">{t("plan.openFarm")}</a>
+          </div>
+          <div className="progress-pet-list">
+            {petGoals.length ? (
+              petGoals.map(({ key, relation }) => {
+                const stage = relation.recommendedStages[0];
+                return (
+                  <div className="progress-pet-row" key={key}>
+                    <div>
+                      <strong>{refLink(relation.pet, text)}</strong>
+                      <small>{t("relation.petTarget")}: {refLink(relation.targetMonster, text)} / {t("plan.required")} {numberText(relation.required, locale)}</small>
+                    </div>
+                    {stage ? (
+                      <a href={stage.stage?.href ?? "#/category/stages"}>
+                        <span>{text(stage.stage?.title)}</span>
+                        <em>{percentText(stage.spawnShare, locale)} / {numberText(stage.expectedPerWave, locale)}</em>
+                      </a>
+                    ) : null}
+                  </div>
+                );
+              })
+            ) : (
+              <p className="empty">{t("save.noPetGoals")}</p>
+            )}
+          </div>
+        </article>
+
+        <article className="panel section progress-card">
+          <div className="section-heading">
+            <h2>{t("plan.inventoryActions")}</h2>
+            <a href="#/category/market">{t("market.valuation")}</a>
+          </div>
+          <div className="progress-inventory-list">
+            {inventoryRows.map(({ owned, manifest }) => (
+              <a className="progress-inventory-row" href={manifest.href ?? "#/category/gear"} key={manifest.itemKey}>
+                {manifest.icon ? <img src={manifest.icon} alt="" /> : <span className="progress-icon-placeholder" />}
+                <span>
+                  <strong>{text(manifest.title)}</strong>
+                  <small>{manifest.gearType ?? manifest.itemType ?? "-"} / {manifest.rarity ?? "-"}</small>
+                </span>
+                <em>{owned ? numberText(owned.quantity, locale) : numberText(manifest.level, locale)}</em>
+              </a>
+            ))}
+          </div>
+        </article>
+      </section>
+    </div>
+  );
+}
+
+function ProgressStageRow({
+  label,
+  route,
+  stage,
+  text,
+  locale,
+  fallback = "-",
+}: {
+  label: string;
+  route: SaveSnapshot["currentStage"] | null | undefined;
+  stage: PlanStage | null | undefined;
+  text: TextResolver;
+  locale: LocaleCode;
+  fallback?: string;
+}) {
+  const title = text(stage?.title) || text(route?.label) || fallback;
+  const reward = stage?.rewards?.[0];
+  const href = stage?.detailHref ?? "#/category/stages";
+  return (
+    <a className="progress-stage-row" href={href}>
+      <span>
+        <small>{label}</small>
+        <strong>{title}</strong>
+        <em>
+          {text(stage?.difficultyLabel ?? route?.difficultyLabel) || route?.difficulty || "-"} / Lv {numberText(stage?.stageLevel, locale)}
+        </em>
+      </span>
+      <span>
+        <small>{reward ? text(reward.title) : "-"}</small>
+        <strong>{reward?.rate ? percentText(reward.rate, locale) : numberText(stage?.waveAmount, locale)}</strong>
+      </span>
+    </a>
   );
 }
 
