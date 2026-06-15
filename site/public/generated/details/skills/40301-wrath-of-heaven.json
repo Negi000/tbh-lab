@@ -3,12 +3,40 @@
   "entityId": "40301",
   "slug": "40301-wrath-of-heaven",
   "title": {
-    "ja": "天上の怒り",
-    "en": "Wrath of Heaven"
+    "de-DE": "Zorn des Himmels",
+    "en-US": "Wrath of Heaven",
+    "es-ES": "Ira del Cielo",
+    "fr-FR": "Courroux Céleste",
+    "id-ID": "Murka Surga",
+    "ja-JP": "天上の怒り",
+    "ko-KR": "천상의 분노",
+    "pl-PL": "Gniew Niebios",
+    "pt-BR": "Ira dos Céus",
+    "ru-RU": "Небесный Гнев",
+    "th-TH": "พิโรธแห่งสวรรค์",
+    "tr-TR": "Cennetin Gazabı",
+    "uk-UA": "Гнів Небес",
+    "vi-VN": "Thịnh Nộ Thiên Đường",
+    "zh-Hans": "天堂之怒",
+    "zh-Hant": "天堂之怒"
   },
   "subtitle": {
-    "en": "Skill / Cooldown",
-    "ja": "スキル / クールダウン"
+    "de-DE": "Skill / Cooldown",
+    "en-US": "Skill / Cooldown",
+    "es-ES": "Skill / Cooldown",
+    "fr-FR": "Skill / Cooldown",
+    "id-ID": "Skill / Cooldown",
+    "ja-JP": "スキル / クールダウン",
+    "ko-KR": "Skill / Cooldown",
+    "pl-PL": "Skill / Cooldown",
+    "pt-BR": "Skill / Cooldown",
+    "ru-RU": "Skill / Cooldown",
+    "th-TH": "Skill / Cooldown",
+    "tr-TR": "Skill / Cooldown",
+    "uk-UA": "Skill / Cooldown",
+    "vi-VN": "Skill / Cooldown",
+    "zh-Hans": "Skill / Cooldown",
+    "zh-Hant": "Skill / Cooldown"
   },
   "icon": "/generated/assets/game/skills/Skill_40301.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "クールダウン",
-        "en": "Cooldown"
+        "de-DE": "Cooldown",
+        "en-US": "Cooldown",
+        "es-ES": "Cooldown",
+        "fr-FR": "Cooldown",
+        "id-ID": "Cooldown",
+        "ja-JP": "クールダウン",
+        "ko-KR": "Cooldown",
+        "pl-PL": "Cooldown",
+        "pt-BR": "Cooldown",
+        "ru-RU": "Cooldown",
+        "th-TH": "Cooldown",
+        "tr-TR": "Cooldown",
+        "uk-UA": "Cooldown",
+        "vi-VN": "Cooldown",
+        "zh-Hans": "Cooldown",
+        "zh-Hant": "Cooldown"
       }
     },
     {

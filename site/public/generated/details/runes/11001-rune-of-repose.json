@@ -3,12 +3,40 @@
   "entityId": "11001",
   "slug": "11001-rune-of-repose",
   "title": {
-    "ja": "安息のルーン",
-    "en": "Rune of Repose"
+    "de-DE": "Ruhe-Rune",
+    "en-US": "Rune of Repose",
+    "es-ES": "Runa del Reposo",
+    "fr-FR": "Rune du Repos",
+    "id-ID": "Rune Peristirahatan",
+    "ja-JP": "安息のルーン",
+    "ko-KR": "안식의 룬",
+    "pl-PL": "Runa Spoczynku",
+    "pt-BR": "Runa do Repouso",
+    "ru-RU": "Руна покоя",
+    "th-TH": "รูนพักผ่อน",
+    "tr-TR": "Huzur Runu",
+    "uk-UA": "Руна спокою",
+    "vi-VN": "Rune An Nghỉ",
+    "zh-Hans": "安息符文",
+    "zh-Hant": "安息符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/UnlockOfflineReward.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "安息のルーン",
-        "en": "Rune of Repose"
+        "de-DE": "Ruhe-Rune",
+        "en-US": "Rune of Repose",
+        "es-ES": "Runa del Reposo",
+        "fr-FR": "Rune du Repos",
+        "id-ID": "Rune Peristirahatan",
+        "ja-JP": "安息のルーン",
+        "ko-KR": "안식의 룬",
+        "pl-PL": "Runa Spoczynku",
+        "pt-BR": "Runa do Repouso",
+        "ru-RU": "Руна покоя",
+        "th-TH": "รูนพักผ่อน",
+        "tr-TR": "Huzur Runu",
+        "uk-UA": "Руна спокою",
+        "vi-VN": "Rune An Nghỉ",
+        "zh-Hans": "安息符文",
+        "zh-Hant": "安息符文"
       }
     },
     {
@@ -60,23 +102,79 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "蓄積のルーン",
-            "en": "Rune of Hoarding"
+            "de-DE": "Hortrune",
+            "en-US": "Rune of Hoarding",
+            "es-ES": "Runa del Acopio",
+            "fr-FR": "Rune d'Accumulation",
+            "id-ID": "Rune Penimbunan",
+            "ja-JP": "蓄積のルーン",
+            "ko-KR": "비축의 룬",
+            "pl-PL": "Runa Gromadzenia",
+            "pt-BR": "Runa do Acúmulo",
+            "ru-RU": "Руна накопления",
+            "th-TH": "รูนกักตุน",
+            "tr-TR": "Biriktirme Runu",
+            "uk-UA": "Руна накопичення",
+            "vi-VN": "Rune Tích Trữ",
+            "zh-Hans": "储藏符文",
+            "zh-Hant": "儲藏符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "修練のルーン",
-            "en": "Rune of Training"
+            "de-DE": "Trainingsrune",
+            "en-US": "Rune of Training",
+            "es-ES": "Runa de Entrenamiento",
+            "fr-FR": "Rune d'Entraînement",
+            "id-ID": "Rune Latihan",
+            "ja-JP": "修練のルーン",
+            "ko-KR": "수련의 룬",
+            "pl-PL": "Runa Treningu",
+            "pt-BR": "Runa de Treinamento",
+            "ru-RU": "Руна тренировки",
+            "th-TH": "รูนฝึกฝน",
+            "tr-TR": "Eğitim Runu",
+            "uk-UA": "Руна тренування",
+            "vi-VN": "Rune Tu Luyện",
+            "zh-Hans": "训练符文",
+            "zh-Hant": "訓練符文"
           },
           "-"
         ]
@@ -100,12 +198,40 @@
         [
           1,
           {
-            "ja": "オフライン報酬解放(オフライン時にゴールドと経験値獲得可能)",
-            "en": "Unlock Offline Reward (gain gold and EXP while offline)"
+            "de-DE": "Offline-Belohnung freischalten (Gold und EP im Offline-Modus erhalten)",
+            "en-US": "Unlock Offline Reward (gain gold and EXP while offline)",
+            "es-ES": "Desbloquear recompensa sin conexión (gana oro y EXP estando sin conexión)",
+            "fr-FR": "Débloquer la récompense hors ligne (gagnez de l'or et de l'EXP hors ligne)",
+            "id-ID": "Buka hadiah offline (dapatkan emas dan Exp saat offline)",
+            "ja-JP": "オフライン報酬解放(オフライン時にゴールドと経験値獲得可能)",
+            "ko-KR": "오프라인 보상 해금 (비접속 시 골드, 경험치 획득 가능)",
+            "pl-PL": "Odblokuj nagrodę offline (zdobywaj złoto i EXP będąc offline)",
+            "pt-BR": "Desbloquear recompensa offline (ganhe ouro e EXP enquanto offline)",
+            "ru-RU": "Разблокировать офлайн-награду (получайте золото и опыт офлайн)",
+            "th-TH": "ปลดล็อกรางวัลออฟไลน์ (รับทองและ Exp ขณะออฟไลน์)",
+            "tr-TR": "Çevrimdışı ödülü aç (çevrimdışıyken altın ve tecrübe kazan)",
+            "uk-UA": "Розблокувати офлайн-нагороду (отримуйте золото та досвід офлайн)",
+            "vi-VN": "Mở khóa phần thưởng offline (nhận vàng và KN khi offline)",
+            "zh-Hans": "解锁离线奖励(离线时可获得金币和经验)",
+            "zh-Hant": "解鎖離線獎勵(離線時可獲得金幣和經驗)"
           },
           {
-            "ja": "100 ゴールド",
-            "en": "100 Gold"
+            "de-DE": "100 Gold",
+            "en-US": "100 Gold",
+            "es-ES": "100 Gold",
+            "fr-FR": "100 Gold",
+            "id-ID": "100 Gold",
+            "ja-JP": "100 ゴールド",
+            "ko-KR": "100 Gold",
+            "pl-PL": "100 Gold",
+            "pt-BR": "100 Gold",
+            "ru-RU": "100 Gold",
+            "th-TH": "100 Gold",
+            "tr-TR": "100 Gold",
+            "uk-UA": "100 Gold",
+            "vi-VN": "100 Gold",
+            "zh-Hans": "100 Gold",
+            "zh-Hant": "100 Gold"
           }
         ]
       ]

@@ -3,12 +3,40 @@
   "entityId": "180501",
   "slug": "180501-rune-of-training",
   "title": {
-    "ja": "修練のルーン",
-    "en": "Rune of Training"
+    "de-DE": "Trainingsrune",
+    "en-US": "Rune of Training",
+    "es-ES": "Runa de Entrenamiento",
+    "fr-FR": "Rune d'Entraînement",
+    "id-ID": "Rune Latihan",
+    "ja-JP": "修練のルーン",
+    "ko-KR": "수련의 룬",
+    "pl-PL": "Runa Treningu",
+    "pt-BR": "Runa de Treinamento",
+    "ru-RU": "Руна тренировки",
+    "th-TH": "รูนฝึกฝน",
+    "tr-TR": "Eğitim Runu",
+    "uk-UA": "Руна тренування",
+    "vi-VN": "Rune Tu Luyện",
+    "zh-Hans": "训练符文",
+    "zh-Hant": "訓練符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/OfflineRewardExpPercent.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "修練のルーン",
-        "en": "Rune of Training"
+        "de-DE": "Trainingsrune",
+        "en-US": "Rune of Training",
+        "es-ES": "Runa de Entrenamiento",
+        "fr-FR": "Rune d'Entraînement",
+        "id-ID": "Rune Latihan",
+        "ja-JP": "修練のルーン",
+        "ko-KR": "수련의 룬",
+        "pl-PL": "Runa Treningu",
+        "pt-BR": "Runa de Treinamento",
+        "ru-RU": "Руна тренировки",
+        "th-TH": "รูนฝึกฝน",
+        "tr-TR": "Eğitim Runu",
+        "uk-UA": "Руна тренування",
+        "vi-VN": "Rune Tu Luyện",
+        "zh-Hans": "训练符文",
+        "zh-Hant": "訓練符文"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "オフライン報酬経験値 +100%",
-            "en": "Offline Reward EXP +100%"
+            "de-DE": "Offline-Belohnung EP +100%",
+            "en-US": "Offline Reward EXP +100%",
+            "es-ES": "EXP de recompensa sin conexión +100%",
+            "fr-FR": "EXP de récompense hors ligne +100%",
+            "id-ID": "Exp hadiah offline +100%",
+            "ja-JP": "オフライン報酬経験値 +100%",
+            "ko-KR": "오프라인 보상 경험치 +100%",
+            "pl-PL": "EXP nagrody offline +100%",
+            "pt-BR": "EXP de recompensa offline +100%",
+            "ru-RU": "Опыт офлайн-награды +100%",
+            "th-TH": "Exp รางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül tecrübesi +%100",
+            "uk-UA": "Досвід офлайн-нагороди +100%",
+            "vi-VN": "KN phần thưởng offline +100%",
+            "zh-Hans": "离线奖励经验 +100%",
+            "zh-Hant": "離線獎勵經驗 +100%"
           },
           {
-            "ja": "5000000 ゴールド",
-            "en": "5000000 Gold"
+            "de-DE": "5000000 Gold",
+            "en-US": "5000000 Gold",
+            "es-ES": "5000000 Gold",
+            "fr-FR": "5000000 Gold",
+            "id-ID": "5000000 Gold",
+            "ja-JP": "5000000 ゴールド",
+            "ko-KR": "5000000 Gold",
+            "pl-PL": "5000000 Gold",
+            "pt-BR": "5000000 Gold",
+            "ru-RU": "5000000 Gold",
+            "th-TH": "5000000 Gold",
+            "tr-TR": "5000000 Gold",
+            "uk-UA": "5000000 Gold",
+            "vi-VN": "5000000 Gold",
+            "zh-Hans": "5000000 Gold",
+            "zh-Hant": "5000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "オフライン報酬経験値 +100%",
-            "en": "Offline Reward EXP +100%"
+            "de-DE": "Offline-Belohnung EP +100%",
+            "en-US": "Offline Reward EXP +100%",
+            "es-ES": "EXP de recompensa sin conexión +100%",
+            "fr-FR": "EXP de récompense hors ligne +100%",
+            "id-ID": "Exp hadiah offline +100%",
+            "ja-JP": "オフライン報酬経験値 +100%",
+            "ko-KR": "오프라인 보상 경험치 +100%",
+            "pl-PL": "EXP nagrody offline +100%",
+            "pt-BR": "EXP de recompensa offline +100%",
+            "ru-RU": "Опыт офлайн-награды +100%",
+            "th-TH": "Exp รางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül tecrübesi +%100",
+            "uk-UA": "Досвід офлайн-нагороди +100%",
+            "vi-VN": "KN phần thưởng offline +100%",
+            "zh-Hans": "离线奖励经验 +100%",
+            "zh-Hant": "離線獎勵經驗 +100%"
           },
           {
-            "ja": "5500000 ゴールド",
-            "en": "5500000 Gold"
+            "de-DE": "5500000 Gold",
+            "en-US": "5500000 Gold",
+            "es-ES": "5500000 Gold",
+            "fr-FR": "5500000 Gold",
+            "id-ID": "5500000 Gold",
+            "ja-JP": "5500000 ゴールド",
+            "ko-KR": "5500000 Gold",
+            "pl-PL": "5500000 Gold",
+            "pt-BR": "5500000 Gold",
+            "ru-RU": "5500000 Gold",
+            "th-TH": "5500000 Gold",
+            "tr-TR": "5500000 Gold",
+            "uk-UA": "5500000 Gold",
+            "vi-VN": "5500000 Gold",
+            "zh-Hans": "5500000 Gold",
+            "zh-Hant": "5500000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "オフライン報酬経験値 +100%",
-            "en": "Offline Reward EXP +100%"
+            "de-DE": "Offline-Belohnung EP +100%",
+            "en-US": "Offline Reward EXP +100%",
+            "es-ES": "EXP de recompensa sin conexión +100%",
+            "fr-FR": "EXP de récompense hors ligne +100%",
+            "id-ID": "Exp hadiah offline +100%",
+            "ja-JP": "オフライン報酬経験値 +100%",
+            "ko-KR": "오프라인 보상 경험치 +100%",
+            "pl-PL": "EXP nagrody offline +100%",
+            "pt-BR": "EXP de recompensa offline +100%",
+            "ru-RU": "Опыт офлайн-награды +100%",
+            "th-TH": "Exp รางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül tecrübesi +%100",
+            "uk-UA": "Досвід офлайн-нагороди +100%",
+            "vi-VN": "KN phần thưởng offline +100%",
+            "zh-Hans": "离线奖励经验 +100%",
+            "zh-Hant": "離線獎勵經驗 +100%"
           },
           {
-            "ja": "6000000 ゴールド",
-            "en": "6000000 Gold"
+            "de-DE": "6000000 Gold",
+            "en-US": "6000000 Gold",
+            "es-ES": "6000000 Gold",
+            "fr-FR": "6000000 Gold",
+            "id-ID": "6000000 Gold",
+            "ja-JP": "6000000 ゴールド",
+            "ko-KR": "6000000 Gold",
+            "pl-PL": "6000000 Gold",
+            "pt-BR": "6000000 Gold",
+            "ru-RU": "6000000 Gold",
+            "th-TH": "6000000 Gold",
+            "tr-TR": "6000000 Gold",
+            "uk-UA": "6000000 Gold",
+            "vi-VN": "6000000 Gold",
+            "zh-Hans": "6000000 Gold",
+            "zh-Hant": "6000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "オフライン報酬経験値 +100%",
-            "en": "Offline Reward EXP +100%"
+            "de-DE": "Offline-Belohnung EP +100%",
+            "en-US": "Offline Reward EXP +100%",
+            "es-ES": "EXP de recompensa sin conexión +100%",
+            "fr-FR": "EXP de récompense hors ligne +100%",
+            "id-ID": "Exp hadiah offline +100%",
+            "ja-JP": "オフライン報酬経験値 +100%",
+            "ko-KR": "오프라인 보상 경험치 +100%",
+            "pl-PL": "EXP nagrody offline +100%",
+            "pt-BR": "EXP de recompensa offline +100%",
+            "ru-RU": "Опыт офлайн-награды +100%",
+            "th-TH": "Exp รางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül tecrübesi +%100",
+            "uk-UA": "Досвід офлайн-нагороди +100%",
+            "vi-VN": "KN phần thưởng offline +100%",
+            "zh-Hans": "离线奖励经验 +100%",
+            "zh-Hant": "離線獎勵經驗 +100%"
           },
           {
-            "ja": "6500000 ゴールド",
-            "en": "6500000 Gold"
+            "de-DE": "6500000 Gold",
+            "en-US": "6500000 Gold",
+            "es-ES": "6500000 Gold",
+            "fr-FR": "6500000 Gold",
+            "id-ID": "6500000 Gold",
+            "ja-JP": "6500000 ゴールド",
+            "ko-KR": "6500000 Gold",
+            "pl-PL": "6500000 Gold",
+            "pt-BR": "6500000 Gold",
+            "ru-RU": "6500000 Gold",
+            "th-TH": "6500000 Gold",
+            "tr-TR": "6500000 Gold",
+            "uk-UA": "6500000 Gold",
+            "vi-VN": "6500000 Gold",
+            "zh-Hans": "6500000 Gold",
+            "zh-Hant": "6500000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "オフライン報酬経験値 +100%",
-            "en": "Offline Reward EXP +100%"
+            "de-DE": "Offline-Belohnung EP +100%",
+            "en-US": "Offline Reward EXP +100%",
+            "es-ES": "EXP de recompensa sin conexión +100%",
+            "fr-FR": "EXP de récompense hors ligne +100%",
+            "id-ID": "Exp hadiah offline +100%",
+            "ja-JP": "オフライン報酬経験値 +100%",
+            "ko-KR": "오프라인 보상 경험치 +100%",
+            "pl-PL": "EXP nagrody offline +100%",
+            "pt-BR": "EXP de recompensa offline +100%",
+            "ru-RU": "Опыт офлайн-награды +100%",
+            "th-TH": "Exp รางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül tecrübesi +%100",
+            "uk-UA": "Досвід офлайн-нагороди +100%",
+            "vi-VN": "KN phần thưởng offline +100%",
+            "zh-Hans": "离线奖励经验 +100%",
+            "zh-Hant": "離線獎勵經驗 +100%"
           },
           {
-            "ja": "7000000 ゴールド",
-            "en": "7000000 Gold"
+            "de-DE": "7000000 Gold",
+            "en-US": "7000000 Gold",
+            "es-ES": "7000000 Gold",
+            "fr-FR": "7000000 Gold",
+            "id-ID": "7000000 Gold",
+            "ja-JP": "7000000 ゴールド",
+            "ko-KR": "7000000 Gold",
+            "pl-PL": "7000000 Gold",
+            "pt-BR": "7000000 Gold",
+            "ru-RU": "7000000 Gold",
+            "th-TH": "7000000 Gold",
+            "tr-TR": "7000000 Gold",
+            "uk-UA": "7000000 Gold",
+            "vi-VN": "7000000 Gold",
+            "zh-Hans": "7000000 Gold",
+            "zh-Hant": "7000000 Gold"
           }
         ]
       ]

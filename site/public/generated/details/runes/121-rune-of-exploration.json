@@ -3,12 +3,40 @@
   "entityId": "121",
   "slug": "121-rune-of-exploration",
   "title": {
-    "ja": "探索のルーン",
-    "en": "Rune of Exploration"
+    "de-DE": "Erkundungsrune",
+    "en-US": "Rune of Exploration",
+    "es-ES": "Runa de Exploración",
+    "fr-FR": "Rune d'Exploration",
+    "id-ID": "Rune Eksplorasi",
+    "ja-JP": "探索のルーン",
+    "ko-KR": "탐색의 룬",
+    "pl-PL": "Runa Eksploracji",
+    "pt-BR": "Runa de Exploração",
+    "ru-RU": "Руна исследования",
+    "th-TH": "รูนสำรวจ",
+    "tr-TR": "Keşif Runu",
+    "uk-UA": "Руна дослідження",
+    "vi-VN": "Rune Thám Hiểm",
+    "zh-Hans": "探索符文",
+    "zh-Hant": "探索符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/DropChanceNormalChest.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "通常宝箱のドロップ率",
-        "en": "Common Chest Drop Chance"
+        "de-DE": "Drop-Chance normaler Truhe",
+        "en-US": "Common Chest Drop Chance",
+        "es-ES": "Prob. de cofre común",
+        "fr-FR": "Chance de coffre commun",
+        "id-ID": "Peluang Jatuh Peti Biasa",
+        "ja-JP": "通常宝箱のドロップ率",
+        "ko-KR": "일반 상자 드랍 확률",
+        "pl-PL": "Szansa na zwykłą skrzynię",
+        "pt-BR": "Chance de baú comum",
+        "ru-RU": "Шанс обычного сундука",
+        "th-TH": "โอกาสดรอปหีบทั่วไป",
+        "tr-TR": "Normal Sandık Düşme Şansı",
+        "uk-UA": "Шанс звичайної скрині",
+        "vi-VN": "Tỷ lệ rơi Rương Thường",
+        "zh-Hans": "普通宝箱掉落率",
+        "zh-Hant": "普通寶箱掉落率"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "征服のルーン",
-            "en": "Rune of Conquest"
+            "de-DE": "Eroberungsrune",
+            "en-US": "Rune of Conquest",
+            "es-ES": "Runa de Conquista",
+            "fr-FR": "Rune de Conquête",
+            "id-ID": "Rune Penaklukan",
+            "ja-JP": "征服のルーン",
+            "ko-KR": "정복의 룬",
+            "pl-PL": "Runa Podboju",
+            "pt-BR": "Runa da Conquista",
+            "ru-RU": "Руна завоевания",
+            "th-TH": "รูนพิชิต",
+            "tr-TR": "Fetih Runu",
+            "uk-UA": "Руна завоювання",
+            "vi-VN": "Rune Chinh Phục",
+            "zh-Hans": "征服符文",
+            "zh-Hant": "征服符文"
           },
           "-"
         ]
@@ -89,56 +159,196 @@
         [
           1,
           {
-            "ja": "通常宝箱ドロップ率係数50%増加",
-            "en": "50% Increased Common Chest Drop Chance Multiplier"
+            "de-DE": "50% erhöhter Multiplikator für normale Truhen-Chance",
+            "en-US": "50% Increased Common Chest Drop Chance Multiplier",
+            "es-ES": "50% Aumento del Multiplicador de Prob. de cofre común",
+            "fr-FR": "Multiplicateur de chance de coffre commun augmenté de 50%",
+            "id-ID": "50% Peningkatan Pengali Peluang Peti Umum",
+            "ja-JP": "通常宝箱ドロップ率係数50%増加",
+            "ko-KR": "일반 상자 드랍 확률 계수 50% 증가",
+            "pl-PL": "50% Zwiększony mnożnik szansy na zwykłą skrzynię",
+            "pt-BR": "50% Aumento do Multiplicador de Chance de baú comum",
+            "ru-RU": "+50% к множителю шанса обычного сундука",
+            "th-TH": "ตัวคูณโอกาสหีบทั่วไปเพิ่ม 50%",
+            "tr-TR": "%50 Artan Sıradan Sandık Şans Çarpanı",
+            "uk-UA": "+50% до множника шансу звич. скрині",
+            "vi-VN": "Tăng 50% Hệ số Tỉ lệ rương thường",
+            "zh-Hans": "普通宝箱掉落率系数提高50%",
+            "zh-Hant": "普通寶箱掉落率係數提高50%"
           },
           {
-            "ja": "19310000 ゴールド",
-            "en": "19310000 Gold"
+            "de-DE": "19310000 Gold",
+            "en-US": "19310000 Gold",
+            "es-ES": "19310000 Gold",
+            "fr-FR": "19310000 Gold",
+            "id-ID": "19310000 Gold",
+            "ja-JP": "19310000 ゴールド",
+            "ko-KR": "19310000 Gold",
+            "pl-PL": "19310000 Gold",
+            "pt-BR": "19310000 Gold",
+            "ru-RU": "19310000 Gold",
+            "th-TH": "19310000 Gold",
+            "tr-TR": "19310000 Gold",
+            "uk-UA": "19310000 Gold",
+            "vi-VN": "19310000 Gold",
+            "zh-Hans": "19310000 Gold",
+            "zh-Hant": "19310000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "通常宝箱ドロップ率係数50%増加",
-            "en": "50% Increased Common Chest Drop Chance Multiplier"
+            "de-DE": "50% erhöhter Multiplikator für normale Truhen-Chance",
+            "en-US": "50% Increased Common Chest Drop Chance Multiplier",
+            "es-ES": "50% Aumento del Multiplicador de Prob. de cofre común",
+            "fr-FR": "Multiplicateur de chance de coffre commun augmenté de 50%",
+            "id-ID": "50% Peningkatan Pengali Peluang Peti Umum",
+            "ja-JP": "通常宝箱ドロップ率係数50%増加",
+            "ko-KR": "일반 상자 드랍 확률 계수 50% 증가",
+            "pl-PL": "50% Zwiększony mnożnik szansy na zwykłą skrzynię",
+            "pt-BR": "50% Aumento do Multiplicador de Chance de baú comum",
+            "ru-RU": "+50% к множителю шанса обычного сундука",
+            "th-TH": "ตัวคูณโอกาสหีบทั่วไปเพิ่ม 50%",
+            "tr-TR": "%50 Artan Sıradan Sandık Şans Çarpanı",
+            "uk-UA": "+50% до множника шансу звич. скрині",
+            "vi-VN": "Tăng 50% Hệ số Tỉ lệ rương thường",
+            "zh-Hans": "普通宝箱掉落率系数提高50%",
+            "zh-Hant": "普通寶箱掉落率係數提高50%"
           },
           {
-            "ja": "23970000 ゴールド",
-            "en": "23970000 Gold"
+            "de-DE": "23970000 Gold",
+            "en-US": "23970000 Gold",
+            "es-ES": "23970000 Gold",
+            "fr-FR": "23970000 Gold",
+            "id-ID": "23970000 Gold",
+            "ja-JP": "23970000 ゴールド",
+            "ko-KR": "23970000 Gold",
+            "pl-PL": "23970000 Gold",
+            "pt-BR": "23970000 Gold",
+            "ru-RU": "23970000 Gold",
+            "th-TH": "23970000 Gold",
+            "tr-TR": "23970000 Gold",
+            "uk-UA": "23970000 Gold",
+            "vi-VN": "23970000 Gold",
+            "zh-Hans": "23970000 Gold",
+            "zh-Hant": "23970000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "通常宝箱ドロップ率係数50%増加",
-            "en": "50% Increased Common Chest Drop Chance Multiplier"
+            "de-DE": "50% erhöhter Multiplikator für normale Truhen-Chance",
+            "en-US": "50% Increased Common Chest Drop Chance Multiplier",
+            "es-ES": "50% Aumento del Multiplicador de Prob. de cofre común",
+            "fr-FR": "Multiplicateur de chance de coffre commun augmenté de 50%",
+            "id-ID": "50% Peningkatan Pengali Peluang Peti Umum",
+            "ja-JP": "通常宝箱ドロップ率係数50%増加",
+            "ko-KR": "일반 상자 드랍 확률 계수 50% 증가",
+            "pl-PL": "50% Zwiększony mnożnik szansy na zwykłą skrzynię",
+            "pt-BR": "50% Aumento do Multiplicador de Chance de baú comum",
+            "ru-RU": "+50% к множителю шанса обычного сундука",
+            "th-TH": "ตัวคูณโอกาสหีบทั่วไปเพิ่ม 50%",
+            "tr-TR": "%50 Artan Sıradan Sandık Şans Çarpanı",
+            "uk-UA": "+50% до множника шансу звич. скрині",
+            "vi-VN": "Tăng 50% Hệ số Tỉ lệ rương thường",
+            "zh-Hans": "普通宝箱掉落率系数提高50%",
+            "zh-Hant": "普通寶箱掉落率係數提高50%"
           },
           {
-            "ja": "25700000 ゴールド",
-            "en": "25700000 Gold"
+            "de-DE": "25700000 Gold",
+            "en-US": "25700000 Gold",
+            "es-ES": "25700000 Gold",
+            "fr-FR": "25700000 Gold",
+            "id-ID": "25700000 Gold",
+            "ja-JP": "25700000 ゴールド",
+            "ko-KR": "25700000 Gold",
+            "pl-PL": "25700000 Gold",
+            "pt-BR": "25700000 Gold",
+            "ru-RU": "25700000 Gold",
+            "th-TH": "25700000 Gold",
+            "tr-TR": "25700000 Gold",
+            "uk-UA": "25700000 Gold",
+            "vi-VN": "25700000 Gold",
+            "zh-Hans": "25700000 Gold",
+            "zh-Hant": "25700000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "通常宝箱ドロップ率係数50%増加",
-            "en": "50% Increased Common Chest Drop Chance Multiplier"
+            "de-DE": "50% erhöhter Multiplikator für normale Truhen-Chance",
+            "en-US": "50% Increased Common Chest Drop Chance Multiplier",
+            "es-ES": "50% Aumento del Multiplicador de Prob. de cofre común",
+            "fr-FR": "Multiplicateur de chance de coffre commun augmenté de 50%",
+            "id-ID": "50% Peningkatan Pengali Peluang Peti Umum",
+            "ja-JP": "通常宝箱ドロップ率係数50%増加",
+            "ko-KR": "일반 상자 드랍 확률 계수 50% 증가",
+            "pl-PL": "50% Zwiększony mnożnik szansy na zwykłą skrzynię",
+            "pt-BR": "50% Aumento do Multiplicador de Chance de baú comum",
+            "ru-RU": "+50% к множителю шанса обычного сундука",
+            "th-TH": "ตัวคูณโอกาสหีบทั่วไปเพิ่ม 50%",
+            "tr-TR": "%50 Artan Sıradan Sandık Şans Çarpanı",
+            "uk-UA": "+50% до множника шансу звич. скрині",
+            "vi-VN": "Tăng 50% Hệ số Tỉ lệ rương thường",
+            "zh-Hans": "普通宝箱掉落率系数提高50%",
+            "zh-Hant": "普通寶箱掉落率係數提高50%"
           },
           {
-            "ja": "27350000 ゴールド",
-            "en": "27350000 Gold"
+            "de-DE": "27350000 Gold",
+            "en-US": "27350000 Gold",
+            "es-ES": "27350000 Gold",
+            "fr-FR": "27350000 Gold",
+            "id-ID": "27350000 Gold",
+            "ja-JP": "27350000 ゴールド",
+            "ko-KR": "27350000 Gold",
+            "pl-PL": "27350000 Gold",
+            "pt-BR": "27350000 Gold",
+            "ru-RU": "27350000 Gold",
+            "th-TH": "27350000 Gold",
+            "tr-TR": "27350000 Gold",
+            "uk-UA": "27350000 Gold",
+            "vi-VN": "27350000 Gold",
+            "zh-Hans": "27350000 Gold",
+            "zh-Hant": "27350000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "通常宝箱ドロップ率係数50%増加",
-            "en": "50% Increased Common Chest Drop Chance Multiplier"
+            "de-DE": "50% erhöhter Multiplikator für normale Truhen-Chance",
+            "en-US": "50% Increased Common Chest Drop Chance Multiplier",
+            "es-ES": "50% Aumento del Multiplicador de Prob. de cofre común",
+            "fr-FR": "Multiplicateur de chance de coffre commun augmenté de 50%",
+            "id-ID": "50% Peningkatan Pengali Peluang Peti Umum",
+            "ja-JP": "通常宝箱ドロップ率係数50%増加",
+            "ko-KR": "일반 상자 드랍 확률 계수 50% 증가",
+            "pl-PL": "50% Zwiększony mnożnik szansy na zwykłą skrzynię",
+            "pt-BR": "50% Aumento do Multiplicador de Chance de baú comum",
+            "ru-RU": "+50% к множителю шанса обычного сундука",
+            "th-TH": "ตัวคูณโอกาสหีบทั่วไปเพิ่ม 50%",
+            "tr-TR": "%50 Artan Sıradan Sandık Şans Çarpanı",
+            "uk-UA": "+50% до множника шансу звич. скрині",
+            "vi-VN": "Tăng 50% Hệ số Tỉ lệ rương thường",
+            "zh-Hans": "普通宝箱掉落率系数提高50%",
+            "zh-Hant": "普通寶箱掉落率係數提高50%"
           },
           {
-            "ja": "29150000 ゴールド",
-            "en": "29150000 Gold"
+            "de-DE": "29150000 Gold",
+            "en-US": "29150000 Gold",
+            "es-ES": "29150000 Gold",
+            "fr-FR": "29150000 Gold",
+            "id-ID": "29150000 Gold",
+            "ja-JP": "29150000 ゴールド",
+            "ko-KR": "29150000 Gold",
+            "pl-PL": "29150000 Gold",
+            "pt-BR": "29150000 Gold",
+            "ru-RU": "29150000 Gold",
+            "th-TH": "29150000 Gold",
+            "tr-TR": "29150000 Gold",
+            "uk-UA": "29150000 Gold",
+            "vi-VN": "29150000 Gold",
+            "zh-Hans": "29150000 Gold",
+            "zh-Hant": "29150000 Gold"
           }
         ]
       ]

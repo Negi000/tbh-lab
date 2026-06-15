@@ -3,12 +3,40 @@
   "entityId": "417091",
   "slug": "417091-rune-arrow",
   "title": {
-    "ja": "ルーンアロー",
-    "en": "Rune Arrow"
+    "de-DE": "Rune Arrow",
+    "en-US": "Rune Arrow",
+    "es-ES": "Rune Arrow",
+    "fr-FR": "Rune Arrow",
+    "id-ID": "Rune Arrow",
+    "ja-JP": "ルーンアロー",
+    "ko-KR": "Rune Arrow",
+    "pl-PL": "Rune Arrow",
+    "pt-BR": "Rune Arrow",
+    "ru-RU": "Rune Arrow",
+    "th-TH": "Rune Arrow",
+    "tr-TR": "Rune Arrow",
+    "uk-UA": "Rune Arrow",
+    "vi-VN": "Rune Arrow",
+    "zh-Hans": "Rune Arrow",
+    "zh-Hant": "Rune Arrow"
   },
   "subtitle": {
-    "en": "Celestial / Arrow / Sub Weapon / Lv. 40",
-    "ja": "セレスティアル / 矢 / サブ武器 / Lv. 40"
+    "de-DE": "Himmlisch / Pfeil / Nebenwaffe / Lv. 40",
+    "en-US": "Celestial / Arrow / Sub Weapon / Lv. 40",
+    "es-ES": "Celestial / Flecha / Arma secundaria / Lv. 40",
+    "fr-FR": "Céleste / Flèche / Arme secondaire / Lv. 40",
+    "id-ID": "Surgawi / Panah / Senjata Pendamping / Lv. 40",
+    "ja-JP": "セレスティアル / 矢 / サブ武器 / Lv. 40",
+    "ko-KR": "천상 / 화살 / 보조무기 / Lv. 40",
+    "pl-PL": "Niebiański / Strzała / Broń dodatkowa / Lv. 40",
+    "pt-BR": "Celestial / Flecha / Arma Secundária / Lv. 40",
+    "ru-RU": "Небесный / Стрела / Доп. оружие / Lv. 40",
+    "th-TH": "สวรรค์ / ลูกศร / อาวุธรอง / Lv. 40",
+    "tr-TR": "Göksel / Ok / Yardımcı Silah / Lv. 40",
+    "uk-UA": "Небесний / Стріла / Додаткова зброя / Lv. 40",
+    "vi-VN": "Thiên giới / Mũi tên / Vũ khí phụ / Lv. 40",
+    "zh-Hans": "天界 / 箭 / 副武器 / Lv. 40",
+    "zh-Hant": "天界 / 箭 / 副武器 / Lv. 40"
   },
   "icon": "/generated/assets/game/item/Equipment/ARROW_410009.png",
   "rarity": "CELESTIAL",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3114097",
-            "en": "DropKey 3114097"
+            "de-DE": "DropKey 3114097",
+            "en-US": "DropKey 3114097",
+            "es-ES": "DropKey 3114097",
+            "fr-FR": "DropKey 3114097",
+            "id-ID": "DropKey 3114097",
+            "ja-JP": "DropKey 3114097",
+            "ko-KR": "DropKey 3114097",
+            "pl-PL": "DropKey 3114097",
+            "pt-BR": "DropKey 3114097",
+            "ru-RU": "DropKey 3114097",
+            "th-TH": "DropKey 3114097",
+            "tr-TR": "DropKey 3114097",
+            "uk-UA": "DropKey 3114097",
+            "vi-VN": "DropKey 3114097",
+            "zh-Hans": "DropKey 3114097",
+            "zh-Hant": "DropKey 3114097"
           },
           "6.669%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

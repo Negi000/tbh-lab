@@ -3,12 +3,40 @@
   "entityId": "1905021",
   "slug": "1905021-rune-of-lubrication",
   "title": {
-    "ja": "潤滑のルーン",
-    "en": "Rune of Lubrication"
+    "de-DE": "Schmierungsrune",
+    "en-US": "Rune of Lubrication",
+    "es-ES": "Runa de Lubricación",
+    "fr-FR": "Rune de Lubrification",
+    "id-ID": "Rune Pelumas",
+    "ja-JP": "潤滑のルーン",
+    "ko-KR": "윤활의 룬",
+    "pl-PL": "Runa Smarowania",
+    "pt-BR": "Runa de Lubrificação",
+    "ru-RU": "Руна смазки",
+    "th-TH": "รูนหล่อลื่น",
+    "tr-TR": "Yağlama Runu",
+    "uk-UA": "Руна змащування",
+    "vi-VN": "Rune Bôi Trơn",
+    "zh-Hans": "润滑符文",
+    "zh-Hant": "潤滑符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": null,
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "潤滑のルーン",
-        "en": "Rune of Lubrication"
+        "de-DE": "Schmierungsrune",
+        "en-US": "Rune of Lubrication",
+        "es-ES": "Runa de Lubricación",
+        "fr-FR": "Rune de Lubrification",
+        "id-ID": "Rune Pelumas",
+        "ja-JP": "潤滑のルーン",
+        "ko-KR": "윤활의 룬",
+        "pl-PL": "Runa Smarowania",
+        "pt-BR": "Runa de Lubrificação",
+        "ru-RU": "Руна смазки",
+        "th-TH": "รูนหล่อลื่น",
+        "tr-TR": "Yağlama Runu",
+        "uk-UA": "Руна змащування",
+        "vi-VN": "Rune Bôi Trơn",
+        "zh-Hans": "润滑符文",
+        "zh-Hant": "潤滑符文"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "ステージボスチェスト自動開封時間 -4秒",
-            "en": "Auto-Open Stage Boss Chest Time -4s"
+            "de-DE": "Auto-Öffnen Stage-Boss-Truhe Zeit -4s",
+            "en-US": "Auto-Open Stage Boss Chest Time -4s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de etapa -4s",
+            "fr-FR": "Temps ouverture auto coffre boss d'étape -4s",
+            "id-ID": "Waktu auto-buka peti Boss Panggung -4d",
+            "ja-JP": "ステージボスチェスト自動開封時間 -4秒",
+            "ko-KR": "스테이지 보스 상자 자동 열기 시간 -4초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa etapu -4s",
+            "pt-BR": "Tempo abertura auto baú chefe de fase -4s",
+            "ru-RU": "Время автооткрытия сундука босса стадии -4с",
+            "th-TH": "เวลาเปิดกล่องบอสด่านอัตโนมัติ -4 วิ",
+            "tr-TR": "Aşama bossu sandığı otomatik açma süresi -4sn",
+            "uk-UA": "Час автовідкриття скрині боса етапу -4с",
+            "vi-VN": "Thời gian tự mở rương Boss Tầng -4s",
+            "zh-Hans": "关卡首领宝箱自动开启时间 -4秒",
+            "zh-Hant": "關卡首領寶箱自動開啟時間 -4秒"
           },
           {
-            "ja": "25000000 ゴールド",
-            "en": "25000000 Gold"
+            "de-DE": "25000000 Gold",
+            "en-US": "25000000 Gold",
+            "es-ES": "25000000 Gold",
+            "fr-FR": "25000000 Gold",
+            "id-ID": "25000000 Gold",
+            "ja-JP": "25000000 ゴールド",
+            "ko-KR": "25000000 Gold",
+            "pl-PL": "25000000 Gold",
+            "pt-BR": "25000000 Gold",
+            "ru-RU": "25000000 Gold",
+            "th-TH": "25000000 Gold",
+            "tr-TR": "25000000 Gold",
+            "uk-UA": "25000000 Gold",
+            "vi-VN": "25000000 Gold",
+            "zh-Hans": "25000000 Gold",
+            "zh-Hant": "25000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "ステージボスチェスト自動開封時間 -4秒",
-            "en": "Auto-Open Stage Boss Chest Time -4s"
+            "de-DE": "Auto-Öffnen Stage-Boss-Truhe Zeit -4s",
+            "en-US": "Auto-Open Stage Boss Chest Time -4s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de etapa -4s",
+            "fr-FR": "Temps ouverture auto coffre boss d'étape -4s",
+            "id-ID": "Waktu auto-buka peti Boss Panggung -4d",
+            "ja-JP": "ステージボスチェスト自動開封時間 -4秒",
+            "ko-KR": "스테이지 보스 상자 자동 열기 시간 -4초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa etapu -4s",
+            "pt-BR": "Tempo abertura auto baú chefe de fase -4s",
+            "ru-RU": "Время автооткрытия сундука босса стадии -4с",
+            "th-TH": "เวลาเปิดกล่องบอสด่านอัตโนมัติ -4 วิ",
+            "tr-TR": "Aşama bossu sandığı otomatik açma süresi -4sn",
+            "uk-UA": "Час автовідкриття скрині боса етапу -4с",
+            "vi-VN": "Thời gian tự mở rương Boss Tầng -4s",
+            "zh-Hans": "关卡首领宝箱自动开启时间 -4秒",
+            "zh-Hant": "關卡首領寶箱自動開啟時間 -4秒"
           },
           {
-            "ja": "27500000 ゴールド",
-            "en": "27500000 Gold"
+            "de-DE": "27500000 Gold",
+            "en-US": "27500000 Gold",
+            "es-ES": "27500000 Gold",
+            "fr-FR": "27500000 Gold",
+            "id-ID": "27500000 Gold",
+            "ja-JP": "27500000 ゴールド",
+            "ko-KR": "27500000 Gold",
+            "pl-PL": "27500000 Gold",
+            "pt-BR": "27500000 Gold",
+            "ru-RU": "27500000 Gold",
+            "th-TH": "27500000 Gold",
+            "tr-TR": "27500000 Gold",
+            "uk-UA": "27500000 Gold",
+            "vi-VN": "27500000 Gold",
+            "zh-Hans": "27500000 Gold",
+            "zh-Hant": "27500000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "ステージボスチェスト自動開封時間 -4秒",
-            "en": "Auto-Open Stage Boss Chest Time -4s"
+            "de-DE": "Auto-Öffnen Stage-Boss-Truhe Zeit -4s",
+            "en-US": "Auto-Open Stage Boss Chest Time -4s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de etapa -4s",
+            "fr-FR": "Temps ouverture auto coffre boss d'étape -4s",
+            "id-ID": "Waktu auto-buka peti Boss Panggung -4d",
+            "ja-JP": "ステージボスチェスト自動開封時間 -4秒",
+            "ko-KR": "스테이지 보스 상자 자동 열기 시간 -4초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa etapu -4s",
+            "pt-BR": "Tempo abertura auto baú chefe de fase -4s",
+            "ru-RU": "Время автооткрытия сундука босса стадии -4с",
+            "th-TH": "เวลาเปิดกล่องบอสด่านอัตโนมัติ -4 วิ",
+            "tr-TR": "Aşama bossu sandığı otomatik açma süresi -4sn",
+            "uk-UA": "Час автовідкриття скрині боса етапу -4с",
+            "vi-VN": "Thời gian tự mở rương Boss Tầng -4s",
+            "zh-Hans": "关卡首领宝箱自动开启时间 -4秒",
+            "zh-Hant": "關卡首領寶箱自動開啟時間 -4秒"
           },
           {
-            "ja": "30000000 ゴールド",
-            "en": "30000000 Gold"
+            "de-DE": "30000000 Gold",
+            "en-US": "30000000 Gold",
+            "es-ES": "30000000 Gold",
+            "fr-FR": "30000000 Gold",
+            "id-ID": "30000000 Gold",
+            "ja-JP": "30000000 ゴールド",
+            "ko-KR": "30000000 Gold",
+            "pl-PL": "30000000 Gold",
+            "pt-BR": "30000000 Gold",
+            "ru-RU": "30000000 Gold",
+            "th-TH": "30000000 Gold",
+            "tr-TR": "30000000 Gold",
+            "uk-UA": "30000000 Gold",
+            "vi-VN": "30000000 Gold",
+            "zh-Hans": "30000000 Gold",
+            "zh-Hant": "30000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "ステージボスチェスト自動開封時間 -4秒",
-            "en": "Auto-Open Stage Boss Chest Time -4s"
+            "de-DE": "Auto-Öffnen Stage-Boss-Truhe Zeit -4s",
+            "en-US": "Auto-Open Stage Boss Chest Time -4s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de etapa -4s",
+            "fr-FR": "Temps ouverture auto coffre boss d'étape -4s",
+            "id-ID": "Waktu auto-buka peti Boss Panggung -4d",
+            "ja-JP": "ステージボスチェスト自動開封時間 -4秒",
+            "ko-KR": "스테이지 보스 상자 자동 열기 시간 -4초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa etapu -4s",
+            "pt-BR": "Tempo abertura auto baú chefe de fase -4s",
+            "ru-RU": "Время автооткрытия сундука босса стадии -4с",
+            "th-TH": "เวลาเปิดกล่องบอสด่านอัตโนมัติ -4 วิ",
+            "tr-TR": "Aşama bossu sandığı otomatik açma süresi -4sn",
+            "uk-UA": "Час автовідкриття скрині боса етапу -4с",
+            "vi-VN": "Thời gian tự mở rương Boss Tầng -4s",
+            "zh-Hans": "关卡首领宝箱自动开启时间 -4秒",
+            "zh-Hant": "關卡首領寶箱自動開啟時間 -4秒"
           },
           {
-            "ja": "32500000 ゴールド",
-            "en": "32500000 Gold"
+            "de-DE": "32500000 Gold",
+            "en-US": "32500000 Gold",
+            "es-ES": "32500000 Gold",
+            "fr-FR": "32500000 Gold",
+            "id-ID": "32500000 Gold",
+            "ja-JP": "32500000 ゴールド",
+            "ko-KR": "32500000 Gold",
+            "pl-PL": "32500000 Gold",
+            "pt-BR": "32500000 Gold",
+            "ru-RU": "32500000 Gold",
+            "th-TH": "32500000 Gold",
+            "tr-TR": "32500000 Gold",
+            "uk-UA": "32500000 Gold",
+            "vi-VN": "32500000 Gold",
+            "zh-Hans": "32500000 Gold",
+            "zh-Hant": "32500000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "ステージボスチェスト自動開封時間 -4秒",
-            "en": "Auto-Open Stage Boss Chest Time -4s"
+            "de-DE": "Auto-Öffnen Stage-Boss-Truhe Zeit -4s",
+            "en-US": "Auto-Open Stage Boss Chest Time -4s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de etapa -4s",
+            "fr-FR": "Temps ouverture auto coffre boss d'étape -4s",
+            "id-ID": "Waktu auto-buka peti Boss Panggung -4d",
+            "ja-JP": "ステージボスチェスト自動開封時間 -4秒",
+            "ko-KR": "스테이지 보스 상자 자동 열기 시간 -4초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa etapu -4s",
+            "pt-BR": "Tempo abertura auto baú chefe de fase -4s",
+            "ru-RU": "Время автооткрытия сундука босса стадии -4с",
+            "th-TH": "เวลาเปิดกล่องบอสด่านอัตโนมัติ -4 วิ",
+            "tr-TR": "Aşama bossu sandığı otomatik açma süresi -4sn",
+            "uk-UA": "Час автовідкриття скрині боса етапу -4с",
+            "vi-VN": "Thời gian tự mở rương Boss Tầng -4s",
+            "zh-Hans": "关卡首领宝箱自动开启时间 -4秒",
+            "zh-Hant": "關卡首領寶箱自動開啟時間 -4秒"
           },
           {
-            "ja": "35000000 ゴールド",
-            "en": "35000000 Gold"
+            "de-DE": "35000000 Gold",
+            "en-US": "35000000 Gold",
+            "es-ES": "35000000 Gold",
+            "fr-FR": "35000000 Gold",
+            "id-ID": "35000000 Gold",
+            "ja-JP": "35000000 ゴールド",
+            "ko-KR": "35000000 Gold",
+            "pl-PL": "35000000 Gold",
+            "pt-BR": "35000000 Gold",
+            "ru-RU": "35000000 Gold",
+            "th-TH": "35000000 Gold",
+            "tr-TR": "35000000 Gold",
+            "uk-UA": "35000000 Gold",
+            "vi-VN": "35000000 Gold",
+            "zh-Hans": "35000000 Gold",
+            "zh-Hant": "35000000 Gold"
           }
         ]
       ]

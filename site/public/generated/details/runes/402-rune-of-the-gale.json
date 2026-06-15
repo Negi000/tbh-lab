@@ -3,12 +3,40 @@
   "entityId": "402",
   "slug": "402-rune-of-the-gale",
   "title": {
-    "ja": "疾風のルーン",
-    "en": "Rune of the Gale"
+    "de-DE": "Sturmrune",
+    "en-US": "Rune of the Gale",
+    "es-ES": "Runa del Vendaval",
+    "fr-FR": "Rune de Rafale",
+    "id-ID": "Rune Angin Puyuh",
+    "ja-JP": "疾風のルーン",
+    "ko-KR": "질풍의 룬",
+    "pl-PL": "Runa Wichru",
+    "pt-BR": "Runa da Tempestade",
+    "ru-RU": "Руна шквала",
+    "th-TH": "รูนพายุ",
+    "tr-TR": "Bora Runu",
+    "uk-UA": "Руна шквалу",
+    "vi-VN": "Rune Cuồng Phong",
+    "zh-Hans": "疾风符文",
+    "zh-Hant": "疾風符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": "/generated/assets/game/runes/AllHeroMoveSpeed.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "全ヒーロー移動速度",
-        "en": "All Hero Movement Speed"
+        "de-DE": "Bewegungsgeschw. aller Helden",
+        "en-US": "All Hero Movement Speed",
+        "es-ES": "Vel. de mov. de todos los Héroes",
+        "fr-FR": "Vit. de mvt de tous les Héros",
+        "id-ID": "Kec. Gerak Semua Hero",
+        "ja-JP": "全ヒーロー移動速度",
+        "ko-KR": "전체 히어로 이동속도",
+        "pl-PL": "Szybk. ruchu wszystkich Bohaterów",
+        "pt-BR": "Vel. de mov. de todos os Heróis",
+        "ru-RU": "Скор. передв. всех героев",
+        "th-TH": "ความเร็วเดินฮีโร่ทั้งหมด",
+        "tr-TR": "Tüm Kahramanların Hareket Hızı",
+        "uk-UA": "Швид. передв. всіх героїв",
+        "vi-VN": "Tốc Di Chuyển Tất Cả Hero",
+        "zh-Hans": "全英雄移动速度",
+        "zh-Hant": "全英雄移動速度"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "盾のルーン",
-            "en": "Rune of the Shield"
+            "de-DE": "Schildrune",
+            "en-US": "Rune of the Shield",
+            "es-ES": "Runa del Escudo",
+            "fr-FR": "Rune du Bouclier",
+            "id-ID": "Rune Perisai",
+            "ja-JP": "盾のルーン",
+            "ko-KR": "방패의 룬",
+            "pl-PL": "Runa Tarczy",
+            "pt-BR": "Runa do Escudo",
+            "ru-RU": "Руна щита",
+            "th-TH": "รูนโล่",
+            "tr-TR": "Kalkan Runu",
+            "uk-UA": "Руна щита",
+            "vi-VN": "Rune Khiên",
+            "zh-Hans": "盾之符文",
+            "zh-Hant": "盾之符文"
           },
           "-"
         ]
@@ -89,34 +159,118 @@
         [
           1,
           {
-            "ja": "全ヒーロー移動速度30%増加",
-            "en": "30% Increased All Hero Movement Speed"
+            "de-DE": "30% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "30% Increased All Hero Movement Speed",
+            "es-ES": "30% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 30%",
+            "id-ID": "30% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度30%増加",
+            "ko-KR": "전체 히어로 이동속도 30% 증가",
+            "pl-PL": "30% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "30% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+30% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 30%",
+            "tr-TR": "%30 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+30% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 30% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高30%",
+            "zh-Hant": "全英雄移動速度提高30%"
           },
           {
-            "ja": "5000 ゴールド",
-            "en": "5000 Gold"
+            "de-DE": "5000 Gold",
+            "en-US": "5000 Gold",
+            "es-ES": "5000 Gold",
+            "fr-FR": "5000 Gold",
+            "id-ID": "5000 Gold",
+            "ja-JP": "5000 ゴールド",
+            "ko-KR": "5000 Gold",
+            "pl-PL": "5000 Gold",
+            "pt-BR": "5000 Gold",
+            "ru-RU": "5000 Gold",
+            "th-TH": "5000 Gold",
+            "tr-TR": "5000 Gold",
+            "uk-UA": "5000 Gold",
+            "vi-VN": "5000 Gold",
+            "zh-Hans": "5000 Gold",
+            "zh-Hant": "5000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "全ヒーロー移動速度30%増加",
-            "en": "30% Increased All Hero Movement Speed"
+            "de-DE": "30% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "30% Increased All Hero Movement Speed",
+            "es-ES": "30% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 30%",
+            "id-ID": "30% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度30%増加",
+            "ko-KR": "전체 히어로 이동속도 30% 증가",
+            "pl-PL": "30% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "30% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+30% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 30%",
+            "tr-TR": "%30 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+30% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 30% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高30%",
+            "zh-Hant": "全英雄移動速度提高30%"
           },
           {
-            "ja": "5500 ゴールド",
-            "en": "5500 Gold"
+            "de-DE": "5500 Gold",
+            "en-US": "5500 Gold",
+            "es-ES": "5500 Gold",
+            "fr-FR": "5500 Gold",
+            "id-ID": "5500 Gold",
+            "ja-JP": "5500 ゴールド",
+            "ko-KR": "5500 Gold",
+            "pl-PL": "5500 Gold",
+            "pt-BR": "5500 Gold",
+            "ru-RU": "5500 Gold",
+            "th-TH": "5500 Gold",
+            "tr-TR": "5500 Gold",
+            "uk-UA": "5500 Gold",
+            "vi-VN": "5500 Gold",
+            "zh-Hans": "5500 Gold",
+            "zh-Hant": "5500 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "全ヒーロー移動速度30%増加",
-            "en": "30% Increased All Hero Movement Speed"
+            "de-DE": "30% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "30% Increased All Hero Movement Speed",
+            "es-ES": "30% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 30%",
+            "id-ID": "30% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度30%増加",
+            "ko-KR": "전체 히어로 이동속도 30% 증가",
+            "pl-PL": "30% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "30% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+30% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 30%",
+            "tr-TR": "%30 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+30% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 30% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高30%",
+            "zh-Hant": "全英雄移動速度提高30%"
           },
           {
-            "ja": "6000 ゴールド",
-            "en": "6000 Gold"
+            "de-DE": "6000 Gold",
+            "en-US": "6000 Gold",
+            "es-ES": "6000 Gold",
+            "fr-FR": "6000 Gold",
+            "id-ID": "6000 Gold",
+            "ja-JP": "6000 ゴールド",
+            "ko-KR": "6000 Gold",
+            "pl-PL": "6000 Gold",
+            "pt-BR": "6000 Gold",
+            "ru-RU": "6000 Gold",
+            "th-TH": "6000 Gold",
+            "tr-TR": "6000 Gold",
+            "uk-UA": "6000 Gold",
+            "vi-VN": "6000 Gold",
+            "zh-Hans": "6000 Gold",
+            "zh-Hant": "6000 Gold"
           }
         ]
       ]

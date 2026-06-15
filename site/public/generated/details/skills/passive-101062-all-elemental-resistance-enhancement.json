@@ -3,12 +3,40 @@
   "entityId": "passive-101062",
   "slug": "passive-101062-all-elemental-resistance-enhancement",
   "title": {
-    "ja": "全属性耐性強化",
-    "en": "All Elemental Resistance Enhancement"
+    "de-DE": "Alle Elementarwiderstände-Verstärkung",
+    "en-US": "All Elemental Resistance Enhancement",
+    "es-ES": "Mejora de Toda la Resistencia Elemental",
+    "fr-FR": "Amélioration de Toutes les Résistances Élémentaires",
+    "id-ID": "Peningkatan Semua Resistansi Elemen",
+    "ja-JP": "全属性耐性強化",
+    "ko-KR": "모든 원소 저항 강화",
+    "pl-PL": "Wzmocnienie Wszystkich Odporności Żywiołowych",
+    "pt-BR": "Aprimoramento de Todas as Resistências Elementares",
+    "ru-RU": "Усиление всех стихийных сопротивлений",
+    "th-TH": "เสริมต้านทานธาตุทั้งหมด",
+    "tr-TR": "Tüm Elementel Direnç Geliştirme",
+    "uk-UA": "Посилення всіх стихійних опорів",
+    "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố",
+    "zh-Hans": "全元素抗性强化",
+    "zh-Hant": "全元素抗性強化"
   },
   "subtitle": {
-    "ja": "全属性耐性 +30%",
-    "en": "All Elemental Resistance +30%"
+    "de-DE": "Alle Elementarresistenzen +30%",
+    "en-US": "All Elemental Resistance +30%",
+    "es-ES": "Res. a Todos Elementos +30%",
+    "fr-FR": "Rés. Élémentaire Totale +30%",
+    "id-ID": "Res. Semua Elemen +30%",
+    "ja-JP": "全属性耐性 +30%",
+    "ko-KR": "모든 원소 저항 +30%",
+    "pl-PL": "Odp. na Wszystkie Żywioły +30%",
+    "pt-BR": "Res. a Todos Elementos +30%",
+    "ru-RU": "Сопр. всем стихиям +30%",
+    "th-TH": "ต้านธาตุทั้งหมด +30%",
+    "tr-TR": "Tüm Element Direnci +30%",
+    "uk-UA": "Оп. всім стихіям +30%",
+    "vi-VN": "Kháng Mọi Nguyên Tố +30%",
+    "zh-Hans": "全元素抗性 +30%",
+    "zh-Hant": "全元素抗性 +30%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "全属性耐性強化",
-        "en": "All Elemental Resistance Enhancement"
+        "de-DE": "Alle Elementarwiderstände-Verstärkung",
+        "en-US": "All Elemental Resistance Enhancement",
+        "es-ES": "Mejora de Toda la Resistencia Elemental",
+        "fr-FR": "Amélioration de Toutes les Résistances Élémentaires",
+        "id-ID": "Peningkatan Semua Resistansi Elemen",
+        "ja-JP": "全属性耐性強化",
+        "ko-KR": "모든 원소 저항 강화",
+        "pl-PL": "Wzmocnienie Wszystkich Odporności Żywiołowych",
+        "pt-BR": "Aprimoramento de Todas as Resistências Elementares",
+        "ru-RU": "Усиление всех стихийных сопротивлений",
+        "th-TH": "เสริมต้านทานธาตุทั้งหมด",
+        "tr-TR": "Tüm Elementel Direnç Geliştirme",
+        "uk-UA": "Посилення всіх стихійних опорів",
+        "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố",
+        "zh-Hans": "全元素抗性强化",
+        "zh-Hant": "全元素抗性強化"
       }
     },
     {

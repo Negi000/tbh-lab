@@ -3,12 +3,40 @@
   "entityId": "passive-601061",
   "slug": "passive-601061-health-enhancement",
   "title": {
-    "ja": "体力強化",
-    "en": "Health Enhancement"
+    "de-DE": "Lebensverstärkung",
+    "en-US": "Health Enhancement",
+    "es-ES": "Mejora de Salud",
+    "fr-FR": "Amélioration Santé",
+    "id-ID": "Peningkatan HP",
+    "ja-JP": "体力強化",
+    "ko-KR": "체력 강화",
+    "pl-PL": "Wzmocnienie Zdrowia",
+    "pt-BR": "Aprimoramento de Vida",
+    "ru-RU": "Усиление здоровья",
+    "th-TH": "เสริมHP",
+    "tr-TR": "Sağlık Güçlendirme",
+    "uk-UA": "Посилення здоров'я",
+    "vi-VN": "Tăng cường HP",
+    "zh-Hans": "生命强化",
+    "zh-Hant": "生命強化"
   },
   "subtitle": {
-    "ja": "最大HP +20",
-    "en": "Max HP +20"
+    "de-DE": "Max. LP +20",
+    "en-US": "Max HP +20",
+    "es-ES": "Vida Máx. +20",
+    "fr-FR": "PV Max. +20",
+    "id-ID": "HP Maks. +20",
+    "ja-JP": "最大HP +20",
+    "ko-KR": "최대 HP +20",
+    "pl-PL": "Maks. PZ +20",
+    "pt-BR": "Vida Máx. +20",
+    "ru-RU": "Макс. ОЗ +20",
+    "th-TH": "HP สูงสุด +20",
+    "tr-TR": "Maks. Can +20",
+    "uk-UA": "Макс. ОЗ +20",
+    "vi-VN": "HP Tối Đa +20",
+    "zh-Hans": "最大生命 +20",
+    "zh-Hant": "最大生命 +20"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "最大HP",
-        "en": "Max HP"
+        "de-DE": "Maximale HP",
+        "en-US": "Max HP",
+        "es-ES": "HP máximo",
+        "fr-FR": "PV max",
+        "id-ID": "HP Maksimum",
+        "ja-JP": "最大HP",
+        "ko-KR": "최대 HP",
+        "pl-PL": "Maksymalne HP",
+        "pt-BR": "HP Máximo",
+        "ru-RU": "Макс. HP",
+        "th-TH": "HP สูงสุด",
+        "tr-TR": "Maksimum HP",
+        "uk-UA": "Макс. HP",
+        "vi-VN": "HP tối đa",
+        "zh-Hans": "最大生命值",
+        "zh-Hant": "最大生命值"
       }
     },
     {

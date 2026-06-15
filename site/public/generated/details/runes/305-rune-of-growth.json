@@ -3,12 +3,40 @@
   "entityId": "305",
   "slug": "305-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": "/generated/assets/game/runes/AdditionalExpActBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "アクトボス経験値",
-        "en": "Exp From Act Boss"
+        "de-DE": "EP vom Akt-Boss",
+        "en-US": "Exp From Act Boss",
+        "es-ES": "Exp del jefe de acto",
+        "fr-FR": "Exp du boss d'acte",
+        "id-ID": "Exp dari Boss Babak",
+        "ja-JP": "アクトボス経験値",
+        "ko-KR": "액트 보스 처치 시 획득 경험치",
+        "pl-PL": "Exp od bossa aktu",
+        "pt-BR": "Exp do chefe de ato",
+        "ru-RU": "Опыт с босса акта",
+        "th-TH": "Exp จากบอส Act",
+        "tr-TR": "Bölüm Bossundan Tecrübe",
+        "uk-UA": "Досвід з боса акту",
+        "vi-VN": "KN từ Boss Hồi",
+        "zh-Hans": "幕首领经验",
+        "zh-Hant": "幕首領經驗"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ]
@@ -89,34 +159,118 @@
         [
           1,
           {
-            "ja": "アクトボス経験値 +100",
-            "en": "Exp From Act Boss Kill +100"
+            "de-DE": "EP vom Akt-Boss +100",
+            "en-US": "Exp From Act Boss Kill +100",
+            "es-ES": "Exp del jefe de acto +100",
+            "fr-FR": "Exp du boss d'acte +100",
+            "id-ID": "Exp dari Boss Babak +100",
+            "ja-JP": "アクトボス経験値 +100",
+            "ko-KR": "액트 보스 처치 시 경험치 +100",
+            "pl-PL": "Exp od bossa aktu +100",
+            "pt-BR": "Exp do chefe de ato +100",
+            "ru-RU": "Опыт с босса акта +100",
+            "th-TH": "Exp จากบอส Act +100",
+            "tr-TR": "Bölüm Bossundan Tecrübe +100",
+            "uk-UA": "Досвід з боса акту +100",
+            "vi-VN": "KN từ Boss Hồi +100",
+            "zh-Hans": "幕首领经验 +100",
+            "zh-Hant": "幕首領經驗 +100"
           },
           {
-            "ja": "6000 ゴールド",
-            "en": "6000 Gold"
+            "de-DE": "6000 Gold",
+            "en-US": "6000 Gold",
+            "es-ES": "6000 Gold",
+            "fr-FR": "6000 Gold",
+            "id-ID": "6000 Gold",
+            "ja-JP": "6000 ゴールド",
+            "ko-KR": "6000 Gold",
+            "pl-PL": "6000 Gold",
+            "pt-BR": "6000 Gold",
+            "ru-RU": "6000 Gold",
+            "th-TH": "6000 Gold",
+            "tr-TR": "6000 Gold",
+            "uk-UA": "6000 Gold",
+            "vi-VN": "6000 Gold",
+            "zh-Hans": "6000 Gold",
+            "zh-Hant": "6000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "アクトボス経験値 +100",
-            "en": "Exp From Act Boss Kill +100"
+            "de-DE": "EP vom Akt-Boss +100",
+            "en-US": "Exp From Act Boss Kill +100",
+            "es-ES": "Exp del jefe de acto +100",
+            "fr-FR": "Exp du boss d'acte +100",
+            "id-ID": "Exp dari Boss Babak +100",
+            "ja-JP": "アクトボス経験値 +100",
+            "ko-KR": "액트 보스 처치 시 경험치 +100",
+            "pl-PL": "Exp od bossa aktu +100",
+            "pt-BR": "Exp do chefe de ato +100",
+            "ru-RU": "Опыт с босса акта +100",
+            "th-TH": "Exp จากบอส Act +100",
+            "tr-TR": "Bölüm Bossundan Tecrübe +100",
+            "uk-UA": "Досвід з боса акту +100",
+            "vi-VN": "KN từ Boss Hồi +100",
+            "zh-Hans": "幕首领经验 +100",
+            "zh-Hant": "幕首領經驗 +100"
           },
           {
-            "ja": "7000 ゴールド",
-            "en": "7000 Gold"
+            "de-DE": "7000 Gold",
+            "en-US": "7000 Gold",
+            "es-ES": "7000 Gold",
+            "fr-FR": "7000 Gold",
+            "id-ID": "7000 Gold",
+            "ja-JP": "7000 ゴールド",
+            "ko-KR": "7000 Gold",
+            "pl-PL": "7000 Gold",
+            "pt-BR": "7000 Gold",
+            "ru-RU": "7000 Gold",
+            "th-TH": "7000 Gold",
+            "tr-TR": "7000 Gold",
+            "uk-UA": "7000 Gold",
+            "vi-VN": "7000 Gold",
+            "zh-Hans": "7000 Gold",
+            "zh-Hant": "7000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "アクトボス経験値 +100",
-            "en": "Exp From Act Boss Kill +100"
+            "de-DE": "EP vom Akt-Boss +100",
+            "en-US": "Exp From Act Boss Kill +100",
+            "es-ES": "Exp del jefe de acto +100",
+            "fr-FR": "Exp du boss d'acte +100",
+            "id-ID": "Exp dari Boss Babak +100",
+            "ja-JP": "アクトボス経験値 +100",
+            "ko-KR": "액트 보스 처치 시 경험치 +100",
+            "pl-PL": "Exp od bossa aktu +100",
+            "pt-BR": "Exp do chefe de ato +100",
+            "ru-RU": "Опыт с босса акта +100",
+            "th-TH": "Exp จากบอส Act +100",
+            "tr-TR": "Bölüm Bossundan Tecrübe +100",
+            "uk-UA": "Досвід з боса акту +100",
+            "vi-VN": "KN từ Boss Hồi +100",
+            "zh-Hans": "幕首领经验 +100",
+            "zh-Hant": "幕首領經驗 +100"
           },
           {
-            "ja": "8000 ゴールド",
-            "en": "8000 Gold"
+            "de-DE": "8000 Gold",
+            "en-US": "8000 Gold",
+            "es-ES": "8000 Gold",
+            "fr-FR": "8000 Gold",
+            "id-ID": "8000 Gold",
+            "ja-JP": "8000 ゴールド",
+            "ko-KR": "8000 Gold",
+            "pl-PL": "8000 Gold",
+            "pt-BR": "8000 Gold",
+            "ru-RU": "8000 Gold",
+            "th-TH": "8000 Gold",
+            "tr-TR": "8000 Gold",
+            "uk-UA": "8000 Gold",
+            "vi-VN": "8000 Gold",
+            "zh-Hans": "8000 Gold",
+            "zh-Hant": "8000 Gold"
           }
         ]
       ]

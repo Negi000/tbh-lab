@@ -3,12 +3,40 @@
   "entityId": "3151",
   "slug": "3151-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalExp.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "追加経験値",
-        "en": "Additional Exp"
+        "de-DE": "Zus. EP",
+        "en-US": "Additional Exp",
+        "es-ES": "Exp Adicional",
+        "fr-FR": "Exp Supplémentaire",
+        "id-ID": "Exp Tambahan",
+        "ja-JP": "追加経験値",
+        "ko-KR": "추가 경험치 지급",
+        "pl-PL": "Dodatkowe Exp",
+        "pt-BR": "Exp Adicional",
+        "ru-RU": "Доп. опыт",
+        "th-TH": "Exp เพิ่ม",
+        "tr-TR": "Ek Tecrübe",
+        "uk-UA": "Дод. досвід",
+        "vi-VN": "KN Thêm",
+        "zh-Hans": "额外经验",
+        "zh-Hant": "額外經驗"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "追加経験値 +5",
-            "en": "Additional Exp +5"
+            "de-DE": "Zus. EP +5",
+            "en-US": "Additional Exp +5",
+            "es-ES": "Exp Adicional +5",
+            "fr-FR": "Exp Supplémentaire +5",
+            "id-ID": "Exp Tambahan +5",
+            "ja-JP": "追加経験値 +5",
+            "ko-KR": "추가 경험치 +5",
+            "pl-PL": "Dodatkowe Exp +5",
+            "pt-BR": "Exp Adicional +5",
+            "ru-RU": "Доп. опыт +5",
+            "th-TH": "Exp เพิ่ม +5",
+            "tr-TR": "Ek Tecrübe +5",
+            "uk-UA": "Дод. досвід +5",
+            "vi-VN": "KN Thêm +5",
+            "zh-Hans": "额外经验 +5",
+            "zh-Hant": "額外經驗 +5"
           },
           {
-            "ja": "5000000 ゴールド",
-            "en": "5000000 Gold"
+            "de-DE": "5000000 Gold",
+            "en-US": "5000000 Gold",
+            "es-ES": "5000000 Gold",
+            "fr-FR": "5000000 Gold",
+            "id-ID": "5000000 Gold",
+            "ja-JP": "5000000 ゴールド",
+            "ko-KR": "5000000 Gold",
+            "pl-PL": "5000000 Gold",
+            "pt-BR": "5000000 Gold",
+            "ru-RU": "5000000 Gold",
+            "th-TH": "5000000 Gold",
+            "tr-TR": "5000000 Gold",
+            "uk-UA": "5000000 Gold",
+            "vi-VN": "5000000 Gold",
+            "zh-Hans": "5000000 Gold",
+            "zh-Hant": "5000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "追加経験値 +5",
-            "en": "Additional Exp +5"
+            "de-DE": "Zus. EP +5",
+            "en-US": "Additional Exp +5",
+            "es-ES": "Exp Adicional +5",
+            "fr-FR": "Exp Supplémentaire +5",
+            "id-ID": "Exp Tambahan +5",
+            "ja-JP": "追加経験値 +5",
+            "ko-KR": "추가 경험치 +5",
+            "pl-PL": "Dodatkowe Exp +5",
+            "pt-BR": "Exp Adicional +5",
+            "ru-RU": "Доп. опыт +5",
+            "th-TH": "Exp เพิ่ม +5",
+            "tr-TR": "Ek Tecrübe +5",
+            "uk-UA": "Дод. досвід +5",
+            "vi-VN": "KN Thêm +5",
+            "zh-Hans": "额外经验 +5",
+            "zh-Hant": "額外經驗 +5"
           },
           {
-            "ja": "5500000 ゴールド",
-            "en": "5500000 Gold"
+            "de-DE": "5500000 Gold",
+            "en-US": "5500000 Gold",
+            "es-ES": "5500000 Gold",
+            "fr-FR": "5500000 Gold",
+            "id-ID": "5500000 Gold",
+            "ja-JP": "5500000 ゴールド",
+            "ko-KR": "5500000 Gold",
+            "pl-PL": "5500000 Gold",
+            "pt-BR": "5500000 Gold",
+            "ru-RU": "5500000 Gold",
+            "th-TH": "5500000 Gold",
+            "tr-TR": "5500000 Gold",
+            "uk-UA": "5500000 Gold",
+            "vi-VN": "5500000 Gold",
+            "zh-Hans": "5500000 Gold",
+            "zh-Hant": "5500000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "追加経験値 +5",
-            "en": "Additional Exp +5"
+            "de-DE": "Zus. EP +5",
+            "en-US": "Additional Exp +5",
+            "es-ES": "Exp Adicional +5",
+            "fr-FR": "Exp Supplémentaire +5",
+            "id-ID": "Exp Tambahan +5",
+            "ja-JP": "追加経験値 +5",
+            "ko-KR": "추가 경험치 +5",
+            "pl-PL": "Dodatkowe Exp +5",
+            "pt-BR": "Exp Adicional +5",
+            "ru-RU": "Доп. опыт +5",
+            "th-TH": "Exp เพิ่ม +5",
+            "tr-TR": "Ek Tecrübe +5",
+            "uk-UA": "Дод. досвід +5",
+            "vi-VN": "KN Thêm +5",
+            "zh-Hans": "额外经验 +5",
+            "zh-Hant": "額外經驗 +5"
           },
           {
-            "ja": "6000000 ゴールド",
-            "en": "6000000 Gold"
+            "de-DE": "6000000 Gold",
+            "en-US": "6000000 Gold",
+            "es-ES": "6000000 Gold",
+            "fr-FR": "6000000 Gold",
+            "id-ID": "6000000 Gold",
+            "ja-JP": "6000000 ゴールド",
+            "ko-KR": "6000000 Gold",
+            "pl-PL": "6000000 Gold",
+            "pt-BR": "6000000 Gold",
+            "ru-RU": "6000000 Gold",
+            "th-TH": "6000000 Gold",
+            "tr-TR": "6000000 Gold",
+            "uk-UA": "6000000 Gold",
+            "vi-VN": "6000000 Gold",
+            "zh-Hans": "6000000 Gold",
+            "zh-Hant": "6000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "追加経験値 +5",
-            "en": "Additional Exp +5"
+            "de-DE": "Zus. EP +5",
+            "en-US": "Additional Exp +5",
+            "es-ES": "Exp Adicional +5",
+            "fr-FR": "Exp Supplémentaire +5",
+            "id-ID": "Exp Tambahan +5",
+            "ja-JP": "追加経験値 +5",
+            "ko-KR": "추가 경험치 +5",
+            "pl-PL": "Dodatkowe Exp +5",
+            "pt-BR": "Exp Adicional +5",
+            "ru-RU": "Доп. опыт +5",
+            "th-TH": "Exp เพิ่ม +5",
+            "tr-TR": "Ek Tecrübe +5",
+            "uk-UA": "Дод. досвід +5",
+            "vi-VN": "KN Thêm +5",
+            "zh-Hans": "额外经验 +5",
+            "zh-Hant": "額外經驗 +5"
           },
           {
-            "ja": "6500000 ゴールド",
-            "en": "6500000 Gold"
+            "de-DE": "6500000 Gold",
+            "en-US": "6500000 Gold",
+            "es-ES": "6500000 Gold",
+            "fr-FR": "6500000 Gold",
+            "id-ID": "6500000 Gold",
+            "ja-JP": "6500000 ゴールド",
+            "ko-KR": "6500000 Gold",
+            "pl-PL": "6500000 Gold",
+            "pt-BR": "6500000 Gold",
+            "ru-RU": "6500000 Gold",
+            "th-TH": "6500000 Gold",
+            "tr-TR": "6500000 Gold",
+            "uk-UA": "6500000 Gold",
+            "vi-VN": "6500000 Gold",
+            "zh-Hans": "6500000 Gold",
+            "zh-Hant": "6500000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "追加経験値 +5",
-            "en": "Additional Exp +5"
+            "de-DE": "Zus. EP +5",
+            "en-US": "Additional Exp +5",
+            "es-ES": "Exp Adicional +5",
+            "fr-FR": "Exp Supplémentaire +5",
+            "id-ID": "Exp Tambahan +5",
+            "ja-JP": "追加経験値 +5",
+            "ko-KR": "추가 경험치 +5",
+            "pl-PL": "Dodatkowe Exp +5",
+            "pt-BR": "Exp Adicional +5",
+            "ru-RU": "Доп. опыт +5",
+            "th-TH": "Exp เพิ่ม +5",
+            "tr-TR": "Ek Tecrübe +5",
+            "uk-UA": "Дод. досвід +5",
+            "vi-VN": "KN Thêm +5",
+            "zh-Hans": "额外经验 +5",
+            "zh-Hant": "額外經驗 +5"
           },
           {
-            "ja": "7000000 ゴールド",
-            "en": "7000000 Gold"
+            "de-DE": "7000000 Gold",
+            "en-US": "7000000 Gold",
+            "es-ES": "7000000 Gold",
+            "fr-FR": "7000000 Gold",
+            "id-ID": "7000000 Gold",
+            "ja-JP": "7000000 ゴールド",
+            "ko-KR": "7000000 Gold",
+            "pl-PL": "7000000 Gold",
+            "pt-BR": "7000000 Gold",
+            "ru-RU": "7000000 Gold",
+            "th-TH": "7000000 Gold",
+            "tr-TR": "7000000 Gold",
+            "uk-UA": "7000000 Gold",
+            "vi-VN": "7000000 Gold",
+            "zh-Hans": "7000000 Gold",
+            "zh-Hant": "7000000 Gold"
           }
         ]
       ]

@@ -5,8 +5,10 @@ import re
 import shutil
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
+from html import escape as xml_escape
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +21,45 @@ CATEGORIES_DIR = PUBLIC_GENERATED / "categories"
 DETAILS_DIR = PUBLIC_GENERATED / "details"
 LOCALES_DIR = PUBLIC_GENERATED / "locales"
 RUNE_LAYOUT_PATH = ROOT / "tools" / "rune_layout_reference.json"
+SITE_ORIGIN = "https://tbh.negi-lab.com"
+DEFAULT_LOCALE = "ja-JP"
+SUPPORTED_LOCALES = [
+    "de-DE",
+    "en-US",
+    "es-ES",
+    "fr-FR",
+    "id-ID",
+    "ja-JP",
+    "ko-KR",
+    "pl-PL",
+    "pt-BR",
+    "ru-RU",
+    "th-TH",
+    "tr-TR",
+    "uk-UA",
+    "vi-VN",
+    "zh-Hans",
+    "zh-Hant",
+]
+LOCALE_ALIASES = {"en": "en-US", "ja": "ja-JP"}
+LOCALE_LABELS = {
+    "de-DE": "Deutsch",
+    "en-US": "English",
+    "es-ES": "Español",
+    "fr-FR": "Français",
+    "id-ID": "Bahasa Indonesia",
+    "ja-JP": "日本語",
+    "ko-KR": "한국어",
+    "pl-PL": "Polski",
+    "pt-BR": "Português do Brasil",
+    "ru-RU": "Русский",
+    "th-TH": "ไทย",
+    "tr-TR": "Türkçe",
+    "uk-UA": "Українська",
+    "vi-VN": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文",
+}
 
 
 ORDERED_CATEGORY_IDS = [
@@ -1171,7 +1212,35 @@ def reset_output() -> None:
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(strip_locale_aliases(data), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def strip_locale_aliases(value: Any) -> Any:
+    if isinstance(value, list):
+        return [strip_locale_aliases(item) for item in value]
+    if not isinstance(value, dict):
+        return value
+    stripped = {key: strip_locale_aliases(item) for key, item in value.items()}
+    if "en-US" in stripped and stripped.get("en") == stripped.get("en-US"):
+        stripped.pop("en", None)
+    if "ja-JP" in stripped and stripped.get("ja") == stripped.get("ja-JP"):
+        stripped.pop("ja", None)
+    return stripped
+
+
+def is_localized_map(value: dict[str, Any]) -> bool:
+    return any(locale in value for locale in SUPPORTED_LOCALES) and ("en-US" in value or "ja-JP" in value)
+
+
+def localize_for_payload(value: Any, locale: str) -> Any:
+    if isinstance(value, list):
+        return [localize_for_payload(item, locale) for item in value]
+    if not isinstance(value, dict):
+        return value
+    if is_localized_map(value):
+        result = {locale: localized_lookup(value, locale)}
+        return {key: item for key, item in result.items() if item not in (None, "")}
+    return {key: localize_for_payload(item, locale) for key, item in value.items()}
 
 
 def load_json(path: Path) -> Any:
@@ -1250,16 +1319,40 @@ def compact(value: Any) -> str:
     return str(value)
 
 
+def locale_base(locale: str) -> str:
+    return locale.split("-", 1)[0]
+
+
+def localized_lookup(values: Any, locale: str, fallback: Any = None) -> str:
+    if isinstance(values, dict):
+        base = locale_base(locale)
+        matched = values.get(locale) or values.get(base)
+        if matched not in (None, ""):
+            return compact(matched)
+        for fallback_locale in ("en-US", "en", "ja-JP", "ja"):
+            matched = values.get(fallback_locale)
+            if matched not in (None, ""):
+                return compact(matched)
+    if isinstance(fallback, dict):
+        return localized_lookup(fallback, locale)
+    return compact(fallback)
+
+
 def localized(en: Any, ja: Any | None = None) -> dict[str, str]:
     en_text = compact(en)
-    return {"ja": compact(ja if ja is not None else en_text), "en": en_text}
+    ja_text = compact(ja if ja is not None else en_text)
+    result = {locale: (ja_text if locale_base(locale) == "ja" else en_text) for locale in SUPPORTED_LOCALES}
+    result["en"] = result["en-US"]
+    result["ja"] = result["ja-JP"]
+    return result
 
 
 def localized_value(value: Any, fallback: Any = None) -> dict[str, str]:
     if isinstance(value, dict):
-        en = value.get("en") or value.get("en-US") or fallback
-        ja = value.get("ja") or value.get("ja-JP") or en or fallback
-        return localized(en, ja)
+        result = {locale: localized_lookup(value, locale, fallback) for locale in SUPPORTED_LOCALES}
+        result["en"] = result["en-US"]
+        result["ja"] = result["ja-JP"]
+        return result
     return localized(value if value not in (None, "") else fallback)
 
 
@@ -1372,10 +1465,13 @@ def currency_name(currency_key: Any) -> dict[str, str]:
 
 
 def join_localized(parts: list[dict[str, str]], separator: str = " / ") -> dict[str, str]:
-    return {
-        "en": separator.join(part.get("en", "") for part in parts if part.get("en")),
-        "ja": separator.join(part.get("ja", "") for part in parts if part.get("ja")),
+    result = {
+        locale: separator.join(localized_lookup(part, locale) for part in parts if localized_lookup(part, locale))
+        for locale in SUPPORTED_LOCALES
     }
+    result["en"] = result["en-US"]
+    result["ja"] = result["ja-JP"]
+    return result
 
 
 def metric(label_key: str, value: Any) -> dict[str, str]:
@@ -1427,7 +1523,7 @@ def category_definition(category_id: str, count: int, icon: str | None, layout: 
         "icon": icon,
         "layout": layout,
         "navGroup": nav_group,
-        "listPath": f"/generated/categories/{category_id}.json",
+        "listPath": f"/generated/categories/{{locale}}/{category_id}.json",
     }
 
 
@@ -1482,15 +1578,15 @@ def write_category(
     columns: list[dict[str, str]],
     filters: list[dict[str, Any]] | None = None,
 ) -> None:
-    write_json(
-        CATEGORIES_DIR / f"{category['id']}.json",
-        {
-            "category": category,
-            "columns": columns,
-            "filters": filters or [],
-            "entries": entries,
-        },
-    )
+    payload = {
+        "category": category,
+        "columns": columns,
+        "filters": filters or [],
+        "entries": entries,
+    }
+    for locale in SUPPORTED_LOCALES:
+        write_json(CATEGORIES_DIR / locale / f"{category['id']}.json", localize_for_payload(payload, locale))
+    write_json(CATEGORIES_DIR / f"{category['id']}.json", localize_for_payload(payload, DEFAULT_LOCALE))
 
 
 def facet(entries: list[dict[str, Any]], field: str, label_key: str, limit: int = 40) -> dict[str, Any]:
@@ -1575,13 +1671,15 @@ def stat_line(stat: Any, mod: Any, min_value: Any, max_value: Any = None) -> dic
     percent = "%" in template.get("en", "") or "%" in template.get("ja", "") or "Percent" in str(stat)
     amount = stat_range(min_value, max_value, percent)
     result: dict[str, str] = {}
-    for locale in ("en", "ja"):
-        text = template.get(locale) or template.get("en") or humanize(stat)
+    for locale in SUPPORTED_LOCALES:
+        text = localized_lookup(template, locale, humanize(stat))
         if "{0}" in text:
             result[locale] = text.replace("{0}", amount)
         else:
             sign = "+" if str(amount).strip() and not str(amount).startswith("-") else ""
             result[locale] = f"{text} {sign}{amount}".strip()
+    result["en"] = result["en-US"]
+    result["ja"] = result["ja-JP"]
     return result
 
 
@@ -3429,7 +3527,7 @@ def build_manifest(categories: dict[str, dict[str, Any]], entry_map: dict[str, l
             {"labelKey": "home.stat.items", "value": item_count},
             {"labelKey": "home.stat.heroes", "value": len(entry_map["heroes"])},
             {"labelKey": "home.stat.stages", "value": len(entry_map["stages"])},
-            {"labelKey": "home.stat.languages", "value": 2},
+            {"labelKey": "home.stat.languages", "value": len(SUPPORTED_LOCALES)},
         ],
         "notes": [
             {"labelKey": "home.note.generated"},
@@ -3446,7 +3544,14 @@ def build_manifest(categories: dict[str, dict[str, Any]], entry_map: dict[str, l
     ]
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "locales": ["ja", "en"],
+        "locales": SUPPORTED_LOCALES,
+        "localeLabels": LOCALE_LABELS,
+        "defaultLocale": DEFAULT_LOCALE,
+        "seo": {
+            "siteUrl": SITE_ORIGIN,
+            "alternateStrategy": "query-route",
+            "defaultLocale": DEFAULT_LOCALE,
+        },
         "version": "local-export",
         "categories": [categories[key] for key in ORDERED_CATEGORY_IDS if key in categories],
         "navGroups": nav_groups,
@@ -3458,6 +3563,108 @@ def build_manifest(categories: dict[str, dict[str, Any]], entry_map: dict[str, l
             {"categoryId": "runes", "slug": entry_map["runes"][0]["slug"]},
         ],
     }
+
+
+TRANSLATIONS["ja"].update(
+    {
+        "support.title": "応援リンク",
+        "support.copy": "TBH Labの調査・生成・公開運用を支援できます。",
+        "support.kofi": "Ko-fiで支援",
+        "support.ofuse": "OFUSEで応援",
+        "support.adNotice": "広告は操作UIから離して表示されます。",
+        "seo.titleSuffix": "TaskbarHero攻略Wiki",
+        "seo.defaultDescription": "TBH LabはTaskbarHeroの装備、ルーン、ステージ、ドロップ、ペット、マーケット、セーブ連携を多言語で調べられる攻略データベースです。",
+    }
+)
+TRANSLATIONS["en"].update(
+    {
+        "support.title": "Support",
+        "support.copy": "Help keep TBH Lab research, generation, and hosting online.",
+        "support.kofi": "Support on Ko-fi",
+        "support.ofuse": "Support on OFUSE",
+        "support.adNotice": "Ads are kept away from core controls.",
+        "seo.titleSuffix": "TaskbarHero Wiki",
+        "seo.defaultDescription": "TBH Lab is a multilingual TaskbarHero database for gear, runes, stages, drops, pets, market prices, and local save-linked planning.",
+    }
+)
+
+
+def build_locale_dictionary(locale: str) -> dict[str, str]:
+    normalized = LOCALE_ALIASES.get(locale, locale)
+    values = dict(TRANSLATIONS["en"])
+    if locale_base(normalized) == "ja":
+        values.update(TRANSLATIONS["ja"])
+    values["locale.code"] = normalized
+    values["locale.label"] = LOCALE_LABELS.get(normalized, normalized)
+    return values
+
+
+def route_url(locale: str, route_path: str) -> str:
+    if route_path == "/":
+        return f"{SITE_ORIGIN}/?lang={quote(locale)}"
+    return f"{SITE_ORIGIN}/?lang={quote(locale)}&route={quote(route_path, safe='/-_.~?=&')}"
+
+
+def sitemap_chunk_xml(urls: list[str], lastmod: str) -> str:
+    rows = [
+        "  <url>",
+        f"    <loc>{xml_escape(url)}</loc>",
+        f"    <lastmod>{lastmod}</lastmod>",
+        "    <changefreq>daily</changefreq>",
+        "  </url>",
+    ]
+    return "\n".join(["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">", *rows, "</urlset>"])
+
+
+def write_static_seo_files(manifest: dict[str, Any], entry_map: dict[str, list[dict[str, Any]]]) -> None:
+    routes = ["/"]
+    routes.extend(f"/category/{category['id']}" for category in manifest["categories"])
+    for category_id, entries in entry_map.items():
+        routes.extend(f"/detail/{category_id}/{entry['slug']}" for entry in entries)
+
+    urls = [route_url(locale, route_path) for locale in SUPPORTED_LOCALES for route_path in routes]
+    lastmod = str(manifest.get("generatedAt", ""))[:10] or datetime.now(timezone.utc).date().isoformat()
+    chunk_size = 45000
+    sitemap_names = []
+    for index in range(0, len(urls), chunk_size):
+        name = f"sitemap-{len(sitemap_names) + 1}.xml"
+        sitemap_names.append(name)
+        chunk = urls[index : index + chunk_size]
+        xml = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"]
+        for url in chunk:
+            xml.extend(
+                [
+                    "  <url>",
+                    f"    <loc>{xml_escape(url)}</loc>",
+                    f"    <lastmod>{lastmod}</lastmod>",
+                    "    <changefreq>daily</changefreq>",
+                    "  </url>",
+                ]
+            )
+        xml.append("</urlset>")
+        (ROOT / "site" / "public" / name).write_text("\n".join(xml) + "\n", encoding="utf-8")
+
+    index_xml = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>", "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"]
+    for name in sitemap_names:
+        index_xml.extend(
+            [
+                "  <sitemap>",
+                f"    <loc>{SITE_ORIGIN}/{name}</loc>",
+                f"    <lastmod>{lastmod}</lastmod>",
+                "  </sitemap>",
+            ]
+        )
+    index_xml.append("</sitemapindex>")
+    (ROOT / "site" / "public" / "sitemap.xml").write_text("\n".join(index_xml) + "\n", encoding="utf-8")
+    (ROOT / "site" / "public" / "sitemap-index.xml").write_text("\n".join(index_xml) + "\n", encoding="utf-8")
+    (ROOT / "site" / "public" / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\nSitemap: https://tbh.negi-lab.com/sitemap.xml\n",
+        encoding="utf-8",
+    )
+    (ROOT / "site" / "public" / "ads.txt").write_text(
+        "google.com, pub-1835873052239386, DIRECT, f08c47fec0942fa0\n",
+        encoding="utf-8",
+    )
 
 
 def main() -> None:
@@ -3615,10 +3822,14 @@ def main() -> None:
     write_json(PUBLIC_GENERATED / "market-manifest.json", build_market_manifest(entry_map))
     write_json(PUBLIC_GENERATED / "save-schema.json", build_save_schema())
 
-    for locale, values in TRANSLATIONS.items():
-        write_json(LOCALES_DIR / f"{locale}.json", values)
+    for locale in SUPPORTED_LOCALES:
+        write_json(LOCALES_DIR / f"{locale}.json", build_locale_dictionary(locale))
+    for alias, locale in LOCALE_ALIASES.items():
+        write_json(LOCALES_DIR / f"{alias}.json", build_locale_dictionary(locale))
 
-    write_json(PUBLIC_GENERATED / "site-manifest.json", build_manifest(categories, entry_map, assets))
+    manifest = build_manifest(categories, entry_map, assets)
+    write_json(PUBLIC_GENERATED / "site-manifest.json", manifest)
+    write_static_seo_files(manifest, entry_map)
     print(f"Generated site payload in {PUBLIC_GENERATED}")
 
 

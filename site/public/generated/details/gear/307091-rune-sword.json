@@ -3,12 +3,40 @@
   "entityId": "307091",
   "slug": "307091-rune-sword",
   "title": {
-    "ja": "ルーンソード",
-    "en": "Rune Sword"
+    "de-DE": "Rune Sword",
+    "en-US": "Rune Sword",
+    "es-ES": "Rune Sword",
+    "fr-FR": "Rune Sword",
+    "id-ID": "Rune Sword",
+    "ja-JP": "ルーンソード",
+    "ko-KR": "Rune Sword",
+    "pl-PL": "Rune Sword",
+    "pt-BR": "Rune Sword",
+    "ru-RU": "Rune Sword",
+    "th-TH": "Rune Sword",
+    "tr-TR": "Rune Sword",
+    "uk-UA": "Rune Sword",
+    "vi-VN": "Rune Sword",
+    "zh-Hans": "Rune Sword",
+    "zh-Hant": "Rune Sword"
   },
   "subtitle": {
-    "en": "Celestial / Sword / Main Weapon / Lv. 40",
-    "ja": "セレスティアル / ソード / メイン武器 / Lv. 40"
+    "de-DE": "Himmlisch / Schwert / Hauptwaffe / Lv. 40",
+    "en-US": "Celestial / Sword / Main Weapon / Lv. 40",
+    "es-ES": "Celestial / Espada / Arma principal / Lv. 40",
+    "fr-FR": "Céleste / Épée / Arme principale / Lv. 40",
+    "id-ID": "Surgawi / Pedang / Senjata Utama / Lv. 40",
+    "ja-JP": "セレスティアル / ソード / メイン武器 / Lv. 40",
+    "ko-KR": "천상 / 검 / 주무기 / Lv. 40",
+    "pl-PL": "Niebiański / Miecz / Broń główna / Lv. 40",
+    "pt-BR": "Celestial / Espada / Arma Principal / Lv. 40",
+    "ru-RU": "Небесный / Меч / Основное оружие / Lv. 40",
+    "th-TH": "สวรรค์ / ดาบ / อาวุธหลัก / Lv. 40",
+    "tr-TR": "Göksel / Kılıç / Ana Silah / Lv. 40",
+    "uk-UA": "Небесний / Меч / Основна зброя / Lv. 40",
+    "vi-VN": "Thiên giới / Kiếm / Vũ khí chính / Lv. 40",
+    "zh-Hans": "天界 / 剑 / 主武器 / Lv. 40",
+    "zh-Hant": "天界 / 劍 / 主武器 / Lv. 40"
   },
   "icon": "/generated/assets/game/item/Equipment/SWORD_300009.png",
   "rarity": "CELESTIAL",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3114097",
-            "en": "DropKey 3114097"
+            "de-DE": "DropKey 3114097",
+            "en-US": "DropKey 3114097",
+            "es-ES": "DropKey 3114097",
+            "fr-FR": "DropKey 3114097",
+            "id-ID": "DropKey 3114097",
+            "ja-JP": "DropKey 3114097",
+            "ko-KR": "DropKey 3114097",
+            "pl-PL": "DropKey 3114097",
+            "pt-BR": "DropKey 3114097",
+            "ru-RU": "DropKey 3114097",
+            "th-TH": "DropKey 3114097",
+            "tr-TR": "DropKey 3114097",
+            "uk-UA": "DropKey 3114097",
+            "vi-VN": "DropKey 3114097",
+            "zh-Hans": "DropKey 3114097",
+            "zh-Hant": "DropKey 3114097"
           },
           "46.67%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

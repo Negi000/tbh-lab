@@ -3,12 +3,40 @@
   "entityId": "20301",
   "slug": "20301-arrow-rain",
   "title": {
-    "ja": "矢の雨",
-    "en": "Arrow Rain"
+    "de-DE": "Pfeilregen",
+    "en-US": "Arrow Rain",
+    "es-ES": "Lluvia de Flechas",
+    "fr-FR": "Pluie de Flèches",
+    "id-ID": "Hujan Panah",
+    "ja-JP": "矢の雨",
+    "ko-KR": "화살비",
+    "pl-PL": "Deszcz Strzał",
+    "pt-BR": "Chuva de Flechas",
+    "ru-RU": "Дождь стрел",
+    "th-TH": "ฝนธนู",
+    "tr-TR": "Ok Yağmuru",
+    "uk-UA": "Дощ стріл",
+    "vi-VN": "Mưa Tên",
+    "zh-Hans": "箭雨",
+    "zh-Hant": "箭雨"
   },
   "subtitle": {
-    "en": "Skill / Cooldown",
-    "ja": "スキル / クールダウン"
+    "de-DE": "Skill / Cooldown",
+    "en-US": "Skill / Cooldown",
+    "es-ES": "Skill / Cooldown",
+    "fr-FR": "Skill / Cooldown",
+    "id-ID": "Skill / Cooldown",
+    "ja-JP": "スキル / クールダウン",
+    "ko-KR": "Skill / Cooldown",
+    "pl-PL": "Skill / Cooldown",
+    "pt-BR": "Skill / Cooldown",
+    "ru-RU": "Skill / Cooldown",
+    "th-TH": "Skill / Cooldown",
+    "tr-TR": "Skill / Cooldown",
+    "uk-UA": "Skill / Cooldown",
+    "vi-VN": "Skill / Cooldown",
+    "zh-Hans": "Skill / Cooldown",
+    "zh-Hant": "Skill / Cooldown"
   },
   "icon": "/generated/assets/game/skills/Skill_20301.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "クールダウン",
-        "en": "Cooldown"
+        "de-DE": "Cooldown",
+        "en-US": "Cooldown",
+        "es-ES": "Cooldown",
+        "fr-FR": "Cooldown",
+        "id-ID": "Cooldown",
+        "ja-JP": "クールダウン",
+        "ko-KR": "Cooldown",
+        "pl-PL": "Cooldown",
+        "pt-BR": "Cooldown",
+        "ru-RU": "Cooldown",
+        "th-TH": "Cooldown",
+        "tr-TR": "Cooldown",
+        "uk-UA": "Cooldown",
+        "vi-VN": "Cooldown",
+        "zh-Hans": "Cooldown",
+        "zh-Hant": "Cooldown"
       }
     },
     {

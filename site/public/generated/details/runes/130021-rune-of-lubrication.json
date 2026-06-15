@@ -3,12 +3,40 @@
   "entityId": "130021",
   "slug": "130021-rune-of-lubrication",
   "title": {
-    "ja": "潤滑のルーン",
-    "en": "Rune of Lubrication"
+    "de-DE": "Schmierungsrune",
+    "en-US": "Rune of Lubrication",
+    "es-ES": "Runa de Lubricación",
+    "fr-FR": "Rune de Lubrification",
+    "id-ID": "Rune Pelumas",
+    "ja-JP": "潤滑のルーン",
+    "ko-KR": "윤활의 룬",
+    "pl-PL": "Runa Smarowania",
+    "pt-BR": "Runa de Lubrificação",
+    "ru-RU": "Руна смазки",
+    "th-TH": "รูนหล่อลื่น",
+    "tr-TR": "Yağlama Runu",
+    "uk-UA": "Руна змащування",
+    "vi-VN": "Rune Bôi Trơn",
+    "zh-Hans": "润滑符文",
+    "zh-Hant": "潤滑符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": null,
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "潤滑のルーン",
-        "en": "Rune of Lubrication"
+        "de-DE": "Schmierungsrune",
+        "en-US": "Rune of Lubrication",
+        "es-ES": "Runa de Lubricación",
+        "fr-FR": "Rune de Lubrification",
+        "id-ID": "Rune Pelumas",
+        "ja-JP": "潤滑のルーン",
+        "ko-KR": "윤활의 룬",
+        "pl-PL": "Runa Smarowania",
+        "pt-BR": "Runa de Lubrificação",
+        "ru-RU": "Руна смазки",
+        "th-TH": "รูนหล่อลื่น",
+        "tr-TR": "Yağlama Runu",
+        "uk-UA": "Руна змащування",
+        "vi-VN": "Rune Bôi Trơn",
+        "zh-Hans": "润滑符文",
+        "zh-Hant": "潤滑符文"
       }
     },
     {
@@ -77,34 +119,118 @@
         [
           1,
           {
-            "ja": "通常チェスト自動開封時間 -3秒",
-            "en": "Auto-Open Normal Chest Time -3s"
+            "de-DE": "Auto-Öffnen normaler Truhe Zeit -3s",
+            "en-US": "Auto-Open Normal Chest Time -3s",
+            "es-ES": "Tiempo apertura auto. cofre común -3s",
+            "fr-FR": "Temps ouverture auto coffre commun -3s",
+            "id-ID": "Waktu auto-buka peti biasa -3d",
+            "ja-JP": "通常チェスト自動開封時間 -3秒",
+            "ko-KR": "일반 상자 자동 열기 시간 -3초",
+            "pl-PL": "Czas auto otwierania zwykłej skrzyni -3s",
+            "pt-BR": "Tempo abertura auto baú comum -3s",
+            "ru-RU": "Время автооткрытия обычного сундука -3с",
+            "th-TH": "เวลาเปิดกล่องธรรมดาอัตโนมัติ -3 วิ",
+            "tr-TR": "Normal sandık otomatik açma süresi -3sn",
+            "uk-UA": "Час автовідкриття звичайної скрині -3с",
+            "vi-VN": "Thời gian tự mở rương thường -3s",
+            "zh-Hans": "普通宝箱自动开启时间 -3秒",
+            "zh-Hant": "普通寶箱自動開啟時間 -3秒"
           },
           {
-            "ja": "5000 ゴールド",
-            "en": "5000 Gold"
+            "de-DE": "5000 Gold",
+            "en-US": "5000 Gold",
+            "es-ES": "5000 Gold",
+            "fr-FR": "5000 Gold",
+            "id-ID": "5000 Gold",
+            "ja-JP": "5000 ゴールド",
+            "ko-KR": "5000 Gold",
+            "pl-PL": "5000 Gold",
+            "pt-BR": "5000 Gold",
+            "ru-RU": "5000 Gold",
+            "th-TH": "5000 Gold",
+            "tr-TR": "5000 Gold",
+            "uk-UA": "5000 Gold",
+            "vi-VN": "5000 Gold",
+            "zh-Hans": "5000 Gold",
+            "zh-Hant": "5000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "通常チェスト自動開封時間 -3秒",
-            "en": "Auto-Open Normal Chest Time -3s"
+            "de-DE": "Auto-Öffnen normaler Truhe Zeit -3s",
+            "en-US": "Auto-Open Normal Chest Time -3s",
+            "es-ES": "Tiempo apertura auto. cofre común -3s",
+            "fr-FR": "Temps ouverture auto coffre commun -3s",
+            "id-ID": "Waktu auto-buka peti biasa -3d",
+            "ja-JP": "通常チェスト自動開封時間 -3秒",
+            "ko-KR": "일반 상자 자동 열기 시간 -3초",
+            "pl-PL": "Czas auto otwierania zwykłej skrzyni -3s",
+            "pt-BR": "Tempo abertura auto baú comum -3s",
+            "ru-RU": "Время автооткрытия обычного сундука -3с",
+            "th-TH": "เวลาเปิดกล่องธรรมดาอัตโนมัติ -3 วิ",
+            "tr-TR": "Normal sandık otomatik açma süresi -3sn",
+            "uk-UA": "Час автовідкриття звичайної скрині -3с",
+            "vi-VN": "Thời gian tự mở rương thường -3s",
+            "zh-Hans": "普通宝箱自动开启时间 -3秒",
+            "zh-Hant": "普通寶箱自動開啟時間 -3秒"
           },
           {
-            "ja": "10000 ゴールド",
-            "en": "10000 Gold"
+            "de-DE": "10000 Gold",
+            "en-US": "10000 Gold",
+            "es-ES": "10000 Gold",
+            "fr-FR": "10000 Gold",
+            "id-ID": "10000 Gold",
+            "ja-JP": "10000 ゴールド",
+            "ko-KR": "10000 Gold",
+            "pl-PL": "10000 Gold",
+            "pt-BR": "10000 Gold",
+            "ru-RU": "10000 Gold",
+            "th-TH": "10000 Gold",
+            "tr-TR": "10000 Gold",
+            "uk-UA": "10000 Gold",
+            "vi-VN": "10000 Gold",
+            "zh-Hans": "10000 Gold",
+            "zh-Hant": "10000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "通常チェスト自動開封時間 -3秒",
-            "en": "Auto-Open Normal Chest Time -3s"
+            "de-DE": "Auto-Öffnen normaler Truhe Zeit -3s",
+            "en-US": "Auto-Open Normal Chest Time -3s",
+            "es-ES": "Tiempo apertura auto. cofre común -3s",
+            "fr-FR": "Temps ouverture auto coffre commun -3s",
+            "id-ID": "Waktu auto-buka peti biasa -3d",
+            "ja-JP": "通常チェスト自動開封時間 -3秒",
+            "ko-KR": "일반 상자 자동 열기 시간 -3초",
+            "pl-PL": "Czas auto otwierania zwykłej skrzyni -3s",
+            "pt-BR": "Tempo abertura auto baú comum -3s",
+            "ru-RU": "Время автооткрытия обычного сундука -3с",
+            "th-TH": "เวลาเปิดกล่องธรรมดาอัตโนมัติ -3 วิ",
+            "tr-TR": "Normal sandık otomatik açma süresi -3sn",
+            "uk-UA": "Час автовідкриття звичайної скрині -3с",
+            "vi-VN": "Thời gian tự mở rương thường -3s",
+            "zh-Hans": "普通宝箱自动开启时间 -3秒",
+            "zh-Hant": "普通寶箱自動開啟時間 -3秒"
           },
           {
-            "ja": "15000 ゴールド",
-            "en": "15000 Gold"
+            "de-DE": "15000 Gold",
+            "en-US": "15000 Gold",
+            "es-ES": "15000 Gold",
+            "fr-FR": "15000 Gold",
+            "id-ID": "15000 Gold",
+            "ja-JP": "15000 ゴールド",
+            "ko-KR": "15000 Gold",
+            "pl-PL": "15000 Gold",
+            "pt-BR": "15000 Gold",
+            "ru-RU": "15000 Gold",
+            "th-TH": "15000 Gold",
+            "tr-TR": "15000 Gold",
+            "uk-UA": "15000 Gold",
+            "vi-VN": "15000 Gold",
+            "zh-Hans": "15000 Gold",
+            "zh-Hant": "15000 Gold"
           }
         ]
       ]

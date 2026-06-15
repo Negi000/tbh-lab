@@ -3,12 +3,40 @@
   "entityId": "1903",
   "slug": "1903-rune-of-expansion",
   "title": {
-    "ja": "拡張のルーン",
-    "en": "Rune of Expansion"
+    "de-DE": "Expansionsrune",
+    "en-US": "Rune of Expansion",
+    "es-ES": "Runa de Expansión",
+    "fr-FR": "Rune d'Expansion",
+    "id-ID": "Rune Perluasan",
+    "ja-JP": "拡張のルーン",
+    "ko-KR": "확장의 룬",
+    "pl-PL": "Runa Ekspansji",
+    "pt-BR": "Runa de Expansão",
+    "ru-RU": "Руна расширения",
+    "th-TH": "รูนขยาย",
+    "tr-TR": "Genişleme Runu",
+    "uk-UA": "Руна розширення",
+    "vi-VN": "Rune Mở Rộng",
+    "zh-Hans": "扩张符文",
+    "zh-Hant": "擴張符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": "/generated/assets/game/runes/MaxInventorySlot.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "インベントリ枠数",
-        "en": "Inventory Slot Count"
+        "de-DE": "Inventarplätze",
+        "en-US": "Inventory Slot Count",
+        "es-ES": "Cant. de ranuras de inv.",
+        "fr-FR": "Emplacements d'inv.",
+        "id-ID": "Jml. Slot Inventaris",
+        "ja-JP": "インベントリ枠数",
+        "ko-KR": "인벤토리 슬롯 개수 증가",
+        "pl-PL": "Sloty ekwipunku",
+        "pt-BR": "Espaços de inventário",
+        "ru-RU": "Слоты инвентаря",
+        "th-TH": "ช่องกระเป๋า",
+        "tr-TR": "Envanter Yuva Sayısı",
+        "uk-UA": "Слоти інвентарю",
+        "vi-VN": "Số Ô Túi Đồ",
+        "zh-Hans": "背包格子数",
+        "zh-Hant": "背包格子數"
       }
     },
     {
@@ -60,34 +102,118 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "拡張のルーン",
-            "en": "Rune of Expansion"
+            "de-DE": "Expansionsrune",
+            "en-US": "Rune of Expansion",
+            "es-ES": "Runa de Expansión",
+            "fr-FR": "Rune d'Expansion",
+            "id-ID": "Rune Perluasan",
+            "ja-JP": "拡張のルーン",
+            "ko-KR": "확장의 룬",
+            "pl-PL": "Runa Ekspansji",
+            "pt-BR": "Runa de Expansão",
+            "ru-RU": "Руна расширения",
+            "th-TH": "รูนขยาย",
+            "tr-TR": "Genişleme Runu",
+            "uk-UA": "Руна розширення",
+            "vi-VN": "Rune Mở Rộng",
+            "zh-Hans": "扩张符文",
+            "zh-Hant": "擴張符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "潤滑のルーン",
-            "en": "Rune of Lubrication"
+            "de-DE": "Schmierungsrune",
+            "en-US": "Rune of Lubrication",
+            "es-ES": "Runa de Lubricación",
+            "fr-FR": "Rune de Lubrification",
+            "id-ID": "Rune Pelumas",
+            "ja-JP": "潤滑のルーン",
+            "ko-KR": "윤활의 룬",
+            "pl-PL": "Runa Smarowania",
+            "pt-BR": "Runa de Lubrificação",
+            "ru-RU": "Руна смазки",
+            "th-TH": "รูนหล่อลื่น",
+            "tr-TR": "Yağlama Runu",
+            "uk-UA": "Руна змащування",
+            "vi-VN": "Rune Bôi Trơn",
+            "zh-Hans": "润滑符文",
+            "zh-Hant": "潤滑符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "潤滑のルーン",
-            "en": "Rune of Lubrication"
+            "de-DE": "Schmierungsrune",
+            "en-US": "Rune of Lubrication",
+            "es-ES": "Runa de Lubricación",
+            "fr-FR": "Rune de Lubrification",
+            "id-ID": "Rune Pelumas",
+            "ja-JP": "潤滑のルーン",
+            "ko-KR": "윤활의 룬",
+            "pl-PL": "Runa Smarowania",
+            "pt-BR": "Runa de Lubrificação",
+            "ru-RU": "Руна смазки",
+            "th-TH": "รูนหล่อลื่น",
+            "tr-TR": "Yağlama Runu",
+            "uk-UA": "Руна змащування",
+            "vi-VN": "Rune Bôi Trơn",
+            "zh-Hans": "润滑符文",
+            "zh-Hant": "潤滑符文"
           },
           "-"
         ]
@@ -111,34 +237,118 @@
         [
           1,
           {
-            "ja": "インベントリ枠数 +1",
-            "en": "Inventory Slot Count +1"
+            "de-DE": "Inventarplätze +1",
+            "en-US": "Inventory Slot Count +1",
+            "es-ES": "Cant. de ranuras de inv. +1",
+            "fr-FR": "Emplacements d'inv. +1",
+            "id-ID": "Jml. Slot Inventaris +1",
+            "ja-JP": "インベントリ枠数 +1",
+            "ko-KR": "인벤토리 슬롯 개수 +1",
+            "pl-PL": "Sloty ekwipunku +1",
+            "pt-BR": "Espaços de inventário +1",
+            "ru-RU": "Слоты инвентаря +1",
+            "th-TH": "ช่องกระเป๋า +1",
+            "tr-TR": "Envanter Yuva Sayısı +1",
+            "uk-UA": "Слоти інвентарю +1",
+            "vi-VN": "Số Ô Túi Đồ +1",
+            "zh-Hans": "背包格子数 +1",
+            "zh-Hant": "背包格子數 +1"
           },
           {
-            "ja": "1690000 ゴールド",
-            "en": "1690000 Gold"
+            "de-DE": "1690000 Gold",
+            "en-US": "1690000 Gold",
+            "es-ES": "1690000 Gold",
+            "fr-FR": "1690000 Gold",
+            "id-ID": "1690000 Gold",
+            "ja-JP": "1690000 ゴールド",
+            "ko-KR": "1690000 Gold",
+            "pl-PL": "1690000 Gold",
+            "pt-BR": "1690000 Gold",
+            "ru-RU": "1690000 Gold",
+            "th-TH": "1690000 Gold",
+            "tr-TR": "1690000 Gold",
+            "uk-UA": "1690000 Gold",
+            "vi-VN": "1690000 Gold",
+            "zh-Hans": "1690000 Gold",
+            "zh-Hant": "1690000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "インベントリ枠数 +1",
-            "en": "Inventory Slot Count +1"
+            "de-DE": "Inventarplätze +1",
+            "en-US": "Inventory Slot Count +1",
+            "es-ES": "Cant. de ranuras de inv. +1",
+            "fr-FR": "Emplacements d'inv. +1",
+            "id-ID": "Jml. Slot Inventaris +1",
+            "ja-JP": "インベントリ枠数 +1",
+            "ko-KR": "인벤토리 슬롯 개수 +1",
+            "pl-PL": "Sloty ekwipunku +1",
+            "pt-BR": "Espaços de inventário +1",
+            "ru-RU": "Слоты инвентаря +1",
+            "th-TH": "ช่องกระเป๋า +1",
+            "tr-TR": "Envanter Yuva Sayısı +1",
+            "uk-UA": "Слоти інвентарю +1",
+            "vi-VN": "Số Ô Túi Đồ +1",
+            "zh-Hans": "背包格子数 +1",
+            "zh-Hant": "背包格子數 +1"
           },
           {
-            "ja": "2030000 ゴールド",
-            "en": "2030000 Gold"
+            "de-DE": "2030000 Gold",
+            "en-US": "2030000 Gold",
+            "es-ES": "2030000 Gold",
+            "fr-FR": "2030000 Gold",
+            "id-ID": "2030000 Gold",
+            "ja-JP": "2030000 ゴールド",
+            "ko-KR": "2030000 Gold",
+            "pl-PL": "2030000 Gold",
+            "pt-BR": "2030000 Gold",
+            "ru-RU": "2030000 Gold",
+            "th-TH": "2030000 Gold",
+            "tr-TR": "2030000 Gold",
+            "uk-UA": "2030000 Gold",
+            "vi-VN": "2030000 Gold",
+            "zh-Hans": "2030000 Gold",
+            "zh-Hant": "2030000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "インベントリ枠数 +1",
-            "en": "Inventory Slot Count +1"
+            "de-DE": "Inventarplätze +1",
+            "en-US": "Inventory Slot Count +1",
+            "es-ES": "Cant. de ranuras de inv. +1",
+            "fr-FR": "Emplacements d'inv. +1",
+            "id-ID": "Jml. Slot Inventaris +1",
+            "ja-JP": "インベントリ枠数 +1",
+            "ko-KR": "인벤토리 슬롯 개수 +1",
+            "pl-PL": "Sloty ekwipunku +1",
+            "pt-BR": "Espaços de inventário +1",
+            "ru-RU": "Слоты инвентаря +1",
+            "th-TH": "ช่องกระเป๋า +1",
+            "tr-TR": "Envanter Yuva Sayısı +1",
+            "uk-UA": "Слоти інвентарю +1",
+            "vi-VN": "Số Ô Túi Đồ +1",
+            "zh-Hans": "背包格子数 +1",
+            "zh-Hant": "背包格子數 +1"
           },
           {
-            "ja": "2370000 ゴールド",
-            "en": "2370000 Gold"
+            "de-DE": "2370000 Gold",
+            "en-US": "2370000 Gold",
+            "es-ES": "2370000 Gold",
+            "fr-FR": "2370000 Gold",
+            "id-ID": "2370000 Gold",
+            "ja-JP": "2370000 ゴールド",
+            "ko-KR": "2370000 Gold",
+            "pl-PL": "2370000 Gold",
+            "pt-BR": "2370000 Gold",
+            "ru-RU": "2370000 Gold",
+            "th-TH": "2370000 Gold",
+            "tr-TR": "2370000 Gold",
+            "uk-UA": "2370000 Gold",
+            "vi-VN": "2370000 Gold",
+            "zh-Hans": "2370000 Gold",
+            "zh-Hant": "2370000 Gold"
           }
         ]
       ]

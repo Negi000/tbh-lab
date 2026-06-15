@@ -3,12 +3,40 @@
   "entityId": "507091",
   "slug": "507091-rune-helmet",
   "title": {
-    "ja": "ルーンヘルメット",
-    "en": "Rune Helmet"
+    "de-DE": "Rune Helmet",
+    "en-US": "Rune Helmet",
+    "es-ES": "Rune Helmet",
+    "fr-FR": "Rune Helmet",
+    "id-ID": "Rune Helmet",
+    "ja-JP": "ルーンヘルメット",
+    "ko-KR": "Rune Helmet",
+    "pl-PL": "Rune Helmet",
+    "pt-BR": "Rune Helmet",
+    "ru-RU": "Rune Helmet",
+    "th-TH": "Rune Helmet",
+    "tr-TR": "Rune Helmet",
+    "uk-UA": "Rune Helmet",
+    "vi-VN": "Rune Helmet",
+    "zh-Hans": "Rune Helmet",
+    "zh-Hant": "Rune Helmet"
   },
   "subtitle": {
-    "en": "Celestial / Helmet / HELMET / Lv. 40",
-    "ja": "セレスティアル / ヘルメット / HELMET / Lv. 40"
+    "de-DE": "Himmlisch / Helm / HELMET / Lv. 40",
+    "en-US": "Celestial / Helmet / HELMET / Lv. 40",
+    "es-ES": "Celestial / Casco / HELMET / Lv. 40",
+    "fr-FR": "Céleste / Casque / HELMET / Lv. 40",
+    "id-ID": "Surgawi / Helm / HELMET / Lv. 40",
+    "ja-JP": "セレスティアル / ヘルメット / HELMET / Lv. 40",
+    "ko-KR": "천상 / 투구 / HELMET / Lv. 40",
+    "pl-PL": "Niebiański / Hełm / HELMET / Lv. 40",
+    "pt-BR": "Celestial / Capacete / HELMET / Lv. 40",
+    "ru-RU": "Небесный / Шлем / HELMET / Lv. 40",
+    "th-TH": "สวรรค์ / หมวก / HELMET / Lv. 40",
+    "tr-TR": "Göksel / Miğfer / HELMET / Lv. 40",
+    "uk-UA": "Небесний / Шолом / HELMET / Lv. 40",
+    "vi-VN": "Thiên giới / Mũ / HELMET / Lv. 40",
+    "zh-Hans": "天界 / 头盔 / HELMET / Lv. 40",
+    "zh-Hant": "天界 / 頭盔 / HELMET / Lv. 40"
   },
   "icon": "/generated/assets/game/item/Equipment/HELMET_500009.png",
   "rarity": "CELESTIAL",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3114097",
-            "en": "DropKey 3114097"
+            "de-DE": "DropKey 3114097",
+            "en-US": "DropKey 3114097",
+            "es-ES": "DropKey 3114097",
+            "fr-FR": "DropKey 3114097",
+            "id-ID": "DropKey 3114097",
+            "ja-JP": "DropKey 3114097",
+            "ko-KR": "DropKey 3114097",
+            "pl-PL": "DropKey 3114097",
+            "pt-BR": "DropKey 3114097",
+            "ru-RU": "DropKey 3114097",
+            "th-TH": "DropKey 3114097",
+            "tr-TR": "DropKey 3114097",
+            "uk-UA": "DropKey 3114097",
+            "vi-VN": "DropKey 3114097",
+            "zh-Hans": "DropKey 3114097",
+            "zh-Hant": "DropKey 3114097"
           },
           "46.67%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

@@ -3,12 +3,40 @@
   "entityId": "30201",
   "slug": "30201-ice-orb",
   "title": {
-    "ja": "アイスオーブ",
-    "en": "Ice Orb"
+    "de-DE": "Eiskugel",
+    "en-US": "Ice Orb",
+    "es-ES": "Orbe de Hielo",
+    "fr-FR": "Orbe de Glace",
+    "id-ID": "Bola Es",
+    "ja-JP": "アイスオーブ",
+    "ko-KR": "아이스 오브",
+    "pl-PL": "Lodowa Kula",
+    "pt-BR": "Orbe de Gelo",
+    "ru-RU": "Ледяная сфера",
+    "th-TH": "ลูกน้ำแข็ง",
+    "tr-TR": "Buz Küresi",
+    "uk-UA": "Крижана сфера",
+    "vi-VN": "Cầu Băng",
+    "zh-Hans": "冰球术",
+    "zh-Hant": "冰球術"
   },
   "subtitle": {
-    "en": "Skill / Cooldown",
-    "ja": "スキル / クールダウン"
+    "de-DE": "Skill / Cooldown",
+    "en-US": "Skill / Cooldown",
+    "es-ES": "Skill / Cooldown",
+    "fr-FR": "Skill / Cooldown",
+    "id-ID": "Skill / Cooldown",
+    "ja-JP": "スキル / クールダウン",
+    "ko-KR": "Skill / Cooldown",
+    "pl-PL": "Skill / Cooldown",
+    "pt-BR": "Skill / Cooldown",
+    "ru-RU": "Skill / Cooldown",
+    "th-TH": "Skill / Cooldown",
+    "tr-TR": "Skill / Cooldown",
+    "uk-UA": "Skill / Cooldown",
+    "vi-VN": "Skill / Cooldown",
+    "zh-Hans": "Skill / Cooldown",
+    "zh-Hant": "Skill / Cooldown"
   },
   "icon": "/generated/assets/game/skills/Skill_30201.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "クールダウン",
-        "en": "Cooldown"
+        "de-DE": "Cooldown",
+        "en-US": "Cooldown",
+        "es-ES": "Cooldown",
+        "fr-FR": "Cooldown",
+        "id-ID": "Cooldown",
+        "ja-JP": "クールダウン",
+        "ko-KR": "Cooldown",
+        "pl-PL": "Cooldown",
+        "pt-BR": "Cooldown",
+        "ru-RU": "Cooldown",
+        "th-TH": "Cooldown",
+        "tr-TR": "Cooldown",
+        "uk-UA": "Cooldown",
+        "vi-VN": "Cooldown",
+        "zh-Hans": "Cooldown",
+        "zh-Hant": "Cooldown"
       }
     },
     {

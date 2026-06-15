@@ -3,12 +3,40 @@
   "entityId": "204",
   "slug": "204-rune-of-wealth",
   "title": {
-    "ja": "富のルーン",
-    "en": "Rune of Wealth"
+    "de-DE": "Reichtumsrune",
+    "en-US": "Rune of Wealth",
+    "es-ES": "Runa de Riqueza",
+    "fr-FR": "Rune de Richesse",
+    "id-ID": "Rune Kekayaan",
+    "ja-JP": "富のルーン",
+    "ko-KR": "재물의 룬",
+    "pl-PL": "Runa Bogactwa",
+    "pt-BR": "Runa da Riqueza",
+    "ru-RU": "Руна богатства",
+    "th-TH": "รูนทรัพย์",
+    "tr-TR": "Servet Runu",
+    "uk-UA": "Руна багатства",
+    "vi-VN": "Rune Tài Lộc",
+    "zh-Hans": "财富符文",
+    "zh-Hant": "財富符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "通常モンスターゴールド",
-        "en": "Gold From Normal Monster"
+        "de-DE": "Gold von normalen Monstern",
+        "en-US": "Gold From Normal Monster",
+        "es-ES": "Oro de monstruos normales",
+        "fr-FR": "Or des monstres normaux",
+        "id-ID": "Emas dari Monster Biasa",
+        "ja-JP": "通常モンスターゴールド",
+        "ko-KR": "일반 몬스터 처치 시 골드 획득량",
+        "pl-PL": "Złoto od zwykłych potworów",
+        "pt-BR": "Ouro de monstros comuns",
+        "ru-RU": "Золото с обычных монстров",
+        "th-TH": "ทองจากมอนทั่วไป",
+        "tr-TR": "Normal Canavarlardan Altın",
+        "uk-UA": "Золото зі звич. монстрів",
+        "vi-VN": "Vàng từ Quái Thường",
+        "zh-Hans": "普通怪物金币",
+        "zh-Hant": "普通怪物金幣"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "富のルーン",
-            "en": "Rune of Wealth"
+            "de-DE": "Reichtumsrune",
+            "en-US": "Rune of Wealth",
+            "es-ES": "Runa de Riqueza",
+            "fr-FR": "Rune de Richesse",
+            "id-ID": "Rune Kekayaan",
+            "ja-JP": "富のルーン",
+            "ko-KR": "재물의 룬",
+            "pl-PL": "Runa Bogactwa",
+            "pt-BR": "Runa da Riqueza",
+            "ru-RU": "Руна богатства",
+            "th-TH": "รูนทรัพย์",
+            "tr-TR": "Servet Runu",
+            "uk-UA": "Руна багатства",
+            "vi-VN": "Rune Tài Lộc",
+            "zh-Hans": "财富符文",
+            "zh-Hant": "財富符文"
           },
           "-"
         ]
@@ -89,12 +159,40 @@
         [
           1,
           {
-            "ja": "通常モンスターゴールド +1",
-            "en": "Gold From Normal Monster Kill +1"
+            "de-DE": "Gold von normalen Monstern +1",
+            "en-US": "Gold From Normal Monster Kill +1",
+            "es-ES": "Oro de monstruos normales +1",
+            "fr-FR": "Or des monstres normaux +1",
+            "id-ID": "Emas dari Monster Biasa +1",
+            "ja-JP": "通常モンスターゴールド +1",
+            "ko-KR": "일반 몬스터 처치 시 골드 획득량 +1",
+            "pl-PL": "Złoto od zwykłych potworów +1",
+            "pt-BR": "Ouro de monstros comuns +1",
+            "ru-RU": "Золото с обычных монстров +1",
+            "th-TH": "ทองจากมอนทั่วไป +1",
+            "tr-TR": "Normal Canavarlardan Altın +1",
+            "uk-UA": "Золото зі звич. монстрів +1",
+            "vi-VN": "Vàng từ Quái Thường +1",
+            "zh-Hans": "普通怪物金币 +1",
+            "zh-Hant": "普通怪物金幣 +1"
           },
           {
-            "ja": "20000 ゴールド",
-            "en": "20000 Gold"
+            "de-DE": "20000 Gold",
+            "en-US": "20000 Gold",
+            "es-ES": "20000 Gold",
+            "fr-FR": "20000 Gold",
+            "id-ID": "20000 Gold",
+            "ja-JP": "20000 ゴールド",
+            "ko-KR": "20000 Gold",
+            "pl-PL": "20000 Gold",
+            "pt-BR": "20000 Gold",
+            "ru-RU": "20000 Gold",
+            "th-TH": "20000 Gold",
+            "tr-TR": "20000 Gold",
+            "uk-UA": "20000 Gold",
+            "vi-VN": "20000 Gold",
+            "zh-Hans": "20000 Gold",
+            "zh-Hant": "20000 Gold"
           }
         ]
       ]

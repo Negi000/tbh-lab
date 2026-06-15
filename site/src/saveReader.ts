@@ -1,5 +1,5 @@
-export type LocaleCode = "ja" | "en";
-export type Localized = Partial<Record<LocaleCode, string>>;
+export type LocaleCode = string;
+export type Localized = Partial<Record<string, string>>;
 
 export type SaveOwnedItem = {
   itemKey: number;

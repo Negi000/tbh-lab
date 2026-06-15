@@ -3,12 +3,40 @@
   "entityId": "139001",
   "slug": "139001-scroll-of-cosmic-inscription",
   "title": {
-    "ja": "宇宙刻文の巻物",
-    "en": "Scroll of Cosmic Inscription"
+    "de-DE": "Scroll of Cosmic Inscription",
+    "en-US": "Scroll of Cosmic Inscription",
+    "es-ES": "Scroll of Cosmic Inscription",
+    "fr-FR": "Scroll of Cosmic Inscription",
+    "id-ID": "Scroll of Cosmic Inscription",
+    "ja-JP": "宇宙刻文の巻物",
+    "ko-KR": "Scroll of Cosmic Inscription",
+    "pl-PL": "Scroll of Cosmic Inscription",
+    "pt-BR": "Scroll of Cosmic Inscription",
+    "ru-RU": "Scroll of Cosmic Inscription",
+    "th-TH": "Scroll of Cosmic Inscription",
+    "tr-TR": "Scroll of Cosmic Inscription",
+    "uk-UA": "Scroll of Cosmic Inscription",
+    "vi-VN": "Scroll of Cosmic Inscription",
+    "zh-Hans": "Scroll of Cosmic Inscription",
+    "zh-Hant": "Scroll of Cosmic Inscription"
   },
   "subtitle": {
-    "en": "Cosmic / Inscription material",
-    "ja": "コズミック / 刻文素材"
+    "de-DE": "Kosmisch / Inscription material",
+    "en-US": "Cosmic / Inscription material",
+    "es-ES": "Cósmico / Inscription material",
+    "fr-FR": "Cosmique / Inscription material",
+    "id-ID": "Kosmik / Inscription material",
+    "ja-JP": "コズミック / 刻文素材",
+    "ko-KR": "우주 / Inscription material",
+    "pl-PL": "Kosmiczny / Inscription material",
+    "pt-BR": "Cósmico / Inscription material",
+    "ru-RU": "Космический / Inscription material",
+    "th-TH": "จักรวาล / Inscription material",
+    "tr-TR": "Kozmik / Inscription material",
+    "uk-UA": "Космічний / Inscription material",
+    "vi-VN": "Vũ trụ / Inscription material",
+    "zh-Hans": "宇宙 / Inscription material",
+    "zh-Hant": "宇宙 / Inscription material"
   },
   "icon": "/generated/assets/game/item/Materials/Item_139001.png",
   "rarity": "COSMIC",
@@ -63,343 +91,1351 @@
       "rows": [
         [
           {
-            "ja": "コモン",
-            "en": "Common"
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
           },
           {
-            "ja": "攻撃力",
-            "en": "Attack Damage"
+            "de-DE": "Angriffsschaden",
+            "en-US": "Attack Damage",
+            "es-ES": "Daño de ataque",
+            "fr-FR": "Dégâts d'attaque",
+            "id-ID": "Serangan",
+            "ja-JP": "攻撃力",
+            "ko-KR": "공격력",
+            "pl-PL": "Obrażenia od ataku",
+            "pt-BR": "Dano de Ataque",
+            "ru-RU": "Урон от атаки",
+            "th-TH": "พลังโจมตี",
+            "tr-TR": "Saldırı Hasarı",
+            "uk-UA": "Шкода від атаки",
+            "vi-VN": "Sát thương tấn công",
+            "zh-Hans": "攻击伤害",
+            "zh-Hant": "攻擊傷害"
           },
           {
-            "ja": "固定値",
-            "en": "Flat"
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
           },
           {
-            "ja": "攻撃力 +150~300",
-            "en": "Attack Damage +150~300"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "攻撃力",
-            "en": "Attack Damage"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "攻撃力1000~1500%増加",
-            "en": "1000~1500% Increased Attack Damage"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "最大HP",
-            "en": "Max HP"
-          },
-          {
-            "ja": "固定値",
-            "en": "Flat"
-          },
-          {
-            "ja": "最大HP +270~300",
-            "en": "Max HP +270~300"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "最大HP",
-            "en": "Max HP"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "最大HP400~500%増加",
-            "en": "400~500% Increased Max HP"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "回避率",
-            "en": "Dodge Chance"
-          },
-          {
-            "ja": "固定値",
-            "en": "Flat"
-          },
-          {
-            "ja": "回避率 +200~300%",
-            "en": "Dodge Chance +200~300%"
+            "de-DE": "Angriffschaden +150~300",
+            "en-US": "Attack Damage +150~300",
+            "es-ES": "Daño de ataque +150~300",
+            "fr-FR": "Dégâts d'attaque +150~300",
+            "id-ID": "Damage Serangan +150~300",
+            "ja-JP": "攻撃力 +150~300",
+            "ko-KR": "공격력 +150~300",
+            "pl-PL": "Obrażenia ataku +150~300",
+            "pt-BR": "Dano de Ataque +150~300",
+            "ru-RU": "Урон атаки +150~300",
+            "th-TH": "ดาเมจโจมตี +150~300",
+            "tr-TR": "Saldırı Hasarı +150~300",
+            "uk-UA": "Шкода атаки +150~300",
+            "vi-VN": "Sát Thương +150~300",
+            "zh-Hans": "攻击伤害 +150~300",
+            "zh-Hant": "攻擊傷害 +150~300"
           },
           "T10 - T10"
         ],
         [
           {
-            "ja": "コモン",
-            "en": "Common"
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
           },
           {
-            "ja": "ブロック率",
-            "en": "Block Chance"
+            "de-DE": "Angriffsschaden",
+            "en-US": "Attack Damage",
+            "es-ES": "Daño de ataque",
+            "fr-FR": "Dégâts d'attaque",
+            "id-ID": "Serangan",
+            "ja-JP": "攻撃力",
+            "ko-KR": "공격력",
+            "pl-PL": "Obrażenia od ataku",
+            "pt-BR": "Dano de Ataque",
+            "ru-RU": "Урон от атаки",
+            "th-TH": "พลังโจมตี",
+            "tr-TR": "Saldırı Hasarı",
+            "uk-UA": "Шкода від атаки",
+            "vi-VN": "Sát thương tấn công",
+            "zh-Hans": "攻击伤害",
+            "zh-Hant": "攻擊傷害"
           },
           {
-            "ja": "固定値",
-            "en": "Flat"
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
           },
           {
-            "ja": "ブロック率 +200~300%",
-            "en": "Block Chance +200~300%"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "攻撃速度",
-            "en": "Attack Speed"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "攻撃速度200~250%増加",
-            "en": "200~250% Increased Attack Speed"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "詠唱速度",
-            "en": "Cast Speed"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "詠唱速度400~500%増加",
-            "en": "400~500% Increased Cast Speed"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "効果範囲強化",
-            "en": "Area of Effect Enhancement"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "効果範囲280~350%増加",
-            "en": "280~350% Increased Area of Effect"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "クールタイム短縮",
-            "en": "Cooldown Reduction"
-          },
-          {
-            "ja": "固定値",
-            "en": "Flat"
-          },
-          {
-            "ja": "クールダウン短縮 +145~160%",
-            "en": "Cooldown Reduction +145~160%"
+            "de-DE": "1000~1500% erhöhter Angriffsscha.",
+            "en-US": "1000~1500% Increased Attack Damage",
+            "es-ES": "1000~1500% Aumento Daño Ataque",
+            "fr-FR": "1000~1500% Dégâts Att. augmentés",
+            "id-ID": "1000~1500% Peningkatan Damage Serangan",
+            "ja-JP": "攻撃力1000~1500%増加",
+            "ko-KR": "공격력 1000~1500% 증가",
+            "pl-PL": "1000~1500% zwiększenia obrażeń",
+            "pt-BR": "1000~1500% Aumento Dano Ataque",
+            "ru-RU": "1000~1500% увеличения урона атаки",
+            "th-TH": "ดาเมจโจมตีเพิ่ม 1000~1500%",
+            "tr-TR": "1000~1500% Artan Saldırı Hasarı",
+            "uk-UA": "1000~1500% збільшення шкоди атаки",
+            "vi-VN": "Tăng 1000~1500% Sát Thương",
+            "zh-Hans": "攻击伤害提高1000~1500%",
+            "zh-Hant": "攻擊傷害提高1000~1500%"
           },
           "T10 - T10"
         ],
         [
           {
-            "ja": "コモン",
-            "en": "Common"
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
           },
           {
-            "ja": "スキル持続時間増加",
-            "en": "Skill Duration Increase"
+            "de-DE": "Maximale HP",
+            "en-US": "Max HP",
+            "es-ES": "HP máximo",
+            "fr-FR": "PV max",
+            "id-ID": "HP Maksimum",
+            "ja-JP": "最大HP",
+            "ko-KR": "최대 HP",
+            "pl-PL": "Maksymalne HP",
+            "pt-BR": "HP Máximo",
+            "ru-RU": "Макс. HP",
+            "th-TH": "HP สูงสุด",
+            "tr-TR": "Maksimum HP",
+            "uk-UA": "Макс. HP",
+            "vi-VN": "HP tối đa",
+            "zh-Hans": "最大生命值",
+            "zh-Hant": "最大生命值"
           },
           {
-            "ja": "増加",
-            "en": "Increased"
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
           },
           {
-            "ja": "453~500% 増加したスキル持続時間",
-            "en": "453~500% Increased Skill Duration"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "移動速度",
-            "en": "Movement Speed"
-          },
-          {
-            "ja": "固定値",
-            "en": "Flat"
-          },
-          {
-            "ja": "移動速度 +76~83",
-            "en": "Movement Speed +76~83"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "移動速度",
-            "en": "Movement Speed"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "移動速度550~600%増加",
-            "en": "550~600% Increased Movement Speed"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "クリティカル率",
-            "en": "Critical Chance"
-          },
-          {
-            "ja": "増加",
-            "en": "Increased"
-          },
-          {
-            "ja": "クリティカル率係数550~600%増加",
-            "en": "550~600% Increased Critical Chance Multiplier"
-          },
-          "T10 - T10"
-        ],
-        [
-          {
-            "ja": "コモン",
-            "en": "Common"
-          },
-          {
-            "ja": "クリティカルダメージ",
-            "en": "Critical Damage"
-          },
-          {
-            "ja": "固定値",
-            "en": "Flat"
-          },
-          {
-            "ja": "クリティカルダメージ +1000~1500%",
-            "en": "Critical Damage +1000~1500%"
+            "de-DE": "Max. LP +270~300",
+            "en-US": "Max HP +270~300",
+            "es-ES": "Vida máx. +270~300",
+            "fr-FR": "PV max +270~300",
+            "id-ID": "HP Maks. +270~300",
+            "ja-JP": "最大HP +270~300",
+            "ko-KR": "최대 HP +270~300",
+            "pl-PL": "Maks. PZ +270~300",
+            "pt-BR": "HP Máx. +270~300",
+            "ru-RU": "Макс. ОЗ +270~300",
+            "th-TH": "HP สูงสุด +270~300",
+            "tr-TR": "Maks. Can +270~300",
+            "uk-UA": "Макс. ОЗ +270~300",
+            "vi-VN": "HP Tối Đa +270~300",
+            "zh-Hans": "最大生命值 +270~300",
+            "zh-Hant": "最大生命值 +270~300"
           },
           "T10 - T10"
         ],
         [
           {
-            "ja": "コモン",
-            "en": "Common"
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
           },
           {
-            "ja": "全属性耐性強化",
-            "en": "All Elemental Resistance Enhancement"
+            "de-DE": "Maximale HP",
+            "en-US": "Max HP",
+            "es-ES": "HP máximo",
+            "fr-FR": "PV max",
+            "id-ID": "HP Maksimum",
+            "ja-JP": "最大HP",
+            "ko-KR": "최대 HP",
+            "pl-PL": "Maksymalne HP",
+            "pt-BR": "HP Máximo",
+            "ru-RU": "Макс. HP",
+            "th-TH": "HP สูงสุด",
+            "tr-TR": "Maksimum HP",
+            "uk-UA": "Макс. HP",
+            "vi-VN": "HP tối đa",
+            "zh-Hans": "最大生命值",
+            "zh-Hant": "最大生命值"
           },
           {
-            "ja": "固定値",
-            "en": "Flat"
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
           },
           {
-            "ja": "全属性耐性 +25~30%",
-            "en": "All Elemental Resistance +25~30%"
+            "de-DE": "400~500% erhöhte Max. LP",
+            "en-US": "400~500% Increased Max HP",
+            "es-ES": "400~500% Aumento Vida Máx.",
+            "fr-FR": "400~500% PV Max. augmentés",
+            "id-ID": "400~500% Peningkatan HP Maks.",
+            "ja-JP": "最大HP400~500%増加",
+            "ko-KR": "최대 HP 400~500% 증가",
+            "pl-PL": "400~500% zwiększenia maks. PZ",
+            "pt-BR": "400~500% Aumento Vida Máx.",
+            "ru-RU": "400~500% увеличения макс. ОЗ",
+            "th-TH": "HP สูงสุดเพิ่ม 400~500%",
+            "tr-TR": "400~500% Artan Maks. Can",
+            "uk-UA": "400~500% збільшення макс. ОЗ",
+            "vi-VN": "Tăng 400~500% HP Tối Đa",
+            "zh-Hans": "最大生命提高400~500%",
+            "zh-Hant": "最大生命提高400~500%"
           },
           "T10 - T10"
         ],
         [
           {
-            "ja": "コモン",
-            "en": "Common"
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
           },
           {
-            "ja": "カオス耐性強化",
-            "en": "Chaos Resistance Enhancement"
+            "de-DE": "Ausweichschance",
+            "en-US": "Dodge Chance",
+            "es-ES": "Probabilidad de Esquivar",
+            "fr-FR": "Chance d'Esquive",
+            "id-ID": "Peluang Menghindar",
+            "ja-JP": "回避率",
+            "ko-KR": "회피 확률",
+            "pl-PL": "Szansa na Unik",
+            "pt-BR": "Chance de Esquiva",
+            "ru-RU": "Шанс уклонения",
+            "th-TH": "โอกาสหลบ",
+            "tr-TR": "Kaçınma Şansı",
+            "uk-UA": "Шанс ухилення",
+            "vi-VN": "Tỷ lệ né",
+            "zh-Hans": "闪避几率",
+            "zh-Hant": "閃避機率"
           },
           {
-            "ja": "固定値",
-            "en": "Flat"
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
           },
           {
-            "ja": "カオス耐性 +50~55%",
-            "en": "Chaos Resistance +50~55%"
+            "de-DE": "Ausweichchance +200~300%",
+            "en-US": "Dodge Chance +200~300%",
+            "es-ES": "Prob. Esquiva +200~300%",
+            "fr-FR": "Chance d'Esquive +200~300%",
+            "id-ID": "Peluang Hindar +200~300%",
+            "ja-JP": "回避率 +200~300%",
+            "ko-KR": "회피 확률 +200~300%",
+            "pl-PL": "Szansa Uniku +200~300%",
+            "pt-BR": "Chance de Esquiva +200~300%",
+            "ru-RU": "Шанс уклон. +200~300%",
+            "th-TH": "โอกาสหลบ +200~300%",
+            "tr-TR": "Kaçınma Şansı +200~300%",
+            "uk-UA": "Шанс ухиляння +200~300%",
+            "vi-VN": "Tỉ Lệ Né +200~300%",
+            "zh-Hans": "闪避几率 +200~300%",
+            "zh-Hant": "閃避機率 +200~300%"
           },
           "T10 - T10"
         ],
         [
           {
-            "ja": "コモン",
-            "en": "Common"
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
           },
           {
-            "ja": "ライフ吸収強化",
-            "en": "Life Leech Enhancement"
+            "de-DE": "Blockchance",
+            "en-US": "Block Chance",
+            "es-ES": "Probabilidad de Bloquear",
+            "fr-FR": "Chance de Blocage",
+            "id-ID": "Peluang Blok",
+            "ja-JP": "ブロック率",
+            "ko-KR": "막기 확률",
+            "pl-PL": "Szansa na Blok",
+            "pt-BR": "Chance de Bloqueio",
+            "ru-RU": "Шанс блока",
+            "th-TH": "โอกาสบล็อค",
+            "tr-TR": "Engelleme Şansı",
+            "uk-UA": "Шанс блоку",
+            "vi-VN": "Tỷ lệ đỡ",
+            "zh-Hans": "格挡几率",
+            "zh-Hant": "格擋機率"
           },
           {
-            "ja": "固定値",
-            "en": "Flat"
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
           },
           {
-            "ja": "ライフ吸収 +55~65%",
-            "en": "Life Leech +55~65%"
+            "de-DE": "Blockchance +200~300%",
+            "en-US": "Block Chance +200~300%",
+            "es-ES": "Prob. Bloqueo +200~300%",
+            "fr-FR": "Chance de Blocage +200~300%",
+            "id-ID": "Peluang Blok +200~300%",
+            "ja-JP": "ブロック率 +200~300%",
+            "ko-KR": "막기 확률 +200~300%",
+            "pl-PL": "Szansa Bloku +200~300%",
+            "pt-BR": "Chance de Bloqueio +200~300%",
+            "ru-RU": "Шанс блока +200~300%",
+            "th-TH": "โอกาสบล็อก +200~300%",
+            "tr-TR": "Blok Şansı +200~300%",
+            "uk-UA": "Шанс блоку +200~300%",
+            "vi-VN": "Tỉ Lệ Chặn +200~300%",
+            "zh-Hans": "格挡几率 +200~300%",
+            "zh-Hant": "格擋機率 +200~300%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Angriffsgeschwindigkeit",
+            "en-US": "Attack Speed",
+            "es-ES": "Velocidad de ataque",
+            "fr-FR": "Vitesse d'attaque",
+            "id-ID": "Kecepatan Serangan",
+            "ja-JP": "攻撃速度",
+            "ko-KR": "공격 속도",
+            "pl-PL": "Prędkość ataku",
+            "pt-BR": "Velocidade de Ataque",
+            "ru-RU": "Скорость атаки",
+            "th-TH": "ความเร็วโจมตี",
+            "tr-TR": "Saldırı Hızı",
+            "uk-UA": "Швидкість атаки",
+            "vi-VN": "Tốc độ tấn công",
+            "zh-Hans": "攻击速度",
+            "zh-Hant": "攻擊速度"
+          },
+          {
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
+          },
+          {
+            "de-DE": "200~250% erhöhte Angriffsgeschw.",
+            "en-US": "200~250% Increased Attack Speed",
+            "es-ES": "200~250% Aumento Vel. Ataque",
+            "fr-FR": "200~250% Vitesse Att. augmentée",
+            "id-ID": "200~250% Peningkatan Kec. Serangan",
+            "ja-JP": "攻撃速度200~250%増加",
+            "ko-KR": "공격 속도 200~250% 증가",
+            "pl-PL": "200~250% zwiększenia szybk. ataku",
+            "pt-BR": "200~250% Aumento Vel. Ataque",
+            "ru-RU": "200~250% увеличения скорости атаки",
+            "th-TH": "ความเร็วโจมตีเพิ่ม 200~250%",
+            "tr-TR": "200~250% Artan Saldırı Hızı",
+            "uk-UA": "200~250% збільшення швидкості атаки",
+            "vi-VN": "Tăng 200~250% Tốc Độ Đánh",
+            "zh-Hans": "攻击速度提高200~250%",
+            "zh-Hant": "攻擊速度提高200~250%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Zaubergeschw.",
+            "en-US": "Cast Speed",
+            "es-ES": "Vel. Lanz.",
+            "fr-FR": "Vit. Inc.",
+            "id-ID": "Kec. Mantra",
+            "ja-JP": "詠唱速度",
+            "ko-KR": "시전 속도",
+            "pl-PL": "Szybk. Rzuc.",
+            "pt-BR": "Vel. Lanç.",
+            "ru-RU": "Скор. накл.",
+            "th-TH": "เร็วร่าย",
+            "tr-TR": "Büyü Hızı",
+            "uk-UA": "Швид. накл.",
+            "vi-VN": "Tốc Phép",
+            "zh-Hans": "施法速度",
+            "zh-Hant": "施法速度"
+          },
+          {
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
+          },
+          {
+            "de-DE": "400~500% Erhöhter Zaubergeschw.",
+            "en-US": "400~500% Increased Cast Speed",
+            "es-ES": "400~500% Aumento de Vel. Lanzam.",
+            "fr-FR": "Vit. Incant. augmenté de 400~500%",
+            "id-ID": "400~500% Peningkatan Kec. Mantra",
+            "ja-JP": "詠唱速度400~500%増加",
+            "ko-KR": "시전 속도 400~500% 증가",
+            "pl-PL": "400~500% Zwiększony Szybk. Rzucania",
+            "pt-BR": "400~500% Aumento de Vel. Lançamento",
+            "ru-RU": "+400~500% к Скор. накл.",
+            "th-TH": "ความเร็วร่ายเพิ่ม 400~500%",
+            "tr-TR": "%400~500 Artan Büyü Hızı",
+            "uk-UA": "+400~500% до Швид. накладан.",
+            "vi-VN": "Tăng 400~500% Tốc Độ Phép",
+            "zh-Hans": "施法速度提高400~500%",
+            "zh-Hant": "施法速度提高400~500%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Wirkungsbereich-Verstärkung",
+            "en-US": "Area of Effect Enhancement",
+            "es-ES": "Mejora de Área de Efecto",
+            "fr-FR": "Amélioration de Zone d'Effet",
+            "id-ID": "Peningkatan Area Efek",
+            "ja-JP": "効果範囲強化",
+            "ko-KR": "효과 범위 강화",
+            "pl-PL": "Wzmocnienie Obszar Działania",
+            "pt-BR": "Aprimoramento de Área de Efeito",
+            "ru-RU": "Усиление Обл. действия",
+            "th-TH": "เสริมพื้นที่ส่งผล",
+            "tr-TR": "Geliştirme Etki Alanı",
+            "uk-UA": "Посилення Обл. дії",
+            "vi-VN": "Tăng cường Phạm vi ảnh hưởng",
+            "zh-Hans": "效果范围强化",
+            "zh-Hant": "效果範圍強化"
+          },
+          {
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
+          },
+          {
+            "de-DE": "280~350% Erhöhter Wirkungsbereich",
+            "en-US": "280~350% Increased Area of Effect",
+            "es-ES": "280~350% Aumento de Área de Efecto",
+            "fr-FR": "Zone d'Effet augmenté de 280~350%",
+            "id-ID": "280~350% Peningkatan Area Efek",
+            "ja-JP": "効果範囲280~350%増加",
+            "ko-KR": "효과 범위 280~350% 증가",
+            "pl-PL": "280~350% Zwiększony Obszar Działania",
+            "pt-BR": "280~350% Aumento de Área de Efeito",
+            "ru-RU": "+280~350% к Обл. действия",
+            "th-TH": "พื้นที่มีผลเพิ่ม 280~350%",
+            "tr-TR": "%280~350 Artan Etki Alanı",
+            "uk-UA": "+280~350% до Обл. дії",
+            "vi-VN": "Tăng 280~350% Phạm Vi Hiệu Ứng",
+            "zh-Hans": "效果范围提高280~350%",
+            "zh-Hant": "效果範圍提高280~350%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Abklingzeitverringerung",
+            "en-US": "Cooldown Reduction",
+            "es-ES": "Reducción de enfriamiento",
+            "fr-FR": "Réduction du temps de recharge",
+            "id-ID": "Pengurangan Cooldown",
+            "ja-JP": "クールタイム短縮",
+            "ko-KR": "재사용 대기시간 감소",
+            "pl-PL": "Skrócenie czasu odnowienia",
+            "pt-BR": "Redução do Tempo de Recarga",
+            "ru-RU": "Сокращение времени перезарядки",
+            "th-TH": "ลดเวลาคูลดาวน์",
+            "tr-TR": "Bekleme Süresi Azaltma",
+            "uk-UA": "Скорочення часу перезарядки",
+            "vi-VN": "Giảm thời gian hồi",
+            "zh-Hans": "冷却缩减",
+            "zh-Hant": "冷卻縮減"
+          },
+          {
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
+          },
+          {
+            "de-DE": "Abklingzeitverkürzung +145~160%",
+            "en-US": "Cooldown Reduction +145~160%",
+            "es-ES": "Reducción de tiempo de recarga +145~160%",
+            "fr-FR": "Réduction du temps de recharge +145~160%",
+            "id-ID": "Red. Cooldown +145~160%",
+            "ja-JP": "クールダウン短縮 +145~160%",
+            "ko-KR": "재사용 대기시간 감소 +145~160%",
+            "pl-PL": "Redukcja czasu odnowienia +145~160%",
+            "pt-BR": "Redução de Recarga +145~160%",
+            "ru-RU": "Уменьшение перезарядки +145~160%",
+            "th-TH": "ลดคูลดาวน์ +145~160%",
+            "tr-TR": "Bekleme Süresi Azaltma +145~160%",
+            "uk-UA": "Зменшення перезарядки +145~160%",
+            "vi-VN": "Giảm Hồi Chiêu +145~160%",
+            "zh-Hans": "冷却缩减 +145~160%",
+            "zh-Hant": "冷卻縮減 +145~160%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Fähigkeitsdauer erhöhen",
+            "en-US": "Skill Duration Increase",
+            "es-ES": "Aumentar Duración de Habilidad",
+            "fr-FR": "Augmenter la Durée de Compétence",
+            "id-ID": "Tingkatkan Durasi Skill",
+            "ja-JP": "スキル持続時間増加",
+            "ko-KR": "스킬 지속시간 증가",
+            "pl-PL": "Zwiększ Czas Umiejętności",
+            "pt-BR": "Aumentar Duração de Habilidade",
+            "ru-RU": "Увеличить длительность умений",
+            "th-TH": "เพิ่มระยะเวลาสกิล",
+            "tr-TR": "Yetenek Süresi Artışı",
+            "uk-UA": "Збільшити тривалість умінь",
+            "vi-VN": "Tăng Thời Gian Kỹ Năng",
+            "zh-Hans": "增加技能持续时间",
+            "zh-Hant": "增加技能持續時間"
+          },
+          {
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
+          },
+          {
+            "de-DE": "453~500% erhöhte Skill-Dauer",
+            "en-US": "453~500% Increased Skill Duration",
+            "es-ES": "453~500% más duración de habilidad",
+            "fr-FR": "453~500% durée de compétence augmentée",
+            "id-ID": "453~500% durasi skill meningkat",
+            "ja-JP": "453~500% 増加したスキル持続時間",
+            "ko-KR": "스킬 지속시간 453~500% 증가",
+            "pl-PL": "453~500% zwiększony czas trwania umiejętności",
+            "pt-BR": "453~500% mais duração de habilidade",
+            "ru-RU": "453~500% увеличение длительности навыка",
+            "th-TH": "453~500% ระยะเวลาสกิลที่เพิ่มขึ้น",
+            "tr-TR": "453~500% artırılmış yetenek süresi",
+            "uk-UA": "453~500% збільшення тривалості навички",
+            "vi-VN": "453~500% thời lượng kỹ năng tăng",
+            "zh-Hans": "453~500% 提高的技能持续时间",
+            "zh-Hant": "453~500% 提高的技能持續時間"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Bewegungsgeschwindigkeit",
+            "en-US": "Movement Speed",
+            "es-ES": "Velocidad de movimiento",
+            "fr-FR": "Vitesse de déplacement",
+            "id-ID": "Kecepatan Gerak",
+            "ja-JP": "移動速度",
+            "ko-KR": "이동 속도",
+            "pl-PL": "Prędkość ruchu",
+            "pt-BR": "Velocidade de Movimento",
+            "ru-RU": "Скорость передвижения",
+            "th-TH": "ความเร็วเคลื่อนที่",
+            "tr-TR": "Hareket Hızı",
+            "uk-UA": "Швидкість руху",
+            "vi-VN": "Tốc độ di chuyển",
+            "zh-Hans": "移动速度",
+            "zh-Hant": "移動速度"
+          },
+          {
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
+          },
+          {
+            "de-DE": "Bewegungsgeschwindigkeit +76~83",
+            "en-US": "Movement Speed +76~83",
+            "es-ES": "Velocidad de movimiento +76~83",
+            "fr-FR": "Vitesse de déplacement +76~83",
+            "id-ID": "Kec. Gerak +76~83",
+            "ja-JP": "移動速度 +76~83",
+            "ko-KR": "이동 속도 +76~83",
+            "pl-PL": "Szybkość poruszania +76~83",
+            "pt-BR": "Velocidade de Movimento +76~83",
+            "ru-RU": "Скорость передвижения +76~83",
+            "th-TH": "ความเร็วเดิน +76~83",
+            "tr-TR": "Hareket Hızı +76~83",
+            "uk-UA": "Швидкість пересування +76~83",
+            "vi-VN": "Tốc Độ Di Chuyển +76~83",
+            "zh-Hans": "移动速度 +76~83",
+            "zh-Hant": "移動速度 +76~83"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Bewegungsgeschwindigkeit",
+            "en-US": "Movement Speed",
+            "es-ES": "Velocidad de movimiento",
+            "fr-FR": "Vitesse de déplacement",
+            "id-ID": "Kecepatan Gerak",
+            "ja-JP": "移動速度",
+            "ko-KR": "이동 속도",
+            "pl-PL": "Prędkość ruchu",
+            "pt-BR": "Velocidade de Movimento",
+            "ru-RU": "Скорость передвижения",
+            "th-TH": "ความเร็วเคลื่อนที่",
+            "tr-TR": "Hareket Hızı",
+            "uk-UA": "Швидкість руху",
+            "vi-VN": "Tốc độ di chuyển",
+            "zh-Hans": "移动速度",
+            "zh-Hant": "移動速度"
+          },
+          {
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
+          },
+          {
+            "de-DE": "550~600% erhöhte Bewegungsgeschw.",
+            "en-US": "550~600% Increased Movement Speed",
+            "es-ES": "550~600% Aumento Vel. Movimiento",
+            "fr-FR": "550~600% Vitesse Dépla. augmentée",
+            "id-ID": "550~600% Peningkatan Kec. Gerak",
+            "ja-JP": "移動速度550~600%増加",
+            "ko-KR": "이동 속도 550~600% 증가",
+            "pl-PL": "550~600% zwiększenia szybk. ruchu",
+            "pt-BR": "550~600% Aumento Vel. Movimento",
+            "ru-RU": "550~600% увеличения скорости движения",
+            "th-TH": "ความเร็วเดินเพิ่ม 550~600%",
+            "tr-TR": "550~600% Artan Hareket Hızı",
+            "uk-UA": "550~600% збільшення швидкості руху",
+            "vi-VN": "Tăng 550~600% Tốc Độ Di Chuyển",
+            "zh-Hans": "移动速度提高550~600%",
+            "zh-Hant": "移動速度提高550~600%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Kritische Trefferchance",
+            "en-US": "Critical Chance",
+            "es-ES": "Probabilidad crítica",
+            "fr-FR": "Chance de critique",
+            "id-ID": "Peluang Kritis",
+            "ja-JP": "クリティカル率",
+            "ko-KR": "치명타 확률",
+            "pl-PL": "Szansa na krytyk",
+            "pt-BR": "Chance Crítica",
+            "ru-RU": "Шанс критического удара",
+            "th-TH": "โอกาสคริติคอล",
+            "tr-TR": "Kritik Vuruş Şansı",
+            "uk-UA": "Шанс критичного удару",
+            "vi-VN": "Tỷ lệ chí mạng",
+            "zh-Hans": "暴击几率",
+            "zh-Hant": "暴擊機率"
+          },
+          {
+            "de-DE": "Increased",
+            "en-US": "Increased",
+            "es-ES": "Increased",
+            "fr-FR": "Increased",
+            "id-ID": "Increased",
+            "ja-JP": "増加",
+            "ko-KR": "Increased",
+            "pl-PL": "Increased",
+            "pt-BR": "Increased",
+            "ru-RU": "Increased",
+            "th-TH": "Increased",
+            "tr-TR": "Increased",
+            "uk-UA": "Increased",
+            "vi-VN": "Increased",
+            "zh-Hans": "Increased",
+            "zh-Hant": "Increased"
+          },
+          {
+            "de-DE": "550~600% erhöhter Krit-Chance-Multiplikator",
+            "en-US": "550~600% Increased Critical Chance Multiplier",
+            "es-ES": "550~600% Aumento Multiplicador Prob. Crítica",
+            "fr-FR": "550~600% Multiplicateur Chance Crit. augmenté",
+            "id-ID": "550~600% Peningkatan Pengali Peluang Kritis",
+            "ja-JP": "クリティカル率係数550~600%増加",
+            "ko-KR": "치명타 확률 계수 550~600% 증가",
+            "pl-PL": "550~600% zwiększenia mnożnika szansy kryt.",
+            "pt-BR": "550~600% Aumento Multiplicador Chance Crítica",
+            "ru-RU": "550~600% увеличения множителя шанса крита",
+            "th-TH": "ตัวคูณโอกาสคริติคอลเพิ่ม 550~600%",
+            "tr-TR": "%550~600 Artan Kritik Şans Çarpanı",
+            "uk-UA": "550~600% збільшення множника шансу крита",
+            "vi-VN": "Tăng 550~600% Hệ số Tỉ Lệ Chí Mạng",
+            "zh-Hans": "暴击率系数提高550~600%",
+            "zh-Hant": "爆擊率係數提高550~600%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Kritischer Schaden",
+            "en-US": "Critical Damage",
+            "es-ES": "Daño crítico",
+            "fr-FR": "Dégâts critiques",
+            "id-ID": "Kerusakan Kritis",
+            "ja-JP": "クリティカルダメージ",
+            "ko-KR": "치명타 피해",
+            "pl-PL": "Obrażenia krytyczne",
+            "pt-BR": "Dano Crítico",
+            "ru-RU": "Критический урон",
+            "th-TH": "ความเสียหายคริติคอล",
+            "tr-TR": "Kritik Hasar",
+            "uk-UA": "Критична шкода",
+            "vi-VN": "Sát thương chí mạng",
+            "zh-Hans": "暴击伤害",
+            "zh-Hant": "暴擊傷害"
+          },
+          {
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
+          },
+          {
+            "de-DE": "Kritischer Schaden +1000~1500%",
+            "en-US": "Critical Damage +1000~1500%",
+            "es-ES": "Daño crítico +1000~1500%",
+            "fr-FR": "Dégâts critiques +1000~1500%",
+            "id-ID": "Damage Kritis +1000~1500%",
+            "ja-JP": "クリティカルダメージ +1000~1500%",
+            "ko-KR": "치명타 데미지 +1000~1500%",
+            "pl-PL": "Obrażenia krytyczne +1000~1500%",
+            "pt-BR": "Dano Crítico +1000~1500%",
+            "ru-RU": "Урон крита +1000~1500%",
+            "th-TH": "ดาเมจคริติคอล +1000~1500%",
+            "tr-TR": "Kritik Hasarı +1000~1500%",
+            "uk-UA": "Шкода криту +1000~1500%",
+            "vi-VN": "Sát Thương Chí Mạng +1000~1500%",
+            "zh-Hans": "暴击伤害 +1000~1500%",
+            "zh-Hant": "爆擊傷害 +1000~1500%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Alle Elementarwiderstände-Verstärkung",
+            "en-US": "All Elemental Resistance Enhancement",
+            "es-ES": "Mejora de Toda la Resistencia Elemental",
+            "fr-FR": "Amélioration de Toutes les Résistances Élémentaires",
+            "id-ID": "Peningkatan Semua Resistansi Elemen",
+            "ja-JP": "全属性耐性強化",
+            "ko-KR": "모든 원소 저항 강화",
+            "pl-PL": "Wzmocnienie Wszystkich Odporności Żywiołowych",
+            "pt-BR": "Aprimoramento de Todas as Resistências Elementares",
+            "ru-RU": "Усиление всех стихийных сопротивлений",
+            "th-TH": "เสริมต้านทานธาตุทั้งหมด",
+            "tr-TR": "Tüm Elementel Direnç Geliştirme",
+            "uk-UA": "Посилення всіх стихійних опорів",
+            "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố",
+            "zh-Hans": "全元素抗性强化",
+            "zh-Hant": "全元素抗性強化"
+          },
+          {
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
+          },
+          {
+            "de-DE": "Alle Elementarresistenzen +25~30%",
+            "en-US": "All Elemental Resistance +25~30%",
+            "es-ES": "Res. a Todos Elementos +25~30%",
+            "fr-FR": "Rés. Élémentaire Totale +25~30%",
+            "id-ID": "Res. Semua Elemen +25~30%",
+            "ja-JP": "全属性耐性 +25~30%",
+            "ko-KR": "모든 원소 저항 +25~30%",
+            "pl-PL": "Odp. na Wszystkie Żywioły +25~30%",
+            "pt-BR": "Res. a Todos Elementos +25~30%",
+            "ru-RU": "Сопр. всем стихиям +25~30%",
+            "th-TH": "ต้านธาตุทั้งหมด +25~30%",
+            "tr-TR": "Tüm Element Direnci +25~30%",
+            "uk-UA": "Оп. всім стихіям +25~30%",
+            "vi-VN": "Kháng Mọi Nguyên Tố +25~30%",
+            "zh-Hans": "全元素抗性 +25~30%",
+            "zh-Hant": "全元素抗性 +25~30%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Chaosresistenz-Verstärkung",
+            "en-US": "Chaos Resistance Enhancement",
+            "es-ES": "Mejora de Res. al Caos",
+            "fr-FR": "Amélioration de Rés. au Chaos",
+            "id-ID": "Peningkatan Resistansi Kekacauan",
+            "ja-JP": "カオス耐性強化",
+            "ko-KR": "카오스 저항 강화",
+            "pl-PL": "Wzmocnienie Odp. na Chaos",
+            "pt-BR": "Aprimoramento de Res. ao Caos",
+            "ru-RU": "Усиление Сопр. хаосу",
+            "th-TH": "เสริมต้านทานเคออส",
+            "tr-TR": "Geliştirme Kaos Direnci",
+            "uk-UA": "Посилення Оп. хаосу",
+            "vi-VN": "Tăng cường Kháng hỗn loạn",
+            "zh-Hans": "混沌抗性强化",
+            "zh-Hant": "混沌抗性強化"
+          },
+          {
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
+          },
+          {
+            "de-DE": "Chaosresistenz +50~55%",
+            "en-US": "Chaos Resistance +50~55%",
+            "es-ES": "Res. al Caos +50~55%",
+            "fr-FR": "Rés. au Chaos +50~55%",
+            "id-ID": "Res. Chaos +50~55%",
+            "ja-JP": "カオス耐性 +50~55%",
+            "ko-KR": "카오스 저항 +50~55%",
+            "pl-PL": "Odp. na Chaos +50~55%",
+            "pt-BR": "Res. ao Caos +50~55%",
+            "ru-RU": "Сопр. хаосу +50~55%",
+            "th-TH": "ต้านเคออส +50~55%",
+            "tr-TR": "Kaos Direnci +50~55%",
+            "uk-UA": "Оп. хаосу +50~55%",
+            "vi-VN": "Kháng Hỗn Loạn +50~55%",
+            "zh-Hans": "混沌抗性 +50~55%",
+            "zh-Hant": "混沌抗性 +50~55%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "de-DE": "Gewöhnlich",
+            "en-US": "Common",
+            "es-ES": "Común",
+            "fr-FR": "Commun",
+            "id-ID": "Biasa",
+            "ja-JP": "コモン",
+            "ko-KR": "일반",
+            "pl-PL": "Zwykły",
+            "pt-BR": "Comum",
+            "ru-RU": "Обычный",
+            "th-TH": "ธรรมดา",
+            "tr-TR": "Yaygın",
+            "uk-UA": "Звичайний",
+            "vi-VN": "Thường",
+            "zh-Hans": "普通",
+            "zh-Hant": "普通"
+          },
+          {
+            "de-DE": "Lebensraub-Verstärkung",
+            "en-US": "Life Leech Enhancement",
+            "es-ES": "Mejora de Robo de Vida",
+            "fr-FR": "Amélioration de Vol de Vie",
+            "id-ID": "Peningkatan Penyerapan HP",
+            "ja-JP": "ライフ吸収強化",
+            "ko-KR": "체력 흡수 강화",
+            "pl-PL": "Wzmocnienie Wampiryzm",
+            "pt-BR": "Aprimoramento de Roubo de Vida",
+            "ru-RU": "Усиление Вамп.",
+            "th-TH": "เสริมดูดเลือด",
+            "tr-TR": "Geliştirme Can Çalma",
+            "uk-UA": "Посилення Вамп.",
+            "vi-VN": "Tăng cường Hút máu",
+            "zh-Hans": "生命偷取强化",
+            "zh-Hant": "生命偷取強化"
+          },
+          {
+            "de-DE": "Flat",
+            "en-US": "Flat",
+            "es-ES": "Flat",
+            "fr-FR": "Flat",
+            "id-ID": "Flat",
+            "ja-JP": "固定値",
+            "ko-KR": "Flat",
+            "pl-PL": "Flat",
+            "pt-BR": "Flat",
+            "ru-RU": "Flat",
+            "th-TH": "Flat",
+            "tr-TR": "Flat",
+            "uk-UA": "Flat",
+            "vi-VN": "Flat",
+            "zh-Hans": "Flat",
+            "zh-Hant": "Flat"
+          },
+          {
+            "de-DE": "Lebensraub +55~65%",
+            "en-US": "Life Leech +55~65%",
+            "es-ES": "Robo de Vida +55~65%",
+            "fr-FR": "Vol de Vie +55~65%",
+            "id-ID": "Life Leech +55~65%",
+            "ja-JP": "ライフ吸収 +55~65%",
+            "ko-KR": "체력 흡수 +55~65%",
+            "pl-PL": "Wampiryzm +55~65%",
+            "pt-BR": "Roubo de Vida +55~65%",
+            "ru-RU": "Вамп. +55~65%",
+            "th-TH": "ดูดเลือด +55~65%",
+            "tr-TR": "Can Çalma +55~65%",
+            "uk-UA": "Вамп. +55~65%",
+            "vi-VN": "Hút Máu +55~65%",
+            "zh-Hans": "生命偷取 +55~65%",
+            "zh-Hant": "生命偷取 +55~65%"
           },
           "T9 - T10"
         ]

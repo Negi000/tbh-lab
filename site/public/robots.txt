@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tbh.negi-lab.com/sitemap.xml

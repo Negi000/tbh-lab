@@ -3,12 +3,40 @@
   "entityId": "407111",
   "slug": "407111-mystic-shield",
   "title": {
-    "ja": "ミスティックシールド",
-    "en": "Mystic Shield"
+    "de-DE": "Mystic Shield",
+    "en-US": "Mystic Shield",
+    "es-ES": "Mystic Shield",
+    "fr-FR": "Mystic Shield",
+    "id-ID": "Mystic Shield",
+    "ja-JP": "ミスティックシールド",
+    "ko-KR": "Mystic Shield",
+    "pl-PL": "Mystic Shield",
+    "pt-BR": "Mystic Shield",
+    "ru-RU": "Mystic Shield",
+    "th-TH": "Mystic Shield",
+    "tr-TR": "Mystic Shield",
+    "uk-UA": "Mystic Shield",
+    "vi-VN": "Mystic Shield",
+    "zh-Hans": "Mystic Shield",
+    "zh-Hant": "Mystic Shield"
   },
   "subtitle": {
-    "en": "Celestial / Shield / Sub Weapon / Lv. 50",
-    "ja": "セレスティアル / シールド / サブ武器 / Lv. 50"
+    "de-DE": "Himmlisch / Schild / Nebenwaffe / Lv. 50",
+    "en-US": "Celestial / Shield / Sub Weapon / Lv. 50",
+    "es-ES": "Celestial / Escudo / Arma secundaria / Lv. 50",
+    "fr-FR": "Céleste / Bouclier / Arme secondaire / Lv. 50",
+    "id-ID": "Surgawi / Perisai / Senjata Pendamping / Lv. 50",
+    "ja-JP": "セレスティアル / シールド / サブ武器 / Lv. 50",
+    "ko-KR": "천상 / 방패 / 보조무기 / Lv. 50",
+    "pl-PL": "Niebiański / Tarcza / Broń dodatkowa / Lv. 50",
+    "pt-BR": "Celestial / Escudo / Arma Secundária / Lv. 50",
+    "ru-RU": "Небесный / Щит / Доп. оружие / Lv. 50",
+    "th-TH": "สวรรค์ / โล่ / อาวุธรอง / Lv. 50",
+    "tr-TR": "Göksel / Kalkan / Yardımcı Silah / Lv. 50",
+    "uk-UA": "Небесний / Щит / Додаткова зброя / Lv. 50",
+    "vi-VN": "Thiên giới / Khiên / Vũ khí phụ / Lv. 50",
+    "zh-Hans": "天界 / 盾牌 / 副武器 / Lv. 50",
+    "zh-Hant": "天界 / 盾牌 / 副武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/SHIELD_400011.png",
   "rarity": "CELESTIAL",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115117",
-            "en": "DropKey 3115117"
+            "de-DE": "DropKey 3115117",
+            "en-US": "DropKey 3115117",
+            "es-ES": "DropKey 3115117",
+            "fr-FR": "DropKey 3115117",
+            "id-ID": "DropKey 3115117",
+            "ja-JP": "DropKey 3115117",
+            "ko-KR": "DropKey 3115117",
+            "pl-PL": "DropKey 3115117",
+            "pt-BR": "DropKey 3115117",
+            "ru-RU": "DropKey 3115117",
+            "th-TH": "DropKey 3115117",
+            "tr-TR": "DropKey 3115117",
+            "uk-UA": "DropKey 3115117",
+            "vi-VN": "DropKey 3115117",
+            "zh-Hans": "DropKey 3115117",
+            "zh-Hant": "DropKey 3115117"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

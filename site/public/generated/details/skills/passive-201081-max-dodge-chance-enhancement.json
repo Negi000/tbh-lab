@@ -3,12 +3,40 @@
   "entityId": "passive-201081",
   "slug": "passive-201081-max-dodge-chance-enhancement",
   "title": {
-    "ja": "最大回避率強化",
-    "en": "Max Dodge Chance Enhancement"
+    "de-DE": "Max. Ausweich-Verstärkung",
+    "en-US": "Max Dodge Chance Enhancement",
+    "es-ES": "Mejora de Esquiva Máx.",
+    "fr-FR": "Amélioration de Esquive Max.",
+    "id-ID": "Peningkatan Peluang Hindar Maks",
+    "ja-JP": "最大回避率強化",
+    "ko-KR": "회피 확률 최대치 강화",
+    "pl-PL": "Wzmocnienie Maks. Unik",
+    "pt-BR": "Aprimoramento de Esquiva Máx.",
+    "ru-RU": "Усиление Макс. уклон.",
+    "th-TH": "เสริมโอกาสหลบสูงสุด",
+    "tr-TR": "Geliştirme Maks. Kaçınma",
+    "uk-UA": "Посилення Макс. ухилян.",
+    "vi-VN": "Tăng cường Tỷ lệ né tối đa",
+    "zh-Hans": "最大闪避强化",
+    "zh-Hant": "最大閃避強化"
   },
   "subtitle": {
-    "ja": "最大回避率 +10%",
-    "en": "Max Dodge Chance +10%"
+    "de-DE": "Max. Ausweich +10%",
+    "en-US": "Max Dodge Chance +10%",
+    "es-ES": "Esquiva Máx. +10%",
+    "fr-FR": "Esquive Max. +10%",
+    "id-ID": "Hindar Maks. +10%",
+    "ja-JP": "最大回避率 +10%",
+    "ko-KR": "회피 확률 최대치 +10%",
+    "pl-PL": "Maks. Unik +10%",
+    "pt-BR": "Esquiva Máx. +10%",
+    "ru-RU": "Макс. уклон. +10%",
+    "th-TH": "หลบสูงสุด +10%",
+    "tr-TR": "Maks. Kaçınma +10%",
+    "uk-UA": "Макс. ухилян. +10%",
+    "vi-VN": "Né Tối Đa +10%",
+    "zh-Hans": "最大闪避 +10%",
+    "zh-Hant": "最大閃避 +10%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "最大回避率強化",
-        "en": "Max Dodge Chance Enhancement"
+        "de-DE": "Max. Ausweich-Verstärkung",
+        "en-US": "Max Dodge Chance Enhancement",
+        "es-ES": "Mejora de Esquiva Máx.",
+        "fr-FR": "Amélioration de Esquive Max.",
+        "id-ID": "Peningkatan Peluang Hindar Maks",
+        "ja-JP": "最大回避率強化",
+        "ko-KR": "회피 확률 최대치 강화",
+        "pl-PL": "Wzmocnienie Maks. Unik",
+        "pt-BR": "Aprimoramento de Esquiva Máx.",
+        "ru-RU": "Усиление Макс. уклон.",
+        "th-TH": "เสริมโอกาสหลบสูงสุด",
+        "tr-TR": "Geliştirme Maks. Kaçınma",
+        "uk-UA": "Посилення Макс. ухилян.",
+        "vi-VN": "Tăng cường Tỷ lệ né tối đa",
+        "zh-Hans": "最大闪避强化",
+        "zh-Hant": "最大閃避強化"
       }
     },
     {

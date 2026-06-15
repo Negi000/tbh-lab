@@ -3,12 +3,40 @@
   "entityId": "410",
   "slug": "410-rune-of-the-shield",
   "title": {
-    "ja": "盾のルーン",
-    "en": "Rune of the Shield"
+    "de-DE": "Schildrune",
+    "en-US": "Rune of the Shield",
+    "es-ES": "Runa del Escudo",
+    "fr-FR": "Rune du Bouclier",
+    "id-ID": "Rune Perisai",
+    "ja-JP": "盾のルーン",
+    "ko-KR": "방패의 룬",
+    "pl-PL": "Runa Tarczy",
+    "pt-BR": "Runa do Escudo",
+    "ru-RU": "Руна щита",
+    "th-TH": "รูนโล่",
+    "tr-TR": "Kalkan Runu",
+    "uk-UA": "Руна щита",
+    "vi-VN": "Rune Khiên",
+    "zh-Hans": "盾之符文",
+    "zh-Hant": "盾之符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AllHeroArmor.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "全ヒーロー防御",
-        "en": "All Hero Armor"
+        "de-DE": "Rüstung aller Helden",
+        "en-US": "All Hero Armor",
+        "es-ES": "Armadura de todos los Héroes",
+        "fr-FR": "Armure de tous les Héros",
+        "id-ID": "Armor Semua Hero",
+        "ja-JP": "全ヒーロー防御",
+        "ko-KR": "전체 히어로 방어력",
+        "pl-PL": "Zbroja wszystkich Bohaterów",
+        "pt-BR": "Armadura de todos os Heróis",
+        "ru-RU": "Броня всех героев",
+        "th-TH": "เกราะฮีโร่ทั้งหมด",
+        "tr-TR": "Tüm Kahramanların Zırhı",
+        "uk-UA": "Броня всіх героїв",
+        "vi-VN": "Giáp Tất Cả Hero",
+        "zh-Hans": "全英雄护甲",
+        "zh-Hant": "全英雄護甲"
       }
     },
     {
@@ -60,23 +102,79 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "戦争のルーン",
-            "en": "Rune of War"
+            "de-DE": "Kriegsrune",
+            "en-US": "Rune of War",
+            "es-ES": "Runa de Guerra",
+            "fr-FR": "Rune de Guerre",
+            "id-ID": "Rune Perang",
+            "ja-JP": "戦争のルーン",
+            "ko-KR": "전쟁의 룬",
+            "pl-PL": "Runa Wojny",
+            "pt-BR": "Runa de Guerra",
+            "ru-RU": "Руна войны",
+            "th-TH": "รูนสงคราม",
+            "tr-TR": "Savaş Runu",
+            "uk-UA": "Руна війни",
+            "vi-VN": "Rune Chiến Tranh",
+            "zh-Hans": "战争符文",
+            "zh-Hant": "戰爭符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "疾風のルーン",
-            "en": "Rune of the Gale"
+            "de-DE": "Sturmrune",
+            "en-US": "Rune of the Gale",
+            "es-ES": "Runa del Vendaval",
+            "fr-FR": "Rune de Rafale",
+            "id-ID": "Rune Angin Puyuh",
+            "ja-JP": "疾風のルーン",
+            "ko-KR": "질풍의 룬",
+            "pl-PL": "Runa Wichru",
+            "pt-BR": "Runa da Tempestade",
+            "ru-RU": "Руна шквала",
+            "th-TH": "รูนพายุ",
+            "tr-TR": "Bora Runu",
+            "uk-UA": "Руна шквалу",
+            "vi-VN": "Rune Cuồng Phong",
+            "zh-Hans": "疾风符文",
+            "zh-Hant": "疾風符文"
           },
           "-"
         ]
@@ -100,56 +198,196 @@
         [
           1,
           {
-            "ja": "全ヒーロー防御 +5",
-            "en": "All Hero Armor +5"
+            "de-DE": "Rüstung aller Helden +5",
+            "en-US": "All Hero Armor +5",
+            "es-ES": "Armadura de todos los Héroes +5",
+            "fr-FR": "Armure de tous les Héros +5",
+            "id-ID": "Armor Semua Hero +5",
+            "ja-JP": "全ヒーロー防御 +5",
+            "ko-KR": "전체 히어로 방어력 +5",
+            "pl-PL": "Zbroja wszystkich Bohaterów +5",
+            "pt-BR": "Armadura de todos os Heróis +5",
+            "ru-RU": "Броня всех героев +5",
+            "th-TH": "เกราะฮีโร่ทั้งหมด +5",
+            "tr-TR": "Tüm Kahramanların Zırhı +5",
+            "uk-UA": "Броня всіх героїв +5",
+            "vi-VN": "Giáp Tất Cả Hero +5",
+            "zh-Hans": "全英雄护甲 +5",
+            "zh-Hant": "全英雄護甲 +5"
           },
           {
-            "ja": "50000 ゴールド",
-            "en": "50000 Gold"
+            "de-DE": "50000 Gold",
+            "en-US": "50000 Gold",
+            "es-ES": "50000 Gold",
+            "fr-FR": "50000 Gold",
+            "id-ID": "50000 Gold",
+            "ja-JP": "50000 ゴールド",
+            "ko-KR": "50000 Gold",
+            "pl-PL": "50000 Gold",
+            "pt-BR": "50000 Gold",
+            "ru-RU": "50000 Gold",
+            "th-TH": "50000 Gold",
+            "tr-TR": "50000 Gold",
+            "uk-UA": "50000 Gold",
+            "vi-VN": "50000 Gold",
+            "zh-Hans": "50000 Gold",
+            "zh-Hant": "50000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "全ヒーロー防御 +5",
-            "en": "All Hero Armor +5"
+            "de-DE": "Rüstung aller Helden +5",
+            "en-US": "All Hero Armor +5",
+            "es-ES": "Armadura de todos los Héroes +5",
+            "fr-FR": "Armure de tous les Héros +5",
+            "id-ID": "Armor Semua Hero +5",
+            "ja-JP": "全ヒーロー防御 +5",
+            "ko-KR": "전체 히어로 방어력 +5",
+            "pl-PL": "Zbroja wszystkich Bohaterów +5",
+            "pt-BR": "Armadura de todos os Heróis +5",
+            "ru-RU": "Броня всех героев +5",
+            "th-TH": "เกราะฮีโร่ทั้งหมด +5",
+            "tr-TR": "Tüm Kahramanların Zırhı +5",
+            "uk-UA": "Броня всіх героїв +5",
+            "vi-VN": "Giáp Tất Cả Hero +5",
+            "zh-Hans": "全英雄护甲 +5",
+            "zh-Hant": "全英雄護甲 +5"
           },
           {
-            "ja": "60000 ゴールド",
-            "en": "60000 Gold"
+            "de-DE": "60000 Gold",
+            "en-US": "60000 Gold",
+            "es-ES": "60000 Gold",
+            "fr-FR": "60000 Gold",
+            "id-ID": "60000 Gold",
+            "ja-JP": "60000 ゴールド",
+            "ko-KR": "60000 Gold",
+            "pl-PL": "60000 Gold",
+            "pt-BR": "60000 Gold",
+            "ru-RU": "60000 Gold",
+            "th-TH": "60000 Gold",
+            "tr-TR": "60000 Gold",
+            "uk-UA": "60000 Gold",
+            "vi-VN": "60000 Gold",
+            "zh-Hans": "60000 Gold",
+            "zh-Hant": "60000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "全ヒーロー防御 +5",
-            "en": "All Hero Armor +5"
+            "de-DE": "Rüstung aller Helden +5",
+            "en-US": "All Hero Armor +5",
+            "es-ES": "Armadura de todos los Héroes +5",
+            "fr-FR": "Armure de tous les Héros +5",
+            "id-ID": "Armor Semua Hero +5",
+            "ja-JP": "全ヒーロー防御 +5",
+            "ko-KR": "전체 히어로 방어력 +5",
+            "pl-PL": "Zbroja wszystkich Bohaterów +5",
+            "pt-BR": "Armadura de todos os Heróis +5",
+            "ru-RU": "Броня всех героев +5",
+            "th-TH": "เกราะฮีโร่ทั้งหมด +5",
+            "tr-TR": "Tüm Kahramanların Zırhı +5",
+            "uk-UA": "Броня всіх героїв +5",
+            "vi-VN": "Giáp Tất Cả Hero +5",
+            "zh-Hans": "全英雄护甲 +5",
+            "zh-Hant": "全英雄護甲 +5"
           },
           {
-            "ja": "70000 ゴールド",
-            "en": "70000 Gold"
+            "de-DE": "70000 Gold",
+            "en-US": "70000 Gold",
+            "es-ES": "70000 Gold",
+            "fr-FR": "70000 Gold",
+            "id-ID": "70000 Gold",
+            "ja-JP": "70000 ゴールド",
+            "ko-KR": "70000 Gold",
+            "pl-PL": "70000 Gold",
+            "pt-BR": "70000 Gold",
+            "ru-RU": "70000 Gold",
+            "th-TH": "70000 Gold",
+            "tr-TR": "70000 Gold",
+            "uk-UA": "70000 Gold",
+            "vi-VN": "70000 Gold",
+            "zh-Hans": "70000 Gold",
+            "zh-Hant": "70000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "全ヒーロー防御 +5",
-            "en": "All Hero Armor +5"
+            "de-DE": "Rüstung aller Helden +5",
+            "en-US": "All Hero Armor +5",
+            "es-ES": "Armadura de todos los Héroes +5",
+            "fr-FR": "Armure de tous les Héros +5",
+            "id-ID": "Armor Semua Hero +5",
+            "ja-JP": "全ヒーロー防御 +5",
+            "ko-KR": "전체 히어로 방어력 +5",
+            "pl-PL": "Zbroja wszystkich Bohaterów +5",
+            "pt-BR": "Armadura de todos os Heróis +5",
+            "ru-RU": "Броня всех героев +5",
+            "th-TH": "เกราะฮีโร่ทั้งหมด +5",
+            "tr-TR": "Tüm Kahramanların Zırhı +5",
+            "uk-UA": "Броня всіх героїв +5",
+            "vi-VN": "Giáp Tất Cả Hero +5",
+            "zh-Hans": "全英雄护甲 +5",
+            "zh-Hant": "全英雄護甲 +5"
           },
           {
-            "ja": "80000 ゴールド",
-            "en": "80000 Gold"
+            "de-DE": "80000 Gold",
+            "en-US": "80000 Gold",
+            "es-ES": "80000 Gold",
+            "fr-FR": "80000 Gold",
+            "id-ID": "80000 Gold",
+            "ja-JP": "80000 ゴールド",
+            "ko-KR": "80000 Gold",
+            "pl-PL": "80000 Gold",
+            "pt-BR": "80000 Gold",
+            "ru-RU": "80000 Gold",
+            "th-TH": "80000 Gold",
+            "tr-TR": "80000 Gold",
+            "uk-UA": "80000 Gold",
+            "vi-VN": "80000 Gold",
+            "zh-Hans": "80000 Gold",
+            "zh-Hant": "80000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "全ヒーロー防御 +5",
-            "en": "All Hero Armor +5"
+            "de-DE": "Rüstung aller Helden +5",
+            "en-US": "All Hero Armor +5",
+            "es-ES": "Armadura de todos los Héroes +5",
+            "fr-FR": "Armure de tous les Héros +5",
+            "id-ID": "Armor Semua Hero +5",
+            "ja-JP": "全ヒーロー防御 +5",
+            "ko-KR": "전체 히어로 방어력 +5",
+            "pl-PL": "Zbroja wszystkich Bohaterów +5",
+            "pt-BR": "Armadura de todos os Heróis +5",
+            "ru-RU": "Броня всех героев +5",
+            "th-TH": "เกราะฮีโร่ทั้งหมด +5",
+            "tr-TR": "Tüm Kahramanların Zırhı +5",
+            "uk-UA": "Броня всіх героїв +5",
+            "vi-VN": "Giáp Tất Cả Hero +5",
+            "zh-Hans": "全英雄护甲 +5",
+            "zh-Hant": "全英雄護甲 +5"
           },
           {
-            "ja": "90000 ゴールド",
-            "en": "90000 Gold"
+            "de-DE": "90000 Gold",
+            "en-US": "90000 Gold",
+            "es-ES": "90000 Gold",
+            "fr-FR": "90000 Gold",
+            "id-ID": "90000 Gold",
+            "ja-JP": "90000 ゴールド",
+            "ko-KR": "90000 Gold",
+            "pl-PL": "90000 Gold",
+            "pt-BR": "90000 Gold",
+            "ru-RU": "90000 Gold",
+            "th-TH": "90000 Gold",
+            "tr-TR": "90000 Gold",
+            "uk-UA": "90000 Gold",
+            "vi-VN": "90000 Gold",
+            "zh-Hans": "90000 Gold",
+            "zh-Hant": "90000 Gold"
           }
         ]
       ]

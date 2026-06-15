@@ -3,12 +3,40 @@
   "entityId": "211",
   "slug": "211-rune-of-wealth",
   "title": {
-    "ja": "富のルーン",
-    "en": "Rune of Wealth"
+    "de-DE": "Reichtumsrune",
+    "en-US": "Rune of Wealth",
+    "es-ES": "Runa de Riqueza",
+    "fr-FR": "Rune de Richesse",
+    "id-ID": "Rune Kekayaan",
+    "ja-JP": "富のルーン",
+    "ko-KR": "재물의 룬",
+    "pl-PL": "Runa Bogactwa",
+    "pt-BR": "Runa da Riqueza",
+    "ru-RU": "Руна богатства",
+    "th-TH": "รูนทรัพย์",
+    "tr-TR": "Servet Runu",
+    "uk-UA": "Руна багатства",
+    "vi-VN": "Rune Tài Lộc",
+    "zh-Hans": "财富符文",
+    "zh-Hant": "財富符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalGoldStageBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ステージボスゴールド",
-        "en": "Gold From Stage Boss"
+        "de-DE": "Gold vom Stage-Boss",
+        "en-US": "Gold From Stage Boss",
+        "es-ES": "Oro del jefe de etapa",
+        "fr-FR": "Or du boss d'étape",
+        "id-ID": "Emas dari Boss Panggung",
+        "ja-JP": "ステージボスゴールド",
+        "ko-KR": "스테이지 보스 처치 시 골드 획득량",
+        "pl-PL": "Złoto od bossa etapu",
+        "pt-BR": "Ouro do chefe de fase",
+        "ru-RU": "Золото с босса стадии",
+        "th-TH": "ทองจากบอสด่าน",
+        "tr-TR": "Aşama Bossundan Altın",
+        "uk-UA": "Золото з боса етапу",
+        "vi-VN": "Vàng từ Boss Tầng",
+        "zh-Hans": "关卡首领金币",
+        "zh-Hant": "關卡首領金幣"
       }
     },
     {
@@ -60,23 +102,79 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "富のルーン",
-            "en": "Rune of Wealth"
+            "de-DE": "Reichtumsrune",
+            "en-US": "Rune of Wealth",
+            "es-ES": "Runa de Riqueza",
+            "fr-FR": "Rune de Richesse",
+            "id-ID": "Rune Kekayaan",
+            "ja-JP": "富のルーン",
+            "ko-KR": "재물의 룬",
+            "pl-PL": "Runa Bogactwa",
+            "pt-BR": "Runa da Riqueza",
+            "ru-RU": "Руна богатства",
+            "th-TH": "รูนทรัพย์",
+            "tr-TR": "Servet Runu",
+            "uk-UA": "Руна багатства",
+            "vi-VN": "Rune Tài Lộc",
+            "zh-Hans": "财富符文",
+            "zh-Hant": "財富符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "富のルーン",
-            "en": "Rune of Wealth"
+            "de-DE": "Reichtumsrune",
+            "en-US": "Rune of Wealth",
+            "es-ES": "Runa de Riqueza",
+            "fr-FR": "Rune de Richesse",
+            "id-ID": "Rune Kekayaan",
+            "ja-JP": "富のルーン",
+            "ko-KR": "재물의 룬",
+            "pl-PL": "Runa Bogactwa",
+            "pt-BR": "Runa da Riqueza",
+            "ru-RU": "Руна богатства",
+            "th-TH": "รูนทรัพย์",
+            "tr-TR": "Servet Runu",
+            "uk-UA": "Руна багатства",
+            "vi-VN": "Rune Tài Lộc",
+            "zh-Hans": "财富符文",
+            "zh-Hant": "財富符文"
           },
           "-"
         ]
@@ -100,56 +198,196 @@
         [
           1,
           {
-            "ja": "ステージボスゴールド +1000",
-            "en": "Gold From Stage Boss Kill +1000"
+            "de-DE": "Gold vom Stage-Boss +1000",
+            "en-US": "Gold From Stage Boss Kill +1000",
+            "es-ES": "Oro del jefe de etapa +1000",
+            "fr-FR": "Or du boss d'étape +1000",
+            "id-ID": "Emas dari Boss Panggung +1000",
+            "ja-JP": "ステージボスゴールド +1000",
+            "ko-KR": "스테이지 보스 처치 시 골드 획득량 +1000",
+            "pl-PL": "Złoto od bossa etapu +1000",
+            "pt-BR": "Ouro do chefe de fase +1000",
+            "ru-RU": "Золото с босса стадии +1000",
+            "th-TH": "ทองจากบอสด่าน +1000",
+            "tr-TR": "Aşama Bossundan Altın +1000",
+            "uk-UA": "Золото з боса етапу +1000",
+            "vi-VN": "Vàng từ Boss Tầng +1000",
+            "zh-Hans": "关卡首领金币 +1000",
+            "zh-Hant": "關卡首領金幣 +1000"
           },
           {
-            "ja": "700000 ゴールド",
-            "en": "700000 Gold"
+            "de-DE": "700000 Gold",
+            "en-US": "700000 Gold",
+            "es-ES": "700000 Gold",
+            "fr-FR": "700000 Gold",
+            "id-ID": "700000 Gold",
+            "ja-JP": "700000 ゴールド",
+            "ko-KR": "700000 Gold",
+            "pl-PL": "700000 Gold",
+            "pt-BR": "700000 Gold",
+            "ru-RU": "700000 Gold",
+            "th-TH": "700000 Gold",
+            "tr-TR": "700000 Gold",
+            "uk-UA": "700000 Gold",
+            "vi-VN": "700000 Gold",
+            "zh-Hans": "700000 Gold",
+            "zh-Hant": "700000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "ステージボスゴールド +1000",
-            "en": "Gold From Stage Boss Kill +1000"
+            "de-DE": "Gold vom Stage-Boss +1000",
+            "en-US": "Gold From Stage Boss Kill +1000",
+            "es-ES": "Oro del jefe de etapa +1000",
+            "fr-FR": "Or du boss d'étape +1000",
+            "id-ID": "Emas dari Boss Panggung +1000",
+            "ja-JP": "ステージボスゴールド +1000",
+            "ko-KR": "스테이지 보스 처치 시 골드 획득량 +1000",
+            "pl-PL": "Złoto od bossa etapu +1000",
+            "pt-BR": "Ouro do chefe de fase +1000",
+            "ru-RU": "Золото с босса стадии +1000",
+            "th-TH": "ทองจากบอสด่าน +1000",
+            "tr-TR": "Aşama Bossundan Altın +1000",
+            "uk-UA": "Золото з боса етапу +1000",
+            "vi-VN": "Vàng từ Boss Tầng +1000",
+            "zh-Hans": "关卡首领金币 +1000",
+            "zh-Hant": "關卡首領金幣 +1000"
           },
           {
-            "ja": "750000 ゴールド",
-            "en": "750000 Gold"
+            "de-DE": "750000 Gold",
+            "en-US": "750000 Gold",
+            "es-ES": "750000 Gold",
+            "fr-FR": "750000 Gold",
+            "id-ID": "750000 Gold",
+            "ja-JP": "750000 ゴールド",
+            "ko-KR": "750000 Gold",
+            "pl-PL": "750000 Gold",
+            "pt-BR": "750000 Gold",
+            "ru-RU": "750000 Gold",
+            "th-TH": "750000 Gold",
+            "tr-TR": "750000 Gold",
+            "uk-UA": "750000 Gold",
+            "vi-VN": "750000 Gold",
+            "zh-Hans": "750000 Gold",
+            "zh-Hant": "750000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "ステージボスゴールド +1000",
-            "en": "Gold From Stage Boss Kill +1000"
+            "de-DE": "Gold vom Stage-Boss +1000",
+            "en-US": "Gold From Stage Boss Kill +1000",
+            "es-ES": "Oro del jefe de etapa +1000",
+            "fr-FR": "Or du boss d'étape +1000",
+            "id-ID": "Emas dari Boss Panggung +1000",
+            "ja-JP": "ステージボスゴールド +1000",
+            "ko-KR": "스테이지 보스 처치 시 골드 획득량 +1000",
+            "pl-PL": "Złoto od bossa etapu +1000",
+            "pt-BR": "Ouro do chefe de fase +1000",
+            "ru-RU": "Золото с босса стадии +1000",
+            "th-TH": "ทองจากบอสด่าน +1000",
+            "tr-TR": "Aşama Bossundan Altın +1000",
+            "uk-UA": "Золото з боса етапу +1000",
+            "vi-VN": "Vàng từ Boss Tầng +1000",
+            "zh-Hans": "关卡首领金币 +1000",
+            "zh-Hant": "關卡首領金幣 +1000"
           },
           {
-            "ja": "850000 ゴールド",
-            "en": "850000 Gold"
+            "de-DE": "850000 Gold",
+            "en-US": "850000 Gold",
+            "es-ES": "850000 Gold",
+            "fr-FR": "850000 Gold",
+            "id-ID": "850000 Gold",
+            "ja-JP": "850000 ゴールド",
+            "ko-KR": "850000 Gold",
+            "pl-PL": "850000 Gold",
+            "pt-BR": "850000 Gold",
+            "ru-RU": "850000 Gold",
+            "th-TH": "850000 Gold",
+            "tr-TR": "850000 Gold",
+            "uk-UA": "850000 Gold",
+            "vi-VN": "850000 Gold",
+            "zh-Hans": "850000 Gold",
+            "zh-Hant": "850000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "ステージボスゴールド +1000",
-            "en": "Gold From Stage Boss Kill +1000"
+            "de-DE": "Gold vom Stage-Boss +1000",
+            "en-US": "Gold From Stage Boss Kill +1000",
+            "es-ES": "Oro del jefe de etapa +1000",
+            "fr-FR": "Or du boss d'étape +1000",
+            "id-ID": "Emas dari Boss Panggung +1000",
+            "ja-JP": "ステージボスゴールド +1000",
+            "ko-KR": "스테이지 보스 처치 시 골드 획득량 +1000",
+            "pl-PL": "Złoto od bossa etapu +1000",
+            "pt-BR": "Ouro do chefe de fase +1000",
+            "ru-RU": "Золото с босса стадии +1000",
+            "th-TH": "ทองจากบอสด่าน +1000",
+            "tr-TR": "Aşama Bossundan Altın +1000",
+            "uk-UA": "Золото з боса етапу +1000",
+            "vi-VN": "Vàng từ Boss Tầng +1000",
+            "zh-Hans": "关卡首领金币 +1000",
+            "zh-Hant": "關卡首領金幣 +1000"
           },
           {
-            "ja": "900000 ゴールド",
-            "en": "900000 Gold"
+            "de-DE": "900000 Gold",
+            "en-US": "900000 Gold",
+            "es-ES": "900000 Gold",
+            "fr-FR": "900000 Gold",
+            "id-ID": "900000 Gold",
+            "ja-JP": "900000 ゴールド",
+            "ko-KR": "900000 Gold",
+            "pl-PL": "900000 Gold",
+            "pt-BR": "900000 Gold",
+            "ru-RU": "900000 Gold",
+            "th-TH": "900000 Gold",
+            "tr-TR": "900000 Gold",
+            "uk-UA": "900000 Gold",
+            "vi-VN": "900000 Gold",
+            "zh-Hans": "900000 Gold",
+            "zh-Hant": "900000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "ステージボスゴールド +1000",
-            "en": "Gold From Stage Boss Kill +1000"
+            "de-DE": "Gold vom Stage-Boss +1000",
+            "en-US": "Gold From Stage Boss Kill +1000",
+            "es-ES": "Oro del jefe de etapa +1000",
+            "fr-FR": "Or du boss d'étape +1000",
+            "id-ID": "Emas dari Boss Panggung +1000",
+            "ja-JP": "ステージボスゴールド +1000",
+            "ko-KR": "스테이지 보스 처치 시 골드 획득량 +1000",
+            "pl-PL": "Złoto od bossa etapu +1000",
+            "pt-BR": "Ouro do chefe de fase +1000",
+            "ru-RU": "Золото с босса стадии +1000",
+            "th-TH": "ทองจากบอสด่าน +1000",
+            "tr-TR": "Aşama Bossundan Altın +1000",
+            "uk-UA": "Золото з боса етапу +1000",
+            "vi-VN": "Vàng từ Boss Tầng +1000",
+            "zh-Hans": "关卡首领金币 +1000",
+            "zh-Hant": "關卡首領金幣 +1000"
           },
           {
-            "ja": "950000 ゴールド",
-            "en": "950000 Gold"
+            "de-DE": "950000 Gold",
+            "en-US": "950000 Gold",
+            "es-ES": "950000 Gold",
+            "fr-FR": "950000 Gold",
+            "id-ID": "950000 Gold",
+            "ja-JP": "950000 ゴールド",
+            "ko-KR": "950000 Gold",
+            "pl-PL": "950000 Gold",
+            "pt-BR": "950000 Gold",
+            "ru-RU": "950000 Gold",
+            "th-TH": "950000 Gold",
+            "tr-TR": "950000 Gold",
+            "uk-UA": "950000 Gold",
+            "vi-VN": "950000 Gold",
+            "zh-Hans": "950000 Gold",
+            "zh-Hant": "950000 Gold"
           }
         ]
       ]

@@ -3,12 +3,40 @@
   "entityId": "20201",
   "slug": "20201-scatter-shot",
   "title": {
-    "ja": "散弾射撃",
-    "en": "Scatter Shot"
+    "de-DE": "Streuschuss",
+    "en-US": "Scatter Shot",
+    "es-ES": "Tiro Disperso",
+    "fr-FR": "Tir Dispersé",
+    "id-ID": "Tembakan Sebar",
+    "ja-JP": "散弾射撃",
+    "ko-KR": "분산 사격",
+    "pl-PL": "Strzał Rozpryskowy",
+    "pt-BR": "Tiro Disperso",
+    "ru-RU": "Разрывной выстрел",
+    "th-TH": "ยิงกระจาย",
+    "tr-TR": "Saçma Atışı",
+    "uk-UA": "Розсіяний постріл",
+    "vi-VN": "Bắn Phân Tán",
+    "zh-Hans": "散弹射击",
+    "zh-Hant": "散彈射擊"
   },
   "subtitle": {
-    "en": "Skill / Cooldown",
-    "ja": "スキル / クールダウン"
+    "de-DE": "Skill / Cooldown",
+    "en-US": "Skill / Cooldown",
+    "es-ES": "Skill / Cooldown",
+    "fr-FR": "Skill / Cooldown",
+    "id-ID": "Skill / Cooldown",
+    "ja-JP": "スキル / クールダウン",
+    "ko-KR": "Skill / Cooldown",
+    "pl-PL": "Skill / Cooldown",
+    "pt-BR": "Skill / Cooldown",
+    "ru-RU": "Skill / Cooldown",
+    "th-TH": "Skill / Cooldown",
+    "tr-TR": "Skill / Cooldown",
+    "uk-UA": "Skill / Cooldown",
+    "vi-VN": "Skill / Cooldown",
+    "zh-Hans": "Skill / Cooldown",
+    "zh-Hant": "Skill / Cooldown"
   },
   "icon": "/generated/assets/game/skills/Skill_20201.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "クールダウン",
-        "en": "Cooldown"
+        "de-DE": "Cooldown",
+        "en-US": "Cooldown",
+        "es-ES": "Cooldown",
+        "fr-FR": "Cooldown",
+        "id-ID": "Cooldown",
+        "ja-JP": "クールダウン",
+        "ko-KR": "Cooldown",
+        "pl-PL": "Cooldown",
+        "pt-BR": "Cooldown",
+        "ru-RU": "Cooldown",
+        "th-TH": "Cooldown",
+        "tr-TR": "Cooldown",
+        "uk-UA": "Cooldown",
+        "vi-VN": "Cooldown",
+        "zh-Hans": "Cooldown",
+        "zh-Hant": "Cooldown"
       }
     },
     {

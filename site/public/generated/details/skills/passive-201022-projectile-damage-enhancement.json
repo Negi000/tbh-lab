@@ -3,12 +3,40 @@
   "entityId": "passive-201022",
   "slug": "passive-201022-projectile-damage-enhancement",
   "title": {
-    "ja": "投射物ダメージ強化",
-    "en": "Projectile Damage Enhancement"
+    "de-DE": "Projektilschaden-Verstärkung",
+    "en-US": "Projectile Damage Enhancement",
+    "es-ES": "Mejora de Daño de Proyectil",
+    "fr-FR": "Amélioration des Dégâts de Projectile",
+    "id-ID": "Peningkatan Kerusakan Proyektil",
+    "ja-JP": "投射物ダメージ強化",
+    "ko-KR": "투사체 피해 강화",
+    "pl-PL": "Wzmocnienie Obrażeń Pocisków",
+    "pt-BR": "Aprimoramento de Dano de Projétil",
+    "ru-RU": "Усиление урона снарядов",
+    "th-TH": "เสริมความเสียหายกระสุน",
+    "tr-TR": "Mermi Hasarı Geliştirme",
+    "uk-UA": "Посилення шкоди снарядів",
+    "vi-VN": "Tăng cường Sát thương Đạn",
+    "zh-Hans": "投射物伤害强化",
+    "zh-Hant": "投射物傷害強化"
   },
   "subtitle": {
-    "ja": "投射物ダメージ150%増加",
-    "en": "150% Increased Projectile Damage"
+    "de-DE": "150% erhöhter Projektilschaden",
+    "en-US": "150% Increased Projectile Damage",
+    "es-ES": "150% Aumento Daño de Proyectil",
+    "fr-FR": "150% Dégâts de Projectile augmenté(e)s",
+    "id-ID": "150% Peningkatan Damage Proyektil",
+    "ja-JP": "投射物ダメージ150%増加",
+    "ko-KR": "투사체 피해 150% 증가",
+    "pl-PL": "150% zwiększenia obrażeń pocisków",
+    "pt-BR": "150% Aumento Dano de Projétil",
+    "ru-RU": "150% увеличения урона снарядов",
+    "th-TH": "ความเสียหายกระสุนเพิ่ม 150%",
+    "tr-TR": "%150 Artan Mermi Hasarı",
+    "uk-UA": "150% збільшення шкоди снарядів",
+    "vi-VN": "Tăng 150% Sát thương Đạn",
+    "zh-Hans": "投射物伤害提高150%",
+    "zh-Hant": "投射物傷害提高150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "投射物ダメージ増加",
-        "en": "Increase Projectile Damage"
+        "de-DE": "Geschossschaden erhöhen",
+        "en-US": "Increase Projectile Damage",
+        "es-ES": "Aumentar Daño de Proyectil",
+        "fr-FR": "Augmenter les Dégâts de Projectile",
+        "id-ID": "Tingkatkan Damage Projektil",
+        "ja-JP": "投射物ダメージ増加",
+        "ko-KR": "투사체 공격 데미지 증가",
+        "pl-PL": "Zwiększ Obrażenia Pocisków",
+        "pt-BR": "Aumentar Dano de Projétil",
+        "ru-RU": "Увеличить урон снарядов",
+        "th-TH": "เพิ่มดาเมจขีปนาวุธ",
+        "tr-TR": "Mermi Hasarını Artır",
+        "uk-UA": "Збільшити шкоду снарядів",
+        "vi-VN": "Tăng Sát Thương Đạn",
+        "zh-Hans": "增加投射物伤害",
+        "zh-Hant": "增加投射物傷害"
       }
     },
     {

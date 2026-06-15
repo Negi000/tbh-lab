@@ -2,7 +2,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://community.fastly.steamstatic.com data:; connect-src 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagservices.com https://storage.ko-fi.com https://ofuse.me; style-src 'self' 'unsafe-inline'; img-src 'self' https://community.fastly.steamstatic.com https://*.googlesyndication.com https://*.doubleclick.net https://storage.ko-fi.com https://ofuse.me data:; connect-src 'self' https://*.googlesyndication.com https://*.doubleclick.net https://www.google.com; frame-src 'self' https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://*.googlesyndication.com https://www.google.com https://ofuse.me; frame-ancestors 'none'
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable

@@ -3,12 +3,40 @@
   "entityId": "1005",
   "slug": "1005-dark-spirit",
   "title": {
-    "ja": "闇の精霊",
-    "en": "Dark Spirit"
+    "de-DE": "Dunkler Geist",
+    "en-US": "Dark Spirit",
+    "es-ES": "Espíritu Oscuro",
+    "fr-FR": "Esprit Sombre",
+    "id-ID": "Roh Kegelapan",
+    "ja-JP": "闇の精霊",
+    "ko-KR": "검은 정령",
+    "pl-PL": "Mroczny Duch",
+    "pt-BR": "Espírito Sombrio",
+    "ru-RU": "Тёмный дух",
+    "th-TH": "วิญญาณมืด",
+    "tr-TR": "Kara Ruh",
+    "uk-UA": "Темний дух",
+    "vi-VN": "Linh Hồn Bóng Tối",
+    "zh-Hans": "黑暗精灵",
+    "zh-Hant": "黑暗精靈"
   },
   "subtitle": {
-    "ja": "KillMonster 幽霊",
-    "en": "KillMonster Ghost"
+    "de-DE": "KillMonster Ghost",
+    "en-US": "KillMonster Ghost",
+    "es-ES": "KillMonster Ghost",
+    "fr-FR": "KillMonster Ghost",
+    "id-ID": "KillMonster Ghost",
+    "ja-JP": "KillMonster 幽霊",
+    "ko-KR": "KillMonster Ghost",
+    "pl-PL": "KillMonster Ghost",
+    "pt-BR": "KillMonster Ghost",
+    "ru-RU": "KillMonster Ghost",
+    "th-TH": "KillMonster Ghost",
+    "tr-TR": "KillMonster Ghost",
+    "uk-UA": "KillMonster Ghost",
+    "vi-VN": "KillMonster Ghost",
+    "zh-Hans": "KillMonster Ghost",
+    "zh-Hant": "KillMonster Ghost"
   },
   "icon": "/generated/assets/game/ui/BG_Pet.png",
   "rarity": "RARE",
@@ -31,8 +59,22 @@
     {
       "labelKey": "field.name",
       "value": {
-        "ja": "幽霊",
-        "en": "Ghost"
+        "de-DE": "Geist",
+        "en-US": "Ghost",
+        "es-ES": "Fantasma",
+        "fr-FR": "Fantôme",
+        "id-ID": "Hantu",
+        "ja-JP": "幽霊",
+        "ko-KR": "유령",
+        "pl-PL": "Duch",
+        "pt-BR": "Fantasma",
+        "ru-RU": "Призрак",
+        "th-TH": "ผี",
+        "tr-TR": "Hayalet",
+        "uk-UA": "Привид",
+        "vi-VN": "Ma",
+        "zh-Hans": "幽灵",
+        "zh-Hant": "幽靈"
       }
     }
   ],
@@ -87,8 +129,22 @@
       "rows": [
         [
           {
-            "ja": "ノーマル 3-4",
-            "en": "Normal 3-4"
+            "de-DE": "Normal 3-4",
+            "en-US": "Normal 3-4",
+            "es-ES": "Normal 3-4",
+            "fr-FR": "Normal 3-4",
+            "id-ID": "Normal 3-4",
+            "ja-JP": "ノーマル 3-4",
+            "ko-KR": "Normal 3-4",
+            "pl-PL": "Normal 3-4",
+            "pt-BR": "Normal 3-4",
+            "ru-RU": "Normal 3-4",
+            "th-TH": "Normal 3-4",
+            "tr-TR": "Normal 3-4",
+            "uk-UA": "Normal 3-4",
+            "vi-VN": "Normal 3-4",
+            "zh-Hans": "Normal 3-4",
+            "zh-Hant": "Normal 3-4"
           },
           "24.39%",
           26,
@@ -96,8 +152,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 3-4",
-            "en": "Nightmare 3-4"
+            "de-DE": "Nightmare 3-4",
+            "en-US": "Nightmare 3-4",
+            "es-ES": "Nightmare 3-4",
+            "fr-FR": "Nightmare 3-4",
+            "id-ID": "Nightmare 3-4",
+            "ja-JP": "ナイトメア 3-4",
+            "ko-KR": "Nightmare 3-4",
+            "pl-PL": "Nightmare 3-4",
+            "pt-BR": "Nightmare 3-4",
+            "ru-RU": "Nightmare 3-4",
+            "th-TH": "Nightmare 3-4",
+            "tr-TR": "Nightmare 3-4",
+            "uk-UA": "Nightmare 3-4",
+            "vi-VN": "Nightmare 3-4",
+            "zh-Hans": "Nightmare 3-4",
+            "zh-Hant": "Nightmare 3-4"
           },
           "22.73%",
           49,
@@ -105,8 +175,22 @@
         ],
         [
           {
-            "ja": "ヘル 3-4",
-            "en": "Hell 3-4"
+            "de-DE": "Hell 3-4",
+            "en-US": "Hell 3-4",
+            "es-ES": "Hell 3-4",
+            "fr-FR": "Hell 3-4",
+            "id-ID": "Hell 3-4",
+            "ja-JP": "ヘル 3-4",
+            "ko-KR": "Hell 3-4",
+            "pl-PL": "Hell 3-4",
+            "pt-BR": "Hell 3-4",
+            "ru-RU": "Hell 3-4",
+            "th-TH": "Hell 3-4",
+            "tr-TR": "Hell 3-4",
+            "uk-UA": "Hell 3-4",
+            "vi-VN": "Hell 3-4",
+            "zh-Hans": "Hell 3-4",
+            "zh-Hant": "Hell 3-4"
           },
           "21.74%",
           73,
@@ -114,8 +198,22 @@
         ],
         [
           {
-            "ja": "トーメント 3-4",
-            "en": "Torment 3-4"
+            "de-DE": "Torment 3-4",
+            "en-US": "Torment 3-4",
+            "es-ES": "Torment 3-4",
+            "fr-FR": "Torment 3-4",
+            "id-ID": "Torment 3-4",
+            "ja-JP": "トーメント 3-4",
+            "ko-KR": "Torment 3-4",
+            "pl-PL": "Torment 3-4",
+            "pt-BR": "Torment 3-4",
+            "ru-RU": "Torment 3-4",
+            "th-TH": "Torment 3-4",
+            "tr-TR": "Torment 3-4",
+            "uk-UA": "Torment 3-4",
+            "vi-VN": "Torment 3-4",
+            "zh-Hans": "Torment 3-4",
+            "zh-Hant": "Torment 3-4"
           },
           "21.74%",
           92,
@@ -123,8 +221,22 @@
         ],
         [
           {
-            "ja": "ノーマル 3-8",
-            "en": "Normal 3-8"
+            "de-DE": "Normal 3-8",
+            "en-US": "Normal 3-8",
+            "es-ES": "Normal 3-8",
+            "fr-FR": "Normal 3-8",
+            "id-ID": "Normal 3-8",
+            "ja-JP": "ノーマル 3-8",
+            "ko-KR": "Normal 3-8",
+            "pl-PL": "Normal 3-8",
+            "pt-BR": "Normal 3-8",
+            "ru-RU": "Normal 3-8",
+            "th-TH": "Normal 3-8",
+            "tr-TR": "Normal 3-8",
+            "uk-UA": "Normal 3-8",
+            "vi-VN": "Normal 3-8",
+            "zh-Hans": "Normal 3-8",
+            "zh-Hant": "Normal 3-8"
           },
           "19.61%",
           30,
@@ -132,8 +244,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 3-9",
-            "en": "Nightmare 3-9"
+            "de-DE": "Nightmare 3-9",
+            "en-US": "Nightmare 3-9",
+            "es-ES": "Nightmare 3-9",
+            "fr-FR": "Nightmare 3-9",
+            "id-ID": "Nightmare 3-9",
+            "ja-JP": "ナイトメア 3-9",
+            "ko-KR": "Nightmare 3-9",
+            "pl-PL": "Nightmare 3-9",
+            "pt-BR": "Nightmare 3-9",
+            "ru-RU": "Nightmare 3-9",
+            "th-TH": "Nightmare 3-9",
+            "tr-TR": "Nightmare 3-9",
+            "uk-UA": "Nightmare 3-9",
+            "vi-VN": "Nightmare 3-9",
+            "zh-Hans": "Nightmare 3-9",
+            "zh-Hant": "Nightmare 3-9"
           },
           "18.42%",
           52,
@@ -141,8 +267,22 @@
         ],
         [
           {
-            "ja": "ノーマル 3-5",
-            "en": "Normal 3-5"
+            "de-DE": "Normal 3-5",
+            "en-US": "Normal 3-5",
+            "es-ES": "Normal 3-5",
+            "fr-FR": "Normal 3-5",
+            "id-ID": "Normal 3-5",
+            "ja-JP": "ノーマル 3-5",
+            "ko-KR": "Normal 3-5",
+            "pl-PL": "Normal 3-5",
+            "pt-BR": "Normal 3-5",
+            "ru-RU": "Normal 3-5",
+            "th-TH": "Normal 3-5",
+            "tr-TR": "Normal 3-5",
+            "uk-UA": "Normal 3-5",
+            "vi-VN": "Normal 3-5",
+            "zh-Hans": "Normal 3-5",
+            "zh-Hant": "Normal 3-5"
           },
           "17.5%",
           27,
@@ -150,8 +290,22 @@
         ],
         [
           {
-            "ja": "ノーマル 3-9",
-            "en": "Normal 3-9"
+            "de-DE": "Normal 3-9",
+            "en-US": "Normal 3-9",
+            "es-ES": "Normal 3-9",
+            "fr-FR": "Normal 3-9",
+            "id-ID": "Normal 3-9",
+            "ja-JP": "ノーマル 3-9",
+            "ko-KR": "Normal 3-9",
+            "pl-PL": "Normal 3-9",
+            "pt-BR": "Normal 3-9",
+            "ru-RU": "Normal 3-9",
+            "th-TH": "Normal 3-9",
+            "tr-TR": "Normal 3-9",
+            "uk-UA": "Normal 3-9",
+            "vi-VN": "Normal 3-9",
+            "zh-Hans": "Normal 3-9",
+            "zh-Hant": "Normal 3-9"
           },
           "16.67%",
           31,
@@ -159,8 +313,22 @@
         ],
         [
           {
-            "ja": "ヘル 3-9",
-            "en": "Hell 3-9"
+            "de-DE": "Hell 3-9",
+            "en-US": "Hell 3-9",
+            "es-ES": "Hell 3-9",
+            "fr-FR": "Hell 3-9",
+            "id-ID": "Hell 3-9",
+            "ja-JP": "ヘル 3-9",
+            "ko-KR": "Hell 3-9",
+            "pl-PL": "Hell 3-9",
+            "pt-BR": "Hell 3-9",
+            "ru-RU": "Hell 3-9",
+            "th-TH": "Hell 3-9",
+            "tr-TR": "Hell 3-9",
+            "uk-UA": "Hell 3-9",
+            "vi-VN": "Hell 3-9",
+            "zh-Hans": "Hell 3-9",
+            "zh-Hant": "Hell 3-9"
           },
           "16.28%",
           77,
@@ -168,8 +336,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 3-5",
-            "en": "Nightmare 3-5"
+            "de-DE": "Nightmare 3-5",
+            "en-US": "Nightmare 3-5",
+            "es-ES": "Nightmare 3-5",
+            "fr-FR": "Nightmare 3-5",
+            "id-ID": "Nightmare 3-5",
+            "ja-JP": "ナイトメア 3-5",
+            "ko-KR": "Nightmare 3-5",
+            "pl-PL": "Nightmare 3-5",
+            "pt-BR": "Nightmare 3-5",
+            "ru-RU": "Nightmare 3-5",
+            "th-TH": "Nightmare 3-5",
+            "tr-TR": "Nightmare 3-5",
+            "uk-UA": "Nightmare 3-5",
+            "vi-VN": "Nightmare 3-5",
+            "zh-Hans": "Nightmare 3-5",
+            "zh-Hant": "Nightmare 3-5"
           },
           "14.89%",
           50,
@@ -177,8 +359,22 @@
         ],
         [
           {
-            "ja": "ヘル 3-5",
-            "en": "Hell 3-5"
+            "de-DE": "Hell 3-5",
+            "en-US": "Hell 3-5",
+            "es-ES": "Hell 3-5",
+            "fr-FR": "Hell 3-5",
+            "id-ID": "Hell 3-5",
+            "ja-JP": "ヘル 3-5",
+            "ko-KR": "Hell 3-5",
+            "pl-PL": "Hell 3-5",
+            "pt-BR": "Hell 3-5",
+            "ru-RU": "Hell 3-5",
+            "th-TH": "Hell 3-5",
+            "tr-TR": "Hell 3-5",
+            "uk-UA": "Hell 3-5",
+            "vi-VN": "Hell 3-5",
+            "zh-Hans": "Hell 3-5",
+            "zh-Hant": "Hell 3-5"
           },
           "14.29%",
           74,
@@ -186,8 +382,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 3-8",
-            "en": "Nightmare 3-8"
+            "de-DE": "Nightmare 3-8",
+            "en-US": "Nightmare 3-8",
+            "es-ES": "Nightmare 3-8",
+            "fr-FR": "Nightmare 3-8",
+            "id-ID": "Nightmare 3-8",
+            "ja-JP": "ナイトメア 3-8",
+            "ko-KR": "Nightmare 3-8",
+            "pl-PL": "Nightmare 3-8",
+            "pt-BR": "Nightmare 3-8",
+            "ru-RU": "Nightmare 3-8",
+            "th-TH": "Nightmare 3-8",
+            "tr-TR": "Nightmare 3-8",
+            "uk-UA": "Nightmare 3-8",
+            "vi-VN": "Nightmare 3-8",
+            "zh-Hans": "Nightmare 3-8",
+            "zh-Hant": "Nightmare 3-8"
           },
           "13.89%",
           51,

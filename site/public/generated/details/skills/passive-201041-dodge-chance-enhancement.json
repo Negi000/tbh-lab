@@ -3,12 +3,40 @@
   "entityId": "passive-201041",
   "slug": "passive-201041-dodge-chance-enhancement",
   "title": {
-    "ja": "回避率強化",
-    "en": "Dodge Chance Enhancement"
+    "de-DE": "Ausweichchance-Verstärkung",
+    "en-US": "Dodge Chance Enhancement",
+    "es-ES": "Mejora de Prob. Esquiva",
+    "fr-FR": "Amélioration de Chance d'Esquive",
+    "id-ID": "Peningkatan Peluang Hindar",
+    "ja-JP": "回避率強化",
+    "ko-KR": "회피 확률 강화",
+    "pl-PL": "Wzmocnienie Szansa Uniku",
+    "pt-BR": "Aprimoramento de Chance de Esquiva",
+    "ru-RU": "Усиление Шанс уклон.",
+    "th-TH": "เสริมโอกาสหลบ",
+    "tr-TR": "Geliştirme Kaçınma Şansı",
+    "uk-UA": "Посилення Шанс ухиляння",
+    "vi-VN": "Tăng cường Tỷ lệ né",
+    "zh-Hans": "闪避几率强化",
+    "zh-Hant": "閃避機率強化"
   },
   "subtitle": {
-    "ja": "属性回避 +30%",
-    "en": "Elemental Dodge Chance +30%"
+    "de-DE": "Element. Ausweich +30%",
+    "en-US": "Elemental Dodge Chance +30%",
+    "es-ES": "Esq. Elemental +30%",
+    "fr-FR": "Esq. Élémentaire +30%",
+    "id-ID": "Hindar Elemen +30%",
+    "ja-JP": "属性回避 +30%",
+    "ko-KR": "원소 회피 확률 +30%",
+    "pl-PL": "Unik Żywioł. +30%",
+    "pt-BR": "Esquiva Elemental +30%",
+    "ru-RU": "Элем. уклон. +30%",
+    "th-TH": "หลบธาตุ +30%",
+    "tr-TR": "Element Kaçınma +30%",
+    "uk-UA": "Елем. ухиляння +30%",
+    "vi-VN": "Né Nguyên Tố +30%",
+    "zh-Hans": "元素闪避 +30%",
+    "zh-Hant": "元素閃避 +30%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "Elemental Dodge Chance",
-        "en": "Elemental Dodge Chance"
+        "de-DE": "Elemental Dodge Chance",
+        "en-US": "Elemental Dodge Chance",
+        "es-ES": "Elemental Dodge Chance",
+        "fr-FR": "Elemental Dodge Chance",
+        "id-ID": "Elemental Dodge Chance",
+        "ja-JP": "Elemental Dodge Chance",
+        "ko-KR": "Elemental Dodge Chance",
+        "pl-PL": "Elemental Dodge Chance",
+        "pt-BR": "Elemental Dodge Chance",
+        "ru-RU": "Elemental Dodge Chance",
+        "th-TH": "Elemental Dodge Chance",
+        "tr-TR": "Elemental Dodge Chance",
+        "uk-UA": "Elemental Dodge Chance",
+        "vi-VN": "Elemental Dodge Chance",
+        "zh-Hans": "Elemental Dodge Chance",
+        "zh-Hant": "Elemental Dodge Chance"
       }
     },
     {

@@ -1,0 +1,1932 @@
+{
+  "category": {
+    "id": "monsters",
+    "titleKey": "category.monsters.title",
+    "descriptionKey": "category.monsters.description",
+    "count": 61,
+    "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/{locale}/monsters.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "gold",
+      "labelKey": "field.gold"
+    },
+    {
+      "key": "exp",
+      "labelKey": "field.exp"
+    },
+    {
+      "key": "maxHp",
+      "labelKey": "field.maxHp"
+    }
+  ],
+  "filters": [
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "MONSTER"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "monsters",
+      "entityId": "10011",
+      "slug": "10011-slime",
+      "title": {
+        "id-ID": "Slime"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "10",
+        "attackDamage": "10",
+        "maxHp": "50",
+        "stages": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10011-slime.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10021",
+      "slug": "10021-goblin",
+      "title": {
+        "id-ID": "Goblin"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "12",
+        "exp": "12",
+        "attackDamage": "15",
+        "maxHp": "35",
+        "stages": "20"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10021-goblin.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10022",
+      "slug": "10022-goblin-thief",
+      "title": {
+        "id-ID": "Pencuri Goblin"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "10",
+        "maxHp": "45",
+        "stages": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10022-goblin-thief.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10023",
+      "slug": "10023-goblin-shaman",
+      "title": {
+        "id-ID": "Dukun Goblin"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "18",
+        "maxHp": "30",
+        "stages": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10023-goblin-shaman.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10031",
+      "slug": "10031-bat",
+      "title": {
+        "id-ID": "Kelelawar"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "10",
+        "maxHp": "15",
+        "stages": "20"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10031-bat.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10041",
+      "slug": "10041-orc",
+      "title": {
+        "id-ID": "Orc"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "14",
+        "maxHp": "65",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10041-orc.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10042",
+      "slug": "10042-orc-warrior",
+      "title": {
+        "id-ID": "Pejuang Orc"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "16",
+        "maxHp": "95",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10042-orc-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10043",
+      "slug": "10043-elite-orc",
+      "title": {
+        "id-ID": "Orc Elite"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "35",
+        "exp": "35",
+        "attackDamage": "17",
+        "maxHp": "185",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10043-elite-orc.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10051",
+      "slug": "10051-skeleton",
+      "title": {
+        "id-ID": "Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "11",
+        "attackDamage": "20",
+        "maxHp": "50",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10051-skeleton.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10052",
+      "slug": "10052-skeleton-archer",
+      "title": {
+        "id-ID": "Pemanah Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "13",
+        "attackDamage": "20",
+        "maxHp": "35",
+        "stages": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10052-skeleton-archer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10053",
+      "slug": "10053-skeleton-warrior",
+      "title": {
+        "id-ID": "Pejuang Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "20",
+        "maxHp": "90",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10053-skeleton-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10901",
+      "slug": "10901-skeleton-king",
+      "title": {
+        "id-ID": "Raja Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "36",
+        "attackDamage": "50",
+        "maxHp": "1050",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10901-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10902",
+      "slug": "10902-skeleton-king",
+      "title": {
+        "id-ID": "Raja Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "12",
+        "attackDamage": "70",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10902-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10903",
+      "slug": "10903-skeleton-king",
+      "title": {
+        "id-ID": "Raja Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "18",
+        "attackDamage": "70",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10903-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10904",
+      "slug": "10904-skeleton-king",
+      "title": {
+        "id-ID": "Raja Tengkorak"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "15",
+        "attackDamage": "70",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10904-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20011",
+      "slug": "20011-scorpion",
+      "title": {
+        "id-ID": "Kalajengking"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "10",
+        "attackDamage": "10",
+        "maxHp": "50",
+        "stages": "24"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20011-scorpion.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20021",
+      "slug": "20021-ratfolk-warrior",
+      "title": {
+        "id-ID": "Prajurit Tikus"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "12",
+        "exp": "12",
+        "attackDamage": "15",
+        "maxHp": "35",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20021-ratfolk-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20022",
+      "slug": "20022-ratfolk-archer",
+      "title": {
+        "id-ID": "Pemanah Tikus"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "10",
+        "maxHp": "45",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20022-ratfolk-archer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20023",
+      "slug": "20023-plague-rat",
+      "title": {
+        "id-ID": "Tikus Wabah"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "20",
+        "maxHp": "110",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20023-plague-rat.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20024",
+      "slug": "20024-ratfolk-berserker",
+      "title": {
+        "id-ID": "Berserker Tikus"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "25",
+        "exp": "25",
+        "attackDamage": "17",
+        "maxHp": "75",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20024-ratfolk-berserker.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20031",
+      "slug": "20031-cobra",
+      "title": {
+        "id-ID": "Kobra"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "18",
+        "maxHp": "55",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20031-cobra.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20041",
+      "slug": "20041-venom-insect",
+      "title": {
+        "id-ID": "Serangga Racun"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "23",
+        "maxHp": "45",
+        "stages": "10"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20041-venom-insect.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20042",
+      "slug": "20042-venom-lord",
+      "title": {
+        "id-ID": "Tuan Bisa"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "35",
+        "exp": "35",
+        "attackDamage": "15",
+        "maxHp": "75",
+        "stages": "5"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20042-venom-lord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20051",
+      "slug": "20051-giant-fly",
+      "title": {
+        "id-ID": "Lalat Raksasa"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "11",
+        "exp": "11",
+        "attackDamage": "20",
+        "maxHp": "45",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20051-giant-fly.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20061",
+      "slug": "20061-kobold-guard",
+      "title": {
+        "id-ID": "Penjaga Kobold"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "17",
+        "exp": "17",
+        "attackDamage": "20",
+        "maxHp": "90",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20061-kobold-guard.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20062",
+      "slug": "20062-kobold-slinger",
+      "title": {
+        "id-ID": "Kobold Pelempar"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "14",
+        "exp": "14",
+        "attackDamage": "23",
+        "maxHp": "80",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20062-kobold-slinger.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20071",
+      "slug": "20071-homunculus",
+      "title": {
+        "id-ID": "Homunculus"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "13",
+        "exp": "13",
+        "attackDamage": "16",
+        "maxHp": "115",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20071-homunculus.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20081",
+      "slug": "20081-ghoul",
+      "title": {
+        "id-ID": "Ghoul"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "45",
+        "exp": "45",
+        "attackDamage": "20",
+        "maxHp": "225",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20081-ghoul.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20091",
+      "slug": "20091-fire-elemental",
+      "title": {
+        "id-ID": "Elemental Api"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "23",
+        "exp": "23",
+        "attackDamage": "25",
+        "maxHp": "75",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20091-fire-elemental.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20111",
+      "slug": "20111-mummy",
+      "title": {
+        "id-ID": "Mumi"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "17",
+        "maxHp": "260",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20111-mummy.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20121",
+      "slug": "20121-tick",
+      "title": {
+        "id-ID": "Kutu"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "7",
+        "exp": "7",
+        "attackDamage": "10",
+        "maxHp": "55",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20121-tick.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20901",
+      "slug": "20901-desert-overlord",
+      "title": {
+        "id-ID": "Penguasa Gurun"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "12",
+        "attackDamage": "80",
+        "maxHp": "1850",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20901-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20902",
+      "slug": "20902-desert-overlord",
+      "title": {
+        "id-ID": "Penguasa Gurun"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "14",
+        "attackDamage": "100",
+        "maxHp": "1950",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20902-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20903",
+      "slug": "20903-desert-overlord",
+      "title": {
+        "id-ID": "Penguasa Gurun"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "31",
+        "attackDamage": "120",
+        "maxHp": "2050",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20903-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20904",
+      "slug": "20904-desert-overlord",
+      "title": {
+        "id-ID": "Penguasa Gurun"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "31",
+        "attackDamage": "140",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20904-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30011",
+      "slug": "30011-gremlin",
+      "title": {
+        "id-ID": "Gremlin"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "10",
+        "attackDamage": "10",
+        "maxHp": "70",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30011-gremlin.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30012",
+      "slug": "30012-geonid",
+      "title": {
+        "id-ID": "Geonid"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "12",
+        "exp": "12",
+        "attackDamage": "15",
+        "maxHp": "50",
+        "stages": "11"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30012-geonid.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30013",
+      "slug": "30013-fallen-angel-s-helm",
+      "title": {
+        "id-ID": "Helm Malaikat Jatuh"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "25",
+        "maxHp": "40",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30013-fallen-angel-s-helm.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30021",
+      "slug": "30021-yeti",
+      "title": {
+        "id-ID": "Yeti"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "12",
+        "maxHp": "320",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30021-yeti.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30031",
+      "slug": "30031-dragon-hatchling",
+      "title": {
+        "id-ID": "Anak Naga"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "30",
+        "maxHp": "175",
+        "stages": "7"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30031-dragon-hatchling.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30041",
+      "slug": "30041-snow-mountain-warrior",
+      "title": {
+        "id-ID": "Prajurit Gunung Salju"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "15",
+        "maxHp": "90",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30041-snow-mountain-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30042",
+      "slug": "30042-snow-mountain-archer",
+      "title": {
+        "id-ID": "Pemanah Gunung Salju"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "20",
+        "maxHp": "70",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30042-snow-mountain-archer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30043",
+      "slug": "30043-snow-mountain-guard",
+      "title": {
+        "id-ID": "Penjaga Gunung Salju"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "15",
+        "maxHp": "155",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30043-snow-mountain-guard.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30044",
+      "slug": "30044-snow-mountain-mage",
+      "title": {
+        "id-ID": "Penyihir Gunung Salju"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "25",
+        "maxHp": "55",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30044-snow-mountain-mage.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30051",
+      "slug": "30051-ghost",
+      "title": {
+        "id-ID": "Hantu"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "10",
+        "maxHp": "65",
+        "stages": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30051-ghost.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30061",
+      "slug": "30061-lava-being",
+      "title": {
+        "id-ID": "Makhluk Lava"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "20",
+        "maxHp": "75",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30061-lava-being.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30071",
+      "slug": "30071-blood-priest",
+      "title": {
+        "id-ID": "Pendeta Darah"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "35",
+        "exp": "35",
+        "attackDamage": "16",
+        "maxHp": "125",
+        "stages": "2"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30071-blood-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30081",
+      "slug": "30081-demon-soldier",
+      "title": {
+        "id-ID": "Prajurit Iblis"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "11",
+        "attackDamage": "20",
+        "maxHp": "70",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30081-demon-soldier.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30082",
+      "slug": "30082-demon-legion-commander",
+      "title": {
+        "id-ID": "Komandan Legiun Iblis"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "13",
+        "attackDamage": "20",
+        "maxHp": "45",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30082-demon-legion-commander.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30083",
+      "slug": "30083-demon-shocktrooper",
+      "title": {
+        "id-ID": "Penyerang Iblis"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "20",
+        "maxHp": "90",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30083-demon-shocktrooper.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30084",
+      "slug": "30084-burning-piglet",
+      "title": {
+        "id-ID": "Babi Menyala"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "110",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30084-burning-piglet.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30091",
+      "slug": "30091-hell-golem",
+      "title": {
+        "id-ID": "Golem Neraka"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "40",
+        "maxHp": "185",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30091-hell-golem.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30101",
+      "slug": "30101-burning-hell-priest",
+      "title": {
+        "id-ID": "Pendeta Neraka Berapi"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "95",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30101-burning-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30102",
+      "slug": "30102-frozen-hell-priest",
+      "title": {
+        "id-ID": "Pendeta Neraka Beku"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "95",
+        "stages": "7"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30102-frozen-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30103",
+      "slug": "30103-electric-hell-priest",
+      "title": {
+        "id-ID": "Pendeta Neraka Listrik"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "95",
+        "stages": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30103-electric-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30104",
+      "slug": "30104-chaos-hell-priest",
+      "title": {
+        "id-ID": "Pendeta Neraka Chaos"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "75",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30104-chaos-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30111",
+      "slug": "30111-finger-of-death",
+      "title": {
+        "id-ID": "Jari Kematian"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "25",
+        "maxHp": "65",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30111-finger-of-death.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30901",
+      "slug": "30901-archon-morkar",
+      "title": {
+        "id-ID": "Archon Morkar"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "70",
+        "maxHp": "2550",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30901-archon-morkar.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30902",
+      "slug": "30902-archon-morkar",
+      "title": {
+        "id-ID": "Archon Morkar"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "80",
+        "maxHp": "2750",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30902-archon-morkar.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30903",
+      "slug": "30903-archon-morkar",
+      "title": {
+        "id-ID": "Archon Morkar"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "90",
+        "maxHp": "3050",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30903-archon-morkar.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30904",
+      "slug": "30904-archon-morkar",
+      "title": {
+        "id-ID": "Archon Morkar"
+      },
+      "subtitle": {
+        "id-ID": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "100",
+        "maxHp": "3550",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "id-ID": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30904-archon-morkar.json",
+      "tooltip": null
+    }
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "category": {
+    "id": "database",
+    "titleKey": "category.database.title",
+    "descriptionKey": "category.database.description",
+    "count": 45,
+    "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+    "layout": "table",
+    "navGroup": "nav.reference",
+    "listPath": "/generated/categories/{locale}/database.json"
+  },
+  "columns": [
+    {
+      "key": "table",
+      "labelKey": "field.table"
+    },
+    {
+      "key": "records",
+      "labelKey": "field.records"
+    }
+  ],
+  "filters": [],
+  "entries": [
+    {
+      "categoryId": "database",
+      "entityId": "AttributeGroupInfoData",
+      "slug": "attribute-group-info-data",
+      "title": {
+        "vi-VN": "AttributeGroupInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "8 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "AttributeGroupInfoData"
+      ],
+      "fields": {
+        "table": "AttributeGroupInfoData",
+        "records": "8",
+        "count": "8"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/attribute-group-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "AttributeInfoData",
+      "slug": "attribute-info-data",
+      "title": {
+        "vi-VN": "AttributeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "132 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "AttributeInfoData"
+      ],
+      "fields": {
+        "table": "AttributeInfoData",
+        "records": "132",
+        "count": "132"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/attribute-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "BuffGroupInfoData",
+      "slug": "buff-group-info-data",
+      "title": {
+        "vi-VN": "BuffGroupInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "16 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "BuffGroupInfoData"
+      ],
+      "fields": {
+        "table": "BuffGroupInfoData",
+        "records": "16",
+        "count": "16"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/buff-group-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "BuffInfoData",
+      "slug": "buff-info-data",
+      "title": {
+        "vi-VN": "BuffInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "29 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "BuffInfoData"
+      ],
+      "fields": {
+        "table": "BuffInfoData",
+        "records": "29",
+        "count": "29"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/buff-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "CraftingRecipeInfoData",
+      "slug": "crafting-recipe-info-data",
+      "title": {
+        "vi-VN": "CraftingRecipeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "56 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "CraftingRecipeInfoData"
+      ],
+      "fields": {
+        "table": "CraftingRecipeInfoData",
+        "records": "56",
+        "count": "56"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/crafting-recipe-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "CubeLevelInfoData",
+      "slug": "cube-level-info-data",
+      "title": {
+        "vi-VN": "CubeLevelInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "100 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "CubeLevelInfoData"
+      ],
+      "fields": {
+        "table": "CubeLevelInfoData",
+        "records": "100",
+        "count": "100"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/cube-level-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "CubeRecipeInfoData",
+      "slug": "cube-recipe-info-data",
+      "title": {
+        "vi-VN": "CubeRecipeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "8 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "CubeRecipeInfoData"
+      ],
+      "fields": {
+        "table": "CubeRecipeInfoData",
+        "records": "8",
+        "count": "8"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/cube-recipe-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "CubeSubRecipeInfoData",
+      "slug": "cube-sub-recipe-info-data",
+      "title": {
+        "vi-VN": "CubeSubRecipeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "31 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "CubeSubRecipeInfoData"
+      ],
+      "fields": {
+        "table": "CubeSubRecipeInfoData",
+        "records": "31",
+        "count": "31"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/cube-sub-recipe-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "CurrencyInfoData",
+      "slug": "currency-info-data",
+      "title": {
+        "vi-VN": "CurrencyInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "1 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "CurrencyInfoData"
+      ],
+      "fields": {
+        "table": "CurrencyInfoData",
+        "records": "1",
+        "count": "1"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/currency-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "DropInfoData",
+      "slug": "drop-info-data",
+      "title": {
+        "vi-VN": "DropInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "6212 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "DropInfoData"
+      ],
+      "fields": {
+        "table": "DropInfoData",
+        "records": "6212",
+        "count": "6212"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/drop-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "ExtractionCostInfoData",
+      "slug": "extraction-cost-info-data",
+      "title": {
+        "vi-VN": "ExtractionCostInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "90 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "ExtractionCostInfoData"
+      ],
+      "fields": {
+        "table": "ExtractionCostInfoData",
+        "records": "90",
+        "count": "90"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/extraction-cost-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "GearInfoData",
+      "slug": "gear-info-data",
+      "title": {
+        "vi-VN": "GearInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "5760 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "GearInfoData"
+      ],
+      "fields": {
+        "table": "GearInfoData",
+        "records": "5760",
+        "count": "5760"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/gear-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "GearTypeInfoData",
+      "slug": "gear-type-info-data",
+      "title": {
+        "vi-VN": "GearTypeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "16 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "GearTypeInfoData"
+      ],
+      "fields": {
+        "table": "GearTypeInfoData",
+        "records": "16",
+        "count": "16"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/gear-type-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "GearTypeScaleInfoData",
+      "slug": "gear-type-scale-info-data",
+      "title": {
+        "vi-VN": "GearTypeScaleInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "20 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "GearTypeScaleInfoData"
+      ],
+      "fields": {
+        "table": "GearTypeScaleInfoData",
+        "records": "20",
+        "count": "20"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/gear-type-scale-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "GradeInfoData",
+      "slug": "grade-info-data",
+      "title": {
+        "vi-VN": "GradeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "10 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "GradeInfoData"
+      ],
+      "fields": {
+        "table": "GradeInfoData",
+        "records": "10",
+        "count": "10"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/grade-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "HeroInfoData",
+      "slug": "hero-info-data",
+      "title": {
+        "vi-VN": "HeroInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "6 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "HeroInfoData"
+      ],
+      "fields": {
+        "table": "HeroInfoData",
+        "records": "6",
+        "count": "6"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/hero-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "InventoryInfoData",
+      "slug": "inventory-info-data",
+      "title": {
+        "vi-VN": "InventoryInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "260 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "InventoryInfoData"
+      ],
+      "fields": {
+        "table": "InventoryInfoData",
+        "records": "260",
+        "count": "260"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/inventory-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "ItemGroupInfoData",
+      "slug": "item-group-info-data",
+      "title": {
+        "vi-VN": "ItemGroupInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "2275 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "ItemGroupInfoData"
+      ],
+      "fields": {
+        "table": "ItemGroupInfoData",
+        "records": "2275",
+        "count": "2275"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/item-group-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "ItemInfoData",
+      "slug": "item-info-data",
+      "title": {
+        "vi-VN": "ItemInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "5944 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "ItemInfoData"
+      ],
+      "fields": {
+        "table": "ItemInfoData",
+        "records": "5944",
+        "count": "5944"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/item-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "ItemLevelScaleInfoData",
+      "slug": "item-level-scale-info-data",
+      "title": {
+        "vi-VN": "ItemLevelScaleInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "19 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "ItemLevelScaleInfoData"
+      ],
+      "fields": {
+        "table": "ItemLevelScaleInfoData",
+        "records": "19",
+        "count": "19"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/item-level-scale-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "ItemTypeScaleInfoData",
+      "slug": "item-type-scale-info-data",
+      "title": {
+        "vi-VN": "ItemTypeScaleInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "2 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "ItemTypeScaleInfoData"
+      ],
+      "fields": {
+        "table": "ItemTypeScaleInfoData",
+        "records": "2",
+        "count": "2"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/item-type-scale-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "LevelInfoData",
+      "slug": "level-info-data",
+      "title": {
+        "vi-VN": "LevelInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "100 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "LevelInfoData"
+      ],
+      "fields": {
+        "table": "LevelInfoData",
+        "records": "100",
+        "count": "100"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/level-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "MaterialInfoData",
+      "slug": "material-info-data",
+      "title": {
+        "vi-VN": "MaterialInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "125 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "MaterialInfoData"
+      ],
+      "fields": {
+        "table": "MaterialInfoData",
+        "records": "125",
+        "count": "125"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/material-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "MonsterInfoData",
+      "slug": "monster-info-data",
+      "title": {
+        "vi-VN": "MonsterInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "61 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "MonsterInfoData"
+      ],
+      "fields": {
+        "table": "MonsterInfoData",
+        "records": "61",
+        "count": "61"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/monster-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "OfflineRewardInfoData",
+      "slug": "offline-reward-info-data",
+      "title": {
+        "vi-VN": "OfflineRewardInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "116 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "OfflineRewardInfoData"
+      ],
+      "fields": {
+        "table": "OfflineRewardInfoData",
+        "records": "116",
+        "count": "116"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/offline-reward-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "PassiveSkillInfoData",
+      "slug": "passive-skill-info-data",
+      "title": {
+        "vi-VN": "PassiveSkillInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "108 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "PassiveSkillInfoData"
+      ],
+      "fields": {
+        "table": "PassiveSkillInfoData",
+        "records": "108",
+        "count": "108"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/passive-skill-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "PcSkinInfo",
+      "slug": "pc-skin-info",
+      "title": {
+        "vi-VN": "PcSkinInfo"
+      },
+      "subtitle": {
+        "vi-VN": "100 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "PcSkinInfo"
+      ],
+      "fields": {
+        "table": "PcSkinInfo",
+        "records": "100",
+        "count": "100"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/pc-skin-info.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "PetInfoData",
+      "slug": "pet-info-data",
+      "title": {
+        "vi-VN": "PetInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "8 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "PetInfoData"
+      ],
+      "fields": {
+        "table": "PetInfoData",
+        "records": "8",
+        "count": "8"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/pet-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "PetStatInfoData",
+      "slug": "pet-stat-info-data",
+      "title": {
+        "vi-VN": "PetStatInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "11 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "PetStatInfoData"
+      ],
+      "fields": {
+        "table": "PetStatInfoData",
+        "records": "11",
+        "count": "11"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/pet-stat-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "RuneInfoData",
+      "slug": "rune-info-data",
+      "title": {
+        "vi-VN": "RuneInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "197 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "RuneInfoData"
+      ],
+      "fields": {
+        "table": "RuneInfoData",
+        "records": "197",
+        "count": "197"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/rune-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "RuneLevelInfoData",
+      "slug": "rune-level-info-data",
+      "title": {
+        "vi-VN": "RuneLevelInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "663 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "RuneLevelInfoData"
+      ],
+      "fields": {
+        "table": "RuneLevelInfoData",
+        "records": "663",
+        "count": "663"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/rune-level-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "SkillInfoData",
+      "slug": "skill-info-data",
+      "title": {
+        "vi-VN": "SkillInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "106 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "SkillInfoData"
+      ],
+      "fields": {
+        "table": "SkillInfoData",
+        "records": "106",
+        "count": "106"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/skill-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "SkillLevelInfoData",
+      "slug": "skill-level-info-data",
+      "title": {
+        "vi-VN": "SkillLevelInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "360 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "SkillLevelInfoData"
+      ],
+      "fields": {
+        "table": "SkillLevelInfoData",
+        "records": "360",
+        "count": "360"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/skill-level-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "SoundInfoData",
+      "slug": "sound-info-data",
+      "title": {
+        "vi-VN": "SoundInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "312 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "SoundInfoData"
+      ],
+      "fields": {
+        "table": "SoundInfoData",
+        "records": "312",
+        "count": "312"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/sound-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StageInfoData",
+      "slug": "stage-info-data",
+      "title": {
+        "vi-VN": "StageInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "120 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StageInfoData"
+      ],
+      "fields": {
+        "table": "StageInfoData",
+        "records": "120",
+        "count": "120"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/stage-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StageLevelInfoData",
+      "slug": "stage-level-info-data",
+      "title": {
+        "vi-VN": "StageLevelInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "170 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StageLevelInfoData"
+      ],
+      "fields": {
+        "table": "StageLevelInfoData",
+        "records": "170",
+        "count": "170"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/stage-level-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StashInfoData",
+      "slug": "stash-info-data",
+      "title": {
+        "vi-VN": "StashInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "131 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StashInfoData"
+      ],
+      "fields": {
+        "table": "StashInfoData",
+        "records": "131",
+        "count": "131"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/stash-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StatModGroupInfoData",
+      "slug": "stat-mod-group-info-data",
+      "title": {
+        "vi-VN": "StatModGroupInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "474 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StatModGroupInfoData"
+      ],
+      "fields": {
+        "table": "StatModGroupInfoData",
+        "records": "474",
+        "count": "474"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/stat-mod-group-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StatModInfoData",
+      "slug": "stat-mod-info-data",
+      "title": {
+        "vi-VN": "StatModInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "620 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StatModInfoData"
+      ],
+      "fields": {
+        "table": "StatModInfoData",
+        "records": "620",
+        "count": "620"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/stat-mod-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StatusEffectInfoData",
+      "slug": "status-effect-info-data",
+      "title": {
+        "vi-VN": "StatusEffectInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "6 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StatusEffectInfoData"
+      ],
+      "fields": {
+        "table": "StatusEffectInfoData",
+        "records": "6",
+        "count": "6"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/status-effect-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "StorageInfoData",
+      "slug": "storage-info-data",
+      "title": {
+        "vi-VN": "StorageInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "101 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "StorageInfoData"
+      ],
+      "fields": {
+        "table": "StorageInfoData",
+        "records": "101",
+        "count": "101"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/storage-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "SynthesisDropInfoData",
+      "slug": "synthesis-drop-info-data",
+      "title": {
+        "vi-VN": "SynthesisDropInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "203 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "SynthesisDropInfoData"
+      ],
+      "fields": {
+        "table": "SynthesisDropInfoData",
+        "records": "203",
+        "count": "203"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/synthesis-drop-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "SynthesisRecipeInfoData",
+      "slug": "synthesis-recipe-info-data",
+      "title": {
+        "vi-VN": "SynthesisRecipeInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "533 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "SynthesisRecipeInfoData"
+      ],
+      "fields": {
+        "table": "SynthesisRecipeInfoData",
+        "records": "533",
+        "count": "533"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/synthesis-recipe-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "TradingStashInfoData",
+      "slug": "trading-stash-info-data",
+      "title": {
+        "vi-VN": "TradingStashInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "10 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "TradingStashInfoData"
+      ],
+      "fields": {
+        "table": "TradingStashInfoData",
+        "records": "10",
+        "count": "10"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/trading-stash-info-data.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "database",
+      "entityId": "UniqueModInfoData",
+      "slug": "unique-mod-info-data",
+      "title": {
+        "vi-VN": "UniqueModInfoData"
+      },
+      "subtitle": {
+        "vi-VN": "36 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "rarity": "COMMON",
+      "tags": [
+        "InfoData",
+        "UniqueModInfoData"
+      ],
+      "fields": {
+        "table": "UniqueModInfoData",
+        "records": "36",
+        "count": "36"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/database/unique-mod-info-data.json",
+      "tooltip": null
+    }
+  ]
+}

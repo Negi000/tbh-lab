@@ -3,12 +3,40 @@
   "entityId": "60301",
   "slug": "60301-commander-s-cry",
   "title": {
-    "ja": "コマンダーズクライ",
-    "en": "Commander’s Cry"
+    "de-DE": "Feldherrnschrei",
+    "en-US": "Commander’s Cry",
+    "es-ES": "Grito del Comandante",
+    "fr-FR": "Cri du Commandant",
+    "id-ID": "Teriakan Komandan",
+    "ja-JP": "コマンダーズクライ",
+    "ko-KR": "장군의 함성",
+    "pl-PL": "Okrzyk Dowódcy",
+    "pt-BR": "Grito do Comandante",
+    "ru-RU": "Клич Командира",
+    "th-TH": "เสียงกองทัพ",
+    "tr-TR": "Komutanın Narası",
+    "uk-UA": "Клич Командира",
+    "vi-VN": "Tiếng Hét Chỉ Huy",
+    "zh-Hans": "将军怒吼",
+    "zh-Hant": "將軍怒吼"
   },
   "subtitle": {
-    "en": "Skill / Cooldown",
-    "ja": "スキル / クールダウン"
+    "de-DE": "Skill / Cooldown",
+    "en-US": "Skill / Cooldown",
+    "es-ES": "Skill / Cooldown",
+    "fr-FR": "Skill / Cooldown",
+    "id-ID": "Skill / Cooldown",
+    "ja-JP": "スキル / クールダウン",
+    "ko-KR": "Skill / Cooldown",
+    "pl-PL": "Skill / Cooldown",
+    "pt-BR": "Skill / Cooldown",
+    "ru-RU": "Skill / Cooldown",
+    "th-TH": "Skill / Cooldown",
+    "tr-TR": "Skill / Cooldown",
+    "uk-UA": "Skill / Cooldown",
+    "vi-VN": "Skill / Cooldown",
+    "zh-Hans": "Skill / Cooldown",
+    "zh-Hant": "Skill / Cooldown"
   },
   "icon": "/generated/assets/game/skills/Skill_60301.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "クールダウン",
-        "en": "Cooldown"
+        "de-DE": "Cooldown",
+        "en-US": "Cooldown",
+        "es-ES": "Cooldown",
+        "fr-FR": "Cooldown",
+        "id-ID": "Cooldown",
+        "ja-JP": "クールダウン",
+        "ko-KR": "Cooldown",
+        "pl-PL": "Cooldown",
+        "pt-BR": "Cooldown",
+        "ru-RU": "Cooldown",
+        "th-TH": "Cooldown",
+        "tr-TR": "Cooldown",
+        "uk-UA": "Cooldown",
+        "vi-VN": "Cooldown",
+        "zh-Hans": "Cooldown",
+        "zh-Hant": "Cooldown"
       }
     },
     {

@@ -1,0 +1,280 @@
+{
+  "category": {
+    "id": "heroes",
+    "titleKey": "category.heroes.title",
+    "descriptionKey": "category.heroes.description",
+    "count": 6,
+    "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Knight_Mid_Anim_0.png",
+    "layout": "cards",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/{locale}/heroes.json"
+  },
+  "columns": [
+    {
+      "key": "class",
+      "labelKey": "field.class"
+    },
+    {
+      "key": "mainWeapon",
+      "labelKey": "field.mainWeapon"
+    },
+    {
+      "key": "subWeapon",
+      "labelKey": "field.subWeapon"
+    },
+    {
+      "key": "maxHp",
+      "labelKey": "field.maxHp"
+    }
+  ],
+  "filters": [
+    {
+      "id": "mainWeapon",
+      "labelKey": "field.mainWeapon",
+      "options": [
+        "AXE",
+        "BOW",
+        "CROSSBOW",
+        "SCEPTER",
+        "STAFF",
+        "SWORD"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "heroes",
+      "entityId": "101",
+      "slug": "knight",
+      "title": {
+        "tr-TR": "Knight"
+      },
+      "subtitle": {
+        "tr-TR": "A tanky melee fighter\nwith strong defense\nand shields equipment."
+      },
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Knight_Mid_Anim_0.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Knight",
+        "SWORD",
+        "SHIELD"
+      ],
+      "fields": {
+        "class": "Knight",
+        "mainWeapon": "SWORD",
+        "subWeapon": "SHIELD",
+        "maxHp": "130",
+        "attackDamage": "2",
+        "armor": "45"
+      },
+      "fieldDisplay": {
+        "class": {
+          "tr-TR": "Knight"
+        },
+        "mainWeapon": {
+          "tr-TR": "Kılıç"
+        },
+        "subWeapon": {
+          "tr-TR": "Kalkan"
+        }
+      },
+      "detailPath": "/generated/details/heroes/knight.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "heroes",
+      "entityId": "201",
+      "slug": "ranger",
+      "title": {
+        "tr-TR": "Ranger"
+      },
+      "subtitle": {
+        "tr-TR": "An agile archer specializing in precise\nranged attacks with bow."
+      },
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Ranger_Mid_Anim_0.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Ranger",
+        "BOW",
+        "ARROW"
+      ],
+      "fields": {
+        "class": "Ranger",
+        "mainWeapon": "BOW",
+        "subWeapon": "ARROW",
+        "maxHp": "60",
+        "attackDamage": "1",
+        "armor": "8"
+      },
+      "fieldDisplay": {
+        "class": {
+          "tr-TR": "Ranger"
+        },
+        "mainWeapon": {
+          "tr-TR": "Yay"
+        },
+        "subWeapon": {
+          "tr-TR": "Ok"
+        }
+      },
+      "detailPath": "/generated/details/heroes/ranger.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "heroes",
+      "entityId": "301",
+      "slug": "sorcerer",
+      "title": {
+        "tr-TR": "Sorcerer"
+      },
+      "subtitle": {
+        "tr-TR": "A powerful mage dealing\ndevastating area\nmagic damage."
+      },
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Sorcerer_Mid_Anim_0.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Sorcerer",
+        "STAFF",
+        "ORB"
+      ],
+      "fields": {
+        "class": "Sorcerer",
+        "mainWeapon": "STAFF",
+        "subWeapon": "ORB",
+        "maxHp": "50",
+        "attackDamage": "2",
+        "armor": "5"
+      },
+      "fieldDisplay": {
+        "class": {
+          "tr-TR": "Sorcerer"
+        },
+        "mainWeapon": {
+          "tr-TR": "Asa"
+        },
+        "subWeapon": {
+          "tr-TR": "Küre"
+        }
+      },
+      "detailPath": "/generated/details/heroes/sorcerer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "heroes",
+      "entityId": "401",
+      "slug": "priest",
+      "title": {
+        "tr-TR": "Priest"
+      },
+      "subtitle": {
+        "tr-TR": "A holy healer who supports allies\nwith restoration magic."
+      },
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Priest_Mid_Anim_0.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Priest",
+        "SCEPTER",
+        "TOME"
+      ],
+      "fields": {
+        "class": "Priest",
+        "mainWeapon": "SCEPTER",
+        "subWeapon": "TOME",
+        "maxHp": "95",
+        "attackDamage": "1",
+        "armor": "30"
+      },
+      "fieldDisplay": {
+        "class": {
+          "tr-TR": "Priest"
+        },
+        "mainWeapon": {
+          "tr-TR": "Asa"
+        },
+        "subWeapon": {
+          "tr-TR": "Kitap"
+        }
+      },
+      "detailPath": "/generated/details/heroes/priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "heroes",
+      "entityId": "501",
+      "slug": "hunter",
+      "title": {
+        "tr-TR": "Hunter"
+      },
+      "subtitle": {
+        "tr-TR": "A tactical expert using traps\nand crossbow."
+      },
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Abalist_Mid_Anim_0.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "Hunter",
+        "CROSSBOW",
+        "BOLT"
+      ],
+      "fields": {
+        "class": "Hunter",
+        "mainWeapon": "CROSSBOW",
+        "subWeapon": "BOLT",
+        "maxHp": "70",
+        "attackDamage": "2",
+        "armor": "15"
+      },
+      "fieldDisplay": {
+        "class": {
+          "tr-TR": "Hunter"
+        },
+        "mainWeapon": {
+          "tr-TR": "Arbalet"
+        },
+        "subWeapon": {
+          "tr-TR": "Arbalet Oku"
+        }
+      },
+      "detailPath": "/generated/details/heroes/hunter.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "heroes",
+      "entityId": "601",
+      "slug": "slayer",
+      "title": {
+        "tr-TR": "Slayer"
+      },
+      "subtitle": {
+        "tr-TR": "A wild berserker\ndealing devastating melee\ndamage through rage."
+      },
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Slayer_Mid_Anim_0.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "Slayer",
+        "AXE",
+        "HATCHET"
+      ],
+      "fields": {
+        "class": "Slayer",
+        "mainWeapon": "AXE",
+        "subWeapon": "HATCHET",
+        "maxHp": "115",
+        "attackDamage": "2",
+        "armor": "40"
+      },
+      "fieldDisplay": {
+        "class": {
+          "tr-TR": "Slayer"
+        },
+        "mainWeapon": {
+          "tr-TR": "Balta"
+        },
+        "subWeapon": {
+          "tr-TR": "El Baltası"
+        }
+      },
+      "detailPath": "/generated/details/heroes/slayer.json",
+      "tooltip": null
+    }
+  ]
+}

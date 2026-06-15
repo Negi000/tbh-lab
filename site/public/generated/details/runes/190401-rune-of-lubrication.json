@@ -3,12 +3,40 @@
   "entityId": "190401",
   "slug": "190401-rune-of-lubrication",
   "title": {
-    "ja": "潤滑のルーン",
-    "en": "Rune of Lubrication"
+    "de-DE": "Schmierungsrune",
+    "en-US": "Rune of Lubrication",
+    "es-ES": "Runa de Lubricación",
+    "fr-FR": "Rune de Lubrification",
+    "id-ID": "Rune Pelumas",
+    "ja-JP": "潤滑のルーン",
+    "ko-KR": "윤활의 룬",
+    "pl-PL": "Runa Smarowania",
+    "pt-BR": "Runa de Lubrificação",
+    "ru-RU": "Руна смазки",
+    "th-TH": "รูนหล่อลื่น",
+    "tr-TR": "Yağlama Runu",
+    "uk-UA": "Руна змащування",
+    "vi-VN": "Rune Bôi Trơn",
+    "zh-Hans": "润滑符文",
+    "zh-Hant": "潤滑符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": null,
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "潤滑のルーン",
-        "en": "Rune of Lubrication"
+        "de-DE": "Schmierungsrune",
+        "en-US": "Rune of Lubrication",
+        "es-ES": "Runa de Lubricación",
+        "fr-FR": "Rune de Lubrification",
+        "id-ID": "Rune Pelumas",
+        "ja-JP": "潤滑のルーン",
+        "ko-KR": "윤활의 룬",
+        "pl-PL": "Runa Smarowania",
+        "pt-BR": "Runa de Lubrificação",
+        "ru-RU": "Руна смазки",
+        "th-TH": "รูนหล่อลื่น",
+        "tr-TR": "Yağlama Runu",
+        "uk-UA": "Руна змащування",
+        "vi-VN": "Rune Bôi Trơn",
+        "zh-Hans": "润滑符文",
+        "zh-Hant": "潤滑符文"
       }
     },
     {
@@ -77,34 +119,118 @@
         [
           1,
           {
-            "ja": "アクトボスチェスト自動開封時間 -1秒",
-            "en": "Auto-Open Act Boss Chest Time -1s"
+            "de-DE": "Auto-Öffnen Akt-Boss-Truhe Zeit -1s",
+            "en-US": "Auto-Open Act Boss Chest Time -1s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de acto -1s",
+            "fr-FR": "Temps ouverture auto coffre boss d'acte -1s",
+            "id-ID": "Waktu auto-buka peti Boss Babak -1d",
+            "ja-JP": "アクトボスチェスト自動開封時間 -1秒",
+            "ko-KR": "액트 보스 상자 자동 열기 시간 -1초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa aktu -1s",
+            "pt-BR": "Tempo abertura auto baú chefe de ato -1s",
+            "ru-RU": "Время автооткрытия сундука босса акта -1с",
+            "th-TH": "เวลาเปิดกล่องบอส Act อัตโนมัติ -1 วิ",
+            "tr-TR": "Bölüm bossu sandığı otomatik açma süresi -1sn",
+            "uk-UA": "Час автовідкриття скрині боса акту -1с",
+            "vi-VN": "Thời gian tự mở rương Boss Hồi -1s",
+            "zh-Hans": "幕首领宝箱自动开启时间 -1秒",
+            "zh-Hant": "幕首領寶箱自動開啟時間 -1秒"
           },
           {
-            "ja": "1500000 ゴールド",
-            "en": "1500000 Gold"
+            "de-DE": "1500000 Gold",
+            "en-US": "1500000 Gold",
+            "es-ES": "1500000 Gold",
+            "fr-FR": "1500000 Gold",
+            "id-ID": "1500000 Gold",
+            "ja-JP": "1500000 ゴールド",
+            "ko-KR": "1500000 Gold",
+            "pl-PL": "1500000 Gold",
+            "pt-BR": "1500000 Gold",
+            "ru-RU": "1500000 Gold",
+            "th-TH": "1500000 Gold",
+            "tr-TR": "1500000 Gold",
+            "uk-UA": "1500000 Gold",
+            "vi-VN": "1500000 Gold",
+            "zh-Hans": "1500000 Gold",
+            "zh-Hant": "1500000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "アクトボスチェスト自動開封時間 -1秒",
-            "en": "Auto-Open Act Boss Chest Time -1s"
+            "de-DE": "Auto-Öffnen Akt-Boss-Truhe Zeit -1s",
+            "en-US": "Auto-Open Act Boss Chest Time -1s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de acto -1s",
+            "fr-FR": "Temps ouverture auto coffre boss d'acte -1s",
+            "id-ID": "Waktu auto-buka peti Boss Babak -1d",
+            "ja-JP": "アクトボスチェスト自動開封時間 -1秒",
+            "ko-KR": "액트 보스 상자 자동 열기 시간 -1초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa aktu -1s",
+            "pt-BR": "Tempo abertura auto baú chefe de ato -1s",
+            "ru-RU": "Время автооткрытия сундука босса акта -1с",
+            "th-TH": "เวลาเปิดกล่องบอส Act อัตโนมัติ -1 วิ",
+            "tr-TR": "Bölüm bossu sandığı otomatik açma süresi -1sn",
+            "uk-UA": "Час автовідкриття скрині боса акту -1с",
+            "vi-VN": "Thời gian tự mở rương Boss Hồi -1s",
+            "zh-Hans": "幕首领宝箱自动开启时间 -1秒",
+            "zh-Hant": "幕首領寶箱自動開啟時間 -1秒"
           },
           {
-            "ja": "2000000 ゴールド",
-            "en": "2000000 Gold"
+            "de-DE": "2000000 Gold",
+            "en-US": "2000000 Gold",
+            "es-ES": "2000000 Gold",
+            "fr-FR": "2000000 Gold",
+            "id-ID": "2000000 Gold",
+            "ja-JP": "2000000 ゴールド",
+            "ko-KR": "2000000 Gold",
+            "pl-PL": "2000000 Gold",
+            "pt-BR": "2000000 Gold",
+            "ru-RU": "2000000 Gold",
+            "th-TH": "2000000 Gold",
+            "tr-TR": "2000000 Gold",
+            "uk-UA": "2000000 Gold",
+            "vi-VN": "2000000 Gold",
+            "zh-Hans": "2000000 Gold",
+            "zh-Hant": "2000000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "アクトボスチェスト自動開封時間 -1秒",
-            "en": "Auto-Open Act Boss Chest Time -1s"
+            "de-DE": "Auto-Öffnen Akt-Boss-Truhe Zeit -1s",
+            "en-US": "Auto-Open Act Boss Chest Time -1s",
+            "es-ES": "Tiempo apertura auto. cofre jefe de acto -1s",
+            "fr-FR": "Temps ouverture auto coffre boss d'acte -1s",
+            "id-ID": "Waktu auto-buka peti Boss Babak -1d",
+            "ja-JP": "アクトボスチェスト自動開封時間 -1秒",
+            "ko-KR": "액트 보스 상자 자동 열기 시간 -1초",
+            "pl-PL": "Czas auto otwierania skrzyni bossa aktu -1s",
+            "pt-BR": "Tempo abertura auto baú chefe de ato -1s",
+            "ru-RU": "Время автооткрытия сундука босса акта -1с",
+            "th-TH": "เวลาเปิดกล่องบอส Act อัตโนมัติ -1 วิ",
+            "tr-TR": "Bölüm bossu sandığı otomatik açma süresi -1sn",
+            "uk-UA": "Час автовідкриття скрині боса акту -1с",
+            "vi-VN": "Thời gian tự mở rương Boss Hồi -1s",
+            "zh-Hans": "幕首领宝箱自动开启时间 -1秒",
+            "zh-Hant": "幕首領寶箱自動開啟時間 -1秒"
           },
           {
-            "ja": "2500000 ゴールド",
-            "en": "2500000 Gold"
+            "de-DE": "2500000 Gold",
+            "en-US": "2500000 Gold",
+            "es-ES": "2500000 Gold",
+            "fr-FR": "2500000 Gold",
+            "id-ID": "2500000 Gold",
+            "ja-JP": "2500000 ゴールド",
+            "ko-KR": "2500000 Gold",
+            "pl-PL": "2500000 Gold",
+            "pt-BR": "2500000 Gold",
+            "ru-RU": "2500000 Gold",
+            "th-TH": "2500000 Gold",
+            "tr-TR": "2500000 Gold",
+            "uk-UA": "2500000 Gold",
+            "vi-VN": "2500000 Gold",
+            "zh-Hans": "2500000 Gold",
+            "zh-Hant": "2500000 Gold"
           }
         ]
       ]

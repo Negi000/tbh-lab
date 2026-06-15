@@ -10,8 +10,8 @@ import {
 import { DetailAugmentPanel, DropLabWorkbench, FarmPlannerWorkbench, LabStatusWorkbench, MarketWorkbench, ProgressPlannerWorkbench, SaveWorkbench } from "./toolPages";
 import type { SaveSnapshot } from "./saveReader";
 
-type LocaleCode = "ja" | "en";
-type Localized = Partial<Record<LocaleCode, string>>;
+type LocaleCode = string;
+type Localized = Partial<Record<string, string>>;
 
 type CategorySummary = {
   id: string;
@@ -32,6 +32,13 @@ type NavGroup = {
 type Manifest = {
   generatedAt: string;
   locales: LocaleCode[];
+  localeLabels?: Record<string, string>;
+  defaultLocale?: LocaleCode;
+  seo?: {
+    siteUrl?: string;
+    defaultLocale?: LocaleCode;
+    alternateStrategy?: string;
+  };
   version: string;
   categories: CategorySummary[];
   navGroups: NavGroup[];
@@ -249,6 +256,27 @@ type Route =
 
 const PAGE_SIZE = 48;
 const LOCALE_KEY = "thb-wiki-locale";
+const DEFAULT_LOCALE = "ja-JP";
+const SITE_ORIGIN = "https://tbh.negi-lab.com";
+const SUPPORTED_LOCALES: Array<{ code: LocaleCode; label: string }> = [
+  { code: "de-DE", label: "Deutsch" },
+  { code: "en-US", label: "English" },
+  { code: "es-ES", label: "Español" },
+  { code: "fr-FR", label: "Français" },
+  { code: "id-ID", label: "Bahasa Indonesia" },
+  { code: "ja-JP", label: "日本語" },
+  { code: "ko-KR", label: "한국어" },
+  { code: "pl-PL", label: "Polski" },
+  { code: "pt-BR", label: "Português do Brasil" },
+  { code: "ru-RU", label: "Русский" },
+  { code: "th-TH", label: "ไทย" },
+  { code: "tr-TR", label: "Türkçe" },
+  { code: "uk-UA", label: "Українська" },
+  { code: "vi-VN", label: "Tiếng Việt" },
+  { code: "zh-Hans", label: "简体中文" },
+  { code: "zh-Hant", label: "繁體中文" },
+];
+const LOCALE_ALIASES: Record<string, LocaleCode> = { ja: "ja-JP", en: "en-US" };
 
 const FALLBACK_TEXT: Record<LocaleCode, Record<string, string>> = {
   ja: {
@@ -267,8 +295,39 @@ const FALLBACK_TEXT: Record<LocaleCode, Record<string, string>> = {
   },
 };
 
-function parseRoute(): Route {
-  const raw = window.location.hash.replace(/^#/, "") || "/";
+function localeBase(locale: LocaleCode) {
+  return locale.split("-")[0];
+}
+
+function normalizeLocale(value: string | null | undefined): LocaleCode {
+  const candidate = value ? LOCALE_ALIASES[value] ?? value : "";
+  if (SUPPORTED_LOCALES.some((option) => option.code === candidate)) {
+    return candidate;
+  }
+  const baseMatch = SUPPORTED_LOCALES.find((option) => localeBase(option.code) === localeBase(candidate));
+  return baseMatch?.code ?? DEFAULT_LOCALE;
+}
+
+function isJapaneseLocale(locale: LocaleCode) {
+  return localeBase(locale) === "ja";
+}
+
+function intlLocale(locale: LocaleCode) {
+  return normalizeLocale(locale);
+}
+
+function fallbackDictionary(locale: LocaleCode) {
+  return isJapaneseLocale(locale) ? FALLBACK_TEXT.ja : FALLBACK_TEXT.en;
+}
+
+function localizedText(value: Localized | undefined, locale: LocaleCode) {
+  const normalized = normalizeLocale(locale);
+  const base = localeBase(normalized);
+  return value?.[normalized] ?? value?.[base] ?? value?.["en-US"] ?? value?.en ?? value?.["ja-JP"] ?? value?.ja ?? "";
+}
+
+function parseRouteString(rawInput: string): Route {
+  const raw = rawInput || "/";
   const [path, queryString = ""] = raw.split("?");
   const parts = path.split("/").filter(Boolean);
   if (parts[0] === "category" && parts[1]) {
@@ -284,6 +343,26 @@ function parseRoute(): Route {
   return { kind: "home" };
 }
 
+function parseRoute(): Route {
+  const hashRoute = window.location.hash.replace(/^#/, "");
+  if (hashRoute && hashRoute !== "/") {
+    return parseRouteString(hashRoute);
+  }
+  const queryRoute = new URLSearchParams(window.location.search).get("route");
+  return parseRouteString(queryRoute || hashRoute || "/");
+}
+
+function routePath(route: Route): string {
+  if (route.kind === "category") {
+    const query = route.query ? `?q=${encodeURIComponent(route.query)}` : "";
+    return `/category/${route.categoryId}${query}`;
+  }
+  if (route.kind === "detail") {
+    return `/detail/${route.categoryId}/${encodeURIComponent(route.slug)}`;
+  }
+  return "/";
+}
+
 function href(route: Route): string {
   if (route.kind === "category") {
     const query = route.query ? `?q=${encodeURIComponent(route.query)}` : "";
@@ -295,24 +374,47 @@ function href(route: Route): string {
   return "#/";
 }
 
+function seoUrl(route: Route, locale: LocaleCode, origin = SITE_ORIGIN): string {
+  const url = new URL(origin);
+  url.searchParams.set("lang", normalizeLocale(locale));
+  const path = routePath(route);
+  if (path !== "/") {
+    url.searchParams.set("route", path);
+  }
+  return url.toString();
+}
+
+function categoryListPath(category: CategorySummary, locale: LocaleCode) {
+  return category.listPath.replace("{locale}", normalizeLocale(locale));
+}
+
 function useRoute() {
   const [route, setRoute] = useState<Route>(parseRoute);
   useEffect(() => {
     const onHashChange = () => setRoute(parseRoute());
+    const onPopState = () => setRoute(parseRoute());
     window.addEventListener("hashchange", onHashChange);
-    return () => window.removeEventListener("hashchange", onHashChange);
+    window.addEventListener("popstate", onPopState);
+    return () => {
+      window.removeEventListener("hashchange", onHashChange);
+      window.removeEventListener("popstate", onPopState);
+    };
   }, []);
   return route;
 }
 
 function useLocale() {
   const [locale, setLocale] = useState<LocaleCode>(() => {
+    const requested = new URLSearchParams(window.location.search).get("lang");
+    if (requested) {
+      return normalizeLocale(requested);
+    }
     const saved = window.localStorage.getItem(LOCALE_KEY);
-    return saved === "en" ? "en" : "ja";
+    return normalizeLocale(saved);
   });
   useEffect(() => {
     window.localStorage.setItem(LOCALE_KEY, locale);
-    document.documentElement.lang = locale;
+    document.documentElement.lang = normalizeLocale(locale);
   }, [locale]);
   return { locale, setLocale };
 }
@@ -370,8 +472,8 @@ function App() {
 
   const manifest = manifestState.data;
   const dictionary = dictionaryState.data;
-  const t = (key: string) => dictionary?.[key] ?? FALLBACK_TEXT[locale][key] ?? key;
-  const text = (value: Localized | undefined) => value?.[locale] ?? value?.en ?? value?.ja ?? "";
+  const t = (key: string) => dictionary?.[key] ?? fallbackDictionary(locale)[key] ?? key;
+  const text = (value: Localized | undefined) => localizedText(value, locale);
 
   const categoryMap = useMemo(() => {
     const map = new Map<string, CategorySummary>();
@@ -382,6 +484,9 @@ function App() {
   const activeCategory = route.kind !== "home" ? categoryMap.get(route.categoryId) ?? null : null;
   const loading = manifestState.loading || dictionaryState.loading;
   const error = manifestState.error || dictionaryState.error;
+  const localeOptions = manifest?.locales?.length
+    ? manifest.locales.map((code) => ({ code, label: manifest.localeLabels?.[code] ?? SUPPORTED_LOCALES.find((option) => option.code === code)?.label ?? code }))
+    : SUPPORTED_LOCALES;
 
   function submitSearch(event: FormEvent) {
     event.preventDefault();
@@ -414,13 +519,17 @@ function App() {
         <label className="language-control">
           <span>{t("nav.locale")}</span>
           <select value={locale} onChange={(event) => setLocale(event.target.value as LocaleCode)}>
-            <option value="ja">日本語</option>
-            <option value="en">English</option>
+            {localeOptions.map((option) => (
+              <option value={option.code} key={option.code}>
+                {option.label}
+              </option>
+            ))}
           </select>
         </label>
       </header>
 
       <div className="shell">
+        <SeoManager route={route} manifest={manifest} activeCategory={activeCategory} locale={locale} t={t} />
         {manifest ? (
           <Sidebar
             manifest={manifest}
@@ -460,6 +569,154 @@ function App() {
       </div>
     </div>
   );
+}
+
+function upsertMeta(selector: string, create: () => HTMLMetaElement, content: string) {
+  let element = document.head.querySelector<HTMLMetaElement>(selector);
+  if (!element) {
+    element = create();
+    document.head.appendChild(element);
+  }
+  element.setAttribute("content", content);
+}
+
+function upsertLink(selector: string, create: () => HTMLLinkElement, hrefValue: string) {
+  let element = document.head.querySelector<HTMLLinkElement>(selector);
+  if (!element) {
+    element = create();
+    document.head.appendChild(element);
+  }
+  element.setAttribute("href", hrefValue);
+}
+
+function setNamedMeta(name: string, content: string) {
+  upsertMeta(
+    `meta[name="${name}"]`,
+    () => {
+      const element = document.createElement("meta");
+      element.setAttribute("name", name);
+      return element;
+    },
+    content,
+  );
+}
+
+function setPropertyMeta(property: string, content: string) {
+  upsertMeta(
+    `meta[property="${property}"]`,
+    () => {
+      const element = document.createElement("meta");
+      element.setAttribute("property", property);
+      return element;
+    },
+    content,
+  );
+}
+
+function applyDocumentSeo({
+  title,
+  description,
+  route,
+  locale,
+  locales,
+  siteUrl,
+}: {
+  title: string;
+  description: string;
+  route: Route;
+  locale: LocaleCode;
+  locales: LocaleCode[];
+  siteUrl: string;
+}) {
+  const canonical = seoUrl(route, locale, siteUrl);
+  document.title = title;
+  document.documentElement.lang = normalizeLocale(locale);
+  setNamedMeta("description", description);
+  setNamedMeta("twitter:card", "summary_large_image");
+  setNamedMeta("twitter:title", title);
+  setNamedMeta("twitter:description", description);
+  setPropertyMeta("og:site_name", "TBH Lab");
+  setPropertyMeta("og:type", route.kind === "home" ? "website" : "article");
+  setPropertyMeta("og:title", title);
+  setPropertyMeta("og:description", description);
+  setPropertyMeta("og:url", canonical);
+  upsertLink(
+    'link[rel="canonical"]',
+    () => {
+      const element = document.createElement("link");
+      element.setAttribute("rel", "canonical");
+      return element;
+    },
+    canonical,
+  );
+
+  document.head.querySelectorAll('link[rel="alternate"][data-tbh-hreflang="true"]').forEach((element) => element.remove());
+  locales.forEach((alternateLocale) => {
+    const element = document.createElement("link");
+    element.setAttribute("rel", "alternate");
+    element.setAttribute("hreflang", alternateLocale);
+    element.setAttribute("href", seoUrl(route, alternateLocale, siteUrl));
+    element.setAttribute("data-tbh-hreflang", "true");
+    document.head.appendChild(element);
+  });
+  const defaultAlternate = document.createElement("link");
+  defaultAlternate.setAttribute("rel", "alternate");
+  defaultAlternate.setAttribute("hreflang", "x-default");
+  defaultAlternate.setAttribute("href", seoUrl(route, "en-US", siteUrl));
+  defaultAlternate.setAttribute("data-tbh-hreflang", "true");
+  document.head.appendChild(defaultAlternate);
+
+  let jsonLd = document.head.querySelector<HTMLScriptElement>("#tbh-jsonld");
+  if (!jsonLd) {
+    jsonLd = document.createElement("script");
+    jsonLd.type = "application/ld+json";
+    jsonLd.id = "tbh-jsonld";
+    document.head.appendChild(jsonLd);
+  }
+  jsonLd.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": route.kind === "home" ? "WebSite" : "WebPage",
+    name: title,
+    description,
+    url: canonical,
+    inLanguage: normalizeLocale(locale),
+    isPartOf: {
+      "@type": "WebSite",
+      name: "TBH Lab",
+      url: siteUrl,
+    },
+  });
+}
+
+function SeoManager({
+  route,
+  manifest,
+  activeCategory,
+  locale,
+  t,
+}: {
+  route: Route;
+  manifest: Manifest | null;
+  activeCategory: CategorySummary | null;
+  locale: LocaleCode;
+  t: (key: string) => string;
+}) {
+  useEffect(() => {
+    const suffix = t("seo.titleSuffix");
+    const titleRoot = route.kind === "home" ? t("home.title") : activeCategory ? t(activeCategory.titleKey) : t("app.title");
+    const detailTail = route.kind === "detail" ? ` #${route.slug.replace(/-/g, " ")}` : "";
+    const title = route.kind === "home" ? `${titleRoot} | ${suffix}` : `${titleRoot}${detailTail} | TBH Lab`;
+    const description = route.kind === "home" ? t("seo.defaultDescription") : activeCategory ? t(activeCategory.descriptionKey) : t("seo.defaultDescription");
+    applyDocumentSeo({
+      title,
+      description,
+      route,
+      locale,
+      locales: manifest?.locales?.length ? manifest.locales : SUPPORTED_LOCALES.map((option) => option.code),
+      siteUrl: manifest?.seo?.siteUrl ?? SITE_ORIGIN,
+    });
+  }, [activeCategory, locale, manifest, route, t]);
+  return null;
 }
 
 function Sidebar({
@@ -504,7 +761,26 @@ function Sidebar({
           })}
         </section>
       ))}
+      <SupportPanel t={t} />
     </aside>
+  );
+}
+
+function SupportPanel({ t }: { t: (key: string) => string }) {
+  return (
+    <section className="support-panel" aria-label={t("support.title")}>
+      <h2>{t("support.title")}</h2>
+      <p>{t("support.copy")}</p>
+      <div className="support-actions">
+        <a href="https://ko-fi.com/X8X11KVU5K" target="_blank" rel="noreferrer">
+          {t("support.kofi")}
+        </a>
+        <a data-ofuse-widget-button href="https://ofuse.me/o?uid=116462" data-ofuse-id="116462" data-ofuse-style="rectangle">
+          {t("support.ofuse")}
+        </a>
+      </div>
+      <small>{t("support.adNotice")}</small>
+    </section>
   );
 }
 
@@ -587,7 +863,7 @@ function HomePage({
             <h2>{t("home.section.heroes")}</h2>
             <a href={href({ kind: "category", categoryId: "heroes" })}>{t("detail.open")}</a>
           </div>
-          <HeroPreview category={heroes} text={text} />
+          <HeroPreview category={heroes} text={text} locale={locale} />
         </section>
       ) : null}
 
@@ -611,11 +887,13 @@ function HomePage({
 function HeroPreview({
   category,
   text,
+  locale,
 }: {
   category: CategorySummary;
   text: (value: Localized | undefined) => string;
+  locale: LocaleCode;
 }) {
-  const { data } = useJson<CategoryPayload>(category.listPath);
+  const { data } = useJson<CategoryPayload>(categoryListPath(category, locale));
   if (!data) {
     return null;
   }
@@ -677,7 +955,7 @@ function CategoryPageBody({
   initialQuery?: string;
   saveSnapshot: SaveSnapshot | null;
 }) {
-  const { data, loading, error } = useJson<CategoryPayload>(category.listPath);
+  const { data, loading, error } = useJson<CategoryPayload>(categoryListPath(category, locale));
   const [query, setQuery] = useState(initialQuery ?? "");
   const [filters, setFilters] = useState<Record<string, string>>({});
   const [page, setPage] = useState(1);
@@ -698,13 +976,11 @@ function CategoryPageBody({
       }
       const haystack = [
         entry.entityId,
-        entry.title.ja,
-        entry.title.en,
-        entry.subtitle.ja,
-        entry.subtitle.en,
+        ...Object.values(entry.title),
+        ...Object.values(entry.subtitle),
         ...entry.tags,
         ...Object.values(entry.fields),
-        ...Object.values(entry.fieldDisplay ?? {}).flatMap((value) => [value.ja, value.en]),
+        ...Object.values(entry.fieldDisplay ?? {}).flatMap((value) => Object.values(value)),
       ]
         .join(" ")
         .toLowerCase();
@@ -1617,6 +1893,21 @@ function DetailPage({
   saveSnapshot: SaveSnapshot | null;
 }) {
   const { data, loading, error } = useJson<DetailPayload>(`/generated/details/${category.id}/${slug}.json`);
+  useEffect(() => {
+    if (!data) {
+      return;
+    }
+    const title = `${text(data.title)} | ${t(category.titleKey)} | TBH Lab`;
+    const description = text(data.subtitle) || `${text(data.title)} ${t(category.descriptionKey)}`;
+    applyDocumentSeo({
+      title,
+      description,
+      route: { kind: "detail", categoryId: category.id, slug },
+      locale,
+      locales: SUPPORTED_LOCALES.map((option) => option.code),
+      siteUrl: SITE_ORIGIN,
+    });
+  }, [category, data, locale, slug, t, text]);
   if (loading) {
     return <StatePanel label={t("state.loading")} />;
   }
@@ -1686,8 +1977,8 @@ function DetailSectionView({
         {section.items.map((item, index) => (
           <article className="entry-card" key={index}>
             <div>
-              <h3>{item.title.en ?? item.title.ja}</h3>
-              <p>{item.subtitle?.en ?? item.subtitle?.ja}</p>
+              <h3>{formatValue(item.title, locale)}</h3>
+              <p>{localizedText(item.subtitle, locale)}</p>
             </div>
           </article>
         ))}
@@ -1798,7 +2089,7 @@ function StatePanel({ label, detail }: { label: string; detail?: string }) {
 function formatNumber(value: string | number, locale: LocaleCode = "en") {
   const number = Number(value);
   if (Number.isFinite(number)) {
-    return new Intl.NumberFormat(locale === "ja" ? "ja-JP" : "en-US").format(number);
+    return new Intl.NumberFormat(intlLocale(locale)).format(number);
   }
   return String(value);
 }
@@ -1808,7 +2099,7 @@ function formatValue(value: CellValue | undefined, locale: LocaleCode) {
     return "-";
   }
   if (typeof value === "object") {
-    return value[locale] ?? value.en ?? value.ja ?? "-";
+    return localizedText(value, locale) || "-";
   }
   if (typeof value === "number") {
     return formatNumber(value, locale);

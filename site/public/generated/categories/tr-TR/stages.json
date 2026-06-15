@@ -1,0 +1,4377 @@
+{
+  "category": {
+    "id": "stages",
+    "titleKey": "category.stages.title",
+    "descriptionKey": "category.stages.description",
+    "count": 120,
+    "icon": "/generated/assets/game/map/Act1_Bg.png",
+    "layout": "cards",
+    "navGroup": "nav.systems",
+    "listPath": "/generated/categories/{locale}/stages.json"
+  },
+  "columns": [
+    {
+      "key": "difficulty",
+      "labelKey": "filter.difficulty"
+    },
+    {
+      "key": "act",
+      "labelKey": "field.act"
+    },
+    {
+      "key": "stage",
+      "labelKey": "field.stage"
+    },
+    {
+      "key": "level",
+      "labelKey": "field.stageLevel"
+    },
+    {
+      "key": "boss",
+      "labelKey": "field.boss"
+    }
+  ],
+  "filters": [
+    {
+      "id": "difficulty",
+      "labelKey": "filter.difficulty",
+      "options": [
+        "HELL",
+        "NIGHTMARE",
+        "NORMAL",
+        "TORMENT"
+      ]
+    },
+    {
+      "id": "act",
+      "labelKey": "filter.act",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "stages",
+      "entityId": "1101",
+      "slug": "1101-1-1-act-1-1-normal-normal",
+      "title": {
+        "tr-TR": "1-1 Act 1-1 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 1 / Boss Goblin Thief"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "1",
+        "level": "1",
+        "wave": "10",
+        "boss": "Goblin Thief"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Goblin Hırsızı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1101-1-1-act-1-1-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1102",
+      "slug": "1102-1-2-act-1-2-normal-normal",
+      "title": {
+        "tr-TR": "1-2 Act 1-2 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 2 / Boss Goblin Shaman"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "2",
+        "level": "2",
+        "wave": "11",
+        "boss": "Goblin Shaman"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Goblin Şamanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1102-1-2-act-1-2-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1103",
+      "slug": "1103-1-3-act-1-3-normal-normal",
+      "title": {
+        "tr-TR": "1-3 Act 1-3 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 3 / Boss Orc"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "3",
+        "level": "3",
+        "wave": "11",
+        "boss": "Orc"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Ork"
+        }
+      },
+      "detailPath": "/generated/details/stages/1103-1-3-act-1-3-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1104",
+      "slug": "1104-1-4-act-1-4-normal-normal",
+      "title": {
+        "tr-TR": "1-4 Act 1-4 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 5 / Boss Orc Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "4",
+        "level": "5",
+        "wave": "12",
+        "boss": "Orc Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Ork Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1104-1-4-act-1-4-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1105",
+      "slug": "1105-1-5-act-1-5-normal-normal",
+      "title": {
+        "tr-TR": "1-5 Act 1-5 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 6 / Boss Elite Orc"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "5",
+        "level": "6",
+        "wave": "12",
+        "boss": "Elite Orc"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Seçkin Ork"
+        }
+      },
+      "detailPath": "/generated/details/stages/1105-1-5-act-1-5-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1106",
+      "slug": "1106-1-6-act-1-6-normal-normal",
+      "title": {
+        "tr-TR": "1-6 Act 1-6 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 7 / Boss Skeleton"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "6",
+        "level": "7",
+        "wave": "12",
+        "boss": "Skeleton"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "İskelet"
+        }
+      },
+      "detailPath": "/generated/details/stages/1106-1-6-act-1-6-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1107",
+      "slug": "1107-1-7-act-1-7-normal-normal",
+      "title": {
+        "tr-TR": "1-7 Act 1-7 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 8 / Boss Skeleton Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "7",
+        "level": "8",
+        "wave": "12",
+        "boss": "Skeleton Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "İskelet Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1107-1-7-act-1-7-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1108",
+      "slug": "1108-1-8-act-1-8-normal-normal",
+      "title": {
+        "tr-TR": "1-8 Act 1-8 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 10 / Boss Skeleton Archer"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "8",
+        "level": "10",
+        "wave": "13",
+        "boss": "Skeleton Archer"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "İskelet Okçusu"
+        }
+      },
+      "detailPath": "/generated/details/stages/1108-1-8-act-1-8-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1109",
+      "slug": "1109-1-9-act-1-9-normal-normal",
+      "title": {
+        "tr-TR": "1-9 Act 1-9 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 11 / Boss Elite Orc"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "9",
+        "level": "11",
+        "wave": "13",
+        "boss": "Elite Orc"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Seçkin Ork"
+        }
+      },
+      "detailPath": "/generated/details/stages/1109-1-9-act-1-9-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1110",
+      "slug": "1110-1-10-act-1-10-normal-actboss",
+      "title": {
+        "tr-TR": "1-10 Act 1-10 NORMAL ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 12 / Boss Skeleton King"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "ACTBOSS",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "1",
+        "stage": "10",
+        "level": "12",
+        "wave": "-",
+        "boss": "Skeleton King"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "İskelet Kralı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1110-1-10-act-1-10-normal-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1201",
+      "slug": "1201-2-1-act-2-1-normal-normal",
+      "title": {
+        "tr-TR": "2-1 Act 2-1 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 13 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "1",
+        "level": "13",
+        "wave": "14",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/1201-2-1-act-2-1-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1202",
+      "slug": "1202-2-2-act-2-2-normal-normal",
+      "title": {
+        "tr-TR": "2-2 Act 2-2 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 14 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "2",
+        "level": "14",
+        "wave": "14",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1202-2-2-act-2-2-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1203",
+      "slug": "1203-2-3-act-2-3-normal-normal",
+      "title": {
+        "tr-TR": "2-3 Act 2-3 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 15 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "3",
+        "level": "15",
+        "wave": "14",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/1203-2-3-act-2-3-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1204",
+      "slug": "1204-2-4-act-2-4-normal-normal",
+      "title": {
+        "tr-TR": "2-4 Act 2-4 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 16 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "4",
+        "level": "16",
+        "wave": "15",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/1204-2-4-act-2-4-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1205",
+      "slug": "1205-2-5-act-2-5-normal-normal",
+      "title": {
+        "tr-TR": "2-5 Act 2-5 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 17 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "5",
+        "level": "17",
+        "wave": "15",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/1205-2-5-act-2-5-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1206",
+      "slug": "1206-2-6-act-2-6-normal-normal",
+      "title": {
+        "tr-TR": "2-6 Act 2-6 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 18 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "6",
+        "level": "18",
+        "wave": "15",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/1206-2-6-act-2-6-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1207",
+      "slug": "1207-2-7-act-2-7-normal-normal",
+      "title": {
+        "tr-TR": "2-7 Act 2-7 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 19 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "7",
+        "level": "19",
+        "wave": "15",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1207-2-7-act-2-7-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1208",
+      "slug": "1208-2-8-act-2-8-normal-normal",
+      "title": {
+        "tr-TR": "2-8 Act 2-8 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 20 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "8",
+        "level": "20",
+        "wave": "16",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/1208-2-8-act-2-8-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1209",
+      "slug": "1209-2-9-act-2-9-normal-normal",
+      "title": {
+        "tr-TR": "2-9 Act 2-9 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 21 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "9",
+        "level": "21",
+        "wave": "16",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/1209-2-9-act-2-9-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1210",
+      "slug": "1210-2-10-act-2-10-normal-actboss",
+      "title": {
+        "tr-TR": "2-10 Act 2-10 NORMAL ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 22 / Boss Desert Overlord"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "ACTBOSS",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "2",
+        "stage": "10",
+        "level": "22",
+        "wave": "-",
+        "boss": "Desert Overlord"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Çölün Hükümdarı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1210-2-10-act-2-10-normal-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1301",
+      "slug": "1301-3-1-act-3-1-normal-normal",
+      "title": {
+        "tr-TR": "3-1 Act 3-1 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 23 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "1",
+        "level": "23",
+        "wave": "16",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/1301-3-1-act-3-1-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1302",
+      "slug": "1302-3-2-act-3-2-normal-normal",
+      "title": {
+        "tr-TR": "3-2 Act 3-2 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 24 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "2",
+        "level": "24",
+        "wave": "16",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1302-3-2-act-3-2-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1303",
+      "slug": "1303-3-3-act-3-3-normal-normal",
+      "title": {
+        "tr-TR": "3-3 Act 3-3 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 25 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "3",
+        "level": "25",
+        "wave": "17",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/1303-3-3-act-3-3-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1304",
+      "slug": "1304-3-4-act-3-4-normal-normal",
+      "title": {
+        "tr-TR": "3-4 Act 3-4 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 26 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "4",
+        "level": "26",
+        "wave": "17",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/1304-3-4-act-3-4-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1305",
+      "slug": "1305-3-5-act-3-5-normal-normal",
+      "title": {
+        "tr-TR": "3-5 Act 3-5 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 27 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "5",
+        "level": "27",
+        "wave": "17",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/1305-3-5-act-3-5-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1306",
+      "slug": "1306-3-6-act-3-6-normal-normal",
+      "title": {
+        "tr-TR": "3-6 Act 3-6 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 28 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "6",
+        "level": "28",
+        "wave": "17",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/1306-3-6-act-3-6-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1307",
+      "slug": "1307-3-7-act-3-7-normal-normal",
+      "title": {
+        "tr-TR": "3-7 Act 3-7 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 29 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "7",
+        "level": "29",
+        "wave": "17",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/1307-3-7-act-3-7-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1308",
+      "slug": "1308-3-8-act-3-8-normal-normal",
+      "title": {
+        "tr-TR": "3-8 Act 3-8 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 30 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "8",
+        "level": "30",
+        "wave": "18",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/1308-3-8-act-3-8-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1309",
+      "slug": "1309-3-9-act-3-9-normal-normal",
+      "title": {
+        "tr-TR": "3-9 Act 3-9 NORMAL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 31 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "9",
+        "level": "31",
+        "wave": "18",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/1309-3-9-act-3-9-normal-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "1310",
+      "slug": "1310-3-10-act-3-10-normal-actboss",
+      "title": {
+        "tr-TR": "3-10 Act 3-10 NORMAL ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Normal / Lv 32 / Boss Archon Morkar"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NORMAL",
+        "ACTBOSS",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NORMAL",
+        "act": "3",
+        "stage": "10",
+        "level": "32",
+        "wave": "-",
+        "boss": "Archon Morkar"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Normal"
+        },
+        "boss": {
+          "tr-TR": "Arkhon Morkar"
+        }
+      },
+      "detailPath": "/generated/details/stages/1310-3-10-act-3-10-normal-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2101",
+      "slug": "2101-1-1-act-1-1-nightmare-normal",
+      "title": {
+        "tr-TR": "1-1 Act 1-1 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 33 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "1",
+        "level": "33",
+        "wave": "20",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/2101-1-1-act-1-1-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2102",
+      "slug": "2102-1-2-act-1-2-nightmare-normal",
+      "title": {
+        "tr-TR": "1-2 Act 1-2 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 34 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "2",
+        "level": "34",
+        "wave": "20",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2102-1-2-act-1-2-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2103",
+      "slug": "2103-1-3-act-1-3-nightmare-normal",
+      "title": {
+        "tr-TR": "1-3 Act 1-3 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 35 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "3",
+        "level": "35",
+        "wave": "20",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/2103-1-3-act-1-3-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2104",
+      "slug": "2104-1-4-act-1-4-nightmare-normal",
+      "title": {
+        "tr-TR": "1-4 Act 1-4 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 35 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "4",
+        "level": "35",
+        "wave": "21",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/2104-1-4-act-1-4-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2105",
+      "slug": "2105-1-5-act-1-5-nightmare-normal",
+      "title": {
+        "tr-TR": "1-5 Act 1-5 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 36 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "5",
+        "level": "36",
+        "wave": "21",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/2105-1-5-act-1-5-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2106",
+      "slug": "2106-1-6-act-1-6-nightmare-normal",
+      "title": {
+        "tr-TR": "1-6 Act 1-6 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 37 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "6",
+        "level": "37",
+        "wave": "21",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/2106-1-6-act-1-6-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2107",
+      "slug": "2107-1-7-act-1-7-nightmare-normal",
+      "title": {
+        "tr-TR": "1-7 Act 1-7 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 38 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "7",
+        "level": "38",
+        "wave": "21",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2107-1-7-act-1-7-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2108",
+      "slug": "2108-1-8-act-1-8-nightmare-normal",
+      "title": {
+        "tr-TR": "1-8 Act 1-8 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 39 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "8",
+        "level": "39",
+        "wave": "21",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/2108-1-8-act-1-8-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2109",
+      "slug": "2109-1-9-act-1-9-nightmare-normal",
+      "title": {
+        "tr-TR": "1-9 Act 1-9 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 40 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "9",
+        "level": "40",
+        "wave": "22",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/2109-1-9-act-1-9-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2110",
+      "slug": "2110-1-10-act-1-10-nightmare-actboss",
+      "title": {
+        "tr-TR": "1-10 Act 1-10 NIGHTMARE ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 40 / Boss Skeleton King"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "ACTBOSS",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "1",
+        "stage": "10",
+        "level": "40",
+        "wave": "-",
+        "boss": "Skeleton King"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "İskelet Kralı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2110-1-10-act-1-10-nightmare-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2201",
+      "slug": "2201-2-1-act-2-1-nightmare-normal",
+      "title": {
+        "tr-TR": "2-1 Act 2-1 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 41 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "1",
+        "level": "41",
+        "wave": "22",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/2201-2-1-act-2-1-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2202",
+      "slug": "2202-2-2-act-2-2-nightmare-normal",
+      "title": {
+        "tr-TR": "2-2 Act 2-2 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 41 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "2",
+        "level": "41",
+        "wave": "22",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2202-2-2-act-2-2-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2203",
+      "slug": "2203-2-3-act-2-3-nightmare-normal",
+      "title": {
+        "tr-TR": "2-3 Act 2-3 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 42 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "3",
+        "level": "42",
+        "wave": "22",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/2203-2-3-act-2-3-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2204",
+      "slug": "2204-2-4-act-2-4-nightmare-normal",
+      "title": {
+        "tr-TR": "2-4 Act 2-4 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 42 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "4",
+        "level": "42",
+        "wave": "22",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/2204-2-4-act-2-4-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2205",
+      "slug": "2205-2-5-act-2-5-nightmare-normal",
+      "title": {
+        "tr-TR": "2-5 Act 2-5 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 43 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "5",
+        "level": "43",
+        "wave": "22",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/2205-2-5-act-2-5-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2206",
+      "slug": "2206-2-6-act-2-6-nightmare-normal",
+      "title": {
+        "tr-TR": "2-6 Act 2-6 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 43 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "6",
+        "level": "43",
+        "wave": "22",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/2206-2-6-act-2-6-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2207",
+      "slug": "2207-2-7-act-2-7-nightmare-normal",
+      "title": {
+        "tr-TR": "2-7 Act 2-7 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 44 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "7",
+        "level": "44",
+        "wave": "22",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2207-2-7-act-2-7-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2208",
+      "slug": "2208-2-8-act-2-8-nightmare-normal",
+      "title": {
+        "tr-TR": "2-8 Act 2-8 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 44 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "8",
+        "level": "44",
+        "wave": "22",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/2208-2-8-act-2-8-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2209",
+      "slug": "2209-2-9-act-2-9-nightmare-normal",
+      "title": {
+        "tr-TR": "2-9 Act 2-9 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 45 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "9",
+        "level": "45",
+        "wave": "23",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/2209-2-9-act-2-9-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2210",
+      "slug": "2210-2-10-act-2-10-nightmare-actboss",
+      "title": {
+        "tr-TR": "2-10 Act 2-10 NIGHTMARE ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 45 / Boss Desert Overlord"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "ACTBOSS",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "2",
+        "stage": "10",
+        "level": "45",
+        "wave": "-",
+        "boss": "Desert Overlord"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Çölün Hükümdarı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2210-2-10-act-2-10-nightmare-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2301",
+      "slug": "2301-3-1-act-3-1-nightmare-normal",
+      "title": {
+        "tr-TR": "3-1 Act 3-1 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 46 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "1",
+        "level": "46",
+        "wave": "23",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/2301-3-1-act-3-1-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2302",
+      "slug": "2302-3-2-act-3-2-nightmare-normal",
+      "title": {
+        "tr-TR": "3-2 Act 3-2 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 47 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "2",
+        "level": "47",
+        "wave": "23",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2302-3-2-act-3-2-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2303",
+      "slug": "2303-3-3-act-3-3-nightmare-normal",
+      "title": {
+        "tr-TR": "3-3 Act 3-3 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 48 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "3",
+        "level": "48",
+        "wave": "23",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/2303-3-3-act-3-3-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2304",
+      "slug": "2304-3-4-act-3-4-nightmare-normal",
+      "title": {
+        "tr-TR": "3-4 Act 3-4 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 49 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "4",
+        "level": "49",
+        "wave": "23",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/2304-3-4-act-3-4-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2305",
+      "slug": "2305-3-5-act-3-5-nightmare-normal",
+      "title": {
+        "tr-TR": "3-5 Act 3-5 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 50 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "5",
+        "level": "50",
+        "wave": "23",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/2305-3-5-act-3-5-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2306",
+      "slug": "2306-3-6-act-3-6-nightmare-normal",
+      "title": {
+        "tr-TR": "3-6 Act 3-6 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 50 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "6",
+        "level": "50",
+        "wave": "23",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/2306-3-6-act-3-6-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2307",
+      "slug": "2307-3-7-act-3-7-nightmare-normal",
+      "title": {
+        "tr-TR": "3-7 Act 3-7 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 51 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "7",
+        "level": "51",
+        "wave": "23",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/2307-3-7-act-3-7-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2308",
+      "slug": "2308-3-8-act-3-8-nightmare-normal",
+      "title": {
+        "tr-TR": "3-8 Act 3-8 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 51 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "8",
+        "level": "51",
+        "wave": "23",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/2308-3-8-act-3-8-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2309",
+      "slug": "2309-3-9-act-3-9-nightmare-normal",
+      "title": {
+        "tr-TR": "3-9 Act 3-9 NIGHTMARE NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 52 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "9",
+        "level": "52",
+        "wave": "23",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/2309-3-9-act-3-9-nightmare-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "2310",
+      "slug": "2310-3-10-act-3-10-nightmare-actboss",
+      "title": {
+        "tr-TR": "3-10 Act 3-10 NIGHTMARE ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Nightmare / Lv 52 / Boss Archon Morkar"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "NIGHTMARE",
+        "ACTBOSS",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "NIGHTMARE",
+        "act": "3",
+        "stage": "10",
+        "level": "52",
+        "wave": "-",
+        "boss": "Archon Morkar"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Kabus"
+        },
+        "boss": {
+          "tr-TR": "Arkhon Morkar"
+        }
+      },
+      "detailPath": "/generated/details/stages/2310-3-10-act-3-10-nightmare-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3101",
+      "slug": "3101-1-1-act-1-1-hell-normal",
+      "title": {
+        "tr-TR": "1-1 Act 1-1 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 53 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "1",
+        "level": "53",
+        "wave": "24",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/3101-1-1-act-1-1-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3102",
+      "slug": "3102-1-2-act-1-2-hell-normal",
+      "title": {
+        "tr-TR": "1-2 Act 1-2 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 54 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "2",
+        "level": "54",
+        "wave": "24",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3102-1-2-act-1-2-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3103",
+      "slug": "3103-1-3-act-1-3-hell-normal",
+      "title": {
+        "tr-TR": "1-3 Act 1-3 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 55 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "3",
+        "level": "55",
+        "wave": "25",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/3103-1-3-act-1-3-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3104",
+      "slug": "3104-1-4-act-1-4-hell-normal",
+      "title": {
+        "tr-TR": "1-4 Act 1-4 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 56 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "4",
+        "level": "56",
+        "wave": "25",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/3104-1-4-act-1-4-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3105",
+      "slug": "3105-1-5-act-1-5-hell-normal",
+      "title": {
+        "tr-TR": "1-5 Act 1-5 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 57 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "5",
+        "level": "57",
+        "wave": "25",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/3105-1-5-act-1-5-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3106",
+      "slug": "3106-1-6-act-1-6-hell-normal",
+      "title": {
+        "tr-TR": "1-6 Act 1-6 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 58 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "6",
+        "level": "58",
+        "wave": "25",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/3106-1-6-act-1-6-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3107",
+      "slug": "3107-1-7-act-1-7-hell-normal",
+      "title": {
+        "tr-TR": "1-7 Act 1-7 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 59 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "7",
+        "level": "59",
+        "wave": "25",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3107-1-7-act-1-7-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3108",
+      "slug": "3108-1-8-act-1-8-hell-normal",
+      "title": {
+        "tr-TR": "1-8 Act 1-8 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 59 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "8",
+        "level": "59",
+        "wave": "25",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/3108-1-8-act-1-8-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3109",
+      "slug": "3109-1-9-act-1-9-hell-normal",
+      "title": {
+        "tr-TR": "1-9 Act 1-9 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 60 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "9",
+        "level": "60",
+        "wave": "25",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/3109-1-9-act-1-9-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3110",
+      "slug": "3110-1-10-act-1-10-hell-actboss",
+      "title": {
+        "tr-TR": "1-10 Act 1-10 HELL ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 60 / Boss Skeleton King"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "ACTBOSS",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "1",
+        "stage": "10",
+        "level": "60",
+        "wave": "-",
+        "boss": "Skeleton King"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "İskelet Kralı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3110-1-10-act-1-10-hell-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3201",
+      "slug": "3201-2-1-act-2-1-hell-normal",
+      "title": {
+        "tr-TR": "2-1 Act 2-1 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 61 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "1",
+        "level": "61",
+        "wave": "26",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/3201-2-1-act-2-1-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3202",
+      "slug": "3202-2-2-act-2-2-hell-normal",
+      "title": {
+        "tr-TR": "2-2 Act 2-2 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 62 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "2",
+        "level": "62",
+        "wave": "26",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3202-2-2-act-2-2-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3203",
+      "slug": "3203-2-3-act-2-3-hell-normal",
+      "title": {
+        "tr-TR": "2-3 Act 2-3 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 63 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "3",
+        "level": "63",
+        "wave": "26",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/3203-2-3-act-2-3-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3204",
+      "slug": "3204-2-4-act-2-4-hell-normal",
+      "title": {
+        "tr-TR": "2-4 Act 2-4 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 64 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "4",
+        "level": "64",
+        "wave": "26",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/3204-2-4-act-2-4-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3205",
+      "slug": "3205-2-5-act-2-5-hell-normal",
+      "title": {
+        "tr-TR": "2-5 Act 2-5 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 65 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "5",
+        "level": "65",
+        "wave": "26",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/3205-2-5-act-2-5-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3206",
+      "slug": "3206-2-6-act-2-6-hell-normal",
+      "title": {
+        "tr-TR": "2-6 Act 2-6 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 66 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "6",
+        "level": "66",
+        "wave": "26",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/3206-2-6-act-2-6-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3207",
+      "slug": "3207-2-7-act-2-7-hell-normal",
+      "title": {
+        "tr-TR": "2-7 Act 2-7 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 67 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "7",
+        "level": "67",
+        "wave": "26",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3207-2-7-act-2-7-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3208",
+      "slug": "3208-2-8-act-2-8-hell-normal",
+      "title": {
+        "tr-TR": "2-8 Act 2-8 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 68 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "8",
+        "level": "68",
+        "wave": "26",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/3208-2-8-act-2-8-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3209",
+      "slug": "3209-2-9-act-2-9-hell-normal",
+      "title": {
+        "tr-TR": "2-9 Act 2-9 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 69 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "9",
+        "level": "69",
+        "wave": "26",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/3209-2-9-act-2-9-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3210",
+      "slug": "3210-2-10-act-2-10-hell-actboss",
+      "title": {
+        "tr-TR": "2-10 Act 2-10 HELL ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 69 / Boss Desert Overlord"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "ACTBOSS",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "2",
+        "stage": "10",
+        "level": "69",
+        "wave": "-",
+        "boss": "Desert Overlord"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Çölün Hükümdarı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3210-2-10-act-2-10-hell-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3301",
+      "slug": "3301-3-1-act-3-1-hell-normal",
+      "title": {
+        "tr-TR": "3-1 Act 3-1 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 70 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "1",
+        "level": "70",
+        "wave": "27",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/3301-3-1-act-3-1-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3302",
+      "slug": "3302-3-2-act-3-2-hell-normal",
+      "title": {
+        "tr-TR": "3-2 Act 3-2 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 71 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "2",
+        "level": "71",
+        "wave": "27",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3302-3-2-act-3-2-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3303",
+      "slug": "3303-3-3-act-3-3-hell-normal",
+      "title": {
+        "tr-TR": "3-3 Act 3-3 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 72 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "3",
+        "level": "72",
+        "wave": "27",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/3303-3-3-act-3-3-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3304",
+      "slug": "3304-3-4-act-3-4-hell-normal",
+      "title": {
+        "tr-TR": "3-4 Act 3-4 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 73 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "4",
+        "level": "73",
+        "wave": "27",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/3304-3-4-act-3-4-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3305",
+      "slug": "3305-3-5-act-3-5-hell-normal",
+      "title": {
+        "tr-TR": "3-5 Act 3-5 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 74 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "5",
+        "level": "74",
+        "wave": "27",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/3305-3-5-act-3-5-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3306",
+      "slug": "3306-3-6-act-3-6-hell-normal",
+      "title": {
+        "tr-TR": "3-6 Act 3-6 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 75 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "6",
+        "level": "75",
+        "wave": "27",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/3306-3-6-act-3-6-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3307",
+      "slug": "3307-3-7-act-3-7-hell-normal",
+      "title": {
+        "tr-TR": "3-7 Act 3-7 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 76 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "7",
+        "level": "76",
+        "wave": "27",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/3307-3-7-act-3-7-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3308",
+      "slug": "3308-3-8-act-3-8-hell-normal",
+      "title": {
+        "tr-TR": "3-8 Act 3-8 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 76 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "8",
+        "level": "76",
+        "wave": "27",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/3308-3-8-act-3-8-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3309",
+      "slug": "3309-3-9-act-3-9-hell-normal",
+      "title": {
+        "tr-TR": "3-9 Act 3-9 HELL NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 77 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "9",
+        "level": "77",
+        "wave": "27",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/3309-3-9-act-3-9-hell-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "3310",
+      "slug": "3310-3-10-act-3-10-hell-actboss",
+      "title": {
+        "tr-TR": "3-10 Act 3-10 HELL ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Hell / Lv 77 / Boss Archon Morkar"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "HELL",
+        "ACTBOSS",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "HELL",
+        "act": "3",
+        "stage": "10",
+        "level": "77",
+        "wave": "-",
+        "boss": "Archon Morkar"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Cehennem"
+        },
+        "boss": {
+          "tr-TR": "Arkhon Morkar"
+        }
+      },
+      "detailPath": "/generated/details/stages/3310-3-10-act-3-10-hell-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4101",
+      "slug": "4101-1-1-act-1-1-torment-normal",
+      "title": {
+        "tr-TR": "1-1 Act 1-1 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 78 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "1",
+        "level": "78",
+        "wave": "29",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/4101-1-1-act-1-1-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4102",
+      "slug": "4102-1-2-act-1-2-torment-normal",
+      "title": {
+        "tr-TR": "1-2 Act 1-2 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 79 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "2",
+        "level": "79",
+        "wave": "29",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4102-1-2-act-1-2-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4103",
+      "slug": "4103-1-3-act-1-3-torment-normal",
+      "title": {
+        "tr-TR": "1-3 Act 1-3 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 80 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "3",
+        "level": "80",
+        "wave": "29",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/4103-1-3-act-1-3-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4104",
+      "slug": "4104-1-4-act-1-4-torment-normal",
+      "title": {
+        "tr-TR": "1-4 Act 1-4 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 81 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "4",
+        "level": "81",
+        "wave": "29",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/4104-1-4-act-1-4-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4105",
+      "slug": "4105-1-5-act-1-5-torment-normal",
+      "title": {
+        "tr-TR": "1-5 Act 1-5 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 82 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "5",
+        "level": "82",
+        "wave": "29",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/4105-1-5-act-1-5-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4106",
+      "slug": "4106-1-6-act-1-6-torment-normal",
+      "title": {
+        "tr-TR": "1-6 Act 1-6 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 83 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "6",
+        "level": "83",
+        "wave": "29",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/4106-1-6-act-1-6-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4107",
+      "slug": "4107-1-7-act-1-7-torment-normal",
+      "title": {
+        "tr-TR": "1-7 Act 1-7 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 84 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "7",
+        "level": "84",
+        "wave": "29",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4107-1-7-act-1-7-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4108",
+      "slug": "4108-1-8-act-1-8-torment-normal",
+      "title": {
+        "tr-TR": "1-8 Act 1-8 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 84 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "8",
+        "level": "84",
+        "wave": "29",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/4108-1-8-act-1-8-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4109",
+      "slug": "4109-1-9-act-1-9-torment-normal",
+      "title": {
+        "tr-TR": "1-9 Act 1-9 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 85 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "9",
+        "level": "85",
+        "wave": "29",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/4109-1-9-act-1-9-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4110",
+      "slug": "4110-1-10-act-1-10-torment-actboss",
+      "title": {
+        "tr-TR": "1-10 Act 1-10 TORMENT ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 85 / Boss Skeleton King"
+      },
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "ACTBOSS",
+        "Act 1"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "1",
+        "stage": "10",
+        "level": "85",
+        "wave": "-",
+        "boss": "Skeleton King"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "İskelet Kralı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4110-1-10-act-1-10-torment-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4201",
+      "slug": "4201-2-1-act-2-1-torment-normal",
+      "title": {
+        "tr-TR": "2-1 Act 2-1 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 86 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "1",
+        "level": "86",
+        "wave": "30",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/4201-2-1-act-2-1-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4202",
+      "slug": "4202-2-2-act-2-2-torment-normal",
+      "title": {
+        "tr-TR": "2-2 Act 2-2 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 86 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "2",
+        "level": "86",
+        "wave": "30",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4202-2-2-act-2-2-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4203",
+      "slug": "4203-2-3-act-2-3-torment-normal",
+      "title": {
+        "tr-TR": "2-3 Act 2-3 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 87 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "3",
+        "level": "87",
+        "wave": "30",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/4203-2-3-act-2-3-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4204",
+      "slug": "4204-2-4-act-2-4-torment-normal",
+      "title": {
+        "tr-TR": "2-4 Act 2-4 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 87 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "4",
+        "level": "87",
+        "wave": "30",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/4204-2-4-act-2-4-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4205",
+      "slug": "4205-2-5-act-2-5-torment-normal",
+      "title": {
+        "tr-TR": "2-5 Act 2-5 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 88 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "5",
+        "level": "88",
+        "wave": "30",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/4205-2-5-act-2-5-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4206",
+      "slug": "4206-2-6-act-2-6-torment-normal",
+      "title": {
+        "tr-TR": "2-6 Act 2-6 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 88 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "6",
+        "level": "88",
+        "wave": "30",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/4206-2-6-act-2-6-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4207",
+      "slug": "4207-2-7-act-2-7-torment-normal",
+      "title": {
+        "tr-TR": "2-7 Act 2-7 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 89 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "7",
+        "level": "89",
+        "wave": "30",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4207-2-7-act-2-7-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4208",
+      "slug": "4208-2-8-act-2-8-torment-normal",
+      "title": {
+        "tr-TR": "2-8 Act 2-8 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 89 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "8",
+        "level": "89",
+        "wave": "30",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/4208-2-8-act-2-8-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4209",
+      "slug": "4209-2-9-act-2-9-torment-normal",
+      "title": {
+        "tr-TR": "2-9 Act 2-9 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 90 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "9",
+        "level": "90",
+        "wave": "30",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/4209-2-9-act-2-9-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4210",
+      "slug": "4210-2-10-act-2-10-torment-actboss",
+      "title": {
+        "tr-TR": "2-10 Act 2-10 TORMENT ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 90 / Boss Desert Overlord"
+      },
+      "icon": "/generated/assets/game/map/Act2_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "ACTBOSS",
+        "Act 2"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "2",
+        "stage": "10",
+        "level": "90",
+        "wave": "-",
+        "boss": "Desert Overlord"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Çölün Hükümdarı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4210-2-10-act-2-10-torment-actboss.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4301",
+      "slug": "4301-3-1-act-3-1-torment-normal",
+      "title": {
+        "tr-TR": "3-1 Act 3-1 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 91 / Boss Ratfolk Berserker"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "1",
+        "level": "91",
+        "wave": "31",
+        "boss": "Ratfolk Berserker"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Berserker"
+        }
+      },
+      "detailPath": "/generated/details/stages/4301-3-1-act-3-1-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4302",
+      "slug": "4302-3-2-act-3-2-torment-normal",
+      "title": {
+        "tr-TR": "3-2 Act 3-2 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 91 / Boss Ratfolk Warrior"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "2",
+        "level": "91",
+        "wave": "31",
+        "boss": "Ratfolk Warrior"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Sıçan Savaşçısı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4302-3-2-act-3-2-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4303",
+      "slug": "4303-3-3-act-3-3-torment-normal",
+      "title": {
+        "tr-TR": "3-3 Act 3-3 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 92 / Boss Cobra"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "3",
+        "level": "92",
+        "wave": "31",
+        "boss": "Cobra"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Kobra"
+        }
+      },
+      "detailPath": "/generated/details/stages/4303-3-3-act-3-3-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4304",
+      "slug": "4304-3-4-act-3-4-torment-normal",
+      "title": {
+        "tr-TR": "3-4 Act 3-4 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 92 / Boss Venom Insect"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "4",
+        "level": "92",
+        "wave": "31",
+        "boss": "Venom Insect"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Zehirli Böcek"
+        }
+      },
+      "detailPath": "/generated/details/stages/4304-3-4-act-3-4-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4305",
+      "slug": "4305-3-5-act-3-5-torment-normal",
+      "title": {
+        "tr-TR": "3-5 Act 3-5 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 93 / Boss Homunculus"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "5",
+        "level": "93",
+        "wave": "31",
+        "boss": "Homunculus"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Homunkulus"
+        }
+      },
+      "detailPath": "/generated/details/stages/4305-3-5-act-3-5-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4306",
+      "slug": "4306-3-6-act-3-6-torment-normal",
+      "title": {
+        "tr-TR": "3-6 Act 3-6 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 93 / Boss Ghoul"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "6",
+        "level": "93",
+        "wave": "31",
+        "boss": "Ghoul"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Gulyabani"
+        }
+      },
+      "detailPath": "/generated/details/stages/4306-3-6-act-3-6-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4307",
+      "slug": "4307-3-7-act-3-7-torment-normal",
+      "title": {
+        "tr-TR": "3-7 Act 3-7 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 94 / Boss Plague Rat"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "7",
+        "level": "94",
+        "wave": "31",
+        "boss": "Plague Rat"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Veba Sıçanı"
+        }
+      },
+      "detailPath": "/generated/details/stages/4307-3-7-act-3-7-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4308",
+      "slug": "4308-3-8-act-3-8-torment-normal",
+      "title": {
+        "tr-TR": "3-8 Act 3-8 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 94 / Boss Kobold Guard"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "8",
+        "level": "94",
+        "wave": "31",
+        "boss": "Kobold Guard"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Kobold Muhafız"
+        }
+      },
+      "detailPath": "/generated/details/stages/4308-3-8-act-3-8-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4309",
+      "slug": "4309-3-9-act-3-9-torment-normal",
+      "title": {
+        "tr-TR": "3-9 Act 3-9 TORMENT NORMAL"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 95 / Boss Mummy"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "NORMAL",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "9",
+        "level": "95",
+        "wave": "31",
+        "boss": "Mummy"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Mumya"
+        }
+      },
+      "detailPath": "/generated/details/stages/4309-3-9-act-3-9-torment-normal.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "stages",
+      "entityId": "4310",
+      "slug": "4310-3-10-act-3-10-torment-actboss",
+      "title": {
+        "tr-TR": "3-10 Act 3-10 TORMENT ACTBOSS"
+      },
+      "subtitle": {
+        "tr-TR": "Torment / Lv 95 / Boss Archon Morkar"
+      },
+      "icon": "/generated/assets/game/map/Act3_Bg.png",
+      "rarity": null,
+      "tags": [
+        "TORMENT",
+        "ACTBOSS",
+        "Act 3"
+      ],
+      "fields": {
+        "difficulty": "TORMENT",
+        "act": "3",
+        "stage": "10",
+        "level": "95",
+        "wave": "-",
+        "boss": "Archon Morkar"
+      },
+      "fieldDisplay": {
+        "difficulty": {
+          "tr-TR": "Azap"
+        },
+        "boss": {
+          "tr-TR": "Arkhon Morkar"
+        }
+      },
+      "detailPath": "/generated/details/stages/4310-3-10-act-3-10-torment-actboss.json",
+      "tooltip": null
+    }
+  ]
+}

@@ -323,6 +323,54 @@ a {
   font-size: 11px;
 }
 
+.support-panel {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid rgba(103, 197, 191, 0.34);
+  border-radius: 6px;
+  background:
+    linear-gradient(135deg, rgba(8, 17, 20, 0.92), rgba(33, 20, 15, 0.9)),
+    rgba(4, 8, 12, 0.68);
+}
+
+.support-panel h2,
+.support-panel p {
+  margin: 0;
+}
+
+.support-panel h2 {
+  color: #ffe49b;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.support-panel p,
+.support-panel small {
+  color: #aeb8b7;
+  font-size: 12px;
+}
+
+.support-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.support-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(211, 161, 61, 0.66);
+  border-radius: 5px;
+  background: linear-gradient(180deg, rgba(85, 43, 26, 0.94), rgba(22, 14, 11, 0.94));
+  color: #ffe5a6;
+  font-size: 12px;
+  font-weight: 850;
+}
+
 .content {
   order: 1;
   min-width: 0;

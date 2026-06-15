@@ -3,12 +3,40 @@
   "entityId": "passive-101081",
   "slug": "passive-101081-skill-range-enhancement",
   "title": {
-    "ja": "スキル射程強化",
-    "en": "Skill Range Enhancement"
+    "de-DE": "Fähigkeitsreichweite-Verstärkung",
+    "en-US": "Skill Range Enhancement",
+    "es-ES": "Mejora de Alcance de Habilidad",
+    "fr-FR": "Amélioration de Portée de Compétence",
+    "id-ID": "Peningkatan Jangkauan Skill",
+    "ja-JP": "スキル射程強化",
+    "ko-KR": "스킬 시전거리 강화",
+    "pl-PL": "Wzmocnienie Zasięg Umiej.",
+    "pt-BR": "Aprimoramento de Alcance de Habilidade",
+    "ru-RU": "Усиление Дальность умений",
+    "th-TH": "เสริมระยะสกิล",
+    "tr-TR": "Geliştirme Yetenek Menzili",
+    "uk-UA": "Посилення Дальн. умінь",
+    "vi-VN": "Tăng cường Tầm kỹ năng",
+    "zh-Hans": "技能范围强化",
+    "zh-Hant": "技能範圍強化"
   },
   "subtitle": {
-    "ja": "スキル射程30%増加",
-    "en": "30% Increased Skill Range"
+    "de-DE": "30% Erhöhter Fähigkeitsreichweite",
+    "en-US": "30% Increased Skill Range",
+    "es-ES": "30% Aumento de Alcance de Habilidad",
+    "fr-FR": "Portée de Compétence augmenté de 30%",
+    "id-ID": "30% Peningkatan Jangkauan Skill",
+    "ja-JP": "スキル射程30%増加",
+    "ko-KR": "스킬 시전 거리 30% 증가",
+    "pl-PL": "30% Zwiększony Zasięg Umiej.",
+    "pt-BR": "30% Aumento de Alcance de Habilidade",
+    "ru-RU": "+30% к Дальность умений",
+    "th-TH": "ระยะสกิลเพิ่ม 30%",
+    "tr-TR": "%30 Artan Yetenek Menzili",
+    "uk-UA": "+30% до Дальн. умінь",
+    "vi-VN": "Tăng 30% Tầm Kỹ Năng",
+    "zh-Hans": "技能范围提高30%",
+    "zh-Hant": "技能範圍提高30%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "スキル射程",
-        "en": "Skill Range"
+        "de-DE": "Fertigkeitsreichweite",
+        "en-US": "Skill Range",
+        "es-ES": "Alcance de Habilidad",
+        "fr-FR": "Portée de Compétence",
+        "id-ID": "Jangkauan Skill",
+        "ja-JP": "スキル射程",
+        "ko-KR": "스킬 사거리",
+        "pl-PL": "Zasięg Umiejętności",
+        "pt-BR": "Alcance da Habilidade",
+        "ru-RU": "Дальность навыка",
+        "th-TH": "ระยะสกิล",
+        "tr-TR": "Yetenek Menzili",
+        "uk-UA": "Дальність навички",
+        "vi-VN": "Tầm kỹ năng",
+        "zh-Hans": "技能范围",
+        "zh-Hant": "技能範圍"
       }
     },
     {

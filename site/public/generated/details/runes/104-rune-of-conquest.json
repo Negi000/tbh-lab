@@ -3,12 +3,40 @@
   "entityId": "104",
   "slug": "104-rune-of-conquest",
   "title": {
-    "ja": "征服のルーン",
-    "en": "Rune of Conquest"
+    "de-DE": "Eroberungsrune",
+    "en-US": "Rune of Conquest",
+    "es-ES": "Runa de Conquista",
+    "fr-FR": "Rune de Conquête",
+    "id-ID": "Rune Penaklukan",
+    "ja-JP": "征服のルーン",
+    "ko-KR": "정복의 룬",
+    "pl-PL": "Runa Podboju",
+    "pt-BR": "Runa da Conquista",
+    "ru-RU": "Руна завоевания",
+    "th-TH": "รูนพิชิต",
+    "tr-TR": "Fetih Runu",
+    "uk-UA": "Руна завоювання",
+    "vi-VN": "Rune Chinh Phục",
+    "zh-Hans": "征服符文",
+    "zh-Hant": "征服符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/DropChanceStageBossChest.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ステージボス宝箱のドロップ率",
-        "en": "Stage Boss Chest Drop Chance"
+        "de-DE": "Drop-Chance Stage-Boss-Truhe",
+        "en-US": "Stage Boss Chest Drop Chance",
+        "es-ES": "Prob. de cofre del jefe de fase",
+        "fr-FR": "Chance de coffre de boss de niveau",
+        "id-ID": "Peluang Jatuh Peti Bos Tahap",
+        "ja-JP": "ステージボス宝箱のドロップ率",
+        "ko-KR": "스테이지 보스 상자 드랍 확률",
+        "pl-PL": "Szansa na skrzynię bossa etapu",
+        "pt-BR": "Chance de baú do chefe de fase",
+        "ru-RU": "Шанс сундука босса этапа",
+        "th-TH": "โอกาสดรอปหีบบอสด่าน",
+        "tr-TR": "Bölüm Boss Sandığı Düşme Şansı",
+        "uk-UA": "Шанс скрині боса етапу",
+        "vi-VN": "Tỷ lệ rơi Rương Boss Màn",
+        "zh-Hans": "关卡首领宝箱掉落率",
+        "zh-Hant": "關卡首領寶箱掉落率"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "探索のルーン",
-            "en": "Rune of Exploration"
+            "de-DE": "Erkundungsrune",
+            "en-US": "Rune of Exploration",
+            "es-ES": "Runa de Exploración",
+            "fr-FR": "Rune d'Exploration",
+            "id-ID": "Rune Eksplorasi",
+            "ja-JP": "探索のルーン",
+            "ko-KR": "탐색의 룬",
+            "pl-PL": "Runa Eksploracji",
+            "pt-BR": "Runa de Exploração",
+            "ru-RU": "Руна исследования",
+            "th-TH": "รูนสำรวจ",
+            "tr-TR": "Keşif Runu",
+            "uk-UA": "Руна дослідження",
+            "vi-VN": "Rune Thám Hiểm",
+            "zh-Hans": "探索符文",
+            "zh-Hant": "探索符文"
           },
           "-"
         ]
@@ -89,56 +159,196 @@
         [
           1,
           {
-            "ja": "ステージボス宝箱ドロップ率係数150%増加",
-            "en": "150% Increased Stage Boss Chest Drop Chance Multiplier"
+            "de-DE": "150% erhöhter Multiplikator für Stage-Boss-Truhen-Chance",
+            "en-US": "150% Increased Stage Boss Chest Drop Chance Multiplier",
+            "es-ES": "150% Aumento del Multiplicador de Prob. de cofre del jefe de etapa",
+            "fr-FR": "Multiplicateur de chance de coffre de boss d'étape augmenté de 150%",
+            "id-ID": "150% Peningkatan Pengali Peluang Peti Boss Panggung",
+            "ja-JP": "ステージボス宝箱ドロップ率係数150%増加",
+            "ko-KR": "스테이지 보스 상자 드랍 확률 계수 150% 증가",
+            "pl-PL": "150% Zwiększony mnożnik szansy na skrzynię bossa etapu",
+            "pt-BR": "150% Aumento do Multiplicador de Chance de baú do chefe de fase",
+            "ru-RU": "+150% к множителю шанса сундука босса стадии",
+            "th-TH": "ตัวคูณโอกาสหีบบอสด่านเพิ่ม 150%",
+            "tr-TR": "%150 Artan Aşama Boss Sandığı Şans Çarpanı",
+            "uk-UA": "+150% до множника шансу скрині боса етапу",
+            "vi-VN": "Tăng 150% Hệ số Tỉ lệ rương Boss Tầng",
+            "zh-Hans": "关卡首领宝箱掉落率系数提高150%",
+            "zh-Hant": "關卡首領寶箱掉落率係數提高150%"
           },
           {
-            "ja": "8000 ゴールド",
-            "en": "8000 Gold"
+            "de-DE": "8000 Gold",
+            "en-US": "8000 Gold",
+            "es-ES": "8000 Gold",
+            "fr-FR": "8000 Gold",
+            "id-ID": "8000 Gold",
+            "ja-JP": "8000 ゴールド",
+            "ko-KR": "8000 Gold",
+            "pl-PL": "8000 Gold",
+            "pt-BR": "8000 Gold",
+            "ru-RU": "8000 Gold",
+            "th-TH": "8000 Gold",
+            "tr-TR": "8000 Gold",
+            "uk-UA": "8000 Gold",
+            "vi-VN": "8000 Gold",
+            "zh-Hans": "8000 Gold",
+            "zh-Hant": "8000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "ステージボス宝箱ドロップ率係数150%増加",
-            "en": "150% Increased Stage Boss Chest Drop Chance Multiplier"
+            "de-DE": "150% erhöhter Multiplikator für Stage-Boss-Truhen-Chance",
+            "en-US": "150% Increased Stage Boss Chest Drop Chance Multiplier",
+            "es-ES": "150% Aumento del Multiplicador de Prob. de cofre del jefe de etapa",
+            "fr-FR": "Multiplicateur de chance de coffre de boss d'étape augmenté de 150%",
+            "id-ID": "150% Peningkatan Pengali Peluang Peti Boss Panggung",
+            "ja-JP": "ステージボス宝箱ドロップ率係数150%増加",
+            "ko-KR": "스테이지 보스 상자 드랍 확률 계수 150% 증가",
+            "pl-PL": "150% Zwiększony mnożnik szansy na skrzynię bossa etapu",
+            "pt-BR": "150% Aumento do Multiplicador de Chance de baú do chefe de fase",
+            "ru-RU": "+150% к множителю шанса сундука босса стадии",
+            "th-TH": "ตัวคูณโอกาสหีบบอสด่านเพิ่ม 150%",
+            "tr-TR": "%150 Artan Aşama Boss Sandığı Şans Çarpanı",
+            "uk-UA": "+150% до множника шансу скрині боса етапу",
+            "vi-VN": "Tăng 150% Hệ số Tỉ lệ rương Boss Tầng",
+            "zh-Hans": "关卡首领宝箱掉落率系数提高150%",
+            "zh-Hant": "關卡首領寶箱掉落率係數提高150%"
           },
           {
-            "ja": "8500 ゴールド",
-            "en": "8500 Gold"
+            "de-DE": "8500 Gold",
+            "en-US": "8500 Gold",
+            "es-ES": "8500 Gold",
+            "fr-FR": "8500 Gold",
+            "id-ID": "8500 Gold",
+            "ja-JP": "8500 ゴールド",
+            "ko-KR": "8500 Gold",
+            "pl-PL": "8500 Gold",
+            "pt-BR": "8500 Gold",
+            "ru-RU": "8500 Gold",
+            "th-TH": "8500 Gold",
+            "tr-TR": "8500 Gold",
+            "uk-UA": "8500 Gold",
+            "vi-VN": "8500 Gold",
+            "zh-Hans": "8500 Gold",
+            "zh-Hant": "8500 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "ステージボス宝箱ドロップ率係数150%増加",
-            "en": "150% Increased Stage Boss Chest Drop Chance Multiplier"
+            "de-DE": "150% erhöhter Multiplikator für Stage-Boss-Truhen-Chance",
+            "en-US": "150% Increased Stage Boss Chest Drop Chance Multiplier",
+            "es-ES": "150% Aumento del Multiplicador de Prob. de cofre del jefe de etapa",
+            "fr-FR": "Multiplicateur de chance de coffre de boss d'étape augmenté de 150%",
+            "id-ID": "150% Peningkatan Pengali Peluang Peti Boss Panggung",
+            "ja-JP": "ステージボス宝箱ドロップ率係数150%増加",
+            "ko-KR": "스테이지 보스 상자 드랍 확률 계수 150% 증가",
+            "pl-PL": "150% Zwiększony mnożnik szansy na skrzynię bossa etapu",
+            "pt-BR": "150% Aumento do Multiplicador de Chance de baú do chefe de fase",
+            "ru-RU": "+150% к множителю шанса сундука босса стадии",
+            "th-TH": "ตัวคูณโอกาสหีบบอสด่านเพิ่ม 150%",
+            "tr-TR": "%150 Artan Aşama Boss Sandığı Şans Çarpanı",
+            "uk-UA": "+150% до множника шансу скрині боса етапу",
+            "vi-VN": "Tăng 150% Hệ số Tỉ lệ rương Boss Tầng",
+            "zh-Hans": "关卡首领宝箱掉落率系数提高150%",
+            "zh-Hant": "關卡首領寶箱掉落率係數提高150%"
           },
           {
-            "ja": "9000 ゴールド",
-            "en": "9000 Gold"
+            "de-DE": "9000 Gold",
+            "en-US": "9000 Gold",
+            "es-ES": "9000 Gold",
+            "fr-FR": "9000 Gold",
+            "id-ID": "9000 Gold",
+            "ja-JP": "9000 ゴールド",
+            "ko-KR": "9000 Gold",
+            "pl-PL": "9000 Gold",
+            "pt-BR": "9000 Gold",
+            "ru-RU": "9000 Gold",
+            "th-TH": "9000 Gold",
+            "tr-TR": "9000 Gold",
+            "uk-UA": "9000 Gold",
+            "vi-VN": "9000 Gold",
+            "zh-Hans": "9000 Gold",
+            "zh-Hant": "9000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "ステージボス宝箱ドロップ率係数150%増加",
-            "en": "150% Increased Stage Boss Chest Drop Chance Multiplier"
+            "de-DE": "150% erhöhter Multiplikator für Stage-Boss-Truhen-Chance",
+            "en-US": "150% Increased Stage Boss Chest Drop Chance Multiplier",
+            "es-ES": "150% Aumento del Multiplicador de Prob. de cofre del jefe de etapa",
+            "fr-FR": "Multiplicateur de chance de coffre de boss d'étape augmenté de 150%",
+            "id-ID": "150% Peningkatan Pengali Peluang Peti Boss Panggung",
+            "ja-JP": "ステージボス宝箱ドロップ率係数150%増加",
+            "ko-KR": "스테이지 보스 상자 드랍 확률 계수 150% 증가",
+            "pl-PL": "150% Zwiększony mnożnik szansy na skrzynię bossa etapu",
+            "pt-BR": "150% Aumento do Multiplicador de Chance de baú do chefe de fase",
+            "ru-RU": "+150% к множителю шанса сундука босса стадии",
+            "th-TH": "ตัวคูณโอกาสหีบบอสด่านเพิ่ม 150%",
+            "tr-TR": "%150 Artan Aşama Boss Sandığı Şans Çarpanı",
+            "uk-UA": "+150% до множника шансу скрині боса етапу",
+            "vi-VN": "Tăng 150% Hệ số Tỉ lệ rương Boss Tầng",
+            "zh-Hans": "关卡首领宝箱掉落率系数提高150%",
+            "zh-Hant": "關卡首領寶箱掉落率係數提高150%"
           },
           {
-            "ja": "9500 ゴールド",
-            "en": "9500 Gold"
+            "de-DE": "9500 Gold",
+            "en-US": "9500 Gold",
+            "es-ES": "9500 Gold",
+            "fr-FR": "9500 Gold",
+            "id-ID": "9500 Gold",
+            "ja-JP": "9500 ゴールド",
+            "ko-KR": "9500 Gold",
+            "pl-PL": "9500 Gold",
+            "pt-BR": "9500 Gold",
+            "ru-RU": "9500 Gold",
+            "th-TH": "9500 Gold",
+            "tr-TR": "9500 Gold",
+            "uk-UA": "9500 Gold",
+            "vi-VN": "9500 Gold",
+            "zh-Hans": "9500 Gold",
+            "zh-Hant": "9500 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "ステージボス宝箱ドロップ率係数150%増加",
-            "en": "150% Increased Stage Boss Chest Drop Chance Multiplier"
+            "de-DE": "150% erhöhter Multiplikator für Stage-Boss-Truhen-Chance",
+            "en-US": "150% Increased Stage Boss Chest Drop Chance Multiplier",
+            "es-ES": "150% Aumento del Multiplicador de Prob. de cofre del jefe de etapa",
+            "fr-FR": "Multiplicateur de chance de coffre de boss d'étape augmenté de 150%",
+            "id-ID": "150% Peningkatan Pengali Peluang Peti Boss Panggung",
+            "ja-JP": "ステージボス宝箱ドロップ率係数150%増加",
+            "ko-KR": "스테이지 보스 상자 드랍 확률 계수 150% 증가",
+            "pl-PL": "150% Zwiększony mnożnik szansy na skrzynię bossa etapu",
+            "pt-BR": "150% Aumento do Multiplicador de Chance de baú do chefe de fase",
+            "ru-RU": "+150% к множителю шанса сундука босса стадии",
+            "th-TH": "ตัวคูณโอกาสหีบบอสด่านเพิ่ม 150%",
+            "tr-TR": "%150 Artan Aşama Boss Sandığı Şans Çarpanı",
+            "uk-UA": "+150% до множника шансу скрині боса етапу",
+            "vi-VN": "Tăng 150% Hệ số Tỉ lệ rương Boss Tầng",
+            "zh-Hans": "关卡首领宝箱掉落率系数提高150%",
+            "zh-Hant": "關卡首領寶箱掉落率係數提高150%"
           },
           {
-            "ja": "10000 ゴールド",
-            "en": "10000 Gold"
+            "de-DE": "10000 Gold",
+            "en-US": "10000 Gold",
+            "es-ES": "10000 Gold",
+            "fr-FR": "10000 Gold",
+            "id-ID": "10000 Gold",
+            "ja-JP": "10000 ゴールド",
+            "ko-KR": "10000 Gold",
+            "pl-PL": "10000 Gold",
+            "pt-BR": "10000 Gold",
+            "ru-RU": "10000 Gold",
+            "th-TH": "10000 Gold",
+            "tr-TR": "10000 Gold",
+            "uk-UA": "10000 Gold",
+            "vi-VN": "10000 Gold",
+            "zh-Hans": "10000 Gold",
+            "zh-Hant": "10000 Gold"
           }
         ]
       ]

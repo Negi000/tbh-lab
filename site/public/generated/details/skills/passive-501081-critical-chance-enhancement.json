@@ -3,12 +3,40 @@
   "entityId": "passive-501081",
   "slug": "passive-501081-critical-chance-enhancement",
   "title": {
-    "ja": "クリティカル率強化",
-    "en": "Critical Chance Enhancement"
+    "de-DE": "Kritische-Chance-Verstärkung",
+    "en-US": "Critical Chance Enhancement",
+    "es-ES": "Mejora de Probabilidad Crítica",
+    "fr-FR": "Amélioration Chance Critique",
+    "id-ID": "Peningkatan Peluang Kritis",
+    "ja-JP": "クリティカル率強化",
+    "ko-KR": "치명타 확률 강화",
+    "pl-PL": "Wzmocnienie Szansy Krytycznej",
+    "pt-BR": "Aprimoramento de Chance Crítica",
+    "ru-RU": "Усиление шанса крита",
+    "th-TH": "เสริมโอกาสคริติคอล",
+    "tr-TR": "Kritik Şansı Güçlendirme",
+    "uk-UA": "Посилення шансу крита",
+    "vi-VN": "Tăng cường Tỷ lệ chí mạng",
+    "zh-Hans": "暴击率强化",
+    "zh-Hant": "爆擊率強化"
   },
   "subtitle": {
-    "ja": "クリティカル率 +5%",
-    "en": "Critical Chance +5%"
+    "de-DE": "Krit. Chance +5%",
+    "en-US": "Critical Chance +5%",
+    "es-ES": "Prob. Crítica +5%",
+    "fr-FR": "Chance Crit. +5%",
+    "id-ID": "Peluang Kritis +5%",
+    "ja-JP": "クリティカル率 +5%",
+    "ko-KR": "치명타 확률 +5%",
+    "pl-PL": "Szansa Kryt. +5%",
+    "pt-BR": "Chance Crítica +5%",
+    "ru-RU": "Шанс крита +5%",
+    "th-TH": "โอกาสคริติคอล +5%",
+    "tr-TR": "Kritik Şansı +5%",
+    "uk-UA": "Шанс крита +5%",
+    "vi-VN": "Tỉ Lệ Chí Mạng +5%",
+    "zh-Hans": "暴击率 +5%",
+    "zh-Hant": "爆擊率 +5%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "クリティカル率",
-        "en": "Critical Chance"
+        "de-DE": "Kritische Trefferchance",
+        "en-US": "Critical Chance",
+        "es-ES": "Probabilidad crítica",
+        "fr-FR": "Chance de critique",
+        "id-ID": "Peluang Kritis",
+        "ja-JP": "クリティカル率",
+        "ko-KR": "치명타 확률",
+        "pl-PL": "Szansa na krytyk",
+        "pt-BR": "Chance Crítica",
+        "ru-RU": "Шанс критического удара",
+        "th-TH": "โอกาสคริติคอล",
+        "tr-TR": "Kritik Vuruş Şansı",
+        "uk-UA": "Шанс критичного удару",
+        "vi-VN": "Tỷ lệ chí mạng",
+        "zh-Hans": "暴击几率",
+        "zh-Hant": "暴擊機率"
       }
     },
     {

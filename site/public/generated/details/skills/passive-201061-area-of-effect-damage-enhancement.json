@@ -3,12 +3,40 @@
   "entityId": "passive-201061",
   "slug": "passive-201061-area-of-effect-damage-enhancement",
   "title": {
-    "ja": "範囲ダメージ強化",
-    "en": "Area of Effect Damage Enhancement"
+    "de-DE": "Flächenschaden-Verstärkung",
+    "en-US": "Area of Effect Damage Enhancement",
+    "es-ES": "Mejora de Daño de Área",
+    "fr-FR": "Amélioration des Dégâts de Zone",
+    "id-ID": "Peningkatan Kerusakan Area",
+    "ja-JP": "範囲ダメージ強化",
+    "ko-KR": "범위 피해 강화",
+    "pl-PL": "Wzmocnienie Obrażeń Obszarowych",
+    "pt-BR": "Aprimoramento de Dano de Área",
+    "ru-RU": "Усиление урона по области",
+    "th-TH": "เสริมความเสียหายพื้นที่",
+    "tr-TR": "Alan Hasarı Geliştirme",
+    "uk-UA": "Посилення шкоди по області",
+    "vi-VN": "Tăng cường Sát thương Diện rộng",
+    "zh-Hans": "范围伤害强化",
+    "zh-Hant": "範圍傷害強化"
   },
   "subtitle": {
-    "ja": "範囲ダメージ150%増加",
-    "en": "150% Increased Area of Effect Damage"
+    "de-DE": "150% erhöhter Flächenscha.",
+    "en-US": "150% Increased Area of Effect Damage",
+    "es-ES": "150% Aumento Daño de Área",
+    "fr-FR": "150% Dégâts de Zone augmentés",
+    "id-ID": "150% Peningkatan Damage Area",
+    "ja-JP": "範囲ダメージ150%増加",
+    "ko-KR": "범위 피해 150% 증가",
+    "pl-PL": "150% zwiększenia obrażeń obsz.",
+    "pt-BR": "150% Aumento Dano de Área",
+    "ru-RU": "150% увеличения урона по обл.",
+    "th-TH": "ดาเมจพื้นที่เพิ่ม 150%",
+    "tr-TR": "150% Artan Alan Hasarı",
+    "uk-UA": "150% збільшення шкоди по обл.",
+    "vi-VN": "Tăng 150% Sát Thương Diện rộng",
+    "zh-Hans": "范围伤害提高150%",
+    "zh-Hant": "範圍傷害提高150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "範囲ダメージ増加",
-        "en": "Increase Area Of Effect Damage"
+        "de-DE": "Flächenschaden erhöhen",
+        "en-US": "Increase Area Of Effect Damage",
+        "es-ES": "Aumentar Daño de Área",
+        "fr-FR": "Augmenter les Dégâts de Zone",
+        "id-ID": "Tingkatkan Damage Area",
+        "ja-JP": "範囲ダメージ増加",
+        "ko-KR": "범위 공격 데미지 증가",
+        "pl-PL": "Zwiększ Obrażenia Obszarowe",
+        "pt-BR": "Aumentar Dano em Área",
+        "ru-RU": "Увеличить урон по области",
+        "th-TH": "เพิ่มดาเมจเป็นวง",
+        "tr-TR": "Alan Hasarını Artır",
+        "uk-UA": "Збільшити шкоду по зоні",
+        "vi-VN": "Tăng Sát Thương Diện Rộng",
+        "zh-Hans": "增加范围伤害",
+        "zh-Hant": "增加範圍傷害"
       }
     },
     {

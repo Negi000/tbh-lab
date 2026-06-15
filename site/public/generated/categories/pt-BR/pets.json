@@ -1,0 +1,274 @@
+{
+  "category": {
+    "id": "pets",
+    "titleKey": "category.pets.title",
+    "descriptionKey": "category.pets.description",
+    "count": 8,
+    "icon": "/generated/assets/game/ui/BG_Pet.png",
+    "layout": "cards",
+    "navGroup": "nav.collection",
+    "listPath": "/generated/categories/{locale}/pets.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    },
+    {
+      "key": "gold",
+      "labelKey": "field.gold"
+    },
+    {
+      "key": "exp",
+      "labelKey": "field.exp"
+    }
+  ],
+  "filters": [
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "DLC",
+        "KillMonster"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "pets",
+      "entityId": "1001",
+      "slug": "1001-bat",
+      "title": {
+        "pt-BR": "Morcego"
+      },
+      "subtitle": {
+        "pt-BR": "KillMonster Bat"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1001-bat.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1002",
+      "slug": "1002-watcher",
+      "title": {
+        "pt-BR": "Vigia"
+      },
+      "subtitle": {
+        "pt-BR": "KillMonster Giant Fly"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1002-watcher.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1003",
+      "slug": "1003-burning-skeleton",
+      "title": {
+        "pt-BR": "Esqueleto Ardente"
+      },
+      "subtitle": {
+        "pt-BR": "KillMonster Fire Elemental"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1003-burning-skeleton.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1004",
+      "slug": "1004-blue-golem",
+      "title": {
+        "pt-BR": "Golem Azul"
+      },
+      "subtitle": {
+        "pt-BR": "KillMonster Hell Golem"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1004-blue-golem.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1005",
+      "slug": "1005-dark-spirit",
+      "title": {
+        "pt-BR": "Espírito Sombrio"
+      },
+      "subtitle": {
+        "pt-BR": "KillMonster Ghost"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1005-dark-spirit.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "6001",
+      "slug": "6001-sword",
+      "title": {
+        "pt-BR": "Espada"
+      },
+      "subtitle": {
+        "pt-BR": "DLC 4427390"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "DLC"
+      ],
+      "fields": {
+        "type": "DLC",
+        "count": "-",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "DLC"
+        }
+      },
+      "detailPath": "/generated/details/pets/6001-sword.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "6002",
+      "slug": "6002-butterfly",
+      "title": {
+        "pt-BR": "Borboleta"
+      },
+      "subtitle": {
+        "pt-BR": "DLC 4427390"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "DLC"
+      ],
+      "fields": {
+        "type": "DLC",
+        "count": "-",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "DLC"
+        }
+      },
+      "detailPath": "/generated/details/pets/6002-butterfly.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "6003",
+      "slug": "6003-dragon",
+      "title": {
+        "pt-BR": "Dragão"
+      },
+      "subtitle": {
+        "pt-BR": "DLC 4427390"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "DLC"
+      ],
+      "fields": {
+        "type": "DLC",
+        "count": "-",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "pt-BR": "DLC"
+        }
+      },
+      "detailPath": "/generated/details/pets/6003-dragon.json",
+      "tooltip": null
+    }
+  ]
+}

@@ -3,12 +3,40 @@
   "entityId": "411",
   "slug": "411-rune-of-war",
   "title": {
-    "ja": "戦争のルーン",
-    "en": "Rune of War"
+    "de-DE": "Kriegsrune",
+    "en-US": "Rune of War",
+    "es-ES": "Runa de Guerra",
+    "fr-FR": "Rune de Guerre",
+    "id-ID": "Rune Perang",
+    "ja-JP": "戦争のルーン",
+    "ko-KR": "전쟁의 룬",
+    "pl-PL": "Runa Wojny",
+    "pt-BR": "Runa de Guerra",
+    "ru-RU": "Руна войны",
+    "th-TH": "รูนสงคราม",
+    "tr-TR": "Savaş Runu",
+    "uk-UA": "Руна війни",
+    "vi-VN": "Rune Chiến Tranh",
+    "zh-Hans": "战争符文",
+    "zh-Hant": "戰爭符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "全ヒーロー攻撃ダメージ",
-        "en": "All Hero Attack Damage"
+        "de-DE": "Angriffsschaden aller Helden",
+        "en-US": "All Hero Attack Damage",
+        "es-ES": "Daño de todos los Héroes",
+        "fr-FR": "Dégâts de tous les Héros",
+        "id-ID": "Damage Serangan Semua Hero",
+        "ja-JP": "全ヒーロー攻撃ダメージ",
+        "ko-KR": "전체 히어로 공격력",
+        "pl-PL": "Obr. wszystkich Bohaterów",
+        "pt-BR": "Dano de todos os Heróis",
+        "ru-RU": "Урон всех героев",
+        "th-TH": "ดาเมจฮีโร่ทั้งหมด",
+        "tr-TR": "Tüm Kahramanların Hasarı",
+        "uk-UA": "Шкода всіх героїв",
+        "vi-VN": "Sát Thương Tất Cả Hero",
+        "zh-Hans": "全英雄攻击伤害",
+        "zh-Hant": "全英雄攻擊傷害"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "盾のルーン",
-            "en": "Rune of the Shield"
+            "de-DE": "Schildrune",
+            "en-US": "Rune of the Shield",
+            "es-ES": "Runa del Escudo",
+            "fr-FR": "Rune du Bouclier",
+            "id-ID": "Rune Perisai",
+            "ja-JP": "盾のルーン",
+            "ko-KR": "방패의 룬",
+            "pl-PL": "Runa Tarczy",
+            "pt-BR": "Runa do Escudo",
+            "ru-RU": "Руна щита",
+            "th-TH": "รูนโล่",
+            "tr-TR": "Kalkan Runu",
+            "uk-UA": "Руна щита",
+            "vi-VN": "Rune Khiên",
+            "zh-Hans": "盾之符文",
+            "zh-Hant": "盾之符文"
           },
           "-"
         ]
@@ -89,56 +159,196 @@
         [
           1,
           {
-            "ja": "全ヒーロー攻撃ダメージ +1",
-            "en": "All Hero Attack Damage +1"
+            "de-DE": "Angriffsschaden aller Helden +1",
+            "en-US": "All Hero Attack Damage +1",
+            "es-ES": "Daño de todos los Héroes +1",
+            "fr-FR": "Dégâts de tous les Héros +1",
+            "id-ID": "Damage Serangan Semua Hero +1",
+            "ja-JP": "全ヒーロー攻撃ダメージ +1",
+            "ko-KR": "전체 히어로 공격력 +1",
+            "pl-PL": "Obr. wszystkich Bohaterów +1",
+            "pt-BR": "Dano de todos os Heróis +1",
+            "ru-RU": "Урон всех героев +1",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมด +1",
+            "tr-TR": "Tüm Kahramanların Hasarı +1",
+            "uk-UA": "Шкода всіх героїв +1",
+            "vi-VN": "Sát Thương Tất Cả Hero +1",
+            "zh-Hans": "全英雄攻击伤害 +1",
+            "zh-Hant": "全英雄攻擊傷害 +1"
           },
           {
-            "ja": "80000 ゴールド",
-            "en": "80000 Gold"
+            "de-DE": "80000 Gold",
+            "en-US": "80000 Gold",
+            "es-ES": "80000 Gold",
+            "fr-FR": "80000 Gold",
+            "id-ID": "80000 Gold",
+            "ja-JP": "80000 ゴールド",
+            "ko-KR": "80000 Gold",
+            "pl-PL": "80000 Gold",
+            "pt-BR": "80000 Gold",
+            "ru-RU": "80000 Gold",
+            "th-TH": "80000 Gold",
+            "tr-TR": "80000 Gold",
+            "uk-UA": "80000 Gold",
+            "vi-VN": "80000 Gold",
+            "zh-Hans": "80000 Gold",
+            "zh-Hant": "80000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "全ヒーロー攻撃ダメージ +1",
-            "en": "All Hero Attack Damage +1"
+            "de-DE": "Angriffsschaden aller Helden +1",
+            "en-US": "All Hero Attack Damage +1",
+            "es-ES": "Daño de todos los Héroes +1",
+            "fr-FR": "Dégâts de tous les Héros +1",
+            "id-ID": "Damage Serangan Semua Hero +1",
+            "ja-JP": "全ヒーロー攻撃ダメージ +1",
+            "ko-KR": "전체 히어로 공격력 +1",
+            "pl-PL": "Obr. wszystkich Bohaterów +1",
+            "pt-BR": "Dano de todos os Heróis +1",
+            "ru-RU": "Урон всех героев +1",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมด +1",
+            "tr-TR": "Tüm Kahramanların Hasarı +1",
+            "uk-UA": "Шкода всіх героїв +1",
+            "vi-VN": "Sát Thương Tất Cả Hero +1",
+            "zh-Hans": "全英雄攻击伤害 +1",
+            "zh-Hant": "全英雄攻擊傷害 +1"
           },
           {
-            "ja": "100000 ゴールド",
-            "en": "100000 Gold"
+            "de-DE": "100000 Gold",
+            "en-US": "100000 Gold",
+            "es-ES": "100000 Gold",
+            "fr-FR": "100000 Gold",
+            "id-ID": "100000 Gold",
+            "ja-JP": "100000 ゴールド",
+            "ko-KR": "100000 Gold",
+            "pl-PL": "100000 Gold",
+            "pt-BR": "100000 Gold",
+            "ru-RU": "100000 Gold",
+            "th-TH": "100000 Gold",
+            "tr-TR": "100000 Gold",
+            "uk-UA": "100000 Gold",
+            "vi-VN": "100000 Gold",
+            "zh-Hans": "100000 Gold",
+            "zh-Hant": "100000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "全ヒーロー攻撃ダメージ +1",
-            "en": "All Hero Attack Damage +1"
+            "de-DE": "Angriffsschaden aller Helden +1",
+            "en-US": "All Hero Attack Damage +1",
+            "es-ES": "Daño de todos los Héroes +1",
+            "fr-FR": "Dégâts de tous les Héros +1",
+            "id-ID": "Damage Serangan Semua Hero +1",
+            "ja-JP": "全ヒーロー攻撃ダメージ +1",
+            "ko-KR": "전체 히어로 공격력 +1",
+            "pl-PL": "Obr. wszystkich Bohaterów +1",
+            "pt-BR": "Dano de todos os Heróis +1",
+            "ru-RU": "Урон всех героев +1",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมด +1",
+            "tr-TR": "Tüm Kahramanların Hasarı +1",
+            "uk-UA": "Шкода всіх героїв +1",
+            "vi-VN": "Sát Thương Tất Cả Hero +1",
+            "zh-Hans": "全英雄攻击伤害 +1",
+            "zh-Hant": "全英雄攻擊傷害 +1"
           },
           {
-            "ja": "120000 ゴールド",
-            "en": "120000 Gold"
+            "de-DE": "120000 Gold",
+            "en-US": "120000 Gold",
+            "es-ES": "120000 Gold",
+            "fr-FR": "120000 Gold",
+            "id-ID": "120000 Gold",
+            "ja-JP": "120000 ゴールド",
+            "ko-KR": "120000 Gold",
+            "pl-PL": "120000 Gold",
+            "pt-BR": "120000 Gold",
+            "ru-RU": "120000 Gold",
+            "th-TH": "120000 Gold",
+            "tr-TR": "120000 Gold",
+            "uk-UA": "120000 Gold",
+            "vi-VN": "120000 Gold",
+            "zh-Hans": "120000 Gold",
+            "zh-Hant": "120000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "全ヒーロー攻撃ダメージ +1",
-            "en": "All Hero Attack Damage +1"
+            "de-DE": "Angriffsschaden aller Helden +1",
+            "en-US": "All Hero Attack Damage +1",
+            "es-ES": "Daño de todos los Héroes +1",
+            "fr-FR": "Dégâts de tous les Héros +1",
+            "id-ID": "Damage Serangan Semua Hero +1",
+            "ja-JP": "全ヒーロー攻撃ダメージ +1",
+            "ko-KR": "전체 히어로 공격력 +1",
+            "pl-PL": "Obr. wszystkich Bohaterów +1",
+            "pt-BR": "Dano de todos os Heróis +1",
+            "ru-RU": "Урон всех героев +1",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมด +1",
+            "tr-TR": "Tüm Kahramanların Hasarı +1",
+            "uk-UA": "Шкода всіх героїв +1",
+            "vi-VN": "Sát Thương Tất Cả Hero +1",
+            "zh-Hans": "全英雄攻击伤害 +1",
+            "zh-Hant": "全英雄攻擊傷害 +1"
           },
           {
-            "ja": "140000 ゴールド",
-            "en": "140000 Gold"
+            "de-DE": "140000 Gold",
+            "en-US": "140000 Gold",
+            "es-ES": "140000 Gold",
+            "fr-FR": "140000 Gold",
+            "id-ID": "140000 Gold",
+            "ja-JP": "140000 ゴールド",
+            "ko-KR": "140000 Gold",
+            "pl-PL": "140000 Gold",
+            "pt-BR": "140000 Gold",
+            "ru-RU": "140000 Gold",
+            "th-TH": "140000 Gold",
+            "tr-TR": "140000 Gold",
+            "uk-UA": "140000 Gold",
+            "vi-VN": "140000 Gold",
+            "zh-Hans": "140000 Gold",
+            "zh-Hant": "140000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "全ヒーロー攻撃ダメージ +1",
-            "en": "All Hero Attack Damage +1"
+            "de-DE": "Angriffsschaden aller Helden +1",
+            "en-US": "All Hero Attack Damage +1",
+            "es-ES": "Daño de todos los Héroes +1",
+            "fr-FR": "Dégâts de tous les Héros +1",
+            "id-ID": "Damage Serangan Semua Hero +1",
+            "ja-JP": "全ヒーロー攻撃ダメージ +1",
+            "ko-KR": "전체 히어로 공격력 +1",
+            "pl-PL": "Obr. wszystkich Bohaterów +1",
+            "pt-BR": "Dano de todos os Heróis +1",
+            "ru-RU": "Урон всех героев +1",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมด +1",
+            "tr-TR": "Tüm Kahramanların Hasarı +1",
+            "uk-UA": "Шкода всіх героїв +1",
+            "vi-VN": "Sát Thương Tất Cả Hero +1",
+            "zh-Hans": "全英雄攻击伤害 +1",
+            "zh-Hant": "全英雄攻擊傷害 +1"
           },
           {
-            "ja": "160000 ゴールド",
-            "en": "160000 Gold"
+            "de-DE": "160000 Gold",
+            "en-US": "160000 Gold",
+            "es-ES": "160000 Gold",
+            "fr-FR": "160000 Gold",
+            "id-ID": "160000 Gold",
+            "ja-JP": "160000 ゴールド",
+            "ko-KR": "160000 Gold",
+            "pl-PL": "160000 Gold",
+            "pt-BR": "160000 Gold",
+            "ru-RU": "160000 Gold",
+            "th-TH": "160000 Gold",
+            "tr-TR": "160000 Gold",
+            "uk-UA": "160000 Gold",
+            "vi-VN": "160000 Gold",
+            "zh-Hans": "160000 Gold",
+            "zh-Hant": "160000 Gold"
           }
         ]
       ]

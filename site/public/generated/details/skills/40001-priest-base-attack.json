@@ -3,12 +3,40 @@
   "entityId": "40001",
   "slug": "40001-priest-base-attack",
   "title": {
-    "ja": "プリースト 通常攻撃",
-    "en": "Priest Base Attack"
+    "de-DE": "Priest Base Attack",
+    "en-US": "Priest Base Attack",
+    "es-ES": "Priest Base Attack",
+    "fr-FR": "Priest Base Attack",
+    "id-ID": "Priest Base Attack",
+    "ja-JP": "プリースト 通常攻撃",
+    "ko-KR": "Priest Base Attack",
+    "pl-PL": "Priest Base Attack",
+    "pt-BR": "Priest Base Attack",
+    "ru-RU": "Priest Base Attack",
+    "th-TH": "Priest Base Attack",
+    "tr-TR": "Priest Base Attack",
+    "uk-UA": "Priest Base Attack",
+    "vi-VN": "Priest Base Attack",
+    "zh-Hans": "Priest Base Attack",
+    "zh-Hant": "Priest Base Attack"
   },
   "subtitle": {
-    "en": "Base Attack / Base Attack",
-    "ja": "通常攻撃 / 通常攻撃"
+    "de-DE": "Base Attack / Base Attack",
+    "en-US": "Base Attack / Base Attack",
+    "es-ES": "Base Attack / Base Attack",
+    "fr-FR": "Base Attack / Base Attack",
+    "id-ID": "Base Attack / Base Attack",
+    "ja-JP": "通常攻撃 / 通常攻撃",
+    "ko-KR": "Base Attack / Base Attack",
+    "pl-PL": "Base Attack / Base Attack",
+    "pt-BR": "Base Attack / Base Attack",
+    "ru-RU": "Base Attack / Base Attack",
+    "th-TH": "Base Attack / Base Attack",
+    "tr-TR": "Base Attack / Base Attack",
+    "uk-UA": "Base Attack / Base Attack",
+    "vi-VN": "Base Attack / Base Attack",
+    "zh-Hans": "Base Attack / Base Attack",
+    "zh-Hant": "Base Attack / Base Attack"
   },
   "icon": null,
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "通常攻撃",
-        "en": "Base Attack"
+        "de-DE": "Base Attack",
+        "en-US": "Base Attack",
+        "es-ES": "Base Attack",
+        "fr-FR": "Base Attack",
+        "id-ID": "Base Attack",
+        "ja-JP": "通常攻撃",
+        "ko-KR": "Base Attack",
+        "pl-PL": "Base Attack",
+        "pt-BR": "Base Attack",
+        "ru-RU": "Base Attack",
+        "th-TH": "Base Attack",
+        "tr-TR": "Base Attack",
+        "uk-UA": "Base Attack",
+        "vi-VN": "Base Attack",
+        "zh-Hans": "Base Attack",
+        "zh-Hant": "Base Attack"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "通常攻撃",
-        "en": "Base Attack"
+        "de-DE": "Base Attack",
+        "en-US": "Base Attack",
+        "es-ES": "Base Attack",
+        "fr-FR": "Base Attack",
+        "id-ID": "Base Attack",
+        "ja-JP": "通常攻撃",
+        "ko-KR": "Base Attack",
+        "pl-PL": "Base Attack",
+        "pt-BR": "Base Attack",
+        "ru-RU": "Base Attack",
+        "th-TH": "Base Attack",
+        "tr-TR": "Base Attack",
+        "uk-UA": "Base Attack",
+        "vi-VN": "Base Attack",
+        "zh-Hans": "Base Attack",
+        "zh-Hant": "Base Attack"
       }
     },
     {

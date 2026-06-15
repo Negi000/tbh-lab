@@ -3,12 +3,40 @@
   "entityId": "passive-101051",
   "slug": "passive-101051-hp-per-kill-enhancement",
   "title": {
-    "ja": "撃破毎HP回復強化",
-    "en": "HP Per Kill Enhancement"
+    "de-DE": "LP pro Kill-Verstärkung",
+    "en-US": "HP Per Kill Enhancement",
+    "es-ES": "Mejora de PV por Muerte",
+    "fr-FR": "Amélioration de PV par Élimination",
+    "id-ID": "Peningkatan HP per Pembunuhan",
+    "ja-JP": "撃破毎HP回復強化",
+    "ko-KR": "처치시 체력 회복 강화",
+    "pl-PL": "Wzmocnienie PŻ za zabicie",
+    "pt-BR": "Aprimoramento de PV por Abate",
+    "ru-RU": "Усиление HP за убийство",
+    "th-TH": "เสริมHP ต่อการสังหาร",
+    "tr-TR": "Geliştirme Öldürme Başı Can",
+    "uk-UA": "Посилення HP за вбивство",
+    "vi-VN": "Tăng cường HP mỗi lần tiêu diệt",
+    "zh-Hans": "击杀HP回复强化",
+    "zh-Hant": "擊殺HP回復強化"
   },
   "subtitle": {
-    "ja": "キルごとにHP追加 +5",
-    "en": "Add Hp Per Kill +5"
+    "de-DE": "LP pro Kill hinzufügen +5",
+    "en-US": "Add Hp Per Kill +5",
+    "es-ES": "Añadir PV por Kill +5",
+    "fr-FR": "Ajouter PV par Kill +5",
+    "id-ID": "Tambah HP per Kill +5",
+    "ja-JP": "キルごとにHP追加 +5",
+    "ko-KR": "처치 시 생명력 회복 +5",
+    "pl-PL": "Dodaj PŻ za Zabicie +5",
+    "pt-BR": "Adicionar PV por Kill +5",
+    "ru-RU": "Добавить HP за убийство +5",
+    "th-TH": "เพิ่ม HP ต่อการสังหาร +5",
+    "tr-TR": "Öldürme Başına Can Ekle +5",
+    "uk-UA": "Додати HP за вбивство +5",
+    "vi-VN": "Thêm HP Mỗi Lần Giết +5",
+    "zh-Hans": "处决时回复生命 +5",
+    "zh-Hant": "處決時回復生命 +5"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "キルごとにHP追加",
-        "en": "Add Hp Per Kill"
+        "de-DE": "LP pro Kill hinzufügen",
+        "en-US": "Add Hp Per Kill",
+        "es-ES": "Añadir PV por Kill",
+        "fr-FR": "Ajouter PV par Kill",
+        "id-ID": "Tambah HP per Kill",
+        "ja-JP": "キルごとにHP追加",
+        "ko-KR": "처치 시 생명력 회복",
+        "pl-PL": "Dodaj PŻ za Zabicie",
+        "pt-BR": "Adicionar PV por Kill",
+        "ru-RU": "Добавить HP за убийство",
+        "th-TH": "เพิ่ม HP ต่อการสังหาร",
+        "tr-TR": "Öldürme Başına Can Ekle",
+        "uk-UA": "Додати HP за вбивство",
+        "vi-VN": "Thêm HP Mỗi Lần Giết",
+        "zh-Hans": "处决时恢复生命",
+        "zh-Hant": "處決時回復生命"
       }
     },
     {

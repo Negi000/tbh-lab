@@ -3,12 +3,40 @@
   "entityId": "passive-401062",
   "slug": "passive-401062-armor-enhancement",
   "title": {
-    "ja": "防御力強化",
-    "en": "Armor Enhancement"
+    "de-DE": "Rüstungsverstärkung",
+    "en-US": "Armor Enhancement",
+    "es-ES": "Mejora de Armadura",
+    "fr-FR": "Amélioration Armure",
+    "id-ID": "Peningkatan Armor",
+    "ja-JP": "防御力強化",
+    "ko-KR": "방어력 강화",
+    "pl-PL": "Wzmocnienie Zbroi",
+    "pt-BR": "Aprimoramento de Armadura",
+    "ru-RU": "Усиление брони",
+    "th-TH": "เสริมเกราะ",
+    "tr-TR": "Zırh Güçlendirme",
+    "uk-UA": "Посилення броні",
+    "vi-VN": "Tăng cường Giáp",
+    "zh-Hans": "防御力强化",
+    "zh-Hant": "防禦力強化"
   },
   "subtitle": {
-    "ja": "防御力 +50",
-    "en": "Armor +50"
+    "de-DE": "Rüstung +50",
+    "en-US": "Armor +50",
+    "es-ES": "Armadura +50",
+    "fr-FR": "Armure +50",
+    "id-ID": "Armor +50",
+    "ja-JP": "防御力 +50",
+    "ko-KR": "방어력 +50",
+    "pl-PL": "Zbroja +50",
+    "pt-BR": "Armadura +50",
+    "ru-RU": "Броня +50",
+    "th-TH": "เกราะ +50",
+    "tr-TR": "Zırh +50",
+    "uk-UA": "Броня +50",
+    "vi-VN": "Giáp +50",
+    "zh-Hans": "护甲 +50",
+    "zh-Hant": "護甲 +50"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "防御力",
-        "en": "Armor"
+        "de-DE": "Verteidigungskraft",
+        "en-US": "Armor",
+        "es-ES": "Poder de defensa",
+        "fr-FR": "Puissance défensive",
+        "id-ID": "Armor",
+        "ja-JP": "防御力",
+        "ko-KR": "방어력",
+        "pl-PL": "Siła obrony",
+        "pt-BR": "Poder de Defesa",
+        "ru-RU": "Сила защиты",
+        "th-TH": "เกราะ",
+        "tr-TR": "Savunma Gücü",
+        "uk-UA": "Сила захисту",
+        "vi-VN": "Giáp",
+        "zh-Hans": "防御力",
+        "zh-Hant": "防禦力"
       }
     },
     {

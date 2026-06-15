@@ -3,12 +3,40 @@
   "entityId": "60201",
   "slug": "60201-crushing-blow",
   "title": {
-    "ja": "クラッシングブロー",
-    "en": "Crushing Blow"
+    "de-DE": "Zermalmender Schlag",
+    "en-US": "Crushing Blow",
+    "es-ES": "Golpe Devastador",
+    "fr-FR": "Coup Écrasant",
+    "id-ID": "Pukulan Penghancur",
+    "ja-JP": "クラッシングブロー",
+    "ko-KR": "분쇄 강타",
+    "pl-PL": "Miażdżący Cios",
+    "pt-BR": "Golpe Esmagador",
+    "ru-RU": "Сокрушительный Удар",
+    "th-TH": "ทุบบด",
+    "tr-TR": "Ezici Darbe",
+    "uk-UA": "Нищівний Удар",
+    "vi-VN": "Đòn Nghiền Nát",
+    "zh-Hans": "粉碎强击",
+    "zh-Hant": "粉碎強擊"
   },
   "subtitle": {
-    "en": "Skill / Base Attack Count",
-    "ja": "スキル / 通常攻撃回数"
+    "de-DE": "Skill / Base Attack Count",
+    "en-US": "Skill / Base Attack Count",
+    "es-ES": "Skill / Base Attack Count",
+    "fr-FR": "Skill / Base Attack Count",
+    "id-ID": "Skill / Base Attack Count",
+    "ja-JP": "スキル / 通常攻撃回数",
+    "ko-KR": "Skill / Base Attack Count",
+    "pl-PL": "Skill / Base Attack Count",
+    "pt-BR": "Skill / Base Attack Count",
+    "ru-RU": "Skill / Base Attack Count",
+    "th-TH": "Skill / Base Attack Count",
+    "tr-TR": "Skill / Base Attack Count",
+    "uk-UA": "Skill / Base Attack Count",
+    "vi-VN": "Skill / Base Attack Count",
+    "zh-Hans": "Skill / Base Attack Count",
+    "zh-Hant": "Skill / Base Attack Count"
   },
   "icon": "/generated/assets/game/skills/Skill_60201.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "通常攻撃回数",
-        "en": "Base Attack Count"
+        "de-DE": "Base Attack Count",
+        "en-US": "Base Attack Count",
+        "es-ES": "Base Attack Count",
+        "fr-FR": "Base Attack Count",
+        "id-ID": "Base Attack Count",
+        "ja-JP": "通常攻撃回数",
+        "ko-KR": "Base Attack Count",
+        "pl-PL": "Base Attack Count",
+        "pt-BR": "Base Attack Count",
+        "ru-RU": "Base Attack Count",
+        "th-TH": "Base Attack Count",
+        "tr-TR": "Base Attack Count",
+        "uk-UA": "Base Attack Count",
+        "vi-VN": "Base Attack Count",
+        "zh-Hans": "Base Attack Count",
+        "zh-Hant": "Base Attack Count"
       }
     },
     {

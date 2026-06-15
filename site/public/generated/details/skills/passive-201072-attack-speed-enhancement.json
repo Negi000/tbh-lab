@@ -3,12 +3,40 @@
   "entityId": "passive-201072",
   "slug": "passive-201072-attack-speed-enhancement",
   "title": {
-    "ja": "攻撃速度強化",
-    "en": "Attack Speed Enhancement"
+    "de-DE": "Angriffsgeschwindigkeitsverstärkung",
+    "en-US": "Attack Speed Enhancement",
+    "es-ES": "Mejora de Velocidad de Ataque",
+    "fr-FR": "Amélioration Vitesse d'Attaque",
+    "id-ID": "Peningkatan Kecepatan Serangan",
+    "ja-JP": "攻撃速度強化",
+    "ko-KR": "공격속도 강화",
+    "pl-PL": "Wzmocnienie Szybkości Ataku",
+    "pt-BR": "Aprimoramento de Velocidade de Ataque",
+    "ru-RU": "Усиление скорости атаки",
+    "th-TH": "เสริมความเร็วการโจมตี",
+    "tr-TR": "Saldırı Hızı Güçlendirme",
+    "uk-UA": "Посилення швидкості атаки",
+    "vi-VN": "Tăng cường Tốc độ tấn công",
+    "zh-Hans": "攻击速度强化",
+    "zh-Hant": "攻擊速度強化"
   },
   "subtitle": {
-    "ja": "攻撃速度60%増加",
-    "en": "60% Increased Attack Speed"
+    "de-DE": "60% erhöhte Angriffsgeschw.",
+    "en-US": "60% Increased Attack Speed",
+    "es-ES": "60% Aumento Vel. Ataque",
+    "fr-FR": "60% Vitesse Att. augmentée",
+    "id-ID": "60% Peningkatan Kec. Serangan",
+    "ja-JP": "攻撃速度60%増加",
+    "ko-KR": "공격 속도 60% 증가",
+    "pl-PL": "60% zwiększenia szybk. ataku",
+    "pt-BR": "60% Aumento Vel. Ataque",
+    "ru-RU": "60% увеличения скорости атаки",
+    "th-TH": "ความเร็วโจมตีเพิ่ม 60%",
+    "tr-TR": "60% Artan Saldırı Hızı",
+    "uk-UA": "60% збільшення швидкості атаки",
+    "vi-VN": "Tăng 60% Tốc Độ Đánh",
+    "zh-Hans": "攻击速度提高60%",
+    "zh-Hant": "攻擊速度提高60%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "攻撃速度",
-        "en": "Attack Speed"
+        "de-DE": "Angriffsgeschwindigkeit",
+        "en-US": "Attack Speed",
+        "es-ES": "Velocidad de ataque",
+        "fr-FR": "Vitesse d'attaque",
+        "id-ID": "Kecepatan Serangan",
+        "ja-JP": "攻撃速度",
+        "ko-KR": "공격 속도",
+        "pl-PL": "Prędkość ataku",
+        "pt-BR": "Velocidade de Ataque",
+        "ru-RU": "Скорость атаки",
+        "th-TH": "ความเร็วโจมตี",
+        "tr-TR": "Saldırı Hızı",
+        "uk-UA": "Швидкість атаки",
+        "vi-VN": "Tốc độ tấn công",
+        "zh-Hans": "攻击速度",
+        "zh-Hant": "攻擊速度"
       }
     },
     {

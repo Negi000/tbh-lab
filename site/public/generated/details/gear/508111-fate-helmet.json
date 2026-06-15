@@ -3,12 +3,40 @@
   "entityId": "508111",
   "slug": "508111-fate-helmet",
   "title": {
-    "ja": "フェイトヘルメット",
-    "en": "Fate Helmet"
+    "de-DE": "Fate Helmet",
+    "en-US": "Fate Helmet",
+    "es-ES": "Fate Helmet",
+    "fr-FR": "Fate Helmet",
+    "id-ID": "Fate Helmet",
+    "ja-JP": "フェイトヘルメット",
+    "ko-KR": "Fate Helmet",
+    "pl-PL": "Fate Helmet",
+    "pt-BR": "Fate Helmet",
+    "ru-RU": "Fate Helmet",
+    "th-TH": "Fate Helmet",
+    "tr-TR": "Fate Helmet",
+    "uk-UA": "Fate Helmet",
+    "vi-VN": "Fate Helmet",
+    "zh-Hans": "Fate Helmet",
+    "zh-Hant": "Fate Helmet"
   },
   "subtitle": {
-    "en": "Divine / Helmet / HELMET / Lv. 50",
-    "ja": "ディバイン / ヘルメット / HELMET / Lv. 50"
+    "de-DE": "Göttlich / Helm / HELMET / Lv. 50",
+    "en-US": "Divine / Helmet / HELMET / Lv. 50",
+    "es-ES": "Divino / Casco / HELMET / Lv. 50",
+    "fr-FR": "Divin / Casque / HELMET / Lv. 50",
+    "id-ID": "Ilahi / Helm / HELMET / Lv. 50",
+    "ja-JP": "ディバイン / ヘルメット / HELMET / Lv. 50",
+    "ko-KR": "신성 / 투구 / HELMET / Lv. 50",
+    "pl-PL": "Boski / Hełm / HELMET / Lv. 50",
+    "pt-BR": "Divino / Capacete / HELMET / Lv. 50",
+    "ru-RU": "Божественный / Шлем / HELMET / Lv. 50",
+    "th-TH": "ศักดิ์สิทธิ์ / หมวก / HELMET / Lv. 50",
+    "tr-TR": "İlahi / Miğfer / HELMET / Lv. 50",
+    "uk-UA": "Божественний / Шолом / HELMET / Lv. 50",
+    "vi-VN": "Thần thánh / Mũ / HELMET / Lv. 50",
+    "zh-Hans": "神圣 / 头盔 / HELMET / Lv. 50",
+    "zh-Hant": "神聖 / 頭盔 / HELMET / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/HELMET_500011.png",
   "rarity": "DIVINE",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115118",
-            "en": "DropKey 3115118"
+            "de-DE": "DropKey 3115118",
+            "en-US": "DropKey 3115118",
+            "es-ES": "DropKey 3115118",
+            "fr-FR": "DropKey 3115118",
+            "id-ID": "DropKey 3115118",
+            "ja-JP": "DropKey 3115118",
+            "ko-KR": "DropKey 3115118",
+            "pl-PL": "DropKey 3115118",
+            "pt-BR": "DropKey 3115118",
+            "ru-RU": "DropKey 3115118",
+            "th-TH": "DropKey 3115118",
+            "tr-TR": "DropKey 3115118",
+            "uk-UA": "DropKey 3115118",
+            "vi-VN": "DropKey 3115118",
+            "zh-Hans": "DropKey 3115118",
+            "zh-Hant": "DropKey 3115118"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

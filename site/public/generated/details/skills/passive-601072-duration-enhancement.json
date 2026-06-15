@@ -3,12 +3,40 @@
   "entityId": "passive-601072",
   "slug": "passive-601072-duration-enhancement",
   "title": {
-    "ja": "持続時間強化",
-    "en": "Duration Enhancement"
+    "de-DE": "Dauer-Verstärkung",
+    "en-US": "Duration Enhancement",
+    "es-ES": "Mejora de Duración",
+    "fr-FR": "Amélioration de Durée",
+    "id-ID": "Peningkatan Durasi",
+    "ja-JP": "持続時間強化",
+    "ko-KR": "지속 시간 강화",
+    "pl-PL": "Wzmocnienie Czasu Trwania",
+    "pt-BR": "Aprimoramento de Duração",
+    "ru-RU": "Усиление длительности",
+    "th-TH": "เสริมระยะเวลา",
+    "tr-TR": "Süre Geliştirme",
+    "uk-UA": "Посилення тривалості",
+    "vi-VN": "Tăng cường Thời gian Hiệu lực",
+    "zh-Hans": "持续时间强化",
+    "zh-Hant": "持續時間強化"
   },
   "subtitle": {
-    "ja": "80% 増加したスキル持続時間",
-    "en": "80% Increased Skill Duration"
+    "de-DE": "80% erhöhte Skill-Dauer",
+    "en-US": "80% Increased Skill Duration",
+    "es-ES": "80% más duración de habilidad",
+    "fr-FR": "80% durée de compétence augmentée",
+    "id-ID": "80% durasi skill meningkat",
+    "ja-JP": "80% 増加したスキル持続時間",
+    "ko-KR": "스킬 지속시간 80% 증가",
+    "pl-PL": "80% zwiększony czas trwania umiejętności",
+    "pt-BR": "80% mais duração de habilidade",
+    "ru-RU": "80% увеличение длительности навыка",
+    "th-TH": "80% ระยะเวลาสกิลที่เพิ่มขึ้น",
+    "tr-TR": "80% artırılmış yetenek süresi",
+    "uk-UA": "80% збільшення тривалості навички",
+    "vi-VN": "80% thời lượng kỹ năng tăng",
+    "zh-Hans": "80% 提高的技能持续时间",
+    "zh-Hant": "80% 提高的技能持續時間"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "スキル持続時間増加",
-        "en": "Skill Duration Increase"
+        "de-DE": "Fähigkeitsdauer erhöhen",
+        "en-US": "Skill Duration Increase",
+        "es-ES": "Aumentar Duración de Habilidad",
+        "fr-FR": "Augmenter la Durée de Compétence",
+        "id-ID": "Tingkatkan Durasi Skill",
+        "ja-JP": "スキル持続時間増加",
+        "ko-KR": "스킬 지속시간 증가",
+        "pl-PL": "Zwiększ Czas Umiejętności",
+        "pt-BR": "Aumentar Duração de Habilidade",
+        "ru-RU": "Увеличить длительность умений",
+        "th-TH": "เพิ่มระยะเวลาสกิล",
+        "tr-TR": "Yetenek Süresi Artışı",
+        "uk-UA": "Збільшити тривалість умінь",
+        "vi-VN": "Tăng Thời Gian Kỹ Năng",
+        "zh-Hans": "增加技能持续时间",
+        "zh-Hant": "增加技能持續時間"
       }
     },
     {

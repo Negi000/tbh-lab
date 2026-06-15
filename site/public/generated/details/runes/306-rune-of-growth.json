@@ -3,12 +3,40 @@
   "entityId": "306",
   "slug": "306-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/IncreaseExpAmount.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "経験値増加",
-        "en": "Increase Exp Amount"
+        "de-DE": "Erhöhung EP-Menge",
+        "en-US": "Increase Exp Amount",
+        "es-ES": "Aumentar cantidad de Exp",
+        "fr-FR": "Augmenter la quantité d'Exp",
+        "id-ID": "Tingkatkan Exp",
+        "ja-JP": "経験値増加",
+        "ko-KR": "추가 경험치",
+        "pl-PL": "Zwiększ ilość Exp",
+        "pt-BR": "Aumentar quantidade de Exp",
+        "ru-RU": "Увел. опыта",
+        "th-TH": "เพิ่ม Exp",
+        "tr-TR": "Tecrübe Miktarı Artışı",
+        "uk-UA": "Збільш. досвіду",
+        "vi-VN": "Tăng Lượng KN",
+        "zh-Hans": "增加经验",
+        "zh-Hant": "增加經驗"
       }
     },
     {
@@ -60,23 +102,79 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ]
@@ -100,56 +198,196 @@
         [
           1,
           {
-            "ja": "経験値獲得50%増加",
-            "en": "50% Increased Exp Gain"
+            "de-DE": "50% Erhöhter EP-Gewinn",
+            "en-US": "50% Increased Exp Gain",
+            "es-ES": "50% Aumento de Ganancia de Exp",
+            "fr-FR": "Gain d'Exp augmenté de 50%",
+            "id-ID": "50% Peningkatan Perolehan Exp",
+            "ja-JP": "経験値獲得50%増加",
+            "ko-KR": "경험치 획득량 50% 증가",
+            "pl-PL": "50% Zwiększony Zysk Exp",
+            "pt-BR": "50% Aumento de Ganho de Exp",
+            "ru-RU": "+50% к Опыт",
+            "th-TH": "รับ Expเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tecrübe Kazanımı",
+            "uk-UA": "+50% до Отримання досвіду",
+            "vi-VN": "Tăng 50% Nhận KN",
+            "zh-Hans": "经验获取提高50%",
+            "zh-Hant": "經驗獲取提高50%"
           },
           {
-            "ja": "30000 ゴールド",
-            "en": "30000 Gold"
+            "de-DE": "30000 Gold",
+            "en-US": "30000 Gold",
+            "es-ES": "30000 Gold",
+            "fr-FR": "30000 Gold",
+            "id-ID": "30000 Gold",
+            "ja-JP": "30000 ゴールド",
+            "ko-KR": "30000 Gold",
+            "pl-PL": "30000 Gold",
+            "pt-BR": "30000 Gold",
+            "ru-RU": "30000 Gold",
+            "th-TH": "30000 Gold",
+            "tr-TR": "30000 Gold",
+            "uk-UA": "30000 Gold",
+            "vi-VN": "30000 Gold",
+            "zh-Hans": "30000 Gold",
+            "zh-Hant": "30000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "経験値獲得50%増加",
-            "en": "50% Increased Exp Gain"
+            "de-DE": "50% Erhöhter EP-Gewinn",
+            "en-US": "50% Increased Exp Gain",
+            "es-ES": "50% Aumento de Ganancia de Exp",
+            "fr-FR": "Gain d'Exp augmenté de 50%",
+            "id-ID": "50% Peningkatan Perolehan Exp",
+            "ja-JP": "経験値獲得50%増加",
+            "ko-KR": "경험치 획득량 50% 증가",
+            "pl-PL": "50% Zwiększony Zysk Exp",
+            "pt-BR": "50% Aumento de Ganho de Exp",
+            "ru-RU": "+50% к Опыт",
+            "th-TH": "รับ Expเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tecrübe Kazanımı",
+            "uk-UA": "+50% до Отримання досвіду",
+            "vi-VN": "Tăng 50% Nhận KN",
+            "zh-Hans": "经验获取提高50%",
+            "zh-Hant": "經驗獲取提高50%"
           },
           {
-            "ja": "50000 ゴールド",
-            "en": "50000 Gold"
+            "de-DE": "50000 Gold",
+            "en-US": "50000 Gold",
+            "es-ES": "50000 Gold",
+            "fr-FR": "50000 Gold",
+            "id-ID": "50000 Gold",
+            "ja-JP": "50000 ゴールド",
+            "ko-KR": "50000 Gold",
+            "pl-PL": "50000 Gold",
+            "pt-BR": "50000 Gold",
+            "ru-RU": "50000 Gold",
+            "th-TH": "50000 Gold",
+            "tr-TR": "50000 Gold",
+            "uk-UA": "50000 Gold",
+            "vi-VN": "50000 Gold",
+            "zh-Hans": "50000 Gold",
+            "zh-Hant": "50000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "経験値獲得50%増加",
-            "en": "50% Increased Exp Gain"
+            "de-DE": "50% Erhöhter EP-Gewinn",
+            "en-US": "50% Increased Exp Gain",
+            "es-ES": "50% Aumento de Ganancia de Exp",
+            "fr-FR": "Gain d'Exp augmenté de 50%",
+            "id-ID": "50% Peningkatan Perolehan Exp",
+            "ja-JP": "経験値獲得50%増加",
+            "ko-KR": "경험치 획득량 50% 증가",
+            "pl-PL": "50% Zwiększony Zysk Exp",
+            "pt-BR": "50% Aumento de Ganho de Exp",
+            "ru-RU": "+50% к Опыт",
+            "th-TH": "รับ Expเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tecrübe Kazanımı",
+            "uk-UA": "+50% до Отримання досвіду",
+            "vi-VN": "Tăng 50% Nhận KN",
+            "zh-Hans": "经验获取提高50%",
+            "zh-Hant": "經驗獲取提高50%"
           },
           {
-            "ja": "70000 ゴールド",
-            "en": "70000 Gold"
+            "de-DE": "70000 Gold",
+            "en-US": "70000 Gold",
+            "es-ES": "70000 Gold",
+            "fr-FR": "70000 Gold",
+            "id-ID": "70000 Gold",
+            "ja-JP": "70000 ゴールド",
+            "ko-KR": "70000 Gold",
+            "pl-PL": "70000 Gold",
+            "pt-BR": "70000 Gold",
+            "ru-RU": "70000 Gold",
+            "th-TH": "70000 Gold",
+            "tr-TR": "70000 Gold",
+            "uk-UA": "70000 Gold",
+            "vi-VN": "70000 Gold",
+            "zh-Hans": "70000 Gold",
+            "zh-Hant": "70000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "経験値獲得50%増加",
-            "en": "50% Increased Exp Gain"
+            "de-DE": "50% Erhöhter EP-Gewinn",
+            "en-US": "50% Increased Exp Gain",
+            "es-ES": "50% Aumento de Ganancia de Exp",
+            "fr-FR": "Gain d'Exp augmenté de 50%",
+            "id-ID": "50% Peningkatan Perolehan Exp",
+            "ja-JP": "経験値獲得50%増加",
+            "ko-KR": "경험치 획득량 50% 증가",
+            "pl-PL": "50% Zwiększony Zysk Exp",
+            "pt-BR": "50% Aumento de Ganho de Exp",
+            "ru-RU": "+50% к Опыт",
+            "th-TH": "รับ Expเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tecrübe Kazanımı",
+            "uk-UA": "+50% до Отримання досвіду",
+            "vi-VN": "Tăng 50% Nhận KN",
+            "zh-Hans": "经验获取提高50%",
+            "zh-Hant": "經驗獲取提高50%"
           },
           {
-            "ja": "90000 ゴールド",
-            "en": "90000 Gold"
+            "de-DE": "90000 Gold",
+            "en-US": "90000 Gold",
+            "es-ES": "90000 Gold",
+            "fr-FR": "90000 Gold",
+            "id-ID": "90000 Gold",
+            "ja-JP": "90000 ゴールド",
+            "ko-KR": "90000 Gold",
+            "pl-PL": "90000 Gold",
+            "pt-BR": "90000 Gold",
+            "ru-RU": "90000 Gold",
+            "th-TH": "90000 Gold",
+            "tr-TR": "90000 Gold",
+            "uk-UA": "90000 Gold",
+            "vi-VN": "90000 Gold",
+            "zh-Hans": "90000 Gold",
+            "zh-Hant": "90000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "経験値獲得50%増加",
-            "en": "50% Increased Exp Gain"
+            "de-DE": "50% Erhöhter EP-Gewinn",
+            "en-US": "50% Increased Exp Gain",
+            "es-ES": "50% Aumento de Ganancia de Exp",
+            "fr-FR": "Gain d'Exp augmenté de 50%",
+            "id-ID": "50% Peningkatan Perolehan Exp",
+            "ja-JP": "経験値獲得50%増加",
+            "ko-KR": "경험치 획득량 50% 증가",
+            "pl-PL": "50% Zwiększony Zysk Exp",
+            "pt-BR": "50% Aumento de Ganho de Exp",
+            "ru-RU": "+50% к Опыт",
+            "th-TH": "รับ Expเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tecrübe Kazanımı",
+            "uk-UA": "+50% до Отримання досвіду",
+            "vi-VN": "Tăng 50% Nhận KN",
+            "zh-Hans": "经验获取提高50%",
+            "zh-Hant": "經驗獲取提高50%"
           },
           {
-            "ja": "110000 ゴールド",
-            "en": "110000 Gold"
+            "de-DE": "110000 Gold",
+            "en-US": "110000 Gold",
+            "es-ES": "110000 Gold",
+            "fr-FR": "110000 Gold",
+            "id-ID": "110000 Gold",
+            "ja-JP": "110000 ゴールド",
+            "ko-KR": "110000 Gold",
+            "pl-PL": "110000 Gold",
+            "pt-BR": "110000 Gold",
+            "ru-RU": "110000 Gold",
+            "th-TH": "110000 Gold",
+            "tr-TR": "110000 Gold",
+            "uk-UA": "110000 Gold",
+            "vi-VN": "110000 Gold",
+            "zh-Hans": "110000 Gold",
+            "zh-Hant": "110000 Gold"
           }
         ]
       ]

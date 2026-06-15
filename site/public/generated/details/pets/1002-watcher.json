@@ -3,12 +3,40 @@
   "entityId": "1002",
   "slug": "1002-watcher",
   "title": {
-    "ja": "監視者",
-    "en": "Watcher"
+    "de-DE": "Wächter",
+    "en-US": "Watcher",
+    "es-ES": "Vigilante",
+    "fr-FR": "Veilleur",
+    "id-ID": "Pengawas",
+    "ja-JP": "監視者",
+    "ko-KR": "감시자",
+    "pl-PL": "Strażnik",
+    "pt-BR": "Vigia",
+    "ru-RU": "Наблюдатель",
+    "th-TH": "ผู้เฝ้าดู",
+    "tr-TR": "Gözcü",
+    "uk-UA": "Спостерігач",
+    "vi-VN": "Kẻ Canh Gác",
+    "zh-Hans": "监视者",
+    "zh-Hant": "監視者"
   },
   "subtitle": {
-    "ja": "KillMonster 巨大バエ",
-    "en": "KillMonster Giant Fly"
+    "de-DE": "KillMonster Giant Fly",
+    "en-US": "KillMonster Giant Fly",
+    "es-ES": "KillMonster Giant Fly",
+    "fr-FR": "KillMonster Giant Fly",
+    "id-ID": "KillMonster Giant Fly",
+    "ja-JP": "KillMonster 巨大バエ",
+    "ko-KR": "KillMonster Giant Fly",
+    "pl-PL": "KillMonster Giant Fly",
+    "pt-BR": "KillMonster Giant Fly",
+    "ru-RU": "KillMonster Giant Fly",
+    "th-TH": "KillMonster Giant Fly",
+    "tr-TR": "KillMonster Giant Fly",
+    "uk-UA": "KillMonster Giant Fly",
+    "vi-VN": "KillMonster Giant Fly",
+    "zh-Hans": "KillMonster Giant Fly",
+    "zh-Hant": "KillMonster Giant Fly"
   },
   "icon": "/generated/assets/game/ui/BG_Pet.png",
   "rarity": "RARE",
@@ -31,8 +59,22 @@
     {
       "labelKey": "field.name",
       "value": {
-        "ja": "巨大バエ",
-        "en": "Giant Fly"
+        "de-DE": "Riesenfliege",
+        "en-US": "Giant Fly",
+        "es-ES": "Mosca Gigante",
+        "fr-FR": "Mouche Géante",
+        "id-ID": "Lalat Raksasa",
+        "ja-JP": "巨大バエ",
+        "ko-KR": "거대 파리",
+        "pl-PL": "Olbrzymia Mucha",
+        "pt-BR": "Mosca Gigante",
+        "ru-RU": "Гигантская муха",
+        "th-TH": "แมลงวันยักษ์",
+        "tr-TR": "Dev Sinek",
+        "uk-UA": "Велетенська муха",
+        "vi-VN": "Ruồi Khổng Lồ",
+        "zh-Hans": "巨蝇",
+        "zh-Hant": "巨蠅"
       }
     }
   ],
@@ -87,8 +129,22 @@
       "rows": [
         [
           {
-            "ja": "ノーマル 2-5",
-            "en": "Normal 2-5"
+            "de-DE": "Normal 2-5",
+            "en-US": "Normal 2-5",
+            "es-ES": "Normal 2-5",
+            "fr-FR": "Normal 2-5",
+            "id-ID": "Normal 2-5",
+            "ja-JP": "ノーマル 2-5",
+            "ko-KR": "Normal 2-5",
+            "pl-PL": "Normal 2-5",
+            "pt-BR": "Normal 2-5",
+            "ru-RU": "Normal 2-5",
+            "th-TH": "Normal 2-5",
+            "tr-TR": "Normal 2-5",
+            "uk-UA": "Normal 2-5",
+            "vi-VN": "Normal 2-5",
+            "zh-Hans": "Normal 2-5",
+            "zh-Hant": "Normal 2-5"
           },
           "40%",
           17,
@@ -96,8 +152,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 2-5",
-            "en": "Nightmare 2-5"
+            "de-DE": "Nightmare 2-5",
+            "en-US": "Nightmare 2-5",
+            "es-ES": "Nightmare 2-5",
+            "fr-FR": "Nightmare 2-5",
+            "id-ID": "Nightmare 2-5",
+            "ja-JP": "ナイトメア 2-5",
+            "ko-KR": "Nightmare 2-5",
+            "pl-PL": "Nightmare 2-5",
+            "pt-BR": "Nightmare 2-5",
+            "ru-RU": "Nightmare 2-5",
+            "th-TH": "Nightmare 2-5",
+            "tr-TR": "Nightmare 2-5",
+            "uk-UA": "Nightmare 2-5",
+            "vi-VN": "Nightmare 2-5",
+            "zh-Hans": "Nightmare 2-5",
+            "zh-Hant": "Nightmare 2-5"
           },
           "40%",
           43,
@@ -105,8 +175,22 @@
         ],
         [
           {
-            "ja": "トーメント 2-5",
-            "en": "Torment 2-5"
+            "de-DE": "Torment 2-5",
+            "en-US": "Torment 2-5",
+            "es-ES": "Torment 2-5",
+            "fr-FR": "Torment 2-5",
+            "id-ID": "Torment 2-5",
+            "ja-JP": "トーメント 2-5",
+            "ko-KR": "Torment 2-5",
+            "pl-PL": "Torment 2-5",
+            "pt-BR": "Torment 2-5",
+            "ru-RU": "Torment 2-5",
+            "th-TH": "Torment 2-5",
+            "tr-TR": "Torment 2-5",
+            "uk-UA": "Torment 2-5",
+            "vi-VN": "Torment 2-5",
+            "zh-Hans": "Torment 2-5",
+            "zh-Hant": "Torment 2-5"
           },
           "40%",
           88,
@@ -114,8 +198,22 @@
         ],
         [
           {
-            "ja": "ヘル 2-5",
-            "en": "Hell 2-5"
+            "de-DE": "Hell 2-5",
+            "en-US": "Hell 2-5",
+            "es-ES": "Hell 2-5",
+            "fr-FR": "Hell 2-5",
+            "id-ID": "Hell 2-5",
+            "ja-JP": "ヘル 2-5",
+            "ko-KR": "Hell 2-5",
+            "pl-PL": "Hell 2-5",
+            "pt-BR": "Hell 2-5",
+            "ru-RU": "Hell 2-5",
+            "th-TH": "Hell 2-5",
+            "tr-TR": "Hell 2-5",
+            "uk-UA": "Hell 2-5",
+            "vi-VN": "Hell 2-5",
+            "zh-Hans": "Hell 2-5",
+            "zh-Hant": "Hell 2-5"
           },
           "38.46%",
           65,
@@ -123,8 +221,22 @@
         ],
         [
           {
-            "ja": "ノーマル 2-4",
-            "en": "Normal 2-4"
+            "de-DE": "Normal 2-4",
+            "en-US": "Normal 2-4",
+            "es-ES": "Normal 2-4",
+            "fr-FR": "Normal 2-4",
+            "id-ID": "Normal 2-4",
+            "ja-JP": "ノーマル 2-4",
+            "ko-KR": "Normal 2-4",
+            "pl-PL": "Normal 2-4",
+            "pt-BR": "Normal 2-4",
+            "ru-RU": "Normal 2-4",
+            "th-TH": "Normal 2-4",
+            "tr-TR": "Normal 2-4",
+            "uk-UA": "Normal 2-4",
+            "vi-VN": "Normal 2-4",
+            "zh-Hans": "Normal 2-4",
+            "zh-Hant": "Normal 2-4"
           },
           "23.81%",
           16,
@@ -132,8 +244,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 2-4",
-            "en": "Nightmare 2-4"
+            "de-DE": "Nightmare 2-4",
+            "en-US": "Nightmare 2-4",
+            "es-ES": "Nightmare 2-4",
+            "fr-FR": "Nightmare 2-4",
+            "id-ID": "Nightmare 2-4",
+            "ja-JP": "ナイトメア 2-4",
+            "ko-KR": "Nightmare 2-4",
+            "pl-PL": "Nightmare 2-4",
+            "pt-BR": "Nightmare 2-4",
+            "ru-RU": "Nightmare 2-4",
+            "th-TH": "Nightmare 2-4",
+            "tr-TR": "Nightmare 2-4",
+            "uk-UA": "Nightmare 2-4",
+            "vi-VN": "Nightmare 2-4",
+            "zh-Hans": "Nightmare 2-4",
+            "zh-Hant": "Nightmare 2-4"
           },
           "22.73%",
           42,
@@ -141,8 +267,22 @@
         ],
         [
           {
-            "ja": "ヘル 2-4",
-            "en": "Hell 2-4"
+            "de-DE": "Hell 2-4",
+            "en-US": "Hell 2-4",
+            "es-ES": "Hell 2-4",
+            "fr-FR": "Hell 2-4",
+            "id-ID": "Hell 2-4",
+            "ja-JP": "ヘル 2-4",
+            "ko-KR": "Hell 2-4",
+            "pl-PL": "Hell 2-4",
+            "pt-BR": "Hell 2-4",
+            "ru-RU": "Hell 2-4",
+            "th-TH": "Hell 2-4",
+            "tr-TR": "Hell 2-4",
+            "uk-UA": "Hell 2-4",
+            "vi-VN": "Hell 2-4",
+            "zh-Hans": "Hell 2-4",
+            "zh-Hant": "Hell 2-4"
           },
           "18.87%",
           64,
@@ -150,8 +290,22 @@
         ],
         [
           {
-            "ja": "トーメント 2-4",
-            "en": "Torment 2-4"
+            "de-DE": "Torment 2-4",
+            "en-US": "Torment 2-4",
+            "es-ES": "Torment 2-4",
+            "fr-FR": "Torment 2-4",
+            "id-ID": "Torment 2-4",
+            "ja-JP": "トーメント 2-4",
+            "ko-KR": "Torment 2-4",
+            "pl-PL": "Torment 2-4",
+            "pt-BR": "Torment 2-4",
+            "ru-RU": "Torment 2-4",
+            "th-TH": "Torment 2-4",
+            "tr-TR": "Torment 2-4",
+            "uk-UA": "Torment 2-4",
+            "vi-VN": "Torment 2-4",
+            "zh-Hans": "Torment 2-4",
+            "zh-Hant": "Torment 2-4"
           },
           "18.18%",
           87,

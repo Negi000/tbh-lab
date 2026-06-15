@@ -3,12 +3,40 @@
   "entityId": "passive-501022",
   "slug": "passive-501022-cold-damage-enhancement",
   "title": {
-    "ja": "冷気ダメージ強化",
-    "en": "Cold Damage Enhancement"
+    "de-DE": "Kälteschaden-Verstärkung",
+    "en-US": "Cold Damage Enhancement",
+    "es-ES": "Mejora de Daño de Frío",
+    "fr-FR": "Amélioration de Dégâts de Froid",
+    "id-ID": "Peningkatan Kerusakan Dingin",
+    "ja-JP": "冷気ダメージ強化",
+    "ko-KR": "냉기 피해 강화",
+    "pl-PL": "Wzmocnienie Obr. Zimnem",
+    "pt-BR": "Aprimoramento de Dano de Frio",
+    "ru-RU": "Усиление Урон холодом",
+    "th-TH": "เสริมความเสียหายเย็น",
+    "tr-TR": "Geliştirme Soğuk Hasarı",
+    "uk-UA": "Посилення Шкода холодом",
+    "vi-VN": "Tăng cường Sát thương băng",
+    "zh-Hans": "冰冷伤害强化",
+    "zh-Hant": "冰冷傷害強化"
   },
   "subtitle": {
-    "ja": "冷気ダメージ +150%",
-    "en": "Cold Damage +150%"
+    "de-DE": "Kälteschaden +150%",
+    "en-US": "Cold Damage +150%",
+    "es-ES": "Daño de Frío +150%",
+    "fr-FR": "Dégâts de Froid +150%",
+    "id-ID": "Damage Dingin +150%",
+    "ja-JP": "冷気ダメージ +150%",
+    "ko-KR": "냉기 피해 +150%",
+    "pl-PL": "Obr. Zimnem +150%",
+    "pt-BR": "Dano de Frio +150%",
+    "ru-RU": "Урон холодом +150%",
+    "th-TH": "ดาเมจน้ำแข็ง +150%",
+    "tr-TR": "Soğuk Hasarı +150%",
+    "uk-UA": "Шкода холодом +150%",
+    "vi-VN": "Sát Thương Băng +150%",
+    "zh-Hans": "冰冷伤害 +150%",
+    "zh-Hant": "冰冷傷害 +150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "冷気ダメージ強化",
-        "en": "Cold Damage Enhancement"
+        "de-DE": "Kälteschaden-Verstärkung",
+        "en-US": "Cold Damage Enhancement",
+        "es-ES": "Mejora de Daño de Frío",
+        "fr-FR": "Amélioration de Dégâts de Froid",
+        "id-ID": "Peningkatan Kerusakan Dingin",
+        "ja-JP": "冷気ダメージ強化",
+        "ko-KR": "냉기 피해 강화",
+        "pl-PL": "Wzmocnienie Obr. Zimnem",
+        "pt-BR": "Aprimoramento de Dano de Frio",
+        "ru-RU": "Усиление Урон холодом",
+        "th-TH": "เสริมความเสียหายเย็น",
+        "tr-TR": "Geliştirme Soğuk Hasarı",
+        "uk-UA": "Посилення Шкода холодом",
+        "vi-VN": "Tăng cường Sát thương băng",
+        "zh-Hans": "冰冷伤害强化",
+        "zh-Hant": "冰冷傷害強化"
       }
     },
     {

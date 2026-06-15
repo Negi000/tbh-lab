@@ -3,12 +3,40 @@
   "entityId": "60401",
   "slug": "60401-ground-slam",
   "title": {
-    "ja": "グラウンドスラム",
-    "en": "Ground Slam"
+    "de-DE": "Erdschlag",
+    "en-US": "Ground Slam",
+    "es-ES": "Golpe Terrestre",
+    "fr-FR": "Frappe au Sol",
+    "id-ID": "Hantaman Tanah",
+    "ja-JP": "グラウンドスラム",
+    "ko-KR": "대지 강타",
+    "pl-PL": "Uderzenie w Ziemię",
+    "pt-BR": "Golpe no Chão",
+    "ru-RU": "Удар о Землю",
+    "th-TH": "ทุบพื้น",
+    "tr-TR": "Yer Darbesi",
+    "uk-UA": "Удар об Землю",
+    "vi-VN": "Đập Đất",
+    "zh-Hans": "大地强击",
+    "zh-Hant": "大地強擊"
   },
   "subtitle": {
-    "en": "Skill / Base Attack Count",
-    "ja": "スキル / 通常攻撃回数"
+    "de-DE": "Skill / Base Attack Count",
+    "en-US": "Skill / Base Attack Count",
+    "es-ES": "Skill / Base Attack Count",
+    "fr-FR": "Skill / Base Attack Count",
+    "id-ID": "Skill / Base Attack Count",
+    "ja-JP": "スキル / 通常攻撃回数",
+    "ko-KR": "Skill / Base Attack Count",
+    "pl-PL": "Skill / Base Attack Count",
+    "pt-BR": "Skill / Base Attack Count",
+    "ru-RU": "Skill / Base Attack Count",
+    "th-TH": "Skill / Base Attack Count",
+    "tr-TR": "Skill / Base Attack Count",
+    "uk-UA": "Skill / Base Attack Count",
+    "vi-VN": "Skill / Base Attack Count",
+    "zh-Hans": "Skill / Base Attack Count",
+    "zh-Hant": "Skill / Base Attack Count"
   },
   "icon": "/generated/assets/game/skills/Skill_60401.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "通常攻撃回数",
-        "en": "Base Attack Count"
+        "de-DE": "Base Attack Count",
+        "en-US": "Base Attack Count",
+        "es-ES": "Base Attack Count",
+        "fr-FR": "Base Attack Count",
+        "id-ID": "Base Attack Count",
+        "ja-JP": "通常攻撃回数",
+        "ko-KR": "Base Attack Count",
+        "pl-PL": "Base Attack Count",
+        "pt-BR": "Base Attack Count",
+        "ru-RU": "Base Attack Count",
+        "th-TH": "Base Attack Count",
+        "tr-TR": "Base Attack Count",
+        "uk-UA": "Base Attack Count",
+        "vi-VN": "Base Attack Count",
+        "zh-Hans": "Base Attack Count",
+        "zh-Hant": "Base Attack Count"
       }
     },
     {

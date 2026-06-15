@@ -3,12 +3,40 @@
   "entityId": "passive-101071",
   "slug": "passive-101071-damage-reduction-enhancement",
   "title": {
-    "ja": "ダメージ軽減強化",
-    "en": "Damage Reduction Enhancement"
+    "de-DE": "Schadensred.-Verstärkung",
+    "en-US": "Damage Reduction Enhancement",
+    "es-ES": "Mejora de Red. Daño",
+    "fr-FR": "Amélioration de Réd. Dégâts",
+    "id-ID": "Peningkatan Pengurangan Kerusakan",
+    "ja-JP": "ダメージ軽減強化",
+    "ko-KR": "피해 감소 강화",
+    "pl-PL": "Wzmocnienie Red. Obrażeń",
+    "pt-BR": "Aprimoramento de Red. Dano",
+    "ru-RU": "Усиление Сниж. урона",
+    "th-TH": "เสริมลดความเสียหาย",
+    "tr-TR": "Geliştirme Hasar Azlt.",
+    "uk-UA": "Посилення Зниж. шкоди",
+    "vi-VN": "Tăng cường Giảm sát thương",
+    "zh-Hans": "伤害减免强化",
+    "zh-Hant": "傷害減免強化"
   },
   "subtitle": {
-    "ja": "ダメージ軽減 +20%",
-    "en": "Damage Reduction +20%"
+    "de-DE": "Schadensred. +20%",
+    "en-US": "Damage Reduction +20%",
+    "es-ES": "Red. Daño +20%",
+    "fr-FR": "Réd. Dégâts +20%",
+    "id-ID": "Red. Damage +20%",
+    "ja-JP": "ダメージ軽減 +20%",
+    "ko-KR": "피해 감소 +20%",
+    "pl-PL": "Red. Obrażeń +20%",
+    "pt-BR": "Red. Dano +20%",
+    "ru-RU": "Сниж. урона +20%",
+    "th-TH": "ลดดาเมจ +20%",
+    "tr-TR": "Hasar Azlt. +20%",
+    "uk-UA": "Зниж. шкоди +20%",
+    "vi-VN": "Giảm Sát Thương +20%",
+    "zh-Hans": "伤害减免 +20%",
+    "zh-Hant": "傷害減免 +20%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "ダメージ軽減強化",
-        "en": "Damage Reduction Enhancement"
+        "de-DE": "Schadensred.-Verstärkung",
+        "en-US": "Damage Reduction Enhancement",
+        "es-ES": "Mejora de Red. Daño",
+        "fr-FR": "Amélioration de Réd. Dégâts",
+        "id-ID": "Peningkatan Pengurangan Kerusakan",
+        "ja-JP": "ダメージ軽減強化",
+        "ko-KR": "피해 감소 강화",
+        "pl-PL": "Wzmocnienie Red. Obrażeń",
+        "pt-BR": "Aprimoramento de Red. Dano",
+        "ru-RU": "Усиление Сниж. урона",
+        "th-TH": "เสริมลดความเสียหาย",
+        "tr-TR": "Geliştirme Hasar Azlt.",
+        "uk-UA": "Посилення Зниж. шкоди",
+        "vi-VN": "Tăng cường Giảm sát thương",
+        "zh-Hans": "伤害减免强化",
+        "zh-Hant": "傷害減免強化"
       }
     },
     {

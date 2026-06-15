@@ -1,0 +1,3112 @@
+{
+  "category": {
+    "id": "effects",
+    "titleKey": "category.effects.title",
+    "descriptionKey": "category.effects.description",
+    "count": 79,
+    "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/{locale}/effects.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "gearType",
+      "labelKey": "field.gearType"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    }
+  ],
+  "filters": [
+    {
+      "id": "gearType",
+      "labelKey": "filter.gearType",
+      "options": [
+        "ACCESSORY, ARMOR, WEAPON",
+        "COMMON"
+      ]
+    },
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "AreaOfEffect, BlockChance, CastSpeed",
+        "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "AreaOfEffect, CriticalDamage, MaxHp",
+        "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "Armor, AttackSpeed, CriticalDamage",
+        "Armor, CastSpeed, LightningDamagePercent",
+        "Armor, ColdDamagePercent, CriticalChance",
+        "Armor, CriticalDamage",
+        "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "AttackDamage, BlockChance",
+        "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "effects",
+      "entityId": "1100011",
+      "slug": "1100011-minor-ruby-effects",
+      "title": {
+        "vi-VN": "Minor Ruby Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tăng cường Sát thương lửa, Kháng lửa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tăng cường Sát thương lửa, Kháng lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100011-minor-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100021",
+      "slug": "1100021-minor-sapphire-effects",
+      "title": {
+        "vi-VN": "Minor Sapphire Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Tăng cường Sát thương băng, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, ColdDamagePercent, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Tăng cường Sát thương băng, Tỷ lệ chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100021-minor-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100031",
+      "slug": "1100031-minor-topaz-effects",
+      "title": {
+        "vi-VN": "Minor Topaz Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Tốc Phép, Tăng cường Sát thương sét"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "CastSpeed",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CastSpeed, LightningDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Tốc Phép, Tăng cường Sát thương sét"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100031-minor-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100041",
+      "slug": "1100041-minor-emerald-effects",
+      "title": {
+        "vi-VN": "Minor Emerald Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc độ tấn công, Hấp thụ sát thương, Tốc độ di chuyển"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110004.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, DamageAbsorption, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc độ tấn công, Hấp thụ sát thương, Tốc độ di chuyển"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100041-minor-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100051",
+      "slug": "1100051-minor-amethyst-effects",
+      "title": {
+        "vi-VN": "Minor Amethyst Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giảm thời gian hồi, HP tối đa, Tăng cường Sát thương vật lý"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110005.png",
+      "rarity": "COMMON",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giảm thời gian hồi, HP tối đa, Tăng cường Sát thương vật lý"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100051-minor-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110011",
+      "slug": "1110011-obsidian-shard-effects",
+      "title": {
+        "vi-VN": "Obsidian Shard Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tỷ lệ đỡ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tỷ lệ đỡ"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110011-obsidian-shard-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110021",
+      "slug": "1110021-coral-piece-effects",
+      "title": {
+        "vi-VN": "Coral Piece Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Hút máu, Tăng cường Hồi HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Hút máu, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110021-coral-piece-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110031",
+      "slug": "1110031-jade-stone-effects",
+      "title": {
+        "vi-VN": "Jade Stone Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc độ tấn công, Tỷ lệ chí mạng, Tỷ lệ né"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackSpeed",
+        "CriticalChance",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc độ tấn công, Tỷ lệ chí mạng, Tỷ lệ né"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110031-jade-stone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110041",
+      "slug": "1110041-amber-gem-effects",
+      "title": {
+        "vi-VN": "Amber Gem Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Sát thương chí mạng, HP tối đa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "CriticalDamage",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CriticalDamage, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Sát thương chí mạng, HP tối đa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110041-amber-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120011",
+      "slug": "1120011-ruby-effects",
+      "title": {
+        "vi-VN": "Ruby Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tăng cường Sát thương lửa, Kháng lửa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tăng cường Sát thương lửa, Kháng lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120011-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120021",
+      "slug": "1120021-sapphire-effects",
+      "title": {
+        "vi-VN": "Sapphire Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Sát thương băng, Kháng băng, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112002.png",
+      "rarity": "RARE",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Sát thương băng, Kháng băng, Tỷ lệ chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120021-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120031",
+      "slug": "1120031-topaz-effects",
+      "title": {
+        "vi-VN": "Topaz Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc Phép, Tăng cường Sát thương sét, Kháng sét"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112003.png",
+      "rarity": "RARE",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc Phép, Tăng cường Sát thương sét, Kháng sét"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120031-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120041",
+      "slug": "1120041-emerald-effects",
+      "title": {
+        "vi-VN": "Emerald Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc độ tấn công, Tăng cường Kháng hỗn loạn, Tốc độ di chuyển"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc độ tấn công, Tăng cường Kháng hỗn loạn, Tốc độ di chuyển"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120041-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120051",
+      "slug": "1120051-amethyst-effects",
+      "title": {
+        "vi-VN": "Amethyst Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giảm thời gian hồi, HP tối đa, Tăng cường Sát thương vật lý"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112005.png",
+      "rarity": "RARE",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giảm thời gian hồi, HP tối đa, Tăng cường Sát thương vật lý"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120051-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130011",
+      "slug": "1130011-crystal-quartz-effects",
+      "title": {
+        "vi-VN": "Crystal Quartz Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Sát thương chí mạng, Tăng cường Hồi HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "CriticalDamage",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CriticalDamage, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Sát thương chí mạng, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130011-crystal-quartz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130021",
+      "slug": "1130021-pearl-effects",
+      "title": {
+        "vi-VN": "Pearl Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giảm thời gian hồi, Tỷ lệ chí mạng, Tăng cường Giảm sát thương"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giảm thời gian hồi, Tỷ lệ chí mạng, Tăng cường Giảm sát thương"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130021-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130031",
+      "slug": "1130031-turquoise-effects",
+      "title": {
+        "vi-VN": "Turquoise Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giảm thời gian hồi, Tỷ lệ chí mạng, HP tối đa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giảm thời gian hồi, Tỷ lệ chí mạng, HP tối đa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130031-turquoise-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130041",
+      "slug": "1130041-garnet-effects",
+      "title": {
+        "vi-VN": "Garnet Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Tốc độ tấn công, Sát thương chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Tốc độ tấn công, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130041-garnet-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140011",
+      "slug": "1140011-diamond-effects",
+      "title": {
+        "vi-VN": "Diamond Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140011-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140021",
+      "slug": "1140021-opal-effects",
+      "title": {
+        "vi-VN": "Opal Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc độ tấn công, Tăng cường Hồi HP, HP tối đa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackSpeed",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, HpRegenPerSec, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc độ tấn công, Tăng cường Hồi HP, HP tối đa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140021-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140031",
+      "slug": "1140031-lapis-lazuli-effects",
+      "title": {
+        "vi-VN": "Lapis Lazuli Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tỷ lệ chí mạng, Tỷ lệ né, Tốc độ di chuyển"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "CriticalChance",
+        "DodgeChance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DodgeChance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tỷ lệ chí mạng, Tỷ lệ né, Tốc độ di chuyển"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140031-lapis-lazuli-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140041",
+      "slug": "1140041-black-pearl-effects",
+      "title": {
+        "vi-VN": "Black Pearl Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tỷ lệ đỡ, Tốc Phép"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CastSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CastSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tỷ lệ đỡ, Tốc Phép"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140041-black-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150011",
+      "slug": "1150011-arcane-crystal-effects",
+      "title": {
+        "vi-VN": "Arcane Crystal Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc Phép, Giảm thời gian hồi, Sát thương chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "CooldownReduction",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc Phép, Giảm thời gian hồi, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150011-arcane-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150021",
+      "slug": "1150021-mystic-topaz-effects",
+      "title": {
+        "vi-VN": "Mystic Topaz Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc Phép, Tăng cường Sát thương sét, Kháng sét"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc Phép, Tăng cường Sát thương sét, Kháng sét"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150021-mystic-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150031",
+      "slug": "1150031-enchanted-ruby-effects",
+      "title": {
+        "vi-VN": "Enchanted Ruby Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tăng cường Sát thương lửa, Kháng lửa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tăng cường Sát thương lửa, Kháng lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150031-enchanted-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150041",
+      "slug": "1150041-starlight-sapphire-effects",
+      "title": {
+        "vi-VN": "Starlight Sapphire Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Sát thương băng, Kháng băng, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Sát thương băng, Kháng băng, Tỷ lệ chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150041-starlight-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160011",
+      "slug": "1160011-void-opal-effects",
+      "title": {
+        "vi-VN": "Void Opal Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giảm thời gian hồi, HP tối đa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giảm thời gian hồi, HP tối đa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160011-void-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160021",
+      "slug": "1160021-astral-diamond-effects",
+      "title": {
+        "vi-VN": "Astral Diamond Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160021-astral-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160031",
+      "slug": "1160031-phantom-emerald-effects",
+      "title": {
+        "vi-VN": "Phantom Emerald Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc độ tấn công, Tăng cường Kháng hỗn loạn, Tốc độ di chuyển"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc độ tấn công, Tăng cường Kháng hỗn loạn, Tốc độ di chuyển"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160031-phantom-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160041",
+      "slug": "1160041-twilight-amethyst-effects",
+      "title": {
+        "vi-VN": "Twilight Amethyst Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giảm thời gian hồi, HP tối đa, Tăng cường Sát thương vật lý"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giảm thời gian hồi, HP tối đa, Tăng cường Sát thương vật lý"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160041-twilight-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170011",
+      "slug": "1170011-celestial-pearl-effects",
+      "title": {
+        "vi-VN": "Celestial Pearl Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tỷ lệ chí mạng, Hấp thụ sát thương"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "CriticalChance",
+        "DamageAbsorption",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tỷ lệ chí mạng, Hấp thụ sát thương"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170011-celestial-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170021",
+      "slug": "1170021-dragonite-crystal-effects",
+      "title": {
+        "vi-VN": "Dragonite Crystal Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Sát thương chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170021-dragonite-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180011",
+      "slug": "1180011-void-crystal-effects",
+      "title": {
+        "vi-VN": "Void Crystal Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Giảm thời gian hồi"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Giảm thời gian hồi"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180011-void-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180021",
+      "slug": "1180021-abyssal-pearl-effects",
+      "title": {
+        "vi-VN": "Abyssal Pearl Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Hút máu, Tăng cường Hồi HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Hút máu, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180021-abyssal-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190011",
+      "slug": "1190011-ethereal-gem-effects",
+      "title": {
+        "vi-VN": "Ethereal Gem Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Kỹ năng tấn công, Tăng cường Giảm sát thương, Tăng cường Đánh liên tiếp"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "BaseAttackCountReduction",
+        "DamageReduction",
+        "Multistrike",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BaseAttackCountReduction, DamageReduction, Multistrike",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Kỹ năng tấn công, Tăng cường Giảm sát thương, Tăng cường Đánh liên tiếp"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190011-ethereal-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190021",
+      "slug": "1190021-chaos-diamond-effects",
+      "title": {
+        "vi-VN": "Chaos Diamond Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Sát thương chí mạng, Tăng cường Số lượng đạn"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "CriticalDamage",
+        "ProjectileCount",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Sát thương chí mạng, Tăng cường Số lượng đạn"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190021-chaos-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200011",
+      "slug": "1200011-goblin-hide-effects",
+      "title": {
+        "vi-VN": "Goblin Hide Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc độ tấn công, Kháng băng, Tăng cường Sát thương lửa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ColdResistance, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc độ tấn công, Kháng băng, Tăng cường Sát thương lửa, Kháng lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200011-goblin-hide-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200021",
+      "slug": "1200021-skeleton-bone-effects",
+      "title": {
+        "vi-VN": "Skeleton Bone Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Tốc độ tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Tốc độ tấn công, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200021-skeleton-bone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200031",
+      "slug": "1200031-slime-jelly-effects",
+      "title": {
+        "vi-VN": "Slime Jelly Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tốc độ tấn công, Tỷ lệ đỡ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tốc độ tấn công, Tỷ lệ đỡ, Tỷ lệ chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200031-slime-jelly-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210011",
+      "slug": "1210011-wolf-fang-effects",
+      "title": {
+        "vi-VN": "Wolf Fang Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Phạm vi ảnh hưởng, Giáp"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "CriticalChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Phạm vi ảnh hưởng, Giáp, Sát thương tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210011-wolf-fang-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210021",
+      "slug": "1210021-spider-silk-effects",
+      "title": {
+        "vi-VN": "Spider Silk Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Kháng băng, Giảm thời gian hồi"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "ColdResistance",
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Kháng băng, Giảm thời gian hồi, HP tối đa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210021-spider-silk-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210031",
+      "slug": "1210031-poisonous-herb-effects",
+      "title": {
+        "vi-VN": "Poisonous Herb Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Sát thương tấn công, Hấp thụ sát thương"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "DamageAbsorption",
+        "HpLeech",
+        "LightningDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Sát thương tấn công, Hấp thụ sát thương, Tăng cường Hút máu"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210031-poisonous-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210041",
+      "slug": "1210041-healing-herb-effects",
+      "title": {
+        "vi-VN": "Healing Herb Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tăng cường Sát thương băng, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "DodgeChance",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ColdDamagePercent, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tăng cường Sát thương băng, Tỷ lệ chí mạng, Tỷ lệ né"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210041-healing-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220011",
+      "slug": "1220011-bat-wing-membrane-effects",
+      "title": {
+        "vi-VN": "Bat Wing Membrane Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Sát thương chí mạng, Tăng cường Giảm sát thương"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "CriticalDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Sát thương chí mạng, Tăng cường Giảm sát thương, Tăng cường Sát thương lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220011-bat-wing-membrane-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220021",
+      "slug": "1220021-ogre-blood-effects",
+      "title": {
+        "vi-VN": "Ogre Blood Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công, Kháng băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122002.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công, Kháng băng, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220021-ogre-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220031",
+      "slug": "1220031-mushroom-spore-effects",
+      "title": {
+        "vi-VN": "Mushroom Spore Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tỷ lệ đỡ, Giảm thời gian hồi"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122003.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tỷ lệ đỡ, Giảm thời gian hồi, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220031-mushroom-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220041",
+      "slug": "1220041-ancient-tree-sap-effects",
+      "title": {
+        "vi-VN": "Ancient Tree Sap Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tốc độ tấn công, Sát thương chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "CriticalDamage",
+        "DamageReduction",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tốc độ tấn công, Sát thương chí mạng, Tăng cường Giảm sát thương"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220041-ancient-tree-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230011",
+      "slug": "1230011-skull-effects",
+      "title": {
+        "vi-VN": "Skull Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tốc Phép, Tăng cường Kháng hỗn loạn, Giảm thời gian hồi"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalDamage",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, ChaosResistance, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tốc Phép, Tăng cường Kháng hỗn loạn, Giảm thời gian hồi, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230011-skull-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230021",
+      "slug": "1230021-harpy-feather-effects",
+      "title": {
+        "vi-VN": "Harpy Feather Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tỷ lệ đỡ, Tăng cường Giảm sát thương"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "DamageReduction",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tỷ lệ đỡ, Tăng cường Giảm sát thương, Tăng cường Sát thương lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230021-harpy-feather-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230031",
+      "slug": "1230031-mandrake-root-effects",
+      "title": {
+        "vi-VN": "Mandrake Root Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Kháng băng, Tăng cường Sát thương lửa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "FireDamagePercent",
+        "HpLeech",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Kháng băng, Tăng cường Sát thương lửa, Tăng cường Hút máu"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230031-mandrake-root-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230041",
+      "slug": "1230041-nightshade-extract-effects",
+      "title": {
+        "vi-VN": "Nightshade Extract Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Sát thương tấn công, Kháng băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "AttackDamage",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Sát thương tấn công, Kháng băng, Tỷ lệ chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230041-nightshade-extract-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240011",
+      "slug": "1240011-basilisk-scale-effects",
+      "title": {
+        "vi-VN": "Basilisk Scale Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tốc Phép, Tăng cường Giảm sát thương"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "DamageReduction",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, DamageReduction, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tốc Phép, Tăng cường Giảm sát thương, Tăng cường Hút máu"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240011-basilisk-scale-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240021",
+      "slug": "1240021-wyvern-claw-effects",
+      "title": {
+        "vi-VN": "Wyvern Claw Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Tăng cường Sát thương băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Tăng cường Sát thương băng, Kháng băng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240021-wyvern-claw-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240031",
+      "slug": "1240031-dice-effects",
+      "title": {
+        "vi-VN": "Dice Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tỷ lệ đỡ, Tăng cường Sát thương băng, Giảm thời gian hồi"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "BlockChance",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BlockChance, ColdDamagePercent, CooldownReduction, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tỷ lệ đỡ, Tăng cường Sát thương băng, Giảm thời gian hồi, Hấp thụ sát thương"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240031-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240041",
+      "slug": "1240041-demon-blood-effects",
+      "title": {
+        "vi-VN": "Demon Blood Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tỷ lệ đỡ, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CriticalChance",
+        "DodgeChance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tỷ lệ đỡ, Tỷ lệ chí mạng, Tỷ lệ né"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240041-demon-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250011",
+      "slug": "1250011-minotaur-horn-effects",
+      "title": {
+        "vi-VN": "Minotaur Horn Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tốc độ tấn công, Tăng cường Sát thương băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tốc độ tấn công, Tăng cường Sát thương băng, Giảm thời gian hồi"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250011-minotaur-horn-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250021",
+      "slug": "1250021-griffin-beak-effects",
+      "title": {
+        "vi-VN": "Griffin Beak Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tốc Phép, Tăng cường Sát thương băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "CriticalDamage",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, ColdDamagePercent, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tốc Phép, Tăng cường Sát thương băng, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250021-griffin-beak-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250031",
+      "slug": "1250031-phoenix-ash-effects",
+      "title": {
+        "vi-VN": "Phoenix Ash Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tốc độ tấn công, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "CriticalChance",
+        "CriticalDamage",
+        "DamageAbsorption",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tốc độ tấn công, Tỷ lệ chí mạng, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250031-phoenix-ash-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250041",
+      "slug": "1250041-dragon-bile-effects",
+      "title": {
+        "vi-VN": "Dragon Bile Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tỷ lệ đỡ, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tỷ lệ đỡ, Tỷ lệ chí mạng, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250041-dragon-bile-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260011",
+      "slug": "1260011-wraith-essence-effects",
+      "title": {
+        "vi-VN": "Wraith Essence Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tỷ lệ đỡ, Sát thương chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tỷ lệ đỡ, Sát thương chí mạng, Tăng cường Sát thương lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260011-wraith-essence-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260021",
+      "slug": "1260021-kraken-ink-effects",
+      "title": {
+        "vi-VN": "Kraken Ink Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdDamagePercent",
+        "DodgeChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công, Tăng cường Sát thương băng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260021-kraken-ink-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260031",
+      "slug": "1260031-titan-marrow-effects",
+      "title": {
+        "vi-VN": "Titan Marrow Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tăng cường Giảm sát thương, Tăng cường Sát thương lửa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, DamageReduction, FireDamagePercent, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tăng cường Giảm sát thương, Tăng cường Sát thương lửa, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260031-titan-marrow-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260041",
+      "slug": "1260041-void-ichor-effects",
+      "title": {
+        "vi-VN": "Void Ichor Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Kháng băng, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "CriticalChance",
+        "DamageReduction",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Kháng băng, Tỷ lệ chí mạng, Tăng cường Giảm sát thương"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260041-void-ichor-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270011",
+      "slug": "1270011-abyssal-mucus-effects",
+      "title": {
+        "vi-VN": "Abyssal Mucus Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Tốc độ tấn công, Tỷ lệ đỡ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "FireDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Tốc độ tấn công, Tỷ lệ đỡ, Giảm thời gian hồi"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270011-abyssal-mucus-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270021",
+      "slug": "1270021-chaos-spore-effects",
+      "title": {
+        "vi-VN": "Chaos Spore Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tăng cường Kháng hỗn loạn, Kháng băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ChaosResistance, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tăng cường Kháng hỗn loạn, Kháng băng, Tăng cường Hồi HP"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270021-chaos-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280011",
+      "slug": "1280011-primordial-sap-effects",
+      "title": {
+        "vi-VN": "Primordial Sap Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tốc Phép, Tăng cường Kháng hỗn loạn"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AreaOfEffect",
+        "CastSpeed",
+        "ChaosResistance",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Tốc Phép, Tăng cường Kháng hỗn loạn, Tăng cường Sát thương lửa"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280011-primordial-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280021",
+      "slug": "1280021-eldritch-venom-effects",
+      "title": {
+        "vi-VN": "Eldritch Venom Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Tốc độ tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Tốc độ tấn công, Tỷ lệ đỡ"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280021-eldritch-venom-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290011",
+      "slug": "1290011-chaso-dice-effects",
+      "title": {
+        "vi-VN": "Chaso Dice Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tốc Phép, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tốc Phép, Tỷ lệ chí mạng, Hấp thụ sát thương"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290011-chaso-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290021",
+      "slug": "1290021-void-tendril-effects",
+      "title": {
+        "vi-VN": "Void Tendril Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Giảm thời gian hồi, Tỷ lệ chí mạng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Giảm thời gian hồi, Tỷ lệ chí mạng, Sát thương chí mạng"
+        },
+        "gearType": {
+          "vi-VN": "Accessory, Giáp, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290021-void-tendril-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1300011",
+      "slug": "1300011-scroll-of-common-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Common Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Thêm HP Mỗi Lần Giết, Tăng cường Phạm vi ảnh hưởng, Giáp"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_130001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Thêm HP Mỗi Lần Giết, Tăng cường Phạm vi ảnh hưởng, Giáp, Sát thương tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1300011-scroll-of-common-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1310011",
+      "slug": "1310011-scroll-of-uncommon-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Uncommon Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Sát thương tấn công, Tỷ lệ đỡ, Tăng cường Sát thương băng"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_131001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Sát thương tấn công, Tỷ lệ đỡ, Tăng cường Sát thương băng, Kháng băng"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1310011-scroll-of-uncommon-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1320011",
+      "slug": "1320011-scroll-of-rare-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Rare Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Phạm vi ảnh hưởng, Giáp"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_132001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdResistance",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Tăng cường Phạm vi ảnh hưởng, Giáp, Sát thương tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1320011-scroll-of-rare-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1330011",
+      "slug": "1330011-scroll-of-legendary-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Legendary Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Sát thương tấn công, Tỷ lệ đỡ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_133001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Sát thương tấn công, Tỷ lệ đỡ, Tăng cường Sát thương băng"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1330011-scroll-of-legendary-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1340011",
+      "slug": "1340011-scroll-of-immortal-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Immortal Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công, Tốc độ tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_134001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công, Tốc độ tấn công, Tốc Phép"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1340011-scroll-of-immortal-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1350011",
+      "slug": "1350011-scroll-of-arcana-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Arcana Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Sát thương tấn công, Tăng cường Kháng hỗn loạn"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_135001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "HpRegenPerSec",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Sát thương tấn công, Tăng cường Kháng hỗn loạn, Kháng băng"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1350011-scroll-of-arcana-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1360011",
+      "slug": "1360011-scroll-of-beyond-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Beyond Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Thêm HP Mỗi Lần Giết, Tăng cường Phạm vi ảnh hưởng, Giáp"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_136001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Thêm HP Mỗi Lần Giết, Tăng cường Phạm vi ảnh hưởng, Giáp, Sát thương tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1360011-scroll-of-beyond-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1370011",
+      "slug": "1370011-scroll-of-celestial-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Celestial Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Sát thương tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_137001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường HP mỗi đòn đánh, Giáp, Sát thương tấn công, Tăng cường Kháng hỗn loạn"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1370011-scroll-of-celestial-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1380011",
+      "slug": "1380011-scroll-of-divine-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Divine Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Giáp, Sát thương tấn công, Tốc độ tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_138001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Giáp, Sát thương tấn công, Tốc độ tấn công, Tốc Phép"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1380011-scroll-of-divine-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1390011",
+      "slug": "1390011-scroll-of-cosmic-inscription-effects",
+      "title": {
+        "vi-VN": "Scroll of Cosmic Inscription Effects"
+      },
+      "subtitle": {
+        "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_139001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "vi-VN": "Tăng cường Kháng Mọi Nguyên Tố, Tăng cường Phạm vi ảnh hưởng, Sát thương tấn công, Tốc độ tấn công"
+        },
+        "gearType": {
+          "vi-VN": "Thường"
+        }
+      },
+      "detailPath": "/generated/details/effects/1390011-scroll-of-cosmic-inscription-effects.json",
+      "tooltip": null
+    }
+  ]
+}

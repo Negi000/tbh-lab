@@ -3,12 +3,40 @@
   "entityId": "201",
   "slug": "201-rune-of-wealth",
   "title": {
-    "ja": "富のルーン",
-    "en": "Rune of Wealth"
+    "de-DE": "Reichtumsrune",
+    "en-US": "Rune of Wealth",
+    "es-ES": "Runa de Riqueza",
+    "fr-FR": "Rune de Richesse",
+    "id-ID": "Rune Kekayaan",
+    "ja-JP": "富のルーン",
+    "ko-KR": "재물의 룬",
+    "pl-PL": "Runa Bogactwa",
+    "pt-BR": "Runa da Riqueza",
+    "ru-RU": "Руна богатства",
+    "th-TH": "รูนทรัพย์",
+    "tr-TR": "Servet Runu",
+    "uk-UA": "Руна багатства",
+    "vi-VN": "Rune Tài Lộc",
+    "zh-Hans": "财富符文",
+    "zh-Hant": "財富符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/AdditionalGold.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "追加ゴールド",
-        "en": "Additional Gold"
+        "de-DE": "Zus. Gold",
+        "en-US": "Additional Gold",
+        "es-ES": "Oro Adicional",
+        "fr-FR": "Or Supplémentaire",
+        "id-ID": "Emas Tambahan",
+        "ja-JP": "追加ゴールド",
+        "ko-KR": "추가 골드",
+        "pl-PL": "Dodatkowe Złoto",
+        "pt-BR": "Ouro Adicional",
+        "ru-RU": "Доп. золото",
+        "th-TH": "ทองเพิ่ม",
+        "tr-TR": "Ek Altın",
+        "uk-UA": "Дод. золото",
+        "vi-VN": "Vàng Thêm",
+        "zh-Hans": "额外金币",
+        "zh-Hant": "額外金幣"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "富のルーン",
-            "en": "Rune of Wealth"
+            "de-DE": "Reichtumsrune",
+            "en-US": "Rune of Wealth",
+            "es-ES": "Runa de Riqueza",
+            "fr-FR": "Rune de Richesse",
+            "id-ID": "Rune Kekayaan",
+            "ja-JP": "富のルーン",
+            "ko-KR": "재물의 룬",
+            "pl-PL": "Runa Bogactwa",
+            "pt-BR": "Runa da Riqueza",
+            "ru-RU": "Руна богатства",
+            "th-TH": "รูนทรัพย์",
+            "tr-TR": "Servet Runu",
+            "uk-UA": "Руна багатства",
+            "vi-VN": "Rune Tài Lộc",
+            "zh-Hans": "财富符文",
+            "zh-Hant": "財富符文"
           },
           "-"
         ]
@@ -89,12 +159,40 @@
         [
           1,
           {
-            "ja": "追加ゴールド +1",
-            "en": "Additional Gold +1"
+            "de-DE": "Zus. Gold +1",
+            "en-US": "Additional Gold +1",
+            "es-ES": "Oro Adicional +1",
+            "fr-FR": "Or Supplémentaire +1",
+            "id-ID": "Emas Tambahan +1",
+            "ja-JP": "追加ゴールド +1",
+            "ko-KR": "추가 골드 +1",
+            "pl-PL": "Dodatkowe Złoto +1",
+            "pt-BR": "Ouro Adicional +1",
+            "ru-RU": "Доп. золото +1",
+            "th-TH": "ทองเพิ่ม +1",
+            "tr-TR": "Ek Altın +1",
+            "uk-UA": "Дод. золото +1",
+            "vi-VN": "Vàng Thêm +1",
+            "zh-Hans": "额外金币 +1",
+            "zh-Hant": "額外金幣 +1"
           },
           {
-            "ja": "1000 ゴールド",
-            "en": "1000 Gold"
+            "de-DE": "1000 Gold",
+            "en-US": "1000 Gold",
+            "es-ES": "1000 Gold",
+            "fr-FR": "1000 Gold",
+            "id-ID": "1000 Gold",
+            "ja-JP": "1000 ゴールド",
+            "ko-KR": "1000 Gold",
+            "pl-PL": "1000 Gold",
+            "pt-BR": "1000 Gold",
+            "ru-RU": "1000 Gold",
+            "th-TH": "1000 Gold",
+            "tr-TR": "1000 Gold",
+            "uk-UA": "1000 Gold",
+            "vi-VN": "1000 Gold",
+            "zh-Hans": "1000 Gold",
+            "zh-Hant": "1000 Gold"
           }
         ]
       ]

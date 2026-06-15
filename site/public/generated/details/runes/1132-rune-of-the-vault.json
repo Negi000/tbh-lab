@@ -3,12 +3,40 @@
   "entityId": "1132",
   "slug": "1132-rune-of-the-vault",
   "title": {
-    "ja": "金庫のルーン",
-    "en": "Rune of the Vault"
+    "de-DE": "Tresorrune",
+    "en-US": "Rune of the Vault",
+    "es-ES": "Runa de la Bóveda",
+    "fr-FR": "Rune du Coffre",
+    "id-ID": "Rune Lumbung",
+    "ja-JP": "金庫のルーン",
+    "ko-KR": "금고의 룬",
+    "pl-PL": "Runa Skarbca",
+    "pt-BR": "Runa do Cofre",
+    "ru-RU": "Руна сейфа",
+    "th-TH": "รูนห้องนิรภัย",
+    "tr-TR": "Kasa Runu",
+    "uk-UA": "Руна сейфа",
+    "vi-VN": "Rune Kim Khố",
+    "zh-Hans": "金库符文",
+    "zh-Hant": "金庫符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/MaxAmountStageBossChest.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ステージボス宝箱最大保管",
-        "en": "Stage Boss Chest Max Capacity"
+        "de-DE": "Max. Lagerung Stage-Boss-Truhe",
+        "en-US": "Stage Boss Chest Max Capacity",
+        "es-ES": "Alm. máx. de cofre del jefe de etapa",
+        "fr-FR": "Stock max coffre de boss d'étape",
+        "id-ID": "Maks. Simpan Peti Boss Panggung",
+        "ja-JP": "ステージボス宝箱最大保管",
+        "ko-KR": "스테이지 보스 상자 최대 보관량 증가",
+        "pl-PL": "Maks. skrzyń bossa etapu",
+        "pt-BR": "Arm. máx. de baú do chefe de fase",
+        "ru-RU": "Макс. сундуков босса стадии",
+        "th-TH": "เก็บหีบบอสด่านสูงสุด",
+        "tr-TR": "Maks. Aşama Boss Sandığı",
+        "uk-UA": "Макс. скринь боса етапу",
+        "vi-VN": "Tối đa rương Boss Tầng",
+        "zh-Hans": "关卡首领宝箱最大容量",
+        "zh-Hant": "關卡首領寶箱最大容量"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "ステージボス宝箱最大保管 +1",
-            "en": "Stage Boss Chest Max Capacity +1"
+            "de-DE": "Max. Lagerung Stage-Boss-Truhe +1",
+            "en-US": "Stage Boss Chest Max Capacity +1",
+            "es-ES": "Alm. máx. de cofre del jefe de etapa +1",
+            "fr-FR": "Stock max coffre de boss d'étape +1",
+            "id-ID": "Maks. Simpan Peti Boss Panggung +1",
+            "ja-JP": "ステージボス宝箱最大保管 +1",
+            "ko-KR": "스테이지 보스 상자 최대 보관량 +1",
+            "pl-PL": "Maks. skrzyń bossa etapu +1",
+            "pt-BR": "Arm. máx. de baú do chefe de fase +1",
+            "ru-RU": "Макс. сундуков босса стадии +1",
+            "th-TH": "เก็บหีบบอสด่านสูงสุด +1",
+            "tr-TR": "Maks. Aşama Boss Sandığı +1",
+            "uk-UA": "Макс. скринь боса етапу +1",
+            "vi-VN": "Tối đa rương Boss Tầng +1",
+            "zh-Hans": "关卡首领宝箱最大容量 +1",
+            "zh-Hant": "關卡首領寶箱最大容量 +1"
           },
           {
-            "ja": "3000000 ゴールド",
-            "en": "3000000 Gold"
+            "de-DE": "3000000 Gold",
+            "en-US": "3000000 Gold",
+            "es-ES": "3000000 Gold",
+            "fr-FR": "3000000 Gold",
+            "id-ID": "3000000 Gold",
+            "ja-JP": "3000000 ゴールド",
+            "ko-KR": "3000000 Gold",
+            "pl-PL": "3000000 Gold",
+            "pt-BR": "3000000 Gold",
+            "ru-RU": "3000000 Gold",
+            "th-TH": "3000000 Gold",
+            "tr-TR": "3000000 Gold",
+            "uk-UA": "3000000 Gold",
+            "vi-VN": "3000000 Gold",
+            "zh-Hans": "3000000 Gold",
+            "zh-Hant": "3000000 Gold"
           }
         ]
       ]

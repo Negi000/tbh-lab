@@ -3,12 +3,40 @@
   "entityId": "passive-501002",
   "slug": "passive-501002-critical-chance-enhancement",
   "title": {
-    "ja": "クリティカル率強化",
-    "en": "Critical Chance Enhancement"
+    "de-DE": "Kritische-Chance-Verstärkung",
+    "en-US": "Critical Chance Enhancement",
+    "es-ES": "Mejora de Probabilidad Crítica",
+    "fr-FR": "Amélioration Chance Critique",
+    "id-ID": "Peningkatan Peluang Kritis",
+    "ja-JP": "クリティカル率強化",
+    "ko-KR": "치명타 확률 강화",
+    "pl-PL": "Wzmocnienie Szansy Krytycznej",
+    "pt-BR": "Aprimoramento de Chance Crítica",
+    "ru-RU": "Усиление шанса крита",
+    "th-TH": "เสริมโอกาสคริติคอล",
+    "tr-TR": "Kritik Şansı Güçlendirme",
+    "uk-UA": "Посилення шансу крита",
+    "vi-VN": "Tăng cường Tỷ lệ chí mạng",
+    "zh-Hans": "暴击率强化",
+    "zh-Hant": "爆擊率強化"
   },
   "subtitle": {
-    "ja": "クリティカル率係数200%増加",
-    "en": "200% Increased Critical Chance Multiplier"
+    "de-DE": "200% erhöhter Krit-Chance-Multiplikator",
+    "en-US": "200% Increased Critical Chance Multiplier",
+    "es-ES": "200% Aumento Multiplicador Prob. Crítica",
+    "fr-FR": "200% Multiplicateur Chance Crit. augmenté",
+    "id-ID": "200% Peningkatan Pengali Peluang Kritis",
+    "ja-JP": "クリティカル率係数200%増加",
+    "ko-KR": "치명타 확률 계수 200% 증가",
+    "pl-PL": "200% zwiększenia mnożnika szansy kryt.",
+    "pt-BR": "200% Aumento Multiplicador Chance Crítica",
+    "ru-RU": "200% увеличения множителя шанса крита",
+    "th-TH": "ตัวคูณโอกาสคริติคอลเพิ่ม 200%",
+    "tr-TR": "%200 Artan Kritik Şans Çarpanı",
+    "uk-UA": "200% збільшення множника шансу крита",
+    "vi-VN": "Tăng 200% Hệ số Tỉ Lệ Chí Mạng",
+    "zh-Hans": "暴击率系数提高200%",
+    "zh-Hant": "爆擊率係數提高200%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "クリティカル率",
-        "en": "Critical Chance"
+        "de-DE": "Kritische Trefferchance",
+        "en-US": "Critical Chance",
+        "es-ES": "Probabilidad crítica",
+        "fr-FR": "Chance de critique",
+        "id-ID": "Peluang Kritis",
+        "ja-JP": "クリティカル率",
+        "ko-KR": "치명타 확률",
+        "pl-PL": "Szansa na krytyk",
+        "pt-BR": "Chance Crítica",
+        "ru-RU": "Шанс критического удара",
+        "th-TH": "โอกาสคริติคอล",
+        "tr-TR": "Kritik Vuruş Şansı",
+        "uk-UA": "Шанс критичного удару",
+        "vi-VN": "Tỷ lệ chí mạng",
+        "zh-Hans": "暴击几率",
+        "zh-Hant": "暴擊機率"
       }
     },
     {

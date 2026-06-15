@@ -3,12 +3,40 @@
   "entityId": "317111",
   "slug": "317111-mystic-bow",
   "title": {
-    "ja": "ミスティックボウ",
-    "en": "Mystic Bow"
+    "de-DE": "Mystic Bow",
+    "en-US": "Mystic Bow",
+    "es-ES": "Mystic Bow",
+    "fr-FR": "Mystic Bow",
+    "id-ID": "Mystic Bow",
+    "ja-JP": "ミスティックボウ",
+    "ko-KR": "Mystic Bow",
+    "pl-PL": "Mystic Bow",
+    "pt-BR": "Mystic Bow",
+    "ru-RU": "Mystic Bow",
+    "th-TH": "Mystic Bow",
+    "tr-TR": "Mystic Bow",
+    "uk-UA": "Mystic Bow",
+    "vi-VN": "Mystic Bow",
+    "zh-Hans": "Mystic Bow",
+    "zh-Hant": "Mystic Bow"
   },
   "subtitle": {
-    "en": "Celestial / Bow / Main Weapon / Lv. 50",
-    "ja": "セレスティアル / 弓 / メイン武器 / Lv. 50"
+    "de-DE": "Himmlisch / Bogen / Hauptwaffe / Lv. 50",
+    "en-US": "Celestial / Bow / Main Weapon / Lv. 50",
+    "es-ES": "Celestial / Arco / Arma principal / Lv. 50",
+    "fr-FR": "Céleste / Arc / Arme principale / Lv. 50",
+    "id-ID": "Surgawi / Busur / Senjata Utama / Lv. 50",
+    "ja-JP": "セレスティアル / 弓 / メイン武器 / Lv. 50",
+    "ko-KR": "천상 / 활 / 주무기 / Lv. 50",
+    "pl-PL": "Niebiański / Łuk / Broń główna / Lv. 50",
+    "pt-BR": "Celestial / Arco / Arma Principal / Lv. 50",
+    "ru-RU": "Небесный / Лук / Основное оружие / Lv. 50",
+    "th-TH": "สวรรค์ / ธนู / อาวุธหลัก / Lv. 50",
+    "tr-TR": "Göksel / Yay / Ana Silah / Lv. 50",
+    "uk-UA": "Небесний / Лук / Основна зброя / Lv. 50",
+    "vi-VN": "Thiên giới / Cung / Vũ khí chính / Lv. 50",
+    "zh-Hans": "天界 / 弓 / 主武器 / Lv. 50",
+    "zh-Hant": "天界 / 弓 / 主武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/BOW_310011.png",
   "rarity": "CELESTIAL",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115117",
-            "en": "DropKey 3115117"
+            "de-DE": "DropKey 3115117",
+            "en-US": "DropKey 3115117",
+            "es-ES": "DropKey 3115117",
+            "fr-FR": "DropKey 3115117",
+            "id-ID": "DropKey 3115117",
+            "ja-JP": "DropKey 3115117",
+            "ko-KR": "DropKey 3115117",
+            "pl-PL": "DropKey 3115117",
+            "pt-BR": "DropKey 3115117",
+            "ru-RU": "DropKey 3115117",
+            "th-TH": "DropKey 3115117",
+            "tr-TR": "DropKey 3115117",
+            "uk-UA": "DropKey 3115117",
+            "vi-VN": "DropKey 3115117",
+            "zh-Hans": "DropKey 3115117",
+            "zh-Hant": "DropKey 3115117"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

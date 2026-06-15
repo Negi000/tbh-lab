@@ -1,9 +1,47 @@
 {
-  "generatedAt": "2026-06-15T12:38:05.524475+00:00",
+  "generatedAt": "2026-06-15T13:33:01.761022+00:00",
   "locales": [
-    "ja",
-    "en"
+    "de-DE",
+    "en-US",
+    "es-ES",
+    "fr-FR",
+    "id-ID",
+    "ja-JP",
+    "ko-KR",
+    "pl-PL",
+    "pt-BR",
+    "ru-RU",
+    "th-TH",
+    "tr-TR",
+    "uk-UA",
+    "vi-VN",
+    "zh-Hans",
+    "zh-Hant"
   ],
+  "localeLabels": {
+    "de-DE": "Deutsch",
+    "en-US": "English",
+    "es-ES": "Español",
+    "fr-FR": "Français",
+    "id-ID": "Bahasa Indonesia",
+    "ja-JP": "日本語",
+    "ko-KR": "한국어",
+    "pl-PL": "Polski",
+    "pt-BR": "Português do Brasil",
+    "ru-RU": "Русский",
+    "th-TH": "ไทย",
+    "tr-TR": "Türkçe",
+    "uk-UA": "Українська",
+    "vi-VN": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+  },
+  "defaultLocale": "ja-JP",
+  "seo": {
+    "siteUrl": "https://tbh.negi-lab.com",
+    "alternateStrategy": "query-route",
+    "defaultLocale": "ja-JP"
+  },
   "version": "local-export",
   "categories": [
     {
@@ -14,7 +52,7 @@
       "icon": null,
       "layout": "cards",
       "navGroup": "nav.tools",
-      "listPath": "/generated/categories/my-save.json"
+      "listPath": "/generated/categories/{locale}/my-save.json"
     },
     {
       "id": "market",
@@ -24,7 +62,7 @@
       "icon": "/generated/assets/game/item/Materials/Item_100001.png",
       "layout": "cards",
       "navGroup": "nav.tools",
-      "listPath": "/generated/categories/market.json"
+      "listPath": "/generated/categories/{locale}/market.json"
     },
     {
       "id": "farm-planner",
@@ -34,7 +72,7 @@
       "icon": "/generated/assets/game/ui/MenuButton_Portal_Active.png",
       "layout": "cards",
       "navGroup": "nav.tools",
-      "listPath": "/generated/categories/farm-planner.json"
+      "listPath": "/generated/categories/{locale}/farm-planner.json"
     },
     {
       "id": "drop-lab",
@@ -44,7 +82,7 @@
       "icon": "/generated/assets/game/item/Item_910011.png",
       "layout": "cards",
       "navGroup": "nav.tools",
-      "listPath": "/generated/categories/drop-lab.json"
+      "listPath": "/generated/categories/{locale}/drop-lab.json"
     },
     {
       "id": "progress-planner",
@@ -54,7 +92,7 @@
       "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
       "layout": "cards",
       "navGroup": "nav.tools",
-      "listPath": "/generated/categories/progress-planner.json"
+      "listPath": "/generated/categories/{locale}/progress-planner.json"
     },
     {
       "id": "lab-status",
@@ -64,7 +102,7 @@
       "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
       "layout": "cards",
       "navGroup": "nav.tools",
-      "listPath": "/generated/categories/lab-status.json"
+      "listPath": "/generated/categories/{locale}/lab-status.json"
     },
     {
       "id": "gear",
@@ -74,7 +112,7 @@
       "icon": "/generated/assets/game/item/Equipment/SWORD_300001.png",
       "layout": "table",
       "navGroup": "nav.database",
-      "listPath": "/generated/categories/gear.json"
+      "listPath": "/generated/categories/{locale}/gear.json"
     },
     {
       "id": "materials",
@@ -84,7 +122,7 @@
       "icon": "/generated/assets/game/item/Materials/Item_110001.png",
       "layout": "table",
       "navGroup": "nav.database",
-      "listPath": "/generated/categories/materials.json"
+      "listPath": "/generated/categories/{locale}/materials.json"
     },
     {
       "id": "effects",
@@ -94,7 +132,7 @@
       "icon": "/generated/assets/game/item/Materials/Item_113001.png",
       "layout": "table",
       "navGroup": "nav.database",
-      "listPath": "/generated/categories/effects.json"
+      "listPath": "/generated/categories/{locale}/effects.json"
     },
     {
       "id": "stage-boxes",
@@ -104,7 +142,7 @@
       "icon": "/generated/assets/game/item/Item_910011.png",
       "layout": "table",
       "navGroup": "nav.database",
-      "listPath": "/generated/categories/stage-boxes.json"
+      "listPath": "/generated/categories/{locale}/stage-boxes.json"
     },
     {
       "id": "heroes",
@@ -114,7 +152,7 @@
       "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Knight_Mid_Anim_0.png",
       "layout": "cards",
       "navGroup": "nav.database",
-      "listPath": "/generated/categories/heroes.json"
+      "listPath": "/generated/categories/{locale}/heroes.json"
     },
     {
       "id": "monsters",
@@ -124,7 +162,7 @@
       "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
       "layout": "table",
       "navGroup": "nav.database",
-      "listPath": "/generated/categories/monsters.json"
+      "listPath": "/generated/categories/{locale}/monsters.json"
     },
     {
       "id": "skills",
@@ -134,7 +172,7 @@
       "icon": "/generated/assets/game/skills/Skill_30101.png",
       "layout": "table",
       "navGroup": "nav.combat",
-      "listPath": "/generated/categories/skills.json"
+      "listPath": "/generated/categories/{locale}/skills.json"
     },
     {
       "id": "runes",
@@ -144,7 +182,7 @@
       "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
       "layout": "table",
       "navGroup": "nav.combat",
-      "listPath": "/generated/categories/runes.json"
+      "listPath": "/generated/categories/{locale}/runes.json"
     },
     {
       "id": "pets",
@@ -154,7 +192,7 @@
       "icon": "/generated/assets/game/ui/BG_Pet.png",
       "layout": "cards",
       "navGroup": "nav.collection",
-      "listPath": "/generated/categories/pets.json"
+      "listPath": "/generated/categories/{locale}/pets.json"
     },
     {
       "id": "stages",
@@ -164,7 +202,7 @@
       "icon": "/generated/assets/game/map/Act1_Bg.png",
       "layout": "cards",
       "navGroup": "nav.systems",
-      "listPath": "/generated/categories/stages.json"
+      "listPath": "/generated/categories/{locale}/stages.json"
     },
     {
       "id": "cube",
@@ -174,7 +212,7 @@
       "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
       "layout": "cards",
       "navGroup": "nav.systems",
-      "listPath": "/generated/categories/cube.json"
+      "listPath": "/generated/categories/{locale}/cube.json"
     },
     {
       "id": "database",
@@ -184,7 +222,7 @@
       "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
       "layout": "table",
       "navGroup": "nav.reference",
-      "listPath": "/generated/categories/database.json"
+      "listPath": "/generated/categories/{locale}/database.json"
     }
   ],
   "navGroups": [
@@ -255,7 +293,7 @@
       },
       {
         "labelKey": "home.stat.languages",
-        "value": 2
+        "value": 16
       }
     ],
     "notes": [

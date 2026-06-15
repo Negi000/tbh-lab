@@ -1,0 +1,3112 @@
+{
+  "category": {
+    "id": "effects",
+    "titleKey": "category.effects.title",
+    "descriptionKey": "category.effects.description",
+    "count": 79,
+    "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/{locale}/effects.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "gearType",
+      "labelKey": "field.gearType"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    }
+  ],
+  "filters": [
+    {
+      "id": "gearType",
+      "labelKey": "filter.gearType",
+      "options": [
+        "ACCESSORY, ARMOR, WEAPON",
+        "COMMON"
+      ]
+    },
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "AreaOfEffect, BlockChance, CastSpeed",
+        "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "AreaOfEffect, CriticalDamage, MaxHp",
+        "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "Armor, AttackSpeed, CriticalDamage",
+        "Armor, CastSpeed, LightningDamagePercent",
+        "Armor, ColdDamagePercent, CriticalChance",
+        "Armor, CriticalDamage",
+        "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "AttackDamage, BlockChance",
+        "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "effects",
+      "entityId": "1100011",
+      "slug": "1100011-minor-ruby-effects",
+      "title": {
+        "es-ES": "Minor Ruby Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Mejora de Daño de Fuego, Resistencia al Fuego"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Mejora de Daño de Fuego, Resistencia al Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100011-minor-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100021",
+      "slug": "1100021-minor-sapphire-effects",
+      "title": {
+        "es-ES": "Minor Sapphire Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Mejora de Daño de Frío, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, ColdDamagePercent, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Mejora de Daño de Frío, Probabilidad crítica"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100021-minor-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100031",
+      "slug": "1100031-minor-topaz-effects",
+      "title": {
+        "es-ES": "Minor Topaz Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Vel. Lanz., Mejora de Daño de Rayo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "CastSpeed",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CastSpeed, LightningDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Vel. Lanz., Mejora de Daño de Rayo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100031-minor-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100041",
+      "slug": "1100041-minor-emerald-effects",
+      "title": {
+        "es-ES": "Minor Emerald Effects"
+      },
+      "subtitle": {
+        "es-ES": "Velocidad de ataque, Absorción de Daño, Velocidad de movimiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110004.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, DamageAbsorption, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Velocidad de ataque, Absorción de Daño, Velocidad de movimiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100041-minor-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100051",
+      "slug": "1100051-minor-amethyst-effects",
+      "title": {
+        "es-ES": "Minor Amethyst Effects"
+      },
+      "subtitle": {
+        "es-ES": "Reducción de enfriamiento, HP máximo, Mejora de Daño Físico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110005.png",
+      "rarity": "COMMON",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Reducción de enfriamiento, HP máximo, Mejora de Daño Físico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100051-minor-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110011",
+      "slug": "1110011-obsidian-shard-effects",
+      "title": {
+        "es-ES": "Obsidian Shard Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Probabilidad de Bloquear"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Probabilidad de Bloquear"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110011-obsidian-shard-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110021",
+      "slug": "1110021-coral-piece-effects",
+      "title": {
+        "es-ES": "Coral Piece Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Mejora de Robo de Vida, Mejora de Reg. PV/s"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Mejora de Robo de Vida, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110021-coral-piece-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110031",
+      "slug": "1110031-jade-stone-effects",
+      "title": {
+        "es-ES": "Jade Stone Effects"
+      },
+      "subtitle": {
+        "es-ES": "Velocidad de ataque, Probabilidad crítica, Probabilidad de Esquivar"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackSpeed",
+        "CriticalChance",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Velocidad de ataque, Probabilidad crítica, Probabilidad de Esquivar"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110031-jade-stone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110041",
+      "slug": "1110041-amber-gem-effects",
+      "title": {
+        "es-ES": "Amber Gem Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Daño crítico, HP máximo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "CriticalDamage",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CriticalDamage, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Daño crítico, HP máximo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110041-amber-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120011",
+      "slug": "1120011-ruby-effects",
+      "title": {
+        "es-ES": "Ruby Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Mejora de Daño de Fuego, Resistencia al Fuego"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Mejora de Daño de Fuego, Resistencia al Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120011-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120021",
+      "slug": "1120021-sapphire-effects",
+      "title": {
+        "es-ES": "Sapphire Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Daño de Frío, Resistencia al Frío, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112002.png",
+      "rarity": "RARE",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Daño de Frío, Resistencia al Frío, Probabilidad crítica"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120021-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120031",
+      "slug": "1120031-topaz-effects",
+      "title": {
+        "es-ES": "Topaz Effects"
+      },
+      "subtitle": {
+        "es-ES": "Vel. Lanz., Mejora de Daño de Rayo, Resistencia al Rayo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112003.png",
+      "rarity": "RARE",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Vel. Lanz., Mejora de Daño de Rayo, Resistencia al Rayo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120031-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120041",
+      "slug": "1120041-emerald-effects",
+      "title": {
+        "es-ES": "Emerald Effects"
+      },
+      "subtitle": {
+        "es-ES": "Velocidad de ataque, Mejora de Res. al Caos, Velocidad de movimiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Velocidad de ataque, Mejora de Res. al Caos, Velocidad de movimiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120041-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120051",
+      "slug": "1120051-amethyst-effects",
+      "title": {
+        "es-ES": "Amethyst Effects"
+      },
+      "subtitle": {
+        "es-ES": "Reducción de enfriamiento, HP máximo, Mejora de Daño Físico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112005.png",
+      "rarity": "RARE",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Reducción de enfriamiento, HP máximo, Mejora de Daño Físico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120051-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130011",
+      "slug": "1130011-crystal-quartz-effects",
+      "title": {
+        "es-ES": "Crystal Quartz Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Daño crítico, Mejora de Reg. PV/s"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "CriticalDamage",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CriticalDamage, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Daño crítico, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130011-crystal-quartz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130021",
+      "slug": "1130021-pearl-effects",
+      "title": {
+        "es-ES": "Pearl Effects"
+      },
+      "subtitle": {
+        "es-ES": "Reducción de enfriamiento, Probabilidad crítica, Mejora de Red. Daño"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Reducción de enfriamiento, Probabilidad crítica, Mejora de Red. Daño"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130021-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130031",
+      "slug": "1130031-turquoise-effects",
+      "title": {
+        "es-ES": "Turquoise Effects"
+      },
+      "subtitle": {
+        "es-ES": "Reducción de enfriamiento, Probabilidad crítica, HP máximo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Reducción de enfriamiento, Probabilidad crítica, HP máximo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130031-turquoise-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130041",
+      "slug": "1130041-garnet-effects",
+      "title": {
+        "es-ES": "Garnet Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Velocidad de ataque, Daño crítico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Velocidad de ataque, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130041-garnet-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140011",
+      "slug": "1140011-diamond-effects",
+      "title": {
+        "es-ES": "Diamond Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Toda la Resistencia Elemental, Mejora de Área de Efecto, Daño de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Toda la Resistencia Elemental, Mejora de Área de Efecto, Daño de ataque"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140011-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140021",
+      "slug": "1140021-opal-effects",
+      "title": {
+        "es-ES": "Opal Effects"
+      },
+      "subtitle": {
+        "es-ES": "Velocidad de ataque, Mejora de Reg. PV/s, HP máximo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackSpeed",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, HpRegenPerSec, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Velocidad de ataque, Mejora de Reg. PV/s, HP máximo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140021-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140031",
+      "slug": "1140031-lapis-lazuli-effects",
+      "title": {
+        "es-ES": "Lapis Lazuli Effects"
+      },
+      "subtitle": {
+        "es-ES": "Probabilidad crítica, Probabilidad de Esquivar, Velocidad de movimiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "CriticalChance",
+        "DodgeChance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DodgeChance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Probabilidad crítica, Probabilidad de Esquivar, Velocidad de movimiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140031-lapis-lazuli-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140041",
+      "slug": "1140041-black-pearl-effects",
+      "title": {
+        "es-ES": "Black Pearl Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Probabilidad de Bloquear, Vel. Lanz."
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CastSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CastSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Probabilidad de Bloquear, Vel. Lanz."
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140041-black-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150011",
+      "slug": "1150011-arcane-crystal-effects",
+      "title": {
+        "es-ES": "Arcane Crystal Effects"
+      },
+      "subtitle": {
+        "es-ES": "Vel. Lanz., Reducción de enfriamiento, Daño crítico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "CooldownReduction",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Vel. Lanz., Reducción de enfriamiento, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150011-arcane-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150021",
+      "slug": "1150021-mystic-topaz-effects",
+      "title": {
+        "es-ES": "Mystic Topaz Effects"
+      },
+      "subtitle": {
+        "es-ES": "Vel. Lanz., Mejora de Daño de Rayo, Resistencia al Rayo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Vel. Lanz., Mejora de Daño de Rayo, Resistencia al Rayo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150021-mystic-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150031",
+      "slug": "1150031-enchanted-ruby-effects",
+      "title": {
+        "es-ES": "Enchanted Ruby Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Mejora de Daño de Fuego, Resistencia al Fuego"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Mejora de Daño de Fuego, Resistencia al Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150031-enchanted-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150041",
+      "slug": "1150041-starlight-sapphire-effects",
+      "title": {
+        "es-ES": "Starlight Sapphire Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Daño de Frío, Resistencia al Frío, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Daño de Frío, Resistencia al Frío, Probabilidad crítica"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150041-starlight-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160011",
+      "slug": "1160011-void-opal-effects",
+      "title": {
+        "es-ES": "Void Opal Effects"
+      },
+      "subtitle": {
+        "es-ES": "Reducción de enfriamiento, HP máximo"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Reducción de enfriamiento, HP máximo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160011-void-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160021",
+      "slug": "1160021-astral-diamond-effects",
+      "title": {
+        "es-ES": "Astral Diamond Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Toda la Resistencia Elemental, Mejora de Área de Efecto, Daño de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Toda la Resistencia Elemental, Mejora de Área de Efecto, Daño de ataque"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160021-astral-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160031",
+      "slug": "1160031-phantom-emerald-effects",
+      "title": {
+        "es-ES": "Phantom Emerald Effects"
+      },
+      "subtitle": {
+        "es-ES": "Velocidad de ataque, Mejora de Res. al Caos, Velocidad de movimiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Velocidad de ataque, Mejora de Res. al Caos, Velocidad de movimiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160031-phantom-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160041",
+      "slug": "1160041-twilight-amethyst-effects",
+      "title": {
+        "es-ES": "Twilight Amethyst Effects"
+      },
+      "subtitle": {
+        "es-ES": "Reducción de enfriamiento, HP máximo, Mejora de Daño Físico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Reducción de enfriamiento, HP máximo, Mejora de Daño Físico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160041-twilight-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170011",
+      "slug": "1170011-celestial-pearl-effects",
+      "title": {
+        "es-ES": "Celestial Pearl Effects"
+      },
+      "subtitle": {
+        "es-ES": "Probabilidad crítica, Absorción de Daño"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "CriticalChance",
+        "DamageAbsorption",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Probabilidad crítica, Absorción de Daño"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170011-celestial-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170021",
+      "slug": "1170021-dragonite-crystal-effects",
+      "title": {
+        "es-ES": "Dragonite Crystal Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Daño crítico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170021-dragonite-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180011",
+      "slug": "1180011-void-crystal-effects",
+      "title": {
+        "es-ES": "Void Crystal Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Reducción de enfriamiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Reducción de enfriamiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180011-void-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180021",
+      "slug": "1180021-abyssal-pearl-effects",
+      "title": {
+        "es-ES": "Abyssal Pearl Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Mejora de Robo de Vida, Mejora de Reg. PV/s"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Mejora de Robo de Vida, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180021-abyssal-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190011",
+      "slug": "1190011-ethereal-gem-effects",
+      "title": {
+        "es-ES": "Ethereal Gem Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Habilidad de Ataque, Mejora de Red. Daño, Mejora de Golpes Múlt."
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "BaseAttackCountReduction",
+        "DamageReduction",
+        "Multistrike",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BaseAttackCountReduction, DamageReduction, Multistrike",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Habilidad de Ataque, Mejora de Red. Daño, Mejora de Golpes Múlt."
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190011-ethereal-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190021",
+      "slug": "1190021-chaos-diamond-effects",
+      "title": {
+        "es-ES": "Chaos Diamond Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Toda la Resistencia Elemental, Daño crítico, Mejora de Cant. Proyectiles"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "CriticalDamage",
+        "ProjectileCount",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Toda la Resistencia Elemental, Daño crítico, Mejora de Cant. Proyectiles"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190021-chaos-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200011",
+      "slug": "1200011-goblin-hide-effects",
+      "title": {
+        "es-ES": "Goblin Hide Effects"
+      },
+      "subtitle": {
+        "es-ES": "Velocidad de ataque, Resistencia al Frío, Mejora de Daño de Fuego"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ColdResistance, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Velocidad de ataque, Resistencia al Frío, Mejora de Daño de Fuego, Resistencia al Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200011-goblin-hide-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200021",
+      "slug": "1200021-skeleton-bone-effects",
+      "title": {
+        "es-ES": "Skeleton Bone Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Poder de defensa, Velocidad de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Poder de defensa, Velocidad de ataque, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200021-skeleton-bone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200031",
+      "slug": "1200031-slime-jelly-effects",
+      "title": {
+        "es-ES": "Slime Jelly Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Velocidad de ataque, Probabilidad de Bloquear"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Velocidad de ataque, Probabilidad de Bloquear, Probabilidad crítica"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200031-slime-jelly-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210011",
+      "slug": "1210011-wolf-fang-effects",
+      "title": {
+        "es-ES": "Wolf Fang Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Mejora de Área de Efecto, Poder de defensa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "CriticalChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Mejora de Área de Efecto, Poder de defensa, Daño de ataque"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210011-wolf-fang-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210021",
+      "slug": "1210021-spider-silk-effects",
+      "title": {
+        "es-ES": "Spider Silk Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Resistencia al Frío, Reducción de enfriamiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "ColdResistance",
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Resistencia al Frío, Reducción de enfriamiento, HP máximo"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210021-spider-silk-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210031",
+      "slug": "1210031-poisonous-herb-effects",
+      "title": {
+        "es-ES": "Poisonous Herb Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Daño de ataque, Absorción de Daño"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "DamageAbsorption",
+        "HpLeech",
+        "LightningDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Daño de ataque, Absorción de Daño, Mejora de Robo de Vida"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210031-poisonous-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210041",
+      "slug": "1210041-healing-herb-effects",
+      "title": {
+        "es-ES": "Healing Herb Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Mejora de Daño de Frío, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "DodgeChance",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ColdDamagePercent, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Mejora de Daño de Frío, Probabilidad crítica, Probabilidad de Esquivar"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210041-healing-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220011",
+      "slug": "1220011-bat-wing-membrane-effects",
+      "title": {
+        "es-ES": "Bat Wing Membrane Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Daño crítico, Mejora de Red. Daño"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "CriticalDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Daño crítico, Mejora de Red. Daño, Mejora de Daño de Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220011-bat-wing-membrane-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220021",
+      "slug": "1220021-ogre-blood-effects",
+      "title": {
+        "es-ES": "Ogre Blood Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Daño de ataque, Resistencia al Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122002.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Daño de ataque, Resistencia al Frío, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220021-ogre-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220031",
+      "slug": "1220031-mushroom-spore-effects",
+      "title": {
+        "es-ES": "Mushroom Spore Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Probabilidad de Bloquear, Reducción de enfriamiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122003.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Probabilidad de Bloquear, Reducción de enfriamiento, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220031-mushroom-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220041",
+      "slug": "1220041-ancient-tree-sap-effects",
+      "title": {
+        "es-ES": "Ancient Tree Sap Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Velocidad de ataque, Daño crítico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "CriticalDamage",
+        "DamageReduction",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Velocidad de ataque, Daño crítico, Mejora de Red. Daño"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220041-ancient-tree-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230011",
+      "slug": "1230011-skull-effects",
+      "title": {
+        "es-ES": "Skull Effects"
+      },
+      "subtitle": {
+        "es-ES": "Vel. Lanz., Mejora de Res. al Caos, Reducción de enfriamiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalDamage",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, ChaosResistance, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Vel. Lanz., Mejora de Res. al Caos, Reducción de enfriamiento, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230011-skull-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230021",
+      "slug": "1230021-harpy-feather-effects",
+      "title": {
+        "es-ES": "Harpy Feather Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Probabilidad de Bloquear, Mejora de Red. Daño"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "DamageReduction",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Probabilidad de Bloquear, Mejora de Red. Daño, Mejora de Daño de Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230021-harpy-feather-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230031",
+      "slug": "1230031-mandrake-root-effects",
+      "title": {
+        "es-ES": "Mandrake Root Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Resistencia al Frío, Mejora de Daño de Fuego"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "FireDamagePercent",
+        "HpLeech",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Resistencia al Frío, Mejora de Daño de Fuego, Mejora de Robo de Vida"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230031-mandrake-root-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230041",
+      "slug": "1230041-nightshade-extract-effects",
+      "title": {
+        "es-ES": "Nightshade Extract Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Daño de ataque, Resistencia al Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "AttackDamage",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Daño de ataque, Resistencia al Frío, Probabilidad crítica"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230041-nightshade-extract-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240011",
+      "slug": "1240011-basilisk-scale-effects",
+      "title": {
+        "es-ES": "Basilisk Scale Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Vel. Lanz., Mejora de Red. Daño"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "DamageReduction",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, DamageReduction, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Vel. Lanz., Mejora de Red. Daño, Mejora de Robo de Vida"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240011-basilisk-scale-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240021",
+      "slug": "1240021-wyvern-claw-effects",
+      "title": {
+        "es-ES": "Wyvern Claw Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Poder de defensa, Mejora de Daño de Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Poder de defensa, Mejora de Daño de Frío, Resistencia al Frío"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240021-wyvern-claw-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240031",
+      "slug": "1240031-dice-effects",
+      "title": {
+        "es-ES": "Dice Effects"
+      },
+      "subtitle": {
+        "es-ES": "Probabilidad de Bloquear, Mejora de Daño de Frío, Reducción de enfriamiento"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "BlockChance",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BlockChance, ColdDamagePercent, CooldownReduction, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Probabilidad de Bloquear, Mejora de Daño de Frío, Reducción de enfriamiento, Absorción de Daño"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240031-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240041",
+      "slug": "1240041-demon-blood-effects",
+      "title": {
+        "es-ES": "Demon Blood Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Probabilidad de Bloquear, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CriticalChance",
+        "DodgeChance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Probabilidad de Bloquear, Probabilidad crítica, Probabilidad de Esquivar"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240041-demon-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250011",
+      "slug": "1250011-minotaur-horn-effects",
+      "title": {
+        "es-ES": "Minotaur Horn Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Velocidad de ataque, Mejora de Daño de Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Velocidad de ataque, Mejora de Daño de Frío, Reducción de enfriamiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250011-minotaur-horn-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250021",
+      "slug": "1250021-griffin-beak-effects",
+      "title": {
+        "es-ES": "Griffin Beak Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Vel. Lanz., Mejora de Daño de Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "CriticalDamage",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, ColdDamagePercent, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Vel. Lanz., Mejora de Daño de Frío, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250021-griffin-beak-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250031",
+      "slug": "1250031-phoenix-ash-effects",
+      "title": {
+        "es-ES": "Phoenix Ash Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Velocidad de ataque, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "CriticalChance",
+        "CriticalDamage",
+        "DamageAbsorption",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Velocidad de ataque, Probabilidad crítica, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250031-phoenix-ash-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250041",
+      "slug": "1250041-dragon-bile-effects",
+      "title": {
+        "es-ES": "Dragon Bile Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Probabilidad de Bloquear, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Probabilidad de Bloquear, Probabilidad crítica, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250041-dragon-bile-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260011",
+      "slug": "1260011-wraith-essence-effects",
+      "title": {
+        "es-ES": "Wraith Essence Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Probabilidad de Bloquear, Daño crítico"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Probabilidad de Bloquear, Daño crítico, Mejora de Daño de Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260011-wraith-essence-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260021",
+      "slug": "1260021-kraken-ink-effects",
+      "title": {
+        "es-ES": "Kraken Ink Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Mejora de Área de Efecto, Daño de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdDamagePercent",
+        "DodgeChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Mejora de Área de Efecto, Daño de ataque, Mejora de Daño de Frío"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260021-kraken-ink-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260031",
+      "slug": "1260031-titan-marrow-effects",
+      "title": {
+        "es-ES": "Titan Marrow Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Mejora de Red. Daño, Mejora de Daño de Fuego"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, DamageReduction, FireDamagePercent, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Mejora de Red. Daño, Mejora de Daño de Fuego, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260031-titan-marrow-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260041",
+      "slug": "1260041-void-ichor-effects",
+      "title": {
+        "es-ES": "Void Ichor Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Resistencia al Frío, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "CriticalChance",
+        "DamageReduction",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Resistencia al Frío, Probabilidad crítica, Mejora de Red. Daño"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260041-void-ichor-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270011",
+      "slug": "1270011-abyssal-mucus-effects",
+      "title": {
+        "es-ES": "Abyssal Mucus Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Velocidad de ataque, Probabilidad de Bloquear"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "FireDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Velocidad de ataque, Probabilidad de Bloquear, Reducción de enfriamiento"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270011-abyssal-mucus-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270021",
+      "slug": "1270021-chaos-spore-effects",
+      "title": {
+        "es-ES": "Chaos Spore Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Mejora de Res. al Caos, Resistencia al Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ChaosResistance, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Mejora de Res. al Caos, Resistencia al Frío, Mejora de Reg. PV/s"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270021-chaos-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280011",
+      "slug": "1280011-primordial-sap-effects",
+      "title": {
+        "es-ES": "Primordial Sap Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Vel. Lanz., Mejora de Res. al Caos"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AreaOfEffect",
+        "CastSpeed",
+        "ChaosResistance",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Vel. Lanz., Mejora de Res. al Caos, Mejora de Daño de Fuego"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280011-primordial-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280021",
+      "slug": "1280021-eldritch-venom-effects",
+      "title": {
+        "es-ES": "Eldritch Venom Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Poder de defensa, Velocidad de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Poder de defensa, Velocidad de ataque, Probabilidad de Bloquear"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280021-eldritch-venom-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290011",
+      "slug": "1290011-chaso-dice-effects",
+      "title": {
+        "es-ES": "Chaso Dice Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Vel. Lanz., Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Vel. Lanz., Probabilidad crítica, Absorción de Daño"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290011-chaso-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290021",
+      "slug": "1290021-void-tendril-effects",
+      "title": {
+        "es-ES": "Void Tendril Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Reducción de enfriamiento, Probabilidad crítica"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Reducción de enfriamiento, Probabilidad crítica, Daño crítico"
+        },
+        "gearType": {
+          "es-ES": "Accessory, Armadura, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290021-void-tendril-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1300011",
+      "slug": "1300011-scroll-of-common-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Common Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Añadir PV por Kill, Mejora de Área de Efecto, Poder de defensa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_130001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Añadir PV por Kill, Mejora de Área de Efecto, Poder de defensa, Daño de ataque"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1300011-scroll-of-common-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1310011",
+      "slug": "1310011-scroll-of-uncommon-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Uncommon Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Daño de ataque, Probabilidad de Bloquear, Mejora de Daño de Frío"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_131001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Daño de ataque, Probabilidad de Bloquear, Mejora de Daño de Frío, Resistencia al Frío"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1310011-scroll-of-uncommon-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1320011",
+      "slug": "1320011-scroll-of-rare-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Rare Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Mejora de Área de Efecto, Poder de defensa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_132001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdResistance",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Mejora de Área de Efecto, Poder de defensa, Daño de ataque"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1320011-scroll-of-rare-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1330011",
+      "slug": "1330011-scroll-of-legendary-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Legendary Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Daño de ataque, Probabilidad de Bloquear"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_133001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Daño de ataque, Probabilidad de Bloquear, Mejora de Daño de Frío"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1330011-scroll-of-legendary-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1340011",
+      "slug": "1340011-scroll-of-immortal-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Immortal Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Área de Efecto, Daño de ataque, Velocidad de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_134001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Área de Efecto, Daño de ataque, Velocidad de ataque, Vel. Lanz."
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1340011-scroll-of-immortal-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1350011",
+      "slug": "1350011-scroll-of-arcana-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Arcana Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Daño de ataque, Mejora de Res. al Caos"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_135001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "HpRegenPerSec",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Daño de ataque, Mejora de Res. al Caos, Resistencia al Frío"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1350011-scroll-of-arcana-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1360011",
+      "slug": "1360011-scroll-of-beyond-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Beyond Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Añadir PV por Kill, Mejora de Área de Efecto, Poder de defensa"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_136001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Añadir PV por Kill, Mejora de Área de Efecto, Poder de defensa, Daño de ataque"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1360011-scroll-of-beyond-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1370011",
+      "slug": "1370011-scroll-of-celestial-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Celestial Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de PV por Golpe, Poder de defensa, Daño de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_137001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de PV por Golpe, Poder de defensa, Daño de ataque, Mejora de Res. al Caos"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1370011-scroll-of-celestial-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1380011",
+      "slug": "1380011-scroll-of-divine-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Divine Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Poder de defensa, Daño de ataque, Velocidad de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_138001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Poder de defensa, Daño de ataque, Velocidad de ataque, Vel. Lanz."
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1380011-scroll-of-divine-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1390011",
+      "slug": "1390011-scroll-of-cosmic-inscription-effects",
+      "title": {
+        "es-ES": "Scroll of Cosmic Inscription Effects"
+      },
+      "subtitle": {
+        "es-ES": "Mejora de Toda la Resistencia Elemental, Mejora de Área de Efecto, Daño de ataque"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_139001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "es-ES": "Mejora de Toda la Resistencia Elemental, Mejora de Área de Efecto, Daño de ataque, Velocidad de ataque"
+        },
+        "gearType": {
+          "es-ES": "Común"
+        }
+      },
+      "detailPath": "/generated/details/effects/1390011-scroll-of-cosmic-inscription-effects.json",
+      "tooltip": null
+    }
+  ]
+}

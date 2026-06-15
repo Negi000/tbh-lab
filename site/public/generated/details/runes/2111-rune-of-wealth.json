@@ -3,12 +3,40 @@
   "entityId": "2111",
   "slug": "2111-rune-of-wealth",
   "title": {
-    "ja": "富のルーン",
-    "en": "Rune of Wealth"
+    "de-DE": "Reichtumsrune",
+    "en-US": "Rune of Wealth",
+    "es-ES": "Runa de Riqueza",
+    "fr-FR": "Rune de Richesse",
+    "id-ID": "Rune Kekayaan",
+    "ja-JP": "富のルーン",
+    "ko-KR": "재물의 룬",
+    "pl-PL": "Runa Bogactwa",
+    "pt-BR": "Runa da Riqueza",
+    "ru-RU": "Руна богатства",
+    "th-TH": "รูนทรัพย์",
+    "tr-TR": "Servet Runu",
+    "uk-UA": "Руна багатства",
+    "vi-VN": "Rune Tài Lộc",
+    "zh-Hans": "财富符文",
+    "zh-Hant": "財富符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalGold.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "追加ゴールド",
-        "en": "Additional Gold"
+        "de-DE": "Zus. Gold",
+        "en-US": "Additional Gold",
+        "es-ES": "Oro Adicional",
+        "fr-FR": "Or Supplémentaire",
+        "id-ID": "Emas Tambahan",
+        "ja-JP": "追加ゴールド",
+        "ko-KR": "추가 골드",
+        "pl-PL": "Dodatkowe Złoto",
+        "pt-BR": "Ouro Adicional",
+        "ru-RU": "Доп. золото",
+        "th-TH": "ทองเพิ่ม",
+        "tr-TR": "Ek Altın",
+        "uk-UA": "Дод. золото",
+        "vi-VN": "Vàng Thêm",
+        "zh-Hans": "额外金币",
+        "zh-Hant": "額外金幣"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "追加ゴールド +1",
-            "en": "Additional Gold +1"
+            "de-DE": "Zus. Gold +1",
+            "en-US": "Additional Gold +1",
+            "es-ES": "Oro Adicional +1",
+            "fr-FR": "Or Supplémentaire +1",
+            "id-ID": "Emas Tambahan +1",
+            "ja-JP": "追加ゴールド +1",
+            "ko-KR": "추가 골드 +1",
+            "pl-PL": "Dodatkowe Złoto +1",
+            "pt-BR": "Ouro Adicional +1",
+            "ru-RU": "Доп. золото +1",
+            "th-TH": "ทองเพิ่ม +1",
+            "tr-TR": "Ek Altın +1",
+            "uk-UA": "Дод. золото +1",
+            "vi-VN": "Vàng Thêm +1",
+            "zh-Hans": "额外金币 +1",
+            "zh-Hant": "額外金幣 +1"
           },
           {
-            "ja": "1000000 ゴールド",
-            "en": "1000000 Gold"
+            "de-DE": "1000000 Gold",
+            "en-US": "1000000 Gold",
+            "es-ES": "1000000 Gold",
+            "fr-FR": "1000000 Gold",
+            "id-ID": "1000000 Gold",
+            "ja-JP": "1000000 ゴールド",
+            "ko-KR": "1000000 Gold",
+            "pl-PL": "1000000 Gold",
+            "pt-BR": "1000000 Gold",
+            "ru-RU": "1000000 Gold",
+            "th-TH": "1000000 Gold",
+            "tr-TR": "1000000 Gold",
+            "uk-UA": "1000000 Gold",
+            "vi-VN": "1000000 Gold",
+            "zh-Hans": "1000000 Gold",
+            "zh-Hant": "1000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "追加ゴールド +1",
-            "en": "Additional Gold +1"
+            "de-DE": "Zus. Gold +1",
+            "en-US": "Additional Gold +1",
+            "es-ES": "Oro Adicional +1",
+            "fr-FR": "Or Supplémentaire +1",
+            "id-ID": "Emas Tambahan +1",
+            "ja-JP": "追加ゴールド +1",
+            "ko-KR": "추가 골드 +1",
+            "pl-PL": "Dodatkowe Złoto +1",
+            "pt-BR": "Ouro Adicional +1",
+            "ru-RU": "Доп. золото +1",
+            "th-TH": "ทองเพิ่ม +1",
+            "tr-TR": "Ek Altın +1",
+            "uk-UA": "Дод. золото +1",
+            "vi-VN": "Vàng Thêm +1",
+            "zh-Hans": "额外金币 +1",
+            "zh-Hant": "額外金幣 +1"
           },
           {
-            "ja": "2000000 ゴールド",
-            "en": "2000000 Gold"
+            "de-DE": "2000000 Gold",
+            "en-US": "2000000 Gold",
+            "es-ES": "2000000 Gold",
+            "fr-FR": "2000000 Gold",
+            "id-ID": "2000000 Gold",
+            "ja-JP": "2000000 ゴールド",
+            "ko-KR": "2000000 Gold",
+            "pl-PL": "2000000 Gold",
+            "pt-BR": "2000000 Gold",
+            "ru-RU": "2000000 Gold",
+            "th-TH": "2000000 Gold",
+            "tr-TR": "2000000 Gold",
+            "uk-UA": "2000000 Gold",
+            "vi-VN": "2000000 Gold",
+            "zh-Hans": "2000000 Gold",
+            "zh-Hant": "2000000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "追加ゴールド +1",
-            "en": "Additional Gold +1"
+            "de-DE": "Zus. Gold +1",
+            "en-US": "Additional Gold +1",
+            "es-ES": "Oro Adicional +1",
+            "fr-FR": "Or Supplémentaire +1",
+            "id-ID": "Emas Tambahan +1",
+            "ja-JP": "追加ゴールド +1",
+            "ko-KR": "추가 골드 +1",
+            "pl-PL": "Dodatkowe Złoto +1",
+            "pt-BR": "Ouro Adicional +1",
+            "ru-RU": "Доп. золото +1",
+            "th-TH": "ทองเพิ่ม +1",
+            "tr-TR": "Ek Altın +1",
+            "uk-UA": "Дод. золото +1",
+            "vi-VN": "Vàng Thêm +1",
+            "zh-Hans": "额外金币 +1",
+            "zh-Hant": "額外金幣 +1"
           },
           {
-            "ja": "3000000 ゴールド",
-            "en": "3000000 Gold"
+            "de-DE": "3000000 Gold",
+            "en-US": "3000000 Gold",
+            "es-ES": "3000000 Gold",
+            "fr-FR": "3000000 Gold",
+            "id-ID": "3000000 Gold",
+            "ja-JP": "3000000 ゴールド",
+            "ko-KR": "3000000 Gold",
+            "pl-PL": "3000000 Gold",
+            "pt-BR": "3000000 Gold",
+            "ru-RU": "3000000 Gold",
+            "th-TH": "3000000 Gold",
+            "tr-TR": "3000000 Gold",
+            "uk-UA": "3000000 Gold",
+            "vi-VN": "3000000 Gold",
+            "zh-Hans": "3000000 Gold",
+            "zh-Hant": "3000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "追加ゴールド +1",
-            "en": "Additional Gold +1"
+            "de-DE": "Zus. Gold +1",
+            "en-US": "Additional Gold +1",
+            "es-ES": "Oro Adicional +1",
+            "fr-FR": "Or Supplémentaire +1",
+            "id-ID": "Emas Tambahan +1",
+            "ja-JP": "追加ゴールド +1",
+            "ko-KR": "추가 골드 +1",
+            "pl-PL": "Dodatkowe Złoto +1",
+            "pt-BR": "Ouro Adicional +1",
+            "ru-RU": "Доп. золото +1",
+            "th-TH": "ทองเพิ่ม +1",
+            "tr-TR": "Ek Altın +1",
+            "uk-UA": "Дод. золото +1",
+            "vi-VN": "Vàng Thêm +1",
+            "zh-Hans": "额外金币 +1",
+            "zh-Hant": "額外金幣 +1"
           },
           {
-            "ja": "4000000 ゴールド",
-            "en": "4000000 Gold"
+            "de-DE": "4000000 Gold",
+            "en-US": "4000000 Gold",
+            "es-ES": "4000000 Gold",
+            "fr-FR": "4000000 Gold",
+            "id-ID": "4000000 Gold",
+            "ja-JP": "4000000 ゴールド",
+            "ko-KR": "4000000 Gold",
+            "pl-PL": "4000000 Gold",
+            "pt-BR": "4000000 Gold",
+            "ru-RU": "4000000 Gold",
+            "th-TH": "4000000 Gold",
+            "tr-TR": "4000000 Gold",
+            "uk-UA": "4000000 Gold",
+            "vi-VN": "4000000 Gold",
+            "zh-Hans": "4000000 Gold",
+            "zh-Hant": "4000000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "追加ゴールド +1",
-            "en": "Additional Gold +1"
+            "de-DE": "Zus. Gold +1",
+            "en-US": "Additional Gold +1",
+            "es-ES": "Oro Adicional +1",
+            "fr-FR": "Or Supplémentaire +1",
+            "id-ID": "Emas Tambahan +1",
+            "ja-JP": "追加ゴールド +1",
+            "ko-KR": "추가 골드 +1",
+            "pl-PL": "Dodatkowe Złoto +1",
+            "pt-BR": "Ouro Adicional +1",
+            "ru-RU": "Доп. золото +1",
+            "th-TH": "ทองเพิ่ม +1",
+            "tr-TR": "Ek Altın +1",
+            "uk-UA": "Дод. золото +1",
+            "vi-VN": "Vàng Thêm +1",
+            "zh-Hans": "额外金币 +1",
+            "zh-Hant": "額外金幣 +1"
           },
           {
-            "ja": "5000000 ゴールド",
-            "en": "5000000 Gold"
+            "de-DE": "5000000 Gold",
+            "en-US": "5000000 Gold",
+            "es-ES": "5000000 Gold",
+            "fr-FR": "5000000 Gold",
+            "id-ID": "5000000 Gold",
+            "ja-JP": "5000000 ゴールド",
+            "ko-KR": "5000000 Gold",
+            "pl-PL": "5000000 Gold",
+            "pt-BR": "5000000 Gold",
+            "ru-RU": "5000000 Gold",
+            "th-TH": "5000000 Gold",
+            "tr-TR": "5000000 Gold",
+            "uk-UA": "5000000 Gold",
+            "vi-VN": "5000000 Gold",
+            "zh-Hans": "5000000 Gold",
+            "zh-Hant": "5000000 Gold"
           }
         ]
       ]

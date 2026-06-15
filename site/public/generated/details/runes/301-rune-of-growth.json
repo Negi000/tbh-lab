@@ -3,12 +3,40 @@
   "entityId": "301",
   "slug": "301-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/AdditionalExp.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "追加経験値",
-        "en": "Additional Exp"
+        "de-DE": "Zus. EP",
+        "en-US": "Additional Exp",
+        "es-ES": "Exp Adicional",
+        "fr-FR": "Exp Supplémentaire",
+        "id-ID": "Exp Tambahan",
+        "ja-JP": "追加経験値",
+        "ko-KR": "추가 경험치 지급",
+        "pl-PL": "Dodatkowe Exp",
+        "pt-BR": "Exp Adicional",
+        "ru-RU": "Доп. опыт",
+        "th-TH": "Exp เพิ่ม",
+        "tr-TR": "Ek Tecrübe",
+        "uk-UA": "Дод. досвід",
+        "vi-VN": "KN Thêm",
+        "zh-Hans": "额外经验",
+        "zh-Hant": "額外經驗"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ]
@@ -89,12 +159,40 @@
         [
           1,
           {
-            "ja": "追加経験値 +1",
-            "en": "Additional Exp +1"
+            "de-DE": "Zus. EP +1",
+            "en-US": "Additional Exp +1",
+            "es-ES": "Exp Adicional +1",
+            "fr-FR": "Exp Supplémentaire +1",
+            "id-ID": "Exp Tambahan +1",
+            "ja-JP": "追加経験値 +1",
+            "ko-KR": "추가 경험치 +1",
+            "pl-PL": "Dodatkowe Exp +1",
+            "pt-BR": "Exp Adicional +1",
+            "ru-RU": "Доп. опыт +1",
+            "th-TH": "Exp เพิ่ม +1",
+            "tr-TR": "Ek Tecrübe +1",
+            "uk-UA": "Дод. досвід +1",
+            "vi-VN": "KN Thêm +1",
+            "zh-Hans": "额外经验 +1",
+            "zh-Hant": "額外經驗 +1"
           },
           {
-            "ja": "1000 ゴールド",
-            "en": "1000 Gold"
+            "de-DE": "1000 Gold",
+            "en-US": "1000 Gold",
+            "es-ES": "1000 Gold",
+            "fr-FR": "1000 Gold",
+            "id-ID": "1000 Gold",
+            "ja-JP": "1000 ゴールド",
+            "ko-KR": "1000 Gold",
+            "pl-PL": "1000 Gold",
+            "pt-BR": "1000 Gold",
+            "ru-RU": "1000 Gold",
+            "th-TH": "1000 Gold",
+            "tr-TR": "1000 Gold",
+            "uk-UA": "1000 Gold",
+            "vi-VN": "1000 Gold",
+            "zh-Hans": "1000 Gold",
+            "zh-Hant": "1000 Gold"
           }
         ]
       ]

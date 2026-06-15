@@ -3,12 +3,40 @@
   "entityId": "27",
   "slug": "27-rune-of-awakening",
   "title": {
-    "ja": "覚醒のルーン",
-    "en": "Rune of Awakening"
+    "de-DE": "Erwachensrune",
+    "en-US": "Rune of Awakening",
+    "es-ES": "Runa del Despertar",
+    "fr-FR": "Rune de l'Éveil",
+    "id-ID": "Rune Kebangkitan",
+    "ja-JP": "覚醒のルーン",
+    "ko-KR": "각성의 룬",
+    "pl-PL": "Runa Przebudzenia",
+    "pt-BR": "Runa do Despertar",
+    "ru-RU": "Руна пробуждения",
+    "th-TH": "รูนตื่นรู้",
+    "tr-TR": "Uyanış Runu",
+    "uk-UA": "Руна пробудження",
+    "vi-VN": "Rune Thức Tỉnh",
+    "zh-Hans": "觉醒符文",
+    "zh-Hant": "覺醒符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/UnlockSkillSlotCount.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "スキル枠（全ヒーロー）",
-        "en": "Skill Slot (All Heroes)"
+        "de-DE": "Fähigkeitsplatz (Alle Helden)",
+        "en-US": "Skill Slot (All Heroes)",
+        "es-ES": "Ranura de habilidad (Todos los Héroes)",
+        "fr-FR": "Emplacement de compétence (Tous les Héros)",
+        "id-ID": "Slot Skill (Semua Hero)",
+        "ja-JP": "スキル枠（全ヒーロー）",
+        "ko-KR": "모든 영웅의 스킬 슬롯",
+        "pl-PL": "Slot umiejętności (Wszyscy Bohaterowie)",
+        "pt-BR": "Espaço de habilidade (Todos os Heróis)",
+        "ru-RU": "Слот умений (все герои)",
+        "th-TH": "ช่องสกิล (ฮีโร่ทั้งหมด)",
+        "tr-TR": "Yetenek Yuvası (Tüm Kahramanlar)",
+        "uk-UA": "Слот умінь (всі герої)",
+        "vi-VN": "Ô Kỹ Năng (Tất Cả Hero)",
+        "zh-Hans": "技能槽(所有英雄)",
+        "zh-Hant": "技能槽(所有英雄)"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "スキル枠（全ヒーロー） +1",
-            "en": "Skill Slot (All Heroes) +1"
+            "de-DE": "Fähigkeitsplatz (Alle Helden) +1",
+            "en-US": "Skill Slot (All Heroes) +1",
+            "es-ES": "Ranura de habilidad (Todos los Héroes) +1",
+            "fr-FR": "Emplacement de compétence (Tous les Héros) +1",
+            "id-ID": "Slot Skill (Semua Hero) +1",
+            "ja-JP": "スキル枠（全ヒーロー） +1",
+            "ko-KR": "모든 영웅의 스킬 슬롯 +1",
+            "pl-PL": "Slot umiejętności (Wszyscy Bohaterowie) +1",
+            "pt-BR": "Espaço de habilidade (Todos os Heróis) +1",
+            "ru-RU": "Слот умений (все герои) +1",
+            "th-TH": "ช่องสกิล (ฮีโร่ทั้งหมด) +1",
+            "tr-TR": "Yetenek Yuvası (Tüm Kahramanlar) +1",
+            "uk-UA": "Слот умінь (всі герої) +1",
+            "vi-VN": "Ô Kỹ Năng (Tất Cả Hero) +1",
+            "zh-Hans": "技能槽(所有英雄) +1",
+            "zh-Hant": "技能槽(所有英雄) +1"
           },
           {
-            "ja": "50000 ゴールド",
-            "en": "50000 Gold"
+            "de-DE": "50000 Gold",
+            "en-US": "50000 Gold",
+            "es-ES": "50000 Gold",
+            "fr-FR": "50000 Gold",
+            "id-ID": "50000 Gold",
+            "ja-JP": "50000 ゴールド",
+            "ko-KR": "50000 Gold",
+            "pl-PL": "50000 Gold",
+            "pt-BR": "50000 Gold",
+            "ru-RU": "50000 Gold",
+            "th-TH": "50000 Gold",
+            "tr-TR": "50000 Gold",
+            "uk-UA": "50000 Gold",
+            "vi-VN": "50000 Gold",
+            "zh-Hans": "50000 Gold",
+            "zh-Hant": "50000 Gold"
           }
         ]
       ]

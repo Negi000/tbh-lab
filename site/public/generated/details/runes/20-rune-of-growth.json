@@ -3,12 +3,40 @@
   "entityId": "20",
   "slug": "20-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": "/generated/assets/game/runes/AdditionalExpStageBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ステージボス経験値",
-        "en": "Exp From Stage Boss"
+        "de-DE": "EP vom Stage-Boss",
+        "en-US": "Exp From Stage Boss",
+        "es-ES": "Exp del jefe de etapa",
+        "fr-FR": "Exp du boss d'étape",
+        "id-ID": "Exp dari Boss Panggung",
+        "ja-JP": "ステージボス経験値",
+        "ko-KR": "스테이지 보스 처치 시 획득 경험치",
+        "pl-PL": "Exp od bossa etapu",
+        "pt-BR": "Exp do chefe de fase",
+        "ru-RU": "Опыт с босса стадии",
+        "th-TH": "Exp จากบอสด่าน",
+        "tr-TR": "Aşama Bossundan Tecrübe",
+        "uk-UA": "Досвід з боса етапу",
+        "vi-VN": "KN từ Boss Tầng",
+        "zh-Hans": "关卡首领经验",
+        "zh-Hant": "關卡首領經驗"
       }
     },
     {
@@ -60,34 +102,118 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "指揮のルーン",
-            "en": "Rune of Command"
+            "de-DE": "Befehlsrune",
+            "en-US": "Rune of Command",
+            "es-ES": "Runa de Mando",
+            "fr-FR": "Rune de Commandement",
+            "id-ID": "Rune Komando",
+            "ja-JP": "指揮のルーン",
+            "ko-KR": "지휘의 룬",
+            "pl-PL": "Runa Dowodzenia",
+            "pt-BR": "Runa de Comando",
+            "ru-RU": "Руна командования",
+            "th-TH": "รูนบัญชา",
+            "tr-TR": "Komuta Runu",
+            "uk-UA": "Руна командування",
+            "vi-VN": "Rune Chỉ Huy",
+            "zh-Hans": "指挥符文",
+            "zh-Hant": "指揮符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "盾のルーン",
-            "en": "Rune of the Shield"
+            "de-DE": "Schildrune",
+            "en-US": "Rune of the Shield",
+            "es-ES": "Runa del Escudo",
+            "fr-FR": "Rune du Bouclier",
+            "id-ID": "Rune Perisai",
+            "ja-JP": "盾のルーン",
+            "ko-KR": "방패의 룬",
+            "pl-PL": "Runa Tarczy",
+            "pt-BR": "Runa do Escudo",
+            "ru-RU": "Руна щита",
+            "th-TH": "รูนโล่",
+            "tr-TR": "Kalkan Runu",
+            "uk-UA": "Руна щита",
+            "vi-VN": "Rune Khiên",
+            "zh-Hans": "盾之符文",
+            "zh-Hant": "盾之符文"
           },
           "-"
         ]
@@ -111,34 +237,118 @@
         [
           1,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "200 ゴールド",
-            "en": "200 Gold"
+            "de-DE": "200 Gold",
+            "en-US": "200 Gold",
+            "es-ES": "200 Gold",
+            "fr-FR": "200 Gold",
+            "id-ID": "200 Gold",
+            "ja-JP": "200 ゴールド",
+            "ko-KR": "200 Gold",
+            "pl-PL": "200 Gold",
+            "pt-BR": "200 Gold",
+            "ru-RU": "200 Gold",
+            "th-TH": "200 Gold",
+            "tr-TR": "200 Gold",
+            "uk-UA": "200 Gold",
+            "vi-VN": "200 Gold",
+            "zh-Hans": "200 Gold",
+            "zh-Hant": "200 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "300 ゴールド",
-            "en": "300 Gold"
+            "de-DE": "300 Gold",
+            "en-US": "300 Gold",
+            "es-ES": "300 Gold",
+            "fr-FR": "300 Gold",
+            "id-ID": "300 Gold",
+            "ja-JP": "300 ゴールド",
+            "ko-KR": "300 Gold",
+            "pl-PL": "300 Gold",
+            "pt-BR": "300 Gold",
+            "ru-RU": "300 Gold",
+            "th-TH": "300 Gold",
+            "tr-TR": "300 Gold",
+            "uk-UA": "300 Gold",
+            "vi-VN": "300 Gold",
+            "zh-Hans": "300 Gold",
+            "zh-Hant": "300 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "500 ゴールド",
-            "en": "500 Gold"
+            "de-DE": "500 Gold",
+            "en-US": "500 Gold",
+            "es-ES": "500 Gold",
+            "fr-FR": "500 Gold",
+            "id-ID": "500 Gold",
+            "ja-JP": "500 ゴールド",
+            "ko-KR": "500 Gold",
+            "pl-PL": "500 Gold",
+            "pt-BR": "500 Gold",
+            "ru-RU": "500 Gold",
+            "th-TH": "500 Gold",
+            "tr-TR": "500 Gold",
+            "uk-UA": "500 Gold",
+            "vi-VN": "500 Gold",
+            "zh-Hans": "500 Gold",
+            "zh-Hant": "500 Gold"
           }
         ]
       ]

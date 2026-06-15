@@ -3,12 +3,40 @@
   "entityId": "1004",
   "slug": "1004-blue-golem",
   "title": {
-    "ja": "ブルー\nゴーレム",
-    "en": "Blue Golem"
+    "de-DE": "Blauer Golem",
+    "en-US": "Blue Golem",
+    "es-ES": "Gólem Azul",
+    "fr-FR": "Golem Bleu",
+    "id-ID": "Golem Biru",
+    "ja-JP": "ブルー\nゴーレム",
+    "ko-KR": "파란 골렘",
+    "pl-PL": "Niebieski Golem",
+    "pt-BR": "Golem Azul",
+    "ru-RU": "Синий голем",
+    "th-TH": "โกเล็มสีน้ำเงิน",
+    "tr-TR": "Mavi Golem",
+    "uk-UA": "Синій голем",
+    "vi-VN": "Golem Lam",
+    "zh-Hans": "蓝色魔像",
+    "zh-Hant": "藍色魔像"
   },
   "subtitle": {
-    "ja": "KillMonster 地獄のゴーレム",
-    "en": "KillMonster Hell Golem"
+    "de-DE": "KillMonster Hell Golem",
+    "en-US": "KillMonster Hell Golem",
+    "es-ES": "KillMonster Hell Golem",
+    "fr-FR": "KillMonster Hell Golem",
+    "id-ID": "KillMonster Hell Golem",
+    "ja-JP": "KillMonster 地獄のゴーレム",
+    "ko-KR": "KillMonster Hell Golem",
+    "pl-PL": "KillMonster Hell Golem",
+    "pt-BR": "KillMonster Hell Golem",
+    "ru-RU": "KillMonster Hell Golem",
+    "th-TH": "KillMonster Hell Golem",
+    "tr-TR": "KillMonster Hell Golem",
+    "uk-UA": "KillMonster Hell Golem",
+    "vi-VN": "KillMonster Hell Golem",
+    "zh-Hans": "KillMonster Hell Golem",
+    "zh-Hant": "KillMonster Hell Golem"
   },
   "icon": "/generated/assets/game/ui/BG_Pet.png",
   "rarity": "RARE",
@@ -31,8 +59,22 @@
     {
       "labelKey": "field.name",
       "value": {
-        "ja": "地獄のゴーレム",
-        "en": "Hell Golem"
+        "de-DE": "Höllengolem",
+        "en-US": "Hell Golem",
+        "es-ES": "Gólem del Infierno",
+        "fr-FR": "Golem des Enfers",
+        "id-ID": "Golem Neraka",
+        "ja-JP": "地獄のゴーレム",
+        "ko-KR": "지옥의 골렘",
+        "pl-PL": "Golem Piekieł",
+        "pt-BR": "Golem do Inferno",
+        "ru-RU": "Голем ада",
+        "th-TH": "โกเลมนรก",
+        "tr-TR": "Cehennem Golemi",
+        "uk-UA": "Голем пекла",
+        "vi-VN": "Golem Địa Ngục",
+        "zh-Hans": "地狱魔像",
+        "zh-Hant": "地獄魔像"
       }
     }
   ],
@@ -87,8 +129,22 @@
       "rows": [
         [
           {
-            "ja": "ノーマル 3-6",
-            "en": "Normal 3-6"
+            "de-DE": "Normal 3-6",
+            "en-US": "Normal 3-6",
+            "es-ES": "Normal 3-6",
+            "fr-FR": "Normal 3-6",
+            "id-ID": "Normal 3-6",
+            "ja-JP": "ノーマル 3-6",
+            "ko-KR": "Normal 3-6",
+            "pl-PL": "Normal 3-6",
+            "pt-BR": "Normal 3-6",
+            "ru-RU": "Normal 3-6",
+            "th-TH": "Normal 3-6",
+            "tr-TR": "Normal 3-6",
+            "uk-UA": "Normal 3-6",
+            "vi-VN": "Normal 3-6",
+            "zh-Hans": "Normal 3-6",
+            "zh-Hant": "Normal 3-6"
           },
           "33.33%",
           28,
@@ -96,8 +152,22 @@
         ],
         [
           {
-            "ja": "ヘル 3-6",
-            "en": "Hell 3-6"
+            "de-DE": "Hell 3-6",
+            "en-US": "Hell 3-6",
+            "es-ES": "Hell 3-6",
+            "fr-FR": "Hell 3-6",
+            "id-ID": "Hell 3-6",
+            "ja-JP": "ヘル 3-6",
+            "ko-KR": "Hell 3-6",
+            "pl-PL": "Hell 3-6",
+            "pt-BR": "Hell 3-6",
+            "ru-RU": "Hell 3-6",
+            "th-TH": "Hell 3-6",
+            "tr-TR": "Hell 3-6",
+            "uk-UA": "Hell 3-6",
+            "vi-VN": "Hell 3-6",
+            "zh-Hans": "Hell 3-6",
+            "zh-Hant": "Hell 3-6"
           },
           "28.57%",
           75,
@@ -105,8 +175,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 3-6",
-            "en": "Nightmare 3-6"
+            "de-DE": "Nightmare 3-6",
+            "en-US": "Nightmare 3-6",
+            "es-ES": "Nightmare 3-6",
+            "fr-FR": "Nightmare 3-6",
+            "id-ID": "Nightmare 3-6",
+            "ja-JP": "ナイトメア 3-6",
+            "ko-KR": "Nightmare 3-6",
+            "pl-PL": "Nightmare 3-6",
+            "pt-BR": "Nightmare 3-6",
+            "ru-RU": "Nightmare 3-6",
+            "th-TH": "Nightmare 3-6",
+            "tr-TR": "Nightmare 3-6",
+            "uk-UA": "Nightmare 3-6",
+            "vi-VN": "Nightmare 3-6",
+            "zh-Hans": "Nightmare 3-6",
+            "zh-Hant": "Nightmare 3-6"
           },
           "26.32%",
           50,
@@ -114,8 +198,22 @@
         ],
         [
           {
-            "ja": "トーメント 3-6",
-            "en": "Torment 3-6"
+            "de-DE": "Torment 3-6",
+            "en-US": "Torment 3-6",
+            "es-ES": "Torment 3-6",
+            "fr-FR": "Torment 3-6",
+            "id-ID": "Torment 3-6",
+            "ja-JP": "トーメント 3-6",
+            "ko-KR": "Torment 3-6",
+            "pl-PL": "Torment 3-6",
+            "pt-BR": "Torment 3-6",
+            "ru-RU": "Torment 3-6",
+            "th-TH": "Torment 3-6",
+            "tr-TR": "Torment 3-6",
+            "uk-UA": "Torment 3-6",
+            "vi-VN": "Torment 3-6",
+            "zh-Hans": "Torment 3-6",
+            "zh-Hant": "Torment 3-6"
           },
           "22.22%",
           93,

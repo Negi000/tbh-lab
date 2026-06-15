@@ -3,12 +3,40 @@
   "entityId": "40501",
   "slug": "40501-blessing-of-warding",
   "title": {
-    "ja": "守護の祝福",
-    "en": "Blessing of Warding"
+    "de-DE": "Schutzsegen",
+    "en-US": "Blessing of Warding",
+    "es-ES": "Bendición de Guardia",
+    "fr-FR": "Bénédiction de Protection",
+    "id-ID": "Berkah Perlindungan",
+    "ja-JP": "守護の祝福",
+    "ko-KR": "방어의 축복",
+    "pl-PL": "Błogosławieństwo Ochrony",
+    "pt-BR": "Bênção de Proteção",
+    "ru-RU": "Благословение Защиты",
+    "th-TH": "พรแห่งการปกป้อง",
+    "tr-TR": "Koruma Kutsanması",
+    "uk-UA": "Благословення Захисту",
+    "vi-VN": "Phước Lành Phòng Hộ",
+    "zh-Hans": "守护祝福",
+    "zh-Hant": "守護祝福"
   },
   "subtitle": {
-    "en": "Skill / Continuous",
-    "ja": "スキル / 継続"
+    "de-DE": "Skill / Continuous",
+    "en-US": "Skill / Continuous",
+    "es-ES": "Skill / Continuous",
+    "fr-FR": "Skill / Continuous",
+    "id-ID": "Skill / Continuous",
+    "ja-JP": "スキル / 継続",
+    "ko-KR": "Skill / Continuous",
+    "pl-PL": "Skill / Continuous",
+    "pt-BR": "Skill / Continuous",
+    "ru-RU": "Skill / Continuous",
+    "th-TH": "Skill / Continuous",
+    "tr-TR": "Skill / Continuous",
+    "uk-UA": "Skill / Continuous",
+    "vi-VN": "Skill / Continuous",
+    "zh-Hans": "Skill / Continuous",
+    "zh-Hant": "Skill / Continuous"
   },
   "icon": "/generated/assets/game/skills/Skill_40501.png",
   "rarity": "LEGENDARY",
@@ -25,15 +53,43 @@
     {
       "labelKey": "filter.slot",
       "value": {
-        "ja": "スキル",
-        "en": "Skill"
+        "de-DE": "Skill",
+        "en-US": "Skill",
+        "es-ES": "Skill",
+        "fr-FR": "Skill",
+        "id-ID": "Skill",
+        "ja-JP": "スキル",
+        "ko-KR": "Skill",
+        "pl-PL": "Skill",
+        "pt-BR": "Skill",
+        "ru-RU": "Skill",
+        "th-TH": "Skill",
+        "tr-TR": "Skill",
+        "uk-UA": "Skill",
+        "vi-VN": "Skill",
+        "zh-Hans": "Skill",
+        "zh-Hant": "Skill"
       }
     },
     {
       "labelKey": "field.activation",
       "value": {
-        "ja": "継続",
-        "en": "Continuous"
+        "de-DE": "Continuous",
+        "en-US": "Continuous",
+        "es-ES": "Continuous",
+        "fr-FR": "Continuous",
+        "id-ID": "Continuous",
+        "ja-JP": "継続",
+        "ko-KR": "Continuous",
+        "pl-PL": "Continuous",
+        "pt-BR": "Continuous",
+        "ru-RU": "Continuous",
+        "th-TH": "Continuous",
+        "tr-TR": "Continuous",
+        "uk-UA": "Continuous",
+        "vi-VN": "Continuous",
+        "zh-Hans": "Continuous",
+        "zh-Hant": "Continuous"
       }
     },
     {

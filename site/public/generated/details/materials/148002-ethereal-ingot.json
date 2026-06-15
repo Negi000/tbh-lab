@@ -3,12 +3,40 @@
   "entityId": "148002",
   "slug": "148002-ethereal-ingot",
   "title": {
-    "ja": "エーテルインゴット",
-    "en": "Ethereal Ingot"
+    "de-DE": "Ethereal Ingot",
+    "en-US": "Ethereal Ingot",
+    "es-ES": "Ethereal Ingot",
+    "fr-FR": "Ethereal Ingot",
+    "id-ID": "Ethereal Ingot",
+    "ja-JP": "エーテルインゴット",
+    "ko-KR": "Ethereal Ingot",
+    "pl-PL": "Ethereal Ingot",
+    "pt-BR": "Ethereal Ingot",
+    "ru-RU": "Ethereal Ingot",
+    "th-TH": "Ethereal Ingot",
+    "tr-TR": "Ethereal Ingot",
+    "uk-UA": "Ethereal Ingot",
+    "vi-VN": "Ethereal Ingot",
+    "zh-Hans": "Ethereal Ingot",
+    "zh-Hant": "Ethereal Ingot"
   },
   "subtitle": {
-    "en": "Divine / Crafting material",
-    "ja": "ディバイン / クラフト素材"
+    "de-DE": "Göttlich / Crafting material",
+    "en-US": "Divine / Crafting material",
+    "es-ES": "Divino / Crafting material",
+    "fr-FR": "Divin / Crafting material",
+    "id-ID": "Ilahi / Crafting material",
+    "ja-JP": "ディバイン / クラフト素材",
+    "ko-KR": "신성 / Crafting material",
+    "pl-PL": "Boski / Crafting material",
+    "pt-BR": "Divino / Crafting material",
+    "ru-RU": "Божественный / Crafting material",
+    "th-TH": "ศักดิ์สิทธิ์ / Crafting material",
+    "tr-TR": "İlahi / Crafting material",
+    "uk-UA": "Божественний / Crafting material",
+    "vi-VN": "Thần thánh / Crafting material",
+    "zh-Hans": "神圣 / Crafting material",
+    "zh-Hant": "神聖 / Crafting material"
   },
   "icon": "/generated/assets/game/item/Materials/Item_148002.png",
   "rarity": "DIVINE",
@@ -60,13 +88,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3130008",
-            "en": "DropKey 3130008"
+            "de-DE": "DropKey 3130008",
+            "en-US": "DropKey 3130008",
+            "es-ES": "DropKey 3130008",
+            "fr-FR": "DropKey 3130008",
+            "id-ID": "DropKey 3130008",
+            "ja-JP": "DropKey 3130008",
+            "ko-KR": "DropKey 3130008",
+            "pl-PL": "DropKey 3130008",
+            "pt-BR": "DropKey 3130008",
+            "ru-RU": "DropKey 3130008",
+            "th-TH": "DropKey 3130008",
+            "tr-TR": "DropKey 3130008",
+            "uk-UA": "DropKey 3130008",
+            "vi-VN": "DropKey 3130008",
+            "zh-Hans": "DropKey 3130008",
+            "zh-Hant": "DropKey 3130008"
           },
           "40%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

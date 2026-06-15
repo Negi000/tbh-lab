@@ -3,12 +3,40 @@
   "entityId": "passive-501021",
   "slug": "passive-501021-fire-damage-enhancement",
   "title": {
-    "ja": "火炎ダメージ強化",
-    "en": "Fire Damage Enhancement"
+    "de-DE": "Feuerschaden-Verstärkung",
+    "en-US": "Fire Damage Enhancement",
+    "es-ES": "Mejora de Daño de Fuego",
+    "fr-FR": "Amélioration de Dégâts de Feu",
+    "id-ID": "Peningkatan Kerusakan Api",
+    "ja-JP": "火炎ダメージ強化",
+    "ko-KR": "화염 피해 강화",
+    "pl-PL": "Wzmocnienie Obr. Ogniem",
+    "pt-BR": "Aprimoramento de Dano de Fogo",
+    "ru-RU": "Усиление Урон огнём",
+    "th-TH": "เสริมความเสียหายไฟ",
+    "tr-TR": "Geliştirme Ateş Hasarı",
+    "uk-UA": "Посилення Шкода вогнем",
+    "vi-VN": "Tăng cường Sát thương lửa",
+    "zh-Hans": "火焰伤害强化",
+    "zh-Hant": "火焰傷害強化"
   },
   "subtitle": {
-    "ja": "火炎ダメージ +150%",
-    "en": "Fire Damage +150%"
+    "de-DE": "Feuerschaden +150%",
+    "en-US": "Fire Damage +150%",
+    "es-ES": "Daño de Fuego +150%",
+    "fr-FR": "Dégâts de Feu +150%",
+    "id-ID": "Damage Api +150%",
+    "ja-JP": "火炎ダメージ +150%",
+    "ko-KR": "화염 피해 +150%",
+    "pl-PL": "Obr. Ogniem +150%",
+    "pt-BR": "Dano de Fogo +150%",
+    "ru-RU": "Урон огнём +150%",
+    "th-TH": "ดาเมจไฟ +150%",
+    "tr-TR": "Ateş Hasarı +150%",
+    "uk-UA": "Шкода вогнем +150%",
+    "vi-VN": "Sát Thương Lửa +150%",
+    "zh-Hans": "火焰伤害 +150%",
+    "zh-Hant": "火焰傷害 +150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "火炎ダメージ強化",
-        "en": "Fire Damage Enhancement"
+        "de-DE": "Feuerschaden-Verstärkung",
+        "en-US": "Fire Damage Enhancement",
+        "es-ES": "Mejora de Daño de Fuego",
+        "fr-FR": "Amélioration de Dégâts de Feu",
+        "id-ID": "Peningkatan Kerusakan Api",
+        "ja-JP": "火炎ダメージ強化",
+        "ko-KR": "화염 피해 강화",
+        "pl-PL": "Wzmocnienie Obr. Ogniem",
+        "pt-BR": "Aprimoramento de Dano de Fogo",
+        "ru-RU": "Усиление Урон огнём",
+        "th-TH": "เสริมความเสียหายไฟ",
+        "tr-TR": "Geliştirme Ateş Hasarı",
+        "uk-UA": "Посилення Шкода вогнем",
+        "vi-VN": "Tăng cường Sát thương lửa",
+        "zh-Hans": "火焰伤害强化",
+        "zh-Hant": "火焰傷害強化"
       }
     },
     {

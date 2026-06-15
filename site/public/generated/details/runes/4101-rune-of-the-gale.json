@@ -3,12 +3,40 @@
   "entityId": "4101",
   "slug": "4101-rune-of-the-gale",
   "title": {
-    "ja": "疾風のルーン",
-    "en": "Rune of the Gale"
+    "de-DE": "Sturmrune",
+    "en-US": "Rune of the Gale",
+    "es-ES": "Runa del Vendaval",
+    "fr-FR": "Rune de Rafale",
+    "id-ID": "Rune Angin Puyuh",
+    "ja-JP": "疾風のルーン",
+    "ko-KR": "질풍의 룬",
+    "pl-PL": "Runa Wichru",
+    "pt-BR": "Runa da Tempestade",
+    "ru-RU": "Руна шквала",
+    "th-TH": "รูนพายุ",
+    "tr-TR": "Bora Runu",
+    "uk-UA": "Руна шквалу",
+    "vi-VN": "Rune Cuồng Phong",
+    "zh-Hans": "疾风符文",
+    "zh-Hant": "疾風符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AllHeroMoveSpeed.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "全ヒーロー移動速度",
-        "en": "All Hero Movement Speed"
+        "de-DE": "Bewegungsgeschw. aller Helden",
+        "en-US": "All Hero Movement Speed",
+        "es-ES": "Vel. de mov. de todos los Héroes",
+        "fr-FR": "Vit. de mvt de tous les Héros",
+        "id-ID": "Kec. Gerak Semua Hero",
+        "ja-JP": "全ヒーロー移動速度",
+        "ko-KR": "전체 히어로 이동속도",
+        "pl-PL": "Szybk. ruchu wszystkich Bohaterów",
+        "pt-BR": "Vel. de mov. de todos os Heróis",
+        "ru-RU": "Скор. передв. всех героев",
+        "th-TH": "ความเร็วเดินฮีโร่ทั้งหมด",
+        "tr-TR": "Tüm Kahramanların Hareket Hızı",
+        "uk-UA": "Швид. передв. всіх героїв",
+        "vi-VN": "Tốc Di Chuyển Tất Cả Hero",
+        "zh-Hans": "全英雄移动速度",
+        "zh-Hant": "全英雄移動速度"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "全ヒーロー移動速度20%増加",
-            "en": "20% Increased All Hero Movement Speed"
+            "de-DE": "20% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "20% Increased All Hero Movement Speed",
+            "es-ES": "20% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 20%",
+            "id-ID": "20% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度20%増加",
+            "ko-KR": "전체 히어로 이동속도 20% 증가",
+            "pl-PL": "20% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "20% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+20% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 20%",
+            "tr-TR": "%20 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+20% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 20% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高20%",
+            "zh-Hant": "全英雄移動速度提高20%"
           },
           {
-            "ja": "1000000 ゴールド",
-            "en": "1000000 Gold"
+            "de-DE": "1000000 Gold",
+            "en-US": "1000000 Gold",
+            "es-ES": "1000000 Gold",
+            "fr-FR": "1000000 Gold",
+            "id-ID": "1000000 Gold",
+            "ja-JP": "1000000 ゴールド",
+            "ko-KR": "1000000 Gold",
+            "pl-PL": "1000000 Gold",
+            "pt-BR": "1000000 Gold",
+            "ru-RU": "1000000 Gold",
+            "th-TH": "1000000 Gold",
+            "tr-TR": "1000000 Gold",
+            "uk-UA": "1000000 Gold",
+            "vi-VN": "1000000 Gold",
+            "zh-Hans": "1000000 Gold",
+            "zh-Hant": "1000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "全ヒーロー移動速度20%増加",
-            "en": "20% Increased All Hero Movement Speed"
+            "de-DE": "20% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "20% Increased All Hero Movement Speed",
+            "es-ES": "20% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 20%",
+            "id-ID": "20% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度20%増加",
+            "ko-KR": "전체 히어로 이동속도 20% 증가",
+            "pl-PL": "20% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "20% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+20% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 20%",
+            "tr-TR": "%20 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+20% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 20% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高20%",
+            "zh-Hant": "全英雄移動速度提高20%"
           },
           {
-            "ja": "1100000 ゴールド",
-            "en": "1100000 Gold"
+            "de-DE": "1100000 Gold",
+            "en-US": "1100000 Gold",
+            "es-ES": "1100000 Gold",
+            "fr-FR": "1100000 Gold",
+            "id-ID": "1100000 Gold",
+            "ja-JP": "1100000 ゴールド",
+            "ko-KR": "1100000 Gold",
+            "pl-PL": "1100000 Gold",
+            "pt-BR": "1100000 Gold",
+            "ru-RU": "1100000 Gold",
+            "th-TH": "1100000 Gold",
+            "tr-TR": "1100000 Gold",
+            "uk-UA": "1100000 Gold",
+            "vi-VN": "1100000 Gold",
+            "zh-Hans": "1100000 Gold",
+            "zh-Hant": "1100000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "全ヒーロー移動速度20%増加",
-            "en": "20% Increased All Hero Movement Speed"
+            "de-DE": "20% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "20% Increased All Hero Movement Speed",
+            "es-ES": "20% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 20%",
+            "id-ID": "20% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度20%増加",
+            "ko-KR": "전체 히어로 이동속도 20% 증가",
+            "pl-PL": "20% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "20% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+20% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 20%",
+            "tr-TR": "%20 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+20% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 20% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高20%",
+            "zh-Hant": "全英雄移動速度提高20%"
           },
           {
-            "ja": "1200000 ゴールド",
-            "en": "1200000 Gold"
+            "de-DE": "1200000 Gold",
+            "en-US": "1200000 Gold",
+            "es-ES": "1200000 Gold",
+            "fr-FR": "1200000 Gold",
+            "id-ID": "1200000 Gold",
+            "ja-JP": "1200000 ゴールド",
+            "ko-KR": "1200000 Gold",
+            "pl-PL": "1200000 Gold",
+            "pt-BR": "1200000 Gold",
+            "ru-RU": "1200000 Gold",
+            "th-TH": "1200000 Gold",
+            "tr-TR": "1200000 Gold",
+            "uk-UA": "1200000 Gold",
+            "vi-VN": "1200000 Gold",
+            "zh-Hans": "1200000 Gold",
+            "zh-Hant": "1200000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "全ヒーロー移動速度20%増加",
-            "en": "20% Increased All Hero Movement Speed"
+            "de-DE": "20% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "20% Increased All Hero Movement Speed",
+            "es-ES": "20% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 20%",
+            "id-ID": "20% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度20%増加",
+            "ko-KR": "전체 히어로 이동속도 20% 증가",
+            "pl-PL": "20% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "20% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+20% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 20%",
+            "tr-TR": "%20 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+20% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 20% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高20%",
+            "zh-Hant": "全英雄移動速度提高20%"
           },
           {
-            "ja": "1300000 ゴールド",
-            "en": "1300000 Gold"
+            "de-DE": "1300000 Gold",
+            "en-US": "1300000 Gold",
+            "es-ES": "1300000 Gold",
+            "fr-FR": "1300000 Gold",
+            "id-ID": "1300000 Gold",
+            "ja-JP": "1300000 ゴールド",
+            "ko-KR": "1300000 Gold",
+            "pl-PL": "1300000 Gold",
+            "pt-BR": "1300000 Gold",
+            "ru-RU": "1300000 Gold",
+            "th-TH": "1300000 Gold",
+            "tr-TR": "1300000 Gold",
+            "uk-UA": "1300000 Gold",
+            "vi-VN": "1300000 Gold",
+            "zh-Hans": "1300000 Gold",
+            "zh-Hant": "1300000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "全ヒーロー移動速度20%増加",
-            "en": "20% Increased All Hero Movement Speed"
+            "de-DE": "20% Erhöhter Bewegungsgeschw. aller Helden",
+            "en-US": "20% Increased All Hero Movement Speed",
+            "es-ES": "20% Aumento de Vel. de mov. de todos los Héroes",
+            "fr-FR": "Vit. de mvt de tous les Héros augmenté de 20%",
+            "id-ID": "20% Peningkatan Kec. Gerak Semua Hero",
+            "ja-JP": "全ヒーロー移動速度20%増加",
+            "ko-KR": "전체 히어로 이동속도 20% 증가",
+            "pl-PL": "20% Zwiększony Szybk. ruchu wszystkich Bohaterów",
+            "pt-BR": "20% Aumento de Vel. de mov. de todos os Heróis",
+            "ru-RU": "+20% к Скор. передв. всех героев",
+            "th-TH": "ความเร็วเดินฮีโร่ทั้งหมดเพิ่ม 20%",
+            "tr-TR": "%20 Artan Tüm Kahramanların Hareket Hızı",
+            "uk-UA": "+20% до Швид. передв. всіх героїв",
+            "vi-VN": "Tăng 20% Tốc Di Chuyển Tất Cả Hero",
+            "zh-Hans": "全英雄移动速度提高20%",
+            "zh-Hant": "全英雄移動速度提高20%"
           },
           {
-            "ja": "1400000 ゴールド",
-            "en": "1400000 Gold"
+            "de-DE": "1400000 Gold",
+            "en-US": "1400000 Gold",
+            "es-ES": "1400000 Gold",
+            "fr-FR": "1400000 Gold",
+            "id-ID": "1400000 Gold",
+            "ja-JP": "1400000 ゴールド",
+            "ko-KR": "1400000 Gold",
+            "pl-PL": "1400000 Gold",
+            "pt-BR": "1400000 Gold",
+            "ru-RU": "1400000 Gold",
+            "th-TH": "1400000 Gold",
+            "tr-TR": "1400000 Gold",
+            "uk-UA": "1400000 Gold",
+            "vi-VN": "1400000 Gold",
+            "zh-Hans": "1400000 Gold",
+            "zh-Hant": "1400000 Gold"
           }
         ]
       ]

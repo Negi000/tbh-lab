@@ -3,12 +3,40 @@
   "entityId": "418111",
   "slug": "418111-fate-arrow",
   "title": {
-    "ja": "フェイトアロー",
-    "en": "Fate Arrow"
+    "de-DE": "Fate Arrow",
+    "en-US": "Fate Arrow",
+    "es-ES": "Fate Arrow",
+    "fr-FR": "Fate Arrow",
+    "id-ID": "Fate Arrow",
+    "ja-JP": "フェイトアロー",
+    "ko-KR": "Fate Arrow",
+    "pl-PL": "Fate Arrow",
+    "pt-BR": "Fate Arrow",
+    "ru-RU": "Fate Arrow",
+    "th-TH": "Fate Arrow",
+    "tr-TR": "Fate Arrow",
+    "uk-UA": "Fate Arrow",
+    "vi-VN": "Fate Arrow",
+    "zh-Hans": "Fate Arrow",
+    "zh-Hant": "Fate Arrow"
   },
   "subtitle": {
-    "en": "Divine / Arrow / Sub Weapon / Lv. 50",
-    "ja": "ディバイン / 矢 / サブ武器 / Lv. 50"
+    "de-DE": "Göttlich / Pfeil / Nebenwaffe / Lv. 50",
+    "en-US": "Divine / Arrow / Sub Weapon / Lv. 50",
+    "es-ES": "Divino / Flecha / Arma secundaria / Lv. 50",
+    "fr-FR": "Divin / Flèche / Arme secondaire / Lv. 50",
+    "id-ID": "Ilahi / Panah / Senjata Pendamping / Lv. 50",
+    "ja-JP": "ディバイン / 矢 / サブ武器 / Lv. 50",
+    "ko-KR": "신성 / 화살 / 보조무기 / Lv. 50",
+    "pl-PL": "Boski / Strzała / Broń dodatkowa / Lv. 50",
+    "pt-BR": "Divino / Flecha / Arma Secundária / Lv. 50",
+    "ru-RU": "Божественный / Стрела / Доп. оружие / Lv. 50",
+    "th-TH": "ศักดิ์สิทธิ์ / ลูกศร / อาวุธรอง / Lv. 50",
+    "tr-TR": "İlahi / Ok / Yardımcı Silah / Lv. 50",
+    "uk-UA": "Божественний / Стріла / Додаткова зброя / Lv. 50",
+    "vi-VN": "Thần thánh / Mũi tên / Vũ khí phụ / Lv. 50",
+    "zh-Hans": "神圣 / 箭 / 副武器 / Lv. 50",
+    "zh-Hant": "神聖 / 箭 / 副武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/ARROW_410011.png",
   "rarity": "DIVINE",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115118",
-            "en": "DropKey 3115118"
+            "de-DE": "DropKey 3115118",
+            "en-US": "DropKey 3115118",
+            "es-ES": "DropKey 3115118",
+            "fr-FR": "DropKey 3115118",
+            "id-ID": "DropKey 3115118",
+            "ja-JP": "DropKey 3115118",
+            "ko-KR": "DropKey 3115118",
+            "pl-PL": "DropKey 3115118",
+            "pt-BR": "DropKey 3115118",
+            "ru-RU": "DropKey 3115118",
+            "th-TH": "DropKey 3115118",
+            "tr-TR": "DropKey 3115118",
+            "uk-UA": "DropKey 3115118",
+            "vi-VN": "DropKey 3115118",
+            "zh-Hans": "DropKey 3115118",
+            "zh-Hant": "DropKey 3115118"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

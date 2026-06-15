@@ -3,12 +3,40 @@
   "entityId": "2152",
   "slug": "2152-rune-of-wealth",
   "title": {
-    "ja": "富のルーン",
-    "en": "Rune of Wealth"
+    "de-DE": "Reichtumsrune",
+    "en-US": "Rune of Wealth",
+    "es-ES": "Runa de Riqueza",
+    "fr-FR": "Rune de Richesse",
+    "id-ID": "Rune Kekayaan",
+    "ja-JP": "富のルーン",
+    "ko-KR": "재물의 룬",
+    "pl-PL": "Runa Bogactwa",
+    "pt-BR": "Runa da Riqueza",
+    "ru-RU": "Руна богатства",
+    "th-TH": "รูนทรัพย์",
+    "tr-TR": "Servet Runu",
+    "uk-UA": "Руна багатства",
+    "vi-VN": "Rune Tài Lộc",
+    "zh-Hans": "财富符文",
+    "zh-Hant": "財富符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalGoldActBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "アクトボスゴールド",
-        "en": "Gold From Act Boss"
+        "de-DE": "Gold vom Akt-Boss",
+        "en-US": "Gold From Act Boss",
+        "es-ES": "Oro del jefe de acto",
+        "fr-FR": "Or du boss d'acte",
+        "id-ID": "Emas dari Boss Babak",
+        "ja-JP": "アクトボスゴールド",
+        "ko-KR": "액트 보스 처치 시 골드 획득량",
+        "pl-PL": "Złoto od bossa aktu",
+        "pt-BR": "Ouro do chefe de ato",
+        "ru-RU": "Золото с босса акта",
+        "th-TH": "ทองจากบอส Act",
+        "tr-TR": "Bölüm Bossundan Altın",
+        "uk-UA": "Золото з боса акту",
+        "vi-VN": "Vàng từ Boss Hồi",
+        "zh-Hans": "幕首领金币",
+        "zh-Hant": "幕首領金幣"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "アクトボスゴールド +50000",
-            "en": "Gold From Act Boss Kill +50000"
+            "de-DE": "Gold vom Akt-Boss +50000",
+            "en-US": "Gold From Act Boss Kill +50000",
+            "es-ES": "Oro del jefe de acto +50000",
+            "fr-FR": "Or du boss d'acte +50000",
+            "id-ID": "Emas dari Boss Babak +50000",
+            "ja-JP": "アクトボスゴールド +50000",
+            "ko-KR": "액트 보스 처치 시 골드 획득량 +50000",
+            "pl-PL": "Złoto od bossa aktu +50000",
+            "pt-BR": "Ouro do chefe de ato +50000",
+            "ru-RU": "Золото с босса акта +50000",
+            "th-TH": "ทองจากบอส Act +50000",
+            "tr-TR": "Bölüm Bossundan Altın +50000",
+            "uk-UA": "Золото з боса акту +50000",
+            "vi-VN": "Vàng từ Boss Hồi +50000",
+            "zh-Hans": "幕首领金币 +50000",
+            "zh-Hant": "幕首領金幣 +50000"
           },
           {
-            "ja": "30000000 ゴールド",
-            "en": "30000000 Gold"
+            "de-DE": "30000000 Gold",
+            "en-US": "30000000 Gold",
+            "es-ES": "30000000 Gold",
+            "fr-FR": "30000000 Gold",
+            "id-ID": "30000000 Gold",
+            "ja-JP": "30000000 ゴールド",
+            "ko-KR": "30000000 Gold",
+            "pl-PL": "30000000 Gold",
+            "pt-BR": "30000000 Gold",
+            "ru-RU": "30000000 Gold",
+            "th-TH": "30000000 Gold",
+            "tr-TR": "30000000 Gold",
+            "uk-UA": "30000000 Gold",
+            "vi-VN": "30000000 Gold",
+            "zh-Hans": "30000000 Gold",
+            "zh-Hant": "30000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "アクトボスゴールド +50000",
-            "en": "Gold From Act Boss Kill +50000"
+            "de-DE": "Gold vom Akt-Boss +50000",
+            "en-US": "Gold From Act Boss Kill +50000",
+            "es-ES": "Oro del jefe de acto +50000",
+            "fr-FR": "Or du boss d'acte +50000",
+            "id-ID": "Emas dari Boss Babak +50000",
+            "ja-JP": "アクトボスゴールド +50000",
+            "ko-KR": "액트 보스 처치 시 골드 획득량 +50000",
+            "pl-PL": "Złoto od bossa aktu +50000",
+            "pt-BR": "Ouro do chefe de ato +50000",
+            "ru-RU": "Золото с босса акта +50000",
+            "th-TH": "ทองจากบอส Act +50000",
+            "tr-TR": "Bölüm Bossundan Altın +50000",
+            "uk-UA": "Золото з боса акту +50000",
+            "vi-VN": "Vàng từ Boss Hồi +50000",
+            "zh-Hans": "幕首领金币 +50000",
+            "zh-Hant": "幕首領金幣 +50000"
           },
           {
-            "ja": "40000000 ゴールド",
-            "en": "40000000 Gold"
+            "de-DE": "40000000 Gold",
+            "en-US": "40000000 Gold",
+            "es-ES": "40000000 Gold",
+            "fr-FR": "40000000 Gold",
+            "id-ID": "40000000 Gold",
+            "ja-JP": "40000000 ゴールド",
+            "ko-KR": "40000000 Gold",
+            "pl-PL": "40000000 Gold",
+            "pt-BR": "40000000 Gold",
+            "ru-RU": "40000000 Gold",
+            "th-TH": "40000000 Gold",
+            "tr-TR": "40000000 Gold",
+            "uk-UA": "40000000 Gold",
+            "vi-VN": "40000000 Gold",
+            "zh-Hans": "40000000 Gold",
+            "zh-Hant": "40000000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "アクトボスゴールド +50000",
-            "en": "Gold From Act Boss Kill +50000"
+            "de-DE": "Gold vom Akt-Boss +50000",
+            "en-US": "Gold From Act Boss Kill +50000",
+            "es-ES": "Oro del jefe de acto +50000",
+            "fr-FR": "Or du boss d'acte +50000",
+            "id-ID": "Emas dari Boss Babak +50000",
+            "ja-JP": "アクトボスゴールド +50000",
+            "ko-KR": "액트 보스 처치 시 골드 획득량 +50000",
+            "pl-PL": "Złoto od bossa aktu +50000",
+            "pt-BR": "Ouro do chefe de ato +50000",
+            "ru-RU": "Золото с босса акта +50000",
+            "th-TH": "ทองจากบอส Act +50000",
+            "tr-TR": "Bölüm Bossundan Altın +50000",
+            "uk-UA": "Золото з боса акту +50000",
+            "vi-VN": "Vàng từ Boss Hồi +50000",
+            "zh-Hans": "幕首领金币 +50000",
+            "zh-Hant": "幕首領金幣 +50000"
           },
           {
-            "ja": "50000000 ゴールド",
-            "en": "50000000 Gold"
+            "de-DE": "50000000 Gold",
+            "en-US": "50000000 Gold",
+            "es-ES": "50000000 Gold",
+            "fr-FR": "50000000 Gold",
+            "id-ID": "50000000 Gold",
+            "ja-JP": "50000000 ゴールド",
+            "ko-KR": "50000000 Gold",
+            "pl-PL": "50000000 Gold",
+            "pt-BR": "50000000 Gold",
+            "ru-RU": "50000000 Gold",
+            "th-TH": "50000000 Gold",
+            "tr-TR": "50000000 Gold",
+            "uk-UA": "50000000 Gold",
+            "vi-VN": "50000000 Gold",
+            "zh-Hans": "50000000 Gold",
+            "zh-Hant": "50000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "アクトボスゴールド +50000",
-            "en": "Gold From Act Boss Kill +50000"
+            "de-DE": "Gold vom Akt-Boss +50000",
+            "en-US": "Gold From Act Boss Kill +50000",
+            "es-ES": "Oro del jefe de acto +50000",
+            "fr-FR": "Or du boss d'acte +50000",
+            "id-ID": "Emas dari Boss Babak +50000",
+            "ja-JP": "アクトボスゴールド +50000",
+            "ko-KR": "액트 보스 처치 시 골드 획득량 +50000",
+            "pl-PL": "Złoto od bossa aktu +50000",
+            "pt-BR": "Ouro do chefe de ato +50000",
+            "ru-RU": "Золото с босса акта +50000",
+            "th-TH": "ทองจากบอส Act +50000",
+            "tr-TR": "Bölüm Bossundan Altın +50000",
+            "uk-UA": "Золото з боса акту +50000",
+            "vi-VN": "Vàng từ Boss Hồi +50000",
+            "zh-Hans": "幕首领金币 +50000",
+            "zh-Hant": "幕首領金幣 +50000"
           },
           {
-            "ja": "60000000 ゴールド",
-            "en": "60000000 Gold"
+            "de-DE": "60000000 Gold",
+            "en-US": "60000000 Gold",
+            "es-ES": "60000000 Gold",
+            "fr-FR": "60000000 Gold",
+            "id-ID": "60000000 Gold",
+            "ja-JP": "60000000 ゴールド",
+            "ko-KR": "60000000 Gold",
+            "pl-PL": "60000000 Gold",
+            "pt-BR": "60000000 Gold",
+            "ru-RU": "60000000 Gold",
+            "th-TH": "60000000 Gold",
+            "tr-TR": "60000000 Gold",
+            "uk-UA": "60000000 Gold",
+            "vi-VN": "60000000 Gold",
+            "zh-Hans": "60000000 Gold",
+            "zh-Hant": "60000000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "アクトボスゴールド +50000",
-            "en": "Gold From Act Boss Kill +50000"
+            "de-DE": "Gold vom Akt-Boss +50000",
+            "en-US": "Gold From Act Boss Kill +50000",
+            "es-ES": "Oro del jefe de acto +50000",
+            "fr-FR": "Or du boss d'acte +50000",
+            "id-ID": "Emas dari Boss Babak +50000",
+            "ja-JP": "アクトボスゴールド +50000",
+            "ko-KR": "액트 보스 처치 시 골드 획득량 +50000",
+            "pl-PL": "Złoto od bossa aktu +50000",
+            "pt-BR": "Ouro do chefe de ato +50000",
+            "ru-RU": "Золото с босса акта +50000",
+            "th-TH": "ทองจากบอส Act +50000",
+            "tr-TR": "Bölüm Bossundan Altın +50000",
+            "uk-UA": "Золото з боса акту +50000",
+            "vi-VN": "Vàng từ Boss Hồi +50000",
+            "zh-Hans": "幕首领金币 +50000",
+            "zh-Hant": "幕首領金幣 +50000"
           },
           {
-            "ja": "70000000 ゴールド",
-            "en": "70000000 Gold"
+            "de-DE": "70000000 Gold",
+            "en-US": "70000000 Gold",
+            "es-ES": "70000000 Gold",
+            "fr-FR": "70000000 Gold",
+            "id-ID": "70000000 Gold",
+            "ja-JP": "70000000 ゴールド",
+            "ko-KR": "70000000 Gold",
+            "pl-PL": "70000000 Gold",
+            "pt-BR": "70000000 Gold",
+            "ru-RU": "70000000 Gold",
+            "th-TH": "70000000 Gold",
+            "tr-TR": "70000000 Gold",
+            "uk-UA": "70000000 Gold",
+            "vi-VN": "70000000 Gold",
+            "zh-Hans": "70000000 Gold",
+            "zh-Hant": "70000000 Gold"
           }
         ]
       ]

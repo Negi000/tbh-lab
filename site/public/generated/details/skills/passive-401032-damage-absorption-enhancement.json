@@ -3,12 +3,40 @@
   "entityId": "passive-401032",
   "slug": "passive-401032-damage-absorption-enhancement",
   "title": {
-    "ja": "ダメージ吸収強化",
-    "en": "Damage Absorption Enhancement"
+    "de-DE": "Schadensabsorption-Verstärkung",
+    "en-US": "Damage Absorption Enhancement",
+    "es-ES": "Mejora de Absorción de Daño",
+    "fr-FR": "Amélioration de Absorption de Dégâts",
+    "id-ID": "Peningkatan Penyerapan Kerusakan",
+    "ja-JP": "ダメージ吸収強化",
+    "ko-KR": "데미지 흡수 강화",
+    "pl-PL": "Wzmocnienie Poch. Obrażeń",
+    "pt-BR": "Aprimoramento de Abs. de Dano",
+    "ru-RU": "Усиление Погл. урона",
+    "th-TH": "เสริมดูดซับความเสียหาย",
+    "tr-TR": "Geliştirme Hasar Emme",
+    "uk-UA": "Посилення Погл. шкоди",
+    "vi-VN": "Tăng cường Hấp thụ sát thương",
+    "zh-Hans": "伤害吸收强化",
+    "zh-Hant": "傷害吸收強化"
   },
   "subtitle": {
-    "ja": "ダメージ吸収 +5",
-    "en": "Damage Absorption +5"
+    "de-DE": "Schadensabsorption +5",
+    "en-US": "Damage Absorption +5",
+    "es-ES": "Absorción de Daño +5",
+    "fr-FR": "Absorption de Dégâts +5",
+    "id-ID": "Serapan Damage +5",
+    "ja-JP": "ダメージ吸収 +5",
+    "ko-KR": "데미지 흡수 +5",
+    "pl-PL": "Poch. Obrażeń +5",
+    "pt-BR": "Abs. de Dano +5",
+    "ru-RU": "Погл. урона +5",
+    "th-TH": "ดูดซับดาเมจ +5",
+    "tr-TR": "Hasar Emme +5",
+    "uk-UA": "Погл. шкоди +5",
+    "vi-VN": "Hấp Thụ ST +5",
+    "zh-Hans": "伤害吸收 +5",
+    "zh-Hant": "傷害吸收 +5"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "ダメージ吸収",
-        "en": "Damage Absorption"
+        "de-DE": "Schadensabsorption",
+        "en-US": "Damage Absorption",
+        "es-ES": "Absorción de Daño",
+        "fr-FR": "Absorption de Dégâts",
+        "id-ID": "Penyerapan Kerusakan",
+        "ja-JP": "ダメージ吸収",
+        "ko-KR": "데미지 흡수",
+        "pl-PL": "Absorpcja Obrażeń",
+        "pt-BR": "Absorção de Dano",
+        "ru-RU": "Поглощение урона",
+        "th-TH": "ดูดซับความเสียหาย",
+        "tr-TR": "Hasar Emilimi",
+        "uk-UA": "Поглинання шкоди",
+        "vi-VN": "Hấp thụ sát thương",
+        "zh-Hans": "伤害吸收",
+        "zh-Hant": "傷害吸收"
       }
     },
     {

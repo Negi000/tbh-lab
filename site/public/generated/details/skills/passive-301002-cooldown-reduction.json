@@ -3,12 +3,40 @@
   "entityId": "passive-301002",
   "slug": "passive-301002-cooldown-reduction",
   "title": {
-    "ja": "クールダウン短縮",
-    "en": "Cooldown Reduction"
+    "de-DE": "Abklingzeitverkürzung",
+    "en-US": "Cooldown Reduction",
+    "es-ES": "Reducción de Tiempo de Reutilización",
+    "fr-FR": "Réduction de Temps de Recharge",
+    "id-ID": "Peningkatan Pengurangan Cooldown",
+    "ja-JP": "クールダウン短縮",
+    "ko-KR": "재사용 대기시간 강화",
+    "pl-PL": "Skrócenie Czasu Odnowienia",
+    "pt-BR": "Redução de Recarga",
+    "ru-RU": "Сокращение отката",
+    "th-TH": "เสริมลดเวลาคูลดาวน์",
+    "tr-TR": "Bekleme Süresi Azaltma",
+    "uk-UA": "Зменшення часу відновлення",
+    "vi-VN": "Tăng cường Giảm hồi chiêu",
+    "zh-Hans": "冷却缩减",
+    "zh-Hant": "冷卻縮減"
   },
   "subtitle": {
-    "ja": "クールダウン短縮 +10%",
-    "en": "Cooldown Reduction +10%"
+    "de-DE": "Abklingz. Red. +10%",
+    "en-US": "Cooldown Reduction +10%",
+    "es-ES": "Red. Reutiliz. +10%",
+    "fr-FR": "Réd. Recharge +10%",
+    "id-ID": "Red. Cooldown +10%",
+    "ja-JP": "クールダウン短縮 +10%",
+    "ko-KR": "재사용 대기시간 감소 +10%",
+    "pl-PL": "Red. Odnow. +10%",
+    "pt-BR": "Red. Recarga +10%",
+    "ru-RU": "Сокращ. отката +10%",
+    "th-TH": "ลดคูลดาวน์ +10%",
+    "tr-TR": "Bekleme Azalt. +10%",
+    "uk-UA": "Зменш. відновл. +10%",
+    "vi-VN": "Giảm Hồi Chiêu +10%",
+    "zh-Hans": "冷却缩减 +10%",
+    "zh-Hant": "冷卻縮減 +10%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "クールタイム短縮",
-        "en": "Cooldown Reduction"
+        "de-DE": "Abklingzeitverringerung",
+        "en-US": "Cooldown Reduction",
+        "es-ES": "Reducción de enfriamiento",
+        "fr-FR": "Réduction du temps de recharge",
+        "id-ID": "Pengurangan Cooldown",
+        "ja-JP": "クールタイム短縮",
+        "ko-KR": "재사용 대기시간 감소",
+        "pl-PL": "Skrócenie czasu odnowienia",
+        "pt-BR": "Redução do Tempo de Recarga",
+        "ru-RU": "Сокращение времени перезарядки",
+        "th-TH": "ลดเวลาคูลดาวน์",
+        "tr-TR": "Bekleme Süresi Azaltma",
+        "uk-UA": "Скорочення часу перезарядки",
+        "vi-VN": "Giảm thời gian hồi",
+        "zh-Hans": "冷却缩减",
+        "zh-Hant": "冷卻縮減"
       }
     },
     {

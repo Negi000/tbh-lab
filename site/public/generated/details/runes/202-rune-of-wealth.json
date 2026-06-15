@@ -3,12 +3,40 @@
   "entityId": "202",
   "slug": "202-rune-of-wealth",
   "title": {
-    "ja": "富のルーン",
-    "en": "Rune of Wealth"
+    "de-DE": "Reichtumsrune",
+    "en-US": "Rune of Wealth",
+    "es-ES": "Runa de Riqueza",
+    "fr-FR": "Rune de Richesse",
+    "id-ID": "Rune Kekayaan",
+    "ja-JP": "富のルーン",
+    "ko-KR": "재물의 룬",
+    "pl-PL": "Runa Bogactwa",
+    "pt-BR": "Runa da Riqueza",
+    "ru-RU": "Руна богатства",
+    "th-TH": "รูนทรัพย์",
+    "tr-TR": "Servet Runu",
+    "uk-UA": "Руна багатства",
+    "vi-VN": "Rune Tài Lộc",
+    "zh-Hans": "财富符文",
+    "zh-Hant": "財富符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/IncreaseGoldAmount.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "モンスター討伐ゴールド",
-        "en": "Gold Per Monster Kill"
+        "de-DE": "Gold pro Monsterkill",
+        "en-US": "Gold Per Monster Kill",
+        "es-ES": "Oro por muerte de monstruo",
+        "fr-FR": "Or par kill de monstre",
+        "id-ID": "Emas per Monster Dibunuh",
+        "ja-JP": "モンスター討伐ゴールド",
+        "ko-KR": "몬스터 처치 시 골드 획득량",
+        "pl-PL": "Złoto za zabicie potwora",
+        "pt-BR": "Ouro por abate de monstro",
+        "ru-RU": "Золото за убийство",
+        "th-TH": "ทองต่อการฆ่า",
+        "tr-TR": "Canavar Başı Altın",
+        "uk-UA": "Золото за вбивство",
+        "vi-VN": "Vàng/Giết Quái",
+        "zh-Hans": "击杀怪物金币",
+        "zh-Hant": "擊殺怪物金幣"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "富のルーン",
-            "en": "Rune of Wealth"
+            "de-DE": "Reichtumsrune",
+            "en-US": "Rune of Wealth",
+            "es-ES": "Runa de Riqueza",
+            "fr-FR": "Rune de Richesse",
+            "id-ID": "Rune Kekayaan",
+            "ja-JP": "富のルーン",
+            "ko-KR": "재물의 룬",
+            "pl-PL": "Runa Bogactwa",
+            "pt-BR": "Runa da Riqueza",
+            "ru-RU": "Руна богатства",
+            "th-TH": "รูนทรัพย์",
+            "tr-TR": "Servet Runu",
+            "uk-UA": "Руна багатства",
+            "vi-VN": "Rune Tài Lộc",
+            "zh-Hans": "财富符文",
+            "zh-Hant": "財富符文"
           },
           "-"
         ]
@@ -89,56 +159,196 @@
         [
           1,
           {
-            "ja": "撃破時のゴールド獲得量 +100%",
-            "en": "100% Increased Gold Per Kill"
+            "de-DE": "100% erhöhtes Gold pro Tötung",
+            "en-US": "100% Increased Gold Per Kill",
+            "es-ES": "100% más oro por muerte",
+            "fr-FR": "100% d'or augmenté par élimination",
+            "id-ID": "100% Tambahan Emas per Pembunuhan",
+            "ja-JP": "撃破時のゴールド獲得量 +100%",
+            "ko-KR": "몬스터 처치 시 골드 획득량 100% 증가",
+            "pl-PL": "100% więcej złota za zabójstwo",
+            "pt-BR": "100% de ouro aumentado por abate",
+            "ru-RU": "100% увеличение золота за убийство",
+            "th-TH": "ทองที่ได้ต่อการสังหาร +100%",
+            "tr-TR": "Öldürme başına %100 artırılmış altın",
+            "uk-UA": "100% збільшення золота за вбивство",
+            "vi-VN": "Tăng 100% Vàng nhận mỗi lần tiêu diệt",
+            "zh-Hans": "击杀获得金币 +100%",
+            "zh-Hant": "擊殺獲得金幣 +100%"
           },
           {
-            "ja": "1000 ゴールド",
-            "en": "1000 Gold"
+            "de-DE": "1000 Gold",
+            "en-US": "1000 Gold",
+            "es-ES": "1000 Gold",
+            "fr-FR": "1000 Gold",
+            "id-ID": "1000 Gold",
+            "ja-JP": "1000 ゴールド",
+            "ko-KR": "1000 Gold",
+            "pl-PL": "1000 Gold",
+            "pt-BR": "1000 Gold",
+            "ru-RU": "1000 Gold",
+            "th-TH": "1000 Gold",
+            "tr-TR": "1000 Gold",
+            "uk-UA": "1000 Gold",
+            "vi-VN": "1000 Gold",
+            "zh-Hans": "1000 Gold",
+            "zh-Hant": "1000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "撃破時のゴールド獲得量 +100%",
-            "en": "100% Increased Gold Per Kill"
+            "de-DE": "100% erhöhtes Gold pro Tötung",
+            "en-US": "100% Increased Gold Per Kill",
+            "es-ES": "100% más oro por muerte",
+            "fr-FR": "100% d'or augmenté par élimination",
+            "id-ID": "100% Tambahan Emas per Pembunuhan",
+            "ja-JP": "撃破時のゴールド獲得量 +100%",
+            "ko-KR": "몬스터 처치 시 골드 획득량 100% 증가",
+            "pl-PL": "100% więcej złota za zabójstwo",
+            "pt-BR": "100% de ouro aumentado por abate",
+            "ru-RU": "100% увеличение золота за убийство",
+            "th-TH": "ทองที่ได้ต่อการสังหาร +100%",
+            "tr-TR": "Öldürme başına %100 artırılmış altın",
+            "uk-UA": "100% збільшення золота за вбивство",
+            "vi-VN": "Tăng 100% Vàng nhận mỗi lần tiêu diệt",
+            "zh-Hans": "击杀获得金币 +100%",
+            "zh-Hant": "擊殺獲得金幣 +100%"
           },
           {
-            "ja": "2000 ゴールド",
-            "en": "2000 Gold"
+            "de-DE": "2000 Gold",
+            "en-US": "2000 Gold",
+            "es-ES": "2000 Gold",
+            "fr-FR": "2000 Gold",
+            "id-ID": "2000 Gold",
+            "ja-JP": "2000 ゴールド",
+            "ko-KR": "2000 Gold",
+            "pl-PL": "2000 Gold",
+            "pt-BR": "2000 Gold",
+            "ru-RU": "2000 Gold",
+            "th-TH": "2000 Gold",
+            "tr-TR": "2000 Gold",
+            "uk-UA": "2000 Gold",
+            "vi-VN": "2000 Gold",
+            "zh-Hans": "2000 Gold",
+            "zh-Hant": "2000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "撃破時のゴールド獲得量 +100%",
-            "en": "100% Increased Gold Per Kill"
+            "de-DE": "100% erhöhtes Gold pro Tötung",
+            "en-US": "100% Increased Gold Per Kill",
+            "es-ES": "100% más oro por muerte",
+            "fr-FR": "100% d'or augmenté par élimination",
+            "id-ID": "100% Tambahan Emas per Pembunuhan",
+            "ja-JP": "撃破時のゴールド獲得量 +100%",
+            "ko-KR": "몬스터 처치 시 골드 획득량 100% 증가",
+            "pl-PL": "100% więcej złota za zabójstwo",
+            "pt-BR": "100% de ouro aumentado por abate",
+            "ru-RU": "100% увеличение золота за убийство",
+            "th-TH": "ทองที่ได้ต่อการสังหาร +100%",
+            "tr-TR": "Öldürme başına %100 artırılmış altın",
+            "uk-UA": "100% збільшення золота за вбивство",
+            "vi-VN": "Tăng 100% Vàng nhận mỗi lần tiêu diệt",
+            "zh-Hans": "击杀获得金币 +100%",
+            "zh-Hant": "擊殺獲得金幣 +100%"
           },
           {
-            "ja": "3000 ゴールド",
-            "en": "3000 Gold"
+            "de-DE": "3000 Gold",
+            "en-US": "3000 Gold",
+            "es-ES": "3000 Gold",
+            "fr-FR": "3000 Gold",
+            "id-ID": "3000 Gold",
+            "ja-JP": "3000 ゴールド",
+            "ko-KR": "3000 Gold",
+            "pl-PL": "3000 Gold",
+            "pt-BR": "3000 Gold",
+            "ru-RU": "3000 Gold",
+            "th-TH": "3000 Gold",
+            "tr-TR": "3000 Gold",
+            "uk-UA": "3000 Gold",
+            "vi-VN": "3000 Gold",
+            "zh-Hans": "3000 Gold",
+            "zh-Hant": "3000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "撃破時のゴールド獲得量 +100%",
-            "en": "100% Increased Gold Per Kill"
+            "de-DE": "100% erhöhtes Gold pro Tötung",
+            "en-US": "100% Increased Gold Per Kill",
+            "es-ES": "100% más oro por muerte",
+            "fr-FR": "100% d'or augmenté par élimination",
+            "id-ID": "100% Tambahan Emas per Pembunuhan",
+            "ja-JP": "撃破時のゴールド獲得量 +100%",
+            "ko-KR": "몬스터 처치 시 골드 획득량 100% 증가",
+            "pl-PL": "100% więcej złota za zabójstwo",
+            "pt-BR": "100% de ouro aumentado por abate",
+            "ru-RU": "100% увеличение золота за убийство",
+            "th-TH": "ทองที่ได้ต่อการสังหาร +100%",
+            "tr-TR": "Öldürme başına %100 artırılmış altın",
+            "uk-UA": "100% збільшення золота за вбивство",
+            "vi-VN": "Tăng 100% Vàng nhận mỗi lần tiêu diệt",
+            "zh-Hans": "击杀获得金币 +100%",
+            "zh-Hant": "擊殺獲得金幣 +100%"
           },
           {
-            "ja": "4000 ゴールド",
-            "en": "4000 Gold"
+            "de-DE": "4000 Gold",
+            "en-US": "4000 Gold",
+            "es-ES": "4000 Gold",
+            "fr-FR": "4000 Gold",
+            "id-ID": "4000 Gold",
+            "ja-JP": "4000 ゴールド",
+            "ko-KR": "4000 Gold",
+            "pl-PL": "4000 Gold",
+            "pt-BR": "4000 Gold",
+            "ru-RU": "4000 Gold",
+            "th-TH": "4000 Gold",
+            "tr-TR": "4000 Gold",
+            "uk-UA": "4000 Gold",
+            "vi-VN": "4000 Gold",
+            "zh-Hans": "4000 Gold",
+            "zh-Hant": "4000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "撃破時のゴールド獲得量 +100%",
-            "en": "100% Increased Gold Per Kill"
+            "de-DE": "100% erhöhtes Gold pro Tötung",
+            "en-US": "100% Increased Gold Per Kill",
+            "es-ES": "100% más oro por muerte",
+            "fr-FR": "100% d'or augmenté par élimination",
+            "id-ID": "100% Tambahan Emas per Pembunuhan",
+            "ja-JP": "撃破時のゴールド獲得量 +100%",
+            "ko-KR": "몬스터 처치 시 골드 획득량 100% 증가",
+            "pl-PL": "100% więcej złota za zabójstwo",
+            "pt-BR": "100% de ouro aumentado por abate",
+            "ru-RU": "100% увеличение золота за убийство",
+            "th-TH": "ทองที่ได้ต่อการสังหาร +100%",
+            "tr-TR": "Öldürme başına %100 artırılmış altın",
+            "uk-UA": "100% збільшення золота за вбивство",
+            "vi-VN": "Tăng 100% Vàng nhận mỗi lần tiêu diệt",
+            "zh-Hans": "击杀获得金币 +100%",
+            "zh-Hant": "擊殺獲得金幣 +100%"
           },
           {
-            "ja": "5000 ゴールド",
-            "en": "5000 Gold"
+            "de-DE": "5000 Gold",
+            "en-US": "5000 Gold",
+            "es-ES": "5000 Gold",
+            "fr-FR": "5000 Gold",
+            "id-ID": "5000 Gold",
+            "ja-JP": "5000 ゴールド",
+            "ko-KR": "5000 Gold",
+            "pl-PL": "5000 Gold",
+            "pt-BR": "5000 Gold",
+            "ru-RU": "5000 Gold",
+            "th-TH": "5000 Gold",
+            "tr-TR": "5000 Gold",
+            "uk-UA": "5000 Gold",
+            "vi-VN": "5000 Gold",
+            "zh-Hans": "5000 Gold",
+            "zh-Hant": "5000 Gold"
           }
         ]
       ]

@@ -3,12 +3,40 @@
   "entityId": "passive-601022",
   "slug": "passive-601022-life-leech-enhancement",
   "title": {
-    "ja": "ライフ吸収強化",
-    "en": "Life Leech Enhancement"
+    "de-DE": "Lebensraub-Verstärkung",
+    "en-US": "Life Leech Enhancement",
+    "es-ES": "Mejora de Robo de Vida",
+    "fr-FR": "Amélioration de Vol de Vie",
+    "id-ID": "Peningkatan Penyerapan HP",
+    "ja-JP": "ライフ吸収強化",
+    "ko-KR": "체력 흡수 강화",
+    "pl-PL": "Wzmocnienie Wampiryzm",
+    "pt-BR": "Aprimoramento de Roubo de Vida",
+    "ru-RU": "Усиление Вамп.",
+    "th-TH": "เสริมดูดเลือด",
+    "tr-TR": "Geliştirme Can Çalma",
+    "uk-UA": "Посилення Вамп.",
+    "vi-VN": "Tăng cường Hút máu",
+    "zh-Hans": "生命偷取强化",
+    "zh-Hant": "生命偷取強化"
   },
   "subtitle": {
-    "ja": "ライフ吸収 +5%",
-    "en": "Life Leech +5%"
+    "de-DE": "Lebensraub +5%",
+    "en-US": "Life Leech +5%",
+    "es-ES": "Robo de Vida +5%",
+    "fr-FR": "Vol de Vie +5%",
+    "id-ID": "Life Leech +5%",
+    "ja-JP": "ライフ吸収 +5%",
+    "ko-KR": "체력 흡수 +5%",
+    "pl-PL": "Wampiryzm +5%",
+    "pt-BR": "Roubo de Vida +5%",
+    "ru-RU": "Вампиризм +5%",
+    "th-TH": "ดูดเลือด +5%",
+    "tr-TR": "Can Çalma +5%",
+    "uk-UA": "Вампіризм +5%",
+    "vi-VN": "Hút Máu +5%",
+    "zh-Hans": "生命偷取 +5%",
+    "zh-Hant": "生命偷取 +5%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "ライフ吸収強化",
-        "en": "Life Leech Enhancement"
+        "de-DE": "Lebensraub-Verstärkung",
+        "en-US": "Life Leech Enhancement",
+        "es-ES": "Mejora de Robo de Vida",
+        "fr-FR": "Amélioration de Vol de Vie",
+        "id-ID": "Peningkatan Penyerapan HP",
+        "ja-JP": "ライフ吸収強化",
+        "ko-KR": "체력 흡수 강화",
+        "pl-PL": "Wzmocnienie Wampiryzm",
+        "pt-BR": "Aprimoramento de Roubo de Vida",
+        "ru-RU": "Усиление Вамп.",
+        "th-TH": "เสริมดูดเลือด",
+        "tr-TR": "Geliştirme Can Çalma",
+        "uk-UA": "Посилення Вамп.",
+        "vi-VN": "Tăng cường Hút máu",
+        "zh-Hans": "生命偷取强化",
+        "zh-Hant": "生命偷取強化"
       }
     },
     {

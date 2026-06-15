@@ -3,12 +3,40 @@
   "entityId": "149001",
   "slug": "149001-adamantium-ore",
   "title": {
-    "ja": "アダマンティウム鉱石",
-    "en": "Adamantium Ore"
+    "de-DE": "Adamantium Ore",
+    "en-US": "Adamantium Ore",
+    "es-ES": "Adamantium Ore",
+    "fr-FR": "Adamantium Ore",
+    "id-ID": "Adamantium Ore",
+    "ja-JP": "アダマンティウム鉱石",
+    "ko-KR": "Adamantium Ore",
+    "pl-PL": "Adamantium Ore",
+    "pt-BR": "Adamantium Ore",
+    "ru-RU": "Adamantium Ore",
+    "th-TH": "Adamantium Ore",
+    "tr-TR": "Adamantium Ore",
+    "uk-UA": "Adamantium Ore",
+    "vi-VN": "Adamantium Ore",
+    "zh-Hans": "Adamantium Ore",
+    "zh-Hant": "Adamantium Ore"
   },
   "subtitle": {
-    "en": "Cosmic / Crafting material",
-    "ja": "コズミック / クラフト素材"
+    "de-DE": "Kosmisch / Crafting material",
+    "en-US": "Cosmic / Crafting material",
+    "es-ES": "Cósmico / Crafting material",
+    "fr-FR": "Cosmique / Crafting material",
+    "id-ID": "Kosmik / Crafting material",
+    "ja-JP": "コズミック / クラフト素材",
+    "ko-KR": "우주 / Crafting material",
+    "pl-PL": "Kosmiczny / Crafting material",
+    "pt-BR": "Cósmico / Crafting material",
+    "ru-RU": "Космический / Crafting material",
+    "th-TH": "จักรวาล / Crafting material",
+    "tr-TR": "Kozmik / Crafting material",
+    "uk-UA": "Космічний / Crafting material",
+    "vi-VN": "Vũ trụ / Crafting material",
+    "zh-Hans": "宇宙 / Crafting material",
+    "zh-Hant": "宇宙 / Crafting material"
   },
   "icon": "/generated/assets/game/item/Materials/Item_149001.png",
   "rarity": "COSMIC",
@@ -60,13 +88,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3130009",
-            "en": "DropKey 3130009"
+            "de-DE": "DropKey 3130009",
+            "en-US": "DropKey 3130009",
+            "es-ES": "DropKey 3130009",
+            "fr-FR": "DropKey 3130009",
+            "id-ID": "DropKey 3130009",
+            "ja-JP": "DropKey 3130009",
+            "ko-KR": "DropKey 3130009",
+            "pl-PL": "DropKey 3130009",
+            "pt-BR": "DropKey 3130009",
+            "ru-RU": "DropKey 3130009",
+            "th-TH": "DropKey 3130009",
+            "tr-TR": "DropKey 3130009",
+            "uk-UA": "DropKey 3130009",
+            "vi-VN": "DropKey 3130009",
+            "zh-Hans": "DropKey 3130009",
+            "zh-Hant": "DropKey 3130009"
           },
           "40%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

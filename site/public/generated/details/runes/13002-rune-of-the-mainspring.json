@@ -3,12 +3,40 @@
   "entityId": "13002",
   "slug": "13002-rune-of-the-mainspring",
   "title": {
-    "ja": "ぜんまいのルーン",
-    "en": "Rune of the Mainspring"
+    "de-DE": "Federwerkrune",
+    "en-US": "Rune of the Mainspring",
+    "es-ES": "Runa del Resorte",
+    "fr-FR": "Rune du Ressort",
+    "id-ID": "Rune Pegas",
+    "ja-JP": "ぜんまいのルーン",
+    "ko-KR": "태엽의 룬",
+    "pl-PL": "Runa Sprężyny",
+    "pt-BR": "Runa do Mecanismo",
+    "ru-RU": "Руна заводной пружины",
+    "th-TH": "รูนลาน",
+    "tr-TR": "Zemberek Runu",
+    "uk-UA": "Руна заводної пружини",
+    "vi-VN": "Rune Dây Cót",
+    "zh-Hans": "发条符文",
+    "zh-Hant": "發條符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/UnlockAutoOpenNormalChest.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ぜんまいのルーン",
-        "en": "Rune of the Mainspring"
+        "de-DE": "Federwerkrune",
+        "en-US": "Rune of the Mainspring",
+        "es-ES": "Runa del Resorte",
+        "fr-FR": "Rune du Ressort",
+        "id-ID": "Rune Pegas",
+        "ja-JP": "ぜんまいのルーン",
+        "ko-KR": "태엽의 룬",
+        "pl-PL": "Runa Sprężyny",
+        "pt-BR": "Runa do Mecanismo",
+        "ru-RU": "Руна заводной пружины",
+        "th-TH": "รูนลาน",
+        "tr-TR": "Zemberek Runu",
+        "uk-UA": "Руна заводної пружини",
+        "vi-VN": "Rune Dây Cót",
+        "zh-Hans": "发条符文",
+        "zh-Hant": "發條符文"
       }
     },
     {
@@ -60,23 +102,79 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "潤滑のルーン",
-            "en": "Rune of Lubrication"
+            "de-DE": "Schmierungsrune",
+            "en-US": "Rune of Lubrication",
+            "es-ES": "Runa de Lubricación",
+            "fr-FR": "Rune de Lubrification",
+            "id-ID": "Rune Pelumas",
+            "ja-JP": "潤滑のルーン",
+            "ko-KR": "윤활의 룬",
+            "pl-PL": "Runa Smarowania",
+            "pt-BR": "Runa de Lubrificação",
+            "ru-RU": "Руна смазки",
+            "th-TH": "รูนหล่อลื่น",
+            "tr-TR": "Yağlama Runu",
+            "uk-UA": "Руна змащування",
+            "vi-VN": "Rune Bôi Trơn",
+            "zh-Hans": "润滑符文",
+            "zh-Hant": "潤滑符文"
           },
           "-"
         ],
         [
           {
-            "ja": "プレビュー",
-            "en": "Preview"
+            "de-DE": "Preview",
+            "en-US": "Preview",
+            "es-ES": "Preview",
+            "fr-FR": "Preview",
+            "id-ID": "Preview",
+            "ja-JP": "プレビュー",
+            "ko-KR": "Preview",
+            "pl-PL": "Preview",
+            "pt-BR": "Preview",
+            "ru-RU": "Preview",
+            "th-TH": "Preview",
+            "tr-TR": "Preview",
+            "uk-UA": "Preview",
+            "vi-VN": "Preview",
+            "zh-Hans": "Preview",
+            "zh-Hant": "Preview"
           },
           {
-            "ja": "ぜんまいのルーン",
-            "en": "Rune of the Mainspring"
+            "de-DE": "Federwerkrune",
+            "en-US": "Rune of the Mainspring",
+            "es-ES": "Runa del Resorte",
+            "fr-FR": "Rune du Ressort",
+            "id-ID": "Rune Pegas",
+            "ja-JP": "ぜんまいのルーン",
+            "ko-KR": "태엽의 룬",
+            "pl-PL": "Runa Sprężyny",
+            "pt-BR": "Runa do Mecanismo",
+            "ru-RU": "Руна заводной пружины",
+            "th-TH": "รูนลาน",
+            "tr-TR": "Zemberek Runu",
+            "uk-UA": "Руна заводної пружини",
+            "vi-VN": "Rune Dây Cót",
+            "zh-Hans": "发条符文",
+            "zh-Hant": "發條符文"
           },
           1
         ]
@@ -100,12 +198,40 @@
         [
           1,
           {
-            "ja": "通常チェスト自動開封解放",
-            "en": "Unlock Auto-Open Normal Chest"
+            "de-DE": "Auto-Öffnen normaler Truhe freischalten",
+            "en-US": "Unlock Auto-Open Normal Chest",
+            "es-ES": "Desbloquear apertura auto. de cofre común",
+            "fr-FR": "Débloquer ouverture auto du coffre commun",
+            "id-ID": "Buka auto-buka peti biasa",
+            "ja-JP": "通常チェスト自動開封解放",
+            "ko-KR": "일반 상자 자동 열기 해금 (기본 대기시간 : 5분)",
+            "pl-PL": "Odblokuj auto otwieranie zwykłej skrzyni",
+            "pt-BR": "Desbloquear abertura auto. de baú comum",
+            "ru-RU": "Разблокировать автооткрытие обычного сундука",
+            "th-TH": "ปลดล็อกเปิดกล่องธรรมดาอัตโนมัติ",
+            "tr-TR": "Normal sandık otomatik açmayı aç",
+            "uk-UA": "Розблокувати автовідкриття звичайної скрині",
+            "vi-VN": "Mở khóa tự mở rương thường",
+            "zh-Hans": "解锁普通宝箱自动开启",
+            "zh-Hant": "解鎖普通寶箱自動開啟"
           },
           {
-            "ja": "10000 ゴールド",
-            "en": "10000 Gold"
+            "de-DE": "10000 Gold",
+            "en-US": "10000 Gold",
+            "es-ES": "10000 Gold",
+            "fr-FR": "10000 Gold",
+            "id-ID": "10000 Gold",
+            "ja-JP": "10000 ゴールド",
+            "ko-KR": "10000 Gold",
+            "pl-PL": "10000 Gold",
+            "pt-BR": "10000 Gold",
+            "ru-RU": "10000 Gold",
+            "th-TH": "10000 Gold",
+            "tr-TR": "10000 Gold",
+            "uk-UA": "10000 Gold",
+            "vi-VN": "10000 Gold",
+            "zh-Hans": "10000 Gold",
+            "zh-Hant": "10000 Gold"
           }
         ]
       ]

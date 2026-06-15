@@ -3,12 +3,40 @@
   "entityId": "passive-101031",
   "slug": "passive-101031-physical-damage-enhancement",
   "title": {
-    "ja": "物理ダメージ強化",
-    "en": "Physical Damage Enhancement"
+    "de-DE": "Phys. Schaden-Verstärkung",
+    "en-US": "Physical Damage Enhancement",
+    "es-ES": "Mejora de Daño Físico",
+    "fr-FR": "Amélioration de Dégâts Phys.",
+    "id-ID": "Peningkatan Kerusakan Fisik",
+    "ja-JP": "物理ダメージ強化",
+    "ko-KR": "물리 피해 강화",
+    "pl-PL": "Wzmocnienie Obr. Fiz.",
+    "pt-BR": "Aprimoramento de Dano Físico",
+    "ru-RU": "Усиление Физ. урон",
+    "th-TH": "เสริมความเสียหายกายภาพ",
+    "tr-TR": "Geliştirme Fiziksel Hasar",
+    "uk-UA": "Посилення Фіз. шкода",
+    "vi-VN": "Tăng cường Sát thương vật lý",
+    "zh-Hans": "物理伤害强化",
+    "zh-Hant": "物理傷害強化"
   },
   "subtitle": {
-    "ja": "物理ダメージ +150%",
-    "en": "Physical Damage +150%"
+    "de-DE": "Phys. Schaden +150%",
+    "en-US": "Physical Damage +150%",
+    "es-ES": "Daño Físico +150%",
+    "fr-FR": "Dégâts Phys. +150%",
+    "id-ID": "Damage Fisik +150%",
+    "ja-JP": "物理ダメージ +150%",
+    "ko-KR": "물리 피해 +150%",
+    "pl-PL": "Obr. Fiz. +150%",
+    "pt-BR": "Dano Físico +150%",
+    "ru-RU": "Физ. урон +150%",
+    "th-TH": "ดาเมจกายภาพ +150%",
+    "tr-TR": "Fiziksel Hasar +150%",
+    "uk-UA": "Фіз. шкода +150%",
+    "vi-VN": "Sát Thương Vật Lý +150%",
+    "zh-Hans": "物理伤害 +150%",
+    "zh-Hant": "物理傷害 +150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "物理ダメージ強化",
-        "en": "Physical Damage Enhancement"
+        "de-DE": "Phys. Schaden-Verstärkung",
+        "en-US": "Physical Damage Enhancement",
+        "es-ES": "Mejora de Daño Físico",
+        "fr-FR": "Amélioration de Dégâts Phys.",
+        "id-ID": "Peningkatan Kerusakan Fisik",
+        "ja-JP": "物理ダメージ強化",
+        "ko-KR": "물리 피해 강화",
+        "pl-PL": "Wzmocnienie Obr. Fiz.",
+        "pt-BR": "Aprimoramento de Dano Físico",
+        "ru-RU": "Усиление Физ. урон",
+        "th-TH": "เสริมความเสียหายกายภาพ",
+        "tr-TR": "Geliştirme Fiziksel Hasar",
+        "uk-UA": "Посилення Фіз. шкода",
+        "vi-VN": "Tăng cường Sát thương vật lý",
+        "zh-Hans": "物理伤害强化",
+        "zh-Hant": "物理傷害強化"
       }
     },
     {

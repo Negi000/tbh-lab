@@ -3,12 +3,40 @@
   "entityId": "passive-501072",
   "slug": "passive-501072-hp-per-hit-enhancement",
   "title": {
-    "ja": "命中毎HP回復強化",
-    "en": "HP Per Hit Enhancement"
+    "de-DE": "LP pro Treffer-Verstärkung",
+    "en-US": "HP Per Hit Enhancement",
+    "es-ES": "Mejora de PV por Golpe",
+    "fr-FR": "Amélioration de PV par Coup",
+    "id-ID": "Peningkatan HP per Pukulan",
+    "ja-JP": "命中毎HP回復強化",
+    "ko-KR": "타격 당 체력 회복 강화",
+    "pl-PL": "Wzmocnienie PŻ za trafienie",
+    "pt-BR": "Aprimoramento de PV por Acerto",
+    "ru-RU": "Усиление HP за удар",
+    "th-TH": "เสริมHP ต่อการโจมตี",
+    "tr-TR": "Geliştirme İsabet Başı Can",
+    "uk-UA": "Посилення HP за удар",
+    "vi-VN": "Tăng cường HP mỗi đòn đánh",
+    "zh-Hans": "每击HP回复强化",
+    "zh-Hant": "每擊HP回復強化"
   },
   "subtitle": {
-    "ja": "命中毎HP回復 +3",
-    "en": "HP Per Hit +3"
+    "de-DE": "LP pro Treffer +3",
+    "en-US": "HP Per Hit +3",
+    "es-ES": "PV por Golpe +3",
+    "fr-FR": "PV par Coup +3",
+    "id-ID": "HP per Hit +3",
+    "ja-JP": "命中毎HP回復 +3",
+    "ko-KR": "타격 당 체력 회복 +3",
+    "pl-PL": "PŻ za trafienie +3",
+    "pt-BR": "PV por Acerto +3",
+    "ru-RU": "HP за удар +3",
+    "th-TH": "HP ต่อการตี +3",
+    "tr-TR": "İsabet Başı Can +3",
+    "uk-UA": "HP за удар +3",
+    "vi-VN": "HP Mỗi Đòn +3",
+    "zh-Hans": "每击HP回复 +3",
+    "zh-Hant": "每擊HP回復 +3"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "命中毎HP回復強化",
-        "en": "HP Per Hit Enhancement"
+        "de-DE": "LP pro Treffer-Verstärkung",
+        "en-US": "HP Per Hit Enhancement",
+        "es-ES": "Mejora de PV por Golpe",
+        "fr-FR": "Amélioration de PV par Coup",
+        "id-ID": "Peningkatan HP per Pukulan",
+        "ja-JP": "命中毎HP回復強化",
+        "ko-KR": "타격 당 체력 회복 강화",
+        "pl-PL": "Wzmocnienie PŻ za trafienie",
+        "pt-BR": "Aprimoramento de PV por Acerto",
+        "ru-RU": "Усиление HP за удар",
+        "th-TH": "เสริมHP ต่อการโจมตี",
+        "tr-TR": "Geliştirme İsabet Başı Can",
+        "uk-UA": "Посилення HP за удар",
+        "vi-VN": "Tăng cường HP mỗi đòn đánh",
+        "zh-Hans": "每击HP回复强化",
+        "zh-Hant": "每擊HP回復強化"
       }
     },
     {

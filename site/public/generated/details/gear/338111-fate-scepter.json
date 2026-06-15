@@ -3,12 +3,40 @@
   "entityId": "338111",
   "slug": "338111-fate-scepter",
   "title": {
-    "ja": "フェイトセプター",
-    "en": "Fate Scepter"
+    "de-DE": "Fate Scepter",
+    "en-US": "Fate Scepter",
+    "es-ES": "Fate Scepter",
+    "fr-FR": "Fate Scepter",
+    "id-ID": "Fate Scepter",
+    "ja-JP": "フェイトセプター",
+    "ko-KR": "Fate Scepter",
+    "pl-PL": "Fate Scepter",
+    "pt-BR": "Fate Scepter",
+    "ru-RU": "Fate Scepter",
+    "th-TH": "Fate Scepter",
+    "tr-TR": "Fate Scepter",
+    "uk-UA": "Fate Scepter",
+    "vi-VN": "Fate Scepter",
+    "zh-Hans": "Fate Scepter",
+    "zh-Hant": "Fate Scepter"
   },
   "subtitle": {
-    "en": "Divine / Scepter / Main Weapon / Lv. 50",
-    "ja": "ディバイン / セプター / メイン武器 / Lv. 50"
+    "de-DE": "Göttlich / Zepter / Hauptwaffe / Lv. 50",
+    "en-US": "Divine / Scepter / Main Weapon / Lv. 50",
+    "es-ES": "Divino / Cetro / Arma principal / Lv. 50",
+    "fr-FR": "Divin / Sceptre / Arme principale / Lv. 50",
+    "id-ID": "Ilahi / Tongkat Kerajaan / Senjata Utama / Lv. 50",
+    "ja-JP": "ディバイン / セプター / メイン武器 / Lv. 50",
+    "ko-KR": "신성 / 셉터 / 주무기 / Lv. 50",
+    "pl-PL": "Boski / Berło / Broń główna / Lv. 50",
+    "pt-BR": "Divino / Cetro / Arma Principal / Lv. 50",
+    "ru-RU": "Божественный / Скипетр / Основное оружие / Lv. 50",
+    "th-TH": "ศักดิ์สิทธิ์ / คทา / อาวุธหลัก / Lv. 50",
+    "tr-TR": "İlahi / Asa / Ana Silah / Lv. 50",
+    "uk-UA": "Божественний / Скіпетр / Основна зброя / Lv. 50",
+    "vi-VN": "Thần thánh / Vương Trượng / Vũ khí chính / Lv. 50",
+    "zh-Hans": "神圣 / 权杖 / 主武器 / Lv. 50",
+    "zh-Hant": "神聖 / 權杖 / 主武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/SCEPTER_330011.png",
   "rarity": "DIVINE",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115118",
-            "en": "DropKey 3115118"
+            "de-DE": "DropKey 3115118",
+            "en-US": "DropKey 3115118",
+            "es-ES": "DropKey 3115118",
+            "fr-FR": "DropKey 3115118",
+            "id-ID": "DropKey 3115118",
+            "ja-JP": "DropKey 3115118",
+            "ko-KR": "DropKey 3115118",
+            "pl-PL": "DropKey 3115118",
+            "pt-BR": "DropKey 3115118",
+            "ru-RU": "DropKey 3115118",
+            "th-TH": "DropKey 3115118",
+            "tr-TR": "DropKey 3115118",
+            "uk-UA": "DropKey 3115118",
+            "vi-VN": "DropKey 3115118",
+            "zh-Hans": "DropKey 3115118",
+            "zh-Hant": "DropKey 3115118"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

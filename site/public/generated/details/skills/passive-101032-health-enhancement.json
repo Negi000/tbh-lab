@@ -3,12 +3,40 @@
   "entityId": "passive-101032",
   "slug": "passive-101032-health-enhancement",
   "title": {
-    "ja": "体力強化",
-    "en": "Health Enhancement"
+    "de-DE": "Lebensverstärkung",
+    "en-US": "Health Enhancement",
+    "es-ES": "Mejora de Salud",
+    "fr-FR": "Amélioration Santé",
+    "id-ID": "Peningkatan HP",
+    "ja-JP": "体力強化",
+    "ko-KR": "체력 강화",
+    "pl-PL": "Wzmocnienie Zdrowia",
+    "pt-BR": "Aprimoramento de Vida",
+    "ru-RU": "Усиление здоровья",
+    "th-TH": "เสริมHP",
+    "tr-TR": "Sağlık Güçlendirme",
+    "uk-UA": "Посилення здоров'я",
+    "vi-VN": "Tăng cường HP",
+    "zh-Hans": "生命强化",
+    "zh-Hant": "生命強化"
   },
   "subtitle": {
-    "ja": "最大HP50%増加",
-    "en": "50% Increased Max HP"
+    "de-DE": "50% erhöhte Max. LP",
+    "en-US": "50% Increased Max HP",
+    "es-ES": "50% Aumento Vida Máx.",
+    "fr-FR": "50% PV Max. augmentés",
+    "id-ID": "50% Peningkatan HP Maks.",
+    "ja-JP": "最大HP50%増加",
+    "ko-KR": "최대 HP 50% 증가",
+    "pl-PL": "50% zwiększenia maks. PZ",
+    "pt-BR": "50% Aumento Vida Máx.",
+    "ru-RU": "50% увеличения макс. ОЗ",
+    "th-TH": "HP สูงสุดเพิ่ม 50%",
+    "tr-TR": "50% Artan Maks. Can",
+    "uk-UA": "50% збільшення макс. ОЗ",
+    "vi-VN": "Tăng 50% HP Tối Đa",
+    "zh-Hans": "最大生命提高50%",
+    "zh-Hant": "最大生命提高50%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "最大HP",
-        "en": "Max HP"
+        "de-DE": "Maximale HP",
+        "en-US": "Max HP",
+        "es-ES": "HP máximo",
+        "fr-FR": "PV max",
+        "id-ID": "HP Maksimum",
+        "ja-JP": "最大HP",
+        "ko-KR": "최대 HP",
+        "pl-PL": "Maksymalne HP",
+        "pt-BR": "HP Máximo",
+        "ru-RU": "Макс. HP",
+        "th-TH": "HP สูงสุด",
+        "tr-TR": "Maksimum HP",
+        "uk-UA": "Макс. HP",
+        "vi-VN": "HP tối đa",
+        "zh-Hans": "最大生命值",
+        "zh-Hant": "最大生命值"
       }
     },
     {

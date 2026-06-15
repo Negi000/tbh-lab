@@ -3,12 +3,40 @@
   "entityId": "149002",
   "slug": "149002-aeon-ingot",
   "title": {
-    "ja": "エオンインゴット",
-    "en": "Aeon Ingot"
+    "de-DE": "Aeon Ingot",
+    "en-US": "Aeon Ingot",
+    "es-ES": "Aeon Ingot",
+    "fr-FR": "Aeon Ingot",
+    "id-ID": "Aeon Ingot",
+    "ja-JP": "エオンインゴット",
+    "ko-KR": "Aeon Ingot",
+    "pl-PL": "Aeon Ingot",
+    "pt-BR": "Aeon Ingot",
+    "ru-RU": "Aeon Ingot",
+    "th-TH": "Aeon Ingot",
+    "tr-TR": "Aeon Ingot",
+    "uk-UA": "Aeon Ingot",
+    "vi-VN": "Aeon Ingot",
+    "zh-Hans": "Aeon Ingot",
+    "zh-Hant": "Aeon Ingot"
   },
   "subtitle": {
-    "en": "Cosmic / Crafting material",
-    "ja": "コズミック / クラフト素材"
+    "de-DE": "Kosmisch / Crafting material",
+    "en-US": "Cosmic / Crafting material",
+    "es-ES": "Cósmico / Crafting material",
+    "fr-FR": "Cosmique / Crafting material",
+    "id-ID": "Kosmik / Crafting material",
+    "ja-JP": "コズミック / クラフト素材",
+    "ko-KR": "우주 / Crafting material",
+    "pl-PL": "Kosmiczny / Crafting material",
+    "pt-BR": "Cósmico / Crafting material",
+    "ru-RU": "Космический / Crafting material",
+    "th-TH": "จักรวาล / Crafting material",
+    "tr-TR": "Kozmik / Crafting material",
+    "uk-UA": "Космічний / Crafting material",
+    "vi-VN": "Vũ trụ / Crafting material",
+    "zh-Hans": "宇宙 / Crafting material",
+    "zh-Hant": "宇宙 / Crafting material"
   },
   "icon": "/generated/assets/game/item/Materials/Item_149002.png",
   "rarity": "COSMIC",
@@ -60,13 +88,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3130009",
-            "en": "DropKey 3130009"
+            "de-DE": "DropKey 3130009",
+            "en-US": "DropKey 3130009",
+            "es-ES": "DropKey 3130009",
+            "fr-FR": "DropKey 3130009",
+            "id-ID": "DropKey 3130009",
+            "ja-JP": "DropKey 3130009",
+            "ko-KR": "DropKey 3130009",
+            "pl-PL": "DropKey 3130009",
+            "pt-BR": "DropKey 3130009",
+            "ru-RU": "DropKey 3130009",
+            "th-TH": "DropKey 3130009",
+            "tr-TR": "DropKey 3130009",
+            "uk-UA": "DropKey 3130009",
+            "vi-VN": "DropKey 3130009",
+            "zh-Hans": "DropKey 3130009",
+            "zh-Hant": "DropKey 3130009"
           },
           "40%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

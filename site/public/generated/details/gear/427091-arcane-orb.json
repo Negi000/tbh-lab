@@ -3,12 +3,40 @@
   "entityId": "427091",
   "slug": "427091-arcane-orb",
   "title": {
-    "ja": "アルケインオーブ",
-    "en": "Arcane Orb"
+    "de-DE": "Arcane Orb",
+    "en-US": "Arcane Orb",
+    "es-ES": "Arcane Orb",
+    "fr-FR": "Arcane Orb",
+    "id-ID": "Arcane Orb",
+    "ja-JP": "アルケインオーブ",
+    "ko-KR": "Arcane Orb",
+    "pl-PL": "Arcane Orb",
+    "pt-BR": "Arcane Orb",
+    "ru-RU": "Arcane Orb",
+    "th-TH": "Arcane Orb",
+    "tr-TR": "Arcane Orb",
+    "uk-UA": "Arcane Orb",
+    "vi-VN": "Arcane Orb",
+    "zh-Hans": "Arcane Orb",
+    "zh-Hant": "Arcane Orb"
   },
   "subtitle": {
-    "en": "Celestial / Orb / Sub Weapon / Lv. 40",
-    "ja": "セレスティアル / オーブ / サブ武器 / Lv. 40"
+    "de-DE": "Himmlisch / Kugel / Nebenwaffe / Lv. 40",
+    "en-US": "Celestial / Orb / Sub Weapon / Lv. 40",
+    "es-ES": "Celestial / Orbe / Arma secundaria / Lv. 40",
+    "fr-FR": "Céleste / Orbe / Arme secondaire / Lv. 40",
+    "id-ID": "Surgawi / Orb / Senjata Pendamping / Lv. 40",
+    "ja-JP": "セレスティアル / オーブ / サブ武器 / Lv. 40",
+    "ko-KR": "천상 / 오브 / 보조무기 / Lv. 40",
+    "pl-PL": "Niebiański / Kula / Broń dodatkowa / Lv. 40",
+    "pt-BR": "Celestial / Orbe / Arma Secundária / Lv. 40",
+    "ru-RU": "Небесный / Сфера / Доп. оружие / Lv. 40",
+    "th-TH": "สวรรค์ / ออร์บ / อาวุธรอง / Lv. 40",
+    "tr-TR": "Göksel / Küre / Yardımcı Silah / Lv. 40",
+    "uk-UA": "Небесний / Сфера / Додаткова зброя / Lv. 40",
+    "vi-VN": "Thiên giới / Quả Cầu / Vũ khí phụ / Lv. 40",
+    "zh-Hans": "天界 / 法珠 / 副武器 / Lv. 40",
+    "zh-Hant": "天界 / 法珠 / 副武器 / Lv. 40"
   },
   "icon": "/generated/assets/game/item/Materials/ORB_420009.png",
   "rarity": "CELESTIAL",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3114097",
-            "en": "DropKey 3114097"
+            "de-DE": "DropKey 3114097",
+            "en-US": "DropKey 3114097",
+            "es-ES": "DropKey 3114097",
+            "fr-FR": "DropKey 3114097",
+            "id-ID": "DropKey 3114097",
+            "ja-JP": "DropKey 3114097",
+            "ko-KR": "DropKey 3114097",
+            "pl-PL": "DropKey 3114097",
+            "pt-BR": "DropKey 3114097",
+            "ru-RU": "DropKey 3114097",
+            "th-TH": "DropKey 3114097",
+            "tr-TR": "DropKey 3114097",
+            "uk-UA": "DropKey 3114097",
+            "vi-VN": "DropKey 3114097",
+            "zh-Hans": "DropKey 3114097",
+            "zh-Hant": "DropKey 3114097"
           },
           "6.669%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

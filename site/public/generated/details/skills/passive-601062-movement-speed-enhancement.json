@@ -3,12 +3,40 @@
   "entityId": "passive-601062",
   "slug": "passive-601062-movement-speed-enhancement",
   "title": {
-    "ja": "移動速度強化",
-    "en": "Movement Speed Enhancement"
+    "de-DE": "Bewegungsgeschw.-Verstärkung",
+    "en-US": "Movement Speed Enhancement",
+    "es-ES": "Mejora de Vel. de Mov.",
+    "fr-FR": "Amélioration de Vit. de Mvt",
+    "id-ID": "Peningkatan Kecepatan Gerak",
+    "ja-JP": "移動速度強化",
+    "ko-KR": "이동속도 강화",
+    "pl-PL": "Wzmocnienie Szybk. Ruchu",
+    "pt-BR": "Aprimoramento de Vel. de Mov.",
+    "ru-RU": "Усиление Скор. передв.",
+    "th-TH": "เสริมความเร็วการเคลื่อนที่",
+    "tr-TR": "Geliştirme Hareket Hızı",
+    "uk-UA": "Посилення Швид. пересув.",
+    "vi-VN": "Tăng cường Tốc độ di chuyển",
+    "zh-Hans": "移动速度强化",
+    "zh-Hant": "移動速度強化"
   },
   "subtitle": {
-    "ja": "移動速度20%増加",
-    "en": "20% Increased Movement Speed"
+    "de-DE": "20% erhöhte Bewegungsgeschw.",
+    "en-US": "20% Increased Movement Speed",
+    "es-ES": "20% Aumento Vel. Movimiento",
+    "fr-FR": "20% Vitesse Dépla. augmentée",
+    "id-ID": "20% Peningkatan Kec. Gerak",
+    "ja-JP": "移動速度20%増加",
+    "ko-KR": "이동 속도 20% 증가",
+    "pl-PL": "20% zwiększenia szybk. ruchu",
+    "pt-BR": "20% Aumento Vel. Movimento",
+    "ru-RU": "20% увеличения скорости движения",
+    "th-TH": "ความเร็วเดินเพิ่ม 20%",
+    "tr-TR": "20% Artan Hareket Hızı",
+    "uk-UA": "20% збільшення швидкості руху",
+    "vi-VN": "Tăng 20% Tốc Độ Di Chuyển",
+    "zh-Hans": "移动速度提高20%",
+    "zh-Hant": "移動速度提高20%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "移動速度",
-        "en": "Movement Speed"
+        "de-DE": "Bewegungsgeschwindigkeit",
+        "en-US": "Movement Speed",
+        "es-ES": "Velocidad de movimiento",
+        "fr-FR": "Vitesse de déplacement",
+        "id-ID": "Kecepatan Gerak",
+        "ja-JP": "移動速度",
+        "ko-KR": "이동 속도",
+        "pl-PL": "Prędkość ruchu",
+        "pt-BR": "Velocidade de Movimento",
+        "ru-RU": "Скорость передвижения",
+        "th-TH": "ความเร็วเคลื่อนที่",
+        "tr-TR": "Hareket Hızı",
+        "uk-UA": "Швидкість руху",
+        "vi-VN": "Tốc độ di chuyển",
+        "zh-Hans": "移动速度",
+        "zh-Hant": "移動速度"
       }
     },
     {

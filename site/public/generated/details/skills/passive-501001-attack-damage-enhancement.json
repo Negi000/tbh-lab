@@ -3,12 +3,40 @@
   "entityId": "passive-501001",
   "slug": "passive-501001-attack-damage-enhancement",
   "title": {
-    "ja": "攻撃力強化",
-    "en": "Attack Damage Enhancement"
+    "de-DE": "Angriffsschadenverstärkung",
+    "en-US": "Attack Damage Enhancement",
+    "es-ES": "Mejora de Daño de Ataque",
+    "fr-FR": "Amélioration Dégâts d'Attaque",
+    "id-ID": "Peningkatan Kerusakan Serangan",
+    "ja-JP": "攻撃力強化",
+    "ko-KR": "공격력 강화",
+    "pl-PL": "Wzmocnienie Obrażeń",
+    "pt-BR": "Aprimoramento de Dano de Ataque",
+    "ru-RU": "Усиление урона атаки",
+    "th-TH": "เสริมการโจมตี",
+    "tr-TR": "Saldırı Hasarı Güçlendirme",
+    "uk-UA": "Посилення шкоди атаки",
+    "vi-VN": "Tăng cường Sát thương",
+    "zh-Hans": "攻击力强化",
+    "zh-Hant": "攻擊力強化"
   },
   "subtitle": {
-    "ja": "攻撃力 +2",
-    "en": "Attack Damage +2"
+    "de-DE": "Angriffsscha. +2",
+    "en-US": "Attack Damage +2",
+    "es-ES": "Daño Ataque +2",
+    "fr-FR": "Dégâts Att. +2",
+    "id-ID": "Damage Serangan +2",
+    "ja-JP": "攻撃力 +2",
+    "ko-KR": "공격력 +2",
+    "pl-PL": "Obrażenia +2",
+    "pt-BR": "Dano Ataque +2",
+    "ru-RU": "Урон атаки +2",
+    "th-TH": "ดาเมจโจมตี +2",
+    "tr-TR": "Saldırı Has. +2",
+    "uk-UA": "Шкода атаки +2",
+    "vi-VN": "Sát Thương +2",
+    "zh-Hans": "攻击伤害 +2",
+    "zh-Hant": "攻擊傷害 +2"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "攻撃力",
-        "en": "Attack Damage"
+        "de-DE": "Angriffsschaden",
+        "en-US": "Attack Damage",
+        "es-ES": "Daño de ataque",
+        "fr-FR": "Dégâts d'attaque",
+        "id-ID": "Serangan",
+        "ja-JP": "攻撃力",
+        "ko-KR": "공격력",
+        "pl-PL": "Obrażenia od ataku",
+        "pt-BR": "Dano de Ataque",
+        "ru-RU": "Урон от атаки",
+        "th-TH": "พลังโจมตี",
+        "tr-TR": "Saldırı Hasarı",
+        "uk-UA": "Шкода від атаки",
+        "vi-VN": "Sát thương tấn công",
+        "zh-Hans": "攻击伤害",
+        "zh-Hant": "攻擊傷害"
       }
     },
     {

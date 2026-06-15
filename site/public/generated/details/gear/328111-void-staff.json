@@ -3,12 +3,40 @@
   "entityId": "328111",
   "slug": "328111-void-staff",
   "title": {
-    "ja": "ヴォイドスタッフ",
-    "en": "Void Staff"
+    "de-DE": "Void Staff",
+    "en-US": "Void Staff",
+    "es-ES": "Void Staff",
+    "fr-FR": "Void Staff",
+    "id-ID": "Void Staff",
+    "ja-JP": "ヴォイドスタッフ",
+    "ko-KR": "Void Staff",
+    "pl-PL": "Void Staff",
+    "pt-BR": "Void Staff",
+    "ru-RU": "Void Staff",
+    "th-TH": "Void Staff",
+    "tr-TR": "Void Staff",
+    "uk-UA": "Void Staff",
+    "vi-VN": "Void Staff",
+    "zh-Hans": "Void Staff",
+    "zh-Hant": "Void Staff"
   },
   "subtitle": {
-    "en": "Divine / Staff / Main Weapon / Lv. 50",
-    "ja": "ディバイン / スタッフ / メイン武器 / Lv. 50"
+    "de-DE": "Göttlich / Stab / Hauptwaffe / Lv. 50",
+    "en-US": "Divine / Staff / Main Weapon / Lv. 50",
+    "es-ES": "Divino / Bastón / Arma principal / Lv. 50",
+    "fr-FR": "Divin / Bâton / Arme principale / Lv. 50",
+    "id-ID": "Ilahi / Tongkat / Senjata Utama / Lv. 50",
+    "ja-JP": "ディバイン / スタッフ / メイン武器 / Lv. 50",
+    "ko-KR": "신성 / 지팡이 / 주무기 / Lv. 50",
+    "pl-PL": "Boski / Kostur / Broń główna / Lv. 50",
+    "pt-BR": "Divino / Cajado / Arma Principal / Lv. 50",
+    "ru-RU": "Божественный / Посох / Основное оружие / Lv. 50",
+    "th-TH": "ศักดิ์สิทธิ์ / ไม้เท้า / อาวุธหลัก / Lv. 50",
+    "tr-TR": "İlahi / Asa / Ana Silah / Lv. 50",
+    "uk-UA": "Божественний / Посох / Основна зброя / Lv. 50",
+    "vi-VN": "Thần thánh / Trượng / Vũ khí chính / Lv. 50",
+    "zh-Hans": "神圣 / 法杖 / 主武器 / Lv. 50",
+    "zh-Hant": "神聖 / 法杖 / 主武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/STAFF_320011.png",
   "rarity": "DIVINE",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115118",
-            "en": "DropKey 3115118"
+            "de-DE": "DropKey 3115118",
+            "en-US": "DropKey 3115118",
+            "es-ES": "DropKey 3115118",
+            "fr-FR": "DropKey 3115118",
+            "id-ID": "DropKey 3115118",
+            "ja-JP": "DropKey 3115118",
+            "ko-KR": "DropKey 3115118",
+            "pl-PL": "DropKey 3115118",
+            "pt-BR": "DropKey 3115118",
+            "ru-RU": "DropKey 3115118",
+            "th-TH": "DropKey 3115118",
+            "tr-TR": "DropKey 3115118",
+            "uk-UA": "DropKey 3115118",
+            "vi-VN": "DropKey 3115118",
+            "zh-Hans": "DropKey 3115118",
+            "zh-Hant": "DropKey 3115118"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

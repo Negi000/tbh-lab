@@ -3,12 +3,40 @@
   "entityId": "303",
   "slug": "303-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalExpStageBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ステージボス経験値",
-        "en": "Exp From Stage Boss"
+        "de-DE": "EP vom Stage-Boss",
+        "en-US": "Exp From Stage Boss",
+        "es-ES": "Exp del jefe de etapa",
+        "fr-FR": "Exp du boss d'étape",
+        "id-ID": "Exp dari Boss Panggung",
+        "ja-JP": "ステージボス経験値",
+        "ko-KR": "스테이지 보스 처치 시 획득 경험치",
+        "pl-PL": "Exp od bossa etapu",
+        "pt-BR": "Exp do chefe de fase",
+        "ru-RU": "Опыт с босса стадии",
+        "th-TH": "Exp จากบอสด่าน",
+        "tr-TR": "Aşama Bossundan Tecrübe",
+        "uk-UA": "Досвід з боса етапу",
+        "vi-VN": "KN từ Boss Tầng",
+        "zh-Hans": "关卡首领经验",
+        "zh-Hant": "關卡首領經驗"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ]
@@ -89,56 +159,196 @@
         [
           1,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "1000 ゴールド",
-            "en": "1000 Gold"
+            "de-DE": "1000 Gold",
+            "en-US": "1000 Gold",
+            "es-ES": "1000 Gold",
+            "fr-FR": "1000 Gold",
+            "id-ID": "1000 Gold",
+            "ja-JP": "1000 ゴールド",
+            "ko-KR": "1000 Gold",
+            "pl-PL": "1000 Gold",
+            "pt-BR": "1000 Gold",
+            "ru-RU": "1000 Gold",
+            "th-TH": "1000 Gold",
+            "tr-TR": "1000 Gold",
+            "uk-UA": "1000 Gold",
+            "vi-VN": "1000 Gold",
+            "zh-Hans": "1000 Gold",
+            "zh-Hant": "1000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "1200 ゴールド",
-            "en": "1200 Gold"
+            "de-DE": "1200 Gold",
+            "en-US": "1200 Gold",
+            "es-ES": "1200 Gold",
+            "fr-FR": "1200 Gold",
+            "id-ID": "1200 Gold",
+            "ja-JP": "1200 ゴールド",
+            "ko-KR": "1200 Gold",
+            "pl-PL": "1200 Gold",
+            "pt-BR": "1200 Gold",
+            "ru-RU": "1200 Gold",
+            "th-TH": "1200 Gold",
+            "tr-TR": "1200 Gold",
+            "uk-UA": "1200 Gold",
+            "vi-VN": "1200 Gold",
+            "zh-Hans": "1200 Gold",
+            "zh-Hant": "1200 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "1400 ゴールド",
-            "en": "1400 Gold"
+            "de-DE": "1400 Gold",
+            "en-US": "1400 Gold",
+            "es-ES": "1400 Gold",
+            "fr-FR": "1400 Gold",
+            "id-ID": "1400 Gold",
+            "ja-JP": "1400 ゴールド",
+            "ko-KR": "1400 Gold",
+            "pl-PL": "1400 Gold",
+            "pt-BR": "1400 Gold",
+            "ru-RU": "1400 Gold",
+            "th-TH": "1400 Gold",
+            "tr-TR": "1400 Gold",
+            "uk-UA": "1400 Gold",
+            "vi-VN": "1400 Gold",
+            "zh-Hans": "1400 Gold",
+            "zh-Hant": "1400 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "1700 ゴールド",
-            "en": "1700 Gold"
+            "de-DE": "1700 Gold",
+            "en-US": "1700 Gold",
+            "es-ES": "1700 Gold",
+            "fr-FR": "1700 Gold",
+            "id-ID": "1700 Gold",
+            "ja-JP": "1700 ゴールド",
+            "ko-KR": "1700 Gold",
+            "pl-PL": "1700 Gold",
+            "pt-BR": "1700 Gold",
+            "ru-RU": "1700 Gold",
+            "th-TH": "1700 Gold",
+            "tr-TR": "1700 Gold",
+            "uk-UA": "1700 Gold",
+            "vi-VN": "1700 Gold",
+            "zh-Hans": "1700 Gold",
+            "zh-Hant": "1700 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "ステージボス経験値 +10",
-            "en": "Exp From Stage Boss Kill +10"
+            "de-DE": "EP vom Stage-Boss +10",
+            "en-US": "Exp From Stage Boss Kill +10",
+            "es-ES": "Exp del jefe de etapa +10",
+            "fr-FR": "Exp du boss d'étape +10",
+            "id-ID": "Exp dari Boss Panggung +10",
+            "ja-JP": "ステージボス経験値 +10",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +10",
+            "pl-PL": "Exp od bossa etapu +10",
+            "pt-BR": "Exp do chefe de fase +10",
+            "ru-RU": "Опыт с босса стадии +10",
+            "th-TH": "Exp จากบอสด่าน +10",
+            "tr-TR": "Aşama Bossundan Tecrübe +10",
+            "uk-UA": "Досвід з боса етапу +10",
+            "vi-VN": "KN từ Boss Tầng +10",
+            "zh-Hans": "关卡首领经验 +10",
+            "zh-Hant": "關卡首領經驗 +10"
           },
           {
-            "ja": "2000 ゴールド",
-            "en": "2000 Gold"
+            "de-DE": "2000 Gold",
+            "en-US": "2000 Gold",
+            "es-ES": "2000 Gold",
+            "fr-FR": "2000 Gold",
+            "id-ID": "2000 Gold",
+            "ja-JP": "2000 ゴールド",
+            "ko-KR": "2000 Gold",
+            "pl-PL": "2000 Gold",
+            "pt-BR": "2000 Gold",
+            "ru-RU": "2000 Gold",
+            "th-TH": "2000 Gold",
+            "tr-TR": "2000 Gold",
+            "uk-UA": "2000 Gold",
+            "vi-VN": "2000 Gold",
+            "zh-Hans": "2000 Gold",
+            "zh-Hant": "2000 Gold"
           }
         ]
       ]

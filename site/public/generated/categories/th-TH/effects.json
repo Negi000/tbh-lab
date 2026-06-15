@@ -1,0 +1,3112 @@
+{
+  "category": {
+    "id": "effects",
+    "titleKey": "category.effects.title",
+    "descriptionKey": "category.effects.description",
+    "count": 79,
+    "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/{locale}/effects.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "gearType",
+      "labelKey": "field.gearType"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    }
+  ],
+  "filters": [
+    {
+      "id": "gearType",
+      "labelKey": "filter.gearType",
+      "options": [
+        "ACCESSORY, ARMOR, WEAPON",
+        "COMMON"
+      ]
+    },
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "AreaOfEffect, BlockChance, CastSpeed",
+        "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "AreaOfEffect, CriticalDamage, MaxHp",
+        "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "Armor, AttackSpeed, CriticalDamage",
+        "Armor, CastSpeed, LightningDamagePercent",
+        "Armor, ColdDamagePercent, CriticalChance",
+        "Armor, CriticalDamage",
+        "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "AttackDamage, BlockChance",
+        "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "effects",
+      "entityId": "1100011",
+      "slug": "1100011-minor-ruby-effects",
+      "title": {
+        "th-TH": "Minor Ruby Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เสริมความเสียหายไฟ, ต้านทานไฟ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เสริมความเสียหายไฟ, ต้านทานไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100011-minor-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100021",
+      "slug": "1100021-minor-sapphire-effects",
+      "title": {
+        "th-TH": "Minor Sapphire Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, เสริมความเสียหายเย็น, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, ColdDamagePercent, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, เสริมความเสียหายเย็น, โอกาสคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100021-minor-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100031",
+      "slug": "1100031-minor-topaz-effects",
+      "title": {
+        "th-TH": "Minor Topaz Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, เร็วร่าย, เสริมความเสียหายฟ้าผ่า"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "CastSpeed",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CastSpeed, LightningDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, เร็วร่าย, เสริมความเสียหายฟ้าผ่า"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100031-minor-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100041",
+      "slug": "1100041-minor-emerald-effects",
+      "title": {
+        "th-TH": "Minor Emerald Effects"
+      },
+      "subtitle": {
+        "th-TH": "ความเร็วโจมตี, ดูดซับความเสียหาย, ความเร็วเคลื่อนที่"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110004.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, DamageAbsorption, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ความเร็วโจมตี, ดูดซับความเสียหาย, ความเร็วเคลื่อนที่"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100041-minor-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100051",
+      "slug": "1100051-minor-amethyst-effects",
+      "title": {
+        "th-TH": "Minor Amethyst Effects"
+      },
+      "subtitle": {
+        "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด, เสริมความเสียหายกายภาพ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110005.png",
+      "rarity": "COMMON",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด, เสริมความเสียหายกายภาพ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100051-minor-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110011",
+      "slug": "1110011-obsidian-shard-effects",
+      "title": {
+        "th-TH": "Obsidian Shard Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, โอกาสบล็อค"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, โอกาสบล็อค"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110011-obsidian-shard-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110021",
+      "slug": "1110021-coral-piece-effects",
+      "title": {
+        "th-TH": "Coral Piece Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เสริมดูดเลือด, เสริมฟื้น HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เสริมดูดเลือด, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110021-coral-piece-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110031",
+      "slug": "1110031-jade-stone-effects",
+      "title": {
+        "th-TH": "Jade Stone Effects"
+      },
+      "subtitle": {
+        "th-TH": "ความเร็วโจมตี, โอกาสคริติคอล, โอกาสหลบ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackSpeed",
+        "CriticalChance",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ความเร็วโจมตี, โอกาสคริติคอล, โอกาสหลบ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110031-jade-stone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110041",
+      "slug": "1110041-amber-gem-effects",
+      "title": {
+        "th-TH": "Amber Gem Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, ความเสียหายคริติคอล, HP สูงสุด"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "CriticalDamage",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CriticalDamage, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, ความเสียหายคริติคอล, HP สูงสุด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110041-amber-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120011",
+      "slug": "1120011-ruby-effects",
+      "title": {
+        "th-TH": "Ruby Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เสริมความเสียหายไฟ, ต้านทานไฟ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เสริมความเสียหายไฟ, ต้านทานไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120011-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120021",
+      "slug": "1120021-sapphire-effects",
+      "title": {
+        "th-TH": "Sapphire Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมความเสียหายเย็น, ต้านทานน้ำแข็ง, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112002.png",
+      "rarity": "RARE",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมความเสียหายเย็น, ต้านทานน้ำแข็ง, โอกาสคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120021-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120031",
+      "slug": "1120031-topaz-effects",
+      "title": {
+        "th-TH": "Topaz Effects"
+      },
+      "subtitle": {
+        "th-TH": "เร็วร่าย, เสริมความเสียหายฟ้าผ่า, ต้านทานสายฟ้า"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112003.png",
+      "rarity": "RARE",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เร็วร่าย, เสริมความเสียหายฟ้าผ่า, ต้านทานสายฟ้า"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120031-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120041",
+      "slug": "1120041-emerald-effects",
+      "title": {
+        "th-TH": "Emerald Effects"
+      },
+      "subtitle": {
+        "th-TH": "ความเร็วโจมตี, เสริมต้านทานเคออส, ความเร็วเคลื่อนที่"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ความเร็วโจมตี, เสริมต้านทานเคออส, ความเร็วเคลื่อนที่"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120041-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120051",
+      "slug": "1120051-amethyst-effects",
+      "title": {
+        "th-TH": "Amethyst Effects"
+      },
+      "subtitle": {
+        "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด, เสริมความเสียหายกายภาพ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112005.png",
+      "rarity": "RARE",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด, เสริมความเสียหายกายภาพ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120051-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130011",
+      "slug": "1130011-crystal-quartz-effects",
+      "title": {
+        "th-TH": "Crystal Quartz Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, ความเสียหายคริติคอล, เสริมฟื้น HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "CriticalDamage",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CriticalDamage, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, ความเสียหายคริติคอล, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130011-crystal-quartz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130021",
+      "slug": "1130021-pearl-effects",
+      "title": {
+        "th-TH": "Pearl Effects"
+      },
+      "subtitle": {
+        "th-TH": "ลดเวลาคูลดาวน์, โอกาสคริติคอล, เสริมลดความเสียหาย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ลดเวลาคูลดาวน์, โอกาสคริติคอล, เสริมลดความเสียหาย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130021-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130031",
+      "slug": "1130031-turquoise-effects",
+      "title": {
+        "th-TH": "Turquoise Effects"
+      },
+      "subtitle": {
+        "th-TH": "ลดเวลาคูลดาวน์, โอกาสคริติคอล, HP สูงสุด"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ลดเวลาคูลดาวน์, โอกาสคริติคอล, HP สูงสุด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130031-turquoise-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130041",
+      "slug": "1130041-garnet-effects",
+      "title": {
+        "th-TH": "Garnet Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, ความเร็วโจมตี, ความเสียหายคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, ความเร็วโจมตี, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130041-garnet-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140011",
+      "slug": "1140011-diamond-effects",
+      "title": {
+        "th-TH": "Diamond Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมต้านทานธาตุทั้งหมด, เสริมพื้นที่ส่งผล, พลังโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมต้านทานธาตุทั้งหมด, เสริมพื้นที่ส่งผล, พลังโจมตี"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140011-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140021",
+      "slug": "1140021-opal-effects",
+      "title": {
+        "th-TH": "Opal Effects"
+      },
+      "subtitle": {
+        "th-TH": "ความเร็วโจมตี, เสริมฟื้น HP, HP สูงสุด"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackSpeed",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, HpRegenPerSec, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ความเร็วโจมตี, เสริมฟื้น HP, HP สูงสุด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140021-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140031",
+      "slug": "1140031-lapis-lazuli-effects",
+      "title": {
+        "th-TH": "Lapis Lazuli Effects"
+      },
+      "subtitle": {
+        "th-TH": "โอกาสคริติคอล, โอกาสหลบ, ความเร็วเคลื่อนที่"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "CriticalChance",
+        "DodgeChance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DodgeChance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "โอกาสคริติคอล, โอกาสหลบ, ความเร็วเคลื่อนที่"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140031-lapis-lazuli-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140041",
+      "slug": "1140041-black-pearl-effects",
+      "title": {
+        "th-TH": "Black Pearl Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, โอกาสบล็อค, เร็วร่าย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CastSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CastSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, โอกาสบล็อค, เร็วร่าย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140041-black-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150011",
+      "slug": "1150011-arcane-crystal-effects",
+      "title": {
+        "th-TH": "Arcane Crystal Effects"
+      },
+      "subtitle": {
+        "th-TH": "เร็วร่าย, ลดเวลาคูลดาวน์, ความเสียหายคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "CooldownReduction",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เร็วร่าย, ลดเวลาคูลดาวน์, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150011-arcane-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150021",
+      "slug": "1150021-mystic-topaz-effects",
+      "title": {
+        "th-TH": "Mystic Topaz Effects"
+      },
+      "subtitle": {
+        "th-TH": "เร็วร่าย, เสริมความเสียหายฟ้าผ่า, ต้านทานสายฟ้า"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เร็วร่าย, เสริมความเสียหายฟ้าผ่า, ต้านทานสายฟ้า"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150021-mystic-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150031",
+      "slug": "1150031-enchanted-ruby-effects",
+      "title": {
+        "th-TH": "Enchanted Ruby Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เสริมความเสียหายไฟ, ต้านทานไฟ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เสริมความเสียหายไฟ, ต้านทานไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150031-enchanted-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150041",
+      "slug": "1150041-starlight-sapphire-effects",
+      "title": {
+        "th-TH": "Starlight Sapphire Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมความเสียหายเย็น, ต้านทานน้ำแข็ง, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมความเสียหายเย็น, ต้านทานน้ำแข็ง, โอกาสคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150041-starlight-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160011",
+      "slug": "1160011-void-opal-effects",
+      "title": {
+        "th-TH": "Void Opal Effects"
+      },
+      "subtitle": {
+        "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160011-void-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160021",
+      "slug": "1160021-astral-diamond-effects",
+      "title": {
+        "th-TH": "Astral Diamond Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมต้านทานธาตุทั้งหมด, เสริมพื้นที่ส่งผล, พลังโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมต้านทานธาตุทั้งหมด, เสริมพื้นที่ส่งผล, พลังโจมตี"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160021-astral-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160031",
+      "slug": "1160031-phantom-emerald-effects",
+      "title": {
+        "th-TH": "Phantom Emerald Effects"
+      },
+      "subtitle": {
+        "th-TH": "ความเร็วโจมตี, เสริมต้านทานเคออส, ความเร็วเคลื่อนที่"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ความเร็วโจมตี, เสริมต้านทานเคออส, ความเร็วเคลื่อนที่"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160031-phantom-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160041",
+      "slug": "1160041-twilight-amethyst-effects",
+      "title": {
+        "th-TH": "Twilight Amethyst Effects"
+      },
+      "subtitle": {
+        "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด, เสริมความเสียหายกายภาพ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ลดเวลาคูลดาวน์, HP สูงสุด, เสริมความเสียหายกายภาพ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160041-twilight-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170011",
+      "slug": "1170011-celestial-pearl-effects",
+      "title": {
+        "th-TH": "Celestial Pearl Effects"
+      },
+      "subtitle": {
+        "th-TH": "โอกาสคริติคอล, ดูดซับความเสียหาย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "CriticalChance",
+        "DamageAbsorption",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "โอกาสคริติคอล, ดูดซับความเสียหาย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170011-celestial-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170021",
+      "slug": "1170021-dragonite-crystal-effects",
+      "title": {
+        "th-TH": "Dragonite Crystal Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, ความเสียหายคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170021-dragonite-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180011",
+      "slug": "1180011-void-crystal-effects",
+      "title": {
+        "th-TH": "Void Crystal Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, ลดเวลาคูลดาวน์"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, ลดเวลาคูลดาวน์"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180011-void-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180021",
+      "slug": "1180021-abyssal-pearl-effects",
+      "title": {
+        "th-TH": "Abyssal Pearl Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เสริมดูดเลือด, เสริมฟื้น HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เสริมดูดเลือด, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180021-abyssal-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190011",
+      "slug": "1190011-ethereal-gem-effects",
+      "title": {
+        "th-TH": "Ethereal Gem Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมทักษะโจมตี, เสริมลดความเสียหาย, เสริมโจมตีต่อเนื่อง"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "BaseAttackCountReduction",
+        "DamageReduction",
+        "Multistrike",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BaseAttackCountReduction, DamageReduction, Multistrike",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมทักษะโจมตี, เสริมลดความเสียหาย, เสริมโจมตีต่อเนื่อง"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190011-ethereal-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190021",
+      "slug": "1190021-chaos-diamond-effects",
+      "title": {
+        "th-TH": "Chaos Diamond Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมต้านทานธาตุทั้งหมด, ความเสียหายคริติคอล, เสริมจำนวนกระสุน"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "CriticalDamage",
+        "ProjectileCount",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมต้านทานธาตุทั้งหมด, ความเสียหายคริติคอล, เสริมจำนวนกระสุน"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190021-chaos-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200011",
+      "slug": "1200011-goblin-hide-effects",
+      "title": {
+        "th-TH": "Goblin Hide Effects"
+      },
+      "subtitle": {
+        "th-TH": "ความเร็วโจมตี, ต้านทานน้ำแข็ง, เสริมความเสียหายไฟ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ColdResistance, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "ความเร็วโจมตี, ต้านทานน้ำแข็ง, เสริมความเสียหายไฟ, ต้านทานไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200011-goblin-hide-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200021",
+      "slug": "1200021-skeleton-bone-effects",
+      "title": {
+        "th-TH": "Skeleton Bone Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, ความเร็วโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, ความเร็วโจมตี, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200021-skeleton-bone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200031",
+      "slug": "1200031-slime-jelly-effects",
+      "title": {
+        "th-TH": "Slime Jelly Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, ความเร็วโจมตี, โอกาสบล็อค"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, ความเร็วโจมตี, โอกาสบล็อค, โอกาสคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200031-slime-jelly-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210011",
+      "slug": "1210011-wolf-fang-effects",
+      "title": {
+        "th-TH": "Wolf Fang Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เสริมพื้นที่ส่งผล, เกราะ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "CriticalChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เสริมพื้นที่ส่งผล, เกราะ, พลังโจมตี"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210011-wolf-fang-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210021",
+      "slug": "1210021-spider-silk-effects",
+      "title": {
+        "th-TH": "Spider Silk Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, ต้านทานน้ำแข็ง, ลดเวลาคูลดาวน์"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "ColdResistance",
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, ต้านทานน้ำแข็ง, ลดเวลาคูลดาวน์, HP สูงสุด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210021-spider-silk-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210031",
+      "slug": "1210031-poisonous-herb-effects",
+      "title": {
+        "th-TH": "Poisonous Herb Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, พลังโจมตี, ดูดซับความเสียหาย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "DamageAbsorption",
+        "HpLeech",
+        "LightningDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, พลังโจมตี, ดูดซับความเสียหาย, เสริมดูดเลือด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210031-poisonous-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210041",
+      "slug": "1210041-healing-herb-effects",
+      "title": {
+        "th-TH": "Healing Herb Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เสริมความเสียหายเย็น, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "DodgeChance",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ColdDamagePercent, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เสริมความเสียหายเย็น, โอกาสคริติคอล, โอกาสหลบ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210041-healing-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220011",
+      "slug": "1220011-bat-wing-membrane-effects",
+      "title": {
+        "th-TH": "Bat Wing Membrane Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, ความเสียหายคริติคอล, เสริมลดความเสียหาย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "CriticalDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, ความเสียหายคริติคอล, เสริมลดความเสียหาย, เสริมความเสียหายไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220011-bat-wing-membrane-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220021",
+      "slug": "1220021-ogre-blood-effects",
+      "title": {
+        "th-TH": "Ogre Blood Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, พลังโจมตี, ต้านทานน้ำแข็ง"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122002.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, พลังโจมตี, ต้านทานน้ำแข็ง, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220021-ogre-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220031",
+      "slug": "1220031-mushroom-spore-effects",
+      "title": {
+        "th-TH": "Mushroom Spore Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, โอกาสบล็อค, ลดเวลาคูลดาวน์"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122003.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, โอกาสบล็อค, ลดเวลาคูลดาวน์, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220031-mushroom-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220041",
+      "slug": "1220041-ancient-tree-sap-effects",
+      "title": {
+        "th-TH": "Ancient Tree Sap Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, ความเร็วโจมตี, ความเสียหายคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "CriticalDamage",
+        "DamageReduction",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, ความเร็วโจมตี, ความเสียหายคริติคอล, เสริมลดความเสียหาย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220041-ancient-tree-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230011",
+      "slug": "1230011-skull-effects",
+      "title": {
+        "th-TH": "Skull Effects"
+      },
+      "subtitle": {
+        "th-TH": "เร็วร่าย, เสริมต้านทานเคออส, ลดเวลาคูลดาวน์"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalDamage",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, ChaosResistance, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เร็วร่าย, เสริมต้านทานเคออส, ลดเวลาคูลดาวน์, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230011-skull-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230021",
+      "slug": "1230021-harpy-feather-effects",
+      "title": {
+        "th-TH": "Harpy Feather Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, โอกาสบล็อค, เสริมลดความเสียหาย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "DamageReduction",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, โอกาสบล็อค, เสริมลดความเสียหาย, เสริมความเสียหายไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230021-harpy-feather-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230031",
+      "slug": "1230031-mandrake-root-effects",
+      "title": {
+        "th-TH": "Mandrake Root Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, ต้านทานน้ำแข็ง, เสริมความเสียหายไฟ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "FireDamagePercent",
+        "HpLeech",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, ต้านทานน้ำแข็ง, เสริมความเสียหายไฟ, เสริมดูดเลือด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230031-mandrake-root-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230041",
+      "slug": "1230041-nightshade-extract-effects",
+      "title": {
+        "th-TH": "Nightshade Extract Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, พลังโจมตี, ต้านทานน้ำแข็ง"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "AttackDamage",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, พลังโจมตี, ต้านทานน้ำแข็ง, โอกาสคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230041-nightshade-extract-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240011",
+      "slug": "1240011-basilisk-scale-effects",
+      "title": {
+        "th-TH": "Basilisk Scale Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เร็วร่าย, เสริมลดความเสียหาย"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "DamageReduction",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, DamageReduction, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เร็วร่าย, เสริมลดความเสียหาย, เสริมดูดเลือด"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240011-basilisk-scale-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240021",
+      "slug": "1240021-wyvern-claw-effects",
+      "title": {
+        "th-TH": "Wyvern Claw Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, เสริมความเสียหายเย็น"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, เสริมความเสียหายเย็น, ต้านทานน้ำแข็ง"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240021-wyvern-claw-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240031",
+      "slug": "1240031-dice-effects",
+      "title": {
+        "th-TH": "Dice Effects"
+      },
+      "subtitle": {
+        "th-TH": "โอกาสบล็อค, เสริมความเสียหายเย็น, ลดเวลาคูลดาวน์"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "BlockChance",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BlockChance, ColdDamagePercent, CooldownReduction, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "โอกาสบล็อค, เสริมความเสียหายเย็น, ลดเวลาคูลดาวน์, ดูดซับความเสียหาย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240031-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240041",
+      "slug": "1240041-demon-blood-effects",
+      "title": {
+        "th-TH": "Demon Blood Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, โอกาสบล็อค, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CriticalChance",
+        "DodgeChance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, โอกาสบล็อค, โอกาสคริติคอล, โอกาสหลบ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240041-demon-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250011",
+      "slug": "1250011-minotaur-horn-effects",
+      "title": {
+        "th-TH": "Minotaur Horn Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, ความเร็วโจมตี, เสริมความเสียหายเย็น"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, ความเร็วโจมตี, เสริมความเสียหายเย็น, ลดเวลาคูลดาวน์"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250011-minotaur-horn-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250021",
+      "slug": "1250021-griffin-beak-effects",
+      "title": {
+        "th-TH": "Griffin Beak Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เร็วร่าย, เสริมความเสียหายเย็น"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "CriticalDamage",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, ColdDamagePercent, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เร็วร่าย, เสริมความเสียหายเย็น, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250021-griffin-beak-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250031",
+      "slug": "1250031-phoenix-ash-effects",
+      "title": {
+        "th-TH": "Phoenix Ash Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, ความเร็วโจมตี, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "CriticalChance",
+        "CriticalDamage",
+        "DamageAbsorption",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, ความเร็วโจมตี, โอกาสคริติคอล, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250031-phoenix-ash-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250041",
+      "slug": "1250041-dragon-bile-effects",
+      "title": {
+        "th-TH": "Dragon Bile Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, โอกาสบล็อค, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, โอกาสบล็อค, โอกาสคริติคอล, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250041-dragon-bile-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260011",
+      "slug": "1260011-wraith-essence-effects",
+      "title": {
+        "th-TH": "Wraith Essence Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, โอกาสบล็อค, ความเสียหายคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, โอกาสบล็อค, ความเสียหายคริติคอล, เสริมความเสียหายไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260011-wraith-essence-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260021",
+      "slug": "1260021-kraken-ink-effects",
+      "title": {
+        "th-TH": "Kraken Ink Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เสริมพื้นที่ส่งผล, พลังโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdDamagePercent",
+        "DodgeChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เสริมพื้นที่ส่งผล, พลังโจมตี, เสริมความเสียหายเย็น"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260021-kraken-ink-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260031",
+      "slug": "1260031-titan-marrow-effects",
+      "title": {
+        "th-TH": "Titan Marrow Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เสริมลดความเสียหาย, เสริมความเสียหายไฟ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, DamageReduction, FireDamagePercent, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เสริมลดความเสียหาย, เสริมความเสียหายไฟ, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260031-titan-marrow-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260041",
+      "slug": "1260041-void-ichor-effects",
+      "title": {
+        "th-TH": "Void Ichor Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, ต้านทานน้ำแข็ง, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "CriticalChance",
+        "DamageReduction",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, ต้านทานน้ำแข็ง, โอกาสคริติคอล, เสริมลดความเสียหาย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260041-void-ichor-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270011",
+      "slug": "1270011-abyssal-mucus-effects",
+      "title": {
+        "th-TH": "Abyssal Mucus Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, ความเร็วโจมตี, โอกาสบล็อค"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "FireDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, ความเร็วโจมตี, โอกาสบล็อค, ลดเวลาคูลดาวน์"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270011-abyssal-mucus-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270021",
+      "slug": "1270021-chaos-spore-effects",
+      "title": {
+        "th-TH": "Chaos Spore Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เสริมต้านทานเคออส, ต้านทานน้ำแข็ง"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ChaosResistance, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เสริมต้านทานเคออส, ต้านทานน้ำแข็ง, เสริมฟื้น HP"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270021-chaos-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280011",
+      "slug": "1280011-primordial-sap-effects",
+      "title": {
+        "th-TH": "Primordial Sap Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, เร็วร่าย, เสริมต้านทานเคออส"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AreaOfEffect",
+        "CastSpeed",
+        "ChaosResistance",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, เร็วร่าย, เสริมต้านทานเคออส, เสริมความเสียหายไฟ"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280011-primordial-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280021",
+      "slug": "1280021-eldritch-venom-effects",
+      "title": {
+        "th-TH": "Eldritch Venom Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, ความเร็วโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, ความเร็วโจมตี, โอกาสบล็อค"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280021-eldritch-venom-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290011",
+      "slug": "1290011-chaso-dice-effects",
+      "title": {
+        "th-TH": "Chaso Dice Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, เร็วร่าย, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, เร็วร่าย, โอกาสคริติคอล, ดูดซับความเสียหาย"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290011-chaso-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290021",
+      "slug": "1290021-void-tendril-effects",
+      "title": {
+        "th-TH": "Void Tendril Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, ลดเวลาคูลดาวน์, โอกาสคริติคอล"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, ลดเวลาคูลดาวน์, โอกาสคริติคอล, ความเสียหายคริติคอล"
+        },
+        "gearType": {
+          "th-TH": "Accessory, เกราะ, Weapon"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290021-void-tendril-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1300011",
+      "slug": "1300011-scroll-of-common-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Common Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เพิ่ม HP ต่อการสังหาร, เสริมพื้นที่ส่งผล, เกราะ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_130001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เพิ่ม HP ต่อการสังหาร, เสริมพื้นที่ส่งผล, เกราะ, พลังโจมตี"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1300011-scroll-of-common-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1310011",
+      "slug": "1310011-scroll-of-uncommon-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Uncommon Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "พลังโจมตี, โอกาสบล็อค, เสริมความเสียหายเย็น"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_131001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "พลังโจมตี, โอกาสบล็อค, เสริมความเสียหายเย็น, ต้านทานน้ำแข็ง"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1310011-scroll-of-uncommon-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1320011",
+      "slug": "1320011-scroll-of-rare-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Rare Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เสริมพื้นที่ส่งผล, เกราะ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_132001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdResistance",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เสริมพื้นที่ส่งผล, เกราะ, พลังโจมตี"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1320011-scroll-of-rare-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1330011",
+      "slug": "1330011-scroll-of-legendary-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Legendary Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, พลังโจมตี, โอกาสบล็อค"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_133001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, พลังโจมตี, โอกาสบล็อค, เสริมความเสียหายเย็น"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1330011-scroll-of-legendary-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1340011",
+      "slug": "1340011-scroll-of-immortal-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Immortal Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมพื้นที่ส่งผล, พลังโจมตี, ความเร็วโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_134001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมพื้นที่ส่งผล, พลังโจมตี, ความเร็วโจมตี, เร็วร่าย"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1340011-scroll-of-immortal-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1350011",
+      "slug": "1350011-scroll-of-arcana-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Arcana Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, พลังโจมตี, เสริมต้านทานเคออส"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_135001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "HpRegenPerSec",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, พลังโจมตี, เสริมต้านทานเคออส, ต้านทานน้ำแข็ง"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1350011-scroll-of-arcana-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1360011",
+      "slug": "1360011-scroll-of-beyond-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Beyond Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เพิ่ม HP ต่อการสังหาร, เสริมพื้นที่ส่งผล, เกราะ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_136001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เพิ่ม HP ต่อการสังหาร, เสริมพื้นที่ส่งผล, เกราะ, พลังโจมตี"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1360011-scroll-of-beyond-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1370011",
+      "slug": "1370011-scroll-of-celestial-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Celestial Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, พลังโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_137001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมHP ต่อการโจมตี, เกราะ, พลังโจมตี, เสริมต้านทานเคออส"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1370011-scroll-of-celestial-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1380011",
+      "slug": "1380011-scroll-of-divine-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Divine Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เกราะ, พลังโจมตี, ความเร็วโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_138001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เกราะ, พลังโจมตี, ความเร็วโจมตี, เร็วร่าย"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1380011-scroll-of-divine-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1390011",
+      "slug": "1390011-scroll-of-cosmic-inscription-effects",
+      "title": {
+        "th-TH": "Scroll of Cosmic Inscription Effects"
+      },
+      "subtitle": {
+        "th-TH": "เสริมต้านทานธาตุทั้งหมด, เสริมพื้นที่ส่งผล, พลังโจมตี"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_139001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "th-TH": "เสริมต้านทานธาตุทั้งหมด, เสริมพื้นที่ส่งผล, พลังโจมตี, ความเร็วโจมตี"
+        },
+        "gearType": {
+          "th-TH": "ธรรมดา"
+        }
+      },
+      "detailPath": "/generated/details/effects/1390011-scroll-of-cosmic-inscription-effects.json",
+      "tooltip": null
+    }
+  ]
+}

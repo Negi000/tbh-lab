@@ -3,12 +3,40 @@
   "entityId": "passive-501052",
   "slug": "passive-501052-area-of-effect-enhancement",
   "title": {
-    "ja": "効果範囲強化",
-    "en": "Area of Effect Enhancement"
+    "de-DE": "Wirkungsbereich-Verstärkung",
+    "en-US": "Area of Effect Enhancement",
+    "es-ES": "Mejora de Área de Efecto",
+    "fr-FR": "Amélioration de Zone d'Effet",
+    "id-ID": "Peningkatan Area Efek",
+    "ja-JP": "効果範囲強化",
+    "ko-KR": "효과 범위 강화",
+    "pl-PL": "Wzmocnienie Obszar Działania",
+    "pt-BR": "Aprimoramento de Área de Efeito",
+    "ru-RU": "Усиление Обл. действия",
+    "th-TH": "เสริมพื้นที่ส่งผล",
+    "tr-TR": "Geliştirme Etki Alanı",
+    "uk-UA": "Посилення Обл. дії",
+    "vi-VN": "Tăng cường Phạm vi ảnh hưởng",
+    "zh-Hans": "效果范围强化",
+    "zh-Hant": "效果範圍強化"
   },
   "subtitle": {
-    "ja": "効果範囲30%増加",
-    "en": "30% Increased Area of Effect"
+    "de-DE": "30% Erhöhter Wirkungsbereich",
+    "en-US": "30% Increased Area of Effect",
+    "es-ES": "30% Aumento de Área de Efecto",
+    "fr-FR": "Zone d'Effet augmenté de 30%",
+    "id-ID": "30% Peningkatan Area Efek",
+    "ja-JP": "効果範囲30%増加",
+    "ko-KR": "효과 범위 30% 증가",
+    "pl-PL": "30% Zwiększony Obszar Działania",
+    "pt-BR": "30% Aumento de Área de Efeito",
+    "ru-RU": "+30% к Обл. действия",
+    "th-TH": "พื้นที่มีผลเพิ่ม 30%",
+    "tr-TR": "%30 Artan Etki Alanı",
+    "uk-UA": "+30% до Обл. дії",
+    "vi-VN": "Tăng 30% Phạm Vi Hiệu Ứng",
+    "zh-Hans": "效果范围提高30%",
+    "zh-Hant": "效果範圍提高30%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "効果範囲強化",
-        "en": "Area of Effect Enhancement"
+        "de-DE": "Wirkungsbereich-Verstärkung",
+        "en-US": "Area of Effect Enhancement",
+        "es-ES": "Mejora de Área de Efecto",
+        "fr-FR": "Amélioration de Zone d'Effet",
+        "id-ID": "Peningkatan Area Efek",
+        "ja-JP": "効果範囲強化",
+        "ko-KR": "효과 범위 강화",
+        "pl-PL": "Wzmocnienie Obszar Działania",
+        "pt-BR": "Aprimoramento de Área de Efeito",
+        "ru-RU": "Усиление Обл. действия",
+        "th-TH": "เสริมพื้นที่ส่งผล",
+        "tr-TR": "Geliştirme Etki Alanı",
+        "uk-UA": "Посилення Обл. дії",
+        "vi-VN": "Tăng cường Phạm vi ảnh hưởng",
+        "zh-Hans": "效果范围强化",
+        "zh-Hant": "效果範圍強化"
       }
     },
     {

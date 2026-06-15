@@ -3,12 +3,40 @@
   "entityId": "3152",
   "slug": "3152-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalExpActBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "アクトボス経験値",
-        "en": "Exp From Act Boss"
+        "de-DE": "EP vom Akt-Boss",
+        "en-US": "Exp From Act Boss",
+        "es-ES": "Exp del jefe de acto",
+        "fr-FR": "Exp du boss d'acte",
+        "id-ID": "Exp dari Boss Babak",
+        "ja-JP": "アクトボス経験値",
+        "ko-KR": "액트 보스 처치 시 획득 경험치",
+        "pl-PL": "Exp od bossa aktu",
+        "pt-BR": "Exp do chefe de ato",
+        "ru-RU": "Опыт с босса акта",
+        "th-TH": "Exp จากบอส Act",
+        "tr-TR": "Bölüm Bossundan Tecrübe",
+        "uk-UA": "Досвід з боса акту",
+        "vi-VN": "KN từ Boss Hồi",
+        "zh-Hans": "幕首领经验",
+        "zh-Hant": "幕首領經驗"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "アクトボス経験値 +2000",
-            "en": "Exp From Act Boss Kill +2000"
+            "de-DE": "EP vom Akt-Boss +2000",
+            "en-US": "Exp From Act Boss Kill +2000",
+            "es-ES": "Exp del jefe de acto +2000",
+            "fr-FR": "Exp du boss d'acte +2000",
+            "id-ID": "Exp dari Boss Babak +2000",
+            "ja-JP": "アクトボス経験値 +2000",
+            "ko-KR": "액트 보스 처치 시 경험치 +2000",
+            "pl-PL": "Exp od bossa aktu +2000",
+            "pt-BR": "Exp do chefe de ato +2000",
+            "ru-RU": "Опыт с босса акта +2000",
+            "th-TH": "Exp จากบอส Act +2000",
+            "tr-TR": "Bölüm Bossundan Tecrübe +2000",
+            "uk-UA": "Досвід з боса акту +2000",
+            "vi-VN": "KN từ Boss Hồi +2000",
+            "zh-Hans": "幕首领经验 +2000",
+            "zh-Hant": "幕首領經驗 +2000"
           },
           {
-            "ja": "10000000 ゴールド",
-            "en": "10000000 Gold"
+            "de-DE": "10000000 Gold",
+            "en-US": "10000000 Gold",
+            "es-ES": "10000000 Gold",
+            "fr-FR": "10000000 Gold",
+            "id-ID": "10000000 Gold",
+            "ja-JP": "10000000 ゴールド",
+            "ko-KR": "10000000 Gold",
+            "pl-PL": "10000000 Gold",
+            "pt-BR": "10000000 Gold",
+            "ru-RU": "10000000 Gold",
+            "th-TH": "10000000 Gold",
+            "tr-TR": "10000000 Gold",
+            "uk-UA": "10000000 Gold",
+            "vi-VN": "10000000 Gold",
+            "zh-Hans": "10000000 Gold",
+            "zh-Hant": "10000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "アクトボス経験値 +2000",
-            "en": "Exp From Act Boss Kill +2000"
+            "de-DE": "EP vom Akt-Boss +2000",
+            "en-US": "Exp From Act Boss Kill +2000",
+            "es-ES": "Exp del jefe de acto +2000",
+            "fr-FR": "Exp du boss d'acte +2000",
+            "id-ID": "Exp dari Boss Babak +2000",
+            "ja-JP": "アクトボス経験値 +2000",
+            "ko-KR": "액트 보스 처치 시 경험치 +2000",
+            "pl-PL": "Exp od bossa aktu +2000",
+            "pt-BR": "Exp do chefe de ato +2000",
+            "ru-RU": "Опыт с босса акта +2000",
+            "th-TH": "Exp จากบอส Act +2000",
+            "tr-TR": "Bölüm Bossundan Tecrübe +2000",
+            "uk-UA": "Досвід з боса акту +2000",
+            "vi-VN": "KN từ Boss Hồi +2000",
+            "zh-Hans": "幕首领经验 +2000",
+            "zh-Hant": "幕首領經驗 +2000"
           },
           {
-            "ja": "20000000 ゴールド",
-            "en": "20000000 Gold"
+            "de-DE": "20000000 Gold",
+            "en-US": "20000000 Gold",
+            "es-ES": "20000000 Gold",
+            "fr-FR": "20000000 Gold",
+            "id-ID": "20000000 Gold",
+            "ja-JP": "20000000 ゴールド",
+            "ko-KR": "20000000 Gold",
+            "pl-PL": "20000000 Gold",
+            "pt-BR": "20000000 Gold",
+            "ru-RU": "20000000 Gold",
+            "th-TH": "20000000 Gold",
+            "tr-TR": "20000000 Gold",
+            "uk-UA": "20000000 Gold",
+            "vi-VN": "20000000 Gold",
+            "zh-Hans": "20000000 Gold",
+            "zh-Hant": "20000000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "アクトボス経験値 +2000",
-            "en": "Exp From Act Boss Kill +2000"
+            "de-DE": "EP vom Akt-Boss +2000",
+            "en-US": "Exp From Act Boss Kill +2000",
+            "es-ES": "Exp del jefe de acto +2000",
+            "fr-FR": "Exp du boss d'acte +2000",
+            "id-ID": "Exp dari Boss Babak +2000",
+            "ja-JP": "アクトボス経験値 +2000",
+            "ko-KR": "액트 보스 처치 시 경험치 +2000",
+            "pl-PL": "Exp od bossa aktu +2000",
+            "pt-BR": "Exp do chefe de ato +2000",
+            "ru-RU": "Опыт с босса акта +2000",
+            "th-TH": "Exp จากบอส Act +2000",
+            "tr-TR": "Bölüm Bossundan Tecrübe +2000",
+            "uk-UA": "Досвід з боса акту +2000",
+            "vi-VN": "KN từ Boss Hồi +2000",
+            "zh-Hans": "幕首领经验 +2000",
+            "zh-Hant": "幕首領經驗 +2000"
           },
           {
-            "ja": "30000000 ゴールド",
-            "en": "30000000 Gold"
+            "de-DE": "30000000 Gold",
+            "en-US": "30000000 Gold",
+            "es-ES": "30000000 Gold",
+            "fr-FR": "30000000 Gold",
+            "id-ID": "30000000 Gold",
+            "ja-JP": "30000000 ゴールド",
+            "ko-KR": "30000000 Gold",
+            "pl-PL": "30000000 Gold",
+            "pt-BR": "30000000 Gold",
+            "ru-RU": "30000000 Gold",
+            "th-TH": "30000000 Gold",
+            "tr-TR": "30000000 Gold",
+            "uk-UA": "30000000 Gold",
+            "vi-VN": "30000000 Gold",
+            "zh-Hans": "30000000 Gold",
+            "zh-Hant": "30000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "アクトボス経験値 +2000",
-            "en": "Exp From Act Boss Kill +2000"
+            "de-DE": "EP vom Akt-Boss +2000",
+            "en-US": "Exp From Act Boss Kill +2000",
+            "es-ES": "Exp del jefe de acto +2000",
+            "fr-FR": "Exp du boss d'acte +2000",
+            "id-ID": "Exp dari Boss Babak +2000",
+            "ja-JP": "アクトボス経験値 +2000",
+            "ko-KR": "액트 보스 처치 시 경험치 +2000",
+            "pl-PL": "Exp od bossa aktu +2000",
+            "pt-BR": "Exp do chefe de ato +2000",
+            "ru-RU": "Опыт с босса акта +2000",
+            "th-TH": "Exp จากบอส Act +2000",
+            "tr-TR": "Bölüm Bossundan Tecrübe +2000",
+            "uk-UA": "Досвід з боса акту +2000",
+            "vi-VN": "KN từ Boss Hồi +2000",
+            "zh-Hans": "幕首领经验 +2000",
+            "zh-Hant": "幕首領經驗 +2000"
           },
           {
-            "ja": "40000000 ゴールド",
-            "en": "40000000 Gold"
+            "de-DE": "40000000 Gold",
+            "en-US": "40000000 Gold",
+            "es-ES": "40000000 Gold",
+            "fr-FR": "40000000 Gold",
+            "id-ID": "40000000 Gold",
+            "ja-JP": "40000000 ゴールド",
+            "ko-KR": "40000000 Gold",
+            "pl-PL": "40000000 Gold",
+            "pt-BR": "40000000 Gold",
+            "ru-RU": "40000000 Gold",
+            "th-TH": "40000000 Gold",
+            "tr-TR": "40000000 Gold",
+            "uk-UA": "40000000 Gold",
+            "vi-VN": "40000000 Gold",
+            "zh-Hans": "40000000 Gold",
+            "zh-Hant": "40000000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "アクトボス経験値 +2000",
-            "en": "Exp From Act Boss Kill +2000"
+            "de-DE": "EP vom Akt-Boss +2000",
+            "en-US": "Exp From Act Boss Kill +2000",
+            "es-ES": "Exp del jefe de acto +2000",
+            "fr-FR": "Exp du boss d'acte +2000",
+            "id-ID": "Exp dari Boss Babak +2000",
+            "ja-JP": "アクトボス経験値 +2000",
+            "ko-KR": "액트 보스 처치 시 경험치 +2000",
+            "pl-PL": "Exp od bossa aktu +2000",
+            "pt-BR": "Exp do chefe de ato +2000",
+            "ru-RU": "Опыт с босса акта +2000",
+            "th-TH": "Exp จากบอส Act +2000",
+            "tr-TR": "Bölüm Bossundan Tecrübe +2000",
+            "uk-UA": "Досвід з боса акту +2000",
+            "vi-VN": "KN từ Boss Hồi +2000",
+            "zh-Hans": "幕首领经验 +2000",
+            "zh-Hant": "幕首領經驗 +2000"
           },
           {
-            "ja": "50000000 ゴールド",
-            "en": "50000000 Gold"
+            "de-DE": "50000000 Gold",
+            "en-US": "50000000 Gold",
+            "es-ES": "50000000 Gold",
+            "fr-FR": "50000000 Gold",
+            "id-ID": "50000000 Gold",
+            "ja-JP": "50000000 ゴールド",
+            "ko-KR": "50000000 Gold",
+            "pl-PL": "50000000 Gold",
+            "pt-BR": "50000000 Gold",
+            "ru-RU": "50000000 Gold",
+            "th-TH": "50000000 Gold",
+            "tr-TR": "50000000 Gold",
+            "uk-UA": "50000000 Gold",
+            "vi-VN": "50000000 Gold",
+            "zh-Hans": "50000000 Gold",
+            "zh-Hant": "50000000 Gold"
           }
         ]
       ]

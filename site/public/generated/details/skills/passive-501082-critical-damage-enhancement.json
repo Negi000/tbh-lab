@@ -3,12 +3,40 @@
   "entityId": "passive-501082",
   "slug": "passive-501082-critical-damage-enhancement",
   "title": {
-    "ja": "クリティカルダメージ強化",
-    "en": "Critical Damage Enhancement"
+    "de-DE": "Kritischer-Schaden-Verstärkung",
+    "en-US": "Critical Damage Enhancement",
+    "es-ES": "Mejora de Daño Crítico",
+    "fr-FR": "Amélioration Dégâts Critiques",
+    "id-ID": "Peningkatan Kerusakan Kritis",
+    "ja-JP": "クリティカルダメージ強化",
+    "ko-KR": "치명타 데미지 강화",
+    "pl-PL": "Wzmocnienie Obrażeń Krytycznych",
+    "pt-BR": "Aprimoramento de Dano Crítico",
+    "ru-RU": "Усиление крит. урона",
+    "th-TH": "เสริมความเสียหายคริติคอล",
+    "tr-TR": "Kritik Hasarı Güçlendirme",
+    "uk-UA": "Посилення крит. шкоди",
+    "vi-VN": "Tăng cường Sát thương chí mạng",
+    "zh-Hans": "暴击伤害强化",
+    "zh-Hant": "爆擊傷害強化"
   },
   "subtitle": {
-    "ja": "クリティカル威力 +150%",
-    "en": "Critical Damage +150%"
+    "de-DE": "Krit. Schaden +150%",
+    "en-US": "Critical Damage +150%",
+    "es-ES": "Daño Crítico +150%",
+    "fr-FR": "Dégâts Crit. +150%",
+    "id-ID": "Damage Kritis +150%",
+    "ja-JP": "クリティカル威力 +150%",
+    "ko-KR": "치명타 데미지 +150%",
+    "pl-PL": "Obrażenia Kryt. +150%",
+    "pt-BR": "Dano Crítico +150%",
+    "ru-RU": "Урон крита +150%",
+    "th-TH": "ดาเมจคริติคอล +150%",
+    "tr-TR": "Kritik Hasarı +150%",
+    "uk-UA": "Шкода крита +150%",
+    "vi-VN": "Sát Thương Chí Mạng +150%",
+    "zh-Hans": "暴击伤害 +150%",
+    "zh-Hant": "爆擊傷害 +150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "クリティカルダメージ",
-        "en": "Critical Damage"
+        "de-DE": "Kritischer Schaden",
+        "en-US": "Critical Damage",
+        "es-ES": "Daño crítico",
+        "fr-FR": "Dégâts critiques",
+        "id-ID": "Kerusakan Kritis",
+        "ja-JP": "クリティカルダメージ",
+        "ko-KR": "치명타 피해",
+        "pl-PL": "Obrażenia krytyczne",
+        "pt-BR": "Dano Crítico",
+        "ru-RU": "Критический урон",
+        "th-TH": "ความเสียหายคริติคอล",
+        "tr-TR": "Kritik Hasar",
+        "uk-UA": "Критична шкода",
+        "vi-VN": "Sát thương chí mạng",
+        "zh-Hans": "暴击伤害",
+        "zh-Hant": "暴擊傷害"
       }
     },
     {

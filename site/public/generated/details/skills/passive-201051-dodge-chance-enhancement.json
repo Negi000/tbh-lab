@@ -3,12 +3,40 @@
   "entityId": "passive-201051",
   "slug": "passive-201051-dodge-chance-enhancement",
   "title": {
-    "ja": "回避率強化",
-    "en": "Dodge Chance Enhancement"
+    "de-DE": "Ausweichchance-Verstärkung",
+    "en-US": "Dodge Chance Enhancement",
+    "es-ES": "Mejora de Prob. Esquiva",
+    "fr-FR": "Amélioration de Chance d'Esquive",
+    "id-ID": "Peningkatan Peluang Hindar",
+    "ja-JP": "回避率強化",
+    "ko-KR": "회피 확률 강화",
+    "pl-PL": "Wzmocnienie Szansa Uniku",
+    "pt-BR": "Aprimoramento de Chance de Esquiva",
+    "ru-RU": "Усиление Шанс уклон.",
+    "th-TH": "เสริมโอกาสหลบ",
+    "tr-TR": "Geliştirme Kaçınma Şansı",
+    "uk-UA": "Посилення Шанс ухиляння",
+    "vi-VN": "Tăng cường Tỷ lệ né",
+    "zh-Hans": "闪避几率强化",
+    "zh-Hant": "閃避機率強化"
   },
   "subtitle": {
-    "ja": "回避率 +30%",
-    "en": "Dodge Chance +30%"
+    "de-DE": "Ausweichchance +30%",
+    "en-US": "Dodge Chance +30%",
+    "es-ES": "Prob. Esquiva +30%",
+    "fr-FR": "Chance d'Esquive +30%",
+    "id-ID": "Peluang Hindar +30%",
+    "ja-JP": "回避率 +30%",
+    "ko-KR": "회피 확률 +30%",
+    "pl-PL": "Szansa Uniku +30%",
+    "pt-BR": "Chance de Esquiva +30%",
+    "ru-RU": "Шанс уклон. +30%",
+    "th-TH": "โอกาสหลบ +30%",
+    "tr-TR": "Kaçınma Şansı +30%",
+    "uk-UA": "Шанс ухиляння +30%",
+    "vi-VN": "Tỉ Lệ Né +30%",
+    "zh-Hans": "闪避几率 +30%",
+    "zh-Hant": "閃避機率 +30%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "回避率",
-        "en": "Dodge Chance"
+        "de-DE": "Ausweichschance",
+        "en-US": "Dodge Chance",
+        "es-ES": "Probabilidad de Esquivar",
+        "fr-FR": "Chance d'Esquive",
+        "id-ID": "Peluang Menghindar",
+        "ja-JP": "回避率",
+        "ko-KR": "회피 확률",
+        "pl-PL": "Szansa na Unik",
+        "pt-BR": "Chance de Esquiva",
+        "ru-RU": "Шанс уклонения",
+        "th-TH": "โอกาสหลบ",
+        "tr-TR": "Kaçınma Şansı",
+        "uk-UA": "Шанс ухилення",
+        "vi-VN": "Tỷ lệ né",
+        "zh-Hans": "闪避几率",
+        "zh-Hant": "閃避機率"
       }
     },
     {

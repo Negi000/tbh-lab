@@ -3,12 +3,40 @@
   "entityId": "passive-401082",
   "slug": "passive-401082-skill-heal-enhancement",
   "title": {
-    "ja": "スキル回復量強化",
-    "en": "Skill Heal Enhancement"
+    "de-DE": "Skill-Heilung-Verstärkung",
+    "en-US": "Skill Heal Enhancement",
+    "es-ES": "Mejora de Curación",
+    "fr-FR": "Amélioration des Soins",
+    "id-ID": "Peningkatan Penyembuhan Skill",
+    "ja-JP": "スキル回復量強化",
+    "ko-KR": "스킬 회복량 강화",
+    "pl-PL": "Wzmocnienie Leczenia",
+    "pt-BR": "Aprimoramento de Cura",
+    "ru-RU": "Усиление лечения",
+    "th-TH": "เสริมฟื้นจากสกิล",
+    "tr-TR": "İyileşme Geliştirme",
+    "uk-UA": "Посилення лікування",
+    "vi-VN": "Tăng cường Hồi máu Kỹ năng",
+    "zh-Hans": "技能治疗强化",
+    "zh-Hant": "技能治療強化"
   },
   "subtitle": {
-    "ja": "スキル回復量70%増加",
-    "en": "70% Increased Skill Heal"
+    "de-DE": "70% erhöhte Skill-Heilung",
+    "en-US": "70% Increased Skill Heal",
+    "es-ES": "70% Aumento Curación",
+    "fr-FR": "70% Soins augmentés",
+    "id-ID": "70% Peningkatan Penyembuhan",
+    "ja-JP": "スキル回復量70%増加",
+    "ko-KR": "스킬 회복량 70% 증가",
+    "pl-PL": "70% zwiększenia leczenia",
+    "pt-BR": "70% Aumento Cura",
+    "ru-RU": "70% увеличения лечения",
+    "th-TH": "ฟื้นจากสกิลเพิ่ม 70%",
+    "tr-TR": "70% Artan İyileşme",
+    "uk-UA": "70% збільшення лікування",
+    "vi-VN": "Tăng 70% Hồi máu Kỹ năng",
+    "zh-Hans": "技能治疗提高70%",
+    "zh-Hant": "技能治療提高70%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "スキル回復量増加",
-        "en": "Skill Heal Increase"
+        "de-DE": "Fähigkeitsheilung erhöhen",
+        "en-US": "Skill Heal Increase",
+        "es-ES": "Aumentar Curación de Habilidad",
+        "fr-FR": "Augmenter les Soins de Compétence",
+        "id-ID": "Tingkatkan Penyembuhan Skill",
+        "ja-JP": "スキル回復量増加",
+        "ko-KR": "스킬 힐량 증가",
+        "pl-PL": "Zwiększ Leczenie Umiejętności",
+        "pt-BR": "Aumentar Cura de Habilidade",
+        "ru-RU": "Увеличить лечение умений",
+        "th-TH": "เพิ่มการฟื้น HP ของสกิล",
+        "tr-TR": "Yetenek İyileştirme Artışı",
+        "uk-UA": "Збільшити лікування умінь",
+        "vi-VN": "Tăng Hồi Của Kỹ Năng",
+        "zh-Hans": "增加技能治疗量",
+        "zh-Hant": "增加技能治療量"
       }
     },
     {

@@ -3,12 +3,40 @@
   "entityId": "2131",
   "slug": "2131-rune-of-alchemy",
   "title": {
-    "ja": "錬金のルーン",
-    "en": "Rune of Alchemy"
+    "de-DE": "Alchemie-Rune",
+    "en-US": "Rune of Alchemy",
+    "es-ES": "Runa de Alquimia",
+    "fr-FR": "Rune d'Alchimie",
+    "id-ID": "Rune Alkimia",
+    "ja-JP": "錬金のルーン",
+    "ko-KR": "연금의 룬",
+    "pl-PL": "Runa Alchemii",
+    "pt-BR": "Runa de Alquimia",
+    "ru-RU": "Руна алхимии",
+    "th-TH": "รูนแปรธาตุ",
+    "tr-TR": "Simya Runu",
+    "uk-UA": "Руна алхімії",
+    "vi-VN": "Rune Giả Kim",
+    "zh-Hans": "炼金符文",
+    "zh-Hant": "煉金符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": null,
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "キューブ錬金術ゴールド",
-        "en": "Gold From Cube Alchemy"
+        "de-DE": "Durch Würfel-Alchemie erhaltenes Gold",
+        "en-US": "Gold From Cube Alchemy",
+        "es-ES": "Oro de Alquimia del Cubo",
+        "fr-FR": "Or gagné d'Alchimie du Cube",
+        "id-ID": "Emas dari Alkimia Cube",
+        "ja-JP": "キューブ錬金術ゴールド",
+        "ko-KR": "큐브-연금술 골드 획득량",
+        "pl-PL": "Złoto z Alchemii Kostki",
+        "pt-BR": "Ouro ganho da Alquimia do Cubo",
+        "ru-RU": "Золото от алхимии куба",
+        "th-TH": "ทองจาก Cube Alchemy",
+        "tr-TR": "Küp Simyasından Altın",
+        "uk-UA": "Золото від алхімії куба",
+        "vi-VN": "Vàng Từ Giả Kim Khối",
+        "zh-Hans": "魔方炼金金币",
+        "zh-Hant": "魔方煉金金幣"
       }
     },
     {
@@ -77,34 +119,118 @@
         [
           1,
           {
-            "ja": "キューブ錬金術ゴールド100%増加",
-            "en": "100% Increased Gold From Cube Alchemy"
+            "de-DE": "100% Erhöhter Gold durch Würfel-Alchemie",
+            "en-US": "100% Increased Gold From Cube Alchemy",
+            "es-ES": "100% Aumento de Oro por Alquimia del Cubo",
+            "fr-FR": "Or par Alchimie du Cube augmenté de 100%",
+            "id-ID": "100% Peningkatan Emas dari Alkimia Cube",
+            "ja-JP": "キューブ錬金術ゴールド100%増加",
+            "ko-KR": "큐브 연금술로 획득하는 골드 100% 증가",
+            "pl-PL": "100% Zwiększony Złoto z Alchemii Kostki",
+            "pt-BR": "100% Aumento de Ouro da Alquimia do Cubo",
+            "ru-RU": "+100% к Золото от алхимии куба",
+            "th-TH": "ทองจาก Cube Alchemyเพิ่ม 100%",
+            "tr-TR": "%100 Artan Küp Simya Altını",
+            "uk-UA": "+100% до Золото від алхімії куба",
+            "vi-VN": "Tăng 100% Vàng từ Giả Kim Khối",
+            "zh-Hans": "魔方炼金金币提高100%",
+            "zh-Hant": "魔方煉金金幣提高100%"
           },
           {
-            "ja": "5000000 ゴールド",
-            "en": "5000000 Gold"
+            "de-DE": "5000000 Gold",
+            "en-US": "5000000 Gold",
+            "es-ES": "5000000 Gold",
+            "fr-FR": "5000000 Gold",
+            "id-ID": "5000000 Gold",
+            "ja-JP": "5000000 ゴールド",
+            "ko-KR": "5000000 Gold",
+            "pl-PL": "5000000 Gold",
+            "pt-BR": "5000000 Gold",
+            "ru-RU": "5000000 Gold",
+            "th-TH": "5000000 Gold",
+            "tr-TR": "5000000 Gold",
+            "uk-UA": "5000000 Gold",
+            "vi-VN": "5000000 Gold",
+            "zh-Hans": "5000000 Gold",
+            "zh-Hant": "5000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "キューブ錬金術ゴールド100%増加",
-            "en": "100% Increased Gold From Cube Alchemy"
+            "de-DE": "100% Erhöhter Gold durch Würfel-Alchemie",
+            "en-US": "100% Increased Gold From Cube Alchemy",
+            "es-ES": "100% Aumento de Oro por Alquimia del Cubo",
+            "fr-FR": "Or par Alchimie du Cube augmenté de 100%",
+            "id-ID": "100% Peningkatan Emas dari Alkimia Cube",
+            "ja-JP": "キューブ錬金術ゴールド100%増加",
+            "ko-KR": "큐브 연금술로 획득하는 골드 100% 증가",
+            "pl-PL": "100% Zwiększony Złoto z Alchemii Kostki",
+            "pt-BR": "100% Aumento de Ouro da Alquimia do Cubo",
+            "ru-RU": "+100% к Золото от алхимии куба",
+            "th-TH": "ทองจาก Cube Alchemyเพิ่ม 100%",
+            "tr-TR": "%100 Artan Küp Simya Altını",
+            "uk-UA": "+100% до Золото від алхімії куба",
+            "vi-VN": "Tăng 100% Vàng từ Giả Kim Khối",
+            "zh-Hans": "魔方炼金金币提高100%",
+            "zh-Hant": "魔方煉金金幣提高100%"
           },
           {
-            "ja": "7000000 ゴールド",
-            "en": "7000000 Gold"
+            "de-DE": "7000000 Gold",
+            "en-US": "7000000 Gold",
+            "es-ES": "7000000 Gold",
+            "fr-FR": "7000000 Gold",
+            "id-ID": "7000000 Gold",
+            "ja-JP": "7000000 ゴールド",
+            "ko-KR": "7000000 Gold",
+            "pl-PL": "7000000 Gold",
+            "pt-BR": "7000000 Gold",
+            "ru-RU": "7000000 Gold",
+            "th-TH": "7000000 Gold",
+            "tr-TR": "7000000 Gold",
+            "uk-UA": "7000000 Gold",
+            "vi-VN": "7000000 Gold",
+            "zh-Hans": "7000000 Gold",
+            "zh-Hant": "7000000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "キューブ錬金術ゴールド100%増加",
-            "en": "100% Increased Gold From Cube Alchemy"
+            "de-DE": "100% Erhöhter Gold durch Würfel-Alchemie",
+            "en-US": "100% Increased Gold From Cube Alchemy",
+            "es-ES": "100% Aumento de Oro por Alquimia del Cubo",
+            "fr-FR": "Or par Alchimie du Cube augmenté de 100%",
+            "id-ID": "100% Peningkatan Emas dari Alkimia Cube",
+            "ja-JP": "キューブ錬金術ゴールド100%増加",
+            "ko-KR": "큐브 연금술로 획득하는 골드 100% 증가",
+            "pl-PL": "100% Zwiększony Złoto z Alchemii Kostki",
+            "pt-BR": "100% Aumento de Ouro da Alquimia do Cubo",
+            "ru-RU": "+100% к Золото от алхимии куба",
+            "th-TH": "ทองจาก Cube Alchemyเพิ่ม 100%",
+            "tr-TR": "%100 Artan Küp Simya Altını",
+            "uk-UA": "+100% до Золото від алхімії куба",
+            "vi-VN": "Tăng 100% Vàng từ Giả Kim Khối",
+            "zh-Hans": "魔方炼金金币提高100%",
+            "zh-Hant": "魔方煉金金幣提高100%"
           },
           {
-            "ja": "10000000 ゴールド",
-            "en": "10000000 Gold"
+            "de-DE": "10000000 Gold",
+            "en-US": "10000000 Gold",
+            "es-ES": "10000000 Gold",
+            "fr-FR": "10000000 Gold",
+            "id-ID": "10000000 Gold",
+            "ja-JP": "10000000 ゴールド",
+            "ko-KR": "10000000 Gold",
+            "pl-PL": "10000000 Gold",
+            "pt-BR": "10000000 Gold",
+            "ru-RU": "10000000 Gold",
+            "th-TH": "10000000 Gold",
+            "tr-TR": "10000000 Gold",
+            "uk-UA": "10000000 Gold",
+            "vi-VN": "10000000 Gold",
+            "zh-Hans": "10000000 Gold",
+            "zh-Hant": "10000000 Gold"
           }
         ]
       ]

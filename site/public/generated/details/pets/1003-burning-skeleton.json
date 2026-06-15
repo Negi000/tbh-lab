@@ -3,12 +3,40 @@
   "entityId": "1003",
   "slug": "1003-burning-skeleton",
   "title": {
-    "ja": "燃える骸骨",
-    "en": "Burning Skeleton"
+    "de-DE": "Brennendes Skelett",
+    "en-US": "Burning Skeleton",
+    "es-ES": "Esqueleto Ardiente",
+    "fr-FR": "Squelette Brûlant",
+    "id-ID": "Tengkorak Membara",
+    "ja-JP": "燃える骸骨",
+    "ko-KR": "불타는 해골",
+    "pl-PL": "Płonący Szkielet",
+    "pt-BR": "Esqueleto Ardente",
+    "ru-RU": "Горящий скелет",
+    "th-TH": "โครงกระดูกเพลิง",
+    "tr-TR": "Yanan İskelet",
+    "uk-UA": "Палаючий скелет",
+    "vi-VN": "Bộ Xương Cháy",
+    "zh-Hans": "燃烧骷髅",
+    "zh-Hant": "燃燒骷髏"
   },
   "subtitle": {
-    "ja": "KillMonster 火の精霊",
-    "en": "KillMonster Fire Elemental"
+    "de-DE": "KillMonster Fire Elemental",
+    "en-US": "KillMonster Fire Elemental",
+    "es-ES": "KillMonster Fire Elemental",
+    "fr-FR": "KillMonster Fire Elemental",
+    "id-ID": "KillMonster Fire Elemental",
+    "ja-JP": "KillMonster 火の精霊",
+    "ko-KR": "KillMonster Fire Elemental",
+    "pl-PL": "KillMonster Fire Elemental",
+    "pt-BR": "KillMonster Fire Elemental",
+    "ru-RU": "KillMonster Fire Elemental",
+    "th-TH": "KillMonster Fire Elemental",
+    "tr-TR": "KillMonster Fire Elemental",
+    "uk-UA": "KillMonster Fire Elemental",
+    "vi-VN": "KillMonster Fire Elemental",
+    "zh-Hans": "KillMonster Fire Elemental",
+    "zh-Hant": "KillMonster Fire Elemental"
   },
   "icon": "/generated/assets/game/ui/BG_Pet.png",
   "rarity": "RARE",
@@ -31,8 +59,22 @@
     {
       "labelKey": "field.name",
       "value": {
-        "ja": "火の精霊",
-        "en": "Fire Elemental"
+        "de-DE": "Feuerelementar",
+        "en-US": "Fire Elemental",
+        "es-ES": "Elemental de Fuego",
+        "fr-FR": "Élémentaire de Feu",
+        "id-ID": "Elemental Api",
+        "ja-JP": "火の精霊",
+        "ko-KR": "불의 정령",
+        "pl-PL": "Żywiołak Ognia",
+        "pt-BR": "Elemental de Fogo",
+        "ru-RU": "Огненный элементаль",
+        "th-TH": "ภูตไฟ",
+        "tr-TR": "Ateş Elementali",
+        "uk-UA": "Вогняний елементаль",
+        "vi-VN": "Tinh Linh Lửa",
+        "zh-Hans": "火元素",
+        "zh-Hant": "火元素"
       }
     }
   ],
@@ -87,8 +129,22 @@
       "rows": [
         [
           {
-            "ja": "トーメント 2-8",
-            "en": "Torment 2-8"
+            "de-DE": "Torment 2-8",
+            "en-US": "Torment 2-8",
+            "es-ES": "Torment 2-8",
+            "fr-FR": "Torment 2-8",
+            "id-ID": "Torment 2-8",
+            "ja-JP": "トーメント 2-8",
+            "ko-KR": "Torment 2-8",
+            "pl-PL": "Torment 2-8",
+            "pt-BR": "Torment 2-8",
+            "ru-RU": "Torment 2-8",
+            "th-TH": "Torment 2-8",
+            "tr-TR": "Torment 2-8",
+            "uk-UA": "Torment 2-8",
+            "vi-VN": "Torment 2-8",
+            "zh-Hans": "Torment 2-8",
+            "zh-Hant": "Torment 2-8"
           },
           "20%",
           89,
@@ -96,8 +152,22 @@
         ],
         [
           {
-            "ja": "ヘル 2-9",
-            "en": "Hell 2-9"
+            "de-DE": "Hell 2-9",
+            "en-US": "Hell 2-9",
+            "es-ES": "Hell 2-9",
+            "fr-FR": "Hell 2-9",
+            "id-ID": "Hell 2-9",
+            "ja-JP": "ヘル 2-9",
+            "ko-KR": "Hell 2-9",
+            "pl-PL": "Hell 2-9",
+            "pt-BR": "Hell 2-9",
+            "ru-RU": "Hell 2-9",
+            "th-TH": "Hell 2-9",
+            "tr-TR": "Hell 2-9",
+            "uk-UA": "Hell 2-9",
+            "vi-VN": "Hell 2-9",
+            "zh-Hans": "Hell 2-9",
+            "zh-Hant": "Hell 2-9"
           },
           "18.18%",
           69,
@@ -105,8 +175,22 @@
         ],
         [
           {
-            "ja": "トーメント 2-9",
-            "en": "Torment 2-9"
+            "de-DE": "Torment 2-9",
+            "en-US": "Torment 2-9",
+            "es-ES": "Torment 2-9",
+            "fr-FR": "Torment 2-9",
+            "id-ID": "Torment 2-9",
+            "ja-JP": "トーメント 2-9",
+            "ko-KR": "Torment 2-9",
+            "pl-PL": "Torment 2-9",
+            "pt-BR": "Torment 2-9",
+            "ru-RU": "Torment 2-9",
+            "th-TH": "Torment 2-9",
+            "tr-TR": "Torment 2-9",
+            "uk-UA": "Torment 2-9",
+            "vi-VN": "Torment 2-9",
+            "zh-Hans": "Torment 2-9",
+            "zh-Hant": "Torment 2-9"
           },
           "18.18%",
           90,
@@ -114,8 +198,22 @@
         ],
         [
           {
-            "ja": "ヘル 2-8",
-            "en": "Hell 2-8"
+            "de-DE": "Hell 2-8",
+            "en-US": "Hell 2-8",
+            "es-ES": "Hell 2-8",
+            "fr-FR": "Hell 2-8",
+            "id-ID": "Hell 2-8",
+            "ja-JP": "ヘル 2-8",
+            "ko-KR": "Hell 2-8",
+            "pl-PL": "Hell 2-8",
+            "pt-BR": "Hell 2-8",
+            "ru-RU": "Hell 2-8",
+            "th-TH": "Hell 2-8",
+            "tr-TR": "Hell 2-8",
+            "uk-UA": "Hell 2-8",
+            "vi-VN": "Hell 2-8",
+            "zh-Hans": "Hell 2-8",
+            "zh-Hant": "Hell 2-8"
           },
           "17.86%",
           68,
@@ -123,8 +221,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 2-8",
-            "en": "Nightmare 2-8"
+            "de-DE": "Nightmare 2-8",
+            "en-US": "Nightmare 2-8",
+            "es-ES": "Nightmare 2-8",
+            "fr-FR": "Nightmare 2-8",
+            "id-ID": "Nightmare 2-8",
+            "ja-JP": "ナイトメア 2-8",
+            "ko-KR": "Nightmare 2-8",
+            "pl-PL": "Nightmare 2-8",
+            "pt-BR": "Nightmare 2-8",
+            "ru-RU": "Nightmare 2-8",
+            "th-TH": "Nightmare 2-8",
+            "tr-TR": "Nightmare 2-8",
+            "uk-UA": "Nightmare 2-8",
+            "vi-VN": "Nightmare 2-8",
+            "zh-Hans": "Nightmare 2-8",
+            "zh-Hant": "Nightmare 2-8"
           },
           "16.67%",
           44,
@@ -132,8 +244,22 @@
         ],
         [
           {
-            "ja": "ナイトメア 2-9",
-            "en": "Nightmare 2-9"
+            "de-DE": "Nightmare 2-9",
+            "en-US": "Nightmare 2-9",
+            "es-ES": "Nightmare 2-9",
+            "fr-FR": "Nightmare 2-9",
+            "id-ID": "Nightmare 2-9",
+            "ja-JP": "ナイトメア 2-9",
+            "ko-KR": "Nightmare 2-9",
+            "pl-PL": "Nightmare 2-9",
+            "pt-BR": "Nightmare 2-9",
+            "ru-RU": "Nightmare 2-9",
+            "th-TH": "Nightmare 2-9",
+            "tr-TR": "Nightmare 2-9",
+            "uk-UA": "Nightmare 2-9",
+            "vi-VN": "Nightmare 2-9",
+            "zh-Hans": "Nightmare 2-9",
+            "zh-Hant": "Nightmare 2-9"
           },
           "15.09%",
           45,
@@ -141,8 +267,22 @@
         ],
         [
           {
-            "ja": "ノーマル 2-9",
-            "en": "Normal 2-9"
+            "de-DE": "Normal 2-9",
+            "en-US": "Normal 2-9",
+            "es-ES": "Normal 2-9",
+            "fr-FR": "Normal 2-9",
+            "id-ID": "Normal 2-9",
+            "ja-JP": "ノーマル 2-9",
+            "ko-KR": "Normal 2-9",
+            "pl-PL": "Normal 2-9",
+            "pt-BR": "Normal 2-9",
+            "ru-RU": "Normal 2-9",
+            "th-TH": "Normal 2-9",
+            "tr-TR": "Normal 2-9",
+            "uk-UA": "Normal 2-9",
+            "vi-VN": "Normal 2-9",
+            "zh-Hans": "Normal 2-9",
+            "zh-Hant": "Normal 2-9"
           },
           "8.163%",
           21,
@@ -150,8 +290,22 @@
         ],
         [
           {
-            "ja": "ノーマル 2-8",
-            "en": "Normal 2-8"
+            "de-DE": "Normal 2-8",
+            "en-US": "Normal 2-8",
+            "es-ES": "Normal 2-8",
+            "fr-FR": "Normal 2-8",
+            "id-ID": "Normal 2-8",
+            "ja-JP": "ノーマル 2-8",
+            "ko-KR": "Normal 2-8",
+            "pl-PL": "Normal 2-8",
+            "pt-BR": "Normal 2-8",
+            "ru-RU": "Normal 2-8",
+            "th-TH": "Normal 2-8",
+            "tr-TR": "Normal 2-8",
+            "uk-UA": "Normal 2-8",
+            "vi-VN": "Normal 2-8",
+            "zh-Hans": "Normal 2-8",
+            "zh-Hant": "Normal 2-8"
           },
           "4.762%",
           20,

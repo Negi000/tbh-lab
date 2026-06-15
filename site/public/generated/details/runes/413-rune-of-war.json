@@ -3,12 +3,40 @@
   "entityId": "413",
   "slug": "413-rune-of-war",
   "title": {
-    "ja": "戦争のルーン",
-    "en": "Rune of War"
+    "de-DE": "Kriegsrune",
+    "en-US": "Rune of War",
+    "es-ES": "Runa de Guerra",
+    "fr-FR": "Rune de Guerre",
+    "id-ID": "Rune Perang",
+    "ja-JP": "戦争のルーン",
+    "ko-KR": "전쟁의 룬",
+    "pl-PL": "Runa Wojny",
+    "pt-BR": "Runa de Guerra",
+    "ru-RU": "Руна войны",
+    "th-TH": "รูนสงคราม",
+    "tr-TR": "Savaş Runu",
+    "uk-UA": "Руна війни",
+    "vi-VN": "Rune Chiến Tranh",
+    "zh-Hans": "战争符文",
+    "zh-Hant": "戰爭符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamagePercent.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "全ヒーロー攻撃ダメージ",
-        "en": "All Hero Attack Damage"
+        "de-DE": "Angriffsschaden aller Helden",
+        "en-US": "All Hero Attack Damage",
+        "es-ES": "Daño de todos los Héroes",
+        "fr-FR": "Dégâts de tous les Héros",
+        "id-ID": "Damage Serangan Semua Hero",
+        "ja-JP": "全ヒーロー攻撃ダメージ",
+        "ko-KR": "전체 히어로 공격력",
+        "pl-PL": "Obr. wszystkich Bohaterów",
+        "pt-BR": "Dano de todos os Heróis",
+        "ru-RU": "Урон всех героев",
+        "th-TH": "ดาเมจฮีโร่ทั้งหมด",
+        "tr-TR": "Tüm Kahramanların Hasarı",
+        "uk-UA": "Шкода всіх героїв",
+        "vi-VN": "Sát Thương Tất Cả Hero",
+        "zh-Hans": "全英雄攻击伤害",
+        "zh-Hant": "全英雄攻擊傷害"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "狂乱のルーン",
-            "en": "Rune of Frenzy"
+            "de-DE": "Raserei-Rune",
+            "en-US": "Rune of Frenzy",
+            "es-ES": "Runa del Frenesí",
+            "fr-FR": "Rune de Frénésie",
+            "id-ID": "Rune Kalap",
+            "ja-JP": "狂乱のルーン",
+            "ko-KR": "광분의 룬",
+            "pl-PL": "Runa Szału",
+            "pt-BR": "Runa do Frenesi",
+            "ru-RU": "Руна безумия",
+            "th-TH": "รูนคลุ้มคลั่ง",
+            "tr-TR": "Çılgınlık Runu",
+            "uk-UA": "Руна шаленства",
+            "vi-VN": "Rune Điên Cuồng",
+            "zh-Hans": "狂暴符文",
+            "zh-Hant": "狂暴符文"
           },
           "-"
         ]
@@ -89,56 +159,196 @@
         [
           1,
           {
-            "ja": "全ヒーロー攻撃ダメージ50%増加",
-            "en": "50% Increased All Hero Attack Damage"
+            "de-DE": "50% Erhöhter Angriffsschaden aller Helden",
+            "en-US": "50% Increased All Hero Attack Damage",
+            "es-ES": "50% Aumento de Daño de todos los Héroes",
+            "fr-FR": "Dégâts de tous les Héros augmenté de 50%",
+            "id-ID": "50% Peningkatan Damage Serangan Semua Hero",
+            "ja-JP": "全ヒーロー攻撃ダメージ50%増加",
+            "ko-KR": "전체 히어로 공격력 50% 증가",
+            "pl-PL": "50% Zwiększony Obr. wszystkich Bohaterów",
+            "pt-BR": "50% Aumento de Dano de todos os Heróis",
+            "ru-RU": "+50% к Урон всех героев",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมดเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tüm Kahramanların Hasarı",
+            "uk-UA": "+50% до Шкода всіх героїв",
+            "vi-VN": "Tăng 50% Sát Thương Tất Cả Hero",
+            "zh-Hans": "全英雄攻击伤害提高50%",
+            "zh-Hant": "全英雄攻擊傷害提高50%"
           },
           {
-            "ja": "200000 ゴールド",
-            "en": "200000 Gold"
+            "de-DE": "200000 Gold",
+            "en-US": "200000 Gold",
+            "es-ES": "200000 Gold",
+            "fr-FR": "200000 Gold",
+            "id-ID": "200000 Gold",
+            "ja-JP": "200000 ゴールド",
+            "ko-KR": "200000 Gold",
+            "pl-PL": "200000 Gold",
+            "pt-BR": "200000 Gold",
+            "ru-RU": "200000 Gold",
+            "th-TH": "200000 Gold",
+            "tr-TR": "200000 Gold",
+            "uk-UA": "200000 Gold",
+            "vi-VN": "200000 Gold",
+            "zh-Hans": "200000 Gold",
+            "zh-Hant": "200000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "全ヒーロー攻撃ダメージ50%増加",
-            "en": "50% Increased All Hero Attack Damage"
+            "de-DE": "50% Erhöhter Angriffsschaden aller Helden",
+            "en-US": "50% Increased All Hero Attack Damage",
+            "es-ES": "50% Aumento de Daño de todos los Héroes",
+            "fr-FR": "Dégâts de tous les Héros augmenté de 50%",
+            "id-ID": "50% Peningkatan Damage Serangan Semua Hero",
+            "ja-JP": "全ヒーロー攻撃ダメージ50%増加",
+            "ko-KR": "전체 히어로 공격력 50% 증가",
+            "pl-PL": "50% Zwiększony Obr. wszystkich Bohaterów",
+            "pt-BR": "50% Aumento de Dano de todos os Heróis",
+            "ru-RU": "+50% к Урон всех героев",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมดเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tüm Kahramanların Hasarı",
+            "uk-UA": "+50% до Шкода всіх героїв",
+            "vi-VN": "Tăng 50% Sát Thương Tất Cả Hero",
+            "zh-Hans": "全英雄攻击伤害提高50%",
+            "zh-Hant": "全英雄攻擊傷害提高50%"
           },
           {
-            "ja": "400000 ゴールド",
-            "en": "400000 Gold"
+            "de-DE": "400000 Gold",
+            "en-US": "400000 Gold",
+            "es-ES": "400000 Gold",
+            "fr-FR": "400000 Gold",
+            "id-ID": "400000 Gold",
+            "ja-JP": "400000 ゴールド",
+            "ko-KR": "400000 Gold",
+            "pl-PL": "400000 Gold",
+            "pt-BR": "400000 Gold",
+            "ru-RU": "400000 Gold",
+            "th-TH": "400000 Gold",
+            "tr-TR": "400000 Gold",
+            "uk-UA": "400000 Gold",
+            "vi-VN": "400000 Gold",
+            "zh-Hans": "400000 Gold",
+            "zh-Hant": "400000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "全ヒーロー攻撃ダメージ50%増加",
-            "en": "50% Increased All Hero Attack Damage"
+            "de-DE": "50% Erhöhter Angriffsschaden aller Helden",
+            "en-US": "50% Increased All Hero Attack Damage",
+            "es-ES": "50% Aumento de Daño de todos los Héroes",
+            "fr-FR": "Dégâts de tous les Héros augmenté de 50%",
+            "id-ID": "50% Peningkatan Damage Serangan Semua Hero",
+            "ja-JP": "全ヒーロー攻撃ダメージ50%増加",
+            "ko-KR": "전체 히어로 공격력 50% 증가",
+            "pl-PL": "50% Zwiększony Obr. wszystkich Bohaterów",
+            "pt-BR": "50% Aumento de Dano de todos os Heróis",
+            "ru-RU": "+50% к Урон всех героев",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมดเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tüm Kahramanların Hasarı",
+            "uk-UA": "+50% до Шкода всіх героїв",
+            "vi-VN": "Tăng 50% Sát Thương Tất Cả Hero",
+            "zh-Hans": "全英雄攻击伤害提高50%",
+            "zh-Hant": "全英雄攻擊傷害提高50%"
           },
           {
-            "ja": "600000 ゴールド",
-            "en": "600000 Gold"
+            "de-DE": "600000 Gold",
+            "en-US": "600000 Gold",
+            "es-ES": "600000 Gold",
+            "fr-FR": "600000 Gold",
+            "id-ID": "600000 Gold",
+            "ja-JP": "600000 ゴールド",
+            "ko-KR": "600000 Gold",
+            "pl-PL": "600000 Gold",
+            "pt-BR": "600000 Gold",
+            "ru-RU": "600000 Gold",
+            "th-TH": "600000 Gold",
+            "tr-TR": "600000 Gold",
+            "uk-UA": "600000 Gold",
+            "vi-VN": "600000 Gold",
+            "zh-Hans": "600000 Gold",
+            "zh-Hant": "600000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "全ヒーロー攻撃ダメージ50%増加",
-            "en": "50% Increased All Hero Attack Damage"
+            "de-DE": "50% Erhöhter Angriffsschaden aller Helden",
+            "en-US": "50% Increased All Hero Attack Damage",
+            "es-ES": "50% Aumento de Daño de todos los Héroes",
+            "fr-FR": "Dégâts de tous les Héros augmenté de 50%",
+            "id-ID": "50% Peningkatan Damage Serangan Semua Hero",
+            "ja-JP": "全ヒーロー攻撃ダメージ50%増加",
+            "ko-KR": "전체 히어로 공격력 50% 증가",
+            "pl-PL": "50% Zwiększony Obr. wszystkich Bohaterów",
+            "pt-BR": "50% Aumento de Dano de todos os Heróis",
+            "ru-RU": "+50% к Урон всех героев",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมดเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tüm Kahramanların Hasarı",
+            "uk-UA": "+50% до Шкода всіх героїв",
+            "vi-VN": "Tăng 50% Sát Thương Tất Cả Hero",
+            "zh-Hans": "全英雄攻击伤害提高50%",
+            "zh-Hant": "全英雄攻擊傷害提高50%"
           },
           {
-            "ja": "800000 ゴールド",
-            "en": "800000 Gold"
+            "de-DE": "800000 Gold",
+            "en-US": "800000 Gold",
+            "es-ES": "800000 Gold",
+            "fr-FR": "800000 Gold",
+            "id-ID": "800000 Gold",
+            "ja-JP": "800000 ゴールド",
+            "ko-KR": "800000 Gold",
+            "pl-PL": "800000 Gold",
+            "pt-BR": "800000 Gold",
+            "ru-RU": "800000 Gold",
+            "th-TH": "800000 Gold",
+            "tr-TR": "800000 Gold",
+            "uk-UA": "800000 Gold",
+            "vi-VN": "800000 Gold",
+            "zh-Hans": "800000 Gold",
+            "zh-Hant": "800000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "全ヒーロー攻撃ダメージ50%増加",
-            "en": "50% Increased All Hero Attack Damage"
+            "de-DE": "50% Erhöhter Angriffsschaden aller Helden",
+            "en-US": "50% Increased All Hero Attack Damage",
+            "es-ES": "50% Aumento de Daño de todos los Héroes",
+            "fr-FR": "Dégâts de tous les Héros augmenté de 50%",
+            "id-ID": "50% Peningkatan Damage Serangan Semua Hero",
+            "ja-JP": "全ヒーロー攻撃ダメージ50%増加",
+            "ko-KR": "전체 히어로 공격력 50% 증가",
+            "pl-PL": "50% Zwiększony Obr. wszystkich Bohaterów",
+            "pt-BR": "50% Aumento de Dano de todos os Heróis",
+            "ru-RU": "+50% к Урон всех героев",
+            "th-TH": "ดาเมจฮีโร่ทั้งหมดเพิ่ม 50%",
+            "tr-TR": "%50 Artan Tüm Kahramanların Hasarı",
+            "uk-UA": "+50% до Шкода всіх героїв",
+            "vi-VN": "Tăng 50% Sát Thương Tất Cả Hero",
+            "zh-Hans": "全英雄攻击伤害提高50%",
+            "zh-Hant": "全英雄攻擊傷害提高50%"
           },
           {
-            "ja": "1000000 ゴールド",
-            "en": "1000000 Gold"
+            "de-DE": "1000000 Gold",
+            "en-US": "1000000 Gold",
+            "es-ES": "1000000 Gold",
+            "fr-FR": "1000000 Gold",
+            "id-ID": "1000000 Gold",
+            "ja-JP": "1000000 ゴールド",
+            "ko-KR": "1000000 Gold",
+            "pl-PL": "1000000 Gold",
+            "pt-BR": "1000000 Gold",
+            "ru-RU": "1000000 Gold",
+            "th-TH": "1000000 Gold",
+            "tr-TR": "1000000 Gold",
+            "uk-UA": "1000000 Gold",
+            "vi-VN": "1000000 Gold",
+            "zh-Hans": "1000000 Gold",
+            "zh-Hant": "1000000 Gold"
           }
         ]
       ]

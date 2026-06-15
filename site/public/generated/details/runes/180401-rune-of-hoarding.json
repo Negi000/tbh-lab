@@ -3,12 +3,40 @@
   "entityId": "180401",
   "slug": "180401-rune-of-hoarding",
   "title": {
-    "ja": "蓄積のルーン",
-    "en": "Rune of Hoarding"
+    "de-DE": "Hortrune",
+    "en-US": "Rune of Hoarding",
+    "es-ES": "Runa del Acopio",
+    "fr-FR": "Rune d'Accumulation",
+    "id-ID": "Rune Penimbunan",
+    "ja-JP": "蓄積のルーン",
+    "ko-KR": "비축의 룬",
+    "pl-PL": "Runa Gromadzenia",
+    "pt-BR": "Runa do Acúmulo",
+    "ru-RU": "Руна накопления",
+    "th-TH": "รูนกักตุน",
+    "tr-TR": "Biriktirme Runu",
+    "uk-UA": "Руна накопичення",
+    "vi-VN": "Rune Tích Trữ",
+    "zh-Hans": "储藏符文",
+    "zh-Hant": "儲藏符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/OfflineRewardGoldPercent.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "蓄積のルーン",
-        "en": "Rune of Hoarding"
+        "de-DE": "Hortrune",
+        "en-US": "Rune of Hoarding",
+        "es-ES": "Runa del Acopio",
+        "fr-FR": "Rune d'Accumulation",
+        "id-ID": "Rune Penimbunan",
+        "ja-JP": "蓄積のルーン",
+        "ko-KR": "비축의 룬",
+        "pl-PL": "Runa Gromadzenia",
+        "pt-BR": "Runa do Acúmulo",
+        "ru-RU": "Руна накопления",
+        "th-TH": "รูนกักตุน",
+        "tr-TR": "Biriktirme Runu",
+        "uk-UA": "Руна накопичення",
+        "vi-VN": "Rune Tích Trữ",
+        "zh-Hans": "储藏符文",
+        "zh-Hant": "儲藏符文"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "5000000 ゴールド",
-            "en": "5000000 Gold"
+            "de-DE": "5000000 Gold",
+            "en-US": "5000000 Gold",
+            "es-ES": "5000000 Gold",
+            "fr-FR": "5000000 Gold",
+            "id-ID": "5000000 Gold",
+            "ja-JP": "5000000 ゴールド",
+            "ko-KR": "5000000 Gold",
+            "pl-PL": "5000000 Gold",
+            "pt-BR": "5000000 Gold",
+            "ru-RU": "5000000 Gold",
+            "th-TH": "5000000 Gold",
+            "tr-TR": "5000000 Gold",
+            "uk-UA": "5000000 Gold",
+            "vi-VN": "5000000 Gold",
+            "zh-Hans": "5000000 Gold",
+            "zh-Hant": "5000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "5500000 ゴールド",
-            "en": "5500000 Gold"
+            "de-DE": "5500000 Gold",
+            "en-US": "5500000 Gold",
+            "es-ES": "5500000 Gold",
+            "fr-FR": "5500000 Gold",
+            "id-ID": "5500000 Gold",
+            "ja-JP": "5500000 ゴールド",
+            "ko-KR": "5500000 Gold",
+            "pl-PL": "5500000 Gold",
+            "pt-BR": "5500000 Gold",
+            "ru-RU": "5500000 Gold",
+            "th-TH": "5500000 Gold",
+            "tr-TR": "5500000 Gold",
+            "uk-UA": "5500000 Gold",
+            "vi-VN": "5500000 Gold",
+            "zh-Hans": "5500000 Gold",
+            "zh-Hant": "5500000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "6000000 ゴールド",
-            "en": "6000000 Gold"
+            "de-DE": "6000000 Gold",
+            "en-US": "6000000 Gold",
+            "es-ES": "6000000 Gold",
+            "fr-FR": "6000000 Gold",
+            "id-ID": "6000000 Gold",
+            "ja-JP": "6000000 ゴールド",
+            "ko-KR": "6000000 Gold",
+            "pl-PL": "6000000 Gold",
+            "pt-BR": "6000000 Gold",
+            "ru-RU": "6000000 Gold",
+            "th-TH": "6000000 Gold",
+            "tr-TR": "6000000 Gold",
+            "uk-UA": "6000000 Gold",
+            "vi-VN": "6000000 Gold",
+            "zh-Hans": "6000000 Gold",
+            "zh-Hant": "6000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "6500000 ゴールド",
-            "en": "6500000 Gold"
+            "de-DE": "6500000 Gold",
+            "en-US": "6500000 Gold",
+            "es-ES": "6500000 Gold",
+            "fr-FR": "6500000 Gold",
+            "id-ID": "6500000 Gold",
+            "ja-JP": "6500000 ゴールド",
+            "ko-KR": "6500000 Gold",
+            "pl-PL": "6500000 Gold",
+            "pt-BR": "6500000 Gold",
+            "ru-RU": "6500000 Gold",
+            "th-TH": "6500000 Gold",
+            "tr-TR": "6500000 Gold",
+            "uk-UA": "6500000 Gold",
+            "vi-VN": "6500000 Gold",
+            "zh-Hans": "6500000 Gold",
+            "zh-Hant": "6500000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "7000000 ゴールド",
-            "en": "7000000 Gold"
+            "de-DE": "7000000 Gold",
+            "en-US": "7000000 Gold",
+            "es-ES": "7000000 Gold",
+            "fr-FR": "7000000 Gold",
+            "id-ID": "7000000 Gold",
+            "ja-JP": "7000000 ゴールド",
+            "ko-KR": "7000000 Gold",
+            "pl-PL": "7000000 Gold",
+            "pt-BR": "7000000 Gold",
+            "ru-RU": "7000000 Gold",
+            "th-TH": "7000000 Gold",
+            "tr-TR": "7000000 Gold",
+            "uk-UA": "7000000 Gold",
+            "vi-VN": "7000000 Gold",
+            "zh-Hans": "7000000 Gold",
+            "zh-Hant": "7000000 Gold"
           }
         ]
       ]

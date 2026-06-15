@@ -3,12 +3,40 @@
   "entityId": "3091",
   "slug": "3091-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/AdditionalExpNormalMonster.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "通常モンスター経験値",
-        "en": "Exp From Normal Monster"
+        "de-DE": "EP von normalen Monstern",
+        "en-US": "Exp From Normal Monster",
+        "es-ES": "Exp de monstruos normales",
+        "fr-FR": "Exp des monstres normaux",
+        "id-ID": "Exp dari Monster Biasa",
+        "ja-JP": "通常モンスター経験値",
+        "ko-KR": "일반 몬스터 처치 시 획득 경험치",
+        "pl-PL": "Exp od zwykłych potworów",
+        "pt-BR": "Exp de monstros comuns",
+        "ru-RU": "Опыт с обычных монстров",
+        "th-TH": "Exp จากมอนทั่วไป",
+        "tr-TR": "Normal Canavarlardan Tecrübe",
+        "uk-UA": "Досвід зі звич. монстрів",
+        "vi-VN": "KN từ Quái Thường",
+        "zh-Hans": "普通怪物经验",
+        "zh-Hant": "普通怪物經驗"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "通常モンスター経験値 +1",
-            "en": "Exp From Normal Monster Kill +1"
+            "de-DE": "EP von normalen Monstern +1",
+            "en-US": "Exp From Normal Monster Kill +1",
+            "es-ES": "Exp de monstruos normales +1",
+            "fr-FR": "Exp des monstres normaux +1",
+            "id-ID": "Exp dari Monster Biasa +1",
+            "ja-JP": "通常モンスター経験値 +1",
+            "ko-KR": "일반 몬스터 처치 시 경험치 +1",
+            "pl-PL": "Exp od zwykłych potworów +1",
+            "pt-BR": "Exp de monstros comuns +1",
+            "ru-RU": "Опыт с обычных монстров +1",
+            "th-TH": "Exp จากมอนทั่วไป +1",
+            "tr-TR": "Normal Canavarlardan Tecrübe +1",
+            "uk-UA": "Досвід зі звич. монстрів +1",
+            "vi-VN": "KN từ Quái Thường +1",
+            "zh-Hans": "普通怪物经验 +1",
+            "zh-Hant": "普通怪物經驗 +1"
           },
           {
-            "ja": "1000000 ゴールド",
-            "en": "1000000 Gold"
+            "de-DE": "1000000 Gold",
+            "en-US": "1000000 Gold",
+            "es-ES": "1000000 Gold",
+            "fr-FR": "1000000 Gold",
+            "id-ID": "1000000 Gold",
+            "ja-JP": "1000000 ゴールド",
+            "ko-KR": "1000000 Gold",
+            "pl-PL": "1000000 Gold",
+            "pt-BR": "1000000 Gold",
+            "ru-RU": "1000000 Gold",
+            "th-TH": "1000000 Gold",
+            "tr-TR": "1000000 Gold",
+            "uk-UA": "1000000 Gold",
+            "vi-VN": "1000000 Gold",
+            "zh-Hans": "1000000 Gold",
+            "zh-Hant": "1000000 Gold"
           }
         ]
       ]

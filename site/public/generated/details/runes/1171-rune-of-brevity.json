@@ -3,12 +3,40 @@
   "entityId": "1171",
   "slug": "1171-rune-of-brevity",
   "title": {
-    "ja": "短縮のルーン",
-    "en": "Rune of Brevity"
+    "de-DE": "Kürzungsrune",
+    "en-US": "Rune of Brevity",
+    "es-ES": "Runa de Brevedad",
+    "fr-FR": "Rune de Brièveté",
+    "id-ID": "Rune Persingkatan",
+    "ja-JP": "短縮のルーン",
+    "ko-KR": "단축의 룬",
+    "pl-PL": "Runa Skrócenia",
+    "pt-BR": "Runa de Brevidade",
+    "ru-RU": "Руна сокращения",
+    "th-TH": "รูนย่นย่อ",
+    "tr-TR": "Kısaltma Runu",
+    "uk-UA": "Руна скорочення",
+    "vi-VN": "Rune Rút Gọn",
+    "zh-Hans": "缩短符文",
+    "zh-Hant": "縮短符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/WaveCountReduction.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "総ウェーブ数減少",
-        "en": "Total Wave Count Reduction"
+        "de-DE": "Gesamtwellenred.",
+        "en-US": "Total Wave Count Reduction",
+        "es-ES": "Red. total de oleadas",
+        "fr-FR": "Réd. totale de vagues",
+        "id-ID": "Red. Total Gelombang",
+        "ja-JP": "総ウェーブ数減少",
+        "ko-KR": "총 웨이브 수 감소",
+        "pl-PL": "Red. liczby fal",
+        "pt-BR": "Red. total de ondas",
+        "ru-RU": "Сниж. кол-ва волн",
+        "th-TH": "ลดจำนวนเวฟรวม",
+        "tr-TR": "Toplam Dalga Azaltma",
+        "uk-UA": "Зниж. кіл. хвиль",
+        "vi-VN": "Giảm Tổng Đợt",
+        "zh-Hans": "总波数减少",
+        "zh-Hant": "總波數減少"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "ステージのウェーブ数 -1",
-            "en": "Stage Wave Count -1"
+            "de-DE": "Wellen pro Stage -1",
+            "en-US": "Stage Wave Count -1",
+            "es-ES": "Oleadas por etapa -1",
+            "fr-FR": "Vagues par étape -1",
+            "id-ID": "Gelombang per Panggung -1",
+            "ja-JP": "ステージのウェーブ数 -1",
+            "ko-KR": "스테이지의 웨이브 수 -1",
+            "pl-PL": "Fale na etap -1",
+            "pt-BR": "Ondas por fase -1",
+            "ru-RU": "Волны на стадию -1",
+            "th-TH": "เวฟต่อด่าน -1",
+            "tr-TR": "Aşama başına dalga -1",
+            "uk-UA": "Хвилі на етап -1",
+            "vi-VN": "Số đợt mỗi tầng -1",
+            "zh-Hans": "关卡波数 -1",
+            "zh-Hant": "關卡波數 -1"
           },
           {
-            "ja": "20000000 ゴールド",
-            "en": "20000000 Gold"
+            "de-DE": "20000000 Gold",
+            "en-US": "20000000 Gold",
+            "es-ES": "20000000 Gold",
+            "fr-FR": "20000000 Gold",
+            "id-ID": "20000000 Gold",
+            "ja-JP": "20000000 ゴールド",
+            "ko-KR": "20000000 Gold",
+            "pl-PL": "20000000 Gold",
+            "pt-BR": "20000000 Gold",
+            "ru-RU": "20000000 Gold",
+            "th-TH": "20000000 Gold",
+            "tr-TR": "20000000 Gold",
+            "uk-UA": "20000000 Gold",
+            "vi-VN": "20000000 Gold",
+            "zh-Hans": "20000000 Gold",
+            "zh-Hant": "20000000 Gold"
           }
         ]
       ]

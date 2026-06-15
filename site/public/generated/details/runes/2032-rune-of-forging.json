@@ -3,12 +3,40 @@
   "entityId": "2032",
   "slug": "2032-rune-of-forging",
   "title": {
-    "ja": "組合のルーン",
-    "en": "Rune of Forging"
+    "de-DE": "Schmiederune",
+    "en-US": "Rune of Forging",
+    "es-ES": "Runa de Combinación",
+    "fr-FR": "Rune de Combinaison",
+    "id-ID": "Rune Penyatuan",
+    "ja-JP": "組合のルーン",
+    "ko-KR": "조합의 룬",
+    "pl-PL": "Runa Łączenia",
+    "pt-BR": "Runa de Combinação",
+    "ru-RU": "Руна сочетания",
+    "th-TH": "รูนผสาน",
+    "tr-TR": "Birleşim Runu",
+    "uk-UA": "Руна поєднання",
+    "vi-VN": "Rune Hợp Nhất",
+    "zh-Hans": "组合符文",
+    "zh-Hant": "組合符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": null,
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "キューブ獲得経験値",
-        "en": "Exp From Cube"
+        "de-DE": "Durch Würfel erhaltene EP",
+        "en-US": "Exp From Cube",
+        "es-ES": "Exp ganada del Cubo",
+        "fr-FR": "Exp gagnée du Cube",
+        "id-ID": "Exp dari Cube",
+        "ja-JP": "キューブ獲得経験値",
+        "ko-KR": "큐브 경험치 획득량",
+        "pl-PL": "Exp z Kostki",
+        "pt-BR": "Exp ganha do Cubo",
+        "ru-RU": "Опыт с куба",
+        "th-TH": "Exp จาก Cube",
+        "tr-TR": "Küpten Kazanılan Tecrübe",
+        "uk-UA": "Досвід з куба",
+        "vi-VN": "KN Nhận Từ Khối",
+        "zh-Hans": "魔方获得经验",
+        "zh-Hant": "魔方獲得經驗"
       }
     },
     {
@@ -77,56 +119,196 @@
         [
           1,
           {
-            "ja": "キューブ経験値40%増加",
-            "en": "40% Increased Cube Exp"
+            "de-DE": "40% Erhöhter Würfel-EP",
+            "en-US": "40% Increased Cube Exp",
+            "es-ES": "40% Aumento de Exp del Cubo",
+            "fr-FR": "Exp du Cube augmenté de 40%",
+            "id-ID": "40% Peningkatan Exp Cube",
+            "ja-JP": "キューブ経験値40%増加",
+            "ko-KR": "큐브 경험치 획득량 40% 증가",
+            "pl-PL": "40% Zwiększony Exp Kostki",
+            "pt-BR": "40% Aumento de Exp do Cubo",
+            "ru-RU": "+40% к Опыт куба",
+            "th-TH": "Exp จาก Cubeเพิ่ม 40%",
+            "tr-TR": "%40 Artan Küp Tecrübesi",
+            "uk-UA": "+40% до Досвід куба",
+            "vi-VN": "Tăng 40% KN Khối",
+            "zh-Hans": "魔方经验提高40%",
+            "zh-Hant": "魔方經驗提高40%"
           },
           {
-            "ja": "10000 ゴールド",
-            "en": "10000 Gold"
+            "de-DE": "10000 Gold",
+            "en-US": "10000 Gold",
+            "es-ES": "10000 Gold",
+            "fr-FR": "10000 Gold",
+            "id-ID": "10000 Gold",
+            "ja-JP": "10000 ゴールド",
+            "ko-KR": "10000 Gold",
+            "pl-PL": "10000 Gold",
+            "pt-BR": "10000 Gold",
+            "ru-RU": "10000 Gold",
+            "th-TH": "10000 Gold",
+            "tr-TR": "10000 Gold",
+            "uk-UA": "10000 Gold",
+            "vi-VN": "10000 Gold",
+            "zh-Hans": "10000 Gold",
+            "zh-Hant": "10000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "キューブ経験値40%増加",
-            "en": "40% Increased Cube Exp"
+            "de-DE": "40% Erhöhter Würfel-EP",
+            "en-US": "40% Increased Cube Exp",
+            "es-ES": "40% Aumento de Exp del Cubo",
+            "fr-FR": "Exp du Cube augmenté de 40%",
+            "id-ID": "40% Peningkatan Exp Cube",
+            "ja-JP": "キューブ経験値40%増加",
+            "ko-KR": "큐브 경험치 획득량 40% 증가",
+            "pl-PL": "40% Zwiększony Exp Kostki",
+            "pt-BR": "40% Aumento de Exp do Cubo",
+            "ru-RU": "+40% к Опыт куба",
+            "th-TH": "Exp จาก Cubeเพิ่ม 40%",
+            "tr-TR": "%40 Artan Küp Tecrübesi",
+            "uk-UA": "+40% до Досвід куба",
+            "vi-VN": "Tăng 40% KN Khối",
+            "zh-Hans": "魔方经验提高40%",
+            "zh-Hant": "魔方經驗提高40%"
           },
           {
-            "ja": "15000 ゴールド",
-            "en": "15000 Gold"
+            "de-DE": "15000 Gold",
+            "en-US": "15000 Gold",
+            "es-ES": "15000 Gold",
+            "fr-FR": "15000 Gold",
+            "id-ID": "15000 Gold",
+            "ja-JP": "15000 ゴールド",
+            "ko-KR": "15000 Gold",
+            "pl-PL": "15000 Gold",
+            "pt-BR": "15000 Gold",
+            "ru-RU": "15000 Gold",
+            "th-TH": "15000 Gold",
+            "tr-TR": "15000 Gold",
+            "uk-UA": "15000 Gold",
+            "vi-VN": "15000 Gold",
+            "zh-Hans": "15000 Gold",
+            "zh-Hant": "15000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "キューブ経験値40%増加",
-            "en": "40% Increased Cube Exp"
+            "de-DE": "40% Erhöhter Würfel-EP",
+            "en-US": "40% Increased Cube Exp",
+            "es-ES": "40% Aumento de Exp del Cubo",
+            "fr-FR": "Exp du Cube augmenté de 40%",
+            "id-ID": "40% Peningkatan Exp Cube",
+            "ja-JP": "キューブ経験値40%増加",
+            "ko-KR": "큐브 경험치 획득량 40% 증가",
+            "pl-PL": "40% Zwiększony Exp Kostki",
+            "pt-BR": "40% Aumento de Exp do Cubo",
+            "ru-RU": "+40% к Опыт куба",
+            "th-TH": "Exp จาก Cubeเพิ่ม 40%",
+            "tr-TR": "%40 Artan Küp Tecrübesi",
+            "uk-UA": "+40% до Досвід куба",
+            "vi-VN": "Tăng 40% KN Khối",
+            "zh-Hans": "魔方经验提高40%",
+            "zh-Hant": "魔方經驗提高40%"
           },
           {
-            "ja": "20000 ゴールド",
-            "en": "20000 Gold"
+            "de-DE": "20000 Gold",
+            "en-US": "20000 Gold",
+            "es-ES": "20000 Gold",
+            "fr-FR": "20000 Gold",
+            "id-ID": "20000 Gold",
+            "ja-JP": "20000 ゴールド",
+            "ko-KR": "20000 Gold",
+            "pl-PL": "20000 Gold",
+            "pt-BR": "20000 Gold",
+            "ru-RU": "20000 Gold",
+            "th-TH": "20000 Gold",
+            "tr-TR": "20000 Gold",
+            "uk-UA": "20000 Gold",
+            "vi-VN": "20000 Gold",
+            "zh-Hans": "20000 Gold",
+            "zh-Hant": "20000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "キューブ経験値40%増加",
-            "en": "40% Increased Cube Exp"
+            "de-DE": "40% Erhöhter Würfel-EP",
+            "en-US": "40% Increased Cube Exp",
+            "es-ES": "40% Aumento de Exp del Cubo",
+            "fr-FR": "Exp du Cube augmenté de 40%",
+            "id-ID": "40% Peningkatan Exp Cube",
+            "ja-JP": "キューブ経験値40%増加",
+            "ko-KR": "큐브 경험치 획득량 40% 증가",
+            "pl-PL": "40% Zwiększony Exp Kostki",
+            "pt-BR": "40% Aumento de Exp do Cubo",
+            "ru-RU": "+40% к Опыт куба",
+            "th-TH": "Exp จาก Cubeเพิ่ม 40%",
+            "tr-TR": "%40 Artan Küp Tecrübesi",
+            "uk-UA": "+40% до Досвід куба",
+            "vi-VN": "Tăng 40% KN Khối",
+            "zh-Hans": "魔方经验提高40%",
+            "zh-Hant": "魔方經驗提高40%"
           },
           {
-            "ja": "25000 ゴールド",
-            "en": "25000 Gold"
+            "de-DE": "25000 Gold",
+            "en-US": "25000 Gold",
+            "es-ES": "25000 Gold",
+            "fr-FR": "25000 Gold",
+            "id-ID": "25000 Gold",
+            "ja-JP": "25000 ゴールド",
+            "ko-KR": "25000 Gold",
+            "pl-PL": "25000 Gold",
+            "pt-BR": "25000 Gold",
+            "ru-RU": "25000 Gold",
+            "th-TH": "25000 Gold",
+            "tr-TR": "25000 Gold",
+            "uk-UA": "25000 Gold",
+            "vi-VN": "25000 Gold",
+            "zh-Hans": "25000 Gold",
+            "zh-Hant": "25000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "キューブ経験値40%増加",
-            "en": "40% Increased Cube Exp"
+            "de-DE": "40% Erhöhter Würfel-EP",
+            "en-US": "40% Increased Cube Exp",
+            "es-ES": "40% Aumento de Exp del Cubo",
+            "fr-FR": "Exp du Cube augmenté de 40%",
+            "id-ID": "40% Peningkatan Exp Cube",
+            "ja-JP": "キューブ経験値40%増加",
+            "ko-KR": "큐브 경험치 획득량 40% 증가",
+            "pl-PL": "40% Zwiększony Exp Kostki",
+            "pt-BR": "40% Aumento de Exp do Cubo",
+            "ru-RU": "+40% к Опыт куба",
+            "th-TH": "Exp จาก Cubeเพิ่ม 40%",
+            "tr-TR": "%40 Artan Küp Tecrübesi",
+            "uk-UA": "+40% до Досвід куба",
+            "vi-VN": "Tăng 40% KN Khối",
+            "zh-Hans": "魔方经验提高40%",
+            "zh-Hant": "魔方經驗提高40%"
           },
           {
-            "ja": "30000 ゴールド",
-            "en": "30000 Gold"
+            "de-DE": "30000 Gold",
+            "en-US": "30000 Gold",
+            "es-ES": "30000 Gold",
+            "fr-FR": "30000 Gold",
+            "id-ID": "30000 Gold",
+            "ja-JP": "30000 ゴールド",
+            "ko-KR": "30000 Gold",
+            "pl-PL": "30000 Gold",
+            "pt-BR": "30000 Gold",
+            "ru-RU": "30000 Gold",
+            "th-TH": "30000 Gold",
+            "tr-TR": "30000 Gold",
+            "uk-UA": "30000 Gold",
+            "vi-VN": "30000 Gold",
+            "zh-Hans": "30000 Gold",
+            "zh-Hant": "30000 Gold"
           }
         ]
       ]

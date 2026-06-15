@@ -1,0 +1,186 @@
+{
+  "category": {
+    "id": "cube",
+    "titleKey": "category.cube.title",
+    "descriptionKey": "category.cube.description",
+    "count": 6,
+    "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+    "layout": "cards",
+    "navGroup": "nav.systems",
+    "listPath": "/generated/categories/{locale}/cube.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    },
+    {
+      "key": "table",
+      "labelKey": "field.table"
+    }
+  ],
+  "filters": [
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "crafting recipes",
+        "cube recipes",
+        "cube sub recipes",
+        "extraction costs",
+        "synthesis drops",
+        "synthesis recipes"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "cube",
+      "entityId": "synthesis_recipes",
+      "slug": "synthesis-recipes",
+      "title": {
+        "fr-FR": "synthesis recipes"
+      },
+      "subtitle": {
+        "fr-FR": "533 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "synthesis_recipes"
+      ],
+      "fields": {
+        "type": "synthesis recipes",
+        "count": "533",
+        "table": "synthesis_recipes"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/cube/synthesis-recipes.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "cube",
+      "entityId": "synthesis_drops",
+      "slug": "synthesis-drops",
+      "title": {
+        "fr-FR": "Synthesis Drops"
+      },
+      "subtitle": {
+        "fr-FR": "203 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "synthesis_drops"
+      ],
+      "fields": {
+        "type": "synthesis drops",
+        "count": "203",
+        "table": "SynthesisDropInfoData"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/cube/synthesis-drops.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "cube",
+      "entityId": "crafting_recipes",
+      "slug": "crafting-recipes",
+      "title": {
+        "fr-FR": "crafting recipes"
+      },
+      "subtitle": {
+        "fr-FR": "56 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "crafting_recipes"
+      ],
+      "fields": {
+        "type": "crafting recipes",
+        "count": "56",
+        "table": "crafting_recipes"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/cube/crafting-recipes.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "cube",
+      "entityId": "cube_recipes",
+      "slug": "cube-recipes",
+      "title": {
+        "fr-FR": "cube recipes"
+      },
+      "subtitle": {
+        "fr-FR": "8 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "cube_recipes"
+      ],
+      "fields": {
+        "type": "cube recipes",
+        "count": "8",
+        "table": "cube_recipes"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/cube/cube-recipes.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "cube",
+      "entityId": "cube_sub_recipes",
+      "slug": "cube-sub-recipes",
+      "title": {
+        "fr-FR": "cube sub recipes"
+      },
+      "subtitle": {
+        "fr-FR": "31 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "cube_sub_recipes"
+      ],
+      "fields": {
+        "type": "cube sub recipes",
+        "count": "31",
+        "table": "cube_sub_recipes"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/cube/cube-sub-recipes.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "cube",
+      "entityId": "extraction_costs",
+      "slug": "extraction-costs",
+      "title": {
+        "fr-FR": "extraction costs"
+      },
+      "subtitle": {
+        "fr-FR": "90 records"
+      },
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "extraction_costs"
+      ],
+      "fields": {
+        "type": "extraction costs",
+        "count": "90",
+        "table": "extraction_costs"
+      },
+      "fieldDisplay": {},
+      "detailPath": "/generated/details/cube/extraction-costs.json",
+      "tooltip": null
+    }
+  ]
+}

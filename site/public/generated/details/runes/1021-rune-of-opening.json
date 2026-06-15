@@ -3,12 +3,40 @@
   "entityId": "1021",
   "slug": "1021-rune-of-opening",
   "title": {
-    "ja": "開放のルーン",
-    "en": "Rune of Opening"
+    "de-DE": "Öffnungsrune",
+    "en-US": "Rune of Opening",
+    "es-ES": "Runa de Apertura",
+    "fr-FR": "Rune d'Ouverture",
+    "id-ID": "Rune Pembukaan",
+    "ja-JP": "開放のルーン",
+    "ko-KR": "개방의 룬",
+    "pl-PL": "Runa Otwarcia",
+    "pt-BR": "Runa de Abertura",
+    "ru-RU": "Руна открытия",
+    "th-TH": "รูนเปิด",
+    "tr-TR": "Açılış Runu",
+    "uk-UA": "Руна відкриття",
+    "vi-VN": "Rune Mở Khóa",
+    "zh-Hans": "开启符文",
+    "zh-Hant": "開啟符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/OpenOneTypeChestAllAtOnce.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "開放のルーン",
-        "en": "Rune of Opening"
+        "de-DE": "Öffnungsrune",
+        "en-US": "Rune of Opening",
+        "es-ES": "Runa de Apertura",
+        "fr-FR": "Rune d'Ouverture",
+        "id-ID": "Rune Pembukaan",
+        "ja-JP": "開放のルーン",
+        "ko-KR": "개방의 룬",
+        "pl-PL": "Runa Otwarcia",
+        "pt-BR": "Runa de Abertura",
+        "ru-RU": "Руна открытия",
+        "th-TH": "รูนเปิด",
+        "tr-TR": "Açılış Runu",
+        "uk-UA": "Руна відкриття",
+        "vi-VN": "Rune Mở Khóa",
+        "zh-Hans": "开启符文",
+        "zh-Hant": "開啟符文"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "右クリックでチェストを一括開封",
-            "en": "Right-click to Open Chests at Once"
+            "de-DE": "Rechtsklick öffnet Truhen auf einmal",
+            "en-US": "Right-click to Open Chests at Once",
+            "es-ES": "Clic derecho abre todos los cofres a la vez",
+            "fr-FR": "Clic droit ouvre les coffres en une fois",
+            "id-ID": "Klik kanan untuk buka peti sekaligus",
+            "ja-JP": "右クリックでチェストを一括開封",
+            "ko-KR": "마우스 우클릭으로 상자 한번에 열기",
+            "pl-PL": "Prawy klik otwiera skrzynie na raz",
+            "pt-BR": "Clique direito abre baús de uma vez",
+            "ru-RU": "ПКМ открывает сундуки разом",
+            "th-TH": "คลิกขวาเปิดกล่องพร้อมกัน",
+            "tr-TR": "Sağ tıklayarak sandıkları aynı anda aç",
+            "uk-UA": "ПКМ відкриває скрині разом",
+            "vi-VN": "Chuột phải mở rương cùng lúc",
+            "zh-Hans": "右键一次性打开宝箱",
+            "zh-Hant": "右鍵一次性打開寶箱"
           },
           {
-            "ja": "500 ゴールド",
-            "en": "500 Gold"
+            "de-DE": "500 Gold",
+            "en-US": "500 Gold",
+            "es-ES": "500 Gold",
+            "fr-FR": "500 Gold",
+            "id-ID": "500 Gold",
+            "ja-JP": "500 ゴールド",
+            "ko-KR": "500 Gold",
+            "pl-PL": "500 Gold",
+            "pt-BR": "500 Gold",
+            "ru-RU": "500 Gold",
+            "th-TH": "500 Gold",
+            "tr-TR": "500 Gold",
+            "uk-UA": "500 Gold",
+            "vi-VN": "500 Gold",
+            "zh-Hans": "500 Gold",
+            "zh-Hant": "500 Gold"
           }
         ]
       ]

@@ -3,12 +3,40 @@
   "entityId": "16001",
   "slug": "16001-rune-of-storage",
   "title": {
-    "ja": "保管のルーン",
-    "en": "Rune of Storage"
+    "de-DE": "Lagerrune",
+    "en-US": "Rune of Storage",
+    "es-ES": "Runa de Almacenamiento",
+    "fr-FR": "Rune de Stockage",
+    "id-ID": "Rune Penyimpanan",
+    "ja-JP": "保管のルーン",
+    "ko-KR": "보관의 룬",
+    "pl-PL": "Runa Przechowywania",
+    "pt-BR": "Runa de Armazenamento",
+    "ru-RU": "Руна хранения",
+    "th-TH": "รูนเก็บรักษา",
+    "tr-TR": "Depolama Runu",
+    "uk-UA": "Руна зберігання",
+    "vi-VN": "Rune Lưu Trữ",
+    "zh-Hans": "储存符文",
+    "zh-Hant": "儲存符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/UnlockStashPageCount.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "倉庫ページ数",
-        "en": "Stash Page Count"
+        "de-DE": "Lagerseitenanzahl",
+        "en-US": "Stash Page Count",
+        "es-ES": "Cantidad de páginas de alijo",
+        "fr-FR": "Nombre de pages de coffre",
+        "id-ID": "Jumlah Halaman Stash",
+        "ja-JP": "倉庫ページ数",
+        "ko-KR": "창고 페이지 수",
+        "pl-PL": "Liczba stron skrytki",
+        "pt-BR": "Quantidade de páginas de depósito",
+        "ru-RU": "Кол-во страниц хранилища",
+        "th-TH": "จำนวนหน้ากรุ",
+        "tr-TR": "Depo Sayfa Sayısı",
+        "uk-UA": "Кіл. сторінок сховища",
+        "vi-VN": "Số Trang Kho",
+        "zh-Hans": "仓库页数",
+        "zh-Hant": "倉庫頁數"
       }
     },
     {
@@ -60,12 +102,40 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "保管のルーン",
-            "en": "Rune of Storage"
+            "de-DE": "Lagerrune",
+            "en-US": "Rune of Storage",
+            "es-ES": "Runa de Almacenamiento",
+            "fr-FR": "Rune de Stockage",
+            "id-ID": "Rune Penyimpanan",
+            "ja-JP": "保管のルーン",
+            "ko-KR": "보관의 룬",
+            "pl-PL": "Runa Przechowywania",
+            "pt-BR": "Runa de Armazenamento",
+            "ru-RU": "Руна хранения",
+            "th-TH": "รูนเก็บรักษา",
+            "tr-TR": "Depolama Runu",
+            "uk-UA": "Руна зберігання",
+            "vi-VN": "Rune Lưu Trữ",
+            "zh-Hans": "储存符文",
+            "zh-Hant": "儲存符文"
           },
           "-"
         ]
@@ -89,12 +159,40 @@
         [
           1,
           {
-            "ja": "倉庫ページ +1",
-            "en": "Stash Page +1"
+            "de-DE": "Lagerseite +1",
+            "en-US": "Stash Page +1",
+            "es-ES": "Página de alijo +1",
+            "fr-FR": "Page de coffre +1",
+            "id-ID": "Halaman Stash +1",
+            "ja-JP": "倉庫ページ +1",
+            "ko-KR": "창고 페이지 +1",
+            "pl-PL": "Strona skrytki +1",
+            "pt-BR": "Página de depósito +1",
+            "ru-RU": "Страница хранилища +1",
+            "th-TH": "หน้ากรุ +1",
+            "tr-TR": "Depo Sayfası +1",
+            "uk-UA": "Сторінка сховища +1",
+            "vi-VN": "Trang Kho +1",
+            "zh-Hans": "仓库页 +1",
+            "zh-Hant": "倉庫頁 +1"
           },
           {
-            "ja": "3000000 ゴールド",
-            "en": "3000000 Gold"
+            "de-DE": "3000000 Gold",
+            "en-US": "3000000 Gold",
+            "es-ES": "3000000 Gold",
+            "fr-FR": "3000000 Gold",
+            "id-ID": "3000000 Gold",
+            "ja-JP": "3000000 ゴールド",
+            "ko-KR": "3000000 Gold",
+            "pl-PL": "3000000 Gold",
+            "pt-BR": "3000000 Gold",
+            "ru-RU": "3000000 Gold",
+            "th-TH": "3000000 Gold",
+            "tr-TR": "3000000 Gold",
+            "uk-UA": "3000000 Gold",
+            "vi-VN": "3000000 Gold",
+            "zh-Hans": "3000000 Gold",
+            "zh-Hant": "3000000 Gold"
           }
         ]
       ]

@@ -3,12 +3,40 @@
   "entityId": "passive-501061",
   "slug": "passive-501061-lightning-damage-enhancement",
   "title": {
-    "ja": "雷ダメージ強化",
-    "en": "Lightning Damage Enhancement"
+    "de-DE": "Blitzschaden-Verstärkung",
+    "en-US": "Lightning Damage Enhancement",
+    "es-ES": "Mejora de Daño de Rayo",
+    "fr-FR": "Amélioration de Dégâts de Foudre",
+    "id-ID": "Peningkatan Kerusakan Petir",
+    "ja-JP": "雷ダメージ強化",
+    "ko-KR": "번개 피해 강화",
+    "pl-PL": "Wzmocnienie Obr. Piorunem",
+    "pt-BR": "Aprimoramento de Dano de Raio",
+    "ru-RU": "Усиление Урон молнией",
+    "th-TH": "เสริมความเสียหายฟ้าผ่า",
+    "tr-TR": "Geliştirme Şimşek Hasarı",
+    "uk-UA": "Посилення Шкода блискавкою",
+    "vi-VN": "Tăng cường Sát thương sét",
+    "zh-Hans": "闪电伤害强化",
+    "zh-Hant": "閃電傷害強化"
   },
   "subtitle": {
-    "ja": "雷ダメージ +150%",
-    "en": "Lightning Damage +150%"
+    "de-DE": "Blitzschaden +150%",
+    "en-US": "Lightning Damage +150%",
+    "es-ES": "Daño de Rayo +150%",
+    "fr-FR": "Dégâts de Foudre +150%",
+    "id-ID": "Damage Petir +150%",
+    "ja-JP": "雷ダメージ +150%",
+    "ko-KR": "번개 피해 +150%",
+    "pl-PL": "Obr. Piorunem +150%",
+    "pt-BR": "Dano de Raio +150%",
+    "ru-RU": "Урон молнией +150%",
+    "th-TH": "ดาเมจฟ้าผ่า +150%",
+    "tr-TR": "Şimşek Hasarı +150%",
+    "uk-UA": "Шкода блискавкою +150%",
+    "vi-VN": "Sát Thương Sét +150%",
+    "zh-Hans": "闪电伤害 +150%",
+    "zh-Hant": "閃電傷害 +150%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "雷ダメージ強化",
-        "en": "Lightning Damage Enhancement"
+        "de-DE": "Blitzschaden-Verstärkung",
+        "en-US": "Lightning Damage Enhancement",
+        "es-ES": "Mejora de Daño de Rayo",
+        "fr-FR": "Amélioration de Dégâts de Foudre",
+        "id-ID": "Peningkatan Kerusakan Petir",
+        "ja-JP": "雷ダメージ強化",
+        "ko-KR": "번개 피해 강화",
+        "pl-PL": "Wzmocnienie Obr. Piorunem",
+        "pt-BR": "Aprimoramento de Dano de Raio",
+        "ru-RU": "Усиление Урон молнией",
+        "th-TH": "เสริมความเสียหายฟ้าผ่า",
+        "tr-TR": "Geliştirme Şimşek Hasarı",
+        "uk-UA": "Посилення Шкода блискавкою",
+        "vi-VN": "Tăng cường Sát thương sét",
+        "zh-Hans": "闪电伤害强化",
+        "zh-Hant": "閃電傷害強化"
       }
     },
     {

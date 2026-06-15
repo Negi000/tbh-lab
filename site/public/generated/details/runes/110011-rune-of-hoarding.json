@@ -3,12 +3,40 @@
   "entityId": "110011",
   "slug": "110011-rune-of-hoarding",
   "title": {
-    "ja": "蓄積のルーン",
-    "en": "Rune of Hoarding"
+    "de-DE": "Hortrune",
+    "en-US": "Rune of Hoarding",
+    "es-ES": "Runa del Acopio",
+    "fr-FR": "Rune d'Accumulation",
+    "id-ID": "Rune Penimbunan",
+    "ja-JP": "蓄積のルーン",
+    "ko-KR": "비축의 룬",
+    "pl-PL": "Runa Gromadzenia",
+    "pt-BR": "Runa do Acúmulo",
+    "ru-RU": "Руна накопления",
+    "th-TH": "รูนกักตุน",
+    "tr-TR": "Biriktirme Runu",
+    "uk-UA": "Руна накопичення",
+    "vi-VN": "Rune Tích Trữ",
+    "zh-Hans": "储藏符文",
+    "zh-Hant": "儲藏符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 3",
-    "en": "Max Lv 3"
+    "de-DE": "Max Lv 3",
+    "en-US": "Max Lv 3",
+    "es-ES": "Max Lv 3",
+    "fr-FR": "Max Lv 3",
+    "id-ID": "Max Lv 3",
+    "ja-JP": "最大 Lv 3",
+    "ko-KR": "Max Lv 3",
+    "pl-PL": "Max Lv 3",
+    "pt-BR": "Max Lv 3",
+    "ru-RU": "Max Lv 3",
+    "th-TH": "Max Lv 3",
+    "tr-TR": "Max Lv 3",
+    "uk-UA": "Max Lv 3",
+    "vi-VN": "Max Lv 3",
+    "zh-Hans": "Max Lv 3",
+    "zh-Hant": "Max Lv 3"
   },
   "icon": "/generated/assets/game/runes/OfflineRewardGoldPercent.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "蓄積のルーン",
-        "en": "Rune of Hoarding"
+        "de-DE": "Hortrune",
+        "en-US": "Rune of Hoarding",
+        "es-ES": "Runa del Acopio",
+        "fr-FR": "Rune d'Accumulation",
+        "id-ID": "Rune Penimbunan",
+        "ja-JP": "蓄積のルーン",
+        "ko-KR": "비축의 룬",
+        "pl-PL": "Runa Gromadzenia",
+        "pt-BR": "Runa do Acúmulo",
+        "ru-RU": "Руна накопления",
+        "th-TH": "รูนกักตุน",
+        "tr-TR": "Biriktirme Runu",
+        "uk-UA": "Руна накопичення",
+        "vi-VN": "Rune Tích Trữ",
+        "zh-Hans": "储藏符文",
+        "zh-Hant": "儲藏符文"
       }
     },
     {
@@ -77,34 +119,118 @@
         [
           1,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "500 ゴールド",
-            "en": "500 Gold"
+            "de-DE": "500 Gold",
+            "en-US": "500 Gold",
+            "es-ES": "500 Gold",
+            "fr-FR": "500 Gold",
+            "id-ID": "500 Gold",
+            "ja-JP": "500 ゴールド",
+            "ko-KR": "500 Gold",
+            "pl-PL": "500 Gold",
+            "pt-BR": "500 Gold",
+            "ru-RU": "500 Gold",
+            "th-TH": "500 Gold",
+            "tr-TR": "500 Gold",
+            "uk-UA": "500 Gold",
+            "vi-VN": "500 Gold",
+            "zh-Hans": "500 Gold",
+            "zh-Hant": "500 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "1000 ゴールド",
-            "en": "1000 Gold"
+            "de-DE": "1000 Gold",
+            "en-US": "1000 Gold",
+            "es-ES": "1000 Gold",
+            "fr-FR": "1000 Gold",
+            "id-ID": "1000 Gold",
+            "ja-JP": "1000 ゴールド",
+            "ko-KR": "1000 Gold",
+            "pl-PL": "1000 Gold",
+            "pt-BR": "1000 Gold",
+            "ru-RU": "1000 Gold",
+            "th-TH": "1000 Gold",
+            "tr-TR": "1000 Gold",
+            "uk-UA": "1000 Gold",
+            "vi-VN": "1000 Gold",
+            "zh-Hans": "1000 Gold",
+            "zh-Hant": "1000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "オフライン報酬ゴールド +100%",
-            "en": "Offline Reward Gold +100%"
+            "de-DE": "Offline-Belohnung Gold +100%",
+            "en-US": "Offline Reward Gold +100%",
+            "es-ES": "Oro de recompensa sin conexión +100%",
+            "fr-FR": "Or de récompense hors ligne +100%",
+            "id-ID": "Emas hadiah offline +100%",
+            "ja-JP": "オフライン報酬ゴールド +100%",
+            "ko-KR": "오프라인 보상 골드 +100%",
+            "pl-PL": "Złoto nagrody offline +100%",
+            "pt-BR": "Ouro de recompensa offline +100%",
+            "ru-RU": "Золото офлайн-награды +100%",
+            "th-TH": "ทองรางวัลออฟไลน์ +100%",
+            "tr-TR": "Çevrimdışı ödül altını +%100",
+            "uk-UA": "Золото офлайн-нагороди +100%",
+            "vi-VN": "Vàng phần thưởng offline +100%",
+            "zh-Hans": "离线奖励金币 +100%",
+            "zh-Hant": "離線獎勵金幣 +100%"
           },
           {
-            "ja": "1500 ゴールド",
-            "en": "1500 Gold"
+            "de-DE": "1500 Gold",
+            "en-US": "1500 Gold",
+            "es-ES": "1500 Gold",
+            "fr-FR": "1500 Gold",
+            "id-ID": "1500 Gold",
+            "ja-JP": "1500 ゴールド",
+            "ko-KR": "1500 Gold",
+            "pl-PL": "1500 Gold",
+            "pt-BR": "1500 Gold",
+            "ru-RU": "1500 Gold",
+            "th-TH": "1500 Gold",
+            "tr-TR": "1500 Gold",
+            "uk-UA": "1500 Gold",
+            "vi-VN": "1500 Gold",
+            "zh-Hans": "1500 Gold",
+            "zh-Hant": "1500 Gold"
           }
         ]
       ]

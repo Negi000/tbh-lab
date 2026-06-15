@@ -3,12 +3,40 @@
   "entityId": "24",
   "slug": "24-rune-of-command",
   "title": {
-    "ja": "指揮のルーン",
-    "en": "Rune of Command"
+    "de-DE": "Befehlsrune",
+    "en-US": "Rune of Command",
+    "es-ES": "Runa de Mando",
+    "fr-FR": "Rune de Commandement",
+    "id-ID": "Rune Komando",
+    "ja-JP": "指揮のルーン",
+    "ko-KR": "지휘의 룬",
+    "pl-PL": "Runa Dowodzenia",
+    "pt-BR": "Runa de Comando",
+    "ru-RU": "Руна командования",
+    "th-TH": "รูนบัญชา",
+    "tr-TR": "Komuta Runu",
+    "uk-UA": "Руна командування",
+    "vi-VN": "Rune Chỉ Huy",
+    "zh-Hans": "指挥符文",
+    "zh-Hant": "指揮符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/UnlockArrangeSlotCount.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ヒーロー配置枠",
-        "en": "Hero Formation Slot"
+        "de-DE": "Heldenaufstellungsplatz",
+        "en-US": "Hero Formation Slot",
+        "es-ES": "Ranura de formación de Héroe",
+        "fr-FR": "Emplacement de formation de Héros",
+        "id-ID": "Slot Formasi Hero",
+        "ja-JP": "ヒーロー配置枠",
+        "ko-KR": "영웅 배치 슬롯",
+        "pl-PL": "Slot formacji Bohatera",
+        "pt-BR": "Espaço de formação de Herói",
+        "ru-RU": "Слот расстановки героев",
+        "th-TH": "ช่องจัดทัพฮีโร่",
+        "tr-TR": "Kahraman Dizilim Yuvası",
+        "uk-UA": "Слот розстановки героїв",
+        "vi-VN": "Ô Xếp Hero",
+        "zh-Hans": "英雄编成槽",
+        "zh-Hant": "英雄編成槽"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "ヒーロー枠 +1",
-            "en": "Hero Slot +1"
+            "de-DE": "Heldenplatz +1",
+            "en-US": "Hero Slot +1",
+            "es-ES": "Ranura de Héroe +1",
+            "fr-FR": "Emplacement de Héros +1",
+            "id-ID": "Slot Hero +1",
+            "ja-JP": "ヒーロー枠 +1",
+            "ko-KR": "영웅 슬롯 +1",
+            "pl-PL": "Slot Bohatera +1",
+            "pt-BR": "Espaço de Herói +1",
+            "ru-RU": "Слот героя +1",
+            "th-TH": "ช่องฮีโร่ +1",
+            "tr-TR": "Kahraman Yuvası +1",
+            "uk-UA": "Слот героя +1",
+            "vi-VN": "Ô Hero +1",
+            "zh-Hans": "英雄槽位 +1",
+            "zh-Hant": "英雄槽位 +1"
           },
           {
-            "ja": "150000 ゴールド",
-            "en": "150000 Gold"
+            "de-DE": "150000 Gold",
+            "en-US": "150000 Gold",
+            "es-ES": "150000 Gold",
+            "fr-FR": "150000 Gold",
+            "id-ID": "150000 Gold",
+            "ja-JP": "150000 ゴールド",
+            "ko-KR": "150000 Gold",
+            "pl-PL": "150000 Gold",
+            "pt-BR": "150000 Gold",
+            "ru-RU": "150000 Gold",
+            "th-TH": "150000 Gold",
+            "tr-TR": "150000 Gold",
+            "uk-UA": "150000 Gold",
+            "vi-VN": "150000 Gold",
+            "zh-Hans": "150000 Gold",
+            "zh-Hant": "150000 Gold"
           }
         ]
       ]

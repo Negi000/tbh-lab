@@ -229,6 +229,18 @@ const VALUATION_LIMIT = 120;
 const STEAM_FEE_RATE = 1.15;
 const marketQuoteCache = new Map<string, Promise<MarketItem | null>>();
 
+function localeBase(locale: LocaleCode) {
+  return locale.split("-", 1)[0];
+}
+
+function isJapaneseLocale(locale: LocaleCode) {
+  return localeBase(locale) === "ja";
+}
+
+function intlLocale(locale: LocaleCode) {
+  return locale || "en-US";
+}
+
 function useJson<T>(path: string | null) {
   const [state, setState] = useState<{ path: string | null; data: T | null; error: string | null }>({ path: null, data: null, error: null });
   useEffect(() => {
@@ -267,13 +279,14 @@ function useJson<T>(path: string | null) {
 }
 
 function localText(value: Localized | undefined, locale: LocaleCode) {
-  return value?.[locale] ?? value?.en ?? value?.ja ?? "";
+  const base = localeBase(locale);
+  return value?.[locale] ?? value?.[base] ?? value?.["en-US"] ?? value?.en ?? value?.["ja-JP"] ?? value?.ja ?? "";
 }
 
 function numberText(value: string | number | null | undefined, locale: LocaleCode) {
   const number = Number(value);
   if (Number.isFinite(number)) {
-    return new Intl.NumberFormat(locale === "ja" ? "ja-JP" : "en-US").format(number);
+    return new Intl.NumberFormat(intlLocale(locale)).format(number);
   }
   return value === null || value === undefined || value === "" ? "-" : String(value);
 }
@@ -284,7 +297,7 @@ function percentText(value: string | number | null | undefined, locale: LocaleCo
     return "-";
   }
   const rate = number > 100 ? number / 10 : number;
-  return `${new Intl.NumberFormat(locale === "ja" ? "ja-JP" : "en-US", { maximumFractionDigits: 3 }).format(rate)}%`;
+  return `${new Intl.NumberFormat(intlLocale(locale), { maximumFractionDigits: 3 }).format(rate)}%`;
 }
 
 function displayValue(value: string | number | Localized | null | undefined, locale: LocaleCode) {
@@ -306,14 +319,14 @@ function priceText(cents: number | null | undefined, locale: LocaleCode, currenc
   if (currency === "jpy" && rate) {
     return new Intl.NumberFormat("ja-JP", { style: "currency", currency: "JPY", maximumFractionDigits: 0 }).format(usd * rate);
   }
-  return new Intl.NumberFormat(locale === "ja" ? "ja-JP" : "en-US", { style: "currency", currency: "USD" }).format(usd);
+  return new Intl.NumberFormat(intlLocale(locale), { style: "currency", currency: "USD" }).format(usd);
 }
 
 function dateText(seconds: number | null | undefined, locale: LocaleCode) {
   if (!seconds) {
     return "-";
   }
-  return new Intl.DateTimeFormat(locale === "ja" ? "ja-JP" : "en-US", { dateStyle: "short", timeStyle: "short" }).format(new Date(seconds * 1000));
+  return new Intl.DateTimeFormat(intlLocale(locale), { dateStyle: "short", timeStyle: "short" }).format(new Date(seconds * 1000));
 }
 
 function cleanNotice(value: string) {
@@ -357,7 +370,7 @@ function steamMarketUrl(hashName: string) {
 }
 
 function marketName(item: MarketItem, locale: LocaleCode) {
-  return locale === "ja" && item.name_ja ? item.name_ja : item.name;
+  return isJapaneseLocale(locale) && item.name_ja ? item.name_ja : item.name;
 }
 
 function marketColor(item: MarketItem) {
@@ -369,7 +382,7 @@ function changeText(value: number | null | undefined, locale: LocaleCode) {
   if (!Number.isFinite(number)) {
     return "-";
   }
-  return `${number >= 0 ? "+" : ""}${new Intl.NumberFormat(locale === "ja" ? "ja-JP" : "en-US", { maximumFractionDigits: 1 }).format(number * 100)}%`;
+  return `${number >= 0 ? "+" : ""}${new Intl.NumberFormat(intlLocale(locale), { maximumFractionDigits: 1 }).format(number * 100)}%`;
 }
 
 function dealPercent(item: MarketItem) {
@@ -466,7 +479,7 @@ function isoDateText(value: string | null | undefined, locale: LocaleCode) {
   if (Number.isNaN(date.getTime())) {
     return value;
   }
-  return new Intl.DateTimeFormat(locale === "ja" ? "ja-JP" : "en-US", { dateStyle: "medium", timeStyle: "short" }).format(date);
+  return new Intl.DateTimeFormat(intlLocale(locale), { dateStyle: "medium", timeStyle: "short" }).format(date);
 }
 
 function plannerKindLabel(kind: PlannerKind, t: Translator) {
@@ -1724,7 +1737,7 @@ export function MarketWorkbench({
   const [gear, setGear] = useState("");
   const [level, setLevel] = useState("");
   const [sort, setSort] = useState("listings_desc");
-  const [currency, setCurrency] = useState<MarketCurrency>(() => (locale === "ja" ? "jpy" : "usd"));
+  const [currency, setCurrency] = useState<MarketCurrency>(() => (isJapaneseLocale(locale) ? "jpy" : "usd"));
   const [tradableOnly, setTradableOnly] = useState(false);
   const [dealOnly, setDealOnly] = useState(false);
   const [page, setPage] = useState(1);
@@ -2330,7 +2343,7 @@ function MarketQuoteRelationCard({
 }) {
   const [quote, setQuote] = useState<MarketItem | null>(null);
   const [rate, setRate] = useState<number | null>(null);
-  const currency: MarketCurrency = locale === "ja" ? "jpy" : "usd";
+  const currency: MarketCurrency = isJapaneseLocale(locale) ? "jpy" : "usd";
 
   useEffect(() => {
     let cancelled = false;

@@ -3,12 +3,40 @@
   "entityId": "147002",
   "slug": "147002-sunstone",
   "title": {
-    "ja": "サンストーン",
-    "en": "Sunstone"
+    "de-DE": "Sunstone",
+    "en-US": "Sunstone",
+    "es-ES": "Sunstone",
+    "fr-FR": "Sunstone",
+    "id-ID": "Sunstone",
+    "ja-JP": "サンストーン",
+    "ko-KR": "Sunstone",
+    "pl-PL": "Sunstone",
+    "pt-BR": "Sunstone",
+    "ru-RU": "Sunstone",
+    "th-TH": "Sunstone",
+    "tr-TR": "Sunstone",
+    "uk-UA": "Sunstone",
+    "vi-VN": "Sunstone",
+    "zh-Hans": "Sunstone",
+    "zh-Hant": "Sunstone"
   },
   "subtitle": {
-    "en": "Celestial / Crafting material",
-    "ja": "セレスティアル / クラフト素材"
+    "de-DE": "Himmlisch / Crafting material",
+    "en-US": "Celestial / Crafting material",
+    "es-ES": "Celestial / Crafting material",
+    "fr-FR": "Céleste / Crafting material",
+    "id-ID": "Surgawi / Crafting material",
+    "ja-JP": "セレスティアル / クラフト素材",
+    "ko-KR": "천상 / Crafting material",
+    "pl-PL": "Niebiański / Crafting material",
+    "pt-BR": "Celestial / Crafting material",
+    "ru-RU": "Небесный / Crafting material",
+    "th-TH": "สวรรค์ / Crafting material",
+    "tr-TR": "Göksel / Crafting material",
+    "uk-UA": "Небесний / Crafting material",
+    "vi-VN": "Thiên giới / Crafting material",
+    "zh-Hans": "天界 / Crafting material",
+    "zh-Hant": "天界 / Crafting material"
   },
   "icon": "/generated/assets/game/item/Materials/Item_147002.png",
   "rarity": "CELESTIAL",
@@ -60,13 +88,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3130007",
-            "en": "DropKey 3130007"
+            "de-DE": "DropKey 3130007",
+            "en-US": "DropKey 3130007",
+            "es-ES": "DropKey 3130007",
+            "fr-FR": "DropKey 3130007",
+            "id-ID": "DropKey 3130007",
+            "ja-JP": "DropKey 3130007",
+            "ko-KR": "DropKey 3130007",
+            "pl-PL": "DropKey 3130007",
+            "pt-BR": "DropKey 3130007",
+            "ru-RU": "DropKey 3130007",
+            "th-TH": "DropKey 3130007",
+            "tr-TR": "DropKey 3130007",
+            "uk-UA": "DropKey 3130007",
+            "vi-VN": "DropKey 3130007",
+            "zh-Hans": "DropKey 3130007",
+            "zh-Hant": "DropKey 3130007"
           },
           "40%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

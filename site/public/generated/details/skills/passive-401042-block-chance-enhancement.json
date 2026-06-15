@@ -3,12 +3,40 @@
   "entityId": "passive-401042",
   "slug": "passive-401042-block-chance-enhancement",
   "title": {
-    "ja": "ブロック率強化",
-    "en": "Block Chance Enhancement"
+    "de-DE": "Blockchance-Verstärkung",
+    "en-US": "Block Chance Enhancement",
+    "es-ES": "Mejora de Prob. Bloqueo",
+    "fr-FR": "Amélioration de Chance de Blocage",
+    "id-ID": "Peningkatan Peluang Tangkis",
+    "ja-JP": "ブロック率強化",
+    "ko-KR": "막기 확률 강화",
+    "pl-PL": "Wzmocnienie Szansa Bloku",
+    "pt-BR": "Aprimoramento de Chance de Bloqueio",
+    "ru-RU": "Усиление Шанс блока",
+    "th-TH": "เสริมโอกาสบล็อก",
+    "tr-TR": "Geliştirme Blok Şansı",
+    "uk-UA": "Посилення Шанс блоку",
+    "vi-VN": "Tăng cường Tỷ lệ đỡ",
+    "zh-Hans": "格挡几率强化",
+    "zh-Hant": "格擋機率強化"
   },
   "subtitle": {
-    "ja": "ブロック率 +30%",
-    "en": "Block Chance +30%"
+    "de-DE": "Blockchance +30%",
+    "en-US": "Block Chance +30%",
+    "es-ES": "Prob. Bloqueo +30%",
+    "fr-FR": "Chance de Blocage +30%",
+    "id-ID": "Peluang Blok +30%",
+    "ja-JP": "ブロック率 +30%",
+    "ko-KR": "막기 확률 +30%",
+    "pl-PL": "Szansa Bloku +30%",
+    "pt-BR": "Chance de Bloqueio +30%",
+    "ru-RU": "Шанс блока +30%",
+    "th-TH": "โอกาสบล็อก +30%",
+    "tr-TR": "Blok Şansı +30%",
+    "uk-UA": "Шанс блоку +30%",
+    "vi-VN": "Tỉ Lệ Chặn +30%",
+    "zh-Hans": "格挡几率 +30%",
+    "zh-Hant": "格擋機率 +30%"
   },
   "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
   "rarity": "ARCANA",
@@ -25,8 +53,22 @@
     {
       "labelKey": "field.type",
       "value": {
-        "ja": "ブロック率",
-        "en": "Block Chance"
+        "de-DE": "Blockchance",
+        "en-US": "Block Chance",
+        "es-ES": "Probabilidad de Bloquear",
+        "fr-FR": "Chance de Blocage",
+        "id-ID": "Peluang Blok",
+        "ja-JP": "ブロック率",
+        "ko-KR": "막기 확률",
+        "pl-PL": "Szansa na Blok",
+        "pt-BR": "Chance de Bloqueio",
+        "ru-RU": "Шанс блока",
+        "th-TH": "โอกาสบล็อค",
+        "tr-TR": "Engelleme Şansı",
+        "uk-UA": "Шанс блоку",
+        "vi-VN": "Tỷ lệ đỡ",
+        "zh-Hans": "格挡几率",
+        "zh-Hant": "格擋機率"
       }
     },
     {

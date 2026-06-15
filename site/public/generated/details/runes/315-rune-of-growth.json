@@ -3,12 +3,40 @@
   "entityId": "315",
   "slug": "315-rune-of-growth",
   "title": {
-    "ja": "成長のルーン",
-    "en": "Rune of Growth"
+    "de-DE": "Wachstumsrune",
+    "en-US": "Rune of Growth",
+    "es-ES": "Runa del Crecimiento",
+    "fr-FR": "Rune de Croissance",
+    "id-ID": "Rune Pertumbuhan",
+    "ja-JP": "成長のルーン",
+    "ko-KR": "성장의 룬",
+    "pl-PL": "Runa Wzrostu",
+    "pt-BR": "Runa do Crescimento",
+    "ru-RU": "Руна роста",
+    "th-TH": "รูนเติบโต",
+    "tr-TR": "Büyüme Runu",
+    "uk-UA": "Руна зростання",
+    "vi-VN": "Rune Trưởng Thành",
+    "zh-Hans": "成长符文",
+    "zh-Hant": "成長符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 5",
-    "en": "Max Lv 5"
+    "de-DE": "Max Lv 5",
+    "en-US": "Max Lv 5",
+    "es-ES": "Max Lv 5",
+    "fr-FR": "Max Lv 5",
+    "id-ID": "Max Lv 5",
+    "ja-JP": "最大 Lv 5",
+    "ko-KR": "Max Lv 5",
+    "pl-PL": "Max Lv 5",
+    "pt-BR": "Max Lv 5",
+    "ru-RU": "Max Lv 5",
+    "th-TH": "Max Lv 5",
+    "tr-TR": "Max Lv 5",
+    "uk-UA": "Max Lv 5",
+    "vi-VN": "Max Lv 5",
+    "zh-Hans": "Max Lv 5",
+    "zh-Hant": "Max Lv 5"
   },
   "icon": "/generated/assets/game/runes/AdditionalExpStageBoss.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "ステージボス経験値",
-        "en": "Exp From Stage Boss"
+        "de-DE": "EP vom Stage-Boss",
+        "en-US": "Exp From Stage Boss",
+        "es-ES": "Exp del jefe de etapa",
+        "fr-FR": "Exp du boss d'étape",
+        "id-ID": "Exp dari Boss Panggung",
+        "ja-JP": "ステージボス経験値",
+        "ko-KR": "스테이지 보스 처치 시 획득 경험치",
+        "pl-PL": "Exp od bossa etapu",
+        "pt-BR": "Exp do chefe de fase",
+        "ru-RU": "Опыт с босса стадии",
+        "th-TH": "Exp จากบอสด่าน",
+        "tr-TR": "Aşama Bossundan Tecrübe",
+        "uk-UA": "Досвід з боса етапу",
+        "vi-VN": "KN từ Boss Tầng",
+        "zh-Hans": "关卡首领经验",
+        "zh-Hant": "關卡首領經驗"
       }
     },
     {
@@ -60,23 +102,79 @@
       "rows": [
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ],
         [
           {
-            "ja": "接続",
-            "en": "Connected"
+            "de-DE": "Connected",
+            "en-US": "Connected",
+            "es-ES": "Connected",
+            "fr-FR": "Connected",
+            "id-ID": "Connected",
+            "ja-JP": "接続",
+            "ko-KR": "Connected",
+            "pl-PL": "Connected",
+            "pt-BR": "Connected",
+            "ru-RU": "Connected",
+            "th-TH": "Connected",
+            "tr-TR": "Connected",
+            "uk-UA": "Connected",
+            "vi-VN": "Connected",
+            "zh-Hans": "Connected",
+            "zh-Hant": "Connected"
           },
           {
-            "ja": "成長のルーン",
-            "en": "Rune of Growth"
+            "de-DE": "Wachstumsrune",
+            "en-US": "Rune of Growth",
+            "es-ES": "Runa del Crecimiento",
+            "fr-FR": "Rune de Croissance",
+            "id-ID": "Rune Pertumbuhan",
+            "ja-JP": "成長のルーン",
+            "ko-KR": "성장의 룬",
+            "pl-PL": "Runa Wzrostu",
+            "pt-BR": "Runa do Crescimento",
+            "ru-RU": "Руна роста",
+            "th-TH": "รูนเติบโต",
+            "tr-TR": "Büyüme Runu",
+            "uk-UA": "Руна зростання",
+            "vi-VN": "Rune Trưởng Thành",
+            "zh-Hans": "成长符文",
+            "zh-Hant": "成長符文"
           },
           "-"
         ]
@@ -100,56 +198,196 @@
         [
           1,
           {
-            "ja": "ステージボス経験値 +5000",
-            "en": "Exp From Stage Boss Kill +5000"
+            "de-DE": "EP vom Stage-Boss +5000",
+            "en-US": "Exp From Stage Boss Kill +5000",
+            "es-ES": "Exp del jefe de etapa +5000",
+            "fr-FR": "Exp du boss d'étape +5000",
+            "id-ID": "Exp dari Boss Panggung +5000",
+            "ja-JP": "ステージボス経験値 +5000",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +5000",
+            "pl-PL": "Exp od bossa etapu +5000",
+            "pt-BR": "Exp do chefe de fase +5000",
+            "ru-RU": "Опыт с босса стадии +5000",
+            "th-TH": "Exp จากบอสด่าน +5000",
+            "tr-TR": "Aşama Bossundan Tecrübe +5000",
+            "uk-UA": "Досвід з боса етапу +5000",
+            "vi-VN": "KN từ Boss Tầng +5000",
+            "zh-Hans": "关卡首领经验 +5000",
+            "zh-Hant": "關卡首領經驗 +5000"
           },
           {
-            "ja": "50000000 ゴールド",
-            "en": "50000000 Gold"
+            "de-DE": "50000000 Gold",
+            "en-US": "50000000 Gold",
+            "es-ES": "50000000 Gold",
+            "fr-FR": "50000000 Gold",
+            "id-ID": "50000000 Gold",
+            "ja-JP": "50000000 ゴールド",
+            "ko-KR": "50000000 Gold",
+            "pl-PL": "50000000 Gold",
+            "pt-BR": "50000000 Gold",
+            "ru-RU": "50000000 Gold",
+            "th-TH": "50000000 Gold",
+            "tr-TR": "50000000 Gold",
+            "uk-UA": "50000000 Gold",
+            "vi-VN": "50000000 Gold",
+            "zh-Hans": "50000000 Gold",
+            "zh-Hant": "50000000 Gold"
           }
         ],
         [
           2,
           {
-            "ja": "ステージボス経験値 +5000",
-            "en": "Exp From Stage Boss Kill +5000"
+            "de-DE": "EP vom Stage-Boss +5000",
+            "en-US": "Exp From Stage Boss Kill +5000",
+            "es-ES": "Exp del jefe de etapa +5000",
+            "fr-FR": "Exp du boss d'étape +5000",
+            "id-ID": "Exp dari Boss Panggung +5000",
+            "ja-JP": "ステージボス経験値 +5000",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +5000",
+            "pl-PL": "Exp od bossa etapu +5000",
+            "pt-BR": "Exp do chefe de fase +5000",
+            "ru-RU": "Опыт с босса стадии +5000",
+            "th-TH": "Exp จากบอสด่าน +5000",
+            "tr-TR": "Aşama Bossundan Tecrübe +5000",
+            "uk-UA": "Досвід з боса етапу +5000",
+            "vi-VN": "KN từ Boss Tầng +5000",
+            "zh-Hans": "关卡首领经验 +5000",
+            "zh-Hant": "關卡首領經驗 +5000"
           },
           {
-            "ja": "55000000 ゴールド",
-            "en": "55000000 Gold"
+            "de-DE": "55000000 Gold",
+            "en-US": "55000000 Gold",
+            "es-ES": "55000000 Gold",
+            "fr-FR": "55000000 Gold",
+            "id-ID": "55000000 Gold",
+            "ja-JP": "55000000 ゴールド",
+            "ko-KR": "55000000 Gold",
+            "pl-PL": "55000000 Gold",
+            "pt-BR": "55000000 Gold",
+            "ru-RU": "55000000 Gold",
+            "th-TH": "55000000 Gold",
+            "tr-TR": "55000000 Gold",
+            "uk-UA": "55000000 Gold",
+            "vi-VN": "55000000 Gold",
+            "zh-Hans": "55000000 Gold",
+            "zh-Hant": "55000000 Gold"
           }
         ],
         [
           3,
           {
-            "ja": "ステージボス経験値 +5000",
-            "en": "Exp From Stage Boss Kill +5000"
+            "de-DE": "EP vom Stage-Boss +5000",
+            "en-US": "Exp From Stage Boss Kill +5000",
+            "es-ES": "Exp del jefe de etapa +5000",
+            "fr-FR": "Exp du boss d'étape +5000",
+            "id-ID": "Exp dari Boss Panggung +5000",
+            "ja-JP": "ステージボス経験値 +5000",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +5000",
+            "pl-PL": "Exp od bossa etapu +5000",
+            "pt-BR": "Exp do chefe de fase +5000",
+            "ru-RU": "Опыт с босса стадии +5000",
+            "th-TH": "Exp จากบอสด่าน +5000",
+            "tr-TR": "Aşama Bossundan Tecrübe +5000",
+            "uk-UA": "Досвід з боса етапу +5000",
+            "vi-VN": "KN từ Boss Tầng +5000",
+            "zh-Hans": "关卡首领经验 +5000",
+            "zh-Hant": "關卡首領經驗 +5000"
           },
           {
-            "ja": "60000000 ゴールド",
-            "en": "60000000 Gold"
+            "de-DE": "60000000 Gold",
+            "en-US": "60000000 Gold",
+            "es-ES": "60000000 Gold",
+            "fr-FR": "60000000 Gold",
+            "id-ID": "60000000 Gold",
+            "ja-JP": "60000000 ゴールド",
+            "ko-KR": "60000000 Gold",
+            "pl-PL": "60000000 Gold",
+            "pt-BR": "60000000 Gold",
+            "ru-RU": "60000000 Gold",
+            "th-TH": "60000000 Gold",
+            "tr-TR": "60000000 Gold",
+            "uk-UA": "60000000 Gold",
+            "vi-VN": "60000000 Gold",
+            "zh-Hans": "60000000 Gold",
+            "zh-Hant": "60000000 Gold"
           }
         ],
         [
           4,
           {
-            "ja": "ステージボス経験値 +5000",
-            "en": "Exp From Stage Boss Kill +5000"
+            "de-DE": "EP vom Stage-Boss +5000",
+            "en-US": "Exp From Stage Boss Kill +5000",
+            "es-ES": "Exp del jefe de etapa +5000",
+            "fr-FR": "Exp du boss d'étape +5000",
+            "id-ID": "Exp dari Boss Panggung +5000",
+            "ja-JP": "ステージボス経験値 +5000",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +5000",
+            "pl-PL": "Exp od bossa etapu +5000",
+            "pt-BR": "Exp do chefe de fase +5000",
+            "ru-RU": "Опыт с босса стадии +5000",
+            "th-TH": "Exp จากบอสด่าน +5000",
+            "tr-TR": "Aşama Bossundan Tecrübe +5000",
+            "uk-UA": "Досвід з боса етапу +5000",
+            "vi-VN": "KN từ Boss Tầng +5000",
+            "zh-Hans": "关卡首领经验 +5000",
+            "zh-Hant": "關卡首領經驗 +5000"
           },
           {
-            "ja": "65000000 ゴールド",
-            "en": "65000000 Gold"
+            "de-DE": "65000000 Gold",
+            "en-US": "65000000 Gold",
+            "es-ES": "65000000 Gold",
+            "fr-FR": "65000000 Gold",
+            "id-ID": "65000000 Gold",
+            "ja-JP": "65000000 ゴールド",
+            "ko-KR": "65000000 Gold",
+            "pl-PL": "65000000 Gold",
+            "pt-BR": "65000000 Gold",
+            "ru-RU": "65000000 Gold",
+            "th-TH": "65000000 Gold",
+            "tr-TR": "65000000 Gold",
+            "uk-UA": "65000000 Gold",
+            "vi-VN": "65000000 Gold",
+            "zh-Hans": "65000000 Gold",
+            "zh-Hant": "65000000 Gold"
           }
         ],
         [
           5,
           {
-            "ja": "ステージボス経験値 +5000",
-            "en": "Exp From Stage Boss Kill +5000"
+            "de-DE": "EP vom Stage-Boss +5000",
+            "en-US": "Exp From Stage Boss Kill +5000",
+            "es-ES": "Exp del jefe de etapa +5000",
+            "fr-FR": "Exp du boss d'étape +5000",
+            "id-ID": "Exp dari Boss Panggung +5000",
+            "ja-JP": "ステージボス経験値 +5000",
+            "ko-KR": "스테이지 보스 처치 시 경험치 +5000",
+            "pl-PL": "Exp od bossa etapu +5000",
+            "pt-BR": "Exp do chefe de fase +5000",
+            "ru-RU": "Опыт с босса стадии +5000",
+            "th-TH": "Exp จากบอสด่าน +5000",
+            "tr-TR": "Aşama Bossundan Tecrübe +5000",
+            "uk-UA": "Досвід з боса етапу +5000",
+            "vi-VN": "KN từ Boss Tầng +5000",
+            "zh-Hans": "关卡首领经验 +5000",
+            "zh-Hant": "關卡首領經驗 +5000"
           },
           {
-            "ja": "70000000 ゴールド",
-            "en": "70000000 Gold"
+            "de-DE": "70000000 Gold",
+            "en-US": "70000000 Gold",
+            "es-ES": "70000000 Gold",
+            "fr-FR": "70000000 Gold",
+            "id-ID": "70000000 Gold",
+            "ja-JP": "70000000 ゴールド",
+            "ko-KR": "70000000 Gold",
+            "pl-PL": "70000000 Gold",
+            "pt-BR": "70000000 Gold",
+            "ru-RU": "70000000 Gold",
+            "th-TH": "70000000 Gold",
+            "tr-TR": "70000000 Gold",
+            "uk-UA": "70000000 Gold",
+            "vi-VN": "70000000 Gold",
+            "zh-Hans": "70000000 Gold",
+            "zh-Hant": "70000000 Gold"
           }
         ]
       ]

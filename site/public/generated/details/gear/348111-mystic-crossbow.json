@@ -3,12 +3,40 @@
   "entityId": "348111",
   "slug": "348111-mystic-crossbow",
   "title": {
-    "ja": "ミスティッククロスボウ",
-    "en": "Mystic Crossbow"
+    "de-DE": "Mystic Crossbow",
+    "en-US": "Mystic Crossbow",
+    "es-ES": "Mystic Crossbow",
+    "fr-FR": "Mystic Crossbow",
+    "id-ID": "Mystic Crossbow",
+    "ja-JP": "ミスティッククロスボウ",
+    "ko-KR": "Mystic Crossbow",
+    "pl-PL": "Mystic Crossbow",
+    "pt-BR": "Mystic Crossbow",
+    "ru-RU": "Mystic Crossbow",
+    "th-TH": "Mystic Crossbow",
+    "tr-TR": "Mystic Crossbow",
+    "uk-UA": "Mystic Crossbow",
+    "vi-VN": "Mystic Crossbow",
+    "zh-Hans": "Mystic Crossbow",
+    "zh-Hant": "Mystic Crossbow"
   },
   "subtitle": {
-    "en": "Divine / Crossbow / Main Weapon / Lv. 50",
-    "ja": "ディバイン / クロスボウ / メイン武器 / Lv. 50"
+    "de-DE": "Göttlich / Armbrust / Hauptwaffe / Lv. 50",
+    "en-US": "Divine / Crossbow / Main Weapon / Lv. 50",
+    "es-ES": "Divino / Ballesta / Arma principal / Lv. 50",
+    "fr-FR": "Divin / Arbalète / Arme principale / Lv. 50",
+    "id-ID": "Ilahi / Panah Silang / Senjata Utama / Lv. 50",
+    "ja-JP": "ディバイン / クロスボウ / メイン武器 / Lv. 50",
+    "ko-KR": "신성 / 석궁 / 주무기 / Lv. 50",
+    "pl-PL": "Boski / Kusza / Broń główna / Lv. 50",
+    "pt-BR": "Divino / Besta / Arma Principal / Lv. 50",
+    "ru-RU": "Божественный / Арбалет / Основное оружие / Lv. 50",
+    "th-TH": "ศักดิ์สิทธิ์ / หน้าไม้ / อาวุธหลัก / Lv. 50",
+    "tr-TR": "İlahi / Arbalet / Ana Silah / Lv. 50",
+    "uk-UA": "Божественний / Арбалет / Основна зброя / Lv. 50",
+    "vi-VN": "Thần thánh / Nỏ / Vũ khí chính / Lv. 50",
+    "zh-Hans": "神圣 / 弩 / 主武器 / Lv. 50",
+    "zh-Hant": "神聖 / 弩 / 主武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340011.png",
   "rarity": "DIVINE",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115118",
-            "en": "DropKey 3115118"
+            "de-DE": "DropKey 3115118",
+            "en-US": "DropKey 3115118",
+            "es-ES": "DropKey 3115118",
+            "fr-FR": "DropKey 3115118",
+            "id-ID": "DropKey 3115118",
+            "ja-JP": "DropKey 3115118",
+            "ko-KR": "DropKey 3115118",
+            "pl-PL": "DropKey 3115118",
+            "pt-BR": "DropKey 3115118",
+            "ru-RU": "DropKey 3115118",
+            "th-TH": "DropKey 3115118",
+            "tr-TR": "DropKey 3115118",
+            "uk-UA": "DropKey 3115118",
+            "vi-VN": "DropKey 3115118",
+            "zh-Hans": "DropKey 3115118",
+            "zh-Hant": "DropKey 3115118"
           },
           "6.25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

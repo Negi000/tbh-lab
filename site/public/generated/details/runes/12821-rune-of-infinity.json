@@ -3,12 +3,40 @@
   "entityId": "12821",
   "slug": "12821-rune-of-infinity",
   "title": {
-    "ja": "無限のルーン",
-    "en": "Rune of Infinity"
+    "de-DE": "Unendlichkeitsrune",
+    "en-US": "Rune of Infinity",
+    "es-ES": "Runa del Infinito",
+    "fr-FR": "Rune de l'Infini",
+    "id-ID": "Rune Tak Terbatas",
+    "ja-JP": "無限のルーン",
+    "ko-KR": "무한의 룬",
+    "pl-PL": "Runa Nieskończoności",
+    "pt-BR": "Runa do Infinito",
+    "ru-RU": "Руна бесконечности",
+    "th-TH": "รูนอนันต์",
+    "tr-TR": "Sonsuzluk Runu",
+    "uk-UA": "Руна нескінченності",
+    "vi-VN": "Rune Vô Tận",
+    "zh-Hans": "无限符文",
+    "zh-Hant": "無限符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/MaxAmountActBossChest.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "アクトボス宝箱最大保管",
-        "en": "Act Boss Chest Max Capacity"
+        "de-DE": "Max. Lagerung Akt-Boss-Truhe",
+        "en-US": "Act Boss Chest Max Capacity",
+        "es-ES": "Alm. máx. de cofre del jefe de acto",
+        "fr-FR": "Stock max coffre de boss d'acte",
+        "id-ID": "Maks. Simpan Peti Boss Babak",
+        "ja-JP": "アクトボス宝箱最大保管",
+        "ko-KR": "액트 보스 상자 최대 보관량 증가",
+        "pl-PL": "Maks. skrzyń bossa aktu",
+        "pt-BR": "Arm. máx. de baú do chefe de ato",
+        "ru-RU": "Макс. сундуков босса акта",
+        "th-TH": "เก็บหีบบอส Act สูงสุด",
+        "tr-TR": "Maks. Bölüm Boss Sandığı",
+        "uk-UA": "Макс. скринь боса акту",
+        "vi-VN": "Tối đa rương Boss Hồi",
+        "zh-Hans": "幕首领宝箱最大容量",
+        "zh-Hant": "幕首領寶箱最大容量"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "アクトボス宝箱最大保管 +1",
-            "en": "Act Boss Chest Max Capacity +1"
+            "de-DE": "Max. Lagerung Akt-Boss-Truhe +1",
+            "en-US": "Act Boss Chest Max Capacity +1",
+            "es-ES": "Alm. máx. de cofre del jefe de acto +1",
+            "fr-FR": "Stock max coffre de boss d'acte +1",
+            "id-ID": "Maks. Simpan Peti Boss Babak +1",
+            "ja-JP": "アクトボス宝箱最大保管 +1",
+            "ko-KR": "액트 보스 상자 최대 보관량 +1",
+            "pl-PL": "Maks. skrzyń bossa aktu +1",
+            "pt-BR": "Arm. máx. de baú do chefe de ato +1",
+            "ru-RU": "Макс. сундуков босса акта +1",
+            "th-TH": "เก็บหีบบอส Act สูงสุด +1",
+            "tr-TR": "Maks. Bölüm Boss Sandığı +1",
+            "uk-UA": "Макс. скринь боса акту +1",
+            "vi-VN": "Tối đa rương Boss Hồi +1",
+            "zh-Hans": "幕首领宝箱最大容量 +1",
+            "zh-Hant": "幕首領寶箱最大容量 +1"
           },
           {
-            "ja": "100000000 ゴールド",
-            "en": "100000000 Gold"
+            "de-DE": "100000000 Gold",
+            "en-US": "100000000 Gold",
+            "es-ES": "100000000 Gold",
+            "fr-FR": "100000000 Gold",
+            "id-ID": "100000000 Gold",
+            "ja-JP": "100000000 ゴールド",
+            "ko-KR": "100000000 Gold",
+            "pl-PL": "100000000 Gold",
+            "pt-BR": "100000000 Gold",
+            "ru-RU": "100000000 Gold",
+            "th-TH": "100000000 Gold",
+            "tr-TR": "100000000 Gold",
+            "uk-UA": "100000000 Gold",
+            "vi-VN": "100000000 Gold",
+            "zh-Hans": "100000000 Gold",
+            "zh-Hant": "100000000 Gold"
           }
         ]
       ]

@@ -3,12 +3,40 @@
   "entityId": "6002",
   "slug": "6002-butterfly",
   "title": {
-    "ja": "蝶",
-    "en": "Butterfly"
+    "de-DE": "Schmetterling",
+    "en-US": "Butterfly",
+    "es-ES": "Mariposa",
+    "fr-FR": "Papillon",
+    "id-ID": "Kupu-kupu",
+    "ja-JP": "蝶",
+    "ko-KR": "나비",
+    "pl-PL": "Motyl",
+    "pt-BR": "Borboleta",
+    "ru-RU": "Бабочка",
+    "th-TH": "ผีเสื้อ",
+    "tr-TR": "Kelebek",
+    "uk-UA": "Метелик",
+    "vi-VN": "Bướm",
+    "zh-Hans": "蝴蝶",
+    "zh-Hant": "蝴蝶"
   },
   "subtitle": {
-    "ja": "DLC 4427390",
-    "en": "DLC 4427390"
+    "de-DE": "DLC 4427390",
+    "en-US": "DLC 4427390",
+    "es-ES": "DLC 4427390",
+    "fr-FR": "DLC 4427390",
+    "id-ID": "DLC 4427390",
+    "ja-JP": "DLC 4427390",
+    "ko-KR": "DLC 4427390",
+    "pl-PL": "DLC 4427390",
+    "pt-BR": "DLC 4427390",
+    "ru-RU": "DLC 4427390",
+    "th-TH": "DLC 4427390",
+    "tr-TR": "DLC 4427390",
+    "uk-UA": "DLC 4427390",
+    "vi-VN": "DLC 4427390",
+    "zh-Hans": "DLC 4427390",
+    "zh-Hant": "DLC 4427390"
   },
   "icon": "/generated/assets/game/ui/BG_Pet.png",
   "rarity": "COSMIC",
@@ -31,8 +59,22 @@
     {
       "labelKey": "field.name",
       "value": {
-        "ja": "4427390",
-        "en": "4427390"
+        "de-DE": "4427390",
+        "en-US": "4427390",
+        "es-ES": "4427390",
+        "fr-FR": "4427390",
+        "id-ID": "4427390",
+        "ja-JP": "4427390",
+        "ko-KR": "4427390",
+        "pl-PL": "4427390",
+        "pt-BR": "4427390",
+        "ru-RU": "4427390",
+        "th-TH": "4427390",
+        "tr-TR": "4427390",
+        "uk-UA": "4427390",
+        "vi-VN": "4427390",
+        "zh-Hans": "4427390",
+        "zh-Hant": "4427390"
       }
     }
   ],

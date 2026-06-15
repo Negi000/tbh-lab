@@ -3,12 +3,40 @@
   "entityId": "428111",
   "slug": "428111-mystic-orb",
   "title": {
-    "ja": "ミスティックオーブ",
-    "en": "Mystic Orb"
+    "de-DE": "Mystic Orb",
+    "en-US": "Mystic Orb",
+    "es-ES": "Mystic Orb",
+    "fr-FR": "Mystic Orb",
+    "id-ID": "Mystic Orb",
+    "ja-JP": "ミスティックオーブ",
+    "ko-KR": "Mystic Orb",
+    "pl-PL": "Mystic Orb",
+    "pt-BR": "Mystic Orb",
+    "ru-RU": "Mystic Orb",
+    "th-TH": "Mystic Orb",
+    "tr-TR": "Mystic Orb",
+    "uk-UA": "Mystic Orb",
+    "vi-VN": "Mystic Orb",
+    "zh-Hans": "Mystic Orb",
+    "zh-Hant": "Mystic Orb"
   },
   "subtitle": {
-    "en": "Divine / Orb / Sub Weapon / Lv. 50",
-    "ja": "ディバイン / オーブ / サブ武器 / Lv. 50"
+    "de-DE": "Göttlich / Kugel / Nebenwaffe / Lv. 50",
+    "en-US": "Divine / Orb / Sub Weapon / Lv. 50",
+    "es-ES": "Divino / Orbe / Arma secundaria / Lv. 50",
+    "fr-FR": "Divin / Orbe / Arme secondaire / Lv. 50",
+    "id-ID": "Ilahi / Orb / Senjata Pendamping / Lv. 50",
+    "ja-JP": "ディバイン / オーブ / サブ武器 / Lv. 50",
+    "ko-KR": "신성 / 오브 / 보조무기 / Lv. 50",
+    "pl-PL": "Boski / Kula / Broń dodatkowa / Lv. 50",
+    "pt-BR": "Divino / Orbe / Arma Secundária / Lv. 50",
+    "ru-RU": "Божественный / Сфера / Доп. оружие / Lv. 50",
+    "th-TH": "ศักดิ์สิทธิ์ / ออร์บ / อาวุธรอง / Lv. 50",
+    "tr-TR": "İlahi / Küre / Yardımcı Silah / Lv. 50",
+    "uk-UA": "Божественний / Сфера / Додаткова зброя / Lv. 50",
+    "vi-VN": "Thần thánh / Quả Cầu / Vũ khí phụ / Lv. 50",
+    "zh-Hans": "神圣 / 法珠 / 副武器 / Lv. 50",
+    "zh-Hant": "神聖 / 法珠 / 副武器 / Lv. 50"
   },
   "icon": "/generated/assets/game/item/Materials/ORB_420011.png",
   "rarity": "DIVINE",
@@ -62,13 +90,41 @@
       "rows": [
         [
           {
-            "ja": "DropKey 3115118",
-            "en": "DropKey 3115118"
+            "de-DE": "DropKey 3115118",
+            "en-US": "DropKey 3115118",
+            "es-ES": "DropKey 3115118",
+            "fr-FR": "DropKey 3115118",
+            "id-ID": "DropKey 3115118",
+            "ja-JP": "DropKey 3115118",
+            "ko-KR": "DropKey 3115118",
+            "pl-PL": "DropKey 3115118",
+            "pt-BR": "DropKey 3115118",
+            "ru-RU": "DropKey 3115118",
+            "th-TH": "DropKey 3115118",
+            "tr-TR": "DropKey 3115118",
+            "uk-UA": "DropKey 3115118",
+            "vi-VN": "DropKey 3115118",
+            "zh-Hans": "DropKey 3115118",
+            "zh-Hant": "DropKey 3115118"
           },
           "25%",
           {
-            "ja": "-",
-            "en": "-"
+            "de-DE": "-",
+            "en-US": "-",
+            "es-ES": "-",
+            "fr-FR": "-",
+            "id-ID": "-",
+            "ja-JP": "-",
+            "ko-KR": "-",
+            "pl-PL": "-",
+            "pt-BR": "-",
+            "ru-RU": "-",
+            "th-TH": "-",
+            "tr-TR": "-",
+            "uk-UA": "-",
+            "vi-VN": "-",
+            "zh-Hans": "-",
+            "zh-Hant": "-"
           },
           "-"
         ]

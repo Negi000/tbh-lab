@@ -3,12 +3,40 @@
   "entityId": "1072",
   "slug": "1072-rune-of-containment",
   "title": {
-    "ja": "収納のルーン",
-    "en": "Rune of Containment"
+    "de-DE": "Fassungsrune",
+    "en-US": "Rune of Containment",
+    "es-ES": "Runa de Contención",
+    "fr-FR": "Rune de Contention",
+    "id-ID": "Rune Wadah",
+    "ja-JP": "収納のルーン",
+    "ko-KR": "수납의 룬",
+    "pl-PL": "Runa Pojemności",
+    "pt-BR": "Runa de Contenção",
+    "ru-RU": "Руна вместимости",
+    "th-TH": "รูนบรรจุ",
+    "tr-TR": "Kaplama Runu",
+    "uk-UA": "Руна вмістимості",
+    "vi-VN": "Rune Chứa Đựng",
+    "zh-Hans": "收纳符文",
+    "zh-Hant": "收納符文"
   },
   "subtitle": {
-    "ja": "最大 Lv 1",
-    "en": "Max Lv 1"
+    "de-DE": "Max Lv 1",
+    "en-US": "Max Lv 1",
+    "es-ES": "Max Lv 1",
+    "fr-FR": "Max Lv 1",
+    "id-ID": "Max Lv 1",
+    "ja-JP": "最大 Lv 1",
+    "ko-KR": "Max Lv 1",
+    "pl-PL": "Max Lv 1",
+    "pt-BR": "Max Lv 1",
+    "ru-RU": "Max Lv 1",
+    "th-TH": "Max Lv 1",
+    "tr-TR": "Max Lv 1",
+    "uk-UA": "Max Lv 1",
+    "vi-VN": "Max Lv 1",
+    "zh-Hans": "Max Lv 1",
+    "zh-Hant": "Max Lv 1"
   },
   "icon": "/generated/assets/game/runes/MaxAmountNormalChest.png",
   "rarity": "ARCANA",
@@ -33,8 +61,22 @@
     {
       "labelKey": "field.effect",
       "value": {
-        "ja": "通常宝箱最大保管",
-        "en": "Common Chest Max Capacity"
+        "de-DE": "Max. Lagerung norm. Truhe",
+        "en-US": "Common Chest Max Capacity",
+        "es-ES": "Alm. máx. de cofre común",
+        "fr-FR": "Stock max coffre commun",
+        "id-ID": "Maks. Simpan Peti Umum",
+        "ja-JP": "通常宝箱最大保管",
+        "ko-KR": "일반 상자 최대 보관량 증가",
+        "pl-PL": "Maks. zwykłych skrzyń",
+        "pt-BR": "Arm. máx. de baú comum",
+        "ru-RU": "Макс. обычных сундуков",
+        "th-TH": "เก็บหีบทั่วไปสูงสุด",
+        "tr-TR": "Maks. Sıradan Sandık",
+        "uk-UA": "Макс. звич. скринь",
+        "vi-VN": "Tối đa rương thường",
+        "zh-Hans": "普通宝箱最大容量",
+        "zh-Hant": "普通寶箱最大容量"
       }
     },
     {
@@ -77,12 +119,40 @@
         [
           1,
           {
-            "ja": "通常宝箱最大保管 +1",
-            "en": "Common Chest Max Capacity +1"
+            "de-DE": "Max. Lagerung norm. Truhe +1",
+            "en-US": "Common Chest Max Capacity +1",
+            "es-ES": "Alm. máx. de cofre común +1",
+            "fr-FR": "Stock max coffre commun +1",
+            "id-ID": "Maks. Simpan Peti Umum +1",
+            "ja-JP": "通常宝箱最大保管 +1",
+            "ko-KR": "일반 상자 최대 보관량 +1",
+            "pl-PL": "Maks. zwykłych skrzyń +1",
+            "pt-BR": "Arm. máx. de baú comum +1",
+            "ru-RU": "Макс. обычных сундуков +1",
+            "th-TH": "เก็บหีบทั่วไปสูงสุด +1",
+            "tr-TR": "Maks. Sıradan Sandık +1",
+            "uk-UA": "Макс. звич. скринь +1",
+            "vi-VN": "Tối đa rương thường +1",
+            "zh-Hans": "普通宝箱最大容量 +1",
+            "zh-Hant": "普通寶箱最大容量 +1"
           },
           {
-            "ja": "200000 ゴールド",
-            "en": "200000 Gold"
+            "de-DE": "200000 Gold",
+            "en-US": "200000 Gold",
+            "es-ES": "200000 Gold",
+            "fr-FR": "200000 Gold",
+            "id-ID": "200000 Gold",
+            "ja-JP": "200000 ゴールド",
+            "ko-KR": "200000 Gold",
+            "pl-PL": "200000 Gold",
+            "pt-BR": "200000 Gold",
+            "ru-RU": "200000 Gold",
+            "th-TH": "200000 Gold",
+            "tr-TR": "200000 Gold",
+            "uk-UA": "200000 Gold",
+            "vi-VN": "200000 Gold",
+            "zh-Hans": "200000 Gold",
+            "zh-Hant": "200000 Gold"
           }
         ]
       ]

@@ -1,0 +1,4019 @@
+{
+  "category": {
+    "id": "stage-boxes",
+    "titleKey": "category.stage-boxes.title",
+    "descriptionKey": "category.stage-boxes.description",
+    "count": 59,
+    "icon": "/generated/assets/game/item/Item_910011.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/{locale}/stage-boxes.json"
+  },
+  "columns": [
+    {
+      "key": "grade",
+      "labelKey": "field.grade"
+    },
+    {
+      "key": "level",
+      "labelKey": "field.level"
+    },
+    {
+      "key": "dropKey",
+      "labelKey": "field.id"
+    }
+  ],
+  "filters": [
+    {
+      "id": "grade",
+      "labelKey": "filter.grade",
+      "options": [
+        "COMMON",
+        "RARE",
+        "LEGENDARY"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910011",
+      "slug": "910011-common-treasure-chest-1",
+      "title": {
+        "pt-BR": "Common Treasure Chest 1"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9100111",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910011-common-treasure-chest-1.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest 1"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 1-1~1-3 상자 (난이도 : NORMAL)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910051",
+      "slug": "910051-common-treasure-chest-2",
+      "title": {
+        "pt-BR": "Common Treasure Chest 2"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9100511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910051-common-treasure-chest-2.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest 2"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 2-1~3-9 상자 (난이도 : NIGHTMARE)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910101",
+      "slug": "910101-common-treasure-chest-3",
+      "title": {
+        "pt-BR": "Common Treasure Chest 3"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9101011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910101-common-treasure-chest-3.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest 3"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910151",
+      "slug": "910151-common-treasure-chest-lv15",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv15"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9101511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910151-common-treasure-chest-lv15.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv15"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910201",
+      "slug": "910201-common-treasure-chest-lv20",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv20"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9102011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910201-common-treasure-chest-lv20.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv20"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910251",
+      "slug": "910251-common-treasure-chest-lv25",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv25"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9102011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910251-common-treasure-chest-lv25.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv25"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910301",
+      "slug": "910301-common-treasure-chest-lv30",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv30"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9103011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910301-common-treasure-chest-lv30.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv30"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910351",
+      "slug": "910351-common-treasure-chest-lv35",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv35"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9103011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910351-common-treasure-chest-lv35.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv35"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910401",
+      "slug": "910401-common-treasure-chest-lv40",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv40"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9104011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910401-common-treasure-chest-lv40.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv40"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910451",
+      "slug": "910451-common-treasure-chest-lv45",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv45"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9104011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910451-common-treasure-chest-lv45.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv45"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910501",
+      "slug": "910501-common-treasure-chest-lv50",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv50"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9105011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910501-common-treasure-chest-lv50.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv50"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910551",
+      "slug": "910551-common-treasure-chest-lv55",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv55"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9105011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910551-common-treasure-chest-lv55.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv55"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910601",
+      "slug": "910601-common-treasure-chest-lv60",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv60"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9105011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910601-common-treasure-chest-lv60.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv60"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910651",
+      "slug": "910651-common-treasure-chest-lv65",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv65"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9106511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910651-common-treasure-chest-lv65.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv65"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910701",
+      "slug": "910701-common-treasure-chest-lv70",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv70"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9106511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910701-common-treasure-chest-lv70.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv70"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910751",
+      "slug": "910751-common-treasure-chest-lv75",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv75"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9106511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910751-common-treasure-chest-lv75.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv75"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910801",
+      "slug": "910801-common-treasure-chest-lv80",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv80"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9108011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910801-common-treasure-chest-lv80.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv80"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910851",
+      "slug": "910851-common-treasure-chest-lv85",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv85"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9108011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910851-common-treasure-chest-lv85.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv85"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "910901",
+      "slug": "910901-common-treasure-chest-lv90",
+      "title": {
+        "pt-BR": "Common Treasure Chest Lv90"
+      },
+      "subtitle": {
+        "pt-BR": "Comum / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "rarity": "COMMON",
+      "tags": [
+        "COMMON",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "COMMON",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9108011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Comum"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/910901-common-treasure-chest-lv90.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Common Treasure Chest Lv90"
+        },
+        "subtitle": {
+          "pt-BR": "Comum / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_910011.png",
+        "rarity": "COMMON",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Comum"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920001",
+      "slug": "920001-stage-treasure-chest-1",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 1"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920001-stage-treasure-chest-1.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 1"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 1-1 첫 완료시 획득 상자 (주무기 획득) (나이트)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920002",
+      "slug": "920002-stage-treasure-chest-2",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 2"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200021",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920002-stage-treasure-chest-2.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 2"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 1-1 첫 완료시 획득 상자 (주무기 획득) (아처)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920003",
+      "slug": "920003-stage-treasure-chest-3",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 3"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200031",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920003-stage-treasure-chest-3.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 3"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 1-1 첫 완료시 획득 상자 (주무기 획득) (소서러)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920004",
+      "slug": "920004-stage-treasure-chest-3",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 3"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200041",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920004-stage-treasure-chest-3.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 3"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920005",
+      "slug": "920005-stage-treasure-chest-3",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 3"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200051",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920005-stage-treasure-chest-3.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 3"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920006",
+      "slug": "920006-stage-treasure-chest-3",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 3"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200061",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920006-stage-treasure-chest-3.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 3"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920011",
+      "slug": "920011-stage-treasure-chest-4",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 4"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200111",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920011-stage-treasure-chest-4.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 4"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 1-1~1-3 상자 (난이도 : NORMAL)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920051",
+      "slug": "920051-stage-treasure-chest-5",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 5"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920051-stage-treasure-chest-5.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 5"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "3-1(난이도:NIGHTMARE) ~ 1-9 (난이도 : HELL)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920022",
+      "slug": "920022-stage-treasure-chest-6",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 6"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200221",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920022-stage-treasure-chest-6.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 6"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "스테이지 1-9 첫 완료시 획득 상자 (소울스톤 획득)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920032",
+      "slug": "920032-stage-treasure-chest-6",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 6"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200321",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920032-stage-treasure-chest-6.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 6"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920042",
+      "slug": "920042-stage-treasure-chest-6",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 6"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200421",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920042-stage-treasure-chest-6.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 6"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920052",
+      "slug": "920052-stage-treasure-chest-6",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 6"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9200521",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920052-stage-treasure-chest-6.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 6"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920101",
+      "slug": "920101-stage-treasure-chest-7",
+      "title": {
+        "pt-BR": "Stage Treasure Chest 7"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9201011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920101-stage-treasure-chest-7.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest 7"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920151",
+      "slug": "920151-stage-treasure-chest-lv15",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv15"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9201511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920151-stage-treasure-chest-lv15.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv15"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920201",
+      "slug": "920201-stage-treasure-chest-lv20",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv20"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9202011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920201-stage-treasure-chest-lv20.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv20"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920251",
+      "slug": "920251-stage-treasure-chest-lv25",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv25"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9202011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920251-stage-treasure-chest-lv25.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv25"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920301",
+      "slug": "920301-stage-treasure-chest-lv30",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv30"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9203011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920301-stage-treasure-chest-lv30.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv30"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920351",
+      "slug": "920351-stage-treasure-chest-lv35",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv35"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9203011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920351-stage-treasure-chest-lv35.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv35"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920401",
+      "slug": "920401-stage-treasure-chest-lv40",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv40"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9204011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920401-stage-treasure-chest-lv40.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv40"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920451",
+      "slug": "920451-stage-treasure-chest-lv45",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv45"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9204011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920451-stage-treasure-chest-lv45.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv45"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920501",
+      "slug": "920501-stage-treasure-chest-lv50",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv50"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9205011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920501-stage-treasure-chest-lv50.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv50"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920551",
+      "slug": "920551-stage-treasure-chest-lv55",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv55"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9205011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920551-stage-treasure-chest-lv55.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv55"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920601",
+      "slug": "920601-stage-treasure-chest-lv60",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv60"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9205011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920601-stage-treasure-chest-lv60.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv60"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920651",
+      "slug": "920651-stage-treasure-chest-lv65",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv65"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9206511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920651-stage-treasure-chest-lv65.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv65"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920701",
+      "slug": "920701-stage-treasure-chest-lv70",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv70"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9206511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920701-stage-treasure-chest-lv70.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv70"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920751",
+      "slug": "920751-stage-treasure-chest-lv75",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv75"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9206511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920751-stage-treasure-chest-lv75.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv75"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920801",
+      "slug": "920801-stage-treasure-chest-lv80",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv80"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9208011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920801-stage-treasure-chest-lv80.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv80"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920851",
+      "slug": "920851-stage-treasure-chest-lv85",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv85"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9208011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920851-stage-treasure-chest-lv85.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv85"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "920901",
+      "slug": "920901-stage-treasure-chest-lv90",
+      "title": {
+        "pt-BR": "Stage Treasure Chest Lv90"
+      },
+      "subtitle": {
+        "pt-BR": "Raro / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_920011.png",
+      "rarity": "RARE",
+      "tags": [
+        "RARE",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "RARE",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9208011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Raro"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/920901-stage-treasure-chest-lv90.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Stage Treasure Chest Lv90"
+        },
+        "subtitle": {
+          "pt-BR": "Raro / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_920011.png",
+        "rarity": "RARE",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Raro"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930101",
+      "slug": "930101-act-boss-treasure-chest-1",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest 1"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9301011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930101-act-boss-treasure-chest-1.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest 1"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": [],
+        "description": {
+          "pt-BR": "1-10 (난이도 : TORMENT)"
+        }
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930201",
+      "slug": "930201-act-boss-treasure-chest-lv20",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv20"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9302011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930201-act-boss-treasure-chest-lv20.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv20"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930301",
+      "slug": "930301-act-boss-treasure-chest-lv30",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv30"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9303011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930301-act-boss-treasure-chest-lv30.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv30"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930401",
+      "slug": "930401-act-boss-treasure-chest-lv40",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv40"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9304011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930401-act-boss-treasure-chest-lv40.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv40"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930451",
+      "slug": "930451-act-boss-treasure-chest-lv45",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv45"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9304511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930451-act-boss-treasure-chest-lv45.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv45"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930501",
+      "slug": "930501-act-boss-treasure-chest-lv50",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv50"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9305011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930501-act-boss-treasure-chest-lv50.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv50"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930601",
+      "slug": "930601-act-boss-treasure-chest-lv60",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv60"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9306011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930601-act-boss-treasure-chest-lv60.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv60"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930651",
+      "slug": "930651-act-boss-treasure-chest-lv65",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv65"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9306511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930651-act-boss-treasure-chest-lv65.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv65"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930701",
+      "slug": "930701-act-boss-treasure-chest-lv70",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv70"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9307011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930701-act-boss-treasure-chest-lv70.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv70"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930851",
+      "slug": "930851-act-boss-treasure-chest-lv85",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv85"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9308511",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930851-act-boss-treasure-chest-lv85.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv85"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    },
+    {
+      "categoryId": "stage-boxes",
+      "entityId": "930901",
+      "slug": "930901-act-boss-treasure-chest-lv90",
+      "title": {
+        "pt-BR": "Act Boss Treasure Chest Lv90"
+      },
+      "subtitle": {
+        "pt-BR": "Lendário / Caixa de Estágio"
+      },
+      "icon": "/generated/assets/game/item/Item_930011.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "LEGENDARY",
+        "STAGEBOX"
+      ],
+      "fields": {
+        "grade": "LEGENDARY",
+        "type": "STAGEBOX",
+        "gearType": "-",
+        "part": "-",
+        "level": "-",
+        "dropKey": "9309011",
+        "steam": "true"
+      },
+      "fieldDisplay": {
+        "grade": {
+          "pt-BR": "Lendário"
+        },
+        "type": {
+          "pt-BR": "Caixa de Estágio"
+        }
+      },
+      "detailPath": "/generated/details/stage-boxes/930901-act-boss-treasure-chest-lv90.json",
+      "tooltip": {
+        "title": {
+          "pt-BR": "Act Boss Treasure Chest Lv90"
+        },
+        "subtitle": {
+          "pt-BR": "Lendário / Caixa de Estágio"
+        },
+        "icon": "/generated/assets/game/item/Item_930011.png",
+        "rarity": "LEGENDARY",
+        "rows": [
+          {
+            "value": {
+              "pt-BR": "Lendário"
+            },
+            "labelKey": "field.grade",
+            "tone": "rarity"
+          },
+          {
+            "value": {
+              "pt-BR": "Caixa de Estágio"
+            },
+            "labelKey": "field.type"
+          },
+          {
+            "value": {
+              "pt-BR": "Not tradeable"
+            },
+            "labelKey": "tooltip.trade"
+          }
+        ],
+        "sections": []
+      }
+    }
+  ]
+}
