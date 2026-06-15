@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "310010",
+  "slug": "310010-rune-bow",
+  "title": {
+    "ja": "ルーンボウ",
+    "en": "Rune Bow"
+  },
+  "subtitle": {
+    "en": "Common / Bow / Main Weapon / Lv. 45",
+    "ja": "コモン / 弓 / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310010.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "310010"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "64"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "310010"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310010"
+        ],
+        [
+          "GearKey",
+          "310010"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Rune Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Bow\", \"ja\": \"ルーンボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Limitless Bow Description\", \"ja\": \"Limitless Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Limitless Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Limitless Bow\", \"description\": \"Limitless Bow Description\", \"display_type\": \"Bow - Lv. 80\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"80\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

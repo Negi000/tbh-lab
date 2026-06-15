@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "525142",
+  "slug": "525142-shine-gloves",
+  "title": {
+    "ja": "シャイングローブ",
+    "en": "Shine Gloves"
+  },
+  "subtitle": {
+    "en": "Arcana / Gloves / GLOVES / Lv. 65",
+    "ja": "アルカナ / グローブ / GLOVES / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520014.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "525142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "916"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "158"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "127"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "798"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "525142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520014"
+        ],
+        [
+          "GearKey",
+          "525142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shine Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shine Gloves\", \"ja\": \"シャイングローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-06-15T07:19:56.183637+00:00",
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "version": "local-export",
+  "categories": [
+    {
+      "id": "my-save",
+      "titleKey": "category.my-save.title",
+      "descriptionKey": "category.my-save.description",
+      "count": 1,
+      "icon": null,
+      "layout": "cards",
+      "navGroup": "nav.tools",
+      "listPath": "/generated/categories/my-save.json"
+    },
+    {
+      "id": "market",
+      "titleKey": "category.market.title",
+      "descriptionKey": "category.market.description",
+      "count": 5944,
+      "icon": "/generated/assets/game/item/Materials/Item_100001.png",
+      "layout": "cards",
+      "navGroup": "nav.tools",
+      "listPath": "/generated/categories/market.json"
+    },
+    {
+      "id": "farm-planner",
+      "titleKey": "category.farm-planner.title",
+      "descriptionKey": "category.farm-planner.description",
+      "count": 6133,
+      "icon": "/generated/assets/game/ui/MenuButton_Portal_Active.png",
+      "layout": "cards",
+      "navGroup": "nav.tools",
+      "listPath": "/generated/categories/farm-planner.json"
+    },
+    {
+      "id": "lab-status",
+      "titleKey": "category.lab-status.title",
+      "descriptionKey": "category.lab-status.description",
+      "count": 6,
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "layout": "cards",
+      "navGroup": "nav.tools",
+      "listPath": "/generated/categories/lab-status.json"
+    },
+    {
+      "id": "gear",
+      "titleKey": "category.gear.title",
+      "descriptionKey": "category.gear.description",
+      "count": 5760,
+      "icon": "/generated/assets/game/item/Equipment/SWORD_300001.png",
+      "layout": "table",
+      "navGroup": "nav.database",
+      "listPath": "/generated/categories/gear.json"
+    },
+    {
+      "id": "materials",
+      "titleKey": "category.materials.title",
+      "descriptionKey": "category.materials.description",
+      "count": 125,
+      "icon": "/generated/assets/game/item/Materials/Item_110001.png",
+      "layout": "table",
+      "navGroup": "nav.database",
+      "listPath": "/generated/categories/materials.json"
+    },
+    {
+      "id": "effects",
+      "titleKey": "category.effects.title",
+      "descriptionKey": "category.effects.description",
+      "count": 79,
+      "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+      "layout": "table",
+      "navGroup": "nav.database",
+      "listPath": "/generated/categories/effects.json"
+    },
+    {
+      "id": "stage-boxes",
+      "titleKey": "category.stage-boxes.title",
+      "descriptionKey": "category.stage-boxes.description",
+      "count": 59,
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "layout": "table",
+      "navGroup": "nav.database",
+      "listPath": "/generated/categories/stage-boxes.json"
+    },
+    {
+      "id": "heroes",
+      "titleKey": "category.heroes.title",
+      "descriptionKey": "category.heroes.description",
+      "count": 6,
+      "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Knight_Mid_Anim_0.png",
+      "layout": "cards",
+      "navGroup": "nav.database",
+      "listPath": "/generated/categories/heroes.json"
+    },
+    {
+      "id": "monsters",
+      "titleKey": "category.monsters.title",
+      "descriptionKey": "category.monsters.description",
+      "count": 61,
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "layout": "table",
+      "navGroup": "nav.database",
+      "listPath": "/generated/categories/monsters.json"
+    },
+    {
+      "id": "skills",
+      "titleKey": "category.skills.title",
+      "descriptionKey": "category.skills.description",
+      "count": 214,
+      "icon": "/generated/assets/game/skills/Skill_30101.png",
+      "layout": "table",
+      "navGroup": "nav.combat",
+      "listPath": "/generated/categories/skills.json"
+    },
+    {
+      "id": "runes",
+      "titleKey": "category.runes.title",
+      "descriptionKey": "category.runes.description",
+      "count": 197,
+      "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+      "layout": "table",
+      "navGroup": "nav.combat",
+      "listPath": "/generated/categories/runes.json"
+    },
+    {
+      "id": "pets",
+      "titleKey": "category.pets.title",
+      "descriptionKey": "category.pets.description",
+      "count": 8,
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "layout": "cards",
+      "navGroup": "nav.collection",
+      "listPath": "/generated/categories/pets.json"
+    },
+    {
+      "id": "stages",
+      "titleKey": "category.stages.title",
+      "descriptionKey": "category.stages.description",
+      "count": 120,
+      "icon": "/generated/assets/game/map/Act1_Bg.png",
+      "layout": "cards",
+      "navGroup": "nav.systems",
+      "listPath": "/generated/categories/stages.json"
+    },
+    {
+      "id": "cube",
+      "titleKey": "category.cube.title",
+      "descriptionKey": "category.cube.description",
+      "count": 6,
+      "icon": "/generated/assets/game/ui/MenuButton_Cube_Active.png",
+      "layout": "cards",
+      "navGroup": "nav.systems",
+      "listPath": "/generated/categories/cube.json"
+    },
+    {
+      "id": "database",
+      "titleKey": "category.database.title",
+      "descriptionKey": "category.database.description",
+      "count": 45,
+      "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+      "layout": "table",
+      "navGroup": "nav.reference",
+      "listPath": "/generated/categories/database.json"
+    }
+  ],
+  "navGroups": [
+    {
+      "id": "nav.tools",
+      "items": [
+        "my-save",
+        "market",
+        "farm-planner",
+        "lab-status"
+      ]
+    },
+    {
+      "id": "nav.database",
+      "items": [
+        "gear",
+        "materials",
+        "effects",
+        "stage-boxes",
+        "heroes",
+        "monsters"
+      ]
+    },
+    {
+      "id": "nav.combat",
+      "items": [
+        "skills",
+        "runes"
+      ]
+    },
+    {
+      "id": "nav.collection",
+      "items": [
+        "pets"
+      ]
+    },
+    {
+      "id": "nav.systems",
+      "items": [
+        "stages",
+        "cube"
+      ]
+    },
+    {
+      "id": "nav.reference",
+      "items": [
+        "database"
+      ]
+    }
+  ],
+  "home": {
+    "heroArt": "/generated/assets/game/map/Act1_Bg.png",
+    "rosterArt": "/generated/assets/game/hero/Arrage_ChaAnim_Knight_Large_0.png",
+    "stats": [
+      {
+        "labelKey": "home.stat.items",
+        "value": 5944
+      },
+      {
+        "labelKey": "home.stat.heroes",
+        "value": 6
+      },
+      {
+        "labelKey": "home.stat.stages",
+        "value": 120
+      },
+      {
+        "labelKey": "home.stat.languages",
+        "value": 2
+      }
+    ],
+    "notes": [
+      {
+        "labelKey": "home.note.generated"
+      },
+      {
+        "labelKey": "home.note.validation",
+        "value": 8
+      }
+    ]
+  },
+  "featured": [
+    {
+      "categoryId": "gear",
+      "slug": "300001-long-sword"
+    },
+    {
+      "categoryId": "heroes",
+      "slug": "knight"
+    },
+    {
+      "categoryId": "stages",
+      "slug": "1101-1-1-act-1-1-normal-normal"
+    },
+    {
+      "categoryId": "runes",
+      "slug": "1-rune-of-war"
+    }
+  ]
+}

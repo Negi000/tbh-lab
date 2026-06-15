@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "356112",
+  "slug": "356112-fate-axe",
+  "title": {
+    "ja": "フェイトアックス",
+    "en": "Fate Axe"
+  },
+  "subtitle": {
+    "en": "Beyond / Axe / Main Weapon / Lv. 50",
+    "ja": "ビヨンド / 斧 / メイン武器 / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350011.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "356112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "628"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "115"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "724"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "836"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "356112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350011"
+        ],
+        [
+          "GearKey",
+          "356112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Axe\", \"ja\": \"フェイトアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

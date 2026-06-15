@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "409132",
+  "slug": "409132-ancient-shield",
+  "title": {
+    "ja": "エンシェントシールド",
+    "en": "Ancient Shield"
+  },
+  "subtitle": {
+    "en": "Cosmic / Shield / Sub Weapon / Lv. 60",
+    "ja": "コズミック / シールド / サブ武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400013.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "409132"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "416"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "591"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "231"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "156"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "409132"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400013"
+        ],
+        [
+          "GearKey",
+          "409132"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ancient Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Shield\", \"ja\": \"エンシェントシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

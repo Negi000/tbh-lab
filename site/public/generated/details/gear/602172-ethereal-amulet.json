@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "602172",
+  "slug": "602172-ethereal-amulet",
+  "title": {
+    "ja": "エーテリアルアミュレット",
+    "en": "Ethereal Amulet"
+  },
+  "subtitle": {
+    "en": "Rare / Amulet / AMULET / Lv. 80",
+    "ja": "レア / アミュレット / AMULET / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600017.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "602172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CastSpeed / ADDITIVE",
+          "value": "172"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "602172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600017"
+        ],
+        [
+          "GearKey",
+          "602172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ethereal Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ethereal Amulet\", \"ja\": \"エーテリアルアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

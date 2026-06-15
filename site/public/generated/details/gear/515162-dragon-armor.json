@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "515162",
+  "slug": "515162-dragon-armor",
+  "title": {
+    "ja": "ドラゴンアーマー",
+    "en": "Dragon Armor"
+  },
+  "subtitle": {
+    "en": "Arcana / Armor / ARMOR / Lv. 75",
+    "ja": "アルカナ / アーマー / ARMOR / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510016.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "515162"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "3523"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "252"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "12"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "2471"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "515162"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510016"
+        ],
+        [
+          "GearKey",
+          "515162"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dragon Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dragon Armor\", \"ja\": \"ドラゴンアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

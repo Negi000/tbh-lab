@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "438151",
+  "slug": "438151-void-tome",
+  "title": {
+    "ja": "ヴォイドトーム",
+    "en": "Void Tome"
+  },
+  "subtitle": {
+    "en": "Divine / Tome / Sub Weapon / Lv. 70",
+    "ja": "ディバイン / 古書 / サブ武器 / Lv. 70"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430015.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430015.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "438151"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "524"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "SkillHealIncrease / FLAT",
+          "value": "422"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "413"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "167"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "438151"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430015"
+        ],
+        [
+          "GearKey",
+          "438151"
+        ],
+        [
+          "Level",
+          "70"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430015"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Void Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Void Tome\", \"ja\": \"ヴォイドトーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

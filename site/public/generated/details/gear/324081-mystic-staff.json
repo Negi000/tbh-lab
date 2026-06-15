@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "324081",
+  "slug": "324081-mystic-staff",
+  "title": {
+    "ja": "ミスティックスタッフ",
+    "en": "Mystic Staff"
+  },
+  "subtitle": {
+    "en": "Immortal / Staff / Main Weapon / Lv. 35",
+    "ja": "イモータル / スタッフ / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320008.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "324081"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "181"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "29"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "324081"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320008"
+        ],
+        [
+          "GearKey",
+          "324081"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Mystic Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Mystic Staff\", \"ja\": \"ミスティックスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

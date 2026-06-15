@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "511042",
+  "slug": "511042-chain-mail",
+  "title": {
+    "ja": "チェインメイル",
+    "en": "Chain Mail"
+  },
+  "subtitle": {
+    "en": "Uncommon / Armor / ARMOR / Lv. 15",
+    "ja": "アンコモン / アーマー / ARMOR / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510004.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "511042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "52"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "156"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "511042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510004"
+        ],
+        [
+          "GearKey",
+          "511042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chain Mail"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chain Mail\", \"ja\": \"チェインメイル\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Knight Armor Description\", \"ja\": \"Knight Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Knight Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Knight Armor\", \"description\": \"Knight Armor Description\", \"display_type\": \"Armor - Lv. 20\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"armor\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

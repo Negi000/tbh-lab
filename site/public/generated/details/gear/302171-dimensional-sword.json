@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "302171",
+  "slug": "302171-dimensional-sword",
+  "title": {
+    "ja": "次元の剣",
+    "en": "Dimensional Sword"
+  },
+  "subtitle": {
+    "en": "Rare / Sword / Main Weapon / Lv. 80",
+    "ja": "レア / ソード / メイン武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300017.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "302171"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "10.58%",
+          {
+            "ja": "トーメント 2-10",
+            "en": "Torment 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "10.58%",
+          {
+            "ja": "トーメント 3-10",
+            "en": "Torment 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv85",
+            "en": "Act Boss Treasure Chest Lv85"
+          },
+          "10.41%",
+          {
+            "ja": "トーメント 1-10",
+            "en": "Torment 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "5.574%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "5.574%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "5.574%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "5.574%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "5.574%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "5.574%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "4.466%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "4.466%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "4.466%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "4.466%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "4.466%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "4.466%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv85",
+            "en": "Stage Treasure Chest Lv85"
+          },
+          "5.574%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "360"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "728"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "302171"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300017"
+        ],
+        [
+          "GearKey",
+          "302171"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300017"
+        ],
+        [
+          "display_name",
+          "Dimensional Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Sword\", \"ja\": \"次元の剣\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

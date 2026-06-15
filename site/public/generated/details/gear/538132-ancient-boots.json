@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "538132",
+  "slug": "538132-ancient-boots",
+  "title": {
+    "ja": "エンシェントブーツ",
+    "en": "Ancient Boots"
+  },
+  "subtitle": {
+    "en": "Divine / Boots / BOOTS / Lv. 60",
+    "ja": "ディバイン / ブーツ / BOOTS / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530013.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "538132"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1067"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "163"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "973"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "189"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "538132"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530013"
+        ],
+        [
+          "GearKey",
+          "538132"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ancient Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Boots\", \"ja\": \"エンシェントブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

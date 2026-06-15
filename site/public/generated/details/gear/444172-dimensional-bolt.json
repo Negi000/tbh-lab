@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "444172",
+  "slug": "444172-dimensional-bolt",
+  "title": {
+    "ja": "次元のボルト",
+    "en": "Dimensional Bolt"
+  },
+  "subtitle": {
+    "en": "Immortal / Bolt / Sub Weapon / Lv. 80",
+    "ja": "イモータル / クロスボウボルト / サブ武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440017.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "444172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1760"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "73"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "486"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "444172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440017"
+        ],
+        [
+          "GearKey",
+          "444172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dimensional Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Bolt\", \"ja\": \"次元のボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

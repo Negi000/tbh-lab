@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "622112",
+  "slug": "622112-emerald-ring",
+  "title": {
+    "ja": "エメラルドリング",
+    "en": "Emerald Ring"
+  },
+  "subtitle": {
+    "en": "Rare / Ring / RING / Lv. 50",
+    "ja": "レア / リング / RING / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620011.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "622112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AddHpPerKill / FLAT",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "622112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620011"
+        ],
+        [
+          "GearKey",
+          "622112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Emerald Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Emerald Ring\", \"ja\": \"エメラルドリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

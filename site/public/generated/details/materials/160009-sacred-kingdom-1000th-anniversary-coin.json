@@ -1,0 +1,109 @@
+{
+  "categoryId": "materials",
+  "entityId": "160009",
+  "slug": "160009-sacred-kingdom-1000th-anniversary-coin",
+  "title": {
+    "ja": "聖王国1000周年記念コイン",
+    "en": "Sacred Kingdom 1000th Anniversary Coin"
+  },
+  "subtitle": {
+    "en": "Divine / Offering material",
+    "ja": "ディバイン / 奉納素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_160009.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_160009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "160009"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "160009"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "NameKey",
+          "ItemName_160009"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_160009"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_160009"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sacred Kingdom 1000th Anniversary Coin"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sacred Kingdom 1000th Anniversary Coin\", \"ja\": \"聖王国1000周年記念コイン\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A commemorative coin. Toss it into the Cube with a heartfelt wish.\", \"ja\": \"記念コイン。切なる想いを込めてキューブに投げ込もう。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

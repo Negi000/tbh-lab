@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "612162",
+  "slug": "612162-astral-earring",
+  "title": {
+    "ja": "アストラルイヤリング",
+    "en": "Astral Earring"
+  },
+  "subtitle": {
+    "en": "Rare / Earing / EARING / Lv. 75",
+    "ja": "レア / イヤリング / EARING / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610016.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "612162"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "152"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "612162"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610016"
+        ],
+        [
+          "GearKey",
+          "612162"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Astral Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Astral Earring\", \"ja\": \"アストラルイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "351052",
+  "slug": "351052-war-axe",
+  "title": {
+    "ja": "ウォーアックス",
+    "en": "War Axe"
+  },
+  "subtitle": {
+    "en": "Uncommon / Axe / Main Weapon / Lv. 20",
+    "ja": "アンコモン / 斧 / メイン武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350005.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "351052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "19"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "351052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350005"
+        ],
+        [
+          "GearKey",
+          "351052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "War Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"War Axe\", \"ja\": \"ウォーアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

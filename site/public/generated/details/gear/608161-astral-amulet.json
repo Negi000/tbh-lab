@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "608161",
+  "slug": "608161-astral-amulet",
+  "title": {
+    "ja": "アストラルアミュレット",
+    "en": "Astral Amulet"
+  },
+  "subtitle": {
+    "en": "Divine / Amulet / AMULET / Lv. 75",
+    "ja": "ディバイン / アミュレット / AMULET / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600016.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "608161"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "278"
+        },
+        {
+          "labelKey": "BaseAttackCountReduction / FLAT",
+          "value": "1"
+        },
+        {
+          "labelKey": "Multistrike / FLAT",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "608161"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600016"
+        ],
+        [
+          "GearKey",
+          "608161"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Astral Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Astral Amulet\", \"ja\": \"アストラルアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "441092",
+  "slug": "441092-rune-bolt",
+  "title": {
+    "ja": "ルーンボルト",
+    "en": "Rune Bolt"
+  },
+  "subtitle": {
+    "en": "Uncommon / Bolt / Sub Weapon / Lv. 40",
+    "ja": "アンコモン / クロスボウボルト / サブ武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440009.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "441092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "937"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "175"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "441092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440009"
+        ],
+        [
+          "GearKey",
+          "441092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Rune Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Bolt\", \"ja\": \"ルーンボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

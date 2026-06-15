@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "435152",
+  "slug": "435152-void-tome",
+  "title": {
+    "ja": "ヴォイドトーム",
+    "en": "Void Tome"
+  },
+  "subtitle": {
+    "en": "Arcana / Tome / Sub Weapon / Lv. 70",
+    "ja": "アルカナ / 古書 / サブ武器 / Lv. 70"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430015.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430015.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "435152"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "327"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "927"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "274"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "246"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "435152"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430015"
+        ],
+        [
+          "GearKey",
+          "435152"
+        ],
+        [
+          "Level",
+          "70"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430015"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Void Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Void Tome\", \"ja\": \"ヴォイドトーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

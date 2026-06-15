@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "20091",
+  "slug": "20091-fire-elemental",
+  "title": {
+    "ja": "火の精霊",
+    "en": "Fire Elemental"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20091"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "25"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "20091"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_20091"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "23"
+        ],
+        [
+          "RewardExp",
+          "23"
+        ],
+        [
+          "SkillKey",
+          "200911"
+        ],
+        [
+          "AttackDamage",
+          "25"
+        ],
+        [
+          "AttackSpeed",
+          "80"
+        ],
+        [
+          "MaxLife",
+          "75"
+        ],
+        [
+          "MovementSpeed",
+          "160"
+        ],
+        [
+          "DeadSoundKey",
+          "22009111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_20091"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/20091/Monster_20091"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "categoryId": "gear",
+  "entityId": "441021",
+  "slug": "441021-fear-bolt",
+  "title": {
+    "ja": "フィアーボルト",
+    "en": "Fear Bolt"
+  },
+  "subtitle": {
+    "en": "Uncommon / Bolt / Sub Weapon / Lv. 5",
+    "ja": "アンコモン / クロスボウボルト / サブ武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440002.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "441021"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.598%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.598%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.598%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.598%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "0.2625%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "0.2625%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "0.2625%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "0.2625%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "DropKey 3601002",
+            "en": "DropKey 3601002"
+          },
+          "2.778%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.01823%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "330"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "441021"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440002"
+        ],
+        [
+          "GearKey",
+          "441021"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440002"
+        ],
+        [
+          "display_name",
+          "Fear Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fear Bolt\", \"ja\": \"フィアーボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

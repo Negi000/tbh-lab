@@ -1,0 +1,190 @@
+{
+  "categoryId": "gear",
+  "entityId": "505181",
+  "slug": "505181-shadow-helmet",
+  "title": {
+    "ja": "シャドウヘルメット",
+    "en": "Shadow Helmet"
+  },
+  "subtitle": {
+    "en": "Arcana / Helmet / HELMET / Lv. 85",
+    "ja": "アルカナ / ヘルメット / HELMET / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500018.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "505181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2760"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "181"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "1359"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "1742"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "50003"
+        ],
+        [
+          "UniqueMod",
+          "CrossbowTurretCooldown"
+        ],
+        [
+          "Param1ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param1",
+          "500"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "505181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500018"
+        ],
+        [
+          "GearKey",
+          "505181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Helmet\", \"ja\": \"シャドウヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

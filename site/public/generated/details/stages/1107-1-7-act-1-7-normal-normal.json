@@ -1,0 +1,175 @@
+{
+  "categoryId": "stages",
+  "entityId": "1107",
+  "slug": "1107-1-7-act-1-7-normal-normal",
+  "title": {
+    "ja": "1-7 ノーマル",
+    "en": "1-7 Act 1-7 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 8 / Boss Skeleton Warrior",
+    "en": "Normal / Lv 8 / Boss Skeleton Warrior"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1107"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "7"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "8"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "12"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Skeleton Warrior"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10051,
+          {
+            "ja": "スケルトン",
+            "en": "Skeleton"
+          },
+          1000,
+          10,
+          11
+        ],
+        [
+          10052,
+          {
+            "ja": "スケルトンアーチャー",
+            "en": "Skeleton Archer"
+          },
+          700,
+          10,
+          13
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910051,
+          80
+        ],
+        [
+          "Boss box",
+          920051,
+          600
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "8"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "350"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "720"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "440"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "1350"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

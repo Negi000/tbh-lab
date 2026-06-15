@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "407112",
+  "slug": "407112-mystic-shield",
+  "title": {
+    "ja": "ミスティックシールド",
+    "en": "Mystic Shield"
+  },
+  "subtitle": {
+    "en": "Celestial / Shield / Sub Weapon / Lv. 50",
+    "ja": "セレスティアル / シールド / サブ武器 / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400011.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "407112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "271"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "77"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "1827"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "3065"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "407112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400011"
+        ],
+        [
+          "GearKey",
+          "407112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Mystic Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Mystic Shield\", \"ja\": \"ミスティックシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

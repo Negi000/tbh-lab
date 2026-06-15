@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "500006",
+  "slug": "500006-medium-helmet",
+  "title": {
+    "ja": "ミディアムヘルメット",
+    "en": "Medium Helmet"
+  },
+  "subtitle": {
+    "en": "Common / Helmet / HELMET / Lv. 25",
+    "ja": "コモン / ヘルメット / HELMET / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500006.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "500006"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "31"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "500006"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500006"
+        ],
+        [
+          "GearKey",
+          "500006"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Medium Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Medium Helmet\", \"ja\": \"ミディアムヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Emperor Helmet Description\", \"ja\": \"Emperor Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Emperor Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Emperor Helmet\", \"description\": \"Emperor Helmet Description\", \"display_type\": \"Helmet - Lv. 40\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"helmet\", \"level\": \"40\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

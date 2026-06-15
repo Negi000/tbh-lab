@@ -1,0 +1,245 @@
+{
+  "categoryId": "gear",
+  "entityId": "344021",
+  "slug": "344021-leather-crossbow",
+  "title": {
+    "ja": "レザークロスボウ",
+    "en": "Leather Crossbow"
+  },
+  "subtitle": {
+    "en": "Immortal / Crossbow / Main Weapon / Lv. 5",
+    "ja": "イモータル / クロスボウ / メイン武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "344021"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.05273%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.05273%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.05273%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.05273%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.1276%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601001",
+            "en": "DropKey 3601001"
+          },
+          "0.1111%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "18"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "10"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "52"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "239"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "344021"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340002"
+        ],
+        [
+          "GearKey",
+          "344021"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Leather Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Leather Crossbow\", \"ja\": \"レザークロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

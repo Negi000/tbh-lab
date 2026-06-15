@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "20301",
+  "slug": "20301-arrow-rain",
+  "title": {
+    "ja": "矢の雨",
+    "en": "Arrow Rain"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_20301.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20301"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1300"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "20301"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_20301"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_20301"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "10"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1300"
+        ],
+        [
+          "Order",
+          "200"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "20301"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_20301"
+        ],
+        [
+          "AttributeKey",
+          "201013"
+        ],
+        [
+          "SoundKey",
+          "1201031"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

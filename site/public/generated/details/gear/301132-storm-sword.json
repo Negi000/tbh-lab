@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "301132",
+  "slug": "301132-storm-sword",
+  "title": {
+    "ja": "ストームソード",
+    "en": "Storm Sword"
+  },
+  "subtitle": {
+    "en": "Uncommon / Sword / Main Weapon / Lv. 60",
+    "ja": "アンコモン / ソード / メイン武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300013.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301132"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "160"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "498"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "301132"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300013"
+        ],
+        [
+          "GearKey",
+          "301132"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Storm Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Storm Sword\", \"ja\": \"ストームソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

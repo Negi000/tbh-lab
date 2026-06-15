@@ -1,0 +1,325 @@
+{
+  "categoryId": "materials",
+  "entityId": "190004",
+  "slug": "190004-soulstone-torment",
+  "title": {
+    "ja": "ソウルストーン - トーメント",
+    "en": "Soulstone - Torment"
+  },
+  "subtitle": {
+    "en": "Celestial / Soulstone",
+    "ja": "セレスティアル / ソウルストーン"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_190004.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_190004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "190004"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "16.16%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "16.16%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "16.16%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "16.16%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "16.16%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "16.16%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 6",
+            "en": "Stage Treasure Chest 6"
+          },
+          "100%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv85",
+            "en": "Stage Treasure Chest Lv85"
+          },
+          "16.16%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv90",
+            "en": "Stage Treasure Chest Lv90"
+          },
+          "16.16%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700010",
+            "en": "DropKey 3700010"
+          },
+          "2.294%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700009",
+            "en": "DropKey 3700009"
+          },
+          "1.114%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700008",
+            "en": "DropKey 3700008"
+          },
+          "0.915%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700007",
+            "en": "DropKey 3700007"
+          },
+          "0.8856%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700006",
+            "en": "DropKey 3700006"
+          },
+          "0.6541%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700006",
+            "en": "DropKey 3700006"
+          },
+          "0.3925%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700005",
+            "en": "DropKey 3700005"
+          },
+          "0.3084%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "190004"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "NameKey",
+          "ItemName_190004"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_190004"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_190004"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Soulstone - Torment"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Soulstone - Torment\", \"ja\": \"ソウルストーン - トーメント\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Material required to summon Torment difficulty bosses.\", \"ja\": \"トーメント難易度のボス召喚に必要な素材。\"}"
+        ],
+        [
+          "mono_name",
+          "Soulstone - Torment"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Soulstone - Torment\", \"description\": \"Torment 난이도 보스를 소환하는 데 필요한 재료.\", \"display_type\": \"Material\", \"type\": \"material\", \"rarity\": \"immortal\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

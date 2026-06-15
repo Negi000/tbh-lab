@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "444181",
+  "slug": "444181-shadow-bolt",
+  "title": {
+    "ja": "シャドウボルト",
+    "en": "Shadow Bolt"
+  },
+  "subtitle": {
+    "en": "Immortal / Bolt / Sub Weapon / Lv. 85",
+    "ja": "イモータル / クロスボウボルト / サブ武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440018.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "444181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1847"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "82"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "308"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "444181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440018"
+        ],
+        [
+          "GearKey",
+          "444181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Bolt\", \"ja\": \"シャドウボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

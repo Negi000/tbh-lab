@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "327172",
+  "slug": "327172-tempest-staff",
+  "title": {
+    "ja": "テンペストスタッフ",
+    "en": "Tempest Staff"
+  },
+  "subtitle": {
+    "en": "Celestial / Staff / Main Weapon / Lv. 80",
+    "ja": "セレスティアル / スタッフ / メイン武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320017.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "327172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2230"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "372"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "107"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1661"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "327172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320017"
+        ],
+        [
+          "GearKey",
+          "327172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Tempest Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Tempest Staff\", \"ja\": \"テンペストスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

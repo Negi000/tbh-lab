@@ -1,0 +1,277 @@
+{
+  "categoryId": "gear",
+  "entityId": "411011",
+  "slug": "411011-wooden-arrow",
+  "title": {
+    "ja": "ウッドアロー",
+    "en": "Wooden Arrow"
+  },
+  "subtitle": {
+    "en": "Uncommon / Arrow / Sub Weapon / Lv. 1",
+    "ja": "アンコモン / 矢 / サブ武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "411011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "2.264%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "2.264%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "2.264%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "1.029%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "1.029%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "1.029%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "DropKey 3601002",
+            "en": "DropKey 3601002"
+          },
+          "11.11%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3111011",
+            "en": "DropKey 3111011"
+          },
+          "5.265%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.07292%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "90"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "120"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "411011"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410001"
+        ],
+        [
+          "GearKey",
+          "411011"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410001"
+        ],
+        [
+          "display_name",
+          "Wooden Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Arrow\", \"ja\": \"ウッドアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Short Arrow Description\", \"ja\": \"Short Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Short Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Short Arrow\", \"description\": \"Short Arrow Description\", \"display_type\": \"Arrow - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

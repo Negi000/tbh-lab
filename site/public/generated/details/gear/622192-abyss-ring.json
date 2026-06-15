@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "622192",
+  "slug": "622192-abyss-ring",
+  "title": {
+    "ja": "アビスリング",
+    "en": "Abyss Ring"
+  },
+  "subtitle": {
+    "en": "Rare / Ring / RING / Lv. 90",
+    "ja": "レア / リング / RING / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620019.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "622192"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "35"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "622192"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620019"
+        ],
+        [
+          "GearKey",
+          "622192"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Abyss Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Abyss Ring\", \"ja\": \"アビスリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

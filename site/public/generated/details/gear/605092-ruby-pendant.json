@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "605092",
+  "slug": "605092-ruby-pendant",
+  "title": {
+    "ja": "ルビーペンダント",
+    "en": "Ruby Pendant"
+  },
+  "subtitle": {
+    "en": "Arcana / Amulet / AMULET / Lv. 40",
+    "ja": "アルカナ / アミュレット / AMULET / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600009.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "605092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "41"
+        },
+        {
+          "labelKey": "BaseAttackCountReduction / FLAT",
+          "value": "1"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "605092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600009"
+        ],
+        [
+          "GearKey",
+          "605092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ruby Pendant"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ruby Pendant\", \"ja\": \"ルビーペンダント\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

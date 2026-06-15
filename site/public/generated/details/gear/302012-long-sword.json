@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "302012",
+  "slug": "302012-long-sword",
+  "title": {
+    "ja": "ロングソード",
+    "en": "Long Sword"
+  },
+  "subtitle": {
+    "en": "Rare / Sword / Main Weapon / Lv. 1",
+    "ja": "レア / ソード / メイン武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300001.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "302012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "3"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "10"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "209"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "302012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300001"
+        ],
+        [
+          "GearKey",
+          "302012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Long Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Long Sword\", \"ja\": \"ロングソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Short Sword Description\", \"ja\": \"Short Sword Description\"}"
+        ],
+        [
+          "mono_name",
+          "Short Sword"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Short Sword\", \"description\": \"Short Sword Description\", \"display_type\": \"Sword - Lv. 1\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

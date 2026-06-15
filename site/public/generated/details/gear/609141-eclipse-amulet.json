@@ -1,0 +1,237 @@
+{
+  "categoryId": "gear",
+  "entityId": "609141",
+  "slug": "609141-eclipse-amulet",
+  "title": {
+    "ja": "エクリプスアミュレット",
+    "en": "Eclipse Amulet"
+  },
+  "subtitle": {
+    "en": "Cosmic / Amulet / AMULET / Lv. 65",
+    "ja": "コズミック / アミュレット / AMULET / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600014.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "609141"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3127149",
+            "en": "DropKey 3127149"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700009",
+            "en": "DropKey 3700009"
+          },
+          "0.00928%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700008",
+            "en": "DropKey 3700008"
+          },
+          "0.004572%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700007",
+            "en": "DropKey 3700007"
+          },
+          "0.001305%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700006",
+            "en": "DropKey 3700006"
+          },
+          "0.000622%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "73"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "533"
+        },
+        {
+          "labelKey": "Multistrike / FLAT",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "609141"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600014"
+        ],
+        [
+          "GearKey",
+          "609141"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600014"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eclipse Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eclipse Amulet\", \"ja\": \"エクリプスアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

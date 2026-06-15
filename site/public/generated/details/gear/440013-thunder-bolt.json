@@ -1,0 +1,145 @@
+{
+  "categoryId": "gear",
+  "entityId": "440013",
+  "slug": "440013-thunder-bolt",
+  "title": {
+    "ja": "サンダーボルト",
+    "en": "Thunder Bolt"
+  },
+  "subtitle": {
+    "en": "Common / Bolt / Sub Weapon / Lv. 60",
+    "ja": "コモン / クロスボウボルト / サブ武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440013.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "440013"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "937"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "440013"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440013"
+        ],
+        [
+          "GearKey",
+          "440013"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Thunder Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Thunder Bolt\", \"ja\": \"サンダーボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

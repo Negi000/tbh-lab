@@ -1,0 +1,145 @@
+{
+  "categoryId": "gear",
+  "entityId": "500019",
+  "slug": "500019-eternal-helmet",
+  "title": {
+    "ja": "エターナルヘルメット",
+    "en": "Eternal Helmet"
+  },
+  "subtitle": {
+    "en": "Common / Helmet / HELMET / Lv. 90",
+    "ja": "コモン / ヘルメット / HELMET / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500019.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "500019"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1000"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "500019"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500019"
+        ],
+        [
+          "GearKey",
+          "500019"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Helmet\", \"ja\": \"エターナルヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

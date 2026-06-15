@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "519182",
+  "slug": "519182-shadow-armor",
+  "title": {
+    "ja": "シャドウアーマー",
+    "en": "Shadow Armor"
+  },
+  "subtitle": {
+    "en": "Cosmic / Armor / ARMOR / Lv. 85",
+    "ja": "コズミック / アーマー / ARMOR / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510018.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "519182"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "17565"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "20"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "5000"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "519182"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510018"
+        ],
+        [
+          "GearKey",
+          "519182"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Armor\", \"ja\": \"シャドウアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

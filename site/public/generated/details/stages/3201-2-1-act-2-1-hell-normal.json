@@ -1,0 +1,175 @@
+{
+  "categoryId": "stages",
+  "entityId": "3201",
+  "slug": "3201-2-1-act-2-1-hell-normal",
+  "title": {
+    "ja": "2-1 ヘル",
+    "en": "2-1 Act 2-1 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 61 / Boss Ratfolk Berserker",
+    "en": "Hell / Lv 61 / Boss Ratfolk Berserker"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3201"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "61"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "26"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Ratfolk Berserker"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20011,
+          {
+            "ja": "サソリ",
+            "en": "Scorpion"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          20021,
+          {
+            "ja": "ラット族戦士",
+            "en": "Ratfolk Warrior"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          20022,
+          {
+            "ja": "ラット族弓兵",
+            "en": "Ratfolk Archer"
+          },
+          1000,
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910501,
+          10
+        ],
+        [
+          "Boss box",
+          920501,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "61"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "6515"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "143570"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "15350"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "296400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

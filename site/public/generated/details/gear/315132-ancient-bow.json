@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "315132",
+  "slug": "315132-ancient-bow",
+  "title": {
+    "ja": "エンシェントボウ",
+    "en": "Ancient Bow"
+  },
+  "subtitle": {
+    "en": "Arcana / Bow / Main Weapon / Lv. 60",
+    "ja": "アルカナ / 弓 / メイン武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310013.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "315132"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "424"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "65"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "103"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "790"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "693"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "315132"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310013"
+        ],
+        [
+          "GearKey",
+          "315132"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ancient Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Bow\", \"ja\": \"エンシェントボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

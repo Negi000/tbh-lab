@@ -1,0 +1,145 @@
+{
+  "categoryId": "materials",
+  "entityId": "149001",
+  "slug": "149001-adamantium-ore",
+  "title": {
+    "ja": "アダマンティウム鉱石",
+    "en": "Adamantium Ore"
+  },
+  "subtitle": {
+    "en": "Cosmic / Crafting material",
+    "ja": "コズミック / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_149001.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_149001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "149001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3130009",
+            "en": "DropKey 3130009"
+          },
+          "40%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "149001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_149001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_149001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_149001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Adamantium Ore"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Adamantium Ore\", \"ja\": \"アダマンティウム鉱石\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A premium material that can be used to craft something.\", \"ja\": \"何かを作るための最高級素材。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

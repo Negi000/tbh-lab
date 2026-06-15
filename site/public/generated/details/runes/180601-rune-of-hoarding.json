@@ -1,0 +1,138 @@
+{
+  "categoryId": "runes",
+  "entityId": "180601",
+  "slug": "180601-rune-of-hoarding",
+  "title": {
+    "ja": "蓄積のルーン",
+    "en": "Rune of Hoarding"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/OfflineRewardGoldPercent.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "OfflineRewardGoldPercent",
+    "OfflineRewardGoldPercent",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "180601"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "蓄積のルーン",
+        "en": "Rune of Hoarding"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "オフライン報酬ゴールド +100%",
+            "en": "Offline Reward Gold +100%"
+          },
+          {
+            "ja": "10000000 ゴールド",
+            "en": "10000000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "オフライン報酬ゴールド +100%",
+            "en": "Offline Reward Gold +100%"
+          },
+          {
+            "ja": "11000000 ゴールド",
+            "en": "11000000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "オフライン報酬ゴールド +100%",
+            "en": "Offline Reward Gold +100%"
+          },
+          {
+            "ja": "12000000 ゴールド",
+            "en": "12000000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "オフライン報酬ゴールド +100%",
+            "en": "Offline Reward Gold +100%"
+          },
+          {
+            "ja": "13000000 ゴールド",
+            "en": "13000000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "オフライン報酬ゴールド +100%",
+            "en": "Offline Reward Gold +100%"
+          },
+          {
+            "ja": "14000000 ゴールド",
+            "en": "14000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "categoryId": "gear",
+  "entityId": "355042",
+  "slug": "355042-steel-axe",
+  "title": {
+    "ja": "スチールアックス",
+    "en": "Steel Axe"
+  },
+  "subtitle": {
+    "en": "Arcana / Axe / Main Weapon / Lv. 15",
+    "ja": "アルカナ / 斧 / メイン武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350004.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "355042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "57"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "54"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "292"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "1000010"
+        ],
+        [
+          "UniqueMod",
+          "WhirlwindFireIgnite"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "355042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350004"
+        ],
+        [
+          "GearKey",
+          "355042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Steel Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Steel Axe\", \"ja\": \"スチールアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

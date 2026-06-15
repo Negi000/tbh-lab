@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "447121",
+  "slug": "447121-storm-bolt",
+  "title": {
+    "ja": "ストームボルト",
+    "en": "Storm Bolt"
+  },
+  "subtitle": {
+    "en": "Celestial / Bolt / Sub Weapon / Lv. 55",
+    "ja": "セレスティアル / クロスボウボルト / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440012.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "447121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1804"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "85"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "530"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "48"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "447121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440012"
+        ],
+        [
+          "GearKey",
+          "447121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Storm Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Storm Bolt\", \"ja\": \"ストームボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

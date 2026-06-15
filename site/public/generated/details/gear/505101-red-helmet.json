@@ -1,0 +1,198 @@
+{
+  "categoryId": "gear",
+  "entityId": "505101",
+  "slug": "505101-red-helmet",
+  "title": {
+    "ja": "レッドヘルメット",
+    "en": "Red Helmet"
+  },
+  "subtitle": {
+    "en": "Arcana / Helmet / HELMET / Lv. 45",
+    "ja": "アルカナ / ヘルメット / HELMET / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500010.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "505101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "472"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "92"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "805"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "433"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "50002"
+        ],
+        [
+          "UniqueMod",
+          "ChargeTrapExplosiveCooldown"
+        ],
+        [
+          "Param1ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param1",
+          "2"
+        ],
+        [
+          "Param2ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param2",
+          "0"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "505101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500010"
+        ],
+        [
+          "GearKey",
+          "505101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Red Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Red Helmet\", \"ja\": \"レッドヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

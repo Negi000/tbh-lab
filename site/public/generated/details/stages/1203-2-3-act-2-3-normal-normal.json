@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "1203",
+  "slug": "1203-2-3-act-2-3-normal-normal",
+  "title": {
+    "ja": "2-3 ノーマル",
+    "en": "2-3 Act 2-3 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 15 / Boss Cobra",
+    "en": "Normal / Lv 15 / Boss Cobra"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1203"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "14"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Cobra"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20011,
+          {
+            "ja": "サソリ",
+            "en": "Scorpion"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          20031,
+          {
+            "ja": "コブラ",
+            "en": "Cobra"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          20023,
+          {
+            "ja": "疫病ネズミ",
+            "en": "Plague Rat"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          20041,
+          {
+            "ja": "毒虫",
+            "en": "Venom Insect"
+          },
+          100,
+          15,
+          15
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          300,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910151,
+          25
+        ],
+        [
+          "Boss box",
+          920151,
+          300
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "15"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "560"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "3270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "860"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "7300"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

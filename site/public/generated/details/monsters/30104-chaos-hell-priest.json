@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30104",
+  "slug": "30104-chaos-hell-priest",
+  "title": {
+    "ja": "カオスの地獄の神官",
+    "en": "Chaos Hell Priest"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30104"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30104"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30104"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "30"
+        ],
+        [
+          "RewardExp",
+          "30"
+        ],
+        [
+          "SkillKey",
+          "301045"
+        ],
+        [
+          "AttackDamage",
+          "30"
+        ],
+        [
+          "AttackSpeed",
+          "100"
+        ],
+        [
+          "MaxLife",
+          "75"
+        ],
+        [
+          "MovementSpeed",
+          "230"
+        ],
+        [
+          "DeadSoundKey",
+          "21005311"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30104"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30104/Monster_30104"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

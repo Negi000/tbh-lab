@@ -1,0 +1,269 @@
+{
+  "categoryId": "gear",
+  "entityId": "623091",
+  "slug": "623091-amethyst-ring",
+  "title": {
+    "ja": "アメジストリング",
+    "en": "Amethyst Ring"
+  },
+  "subtitle": {
+    "en": "Legendary / Ring / RING / Lv. 40",
+    "ja": "レジェンダリー / リング / RING / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620009.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "623091"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv40",
+            "en": "Act Boss Treasure Chest Lv40"
+          },
+          "0.7121%",
+          {
+            "ja": "ナイトメア 1-10",
+            "en": "Nightmare 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3124093",
+            "en": "DropKey 3124093"
+          },
+          "27.59%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3605007",
+            "en": "DropKey 3605007"
+          },
+          "6.305%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3604007",
+            "en": "DropKey 3604007"
+          },
+          "2.787%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700003",
+            "en": "DropKey 3700003"
+          },
+          "0.01922%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700004",
+            "en": "DropKey 3700004"
+          },
+          "0.01243%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.01223%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.009583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "28"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "70"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "623091"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620009"
+        ],
+        [
+          "GearKey",
+          "623091"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620009"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Amethyst Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Amethyst Ring\", \"ja\": \"アメジストリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

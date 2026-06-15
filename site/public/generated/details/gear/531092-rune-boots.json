@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "531092",
+  "slug": "531092-rune-boots",
+  "title": {
+    "ja": "ルーンブーツ",
+    "en": "Rune Boots"
+  },
+  "subtitle": {
+    "en": "Uncommon / Boots / BOOTS / Lv. 40",
+    "ja": "アンコモン / ブーツ / BOOTS / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530009.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "531092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "60"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "531092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530009"
+        ],
+        [
+          "GearKey",
+          "531092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Rune Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Boots\", \"ja\": \"ルーンブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

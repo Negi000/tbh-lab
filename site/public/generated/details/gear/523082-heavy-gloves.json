@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "523082",
+  "slug": "523082-heavy-gloves",
+  "title": {
+    "ja": "ヘビーグローブ",
+    "en": "Heavy Gloves"
+  },
+  "subtitle": {
+    "en": "Legendary / Gloves / GLOVES / Lv. 35",
+    "ja": "レジェンダリー / グローブ / GLOVES / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520008.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "523082"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "142"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "94"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "82"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "523082"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520008"
+        ],
+        [
+          "GearKey",
+          "523082"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Gloves\", \"ja\": \"ヘビーグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

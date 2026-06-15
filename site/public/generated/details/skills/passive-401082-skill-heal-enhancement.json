@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-401082",
+  "slug": "passive-401082-skill-heal-enhancement",
+  "title": {
+    "ja": "スキル回復量強化",
+    "en": "Skill Heal Enhancement"
+  },
+  "subtitle": {
+    "ja": "スキル回復量70%増加",
+    "en": "70% Increased Skill Heal"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "SkillHealIncrease",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401082"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "スキル回復量増加",
+        "en": "Skill Heal Increase"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "401082"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_SkillHealIncrease"
+        ],
+        [
+          "STATTYPE",
+          "SkillHealIncrease"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "70"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

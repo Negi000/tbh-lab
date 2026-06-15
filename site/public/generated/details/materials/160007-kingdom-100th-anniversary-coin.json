@@ -1,0 +1,109 @@
+{
+  "categoryId": "materials",
+  "entityId": "160007",
+  "slug": "160007-kingdom-100th-anniversary-coin",
+  "title": {
+    "ja": "王国100周年記念コイン",
+    "en": "Kingdom 100th Anniversary Coin"
+  },
+  "subtitle": {
+    "en": "Beyond / Offering material",
+    "ja": "ビヨンド / 奉納素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_160007.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_160007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "160007"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "160007"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "NameKey",
+          "ItemName_160007"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_160007"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_160007"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Kingdom 100th Anniversary Coin"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Kingdom 100th Anniversary Coin\", \"ja\": \"王国100周年記念コイン\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A commemorative coin. Toss it into the Cube with a heartfelt wish.\", \"ja\": \"記念コイン。切なる願いを込めてキューブに投げ入れよう。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

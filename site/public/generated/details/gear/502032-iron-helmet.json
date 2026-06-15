@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "502032",
+  "slug": "502032-iron-helmet",
+  "title": {
+    "ja": "アイアンヘルメット",
+    "en": "Iron Helmet"
+  },
+  "subtitle": {
+    "en": "Rare / Helmet / HELMET / Lv. 10",
+    "ja": "レア / ヘルメット / HELMET / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500003.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "502032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "33"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "88"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "502032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500003"
+        ],
+        [
+          "GearKey",
+          "502032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Helmet\", \"ja\": \"アイアンヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Hunter's Helmet Description\", \"ja\": \"Hunter's Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Hunter's Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Hunter's Helmet\", \"description\": \"Hunter's Helmet Description\", \"display_type\": \"Helmet - Lv. 10\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"helmet\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

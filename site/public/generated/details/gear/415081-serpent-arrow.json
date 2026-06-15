@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "415081",
+  "slug": "415081-serpent-arrow",
+  "title": {
+    "ja": "サーペントアロー",
+    "en": "Serpent Arrow"
+  },
+  "subtitle": {
+    "en": "Arcana / Arrow / Sub Weapon / Lv. 35",
+    "ja": "アルカナ / 矢 / サブ武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410008.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "415081"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "292"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "22"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "269"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "92"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "415081"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410008"
+        ],
+        [
+          "GearKey",
+          "415081"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Serpent Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Serpent Arrow\", \"ja\": \"サーペントアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

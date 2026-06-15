@@ -1,0 +1,237 @@
+{
+  "categoryId": "gear",
+  "entityId": "621071",
+  "slug": "621071-amber-ring",
+  "title": {
+    "ja": "アンバーリング",
+    "en": "Amber Ring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Ring / RING / Lv. 30",
+    "ja": "アンコモン / リング / RING / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620007.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "621071"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv30",
+            "en": "Act Boss Treasure Chest Lv30"
+          },
+          "3.579%",
+          {
+            "ja": "ノーマル 3-10",
+            "en": "Normal 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3123071",
+            "en": "DropKey 3123071"
+          },
+          "27.59%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3603007",
+            "en": "DropKey 3603007"
+          },
+          "2.182%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3604007",
+            "en": "DropKey 3604007"
+          },
+          "1.335%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.01146%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.009583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "621071"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620007"
+        ],
+        [
+          "GearKey",
+          "621071"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620007"
+        ],
+        [
+          "display_name",
+          "Amber Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Amber Ring\", \"ja\": \"アンバーリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "427192",
+  "slug": "427192-eternal-orb",
+  "title": {
+    "ja": "エターナルオーブ",
+    "en": "Eternal Orb"
+  },
+  "subtitle": {
+    "en": "Celestial / Orb / Sub Weapon / Lv. 90",
+    "ja": "セレスティアル / オーブ / サブ武器 / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420019.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "427192"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "344"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "232"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "955"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "955"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "427192"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420019"
+        ],
+        [
+          "GearKey",
+          "427192"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Orb\", \"ja\": \"エターナルオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

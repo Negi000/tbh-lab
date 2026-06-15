@@ -1,0 +1,277 @@
+{
+  "categoryId": "gear",
+  "entityId": "531011",
+  "slug": "531011-wooden-boots",
+  "title": {
+    "ja": "ウッドブーツ",
+    "en": "Wooden Boots"
+  },
+  "subtitle": {
+    "en": "Uncommon / Boots / BOOTS / Lv. 1",
+    "ja": "アンコモン / ブーツ / BOOTS / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "531011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "18.87%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "18.87%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "18.87%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "8.235%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "8.235%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "8.235%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "DropKey 3111011",
+            "en": "DropKey 3111011"
+          },
+          "36.84%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601006",
+            "en": "DropKey 3601006"
+          },
+          "16.67%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.2917%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "6"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "531011"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530001"
+        ],
+        [
+          "GearKey",
+          "531011"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530001"
+        ],
+        [
+          "display_name",
+          "Wooden Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Boots\", \"ja\": \"ウッドブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Boots Description\", \"ja\": \"Wooden Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Boots\", \"description\": \"Wooden Boots Description\", \"display_type\": \"Boots - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"boots\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

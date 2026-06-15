@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "510012",
+  "slug": "510012-great-armor",
+  "title": {
+    "ja": "グレートアーマー",
+    "en": "Great Armor"
+  },
+  "subtitle": {
+    "en": "Common / Armor / ARMOR / Lv. 55",
+    "ja": "コモン / アーマー / ARMOR / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510012.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "510012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "371"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "510012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510012"
+        ],
+        [
+          "GearKey",
+          "510012"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Great Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Great Armor\", \"ja\": \"グレートアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Empire Armor Description\", \"ja\": \"Empire Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Empire Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Empire Armor\", \"description\": \"Empire Armor Description\", \"display_type\": \"Armor - Lv. 100\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"armor\", \"level\": \"100\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

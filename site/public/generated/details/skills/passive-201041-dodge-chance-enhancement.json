@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-201041",
+  "slug": "passive-201041-dodge-chance-enhancement",
+  "title": {
+    "ja": "回避率強化",
+    "en": "Dodge Chance Enhancement"
+  },
+  "subtitle": {
+    "ja": "属性回避 +30%",
+    "en": "Elemental Dodge Chance +30%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "ElementalDodgeChance",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "201041"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "Elemental Dodge Chance",
+        "en": "Elemental Dodge Chance"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "201041"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_DodgeChance"
+        ],
+        [
+          "STATTYPE",
+          "ElementalDodgeChance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

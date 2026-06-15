@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "639161",
+  "slug": "639161-astral-bracer",
+  "title": {
+    "ja": "アストラルブレイサー",
+    "en": "Astral Bracer"
+  },
+  "subtitle": {
+    "en": "Cosmic / Bracer / BRACER / Lv. 75",
+    "ja": "コズミック / ブレイサー / BRACER / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630016.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "639161"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "1500"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "300"
+        },
+        {
+          "labelKey": "DodgeChance / FLAT",
+          "value": "150"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "639161"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630016"
+        ],
+        [
+          "GearKey",
+          "639161"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Astral Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Astral Bracer\", \"ja\": \"アストラルブレイサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

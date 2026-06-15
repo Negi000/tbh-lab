@@ -1,0 +1,249 @@
+{
+  "categoryId": "gear",
+  "entityId": "438171",
+  "slug": "438171-dimensional-tome",
+  "title": {
+    "ja": "次元のトーム",
+    "en": "Dimensional Tome"
+  },
+  "subtitle": {
+    "en": "Divine / Tome / Sub Weapon / Lv. 80",
+    "ja": "ディバイン / 古書 / サブ武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430017.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "438171"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3118178",
+            "en": "DropKey 3118178"
+          },
+          "25%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700009",
+            "en": "DropKey 3700009"
+          },
+          "1.673%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700008",
+            "en": "DropKey 3700008"
+          },
+          "0.3663%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700007",
+            "en": "DropKey 3700007"
+          },
+          "0.1773%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700006",
+            "en": "DropKey 3700006"
+          },
+          "0.07072%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700005",
+            "en": "DropKey 3700005"
+          },
+          "0.06583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "874"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "495"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "1978"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "148"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "438171"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430017"
+        ],
+        [
+          "GearKey",
+          "438171"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430017"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dimensional Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Tome\", \"ja\": \"次元のトーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

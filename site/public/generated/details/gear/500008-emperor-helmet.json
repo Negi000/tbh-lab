@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "500008",
+  "slug": "500008-emperor-helmet",
+  "title": {
+    "ja": "皇帝のヘルメット",
+    "en": "Emperor Helmet"
+  },
+  "subtitle": {
+    "en": "Common / Helmet / HELMET / Lv. 35",
+    "ja": "コモン / ヘルメット / HELMET / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500008.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "500008"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "56"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "500008"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500008"
+        ],
+        [
+          "GearKey",
+          "500008"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Emperor Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Emperor Helmet\", \"ja\": \"皇帝のヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Red Helmet Description\", \"ja\": \"Red Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Red Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Red Helmet\", \"description\": \"Red Helmet Description\", \"display_type\": \"Helmet - Lv. 60\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"helmet\", \"level\": \"60\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

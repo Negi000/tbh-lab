@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "525062",
+  "slug": "525062-fate-gloves",
+  "title": {
+    "ja": "フェイトグローブ",
+    "en": "Fate Gloves"
+  },
+  "subtitle": {
+    "en": "Arcana / Gloves / GLOVES / Lv. 25",
+    "ja": "アルカナ / グローブ / GLOVES / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520006.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "525062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "189"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "93"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "48"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "190"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "525062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520006"
+        ],
+        [
+          "GearKey",
+          "525062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Gloves\", \"ja\": \"フェイトグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

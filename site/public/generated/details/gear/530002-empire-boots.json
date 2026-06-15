@@ -1,0 +1,273 @@
+{
+  "categoryId": "gear",
+  "entityId": "530002",
+  "slug": "530002-empire-boots",
+  "title": {
+    "ja": "帝国のブーツ",
+    "en": "Empire Boots"
+  },
+  "subtitle": {
+    "en": "Common / Boots / BOOTS / Lv. 5",
+    "ja": "コモン / ブーツ / BOOTS / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530002.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "530002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.09723%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "5"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "530002"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530002"
+        ],
+        [
+          "GearKey",
+          "530002"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530002"
+        ],
+        [
+          "display_name",
+          "Empire Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Empire Boots\", \"ja\": \"帝国のブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Empire Boots Description\", \"ja\": \"Empire Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Empire Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Empire Boots\", \"description\": \"Empire Boots Description\", \"display_type\": \"Boots - Lv. 5\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"boots\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

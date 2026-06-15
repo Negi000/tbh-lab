@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "315181",
+  "slug": "315181-tempest-bow",
+  "title": {
+    "ja": "テンペストボウ",
+    "en": "Tempest Bow"
+  },
+  "subtitle": {
+    "en": "Arcana / Bow / Main Weapon / Lv. 85",
+    "ja": "アルカナ / 弓 / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310018.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "315181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "939"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "65"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "31"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "23"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "227"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "315181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310018"
+        ],
+        [
+          "GearKey",
+          "315181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Tempest Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Tempest Bow\", \"ja\": \"テンペストボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

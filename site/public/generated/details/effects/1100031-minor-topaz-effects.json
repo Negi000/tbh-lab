@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1100031",
+  "slug": "1100031-minor-topaz-effects",
+  "title": {
+    "ja": "マイナートパーズ 効果",
+    "en": "Minor Topaz Effects"
+  },
+  "subtitle": {
+    "en": "Armor, Cast Speed, Lightning Damage Enhancement",
+    "ja": "防御力, 詠唱速度, 雷ダメージ強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_110003.png",
+  "rarity": "COMMON",
+  "tags": [
+    "Armor",
+    "CastSpeed",
+    "LightningDamagePercent",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1100031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Armor, Cast Speed, Lightning Damage Enhancement",
+        "ja": "防御力, 詠唱速度, 雷ダメージ強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102701,
+          {
+            "ja": "雷ダメージ強化",
+            "en": "Lightning Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷ダメージ +1800~2500%",
+            "en": "Lightning Damage +1800~2500%"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          100602,
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "防御力550~600%増加",
+            "en": "550~600% Increased Armor"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          104901,
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T1 - T1"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

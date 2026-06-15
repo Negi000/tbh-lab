@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "514182",
+  "slug": "514182-shadow-armor",
+  "title": {
+    "ja": "シャドウアーマー",
+    "en": "Shadow Armor"
+  },
+  "subtitle": {
+    "en": "Immortal / Armor / ARMOR / Lv. 85",
+    "ja": "イモータル / アーマー / ARMOR / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510018.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "514182"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "3924"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "237"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "2313"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "514182"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510018"
+        ],
+        [
+          "GearKey",
+          "514182"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Armor\", \"ja\": \"シャドウアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

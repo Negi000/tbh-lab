@@ -1,0 +1,145 @@
+{
+  "categoryId": "gear",
+  "entityId": "320013",
+  "slug": "320013-ancient-staff",
+  "title": {
+    "ja": "エンシェントスタッフ",
+    "en": "Ancient Staff"
+  },
+  "subtitle": {
+    "en": "Common / Staff / Main Weapon / Lv. 60",
+    "ja": "コモン / スタッフ / メイン武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320013.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "320013"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "196"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "320013"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320013"
+        ],
+        [
+          "GearKey",
+          "320013"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ancient Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Staff\", \"ja\": \"エンシェントスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

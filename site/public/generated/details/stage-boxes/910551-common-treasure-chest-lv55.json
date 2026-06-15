@@ -1,0 +1,613 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "910551",
+  "slug": "910551-common-treasure-chest-lv55",
+  "title": {
+    "ja": "一般宝箱 Lv55",
+    "en": "Common Treasure Chest Lv55"
+  },
+  "subtitle": {
+    "en": "Common / Stage Box",
+    "ja": "コモン / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_910011.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_910011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "910551"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 50레벨",
+          741398,
+          14.560598
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON MAIN_WEAPON lv50",
+          185322,
+          3.639609
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON MAIN_WEAPON lv50",
+          185322,
+          3.639609
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 50레벨",
+          111237,
+          2.184626
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON SUB_WEAPON lv50",
+          27837,
+          0.546701
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON SUB_WEAPON lv50",
+          27837,
+          0.546701
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 50레벨",
+          889677,
+          17.472706
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 50레벨",
+          251075,
+          4.930958
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 50레벨",
+          62794,
+          1.233235
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 50레벨",
+          62794,
+          1.233235
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 50레벨",
+          37615,
+          0.738735
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 50레벨",
+          9378,
+          0.184178
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 50레벨",
+          9378,
+          0.184178
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 50레벨",
+          301229,
+          5.915951
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 50레벨",
+          123714,
+          2.429666
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 50레벨",
+          30877,
+          0.606405
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 50레벨",
+          30877,
+          0.606405
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 50레벨",
+          18547,
+          0.364252
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 50레벨",
+          4688,
+          0.092069
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 50레벨",
+          4688,
+          0.092069
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 50레벨",
+          148477,
+          2.915996
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 50레벨",
+          36283,
+          0.712576
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 50레벨",
+          9071,
+          0.178149
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 50레벨",
+          9071,
+          0.178149
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 50레벨",
+          5467,
+          0.107368
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 50레벨",
+          1367,
+          0.026847
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 50레벨",
+          1367,
+          0.026847
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 50레벨",
+          43489,
+          0.854097
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 50레벨",
+          6045,
+          0.11872
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 50레벨",
+          1508,
+          0.029616
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 50레벨",
+          1508,
+          0.029616
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 50레벨",
+          910,
+          0.017872
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 50레벨",
+          230,
+          0.004517
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 50레벨",
+          230,
+          0.004517
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 50레벨",
+          7254,
+          0.142464
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 50레벨",
+          671,
+          0.013178
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 50레벨",
+          169,
+          0.003319
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 주무기 50레벨",
+          169,
+          0.003319
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 보조무기 50레벨",
+          102,
+          0.002003
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 보조무기 50레벨",
+          24,
+          0.000471
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 보조무기 50레벨",
+          24,
+          0.000471
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 방어구 50레벨",
+          806,
+          0.015829
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 주무기 50레벨",
+          10,
+          0.000196
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 비욘드 주무기 50레벨",
+          3,
+          5.9e-05
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 비욘드 주무기 50레벨",
+          3,
+          5.9e-05
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 방어구 50레벨",
+          13,
+          0.000255
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 주무기 40레벨",
+          222364,
+          4.367091
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 주무기 40레벨",
+          55624,
+          1.092421
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 주무기 40레벨",
+          55624,
+          1.092421
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 40레벨",
+          33338,
+          0.654738
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 보조무기 40레벨",
+          8368,
+          0.164342
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 보조무기 40레벨",
+          8368,
+          0.164342
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 40레벨",
+          266903,
+          5.24181
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 40레벨",
+          75333,
+          1.479494
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 40레벨",
+          18833,
+          0.369868
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 40레벨",
+          18833,
+          0.369868
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 40레벨",
+          11274,
+          0.221414
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 40레벨",
+          2819,
+          0.055363
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 40레벨",
+          2819,
+          0.055363
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 40레벨",
+          90369,
+          1.774791
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 40레벨",
+          37053,
+          0.727698
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 40레벨",
+          9294,
+          0.182528
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 40레벨",
+          9294,
+          0.182528
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 40레벨",
+          5667,
+          0.111296
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 40레벨",
+          1355,
+          0.026611
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 40레벨",
+          1355,
+          0.026611
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 40레벨",
+          44543,
+          0.874797
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 40레벨",
+          10934,
+          0.214737
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 40레벨",
+          2696,
+          0.052948
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 40레벨",
+          2696,
+          0.052948
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 40레벨",
+          1691,
+          0.03321
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 40레벨",
+          385,
+          0.007561
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 40레벨",
+          385,
+          0.007561
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 40레벨",
+          13047,
+          0.256235
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 40레벨",
+          1808,
+          0.035508
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 40레벨",
+          455,
+          0.008936
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 40레벨",
+          455,
+          0.008936
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 40레벨",
+          274,
+          0.005381
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 40레벨",
+          69,
+          0.001355
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 40레벨",
+          69,
+          0.001355
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "910551"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "NameKey",
+          "Normal Monster Box Lv55"
+        ],
+        [
+          "DropKey",
+          "9105011"
+        ],
+        [
+          "DropCooldown",
+          "2"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_910011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Normal Monster Box Lv55"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Common Treasure Chest Lv55\", \"ja\": \"一般宝箱 Lv55\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

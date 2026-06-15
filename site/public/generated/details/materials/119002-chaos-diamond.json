@@ -1,0 +1,225 @@
+{
+  "categoryId": "materials",
+  "entityId": "119002",
+  "slug": "119002-chaos-diamond",
+  "title": {
+    "ja": "混沌のダイヤモンド",
+    "en": "Chaos Diamond"
+  },
+  "subtitle": {
+    "en": "Cosmic / Decoration material",
+    "ja": "コズミック / 装飾素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_119002.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_119002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "119002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3130009",
+            "en": "DropKey 3130009"
+          },
+          "40%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.materialPool",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          {
+            "ja": "投射物数強化",
+            "en": "Projectile Count Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "投射物数 +1~1",
+            "en": "Projectile Count +1~1"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          {
+            "ja": "全属性耐性強化",
+            "en": "All Elemental Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "全属性耐性 +25~30%",
+            "en": "All Elemental Resistance +25~30%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T10 - T10"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "119002"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_119002"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_119002"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_119002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chaos Diamond"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chaos Diamond\", \"ja\": \"混沌のダイヤモンド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type.\", \"ja\": \"最高級の装飾材料。アイテムに装飾し、装備種類に応じた絶大な能力向上効果を付与する。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

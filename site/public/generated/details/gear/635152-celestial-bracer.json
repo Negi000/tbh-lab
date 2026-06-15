@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "635152",
+  "slug": "635152-celestial-bracer",
+  "title": {
+    "ja": "セレスティアルブレイサー",
+    "en": "Celestial Bracer"
+  },
+  "subtitle": {
+    "en": "Arcana / Bracer / BRACER / Lv. 70",
+    "ja": "アルカナ / ブレイサー / BRACER / Lv. 70"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630015.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630015.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "635152"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DodgeChance / FLAT",
+          "value": "82"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "681"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "104"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "635152"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630015"
+        ],
+        [
+          "GearKey",
+          "635152"
+        ],
+        [
+          "Level",
+          "70"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630015"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Celestial Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Celestial Bracer\", \"ja\": \"セレスティアルブレイサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

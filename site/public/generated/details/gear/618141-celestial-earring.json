@@ -1,0 +1,249 @@
+{
+  "categoryId": "gear",
+  "entityId": "618141",
+  "slug": "618141-celestial-earring",
+  "title": {
+    "ja": "セレスティアルイヤリング",
+    "en": "Celestial Earring"
+  },
+  "subtitle": {
+    "en": "Divine / Earing / EARING / Lv. 65",
+    "ja": "ディバイン / イヤリング / EARING / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610014.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "618141"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3127148",
+            "en": "DropKey 3127148"
+          },
+          "3.448%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700009",
+            "en": "DropKey 3700009"
+          },
+          "0.08365%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700008",
+            "en": "DropKey 3700008"
+          },
+          "0.01833%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700007",
+            "en": "DropKey 3700007"
+          },
+          "0.006524%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700006",
+            "en": "DropKey 3700006"
+          },
+          "0.002376%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700005",
+            "en": "DropKey 3700005"
+          },
+          "0.002191%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "IncreaseExpAmount / ADDITIVE",
+          "value": "150"
+        },
+        {
+          "labelKey": "MovementSpeed / ADDITIVE",
+          "value": "218"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "236"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "618141"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610014"
+        ],
+        [
+          "GearKey",
+          "618141"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610014"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Celestial Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Celestial Earring\", \"ja\": \"セレスティアルイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

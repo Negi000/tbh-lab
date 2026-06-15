@@ -1,0 +1,106 @@
+{
+  "categoryId": "runes",
+  "entityId": "301",
+  "slug": "301-rune-of-growth",
+  "title": {
+    "ja": "成長のルーン",
+    "en": "Rune of Growth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalExp.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AdditionalExp",
+    "AdditionalExp",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "追加経験値",
+        "en": "Additional Exp"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "追加経験値 +1",
+            "en": "Additional Exp +1"
+          },
+          {
+            "ja": "1000 ゴールド",
+            "en": "1000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

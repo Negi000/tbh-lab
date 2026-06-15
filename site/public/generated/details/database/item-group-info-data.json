@@ -1,0 +1,156 @@
+{
+  "categoryId": "database",
+  "entityId": "ItemGroupInfoData",
+  "slug": "item-group-info-data",
+  "title": {
+    "ja": "ItemGroupInfoData",
+    "en": "ItemGroupInfoData"
+  },
+  "subtitle": {
+    "ja": "2275 records",
+    "en": "2275 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "ItemGroupInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "ItemGroupInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "2275"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemGroupKey",
+          "1000010"
+        ],
+        [
+          "GroupName",
+          "커먼 주무기 1레벨"
+        ],
+        [
+          "ItemKey",
+          "300001"
+        ],
+        [
+          "ItemGroupKey",
+          "1000010"
+        ],
+        [
+          "ItemKey",
+          "310001"
+        ],
+        [
+          "ItemGroupKey",
+          "1000010"
+        ],
+        [
+          "ItemKey",
+          "320001"
+        ],
+        [
+          "ItemGroupKey",
+          "1000010"
+        ],
+        [
+          "ItemKey",
+          "330001"
+        ],
+        [
+          "ItemGroupKey",
+          "1000050"
+        ],
+        [
+          "GroupName",
+          "커먼 주무기 5레벨"
+        ],
+        [
+          "ItemKey",
+          "300002"
+        ],
+        [
+          "ItemGroupKey",
+          "1000050"
+        ],
+        [
+          "ItemKey",
+          "310002"
+        ],
+        [
+          "ItemGroupKey",
+          "1000050"
+        ],
+        [
+          "ItemKey",
+          "320002"
+        ],
+        [
+          "ItemGroupKey",
+          "1000050"
+        ],
+        [
+          "ItemKey",
+          "330002"
+        ],
+        [
+          "ItemGroupKey",
+          "1000100"
+        ],
+        [
+          "GroupName",
+          "커먼 주무기 10레벨"
+        ],
+        [
+          "ItemKey",
+          "300003"
+        ],
+        [
+          "ItemGroupKey",
+          "1000100"
+        ],
+        [
+          "ItemKey",
+          "310003"
+        ],
+        [
+          "ItemGroupKey",
+          "1000100"
+        ],
+        [
+          "ItemKey",
+          "320003"
+        ],
+        [
+          "ItemGroupKey",
+          "1000100"
+        ],
+        [
+          "ItemKey",
+          "330003"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemGroupInfoData"
+  }
+}

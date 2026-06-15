@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "512012",
+  "slug": "512012-wooden-armor",
+  "title": {
+    "ja": "ウッドアーマー",
+    "en": "Wooden Armor"
+  },
+  "subtitle": {
+    "en": "Rare / Armor / ARMOR / Lv. 1",
+    "ja": "レア / アーマー / ARMOR / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510001.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "512012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "42"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "22"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "512012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510001"
+        ],
+        [
+          "GearKey",
+          "512012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Wooden Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Armor\", \"ja\": \"ウッドアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Armor Description\", \"ja\": \"Wooden Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Armor\", \"description\": \"Wooden Armor Description\", \"display_type\": \"Armor - Lv. 1\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"armor\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

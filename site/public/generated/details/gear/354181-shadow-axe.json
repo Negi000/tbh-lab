@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "354181",
+  "slug": "354181-shadow-axe",
+  "title": {
+    "ja": "シャドウアックス",
+    "en": "Shadow Axe"
+  },
+  "subtitle": {
+    "en": "Immortal / Axe / Main Weapon / Lv. 85",
+    "ja": "イモータル / 斧 / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350018.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "354181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "890"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "82"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1013"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "354181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350018"
+        ],
+        [
+          "GearKey",
+          "354181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Axe\", \"ja\": \"シャドウアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

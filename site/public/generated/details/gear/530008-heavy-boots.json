@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "530008",
+  "slug": "530008-heavy-boots",
+  "title": {
+    "ja": "ヘビーブーツ",
+    "en": "Heavy Boots"
+  },
+  "subtitle": {
+    "en": "Common / Boots / BOOTS / Lv. 35",
+    "ja": "コモン / ブーツ / BOOTS / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530008.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "530008"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "32"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "530008"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530008"
+        ],
+        [
+          "GearKey",
+          "530008"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Boots\", \"ja\": \"ヘビーブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Plate Boots Description\", \"ja\": \"Plate Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Plate Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Plate Boots\", \"description\": \"Plate Boots Description\", \"display_type\": \"Boots - Lv. 58\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"boots\", \"level\": \"58\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

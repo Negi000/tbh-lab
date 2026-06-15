@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "623121",
+  "slug": "623121-diamond-ring",
+  "title": {
+    "ja": "ダイヤモンドリング",
+    "en": "Diamond Ring"
+  },
+  "subtitle": {
+    "en": "Legendary / Ring / RING / Lv. 55",
+    "ja": "レジェンダリー / リング / RING / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620012.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "623121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "80"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "140"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "623121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620012"
+        ],
+        [
+          "GearKey",
+          "623121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Diamond Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Diamond Ring\", \"ja\": \"ダイヤモンドリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

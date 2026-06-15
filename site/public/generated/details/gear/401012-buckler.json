@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "401012",
+  "slug": "401012-buckler",
+  "title": {
+    "ja": "バックラー",
+    "en": "Buckler"
+  },
+  "subtitle": {
+    "en": "Uncommon / Shield / Sub Weapon / Lv. 1",
+    "ja": "アンコモン / シールド / サブ武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "58"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "401012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400001"
+        ],
+        [
+          "GearKey",
+          "401012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Buckler"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Buckler\", \"ja\": \"バックラー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Shield Description\", \"ja\": \"Wooden Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Shield\", \"description\": \"Wooden Shield Description\", \"display_type\": \"Shield - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

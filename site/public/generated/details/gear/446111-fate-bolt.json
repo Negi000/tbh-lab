@@ -1,0 +1,249 @@
+{
+  "categoryId": "gear",
+  "entityId": "446111",
+  "slug": "446111-fate-bolt",
+  "title": {
+    "ja": "フェイトボルト",
+    "en": "Fate Bolt"
+  },
+  "subtitle": {
+    "en": "Beyond / Bolt / Sub Weapon / Lv. 50",
+    "ja": "ビヨンド / クロスボウボルト / サブ武器 / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440011.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "446111"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv50",
+            "en": "Act Boss Treasure Chest Lv50"
+          },
+          "0.001069%",
+          {
+            "ja": "ナイトメア 3-10",
+            "en": "Nightmare 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3115116",
+            "en": "DropKey 3115116"
+          },
+          "6.25%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700005",
+            "en": "DropKey 3700005"
+          },
+          "0.09221%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700004",
+            "en": "DropKey 3700004"
+          },
+          "0.05043%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700003",
+            "en": "DropKey 3700003"
+          },
+          "0.02326%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3606002",
+            "en": "DropKey 3606002"
+          },
+          "0.016%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1544"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "58"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "431"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "431"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "446111"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440011"
+        ],
+        [
+          "GearKey",
+          "446111"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440011"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Bolt\", \"ja\": \"フェイトボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "categoryId": "gear",
+  "entityId": "430020",
+  "slug": "430020-empyrean-tome",
+  "title": {
+    "ja": "エンピリアントーム",
+    "en": "Empyrean Tome"
+  },
+  "subtitle": {
+    "en": "Common / Tome / Sub Weapon / Lv. 100",
+    "ja": "コモン / 古書 / サブ武器 / Lv. 100"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430020.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430020.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "430020"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "195"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "430020"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430020"
+        ],
+        [
+          "GearKey",
+          "430020"
+        ],
+        [
+          "Level",
+          "100"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430020"
+        ],
+        [
+          "display_name",
+          "Empyrean Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Empyrean Tome\", \"ja\": \"エンピリアントーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

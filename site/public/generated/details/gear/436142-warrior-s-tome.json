@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "436142",
+  "slug": "436142-warrior-s-tome",
+  "title": {
+    "ja": "ウォリアーのトーム",
+    "en": "Warrior's Tome"
+  },
+  "subtitle": {
+    "en": "Beyond / Tome / Sub Weapon / Lv. 65",
+    "ja": "ビヨンド / 古書 / サブ武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430014.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "436142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "327"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "996"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "289"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "81"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "436142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430014"
+        ],
+        [
+          "GearKey",
+          "436142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Warrior's Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Warrior's Tome\", \"ja\": \"ウォリアーのトーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

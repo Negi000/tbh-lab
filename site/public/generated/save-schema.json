@@ -1,0 +1,44 @@
+{
+  "privacy": {
+    "mode": "browser-local-only",
+    "upload": false,
+    "writeBack": false,
+    "notes": [
+      "The user selects an ES3 file with the File API.",
+      "The wiki decrypts and parses it in the browser process.",
+      "Only derived in-memory state is used for joins."
+    ]
+  },
+  "crypto": {
+    "format": "Easy Save 3",
+    "algorithm": "AES-128-CBC",
+    "iv": "first 16 bytes",
+    "keyDerivation": "PBKDF2-HMAC-SHA1",
+    "iterations": 100,
+    "keyLengthBytes": 16,
+    "password": "emuMqG3bLYJ938ZDCfieWJ",
+    "postProcess": "PKCS7 unpad, then gzip decompress when payload starts with 1f8b"
+  },
+  "joins": {
+    "inventory": "inventorySaveDatas[].ItemUniqueId -> itemSaveDatas[].UniqueId -> ItemKey -> market_manifest/items and wiki detail",
+    "stash": "stashSaveDatas[].ItemUniqueId -> itemSaveDatas[].UniqueId -> ItemKey",
+    "tradingStash": "tradingStashSaveDatas[].ItemUniqueId -> itemSaveDatas[].UniqueId -> ItemKey",
+    "equipped": "heroSaveDatas[].equippedItemIds[] -> itemSaveDatas[].UniqueId -> ItemKey",
+    "runes": "RuneSaveData[].RuneKey -> rune-graph.json nodes",
+    "pets": "PetSaveData[].PetKey -> relationships.json pets",
+    "stage": "commonSaveData.currentStageKey / maxCompletedStage -> difficulty + act + stage"
+  },
+  "knownCollections": [
+    "commonSaveData",
+    "settingSaveData",
+    "currenySaveDatas",
+    "heroSaveDatas",
+    "RuneSaveData",
+    "PetSaveData",
+    "itemSaveDatas",
+    "inventorySaveDatas",
+    "stashSaveDatas",
+    "tradingStashSaveDatas",
+    "aggregateSaveDatas"
+  ]
+}

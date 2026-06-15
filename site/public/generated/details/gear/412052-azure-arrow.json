@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "412052",
+  "slug": "412052-azure-arrow",
+  "title": {
+    "ja": "アズールアロー",
+    "en": "Azure Arrow"
+  },
+  "subtitle": {
+    "en": "Rare / Arrow / Sub Weapon / Lv. 20",
+    "ja": "レア / 矢 / サブ武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410005.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "412052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "180"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "158"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "412052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410005"
+        ],
+        [
+          "GearKey",
+          "412052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Azure Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Azure Arrow\", \"ja\": \"アズールアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Revised Arrow Description\", \"ja\": \"Revised Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Revised Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Revised Arrow\", \"description\": \"Revised Arrow Description\", \"display_type\": \"Arrow - Lv. 30\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

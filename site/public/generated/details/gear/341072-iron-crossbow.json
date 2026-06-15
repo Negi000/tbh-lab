@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "341072",
+  "slug": "341072-iron-crossbow",
+  "title": {
+    "ja": "アイアンクロスボウ",
+    "en": "Iron Crossbow"
+  },
+  "subtitle": {
+    "en": "Uncommon / Crossbow / Main Weapon / Lv. 30",
+    "ja": "アンコモン / クロスボウ / メイン武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340007.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "341072"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "43"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "90"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "341072"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340007"
+        ],
+        [
+          "GearKey",
+          "341072"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340007"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Crossbow\", \"ja\": \"アイアンクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

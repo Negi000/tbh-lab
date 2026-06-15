@@ -1,0 +1,237 @@
+{
+  "categoryId": "gear",
+  "entityId": "615071",
+  "slug": "615071-emerald-earring",
+  "title": {
+    "ja": "エメラルドイヤリング",
+    "en": "Emerald Earring"
+  },
+  "subtitle": {
+    "en": "Arcana / Earing / EARING / Lv. 30",
+    "ja": "アルカナ / イヤリング / EARING / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610007.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "615071"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3123075",
+            "en": "DropKey 3123075"
+          },
+          "3.448%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3604007",
+            "en": "DropKey 3604007"
+          },
+          "0.2727%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3603007",
+            "en": "DropKey 3603007"
+          },
+          "0.1364%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700003",
+            "en": "DropKey 3700003"
+          },
+          "0.01153%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.004595%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "110"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "198"
+        },
+        {
+          "labelKey": "MovementSpeed / ADDITIVE",
+          "value": "155"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "615071"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610007"
+        ],
+        [
+          "GearKey",
+          "615071"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610007"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Emerald Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Emerald Earring\", \"ja\": \"エメラルドイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

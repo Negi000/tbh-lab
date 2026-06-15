@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "403092",
+  "slug": "403092-elite-shield",
+  "title": {
+    "ja": "エリートシールド",
+    "en": "Elite Shield"
+  },
+  "subtitle": {
+    "en": "Legendary / Shield / Sub Weapon / Lv. 40",
+    "ja": "レジェンダリー / シールド / サブ武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400009.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "403092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "129"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "581"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "141"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "403092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400009"
+        ],
+        [
+          "GearKey",
+          "403092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elite Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elite Shield\", \"ja\": \"エリートシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

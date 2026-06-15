@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-501051",
+  "slug": "passive-501051-attack-damage-enhancement",
+  "title": {
+    "ja": "攻撃力強化",
+    "en": "Attack Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "攻撃力 +3",
+    "en": "Attack Damage +3"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "AttackDamage",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "501051"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "攻撃力",
+        "en": "Attack Damage"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "3"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "501051"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AttackDamage"
+        ],
+        [
+          "STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "3"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "607181",
+  "slug": "607181-void-amulet",
+  "title": {
+    "ja": "ヴォイドアミュレット",
+    "en": "Void Amulet"
+  },
+  "subtitle": {
+    "en": "Celestial / Amulet / AMULET / Lv. 85",
+    "ja": "セレスティアル / アミュレット / AMULET / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600018.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "607181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "274"
+        },
+        {
+          "labelKey": "BaseAttackCountReduction / FLAT",
+          "value": "1"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "547"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "607181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600018"
+        ],
+        [
+          "GearKey",
+          "607181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Void Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Void Amulet\", \"ja\": \"ヴォイドアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

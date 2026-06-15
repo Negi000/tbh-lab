@@ -1,0 +1,145 @@
+{
+  "categoryId": "gear",
+  "entityId": "450006",
+  "slug": "450006-composite-hatchet",
+  "title": {
+    "ja": "コンポジットハチェット",
+    "en": "Composite Hatchet"
+  },
+  "subtitle": {
+    "en": "Common / Hatchet / Sub Weapon / Lv. 25",
+    "ja": "コモン / 手斧 / サブ武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HATCHET_450006.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "HATCHET",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HATCHET_450006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "450006"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "436"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "450006"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "HATCHET"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_450006"
+        ],
+        [
+          "GearKey",
+          "450006"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HATCHET_450006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Composite Hatchet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Composite Hatchet\", \"ja\": \"コンポジットハチェット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

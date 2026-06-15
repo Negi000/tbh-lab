@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "343152",
+  "slug": "343152-chaos-crossbow",
+  "title": {
+    "ja": "混沌のクロスボウ",
+    "en": "Chaos Crossbow"
+  },
+  "subtitle": {
+    "en": "Legendary / Crossbow / Main Weapon / Lv. 70",
+    "ja": "レジェンダリー / クロスボウ / メイン武器 / Lv. 70"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340015.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340015.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "343152"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "459"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "152"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "683"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "343152"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340015"
+        ],
+        [
+          "GearKey",
+          "343152"
+        ],
+        [
+          "Level",
+          "70"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340015"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chaos Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chaos Crossbow\", \"ja\": \"混沌のクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

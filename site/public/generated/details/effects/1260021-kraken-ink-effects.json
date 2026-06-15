@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1260021",
+  "slug": "1260021-kraken-ink-effects",
+  "title": {
+    "ja": "クラーケンインク 効果",
+    "en": "Kraken Ink Effects"
+  },
+  "subtitle": {
+    "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Attack Damage",
+    "ja": "命中毎HP回復強化, 効果範囲強化, 攻撃力"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_126002.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "AddHpPerHit",
+    "AreaOfEffect",
+    "AttackDamage",
+    "ColdDamagePercent",
+    "DodgeChance",
+    "LightningResistance",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1260021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Attack Damage, Cold Damage Enhancement, Dodge Chance, Lightning Resistance",
+        "ja": "命中毎HP回復強化, 効果範囲強化, 攻撃力, 冷気ダメージ強化, 回避率, 雷電耐性"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102601,
+          {
+            "ja": "冷気ダメージ強化",
+            "en": "Cold Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気ダメージ +1800~2500%",
+            "en": "Cold Damage +1800~2500%"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100901,
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101401,
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101601,
+          {
+            "ja": "回避率",
+            "en": "Dodge Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "回避率 +200~300%",
+            "en": "Dodge Chance +200~300%"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          103301,
+          {
+            "ja": "命中毎HP回復強化",
+            "en": "HP Per Hit Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "命中毎HP回復 +10~12",
+            "en": "HP Per Hit +10~12"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T7 - T7"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

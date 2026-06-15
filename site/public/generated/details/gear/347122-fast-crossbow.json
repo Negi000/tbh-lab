@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "347122",
+  "slug": "347122-fast-crossbow",
+  "title": {
+    "ja": "ファストクロスボウ",
+    "en": "Fast Crossbow"
+  },
+  "subtitle": {
+    "en": "Celestial / Crossbow / Main Weapon / Lv. 55",
+    "ja": "セレスティアル / クロスボウ / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340012.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "347122"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1010"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "83"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "206"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "859"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "347122"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340012"
+        ],
+        [
+          "GearKey",
+          "347122"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fast Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fast Crossbow\", \"ja\": \"ファストクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

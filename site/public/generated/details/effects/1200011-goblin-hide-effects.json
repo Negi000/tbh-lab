@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1200011",
+  "slug": "1200011-goblin-hide-effects",
+  "title": {
+    "ja": "ゴブリンの皮 効果",
+    "en": "Goblin Hide Effects"
+  },
+  "subtitle": {
+    "en": "Attack Speed, Cold Resistance, Fire Damage Enhancement",
+    "ja": "攻撃速度, 氷冷耐性, 火炎ダメージ強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_120001.png",
+  "rarity": "COMMON",
+  "tags": [
+    "AttackSpeed",
+    "ColdResistance",
+    "FireDamagePercent",
+    "FireResistance",
+    "LightningDamagePercent",
+    "MaxHp",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1200011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Speed, Cold Resistance, Fire Damage Enhancement, Fire Resistance, Lightning Damage Enhancement, Max HP",
+        "ja": "攻撃速度, 氷冷耐性, 火炎ダメージ強化, 火炎耐性, 雷ダメージ強化, 最大HP"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102501,
+          {
+            "ja": "火炎ダメージ強化",
+            "en": "Fire Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎ダメージ +1800~2500%",
+            "en": "Fire Damage +1800~2500%"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102701,
+          {
+            "ja": "雷ダメージ強化",
+            "en": "Lightning Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷ダメージ +1800~2500%",
+            "en": "Lightning Damage +1800~2500%"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101301,
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101201,
+          {
+            "ja": "火炎耐性",
+            "en": "Fire Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎耐性 +50~55%",
+            "en": "Fire Resistance +50~55%"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100201,
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T1 - T1"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

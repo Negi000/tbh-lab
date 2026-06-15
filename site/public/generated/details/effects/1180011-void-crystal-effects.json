@@ -1,0 +1,137 @@
+{
+  "categoryId": "effects",
+  "entityId": "1180011",
+  "slug": "1180011-void-crystal-effects",
+  "title": {
+    "ja": "ヴォイドクリスタル 効果",
+    "en": "Void Crystal Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Cooldown Reduction",
+    "ja": "攻撃力, クールタイム短縮"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_118001.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "AttackDamage",
+    "CooldownReduction",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1180011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Cooldown Reduction",
+        "ja": "攻撃力, クールタイム短縮"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100102,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100102,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T9 - T9"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

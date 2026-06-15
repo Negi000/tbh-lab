@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "510006",
+  "slug": "510006-fate-armor",
+  "title": {
+    "ja": "フェイトアーマー",
+    "en": "Fate Armor"
+  },
+  "subtitle": {
+    "en": "Common / Armor / ARMOR / Lv. 25",
+    "ja": "コモン / アーマー / ARMOR / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510006.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "510006"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "62"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "510006"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510006"
+        ],
+        [
+          "GearKey",
+          "510006"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Armor\", \"ja\": \"フェイトアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fate Armor Description\", \"ja\": \"Fate Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fate Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fate Armor\", \"description\": \"Fate Armor Description\", \"display_type\": \"Armor - Lv. 40\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"armor\", \"level\": \"40\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

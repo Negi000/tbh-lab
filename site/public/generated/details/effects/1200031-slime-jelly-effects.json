@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1200031",
+  "slug": "1200031-slime-jelly-effects",
+  "title": {
+    "ja": "スライムゼリー 効果",
+    "en": "Slime Jelly Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Attack Speed, Block Chance",
+    "ja": "攻撃力, 攻撃速度, ブロック率"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_120003.png",
+  "rarity": "COMMON",
+  "tags": [
+    "AttackDamage",
+    "AttackSpeed",
+    "BlockChance",
+    "CriticalChance",
+    "DamageAbsorption",
+    "MaxHp",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1200031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Attack Speed, Block Chance, Critical Chance, Damage Absorption, Max HP",
+        "ja": "攻撃力, 攻撃速度, ブロック率, クリティカル率, ダメージ吸収, 最大HP"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100201,
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          104001,
+          {
+            "ja": "ダメージ吸収",
+            "en": "Damage Absorption"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ吸収 +60~80",
+            "en": "Damage Absorption +60~80"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101701,
+          {
+            "ja": "ブロック率",
+            "en": "Block Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ブロック率 +200~300%",
+            "en": "Block Chance +200~300%"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T1 - T1"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

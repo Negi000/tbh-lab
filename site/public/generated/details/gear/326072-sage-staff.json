@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "326072",
+  "slug": "326072-sage-staff",
+  "title": {
+    "ja": "セージスタッフ",
+    "en": "Sage Staff"
+  },
+  "subtitle": {
+    "en": "Beyond / Staff / Main Weapon / Lv. 30",
+    "ja": "ビヨンド / スタッフ / メイン武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320007.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "326072"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "258"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "500"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "326072"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320007"
+        ],
+        [
+          "GearKey",
+          "326072"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320007"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sage Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sage Staff\", \"ja\": \"セージスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

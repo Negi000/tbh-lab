@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "308181",
+  "slug": "308181-shadow-blade",
+  "title": {
+    "ja": "シャドウブレード",
+    "en": "Shadow Blade"
+  },
+  "subtitle": {
+    "en": "Divine / Sword / Main Weapon / Lv. 85",
+    "ja": "ディバイン / ソード / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300018.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "308181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2300"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "57"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "2000"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "50"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1500"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "308181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300018"
+        ],
+        [
+          "GearKey",
+          "308181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Blade"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Blade\", \"ja\": \"シャドウブレード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

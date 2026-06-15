@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "315092",
+  "slug": "315092-elite-bow",
+  "title": {
+    "ja": "エリートボウ",
+    "en": "Elite Bow"
+  },
+  "subtitle": {
+    "en": "Arcana / Bow / Main Weapon / Lv. 40",
+    "ja": "アルカナ / 弓 / メイン武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310009.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "315092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "241"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "65"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "59"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "563"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "595"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "315092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310009"
+        ],
+        [
+          "GearKey",
+          "315092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elite Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elite Bow\", \"ja\": \"エリートボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

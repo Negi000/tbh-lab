@@ -1,0 +1,185 @@
+{
+  "categoryId": "stages",
+  "entityId": "3202",
+  "slug": "3202-2-2-act-2-2-hell-normal",
+  "title": {
+    "ja": "2-2 ヘル",
+    "en": "2-2 Act 2-2 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 62 / Boss Ratfolk Warrior",
+    "en": "Hell / Lv 62 / Boss Ratfolk Warrior"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3202"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "62"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "26"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Ratfolk Warrior"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20011,
+          {
+            "ja": "サソリ",
+            "en": "Scorpion"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          20021,
+          {
+            "ja": "ラット族戦士",
+            "en": "Ratfolk Warrior"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          20022,
+          {
+            "ja": "ラット族弓兵",
+            "en": "Ratfolk Archer"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          20024,
+          {
+            "ja": "ラット族バーサーカー",
+            "en": "Ratfolk Berserker"
+          },
+          1000,
+          25,
+          25
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910501,
+          10
+        ],
+        [
+          "Boss box",
+          920501,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "62"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "6995"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "148970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "15900"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "307400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

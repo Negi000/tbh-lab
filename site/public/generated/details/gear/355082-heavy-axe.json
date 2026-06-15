@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "355082",
+  "slug": "355082-heavy-axe",
+  "title": {
+    "ja": "ヘビーアックス",
+    "en": "Heavy Axe"
+  },
+  "subtitle": {
+    "en": "Arcana / Axe / Main Weapon / Lv. 35",
+    "ja": "アルカナ / 斧 / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350008.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "355082"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "245"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "126"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "503"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "504"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "355082"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350008"
+        ],
+        [
+          "GearKey",
+          "355082"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Axe\", \"ja\": \"ヘビーアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

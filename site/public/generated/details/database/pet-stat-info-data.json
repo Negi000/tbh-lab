@@ -1,0 +1,224 @@
+{
+  "categoryId": "database",
+  "entityId": "PetStatInfoData",
+  "slug": "pet-stat-info-data",
+  "title": {
+    "ja": "PetStatInfoData",
+    "en": "PetStatInfoData"
+  },
+  "subtitle": {
+    "ja": "11 records",
+    "en": "11 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "PetStatInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "PetStatInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "11"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetStatKey",
+          "1001"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceNormalChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ],
+        [
+          "PetStatKey",
+          "1001"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseExpAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PetStatKey",
+          "1002"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseGoldAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PetStatKey",
+          "1003"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceStageBossChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ],
+        [
+          "PetStatKey",
+          "1004"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceNormalChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PetStatKey",
+          "1005"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceStageBossChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PetStatKey",
+          "6001"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseExpAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PetStatKey",
+          "6002"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseGoldAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ],
+        [
+          "PetStatKey",
+          "6003"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceNormalChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "200"
+        ],
+        [
+          "PetStatKey",
+          "6003"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseGoldAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PetStatKey",
+          "6003"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseExpAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "200"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetStatInfoData"
+  }
+}

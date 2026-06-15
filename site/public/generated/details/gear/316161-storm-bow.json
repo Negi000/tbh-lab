@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "316161",
+  "slug": "316161-storm-bow",
+  "title": {
+    "ja": "ストームボウ",
+    "en": "Storm Bow"
+  },
+  "subtitle": {
+    "en": "Beyond / Bow / Main Weapon / Lv. 75",
+    "ja": "ビヨンド / 弓 / メイン武器 / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310016.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "316161"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "998"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "85"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "242"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1278"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "241"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "316161"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310016"
+        ],
+        [
+          "GearKey",
+          "316161"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Storm Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Storm Bow\", \"ja\": \"ストームボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

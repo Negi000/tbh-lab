@@ -1,0 +1,198 @@
+{
+  "categoryId": "gear",
+  "entityId": "405042",
+  "slug": "405042-heater-shield",
+  "title": {
+    "ja": "ヒータシールド",
+    "en": "Heater Shield"
+  },
+  "subtitle": {
+    "en": "Arcana / Shield / Sub Weapon / Lv. 15",
+    "ja": "アルカナ / シールド / サブ武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400004.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "405042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "130"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "79"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "27"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "162"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "10003"
+        ],
+        [
+          "UniqueMod",
+          "SkillBaseAttackCountReduce"
+        ],
+        [
+          "Param1ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param1",
+          "10101"
+        ],
+        [
+          "Param2ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "405042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400004"
+        ],
+        [
+          "GearKey",
+          "405042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heater Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heater Shield\", \"ja\": \"ヒータシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "categoryId": "pets",
+  "entityId": "1005",
+  "slug": "1005-dark-spirit",
+  "title": {
+    "ja": "闇の精霊",
+    "en": "Dark Spirit"
+  },
+  "subtitle": {
+    "ja": "KillMonster 幽霊",
+    "en": "KillMonster Ghost"
+  },
+  "icon": "/generated/assets/game/ui/BG_Pet.png",
+  "rarity": "RARE",
+  "tags": [
+    "KillMonster"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1005"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "KillMonster"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "5000"
+    },
+    {
+      "labelKey": "field.name",
+      "value": {
+        "ja": "幽霊",
+        "en": "Ghost"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetStatKey",
+          "1005"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceStageBossChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.farmStages",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.spawn"
+        },
+        {
+          "labelKey": "field.stageLevel"
+        },
+        {
+          "labelKey": "field.wave"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "24.39%",
+          26,
+          17
+        ],
+        [
+          {
+            "ja": "ナイトメア 3-4",
+            "en": "Nightmare 3-4"
+          },
+          "22.73%",
+          49,
+          23
+        ],
+        [
+          {
+            "ja": "ヘル 3-4",
+            "en": "Hell 3-4"
+          },
+          "21.74%",
+          73,
+          27
+        ],
+        [
+          {
+            "ja": "トーメント 3-4",
+            "en": "Torment 3-4"
+          },
+          "21.74%",
+          92,
+          31
+        ],
+        [
+          {
+            "ja": "ノーマル 3-8",
+            "en": "Normal 3-8"
+          },
+          "19.61%",
+          30,
+          18
+        ],
+        [
+          {
+            "ja": "ナイトメア 3-9",
+            "en": "Nightmare 3-9"
+          },
+          "18.42%",
+          52,
+          23
+        ],
+        [
+          {
+            "ja": "ノーマル 3-5",
+            "en": "Normal 3-5"
+          },
+          "17.5%",
+          27,
+          17
+        ],
+        [
+          {
+            "ja": "ノーマル 3-9",
+            "en": "Normal 3-9"
+          },
+          "16.67%",
+          31,
+          18
+        ],
+        [
+          {
+            "ja": "ヘル 3-9",
+            "en": "Hell 3-9"
+          },
+          "16.28%",
+          77,
+          27
+        ],
+        [
+          {
+            "ja": "ナイトメア 3-5",
+            "en": "Nightmare 3-5"
+          },
+          "14.89%",
+          50,
+          23
+        ],
+        [
+          {
+            "ja": "ヘル 3-5",
+            "en": "Hell 3-5"
+          },
+          "14.29%",
+          74,
+          27
+        ],
+        [
+          {
+            "ja": "ナイトメア 3-8",
+            "en": "Nightmare 3-8"
+          },
+          "13.89%",
+          51,
+          23
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetInfoData"
+  }
+}

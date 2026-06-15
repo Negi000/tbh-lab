@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "303112",
+  "slug": "303112-fate-sword",
+  "title": {
+    "ja": "フェイトソード",
+    "en": "Fate Sword"
+  },
+  "subtitle": {
+    "en": "Legendary / Sword / Main Weapon / Lv. 50",
+    "ja": "レジェンダリー / ソード / メイン武器 / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300011.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "303112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "193"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "48"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "63"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "303112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300011"
+        ],
+        [
+          "GearKey",
+          "303112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Sword\", \"ja\": \"フェイトソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

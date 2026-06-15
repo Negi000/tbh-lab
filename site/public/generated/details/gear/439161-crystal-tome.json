@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "439161",
+  "slug": "439161-crystal-tome",
+  "title": {
+    "ja": "クリスタルの魔導書",
+    "en": "Crystal Tome"
+  },
+  "subtitle": {
+    "en": "Cosmic / Tome / Sub Weapon / Lv. 75",
+    "ja": "コズミック / 古書 / サブ武器 / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430016.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "439161"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "763"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "2000"
+        },
+        {
+          "labelKey": "SkillHealIncrease / FLAT",
+          "value": "500"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "439161"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430016"
+        ],
+        [
+          "GearKey",
+          "439161"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Tome\", \"ja\": \"クリスタルの魔導書\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

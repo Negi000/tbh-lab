@@ -1,0 +1,282 @@
+{
+  "categoryId": "materials",
+  "entityId": "129001",
+  "slug": "129001-chaso-dice",
+  "title": {
+    "ja": "チャソダイス",
+    "en": "Chaso Dice"
+  },
+  "subtitle": {
+    "en": "Cosmic / Engraving material",
+    "ja": "コズミック / 刻印素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_129001.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_129001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "129001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3130009",
+            "en": "DropKey 3130009"
+          },
+          "20%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.materialPool",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカル率 +25~30%",
+            "en": "Critical Chance +25~30%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          {
+            "ja": "ダメージ吸収",
+            "en": "Damage Absorption"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ吸収 +60~80",
+            "en": "Damage Absorption +60~80"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T10 - T10"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "129001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_129001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_129001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_129001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chaso Dice"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chaso Dice\", \"ja\": \"チャソダイス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type.\", \"ja\": \"最高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの絶大な能力向上効果のうち1つをランダムに付与する。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "621022",
+  "slug": "621022-bronze-ring",
+  "title": {
+    "ja": "ブロンズリング",
+    "en": "Bronze Ring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Ring / RING / Lv. 5",
+    "ja": "アンコモン / リング / RING / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620002.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "621022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "621022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620002"
+        ],
+        [
+          "GearKey",
+          "621022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Bronze Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Bronze Ring\", \"ja\": \"ブロンズリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron ring Description\", \"ja\": \"Iron ring Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron ring"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron ring\", \"description\": \"Iron ring Description\", \"display_type\": \"Ring - Lv. 5\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"ring\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

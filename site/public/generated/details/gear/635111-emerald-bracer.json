@@ -1,0 +1,249 @@
+{
+  "categoryId": "gear",
+  "entityId": "635111",
+  "slug": "635111-emerald-bracer",
+  "title": {
+    "ja": "エメラルドブレーサー",
+    "en": "Emerald Bracer"
+  },
+  "subtitle": {
+    "en": "Arcana / Bracer / BRACER / Lv. 50",
+    "ja": "アルカナ / ブレイサー / BRACER / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630011.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "635111"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3125115",
+            "en": "DropKey 3125115"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3606007",
+            "en": "DropKey 3606007"
+          },
+          "0.5764%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700005",
+            "en": "DropKey 3700005"
+          },
+          "0.02259%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700004",
+            "en": "DropKey 3700004"
+          },
+          "0.01932%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700003",
+            "en": "DropKey 3700003"
+          },
+          "0.01153%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.004595%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "471"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "123"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "651"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "635111"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630011"
+        ],
+        [
+          "GearKey",
+          "635111"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630011"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Emerald Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Emerald Bracer\", \"ja\": \"エメラルドブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

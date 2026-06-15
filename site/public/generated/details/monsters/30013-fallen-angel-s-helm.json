@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30013",
+  "slug": "30013-fallen-angel-s-helm",
+  "title": {
+    "ja": "堕天使の兜",
+    "en": "Fallen Angel's Helm"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30013"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "25"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30013"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30013"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "15"
+        ],
+        [
+          "RewardExp",
+          "15"
+        ],
+        [
+          "SkillKey",
+          "300131"
+        ],
+        [
+          "AttackDamage",
+          "25"
+        ],
+        [
+          "AttackSpeed",
+          "110"
+        ],
+        [
+          "MaxLife",
+          "40"
+        ],
+        [
+          "MovementSpeed",
+          "450"
+        ],
+        [
+          "DeadSoundKey",
+          "23001311"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30013"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30013/Monster_30013"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "categoryId": "skills",
+  "entityId": "60301",
+  "slug": "60301-commander-s-cry",
+  "title": {
+    "ja": "コマンダーズクライ",
+    "en": "Commander’s Cry"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_60301.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "60301"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "12"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "60301"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_60301"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_60301"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "12"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "60301"
+        ],
+        [
+          "Param1",
+          "700"
+        ],
+        [
+          "Range",
+          "150"
+        ],
+        [
+          "Order",
+          "600"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "60301"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_60301"
+        ],
+        [
+          "AttributeKey",
+          "601013"
+        ],
+        [
+          "SoundKey",
+          "1603011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "509192",
+  "slug": "509192-eternal-helmet",
+  "title": {
+    "ja": "エターナルヘルメット",
+    "en": "Eternal Helmet"
+  },
+  "subtitle": {
+    "en": "Cosmic / Helmet / HELMET / Lv. 90",
+    "ja": "コズミック / ヘルメット / HELMET / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500019.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "509192"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "10931"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "300"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "80"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "3000"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "509192"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500019"
+        ],
+        [
+          "GearKey",
+          "509192"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Helmet\", \"ja\": \"エターナルヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

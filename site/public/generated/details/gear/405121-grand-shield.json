@@ -1,0 +1,198 @@
+{
+  "categoryId": "gear",
+  "entityId": "405121",
+  "slug": "405121-grand-shield",
+  "title": {
+    "ja": "グランドシールド",
+    "en": "Grand Shield"
+  },
+  "subtitle": {
+    "en": "Arcana / Shield / Sub Weapon / Lv. 55",
+    "ja": "アルカナ / シールド / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400012.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "405121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "211"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "60"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "1885"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "255"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "10002"
+        ],
+        [
+          "UniqueMod",
+          "SkillMultiStrikeCountUp"
+        ],
+        [
+          "Param1ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param1",
+          "10101"
+        ],
+        [
+          "Param2ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "405121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400012"
+        ],
+        [
+          "GearKey",
+          "405121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Grand Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Grand Shield\", \"ja\": \"グランドシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

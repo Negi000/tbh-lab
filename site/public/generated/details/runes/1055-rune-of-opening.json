@@ -1,0 +1,94 @@
+{
+  "categoryId": "runes",
+  "entityId": "1055",
+  "slug": "1055-rune-of-opening",
+  "title": {
+    "ja": "開放のルーン",
+    "en": "Rune of Opening"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/OpenAllTypeChestAllAtOnce.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "OpenAllTypeChestAllAtOnce",
+    "OpenAllTypeChestAllAtOnce",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1055"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "開放のルーン",
+        "en": "Rune of Opening"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "スペースキーで全タイプのチェストを一括開封",
+            "en": "Press Space to Open All Chest Types at Once"
+          },
+          {
+            "ja": "10000 ゴールド",
+            "en": "10000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

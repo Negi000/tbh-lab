@@ -1,0 +1,353 @@
+{
+  "categoryId": "gear",
+  "entityId": "440014",
+  "slug": "440014-haste-bolt",
+  "title": {
+    "ja": "ヘイストボルト",
+    "en": "Haste Bolt"
+  },
+  "subtitle": {
+    "en": "Common / Bolt / Sub Weapon / Lv. 65",
+    "ja": "コモン / クロスボウボルト / サブ武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440014.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "440014"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.6323%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.6323%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.6323%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.6323%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.6323%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.6323%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.1351%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.1351%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.1351%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.1351%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.1351%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.1351%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv65",
+            "en": "Act Boss Treasure Chest Lv65"
+          },
+          "0%",
+          {
+            "ja": "ヘル 2-10",
+            "en": "Hell 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv70",
+            "en": "Act Boss Treasure Chest Lv70"
+          },
+          "0%",
+          {
+            "ja": "ヘル 3-10",
+            "en": "Hell 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv70",
+            "en": "Common Treasure Chest Lv70"
+          },
+          "0.6323%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv75",
+            "en": "Common Treasure Chest Lv75"
+          },
+          "0.6323%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "980"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "440014"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440014"
+        ],
+        [
+          "GearKey",
+          "440014"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440014"
+        ],
+        [
+          "display_name",
+          "Haste Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Haste Bolt\", \"ja\": \"ヘイストボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

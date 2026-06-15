@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "412042",
+  "slug": "412042-barbed-arrow",
+  "title": {
+    "ja": "バーブドアロー",
+    "en": "Barbed Arrow"
+  },
+  "subtitle": {
+    "en": "Rare / Arrow / Sub Weapon / Lv. 15",
+    "ja": "レア / 矢 / サブ武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410004.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "412042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "160"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "156"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "412042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410004"
+        ],
+        [
+          "GearKey",
+          "412042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Barbed Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Barbed Arrow\", \"ja\": \"バーブドアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Beast Arrow Description\", \"ja\": \"Beast Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Beast Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Beast Arrow\", \"description\": \"Beast Arrow Description\", \"display_type\": \"Arrow - Lv. 20\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

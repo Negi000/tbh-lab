@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "401061",
+  "slug": "401061-forest-shield",
+  "title": {
+    "ja": "フォレストシールド",
+    "en": "Forest Shield"
+  },
+  "subtitle": {
+    "en": "Uncommon / Shield / Sub Weapon / Lv. 25",
+    "ja": "アンコモン / シールド / サブ武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400006.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "79"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "57"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "401061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400006"
+        ],
+        [
+          "GearKey",
+          "401061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Forest Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Forest Shield\", \"ja\": \"フォレストシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Giant Shield Description\", \"ja\": \"Giant Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Giant Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Giant Shield\", \"description\": \"Giant Shield Description\", \"display_type\": \"Shield - Lv. 50\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

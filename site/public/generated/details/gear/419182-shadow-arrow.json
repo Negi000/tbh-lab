@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "419182",
+  "slug": "419182-shadow-arrow",
+  "title": {
+    "ja": "シャドウアロー",
+    "en": "Shadow Arrow"
+  },
+  "subtitle": {
+    "en": "Cosmic / Arrow / Sub Weapon / Lv. 85",
+    "ja": "コズミック / 矢 / サブ武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410018.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "419182"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "748"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "500"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "300"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "419182"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410018"
+        ],
+        [
+          "GearKey",
+          "419182"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Arrow\", \"ja\": \"シャドウアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

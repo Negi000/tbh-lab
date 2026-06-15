@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "530006",
+  "slug": "530006-fate-boots",
+  "title": {
+    "ja": "フェイトブーツ",
+    "en": "Fate Boots"
+  },
+  "subtitle": {
+    "en": "Common / Boots / BOOTS / Lv. 25",
+    "ja": "コモン / ブーツ / BOOTS / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530006.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "530006"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "18"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "530006"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530006"
+        ],
+        [
+          "GearKey",
+          "530006"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Boots\", \"ja\": \"フェイトブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fate Boots Description\", \"ja\": \"Fate Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fate Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fate Boots\", \"description\": \"Fate Boots Description\", \"display_type\": \"Boots - Lv. 38\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"boots\", \"level\": \"38\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

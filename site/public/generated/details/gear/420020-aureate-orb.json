@@ -1,0 +1,141 @@
+{
+  "categoryId": "gear",
+  "entityId": "420020",
+  "slug": "420020-aureate-orb",
+  "title": {
+    "ja": "オーレートオーブ",
+    "en": "Aureate Orb"
+  },
+  "subtitle": {
+    "en": "Common / Orb / Sub Weapon / Lv. 100",
+    "ja": "コモン / オーブ / サブ武器 / Lv. 100"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420020.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420020.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "420020"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "195"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "420020"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420020"
+        ],
+        [
+          "GearKey",
+          "420020"
+        ],
+        [
+          "Level",
+          "100"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420020"
+        ],
+        [
+          "display_name",
+          "Aureate Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Aureate Orb\", \"ja\": \"オーレートオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

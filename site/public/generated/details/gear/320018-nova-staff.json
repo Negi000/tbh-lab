@@ -1,0 +1,145 @@
+{
+  "categoryId": "gear",
+  "entityId": "320018",
+  "slug": "320018-nova-staff",
+  "title": {
+    "ja": "ノヴァスタッフ",
+    "en": "Nova Staff"
+  },
+  "subtitle": {
+    "en": "Common / Staff / Main Weapon / Lv. 85",
+    "ja": "コモン / スタッフ / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320018.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "320018"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "390"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "320018"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320018"
+        ],
+        [
+          "GearKey",
+          "320018"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Nova Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Nova Staff\", \"ja\": \"ノヴァスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "524012",
+  "slug": "524012-leather-gloves",
+  "title": {
+    "ja": "レザーグローブ",
+    "en": "Leather Gloves"
+  },
+  "subtitle": {
+    "en": "Immortal / Gloves / GLOVES / Lv. 1",
+    "ja": "イモータル / グローブ / GLOVES / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520001.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "524012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "48"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "2"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "24"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "524012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520001"
+        ],
+        [
+          "GearKey",
+          "524012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Leather Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Leather Gloves\", \"ja\": \"レザーグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Gloves Description\", \"ja\": \"Wooden Gloves Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Gloves"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Gloves\", \"description\": \"Wooden Gloves Description\", \"display_type\": \"Gloves - Lv. 1\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"gloves\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

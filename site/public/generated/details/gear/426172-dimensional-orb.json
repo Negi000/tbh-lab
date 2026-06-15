@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "426172",
+  "slug": "426172-dimensional-orb",
+  "title": {
+    "ja": "次元のオーブ",
+    "en": "Dimensional Orb"
+  },
+  "subtitle": {
+    "en": "Beyond / Orb / Sub Weapon / Lv. 80",
+    "ja": "ビヨンド / オーブ / サブ武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420017.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "426172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "295"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "138"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "699"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "699"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "426172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420017"
+        ],
+        [
+          "GearKey",
+          "426172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dimensional Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Orb\", \"ja\": \"次元のオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

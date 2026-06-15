@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1230011",
+  "slug": "1230011-skull-effects",
+  "title": {
+    "ja": "スカル 効果",
+    "en": "Skull Effects"
+  },
+  "subtitle": {
+    "en": "Cast Speed, Chaos Resistance Enhancement, Cooldown Reduction",
+    "ja": "詠唱速度, カオス耐性強化, クールタイム短縮"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_123001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "CastSpeed",
+    "ChaosResistance",
+    "CooldownReduction",
+    "CriticalDamage",
+    "LightningDamagePercent",
+    "LightningResistance",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1230011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Cast Speed, Chaos Resistance Enhancement, Cooldown Reduction, Critical Damage, Lightning Damage Enhancement, Lightning Resistance",
+        "ja": "詠唱速度, カオス耐性強化, クールタイム短縮, クリティカルダメージ, 雷ダメージ強化, 雷電耐性"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102701,
+          {
+            "ja": "雷ダメージ強化",
+            "en": "Lightning Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷ダメージ +1800~2500%",
+            "en": "Lightning Damage +1800~2500%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101401,
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101501,
+          {
+            "ja": "カオス耐性強化",
+            "en": "Chaos Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "カオス耐性 +50~55%",
+            "en": "Chaos Resistance +50~55%"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          104901,
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T4 - T4"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

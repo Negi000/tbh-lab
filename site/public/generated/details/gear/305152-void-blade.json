@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "305152",
+  "slug": "305152-void-blade",
+  "title": {
+    "ja": "ヴォイドブレード",
+    "en": "Void Blade"
+  },
+  "subtitle": {
+    "en": "Arcana / Sword / Main Weapon / Lv. 70",
+    "ja": "アルカナ / ソード / メイン武器 / Lv. 70"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300015.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300015.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "305152"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "633"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "37"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "197"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "822"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "305152"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300015"
+        ],
+        [
+          "GearKey",
+          "305152"
+        ],
+        [
+          "Level",
+          "70"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300015"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Void Blade"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Void Blade\", \"ja\": \"ヴォイドブレード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

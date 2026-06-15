@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "303082",
+  "slug": "303082-commander-s-sword",
+  "title": {
+    "ja": "司令官の剣",
+    "en": "Commander's Sword"
+  },
+  "subtitle": {
+    "en": "Legendary / Sword / Main Weapon / Lv. 35",
+    "ja": "レジェンダリー / ソード / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300008.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "303082"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "87"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "22"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "57"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "303082"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300008"
+        ],
+        [
+          "GearKey",
+          "303082"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Commander's Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Commander's Sword\", \"ja\": \"司令官の剣\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

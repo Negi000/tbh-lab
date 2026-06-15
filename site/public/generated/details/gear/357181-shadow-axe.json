@@ -1,0 +1,190 @@
+{
+  "categoryId": "gear",
+  "entityId": "357181",
+  "slug": "357181-shadow-axe",
+  "title": {
+    "ja": "シャドウアックス",
+    "en": "Shadow Axe"
+  },
+  "subtitle": {
+    "en": "Celestial / Axe / Main Weapon / Lv. 85",
+    "ja": "セレスティアル / 斧 / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350018.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "357181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2314"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "318"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1358"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "45"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "60001"
+        ],
+        [
+          "UniqueMod",
+          "AxeSpinBleedingChance"
+        ],
+        [
+          "Param1ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param1",
+          "500"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "357181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350018"
+        ],
+        [
+          "GearKey",
+          "357181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Axe\", \"ja\": \"シャドウアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

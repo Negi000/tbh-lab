@@ -1,0 +1,145 @@
+{
+  "categoryId": "materials",
+  "entityId": "147002",
+  "slug": "147002-sunstone",
+  "title": {
+    "ja": "サンストーン",
+    "en": "Sunstone"
+  },
+  "subtitle": {
+    "en": "Celestial / Crafting material",
+    "ja": "セレスティアル / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_147002.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_147002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "147002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3130007",
+            "en": "DropKey 3130007"
+          },
+          "40%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "147002"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_147002"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_147002"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_147002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sunstone"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sunstone\", \"ja\": \"サンストーン\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A high-grade material that can be used to craft something.\", \"ja\": \"何かを作ることができる高級素材。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

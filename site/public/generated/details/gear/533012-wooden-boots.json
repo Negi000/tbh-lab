@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "533012",
+  "slug": "533012-wooden-boots",
+  "title": {
+    "ja": "ウッドブーツ",
+    "en": "Wooden Boots"
+  },
+  "subtitle": {
+    "en": "Legendary / Boots / BOOTS / Lv. 1",
+    "ja": "レジェンダリー / ブーツ / BOOTS / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "533012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "20"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "5"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "32"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "533012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530001"
+        ],
+        [
+          "GearKey",
+          "533012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Wooden Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Boots\", \"ja\": \"ウッドブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Boots Description\", \"ja\": \"Wooden Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Boots\", \"description\": \"Wooden Boots Description\", \"display_type\": \"Boots - Lv. 1\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"boots\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

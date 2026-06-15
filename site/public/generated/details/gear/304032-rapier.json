@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "304032",
+  "slug": "304032-rapier",
+  "title": {
+    "ja": "レイピア",
+    "en": "Rapier"
+  },
+  "subtitle": {
+    "en": "Immortal / Sword / Main Weapon / Lv. 10",
+    "ja": "イモータル / ソード / メイン武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "304032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "18"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "88"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "255"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "304032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300003"
+        ],
+        [
+          "GearKey",
+          "304032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Rapier"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rapier\", \"ja\": \"レイピア\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Great Sword Description\", \"ja\": \"Great Sword Description\"}"
+        ],
+        [
+          "mono_name",
+          "Great Sword"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Great Sword\", \"description\": \"Great Sword Description\", \"display_type\": \"Sword - Lv. 10\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

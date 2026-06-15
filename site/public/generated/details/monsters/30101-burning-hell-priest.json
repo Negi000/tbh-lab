@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30101",
+  "slug": "30101-burning-hell-priest",
+  "title": {
+    "ja": "燃える地獄の神官",
+    "en": "Burning Hell Priest"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30101"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "95"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30101"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30101"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "30"
+        ],
+        [
+          "RewardExp",
+          "30"
+        ],
+        [
+          "SkillKey",
+          "301015"
+        ],
+        [
+          "AttackDamage",
+          "30"
+        ],
+        [
+          "AttackSpeed",
+          "100"
+        ],
+        [
+          "MaxLife",
+          "95"
+        ],
+        [
+          "MovementSpeed",
+          "230"
+        ],
+        [
+          "DeadSoundKey",
+          "23010111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30101"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30101/Monster_30101"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

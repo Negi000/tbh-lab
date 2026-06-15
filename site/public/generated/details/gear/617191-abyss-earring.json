@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "617191",
+  "slug": "617191-abyss-earring",
+  "title": {
+    "ja": "アビスピアス",
+    "en": "Abyss Earring"
+  },
+  "subtitle": {
+    "en": "Celestial / Earing / EARING / Lv. 90",
+    "ja": "セレスティアル / イヤリング / EARING / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610019.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "617191"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "HpLeech / FLAT",
+          "value": "29"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "287"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "289"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "617191"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610019"
+        ],
+        [
+          "GearKey",
+          "617191"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Abyss Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Abyss Earring\", \"ja\": \"アビスピアス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

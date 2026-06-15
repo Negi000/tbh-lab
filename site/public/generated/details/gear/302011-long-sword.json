@@ -1,0 +1,277 @@
+{
+  "categoryId": "gear",
+  "entityId": "302011",
+  "slug": "302011-long-sword",
+  "title": {
+    "ja": "ロングソード",
+    "en": "Long Sword"
+  },
+  "subtitle": {
+    "en": "Rare / Sword / Main Weapon / Lv. 1",
+    "ja": "レア / ソード / メイン武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300001.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "302011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "6.338%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "6.338%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "6.338%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "0.4781%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "0.4781%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "0.4781%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "DropKey 3111012",
+            "en": "DropKey 3111012"
+          },
+          "36.84%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601001",
+            "en": "DropKey 3601001"
+          },
+          "8.889%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.6807%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "3"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "10"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "81"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "302011"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300001"
+        ],
+        [
+          "GearKey",
+          "302011"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300001"
+        ],
+        [
+          "display_name",
+          "Long Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Long Sword\", \"ja\": \"ロングソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Short Sword Description\", \"ja\": \"Short Sword Description\"}"
+        ],
+        [
+          "mono_name",
+          "Short Sword"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Short Sword\", \"description\": \"Short Sword Description\", \"display_type\": \"Sword - Lv. 1\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

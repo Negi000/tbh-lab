@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "427142",
+  "slug": "427142-ancient-orb",
+  "title": {
+    "ja": "エンシェントオーブ",
+    "en": "Ancient Orb"
+  },
+  "subtitle": {
+    "en": "Celestial / Orb / Sub Weapon / Lv. 65",
+    "ja": "セレスティアル / オーブ / サブ武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420014.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "427142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "280"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "632"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "354"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "632"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "427142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420014"
+        ],
+        [
+          "GearKey",
+          "427142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ancient Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Orb\", \"ja\": \"エンシェントオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

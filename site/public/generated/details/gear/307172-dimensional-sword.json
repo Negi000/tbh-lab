@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "307172",
+  "slug": "307172-dimensional-sword",
+  "title": {
+    "ja": "次元の剣",
+    "en": "Dimensional Sword"
+  },
+  "subtitle": {
+    "en": "Celestial / Sword / Main Weapon / Lv. 80",
+    "ja": "セレスティアル / ソード / メイン武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300017.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "307172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1544"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "50"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "372"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1274"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1661"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "307172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300017"
+        ],
+        [
+          "GearKey",
+          "307172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dimensional Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Sword\", \"ja\": \"次元の剣\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

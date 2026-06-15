@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "2109",
+  "slug": "2109-1-9-act-1-9-nightmare-normal",
+  "title": {
+    "ja": "1-9 ナイトメア",
+    "en": "1-9 Act 1-9 NIGHTMARE NORMAL"
+  },
+  "subtitle": {
+    "ja": "ナイトメア / Lv 40 / Boss Mummy",
+    "en": "Nightmare / Lv 40 / Boss Mummy"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NIGHTMARE",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2109"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NIGHTMARE"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "9"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "40"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "22"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Mummy"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10042,
+          {
+            "ja": "オークウォリアー",
+            "en": "Orc Warrior"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          10043,
+          {
+            "ja": "エリートオーク",
+            "en": "Elite Orc"
+          },
+          600,
+          35,
+          35
+        ],
+        [
+          10051,
+          {
+            "ja": "スケルトン",
+            "en": "Skeleton"
+          },
+          1000,
+          10,
+          11
+        ],
+        [
+          10052,
+          {
+            "ja": "スケルトンアーチャー",
+            "en": "Skeleton Archer"
+          },
+          700,
+          10,
+          13
+        ],
+        [
+          10053,
+          {
+            "ja": "スケルトンウォリアー",
+            "en": "Skeleton Warrior"
+          },
+          500,
+          30,
+          30
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910401,
+          15
+        ],
+        [
+          "Boss box",
+          920401,
+          150
+        ],
+        [
+          "First clear",
+          9200320,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "40"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "1600"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "53270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "6110"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "111600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

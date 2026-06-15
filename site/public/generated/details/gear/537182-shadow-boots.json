@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "537182",
+  "slug": "537182-shadow-boots",
+  "title": {
+    "ja": "シャドウブーツ",
+    "en": "Shadow Boots"
+  },
+  "subtitle": {
+    "en": "Celestial / Boots / BOOTS / Lv. 85",
+    "ja": "セレスティアル / ブーツ / BOOTS / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530018.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "537182"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2913"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "224"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "1769"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "1769"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "537182"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530018"
+        ],
+        [
+          "GearKey",
+          "537182"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Boots\", \"ja\": \"シャドウブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

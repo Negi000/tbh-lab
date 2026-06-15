@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "444032",
+  "slug": "444032-hunter-s-bolt",
+  "title": {
+    "ja": "ハンターボルト",
+    "en": "Hunter's Bolt"
+  },
+  "subtitle": {
+    "en": "Immortal / Bolt / Sub Weapon / Lv. 10",
+    "ja": "イモータル / クロスボウボルト / サブ武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "444032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "547"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "161"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "147"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "444032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440003"
+        ],
+        [
+          "GearKey",
+          "444032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hunter's Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hunter's Bolt\", \"ja\": \"ハンターボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

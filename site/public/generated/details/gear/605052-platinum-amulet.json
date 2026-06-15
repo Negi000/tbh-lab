@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "605052",
+  "slug": "605052-platinum-amulet",
+  "title": {
+    "ja": "プラチナのアミュレット",
+    "en": "Platinum Amulet"
+  },
+  "subtitle": {
+    "en": "Arcana / Amulet / AMULET / Lv. 20",
+    "ja": "アルカナ / アミュレット / AMULET / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600005.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "605052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "34"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "184"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "605052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600005"
+        ],
+        [
+          "GearKey",
+          "605052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Platinum Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Platinum Amulet\", \"ja\": \"プラチナのアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1130011",
+  "slug": "1130011-crystal-quartz-effects",
+  "title": {
+    "ja": "クリスタルクォーツ 効果",
+    "en": "Crystal Quartz Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Critical Damage, HP Regen Enhancement",
+    "ja": "攻撃力, クリティカルダメージ, 毎秒HP回復強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "AttackDamage",
+    "CriticalDamage",
+    "HpRegenPerSec",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1130011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Critical Damage, HP Regen Enhancement",
+        "ja": "攻撃力, クリティカルダメージ, 毎秒HP回復強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T4 - T4"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

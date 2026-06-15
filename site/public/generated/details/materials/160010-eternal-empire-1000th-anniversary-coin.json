@@ -1,0 +1,109 @@
+{
+  "categoryId": "materials",
+  "entityId": "160010",
+  "slug": "160010-eternal-empire-1000th-anniversary-coin",
+  "title": {
+    "ja": "永遠帝国1000周年記念コイン",
+    "en": "Eternal Empire 1000th Anniversary Coin"
+  },
+  "subtitle": {
+    "en": "Cosmic / Offering material",
+    "ja": "コズミック / 奉納素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_160010.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_160010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "160010"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "160010"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "NameKey",
+          "ItemName_160010"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_160010"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_160010"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Empire 1000th Anniversary Coin"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Empire 1000th Anniversary Coin\", \"ja\": \"永遠帝国1000周年記念コイン\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A commemorative coin. Toss it into the Cube with all your heart's desire.\", \"ja\": \"記念コイン。切なる想いを込めてキューブに投げ込もう。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

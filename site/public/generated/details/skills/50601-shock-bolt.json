@@ -1,0 +1,135 @@
+{
+  "categoryId": "skills",
+  "entityId": "50601",
+  "slug": "50601-shock-bolt",
+  "title": {
+    "ja": "ショックボルト",
+    "en": "Shock Bolt"
+  },
+  "subtitle": {
+    "en": "Skill / Base Attack Count",
+    "ja": "スキル / 通常攻撃回数"
+  },
+  "icon": "/generated/assets/game/skills/Skill_50601.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "BASEATTACK_COUNT",
+    "Lightning"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "50601"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃回数",
+        "en": "Base Attack Count"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1100"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "11"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "50601"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_50601"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_50601"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK_COUNT"
+        ],
+        [
+          "ActivationValue",
+          "11"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "50601"
+        ],
+        [
+          "Param1",
+          "400"
+        ],
+        [
+          "Range",
+          "1100"
+        ],
+        [
+          "Order",
+          "900"
+        ],
+        [
+          "DamageType",
+          "Lightning"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile"
+        ],
+        [
+          "SkillLevelKey",
+          "50601"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_50601"
+        ],
+        [
+          "AttributeKey",
+          "501043"
+        ],
+        [
+          "SoundKey",
+          "1506011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

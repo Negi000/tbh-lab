@@ -1,0 +1,185 @@
+{
+  "categoryId": "stages",
+  "entityId": "1104",
+  "slug": "1104-1-4-act-1-4-normal-normal",
+  "title": {
+    "ja": "1-4 ノーマル",
+    "en": "1-4 Act 1-4 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 5 / Boss Orc Warrior",
+    "en": "Normal / Lv 5 / Boss Orc Warrior"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1104"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "4"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "12"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Orc Warrior"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10011,
+          {
+            "ja": "スライム",
+            "en": "Slime"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          10021,
+          {
+            "ja": "ゴブリン",
+            "en": "Goblin"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          10023,
+          {
+            "ja": "ゴブリンシャーマン",
+            "en": "Goblin Shaman"
+          },
+          800,
+          20,
+          20
+        ],
+        [
+          10041,
+          {
+            "ja": "オーク",
+            "en": "Orc"
+          },
+          1000,
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910051,
+          120
+        ],
+        [
+          "Boss box",
+          920051,
+          1000
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "5"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "220"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "320"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "350"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "450"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

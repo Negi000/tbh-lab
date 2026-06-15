@@ -1,0 +1,249 @@
+{
+  "categoryId": "gear",
+  "entityId": "639171",
+  "slug": "639171-ethereal-bracer",
+  "title": {
+    "ja": "エーテルブレーサー",
+    "en": "Ethereal Bracer"
+  },
+  "subtitle": {
+    "en": "Cosmic / Bracer / BRACER / Lv. 80",
+    "ja": "コズミック / ブレイサー / BRACER / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630017.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "639171"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3128179",
+            "en": "DropKey 3128179"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700010",
+            "en": "DropKey 3700010"
+          },
+          "0.1722%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700009",
+            "en": "DropKey 3700009"
+          },
+          "0.00928%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700008",
+            "en": "DropKey 3700008"
+          },
+          "0.004572%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700007",
+            "en": "DropKey 3700007"
+          },
+          "0.001305%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700006",
+            "en": "DropKey 3700006"
+          },
+          "0.000622%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "300"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "200"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "639171"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630017"
+        ],
+        [
+          "GearKey",
+          "639171"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630017"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ethereal Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ethereal Bracer\", \"ja\": \"エーテルブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

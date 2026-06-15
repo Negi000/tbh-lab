@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150005",
+  "slug": "150005-immortal-crafting-material",
+  "title": {
+    "ja": "イモータル クラフト素材",
+    "en": "Immortal Crafting Material"
+  },
+  "subtitle": {
+    "en": "Immortal / Crafting material",
+    "ja": "イモータル / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150005.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150005"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150005"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150005"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150005"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150005"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150005"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Immortal Crafting Material\", \"ja\": \"イモータル クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as immortal crafting material.\", \"ja\": \"イモータル クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

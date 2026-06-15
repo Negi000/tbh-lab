@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "633181",
+  "slug": "633181-void-bracer",
+  "title": {
+    "ja": "ヴォイドブレーサー",
+    "en": "Void Bracer"
+  },
+  "subtitle": {
+    "en": "Legendary / Bracer / BRACER / Lv. 85",
+    "ja": "レジェンダリー / ブレイサー / BRACER / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630018.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "633181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DodgeChance / FLAT",
+          "value": "75"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "633181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630018"
+        ],
+        [
+          "GearKey",
+          "633181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Void Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Void Bracer\", \"ja\": \"ヴォイドブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

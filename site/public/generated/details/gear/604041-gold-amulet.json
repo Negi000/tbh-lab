@@ -1,0 +1,225 @@
+{
+  "categoryId": "gear",
+  "entityId": "604041",
+  "slug": "604041-gold-amulet",
+  "title": {
+    "ja": "ゴールドアミュレット",
+    "en": "Gold Amulet"
+  },
+  "subtitle": {
+    "en": "Immortal / Amulet / AMULET / Lv. 15",
+    "ja": "イモータル / アミュレット / AMULET / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600004.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "604041"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3122044",
+            "en": "DropKey 3122044"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3602007",
+            "en": "DropKey 3602007"
+          },
+          "0.2279%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.009164%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.005754%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "32"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "167"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "604041"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600004"
+        ],
+        [
+          "GearKey",
+          "604041"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600004"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Gold Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Gold Amulet\", \"ja\": \"ゴールドアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Diamond amulet Description\", \"ja\": \"Diamond amulet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Diamond amulet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Diamond amulet\", \"description\": \"Diamond amulet Description\", \"display_type\": \"Amulet - Lv. 20\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"amulet\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

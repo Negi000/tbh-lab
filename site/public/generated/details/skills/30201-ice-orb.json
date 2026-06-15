@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "30201",
+  "slug": "30201-ice-orb",
+  "title": {
+    "ja": "アイスオーブ",
+    "en": "Ice Orb"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_30201.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Cold"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30201"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "950"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "30201"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_30201"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_30201"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "8"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "950"
+        ],
+        [
+          "Order",
+          "500"
+        ],
+        [
+          "DamageType",
+          "Cold"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile, AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "30201"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_30201"
+        ],
+        [
+          "AttributeKey",
+          "301004"
+        ],
+        [
+          "SoundKey",
+          "1302011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

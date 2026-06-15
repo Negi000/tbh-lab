@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-301022",
+  "slug": "passive-301022-cold-damage-enhancement",
+  "title": {
+    "ja": "冷気ダメージ強化",
+    "en": "Cold Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "冷気ダメージ +100%",
+    "en": "Cold Damage +100%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "ColdDamagePercent",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301022"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "冷気ダメージ強化",
+        "en": "Cold Damage Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "301022"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_ColdDamagePercent"
+        ],
+        [
+          "STATTYPE",
+          "ColdDamagePercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

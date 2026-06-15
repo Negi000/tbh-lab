@@ -1,0 +1,150 @@
+{
+  "categoryId": "runes",
+  "entityId": "20",
+  "slug": "20-rune-of-growth",
+  "title": {
+    "ja": "成長のルーン",
+    "en": "Rune of Growth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 3",
+    "en": "Max Lv 3"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalExpStageBoss.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AdditionalExpStageBoss",
+    "AdditionalExpStageBoss",
+    "max:3"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ステージボス経験値",
+        "en": "Exp From Stage Boss"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "指揮のルーン",
+            "en": "Rune of Command"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "盾のルーン",
+            "en": "Rune of the Shield"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "ステージボス経験値 +10",
+            "en": "Exp From Stage Boss Kill +10"
+          },
+          {
+            "ja": "200 ゴールド",
+            "en": "200 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "ステージボス経験値 +10",
+            "en": "Exp From Stage Boss Kill +10"
+          },
+          {
+            "ja": "300 ゴールド",
+            "en": "300 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "ステージボス経験値 +10",
+            "en": "Exp From Stage Boss Kill +10"
+          },
+          {
+            "ja": "500 ゴールド",
+            "en": "500 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

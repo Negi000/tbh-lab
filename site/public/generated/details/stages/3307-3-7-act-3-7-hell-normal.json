@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "3307",
+  "slug": "3307-3-7-act-3-7-hell-normal",
+  "title": {
+    "ja": "3-7 ヘル",
+    "en": "3-7 Act 3-7 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 76 / Boss Plague Rat",
+    "en": "Hell / Lv 76 / Boss Plague Rat"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3307"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "7"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "76"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "27"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Plague Rat"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30081,
+          {
+            "ja": "デーモン兵",
+            "en": "Demon Soldier"
+          },
+          1000,
+          10,
+          11
+        ],
+        [
+          30082,
+          {
+            "ja": "デーモン軍団長",
+            "en": "Demon Legion Commander"
+          },
+          700,
+          10,
+          13
+        ],
+        [
+          30083,
+          {
+            "ja": "デーモン突撃兵",
+            "en": "Demon Shocktrooper"
+          },
+          500,
+          30,
+          30
+        ],
+        [
+          30084,
+          {
+            "ja": "燃える子豚",
+            "en": "Burning Piglet"
+          },
+          600,
+          30,
+          30
+        ],
+        [
+          30071,
+          {
+            "ja": "血の聖職者",
+            "en": "Blood Priest"
+          },
+          1000,
+          35,
+          35
+        ],
+        [
+          30031,
+          {
+            "ja": "ドラゴンハッチリング",
+            "en": "Dragon Hatchling"
+          },
+          700,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "76"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "19465"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "235070"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "24650"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "482400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "413032",
+  "slug": "413032-hunter-s-arrow",
+  "title": {
+    "ja": "ハンターアロー",
+    "en": "Hunter's Arrow"
+  },
+  "subtitle": {
+    "en": "Legendary / Arrow / Sub Weapon / Lv. 10",
+    "ja": "レジェンダリー / 矢 / サブ武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410003.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "413032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "150"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "136"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "413032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410003"
+        ],
+        [
+          "GearKey",
+          "413032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hunter's Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hunter's Arrow\", \"ja\": \"ハンターアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Hatred Arrow Description\", \"ja\": \"Hatred Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Hatred Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Hatred Arrow\", \"description\": \"Hatred Arrow Description\", \"display_type\": \"Arrow - Lv. 10\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1270021",
+  "slug": "1270021-chaos-spore-effects",
+  "title": {
+    "ja": "カオススポア 効果",
+    "en": "Chaos Spore Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Chaos Resistance Enhancement, Cold Resistance",
+    "ja": "攻撃力, カオス耐性強化, 氷冷耐性"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_127002.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "AttackDamage",
+    "ChaosResistance",
+    "ColdResistance",
+    "HpRegenPerSec",
+    "MovementSpeed",
+    "PhysicalDamagePercent",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1270021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Chaos Resistance Enhancement, Cold Resistance, HP Regen Enhancement, Movement Speed, Physical Damage Enhancement",
+        "ja": "攻撃力, カオス耐性強化, 氷冷耐性, 毎秒HP回復強化, 移動速度, 物理ダメージ強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102401,
+          {
+            "ja": "物理ダメージ強化",
+            "en": "Physical Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "物理ダメージ +1800~2500%",
+            "en": "Physical Damage +1800~2500%"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101301,
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101501,
+          {
+            "ja": "カオス耐性強化",
+            "en": "Chaos Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "カオス耐性 +50~55%",
+            "en": "Chaos Resistance +50~55%"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T8 - T8"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "categoryId": "database",
+  "entityId": "CubeRecipeInfoData",
+  "slug": "cube-recipe-info-data",
+  "title": {
+    "ja": "CubeRecipeInfoData",
+    "en": "CubeRecipeInfoData"
+  },
+  "subtitle": {
+    "ja": "8 records",
+    "en": "8 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "CubeRecipeInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "CubeRecipeInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "CubeKey",
+          "100001"
+        ],
+        [
+          "RECIPETYPE",
+          "SYNTHESIS"
+        ],
+        [
+          "Index",
+          "0"
+        ],
+        [
+          "IsDefaultUnlocked",
+          "true"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Synthesis"
+        ],
+        [
+          "CubeKey",
+          "200001"
+        ],
+        [
+          "RECIPETYPE",
+          "ALCHEMY"
+        ],
+        [
+          "Index",
+          "1"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Alchemy"
+        ],
+        [
+          "CubeKey",
+          "300001"
+        ],
+        [
+          "RECIPETYPE",
+          "DECORATION"
+        ],
+        [
+          "Index",
+          "3"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Decoration"
+        ],
+        [
+          "CubeKey",
+          "400001"
+        ],
+        [
+          "RECIPETYPE",
+          "ENGRAVING"
+        ],
+        [
+          "Index",
+          "4"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Engraving"
+        ],
+        [
+          "CubeKey",
+          "500001"
+        ],
+        [
+          "RECIPETYPE",
+          "INSCRIPTION"
+        ],
+        [
+          "Index",
+          "5"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Inscription"
+        ],
+        [
+          "CubeKey",
+          "600001"
+        ],
+        [
+          "RECIPETYPE",
+          "CRAFTING"
+        ],
+        [
+          "Index",
+          "2"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Crafting"
+        ],
+        [
+          "CubeKey",
+          "700001"
+        ],
+        [
+          "RECIPETYPE",
+          "OFFERING"
+        ],
+        [
+          "Index",
+          "7"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Offering"
+        ],
+        [
+          "CubeKey",
+          "900001"
+        ],
+        [
+          "RECIPETYPE",
+          "EXTRACTION"
+        ],
+        [
+          "Index",
+          "6"
+        ],
+        [
+          "TooltipStringKey",
+          "Cube_RecipeTooltip_Extraction"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "CubeRecipeInfoData"
+  }
+}

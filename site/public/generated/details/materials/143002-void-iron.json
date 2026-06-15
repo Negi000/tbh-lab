@@ -1,0 +1,325 @@
+{
+  "categoryId": "materials",
+  "entityId": "143002",
+  "slug": "143002-void-iron",
+  "title": {
+    "ja": "ヴォイドアイアン",
+    "en": "Void Iron"
+  },
+  "subtitle": {
+    "en": "Legendary / Crafting material",
+    "ja": "レジェンダリー / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_143002.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_143002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "143002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv60",
+            "en": "Act Boss Treasure Chest Lv60"
+          },
+          "8.484%",
+          {
+            "ja": "ヘル 1-10",
+            "en": "Hell 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv45",
+            "en": "Act Boss Treasure Chest Lv45"
+          },
+          "6.328%",
+          {
+            "ja": "ナイトメア 2-10",
+            "en": "Nightmare 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv70",
+            "en": "Act Boss Treasure Chest Lv70"
+          },
+          "5.973%",
+          {
+            "ja": "ヘル 3-10",
+            "en": "Hell 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv85",
+            "en": "Act Boss Treasure Chest Lv85"
+          },
+          "4.762%",
+          {
+            "ja": "トーメント 1-10",
+            "en": "Torment 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "4.042%",
+          {
+            "ja": "トーメント 2-10",
+            "en": "Torment 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "4.042%",
+          {
+            "ja": "トーメント 3-10",
+            "en": "Torment 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv65",
+            "en": "Act Boss Treasure Chest Lv65"
+          },
+          "3.783%",
+          {
+            "ja": "ヘル 2-10",
+            "en": "Hell 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv40",
+            "en": "Act Boss Treasure Chest Lv40"
+          },
+          "3.432%",
+          {
+            "ja": "ナイトメア 1-10",
+            "en": "Nightmare 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv50",
+            "en": "Act Boss Treasure Chest Lv50"
+          },
+          "3.384%",
+          {
+            "ja": "ナイトメア 3-10",
+            "en": "Nightmare 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv30",
+            "en": "Act Boss Treasure Chest Lv30"
+          },
+          "3.193%",
+          {
+            "ja": "ノーマル 3-10",
+            "en": "Normal 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "3.097%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "3.097%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "3.097%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "3.097%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "3.097%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "3.097%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "80%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "143002"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_143002"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_143002"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_143002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Void Iron"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Void Iron\", \"ja\": \"ヴォイドアイアン\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A crafting material used to make something.\", \"ja\": \"何かを作るために使う素材。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

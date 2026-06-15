@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "619122",
+  "slug": "619122-diamond-earring",
+  "title": {
+    "ja": "ダイヤモンドイヤリング",
+    "en": "Diamond Earring"
+  },
+  "subtitle": {
+    "en": "Cosmic / Earing / EARING / Lv. 55",
+    "ja": "コズミック / イヤリング / EARING / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610012.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "619122"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "220"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "389"
+        },
+        {
+          "labelKey": "HpLeech / FLAT",
+          "value": "22"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "619122"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610012"
+        ],
+        [
+          "GearKey",
+          "619122"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Diamond Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Diamond Earring\", \"ja\": \"ダイヤモンドイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

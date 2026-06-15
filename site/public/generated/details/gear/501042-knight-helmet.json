@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "501042",
+  "slug": "501042-knight-helmet",
+  "title": {
+    "ja": "ナイトヘルメット",
+    "en": "Knight Helmet"
+  },
+  "subtitle": {
+    "en": "Uncommon / Helmet / HELMET / Lv. 15",
+    "ja": "アンコモン / ヘルメット / HELMET / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500004.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "501042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "26"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "23"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "501042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500004"
+        ],
+        [
+          "GearKey",
+          "501042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Knight Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Knight Helmet\", \"ja\": \"ナイトヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Knight Helmet Description\", \"ja\": \"Knight Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Knight Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Knight Helmet\", \"description\": \"Knight Helmet Description\", \"display_type\": \"Helmet - Lv. 20\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"helmet\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

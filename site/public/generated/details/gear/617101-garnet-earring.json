@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "617101",
+  "slug": "617101-garnet-earring",
+  "title": {
+    "ja": "ガーネットイヤリング",
+    "en": "Garnet Earring"
+  },
+  "subtitle": {
+    "en": "Celestial / Earing / EARING / Lv. 45",
+    "ja": "セレスティアル / イヤリング / EARING / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610010.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "617101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "164"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "284"
+        },
+        {
+          "labelKey": "MovementSpeed / ADDITIVE",
+          "value": "182"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "617101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610010"
+        ],
+        [
+          "GearKey",
+          "617101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Garnet Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Garnet Earring\", \"ja\": \"ガーネットイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

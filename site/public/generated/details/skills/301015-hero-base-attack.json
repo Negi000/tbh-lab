@@ -1,0 +1,111 @@
+{
+  "categoryId": "skills",
+  "entityId": "301015",
+  "slug": "301015-hero-base-attack",
+  "title": {
+    "ja": "Hero 通常攻撃",
+    "en": "Hero Base Attack"
+  },
+  "subtitle": {
+    "en": "Base Attack / Base Attack",
+    "ja": "通常攻撃 / 通常攻撃"
+  },
+  "icon": null,
+  "rarity": "LEGENDARY",
+  "tags": [
+    "BASEATTACK",
+    "BASEATTACK",
+    "Fire"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301015"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "800"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1000"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "301015"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "ActivationValue",
+          "0"
+        ],
+        [
+          "SLOTTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "800"
+        ],
+        [
+          "Order",
+          "999"
+        ],
+        [
+          "DamageType",
+          "Fire"
+        ],
+        [
+          "Value",
+          "1000"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_301015"
+        ],
+        [
+          "SoundKey",
+          "13010111"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "categoryId": "effects",
+  "entityId": "1220041",
+  "slug": "1220041-ancient-tree-sap-effects",
+  "title": {
+    "ja": "古代樹の樹液 効果",
+    "en": "Ancient Tree Sap Effects"
+  },
+  "subtitle": {
+    "en": "Area of Effect Enhancement, Attack Speed, Critical Damage",
+    "ja": "効果範囲強化, 攻撃速度, クリティカルダメージ"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_122004.png",
+  "rarity": "RARE",
+  "tags": [
+    "AreaOfEffect",
+    "AttackSpeed",
+    "CriticalDamage",
+    "DamageReduction",
+    "HpRegenPerSec",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1220041"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Area of Effect Enhancement, Attack Speed, Critical Damage, Damage Reduction Enhancement, HP Regen Enhancement",
+        "ja": "効果範囲強化, 攻撃速度, クリティカルダメージ, ダメージ軽減強化, 毎秒HP回復強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100901,
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          103401,
+          {
+            "ja": "ダメージ軽減強化",
+            "en": "Damage Reduction Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ軽減 +140~160%",
+            "en": "Damage Reduction +140~160%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100201,
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T3 - T3"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

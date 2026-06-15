@@ -1,0 +1,17 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://community.fastly.steamstatic.com data:; connect-src 'self'; frame-ancestors 'none'
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/generated/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/generated/*
+  Cache-Control: public, max-age=3600
+
+/api/*
+  Cache-Control: no-store

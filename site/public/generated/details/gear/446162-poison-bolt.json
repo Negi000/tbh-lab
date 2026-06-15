@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "446162",
+  "slug": "446162-poison-bolt",
+  "title": {
+    "ja": "ポイズンボルト",
+    "en": "Poison Bolt"
+  },
+  "subtitle": {
+    "en": "Beyond / Bolt / Sub Weapon / Lv. 75",
+    "ja": "ビヨンド / クロスボウボルト / サブ武器 / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440016.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "446162"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2055"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "121"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "647"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "56"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "446162"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440016"
+        ],
+        [
+          "GearKey",
+          "446162"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Poison Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Poison Bolt\", \"ja\": \"ポイズンボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

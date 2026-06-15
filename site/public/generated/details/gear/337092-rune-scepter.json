@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "337092",
+  "slug": "337092-rune-scepter",
+  "title": {
+    "ja": "ルーンセプター",
+    "en": "Rune Scepter"
+  },
+  "subtitle": {
+    "en": "Celestial / Scepter / Main Weapon / Lv. 40",
+    "ja": "セレスティアル / セプター / メイン武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330009.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "337092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "377"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "11"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "789"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "103"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "337092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330009"
+        ],
+        [
+          "GearKey",
+          "337092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Rune Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Scepter\", \"ja\": \"ルーンセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

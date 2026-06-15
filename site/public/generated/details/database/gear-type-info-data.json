@@ -1,0 +1,240 @@
+{
+  "categoryId": "database",
+  "entityId": "GearTypeInfoData",
+  "slug": "gear-type-info-data",
+  "title": {
+    "ja": "GearTypeInfoData",
+    "en": "GearTypeInfoData"
+  },
+  "subtitle": {
+    "ja": "16 records",
+    "en": "16 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "GearTypeInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "GearTypeInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "16"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "GearType",
+          "SWORD"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BaseStat2_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat2_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "BOW"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BaseStat2_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat2_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "STAFF"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BaseStat2_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat2_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "SCEPTER"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BaseStat2_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat2_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "CROSSBOW"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BaseStat2_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat2_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "AXE"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BaseStat2_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat2_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "SHIELD"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "BlockChance"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "ARROW"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "GearType",
+          "ORB"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "CooldownReduction"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "TOME"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "MaxHp"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "BOLT"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "CriticalDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "FLAT"
+        ],
+        [
+          "GearType",
+          "HATCHET"
+        ],
+        [
+          "BaseStat1_STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "BaseStat1_MODTYPE",
+          "ADDITIVE"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "GearTypeInfoData"
+  }
+}

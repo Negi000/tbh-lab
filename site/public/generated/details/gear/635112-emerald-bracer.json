@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "635112",
+  "slug": "635112-emerald-bracer",
+  "title": {
+    "ja": "エメラルドブレーサー",
+    "en": "Emerald Bracer"
+  },
+  "subtitle": {
+    "en": "Arcana / Bracer / BRACER / Lv. 50",
+    "ja": "アルカナ / ブレイサー / BRACER / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630011.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "635112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "123"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "79"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "108"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "635112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630011"
+        ],
+        [
+          "GearKey",
+          "635112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Emerald Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Emerald Bracer\", \"ja\": \"エメラルドブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

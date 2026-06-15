@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "535061",
+  "slug": "535061-fate-boots",
+  "title": {
+    "ja": "フェイトブーツ",
+    "en": "Fate Boots"
+  },
+  "subtitle": {
+    "en": "Arcana / Boots / BOOTS / Lv. 25",
+    "ja": "アルカナ / ブーツ / BOOTS / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530006.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "535061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "126"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "52"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "48"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "245"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "535061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530006"
+        ],
+        [
+          "GearKey",
+          "535061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Boots\", \"ja\": \"フェイトブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

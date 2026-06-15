@@ -1,0 +1,325 @@
+{
+  "categoryId": "materials",
+  "entityId": "190003",
+  "slug": "190003-soulstone-hell",
+  "title": {
+    "ja": "ソウルストーン - ヘル",
+    "en": "Soulstone - Hell"
+  },
+  "subtitle": {
+    "en": "Beyond / Soulstone",
+    "ja": "ビヨンド / ソウルストーン"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_190003.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_190003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "190003"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "16.52%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "16.52%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "16.52%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "16.52%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "16.52%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "16.52%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "6.465%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "6.465%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "6.465%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "6.465%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "6.465%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "6.465%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "5.174%",
+          {
+            "ja": "ヘル 1-1",
+            "en": "Hell 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "5.174%",
+          {
+            "ja": "ヘル 1-2",
+            "en": "Hell 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "5.174%",
+          {
+            "ja": "ヘル 1-3",
+            "en": "Hell 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "5.174%",
+          {
+            "ja": "ヘル 1-4",
+            "en": "Hell 1-4"
+          },
+          "100%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "190003"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "NameKey",
+          "ItemName_190003"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_190003"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_190003"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Soulstone - Hell"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Soulstone - Hell\", \"ja\": \"ソウルストーン - ヘル\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Material required to summon Hell difficulty bosses.\", \"ja\": \"ヘル難易度のボス召喚に必要な素材。\"}"
+        ],
+        [
+          "mono_name",
+          "Soulstone - Hell"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Soulstone - Hell\", \"description\": \"Hell 난이도 보스를 소환하는 데 필요한 재료.\", \"display_type\": \"Material\", \"type\": \"material\", \"rarity\": \"immortal\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

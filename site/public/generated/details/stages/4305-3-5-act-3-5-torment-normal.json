@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "4305",
+  "slug": "4305-3-5-act-3-5-torment-normal",
+  "title": {
+    "ja": "3-5 トーメント",
+    "en": "3-5 Act 3-5 TORMENT NORMAL"
+  },
+  "subtitle": {
+    "ja": "トーメント / Lv 93 / Boss Homunculus",
+    "en": "Torment / Lv 93 / Boss Homunculus"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "TORMENT",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "4305"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "TORMENT"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "93"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "31"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Homunculus"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30031,
+          {
+            "ja": "ドラゴンハッチリング",
+            "en": "Dragon Hatchling"
+          },
+          1000,
+          10,
+          5
+        ],
+        [
+          30051,
+          {
+            "ja": "幽霊",
+            "en": "Ghost"
+          },
+          700,
+          15,
+          15
+        ],
+        [
+          30044,
+          {
+            "ja": "雪山の魔法使い",
+            "en": "Snow Mountain Mage"
+          },
+          500,
+          10,
+          5
+        ],
+        [
+          30043,
+          {
+            "ja": "雪山衛兵",
+            "en": "Snow Mountain Guard"
+          },
+          1000,
+          10,
+          5
+        ],
+        [
+          30011,
+          {
+            "ja": "グレムリン",
+            "en": "Gremlin"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          30103,
+          {
+            "ja": "雷電の地獄の神官",
+            "en": "Electric Hell Priest"
+          },
+          1000,
+          30,
+          30
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910801,
+          8
+        ],
+        [
+          "Boss box",
+          920801,
+          80
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "93"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "158225"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "365970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "37910"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "747600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "categoryId": "heroes",
+  "entityId": "501",
+  "slug": "hunter",
+  "title": {
+    "ja": "ハンター",
+    "en": "Hunter"
+  },
+  "subtitle": {
+    "ja": "トラップとクロスボウを使いこなす\n戦術の専門家。",
+    "en": "A tactical expert using traps\nand crossbow."
+  },
+  "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Abalist_Mid_Anim_0.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "Hunter",
+    "CROSSBOW",
+    "BOLT"
+  ],
+  "heroImage": "/generated/assets/game/hero/Arrage_ChaAnim_Abalist_Large_0.png",
+  "overview": [
+    {
+      "labelKey": "field.class",
+      "value": "Hunter"
+    },
+    {
+      "labelKey": "field.mainWeapon",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.subWeapon",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.unlock",
+      "value": "DLC"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.maxHp",
+          "value": "70"
+        },
+        {
+          "labelKey": "field.armor",
+          "value": "15"
+        },
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "70"
+        },
+        {
+          "labelKey": "field.castSpeed",
+          "value": "100%"
+        },
+        {
+          "labelKey": "field.criticalChance",
+          "value": "4.5%"
+        },
+        {
+          "labelKey": "field.criticalDamage",
+          "value": "155%"
+        },
+        {
+          "labelKey": "field.cooldown",
+          "value": "0%"
+        },
+        {
+          "labelKey": "field.moveSpeed",
+          "value": "750"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.skills",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "filter.slot"
+        },
+        {
+          "labelKey": "field.activation"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.range"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.type"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ハンター 通常攻撃",
+            "en": "Hunter Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          0,
+          1000,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "投射物",
+            "en": "Projectile"
+          }
+        ],
+        [
+          {
+            "ja": "エクスプロージョンボルト",
+            "en": "Explosive Bolt"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "通常攻撃回数",
+            "en": "Base Attack Count"
+          },
+          6,
+          1100,
+          {
+            "ja": "火炎",
+            "en": "Fire"
+          },
+          {
+            "ja": "投射物",
+            "en": "Projectile"
+          }
+        ],
+        [
+          {
+            "ja": "フロストボルト",
+            "en": "Frost Bolt"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          8,
+          1100,
+          {
+            "ja": "冷気",
+            "en": "Cold"
+          },
+          {
+            "ja": "投射物",
+            "en": "Projectile"
+          }
+        ],
+        [
+          {
+            "ja": "クイックローダー",
+            "en": "Quick Loader"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          14,
+          1050,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          }
+        ],
+        [
+          {
+            "ja": "チャージトラップ",
+            "en": "Charge Trap"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          5,
+          1150,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "罠",
+            "en": "Trap"
+          }
+        ],
+        [
+          {
+            "ja": "クロスボウタレット",
+            "en": "Crossbow Turret"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          12,
+          1100,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "en": "Projectile, Summon",
+            "ja": "投射物, 召喚"
+          }
+        ],
+        [
+          {
+            "ja": "ショックボルト",
+            "en": "Shock Bolt"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "通常攻撃回数",
+            "en": "Base Attack Count"
+          },
+          11,
+          1100,
+          {
+            "ja": "雷",
+            "en": "Lightning"
+          },
+          {
+            "ja": "投射物",
+            "en": "Projectile"
+          }
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.attributes",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.max"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          501001,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501002,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501003,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501004,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501011,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501012,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501013,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501021,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501022,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501023,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501031,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501032,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501033,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501041,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501042,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501043,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501051,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501052,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501061,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501062,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501071,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          501072,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "HeroInfoData"
+  }
+}

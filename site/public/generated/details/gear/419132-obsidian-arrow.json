@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "419132",
+  "slug": "419132-obsidian-arrow",
+  "title": {
+    "ja": "オブシディアンアロー",
+    "en": "Obsidian Arrow"
+  },
+  "subtitle": {
+    "en": "Cosmic / Arrow / Sub Weapon / Lv. 60",
+    "ja": "コズミック / 矢 / サブ武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410013.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "419132"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "585"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "404"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "159"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "231"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "419132"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410013"
+        ],
+        [
+          "GearKey",
+          "419132"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Obsidian Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Obsidian Arrow\", \"ja\": \"オブシディアンアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

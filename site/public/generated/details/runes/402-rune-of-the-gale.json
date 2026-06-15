@@ -1,0 +1,128 @@
+{
+  "categoryId": "runes",
+  "entityId": "402",
+  "slug": "402-rune-of-the-gale",
+  "title": {
+    "ja": "疾風のルーン",
+    "en": "Rune of the Gale"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 3",
+    "en": "Max Lv 3"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroMoveSpeed.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AllHeroMoveSpeed",
+    "AllHeroMoveSpeed",
+    "max:3"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "402"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "全ヒーロー移動速度",
+        "en": "All Hero Movement Speed"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "盾のルーン",
+            "en": "Rune of the Shield"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "全ヒーロー移動速度30%増加",
+            "en": "30% Increased All Hero Movement Speed"
+          },
+          {
+            "ja": "5000 ゴールド",
+            "en": "5000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "全ヒーロー移動速度30%増加",
+            "en": "30% Increased All Hero Movement Speed"
+          },
+          {
+            "ja": "5500 ゴールド",
+            "en": "5500 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "全ヒーロー移動速度30%増加",
+            "en": "30% Increased All Hero Movement Speed"
+          },
+          {
+            "ja": "6000 ゴールド",
+            "en": "6000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

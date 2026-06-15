@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "332022",
+  "slug": "332022-iron-scepter",
+  "title": {
+    "ja": "アイアンセプター",
+    "en": "Iron Scepter"
+  },
+  "subtitle": {
+    "en": "Rare / Scepter / Main Weapon / Lv. 5",
+    "ja": "レア / セプター / メイン武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330002.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "332022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "5"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "15"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "215"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "332022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330002"
+        ],
+        [
+          "GearKey",
+          "332022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Scepter\", \"ja\": \"アイアンセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1140031",
+  "slug": "1140031-lapis-lazuli-effects",
+  "title": {
+    "ja": "ラピスラズリ 効果",
+    "en": "Lapis Lazuli Effects"
+  },
+  "subtitle": {
+    "en": "Critical Chance, Dodge Chance, Movement Speed",
+    "ja": "クリティカル率, 回避率, 移動速度"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_114003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "CriticalChance",
+    "DodgeChance",
+    "MovementSpeed",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1140031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Critical Chance, Dodge Chance, Movement Speed",
+        "ja": "クリティカル率, 回避率, 移動速度"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T6 - T6"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101601,
+          {
+            "ja": "回避率",
+            "en": "Dodge Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "回避率 +200~300%",
+            "en": "Dodge Chance +200~300%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T5 - T5"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

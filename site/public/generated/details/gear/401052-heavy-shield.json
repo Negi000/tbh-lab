@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "401052",
+  "slug": "401052-heavy-shield",
+  "title": {
+    "ja": "ヘビーシールド",
+    "en": "Heavy Shield"
+  },
+  "subtitle": {
+    "en": "Uncommon / Shield / Sub Weapon / Lv. 20",
+    "ja": "アンコモン / シールド / サブ武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400005.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "74"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "51"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "401052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400005"
+        ],
+        [
+          "GearKey",
+          "401052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Shield\", \"ja\": \"ヘビーシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elden Shield Description\", \"ja\": \"Elden Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elden Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elden Shield\", \"description\": \"Elden Shield Description\", \"display_type\": \"Shield - Lv. 30\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

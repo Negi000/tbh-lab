@@ -1,0 +1,72 @@
+{
+  "categoryId": "database",
+  "entityId": "ItemTypeScaleInfoData",
+  "slug": "item-type-scale-info-data",
+  "title": {
+    "ja": "ItemTypeScaleInfoData",
+    "en": "ItemTypeScaleInfoData"
+  },
+  "subtitle": {
+    "ja": "2 records",
+    "en": "2 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "ItemTypeScaleInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "ItemTypeScaleInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemType",
+          "GEAR"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "ItemType",
+          "MATERIAL"
+        ],
+        [
+          "AlchemyGoldScale",
+          "12000"
+        ],
+        [
+          "CubeExpScale",
+          "12000"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemTypeScaleInfoData"
+  }
+}

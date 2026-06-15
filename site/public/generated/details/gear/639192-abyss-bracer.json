@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "639192",
+  "slug": "639192-abyss-bracer",
+  "title": {
+    "ja": "アビスブレーサー",
+    "en": "Abyss Bracer"
+  },
+  "subtitle": {
+    "en": "Cosmic / Bracer / BRACER / Lv. 90",
+    "ja": "コズミック / ブレイサー / BRACER / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630019.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "639192"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "2000"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "1500"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "639192"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630019"
+        ],
+        [
+          "GearKey",
+          "639192"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Abyss Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Abyss Bracer\", \"ja\": \"アビスブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

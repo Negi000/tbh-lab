@@ -1,0 +1,353 @@
+{
+  "categoryId": "gear",
+  "entityId": "340009",
+  "slug": "340009-elite-crossbow",
+  "title": {
+    "ja": "エリートクロスボウ",
+    "en": "Elite Crossbow"
+  },
+  "subtitle": {
+    "en": "Common / Crossbow / Main Weapon / Lv. 40",
+    "ja": "コモン / クロスボウ / メイン武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340009.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "340009"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "4.081%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "4.081%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "4.081%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "4.081%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "4.081%",
+          {
+            "ja": "ナイトメア 2-4",
+            "en": "Nightmare 2-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "4.081%",
+          {
+            "ja": "ナイトメア 2-5",
+            "en": "Nightmare 2-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "1.092%",
+          {
+            "ja": "ヘル 1-1",
+            "en": "Hell 1-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "1.092%",
+          {
+            "ja": "ヘル 1-2",
+            "en": "Hell 1-2"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "1.092%",
+          {
+            "ja": "ヘル 1-3",
+            "en": "Hell 1-3"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "1.092%",
+          {
+            "ja": "ヘル 1-4",
+            "en": "Hell 1-4"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "1.092%",
+          {
+            "ja": "ヘル 1-5",
+            "en": "Hell 1-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "1.092%",
+          {
+            "ja": "ヘル 1-6",
+            "en": "Hell 1-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.9638%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.9638%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.9638%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.9638%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "64"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "18"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "340009"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340009"
+        ],
+        [
+          "GearKey",
+          "340009"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340009"
+        ],
+        [
+          "display_name",
+          "Elite Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elite Crossbow\", \"ja\": \"エリートクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

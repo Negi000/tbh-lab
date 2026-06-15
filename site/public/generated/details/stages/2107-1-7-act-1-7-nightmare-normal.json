@@ -1,0 +1,175 @@
+{
+  "categoryId": "stages",
+  "entityId": "2107",
+  "slug": "2107-1-7-act-1-7-nightmare-normal",
+  "title": {
+    "ja": "1-7 ナイトメア",
+    "en": "1-7 Act 1-7 NIGHTMARE NORMAL"
+  },
+  "subtitle": {
+    "ja": "ナイトメア / Lv 38 / Boss Plague Rat",
+    "en": "Nightmare / Lv 38 / Boss Plague Rat"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NIGHTMARE",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2107"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NIGHTMARE"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "7"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "38"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "21"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Plague Rat"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10051,
+          {
+            "ja": "スケルトン",
+            "en": "Skeleton"
+          },
+          1000,
+          10,
+          11
+        ],
+        [
+          10052,
+          {
+            "ja": "スケルトンアーチャー",
+            "en": "Skeleton Archer"
+          },
+          700,
+          10,
+          13
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910301,
+          15
+        ],
+        [
+          "Boss box",
+          920301,
+          150
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "38"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "1430"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "46970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "5460"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "98600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1100041",
+  "slug": "1100041-minor-emerald-effects",
+  "title": {
+    "ja": "スモールエメラルド 効果",
+    "en": "Minor Emerald Effects"
+  },
+  "subtitle": {
+    "en": "Attack Speed, Damage Absorption, Movement Speed",
+    "ja": "攻撃速度, ダメージ吸収, 移動速度"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_110004.png",
+  "rarity": "COMMON",
+  "tags": [
+    "AttackSpeed",
+    "DamageAbsorption",
+    "MovementSpeed",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1100041"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Speed, Damage Absorption, Movement Speed",
+        "ja": "攻撃速度, ダメージ吸収, 移動速度"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100201,
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          104001,
+          {
+            "ja": "ダメージ吸収",
+            "en": "Damage Absorption"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ吸収 +60~80",
+            "en": "Damage Absorption +60~80"
+          },
+          "T1 - T1"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T1 - T1"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

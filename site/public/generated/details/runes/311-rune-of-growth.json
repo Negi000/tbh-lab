@@ -1,0 +1,150 @@
+{
+  "categoryId": "runes",
+  "entityId": "311",
+  "slug": "311-rune-of-growth",
+  "title": {
+    "ja": "成長のルーン",
+    "en": "Rune of Growth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalExpStageBoss.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AdditionalExpStageBoss",
+    "AdditionalExpStageBoss",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "311"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ステージボス経験値",
+        "en": "Exp From Stage Boss"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "ステージボス経験値 +1000",
+            "en": "Exp From Stage Boss Kill +1000"
+          },
+          {
+            "ja": "700000 ゴールド",
+            "en": "700000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "ステージボス経験値 +1000",
+            "en": "Exp From Stage Boss Kill +1000"
+          },
+          {
+            "ja": "750000 ゴールド",
+            "en": "750000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "ステージボス経験値 +1000",
+            "en": "Exp From Stage Boss Kill +1000"
+          },
+          {
+            "ja": "850000 ゴールド",
+            "en": "850000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "ステージボス経験値 +1000",
+            "en": "Exp From Stage Boss Kill +1000"
+          },
+          {
+            "ja": "900000 ゴールド",
+            "en": "900000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "ステージボス経験値 +1000",
+            "en": "Exp From Stage Boss Kill +1000"
+          },
+          {
+            "ja": "950000 ゴールド",
+            "en": "950000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

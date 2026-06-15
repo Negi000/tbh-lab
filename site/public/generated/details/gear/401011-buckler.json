@@ -1,0 +1,277 @@
+{
+  "categoryId": "gear",
+  "entityId": "401011",
+  "slug": "401011-buckler",
+  "title": {
+    "ja": "バックラー",
+    "en": "Buckler"
+  },
+  "subtitle": {
+    "en": "Uncommon / Shield / Sub Weapon / Lv. 1",
+    "ja": "アンコモン / シールド / サブ武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "2.264%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "2.264%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "2.264%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "1.029%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "1.029%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 1",
+            "en": "Common Treasure Chest 1"
+          },
+          "1.029%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "16%"
+        ],
+        [
+          {
+            "ja": "DropKey 3601002",
+            "en": "DropKey 3601002"
+          },
+          "11.11%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3111011",
+            "en": "DropKey 3111011"
+          },
+          "5.265%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.07292%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "58"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "401011"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400001"
+        ],
+        [
+          "GearKey",
+          "401011"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400001"
+        ],
+        [
+          "display_name",
+          "Buckler"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Buckler\", \"ja\": \"バックラー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Shield Description\", \"ja\": \"Wooden Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Shield\", \"description\": \"Wooden Shield Description\", \"display_type\": \"Shield - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

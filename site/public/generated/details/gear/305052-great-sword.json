@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "305052",
+  "slug": "305052-great-sword",
+  "title": {
+    "ja": "グレートソード",
+    "en": "Great Sword"
+  },
+  "subtitle": {
+    "en": "Arcana / Sword / Main Weapon / Lv. 20",
+    "ja": "アルカナ / ソード / メイン武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300005.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "305052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "66"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "37"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "100"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "334"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "305052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300005"
+        ],
+        [
+          "GearKey",
+          "305052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Great Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Great Sword\", \"ja\": \"グレートソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

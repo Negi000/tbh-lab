@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "3306",
+  "slug": "3306-3-6-act-3-6-hell-normal",
+  "title": {
+    "ja": "3-6 ヘル",
+    "en": "3-6 Act 3-6 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 75 / Boss Ghoul",
+    "en": "Hell / Lv 75 / Boss Ghoul"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3306"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "75"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "27"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Ghoul"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30061,
+          {
+            "ja": "溶岩の化身",
+            "en": "Lava Being"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          30081,
+          {
+            "ja": "デーモン兵",
+            "en": "Demon Soldier"
+          },
+          700,
+          10,
+          11
+        ],
+        [
+          30082,
+          {
+            "ja": "デーモン軍団長",
+            "en": "Demon Legion Commander"
+          },
+          500,
+          10,
+          13
+        ],
+        [
+          30084,
+          {
+            "ja": "燃える子豚",
+            "en": "Burning Piglet"
+          },
+          300,
+          30,
+          30
+        ],
+        [
+          30091,
+          {
+            "ja": "地獄のゴーレム",
+            "en": "Hell Golem"
+          },
+          1000,
+          30,
+          30
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "75"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "18085"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "228270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "23960"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "468600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

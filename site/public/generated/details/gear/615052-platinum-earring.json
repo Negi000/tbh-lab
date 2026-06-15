@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "615052",
+  "slug": "615052-platinum-earring",
+  "title": {
+    "ja": "プラチナイヤリング",
+    "en": "Platinum Earring"
+  },
+  "subtitle": {
+    "en": "Arcana / Earing / EARING / Lv. 20",
+    "ja": "アルカナ / イヤリング / EARING / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610005.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "615052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / ADDITIVE",
+          "value": "148"
+        },
+        {
+          "labelKey": "HpLeech / FLAT",
+          "value": "7"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "27"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "615052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610005"
+        ],
+        [
+          "GearKey",
+          "615052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Platinum Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Platinum Earring\", \"ja\": \"プラチナイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

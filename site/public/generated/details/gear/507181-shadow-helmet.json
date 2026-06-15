@@ -1,0 +1,190 @@
+{
+  "categoryId": "gear",
+  "entityId": "507181",
+  "slug": "507181-shadow-helmet",
+  "title": {
+    "ja": "シャドウヘルメット",
+    "en": "Shadow Helmet"
+  },
+  "subtitle": {
+    "en": "Celestial / Helmet / HELMET / Lv. 85",
+    "ja": "セレスティアル / ヘルメット / HELMET / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500018.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "507181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "5099"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "267"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "2506"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "72"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "30003"
+        ],
+        [
+          "UniqueMod",
+          "SnowstormEnhanceFrozenEnemy"
+        ],
+        [
+          "Param1ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param1",
+          "2000"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "507181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500018"
+        ],
+        [
+          "GearKey",
+          "507181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Helmet\", \"ja\": \"シャドウヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

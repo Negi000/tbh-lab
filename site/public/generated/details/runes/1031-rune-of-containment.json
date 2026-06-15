@@ -1,0 +1,106 @@
+{
+  "categoryId": "runes",
+  "entityId": "1031",
+  "slug": "1031-rune-of-containment",
+  "title": {
+    "ja": "収納のルーン",
+    "en": "Rune of Containment"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/MaxAmountNormalChest.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "MaxAmountNormalChest",
+    "MaxAmountNormalChest",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1031"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "通常宝箱最大保管",
+        "en": "Common Chest Max Capacity"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "金庫のルーン",
+            "en": "Rune of the Vault"
+          },
+          1
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "通常宝箱最大保管 +1",
+            "en": "Common Chest Max Capacity +1"
+          },
+          {
+            "ja": "20000 ゴールド",
+            "en": "20000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

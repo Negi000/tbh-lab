@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "531171",
+  "slug": "531171-dimensional-boots",
+  "title": {
+    "ja": "次元のブーツ",
+    "en": "Dimensional Boots"
+  },
+  "subtitle": {
+    "en": "Uncommon / Boots / BOOTS / Lv. 80",
+    "ja": "アンコモン / ブーツ / BOOTS / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530017.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "531171"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "9.304%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "9.304%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "9.304%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "9.304%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "9.304%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "9.304%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "6.896%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "6.896%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "6.896%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "6.896%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "6.896%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv80",
+            "en": "Common Treasure Chest Lv80"
+          },
+          "6.896%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "8%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv85",
+            "en": "Act Boss Treasure Chest Lv85"
+          },
+          "0%",
+          {
+            "ja": "トーメント 1-10",
+            "en": "Torment 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "0%",
+          {
+            "ja": "トーメント 2-10",
+            "en": "Torment 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "0%",
+          {
+            "ja": "トーメント 3-10",
+            "en": "Torment 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv85",
+            "en": "Stage Treasure Chest Lv85"
+          },
+          "9.304%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "447"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "287"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "531171"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530017"
+        ],
+        [
+          "GearKey",
+          "531171"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530017"
+        ],
+        [
+          "display_name",
+          "Dimensional Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Boots\", \"ja\": \"次元のブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

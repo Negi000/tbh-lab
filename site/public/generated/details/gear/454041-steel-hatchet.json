@@ -1,0 +1,365 @@
+{
+  "categoryId": "gear",
+  "entityId": "454041",
+  "slug": "454041-steel-hatchet",
+  "title": {
+    "ja": "スチールハチェット",
+    "en": "Steel Hatchet"
+  },
+  "subtitle": {
+    "en": "Immortal / Hatchet / Sub Weapon / Lv. 15",
+    "ja": "イモータル / 手斧 / サブ武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HATCHET_450004.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "HATCHET",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HATCHET_450004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "454041"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv20",
+            "en": "Act Boss Treasure Chest Lv20"
+          },
+          "0.01409%",
+          {
+            "ja": "ノーマル 2-10",
+            "en": "Normal 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.005994%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.005994%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.005994%",
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.005994%",
+          {
+            "ja": "ノーマル 2-6",
+            "en": "Normal 2-6"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.005994%",
+          {
+            "ja": "ノーマル 2-7",
+            "en": "Normal 2-7"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.004036%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.004036%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.004036%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.004036%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.004036%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.004036%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "0.001313%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "0.001313%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "0.001313%",
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "0.001313%",
+          {
+            "ja": "ノーマル 2-6",
+            "en": "Normal 2-6"
+          },
+          "25%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "436"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "4"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "154"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "454041"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "HATCHET"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_450004"
+        ],
+        [
+          "GearKey",
+          "454041"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HATCHET_450004"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Steel Hatchet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Steel Hatchet\", \"ja\": \"スチールハチェット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

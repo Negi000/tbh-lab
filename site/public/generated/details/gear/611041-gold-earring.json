@@ -1,0 +1,217 @@
+{
+  "categoryId": "gear",
+  "entityId": "611041",
+  "slug": "611041-gold-earring",
+  "title": {
+    "ja": "ゴールドイヤリング",
+    "en": "Gold Earring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Earing / EARING / Lv. 15",
+    "ja": "アンコモン / イヤリング / EARING / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610004.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "611041"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3122041",
+            "en": "DropKey 3122041"
+          },
+          "3.448%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3602007",
+            "en": "DropKey 3602007"
+          },
+          "3.03%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.01146%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.009583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / ADDITIVE",
+          "value": "141"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "611041"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610004"
+        ],
+        [
+          "GearKey",
+          "611041"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610004"
+        ],
+        [
+          "display_name",
+          "Gold Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Gold Earring\", \"ja\": \"ゴールドイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron earing Description\", \"ja\": \"Iron earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron earing\", \"description\": \"Iron earing Description\", \"display_type\": \"Earring - Lv. 20\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"earring\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

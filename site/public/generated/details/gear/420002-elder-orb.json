@@ -1,0 +1,273 @@
+{
+  "categoryId": "gear",
+  "entityId": "420002",
+  "slug": "420002-elder-orb",
+  "title": {
+    "ja": "エルダーオーブ",
+    "en": "Elder Orb"
+  },
+  "subtitle": {
+    "en": "Common / Orb / Sub Weapon / Lv. 5",
+    "ja": "コモン / オーブ / サブ武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420002.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "420002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "3.481%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "3.481%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "3.481%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "3.481%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "1.929%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "1.929%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "1.929%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "1.929%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.02431%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "80"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "420002"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420002"
+        ],
+        [
+          "GearKey",
+          "420002"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420002"
+        ],
+        [
+          "display_name",
+          "Elder Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elder Orb\", \"ja\": \"エルダーオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elder Spellbook Description\", \"ja\": \"Elder Spellbook Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elder Spellbook"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elder Spellbook\", \"description\": \"Elder Spellbook Description\", \"display_type\": \"Spellbook - Lv. 5\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"subweapon\", \"class\": \"priest\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

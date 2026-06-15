@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "520012",
+  "slug": "520012-great-gloves",
+  "title": {
+    "ja": "グレートグローブ",
+    "en": "Great Gloves"
+  },
+  "subtitle": {
+    "en": "Common / Gloves / GLOVES / Lv. 55",
+    "ja": "コモン / グローブ / GLOVES / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520012.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "520012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "159"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "520012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520012"
+        ],
+        [
+          "GearKey",
+          "520012"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Great Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Great Gloves\", \"ja\": \"グレートグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Empire Gloves Description\", \"ja\": \"Empire Gloves Description\"}"
+        ],
+        [
+          "mono_name",
+          "Empire Gloves"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Empire Gloves\", \"description\": \"Empire Gloves Description\", \"display_type\": \"Gloves - Lv. 100\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"gloves\", \"level\": \"100\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

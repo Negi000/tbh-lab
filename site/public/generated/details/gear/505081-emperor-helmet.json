@@ -1,0 +1,198 @@
+{
+  "categoryId": "gear",
+  "entityId": "505081",
+  "slug": "505081-emperor-helmet",
+  "title": {
+    "ja": "皇帝のヘルメット",
+    "en": "Emperor Helmet"
+  },
+  "subtitle": {
+    "en": "Arcana / Helmet / HELMET / Lv. 35",
+    "ja": "アルカナ / ヘルメット / HELMET / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500008.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "505081"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "351"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "67"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "242"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "549"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "30001"
+        ],
+        [
+          "UniqueMod",
+          "FlameHydraBerserk"
+        ],
+        [
+          "Param1ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param1",
+          "2000"
+        ],
+        [
+          "Param2ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param2",
+          "300"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "505081"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500008"
+        ],
+        [
+          "GearKey",
+          "505081"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Emperor Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Emperor Helmet\", \"ja\": \"皇帝のヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

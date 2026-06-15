@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "348181",
+  "slug": "348181-shadow-crossbow",
+  "title": {
+    "ja": "シャドウクロスボウ",
+    "en": "Shadow Crossbow"
+  },
+  "subtitle": {
+    "en": "Divine / Crossbow / Main Weapon / Lv. 85",
+    "ja": "ディバイン / クロスボウ / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340018.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "348181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "3322"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "36"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "50"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1500"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "348181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340018"
+        ],
+        [
+          "GearKey",
+          "348181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Crossbow\", \"ja\": \"シャドウクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

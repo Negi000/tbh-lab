@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "1304",
+  "slug": "1304-3-4-act-3-4-normal-normal",
+  "title": {
+    "ja": "3-4 ノーマル",
+    "en": "3-4 Act 3-4 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 26 / Boss Venom Insect",
+    "en": "Normal / Lv 26 / Boss Venom Insect"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1304"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "4"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "26"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "17"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Venom Insect"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30041,
+          {
+            "ja": "雪山戦士",
+            "en": "Snow Mountain Warrior"
+          },
+          1000,
+          10,
+          5
+        ],
+        [
+          30042,
+          {
+            "ja": "雪山の弓兵",
+            "en": "Snow Mountain Archer"
+          },
+          700,
+          10,
+          5
+        ],
+        [
+          30021,
+          {
+            "ja": "イエティ",
+            "en": "Yeti"
+          },
+          400,
+          20,
+          20
+        ],
+        [
+          30051,
+          {
+            "ja": "幽霊",
+            "en": "Ghost"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          30043,
+          {
+            "ja": "雪山衛兵",
+            "en": "Snow Mountain Guard"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910201,
+          20
+        ],
+        [
+          "Boss box",
+          920201,
+          200
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "26"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "890"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "17570"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "2400"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "37400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

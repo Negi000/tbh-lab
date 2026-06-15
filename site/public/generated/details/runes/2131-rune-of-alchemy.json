@@ -1,0 +1,116 @@
+{
+  "categoryId": "runes",
+  "entityId": "2131",
+  "slug": "2131-rune-of-alchemy",
+  "title": {
+    "ja": "錬金のルーン",
+    "en": "Rune of Alchemy"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 3",
+    "en": "Max Lv 3"
+  },
+  "icon": null,
+  "rarity": "ARCANA",
+  "tags": [
+    "CubeAlchemyGoldPercent",
+    "CubeAlchemyGoldPercent",
+    "max:3"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2131"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "キューブ錬金術ゴールド",
+        "en": "Gold From Cube Alchemy"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "キューブ錬金術ゴールド100%増加",
+            "en": "100% Increased Gold From Cube Alchemy"
+          },
+          {
+            "ja": "5000000 ゴールド",
+            "en": "5000000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "キューブ錬金術ゴールド100%増加",
+            "en": "100% Increased Gold From Cube Alchemy"
+          },
+          {
+            "ja": "7000000 ゴールド",
+            "en": "7000000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "キューブ錬金術ゴールド100%増加",
+            "en": "100% Increased Gold From Cube Alchemy"
+          },
+          {
+            "ja": "10000000 ゴールド",
+            "en": "10000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

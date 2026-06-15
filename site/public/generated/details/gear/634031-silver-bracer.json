@@ -1,0 +1,225 @@
+{
+  "categoryId": "gear",
+  "entityId": "634031",
+  "slug": "634031-silver-bracer",
+  "title": {
+    "ja": "シルバーブレイサー",
+    "en": "Silver Bracer"
+  },
+  "subtitle": {
+    "en": "Immortal / Bracer / BRACER / Lv. 10",
+    "ja": "イモータル / ブレイサー / BRACER / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "634031"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3121034",
+            "en": "DropKey 3121034"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3602007",
+            "en": "DropKey 3602007"
+          },
+          "0.4546%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601007",
+            "en": "DropKey 3601007"
+          },
+          "0.202%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.005754%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "94"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "44"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "634031"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630003"
+        ],
+        [
+          "GearKey",
+          "634031"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630003"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Silver Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Silver Bracer\", \"ja\": \"シルバーブレイサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Platinum bracer Description\", \"ja\": \"Platinum bracer Description\"}"
+        ],
+        [
+          "mono_name",
+          "Platinum bracer"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Platinum bracer\", \"description\": \"Platinum bracer Description\", \"display_type\": \"Bracer - Lv. 10\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"bracer\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

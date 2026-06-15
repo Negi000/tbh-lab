@@ -1,0 +1,345 @@
+{
+  "categoryId": "gear",
+  "entityId": "510003",
+  "slug": "510003-iron-plate",
+  "title": {
+    "ja": "アイアンプレート",
+    "en": "Iron Plate"
+  },
+  "subtitle": {
+    "en": "Common / Armor / ARMOR / Lv. 10",
+    "ja": "コモン / アーマー / ARMOR / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510003.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "510003"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "28.65%",
+          {
+            "ja": "ノーマル 1-8",
+            "en": "Normal 1-8"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "28.65%",
+          {
+            "ja": "ノーマル 1-9",
+            "en": "Normal 1-9"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "28.65%",
+          {
+            "ja": "ノーマル 2-1",
+            "en": "Normal 2-1"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "28.65%",
+          {
+            "ja": "ノーマル 2-2",
+            "en": "Normal 2-2"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "8.988%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "8.988%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "8.988%",
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "8.988%",
+          {
+            "ja": "ノーマル 2-6",
+            "en": "Normal 2-6"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "8.988%",
+          {
+            "ja": "ノーマル 2-7",
+            "en": "Normal 2-7"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "2.409%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "2.409%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "2.409%",
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "2.409%",
+          {
+            "ja": "ノーマル 2-6",
+            "en": "Normal 2-6"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "2.409%",
+          {
+            "ja": "ノーマル 2-7",
+            "en": "Normal 2-7"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.09723%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "25"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "510003"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510003"
+        ],
+        [
+          "GearKey",
+          "510003"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510003"
+        ],
+        [
+          "display_name",
+          "Iron Plate"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Plate\", \"ja\": \"アイアンプレート\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron Armor Description\", \"ja\": \"Iron Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron Armor\", \"description\": \"Iron Armor Description\", \"display_type\": \"Armor - Lv. 10\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"armor\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

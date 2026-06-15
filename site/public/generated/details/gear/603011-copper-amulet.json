@@ -1,0 +1,213 @@
+{
+  "categoryId": "gear",
+  "entityId": "603011",
+  "slug": "603011-copper-amulet",
+  "title": {
+    "ja": "コッパーアミュレット",
+    "en": "Copper Amulet"
+  },
+  "subtitle": {
+    "en": "Legendary / Amulet / AMULET / Lv. 1",
+    "ja": "レジェンダリー / アミュレット / AMULET / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "603011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3121013",
+            "en": "DropKey 3121013"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601007",
+            "en": "DropKey 3601007"
+          },
+          "0.404%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.009583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "30"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "154"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "603011"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600001"
+        ],
+        [
+          "GearKey",
+          "603011"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Copper Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Copper Amulet\", \"ja\": \"コッパーアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Ruby amulet Description\", \"ja\": \"Ruby amulet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Ruby amulet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Ruby amulet\", \"description\": \"Ruby amulet Description\", \"display_type\": \"Amulet - Lv. 1\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"amulet\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

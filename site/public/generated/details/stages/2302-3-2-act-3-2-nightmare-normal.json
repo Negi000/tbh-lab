@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "2302",
+  "slug": "2302-3-2-act-3-2-nightmare-normal",
+  "title": {
+    "ja": "3-2 ナイトメア",
+    "en": "3-2 Act 3-2 NIGHTMARE NORMAL"
+  },
+  "subtitle": {
+    "ja": "ナイトメア / Lv 47 / Boss Ratfolk Warrior",
+    "en": "Nightmare / Lv 47 / Boss Ratfolk Warrior"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NIGHTMARE",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2302"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NIGHTMARE"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "47"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Ratfolk Warrior"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30011,
+          {
+            "ja": "グレムリン",
+            "en": "Gremlin"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          30012,
+          {
+            "ja": "ジオニド",
+            "en": "Geonid"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          30013,
+          {
+            "ja": "堕天使の兜",
+            "en": "Fallen Angel's Helm"
+          },
+          500,
+          15,
+          15
+        ],
+        [
+          30041,
+          {
+            "ja": "雪山戦士",
+            "en": "Snow Mountain Warrior"
+          },
+          1000,
+          10,
+          5
+        ],
+        [
+          30021,
+          {
+            "ja": "イエティ",
+            "en": "Yeti"
+          },
+          1000,
+          20,
+          20
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910401,
+          15
+        ],
+        [
+          "Boss box",
+          920401,
+          150
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "47"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "2510"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "78470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "8700"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "163400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

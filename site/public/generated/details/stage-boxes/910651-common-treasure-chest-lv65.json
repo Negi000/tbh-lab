@@ -1,0 +1,537 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "910651",
+  "slug": "910651-common-treasure-chest-lv65",
+  "title": {
+    "ja": "一般宝箱 Lv65",
+    "en": "Common Treasure Chest Lv65"
+  },
+  "subtitle": {
+    "en": "Common / Stage Box",
+    "ja": "コモン / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_910011.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_910011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "910651"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 65레벨",
+          693714,
+          16.842702
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON MAIN_WEAPON lv65",
+          173399,
+          4.209959
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON MAIN_WEAPON lv65",
+          173399,
+          4.209959
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 65레벨",
+          104063,
+          2.526549
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON SUB_WEAPON lv65",
+          26045,
+          0.632347
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON SUB_WEAPON lv65",
+          26045,
+          0.632347
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 65레벨",
+          832504,
+          20.212388
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 65레벨",
+          251525,
+          6.106783
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 65레벨",
+          62907,
+          1.527321
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 65레벨",
+          62907,
+          1.527321
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 65레벨",
+          37683,
+          0.914907
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 65레벨",
+          9395,
+          0.228101
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 65레벨",
+          9395,
+          0.228101
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 65레벨",
+          301768,
+          7.326634
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 65레벨",
+          159418,
+          3.870514
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 65레벨",
+          39855,
+          0.967641
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 65레벨",
+          39855,
+          0.967641
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 65레벨",
+          23953,
+          0.581556
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 65레벨",
+          6014,
+          0.146014
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 65레벨",
+          6014,
+          0.146014
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 65레벨",
+          191322,
+          4.645112
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 65레벨",
+          43911,
+          1.066116
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 65레벨",
+          10992,
+          0.266875
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 65레벨",
+          10992,
+          0.266875
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 65레벨",
+          6595,
+          0.16012
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 65레벨",
+          1620,
+          0.039332
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 65레벨",
+          1620,
+          0.039332
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 65레벨",
+          52647,
+          1.278218
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 65레벨",
+          7713,
+          0.187264
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 65레벨",
+          1928,
+          0.04681
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 65레벨",
+          1928,
+          0.04681
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 65레벨",
+          1157,
+          0.028091
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 65레벨",
+          286,
+          0.006944
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 65레벨",
+          286,
+          0.006944
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 65레벨",
+          9255,
+          0.224702
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 65레벨",
+          857,
+          0.020807
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 65레벨",
+          214,
+          0.005196
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 주무기 65레벨",
+          214,
+          0.005196
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 보조무기 65레벨",
+          128,
+          0.003108
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 보조무기 65레벨",
+          32,
+          0.000777
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 보조무기 65레벨",
+          32,
+          0.000777
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 방어구 65레벨",
+          1029,
+          0.024983
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 주무기 65레벨",
+          14,
+          0.00034
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 비욘드 주무기 65레벨",
+          4,
+          9.7e-05
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 비욘드 주무기 65레벨",
+          4,
+          9.7e-05
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 보조무기 65레벨",
+          4,
+          9.7e-05
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 방어구 65레벨",
+          18,
+          0.000437
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          90482,
+          2.196815
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Crafting",
+          123385,
+          2.995668
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Crafting",
+          82256,
+          1.997096
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Crafting",
+          28790,
+          0.698993
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          88024,
+          2.137137
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Decoration",
+          120033,
+          2.914285
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Decoration",
+          80022,
+          1.942856
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Decoration",
+          28008,
+          0.680007
+        ],
+        [
+          "ITEM",
+          "Kingdom 1st Anniversary Coin",
+          1472,
+          0.035739
+        ],
+        [
+          "ITEM",
+          "Empire 1st Anniversary Coin",
+          588,
+          0.014276
+        ],
+        [
+          "ITEM",
+          "Kingdom 10th Anniversary Coin",
+          441,
+          0.010707
+        ],
+        [
+          "ITEM",
+          "Scroll of Common Inscription",
+          1478,
+          0.035884
+        ],
+        [
+          "ITEM",
+          "Scroll of Uncommon Inscription",
+          614,
+          0.014907
+        ],
+        [
+          "ITEM",
+          "Scroll of Rare Inscription",
+          392,
+          0.009517
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Engraving",
+          21606,
+          0.524573
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Engraving",
+          30408,
+          0.738277
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Engraving",
+          20006,
+          0.485726
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Engraving",
+          7202,
+          0.174858
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop IMMORTAL Crafting",
+          4113,
+          0.09986
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop IMMORTAL Decoration",
+          4001,
+          0.09714
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop IMMORTAL Engraving",
+          800,
+          0.019423
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "910651"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "NameKey",
+          "Normal Monster Box Lv65"
+        ],
+        [
+          "DropKey",
+          "9106511"
+        ],
+        [
+          "DropCooldown",
+          "2"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_910011"
+        ],
+        [
+          "display_name",
+          "Normal Monster Box Lv65"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Common Treasure Chest Lv65\", \"ja\": \"一般宝箱 Lv65\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

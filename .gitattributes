@@ -1,0 +1,3 @@
+site/public/generated/**/*.json linguist-generated=true
+site/public/generated/assets/** linguist-generated=true
+output/** linguist-generated=true

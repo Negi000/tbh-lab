@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "421141",
+  "slug": "421141-ancient-orb",
+  "title": {
+    "ja": "エンシェントオーブ",
+    "en": "Ancient Orb"
+  },
+  "subtitle": {
+    "en": "Uncommon / Orb / Sub Weapon / Lv. 65",
+    "ja": "アンコモン / オーブ / サブ武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420014.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "421141"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "1.416%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "1.416%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "1.416%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "1.416%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "1.416%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "1.416%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.9149%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.9149%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.9149%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.9149%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.9149%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.9149%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv65",
+            "en": "Act Boss Treasure Chest Lv65"
+          },
+          "0%",
+          {
+            "ja": "ヘル 2-10",
+            "en": "Hell 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv70",
+            "en": "Act Boss Treasure Chest Lv70"
+          },
+          "0%",
+          {
+            "ja": "ヘル 3-10",
+            "en": "Hell 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv70",
+            "en": "Stage Treasure Chest Lv70"
+          },
+          "1.416%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv75",
+            "en": "Stage Treasure Chest Lv75"
+          },
+          "1.416%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "205"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "175"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "421141"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420014"
+        ],
+        [
+          "GearKey",
+          "421141"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420014"
+        ],
+        [
+          "display_name",
+          "Ancient Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Orb\", \"ja\": \"エンシェントオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

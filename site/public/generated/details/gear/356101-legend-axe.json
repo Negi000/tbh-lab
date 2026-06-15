@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "356101",
+  "slug": "356101-legend-axe",
+  "title": {
+    "ja": "レジェンドアックス",
+    "en": "Legend Axe"
+  },
+  "subtitle": {
+    "en": "Beyond / Axe / Main Weapon / Lv. 45",
+    "ja": "ビヨンド / 斧 / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350010.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "356101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "523"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "96"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "19"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "164"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "356101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350010"
+        ],
+        [
+          "GearKey",
+          "356101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Legend Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Legend Axe\", \"ja\": \"レジェンドアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

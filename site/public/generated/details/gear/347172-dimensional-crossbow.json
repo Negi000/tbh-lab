@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "347172",
+  "slug": "347172-dimensional-crossbow",
+  "title": {
+    "ja": "次元のクロスボウ",
+    "en": "Dimensional Crossbow"
+  },
+  "subtitle": {
+    "en": "Celestial / Crossbow / Main Weapon / Lv. 80",
+    "ja": "セレスティアル / クロスボウ / メイン武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340017.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "347172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2230"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "107"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1661"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "299"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "347172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340017"
+        ],
+        [
+          "GearKey",
+          "347172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dimensional Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dimensional Crossbow\", \"ja\": \"次元のクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

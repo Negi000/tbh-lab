@@ -1,0 +1,130 @@
+{
+  "categoryId": "pets",
+  "entityId": "1004",
+  "slug": "1004-blue-golem",
+  "title": {
+    "ja": "ブルー\nゴーレム",
+    "en": "Blue Golem"
+  },
+  "subtitle": {
+    "ja": "KillMonster 地獄のゴーレム",
+    "en": "KillMonster Hell Golem"
+  },
+  "icon": "/generated/assets/game/ui/BG_Pet.png",
+  "rarity": "RARE",
+  "tags": [
+    "KillMonster"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1004"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "KillMonster"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "5000"
+    },
+    {
+      "labelKey": "field.name",
+      "value": {
+        "ja": "地獄のゴーレム",
+        "en": "Hell Golem"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetStatKey",
+          "1004"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceNormalChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.farmStages",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.spawn"
+        },
+        {
+          "labelKey": "field.stageLevel"
+        },
+        {
+          "labelKey": "field.wave"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ノーマル 3-6",
+            "en": "Normal 3-6"
+          },
+          "33.33%",
+          28,
+          17
+        ],
+        [
+          {
+            "ja": "ヘル 3-6",
+            "en": "Hell 3-6"
+          },
+          "28.57%",
+          75,
+          27
+        ],
+        [
+          {
+            "ja": "ナイトメア 3-6",
+            "en": "Nightmare 3-6"
+          },
+          "26.32%",
+          50,
+          23
+        ],
+        [
+          {
+            "ja": "トーメント 3-6",
+            "en": "Torment 3-6"
+          },
+          "22.22%",
+          93,
+          31
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetInfoData"
+  }
+}

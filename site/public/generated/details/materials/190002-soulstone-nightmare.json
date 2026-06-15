@@ -1,0 +1,325 @@
+{
+  "categoryId": "materials",
+  "entityId": "190002",
+  "slug": "190002-soulstone-nightmare",
+  "title": {
+    "ja": "ソウルストーン - ナイトメア",
+    "en": "Soulstone - Nightmare"
+  },
+  "subtitle": {
+    "en": "Arcana / Soulstone",
+    "ja": "アルカナ / ソウルストーン"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_190002.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_190002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "190002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "13.53%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "13.53%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "13.53%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "13.53%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "13.53%",
+          {
+            "ja": "ナイトメア 2-4",
+            "en": "Nightmare 2-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "13.53%",
+          {
+            "ja": "ナイトメア 2-5",
+            "en": "Nightmare 2-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "6.899%",
+          {
+            "ja": "ヘル 1-1",
+            "en": "Hell 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "6.899%",
+          {
+            "ja": "ヘル 1-2",
+            "en": "Hell 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "6.899%",
+          {
+            "ja": "ヘル 1-3",
+            "en": "Hell 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "6.899%",
+          {
+            "ja": "ヘル 1-4",
+            "en": "Hell 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "6.899%",
+          {
+            "ja": "ヘル 1-5",
+            "en": "Hell 1-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "6.899%",
+          {
+            "ja": "ヘル 1-6",
+            "en": "Hell 1-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "5.181%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "5.181%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "5.181%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "5.181%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "190002"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "NameKey",
+          "ItemName_190002"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_190002"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_190002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Soulstone - Nightmare"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Soulstone - Nightmare\", \"ja\": \"ソウルストーン - ナイトメア\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Material required to summon Nightmare difficulty bosses.\", \"ja\": \"ナイトメア難易度のボス召喚に必要な素材。\"}"
+        ],
+        [
+          "mono_name",
+          "Soulstone - Nightmare"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Soulstone - Nightmare\", \"description\": \"Nightmare 난이도 보스를 소환하는 데 필요한 재료.\", \"display_type\": \"Material\", \"type\": \"material\", \"rarity\": \"immortal\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

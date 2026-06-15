@@ -1,0 +1,123 @@
+{
+  "categoryId": "skills",
+  "entityId": "109011",
+  "slug": "109011-hero-base-attack",
+  "title": {
+    "ja": "Hero 通常攻撃",
+    "en": "Hero Base Attack"
+  },
+  "subtitle": {
+    "en": "Base Attack / Base Attack",
+    "ja": "通常攻撃 / 通常攻撃"
+  },
+  "icon": null,
+  "rarity": "LEGENDARY",
+  "tags": [
+    "BASEATTACK",
+    "BASEATTACK",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "109011"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "300"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1000"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "109011"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "ActivationValue",
+          "0"
+        ],
+        [
+          "SLOTTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "750"
+        ],
+        [
+          "Param2",
+          "250"
+        ],
+        [
+          "Range",
+          "300"
+        ],
+        [
+          "Order",
+          "999"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "Value",
+          "1000"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_109011"
+        ],
+        [
+          "AnimClipPath2",
+          "Animation/Skill/Skill_109011_2"
+        ],
+        [
+          "SoundKey",
+          "11090111"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

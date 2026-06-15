@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "314072",
+  "slug": "314072-dusk-bow",
+  "title": {
+    "ja": "ダスクボウ",
+    "en": "Dusk Bow"
+  },
+  "subtitle": {
+    "en": "Immortal / Bow / Main Weapon / Lv. 30",
+    "ja": "イモータル / 弓 / メイン武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310007.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "314072"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "92"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "50"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "10"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "426"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "314072"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310007"
+        ],
+        [
+          "GearKey",
+          "314072"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310007"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dusk Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dusk Bow\", \"ja\": \"ダスクボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

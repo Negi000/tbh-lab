@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "502062",
+  "slug": "502062-medium-helmet",
+  "title": {
+    "ja": "ミディアムヘルメット",
+    "en": "Medium Helmet"
+  },
+  "subtitle": {
+    "en": "Rare / Helmet / HELMET / Lv. 25",
+    "ja": "レア / ヘルメット / HELMET / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500006.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "502062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "68"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "161"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "502062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500006"
+        ],
+        [
+          "GearKey",
+          "502062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Medium Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Medium Helmet\", \"ja\": \"ミディアムヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Helmet Description\", \"ja\": \"Heavy Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Helmet\", \"description\": \"Heavy Helmet Description\", \"display_type\": \"Helmet - Lv. 50\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"helmet\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "312052",
+  "slug": "312052-war-bow",
+  "title": {
+    "ja": "ウォーボウ",
+    "en": "War Bow"
+  },
+  "subtitle": {
+    "en": "Rare / Bow / Main Weapon / Lv. 20",
+    "ja": "レア / 弓 / メイン武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310005.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "312052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "21"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "50"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "86"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "312052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310005"
+        ],
+        [
+          "GearKey",
+          "312052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "War Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"War Bow\", \"ja\": \"ウォーボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Composite Bow Description\", \"ja\": \"Composite Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Composite Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Composite Bow\", \"description\": \"Composite Bow Description\", \"display_type\": \"Bow - Lv. 30\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

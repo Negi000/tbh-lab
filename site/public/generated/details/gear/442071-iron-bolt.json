@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "442071",
+  "slug": "442071-iron-bolt",
+  "title": {
+    "ja": "アイアンボルト",
+    "en": "Iron Bolt"
+  },
+  "subtitle": {
+    "en": "Rare / Bolt / Sub Weapon / Lv. 30",
+    "ja": "レア / クロスボウボルト / サブ武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440007.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "442071"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv30",
+            "en": "Act Boss Treasure Chest Lv30"
+          },
+          "0.4384%",
+          {
+            "ja": "ノーマル 3-10",
+            "en": "Normal 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.209%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.209%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.209%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.209%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.209%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.209%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.07637%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.07637%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.07637%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.07637%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.07637%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.07637%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv40",
+            "en": "Act Boss Treasure Chest Lv40"
+          },
+          "0.06964%",
+          {
+            "ja": "ナイトメア 1-10",
+            "en": "Nightmare 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.03854%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.03854%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "807"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "23"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "442071"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440007"
+        ],
+        [
+          "GearKey",
+          "442071"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440007"
+        ],
+        [
+          "display_name",
+          "Iron Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Bolt\", \"ja\": \"アイアンボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

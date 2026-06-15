@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "459192",
+  "slug": "459192-eternal-hatchet",
+  "title": {
+    "ja": "エターナルハチェット",
+    "en": "Eternal Hatchet"
+  },
+  "subtitle": {
+    "en": "Cosmic / Hatchet / Sub Weapon / Lv. 90",
+    "ja": "コズミック / 手斧 / サブ武器 / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HATCHET_450019.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "HATCHET",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HATCHET_450019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "459192"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2000"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "500"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "500"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "459192"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "HATCHET"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_450019"
+        ],
+        [
+          "GearKey",
+          "459192"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HATCHET_450019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Hatchet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Hatchet\", \"ja\": \"エターナルハチェット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "501012",
+  "slug": "501012-wooden-helmet",
+  "title": {
+    "ja": "ウッドヘルメット",
+    "en": "Wooden Helmet"
+  },
+  "subtitle": {
+    "en": "Uncommon / Helmet / HELMET / Lv. 1",
+    "ja": "アンコモン / ヘルメット / HELMET / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "501012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "10"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "501012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500001"
+        ],
+        [
+          "GearKey",
+          "501012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Wooden Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Helmet\", \"ja\": \"ウッドヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wooden Helmet Description\", \"ja\": \"Wooden Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wooden Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wooden Helmet\", \"description\": \"Wooden Helmet Description\", \"display_type\": \"Helmet - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"helmet\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

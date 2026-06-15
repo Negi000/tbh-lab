@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "457142",
+  "slug": "457142-limitless-hatchet",
+  "title": {
+    "ja": "リミットレスハチェット",
+    "en": "Limitless Hatchet"
+  },
+  "subtitle": {
+    "en": "Celestial / Hatchet / Sub Weapon / Lv. 65",
+    "ja": "セレスティアル / 手斧 / サブ武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HATCHET_450014.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "HATCHET",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HATCHET_450014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "457142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1353"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "354"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "632"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "632"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "457142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "HATCHET"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_450014"
+        ],
+        [
+          "GearKey",
+          "457142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HATCHET_450014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Limitless Hatchet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Limitless Hatchet\", \"ja\": \"リミットレスハチェット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "355181",
+  "slug": "355181-shadow-axe",
+  "title": {
+    "ja": "シャドウアックス",
+    "en": "Shadow Axe"
+  },
+  "subtitle": {
+    "en": "Arcana / Axe / Main Weapon / Lv. 85",
+    "ja": "アルカナ / 斧 / メイン武器 / Lv. 85"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350018.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350018.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "355181"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "85"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1252"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "227"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "31"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "988"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "355181"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350018"
+        ],
+        [
+          "GearKey",
+          "355181"
+        ],
+        [
+          "Level",
+          "85"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350018"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Axe\", \"ja\": \"シャドウアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

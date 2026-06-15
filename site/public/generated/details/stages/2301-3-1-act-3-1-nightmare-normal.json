@@ -1,0 +1,175 @@
+{
+  "categoryId": "stages",
+  "entityId": "2301",
+  "slug": "2301-3-1-act-3-1-nightmare-normal",
+  "title": {
+    "ja": "3-1 ナイトメア",
+    "en": "3-1 Act 3-1 NIGHTMARE NORMAL"
+  },
+  "subtitle": {
+    "ja": "ナイトメア / Lv 46 / Boss Ratfolk Berserker",
+    "en": "Nightmare / Lv 46 / Boss Ratfolk Berserker"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NIGHTMARE",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2301"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NIGHTMARE"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "46"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Ratfolk Berserker"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30011,
+          {
+            "ja": "グレムリン",
+            "en": "Gremlin"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          30012,
+          {
+            "ja": "ジオニド",
+            "en": "Geonid"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          30013,
+          {
+            "ja": "堕天使の兜",
+            "en": "Fallen Angel's Helm"
+          },
+          500,
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910401,
+          15
+        ],
+        [
+          "Boss box",
+          920401,
+          150
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "46"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "2350"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "74570"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "8300"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "155400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

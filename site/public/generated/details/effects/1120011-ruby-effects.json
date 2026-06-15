@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1120011",
+  "slug": "1120011-ruby-effects",
+  "title": {
+    "ja": "ルビー 効果",
+    "en": "Ruby Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+    "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_112001.png",
+  "rarity": "RARE",
+  "tags": [
+    "AttackDamage",
+    "FireDamagePercent",
+    "FireResistance",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1120011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+        "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102501,
+          {
+            "ja": "火炎ダメージ強化",
+            "en": "Fire Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎ダメージ +1800~2500%",
+            "en": "Fire Damage +1800~2500%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101201,
+          {
+            "ja": "火炎耐性",
+            "en": "Fire Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎耐性 +50~55%",
+            "en": "Fire Resistance +50~55%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T3 - T3"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

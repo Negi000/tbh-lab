@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "422062",
+  "slug": "422062-dark-orb",
+  "title": {
+    "ja": "ダークオーブ",
+    "en": "Dark Orb"
+  },
+  "subtitle": {
+    "en": "Rare / Orb / Sub Weapon / Lv. 25",
+    "ja": "レア / オーブ / サブ武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420006.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "422062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "130"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "163"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "422062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420006"
+        ],
+        [
+          "GearKey",
+          "422062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Dark Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Dark Orb\", \"ja\": \"ダークオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Shine Spellbook Description\", \"ja\": \"Shine Spellbook Description\"}"
+        ],
+        [
+          "mono_name",
+          "Shine Spellbook"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Shine Spellbook\", \"description\": \"Shine Spellbook Description\", \"display_type\": \"Spellbook - Lv. 50\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"priest\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

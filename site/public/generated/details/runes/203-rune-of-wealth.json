@@ -1,0 +1,161 @@
+{
+  "categoryId": "runes",
+  "entityId": "203",
+  "slug": "203-rune-of-wealth",
+  "title": {
+    "ja": "富のルーン",
+    "en": "Rune of Wealth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldStageBoss.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AdditionalGoldStageBoss",
+    "AdditionalGoldStageBoss",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "203"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ステージボスゴールド",
+        "en": "Gold From Stage Boss"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "富のルーン",
+            "en": "Rune of Wealth"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "錬金のルーン",
+            "en": "Rune of Alchemy"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "ステージボスゴールド +30",
+            "en": "Gold From Stage Boss Kill +30"
+          },
+          {
+            "ja": "2000 ゴールド",
+            "en": "2000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "ステージボスゴールド +30",
+            "en": "Gold From Stage Boss Kill +30"
+          },
+          {
+            "ja": "4000 ゴールド",
+            "en": "4000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "ステージボスゴールド +30",
+            "en": "Gold From Stage Boss Kill +30"
+          },
+          {
+            "ja": "6000 ゴールド",
+            "en": "6000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "ステージボスゴールド +30",
+            "en": "Gold From Stage Boss Kill +30"
+          },
+          {
+            "ja": "8000 ゴールド",
+            "en": "8000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "ステージボスゴールド +30",
+            "en": "Gold From Stage Boss Kill +30"
+          },
+          {
+            "ja": "10000 ゴールド",
+            "en": "10000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

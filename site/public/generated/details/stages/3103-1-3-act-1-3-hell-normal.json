@@ -1,0 +1,185 @@
+{
+  "categoryId": "stages",
+  "entityId": "3103",
+  "slug": "3103-1-3-act-1-3-hell-normal",
+  "title": {
+    "ja": "1-3 ヘル",
+    "en": "1-3 Act 1-3 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 55 / Boss Cobra",
+    "en": "Hell / Lv 55 / Boss Cobra"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3103"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "55"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "25"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Cobra"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10021,
+          {
+            "ja": "ゴブリン",
+            "en": "Goblin"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          10022,
+          {
+            "ja": "ゴブリンシーフ",
+            "en": "Goblin Thief"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          10023,
+          {
+            "ja": "ゴブリンシャーマン",
+            "en": "Goblin Shaman"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910501,
+          10
+        ],
+        [
+          "Boss box",
+          920501,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "55"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "4325"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "113270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "12260"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "234600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "categoryId": "effects",
+  "entityId": "1170011",
+  "slug": "1170011-celestial-pearl-effects",
+  "title": {
+    "ja": "セレスティアルパール 効果",
+    "en": "Celestial Pearl Effects"
+  },
+  "subtitle": {
+    "en": "Critical Chance, Damage Absorption",
+    "ja": "クリティカル率, ダメージ吸収"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_117001.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CriticalChance",
+    "DamageAbsorption",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1170011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Critical Chance, Damage Absorption",
+        "ja": "クリティカル率, ダメージ吸収"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          104001,
+          {
+            "ja": "ダメージ吸収",
+            "en": "Damage Absorption"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ吸収 +60~80",
+            "en": "Damage Absorption +60~80"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T7 - T7"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

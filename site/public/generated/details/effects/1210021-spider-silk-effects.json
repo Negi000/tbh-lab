@@ -1,0 +1,200 @@
+{
+  "categoryId": "effects",
+  "entityId": "1210021",
+  "slug": "1210021-spider-silk-effects",
+  "title": {
+    "ja": "スパイダーシルク 効果",
+    "en": "Spider Silk Effects"
+  },
+  "subtitle": {
+    "en": "Area of Effect Enhancement, Cold Resistance, Cooldown Reduction",
+    "ja": "効果範囲強化, 氷冷耐性, クールタイム短縮"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_121002.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "AreaOfEffect",
+    "ColdResistance",
+    "CooldownReduction",
+    "MaxHp",
+    "PhysicalDamagePercent",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1210021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Area of Effect Enhancement, Cold Resistance, Cooldown Reduction, Max HP, Physical Damage Enhancement",
+        "ja": "効果範囲強化, 氷冷耐性, クールタイム短縮, 最大HP, 物理ダメージ強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100901,
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102401,
+          {
+            "ja": "物理ダメージ強化",
+            "en": "Physical Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "物理ダメージ +1800~2500%",
+            "en": "Physical Damage +1800~2500%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101301,
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T2 - T2"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

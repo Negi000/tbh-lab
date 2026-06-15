@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "314032",
+  "slug": "314032-long-bow",
+  "title": {
+    "ja": "ロングボウ",
+    "en": "Long Bow"
+  },
+  "subtitle": {
+    "en": "Immortal / Bow / Main Weapon / Lv. 10",
+    "ja": "イモータル / 弓 / メイン武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "314032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "21"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "40"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "88"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "336"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "314032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310003"
+        ],
+        [
+          "GearKey",
+          "314032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Long Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Long Bow\", \"ja\": \"ロングボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Complete Bow Description\", \"ja\": \"Complete Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Complete Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Complete Bow\", \"description\": \"Complete Bow Description\", \"display_type\": \"Bow - Lv. 10\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

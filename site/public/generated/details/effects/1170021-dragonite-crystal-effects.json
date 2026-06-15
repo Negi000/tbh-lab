@@ -1,0 +1,137 @@
+{
+  "categoryId": "effects",
+  "entityId": "1170021",
+  "slug": "1170021-dragonite-crystal-effects",
+  "title": {
+    "ja": "ドラゴナイトクリスタル 効果",
+    "en": "Dragonite Crystal Effects"
+  },
+  "subtitle": {
+    "en": "Armor, Critical Damage",
+    "ja": "防御力, クリティカルダメージ"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_117002.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "Armor",
+    "CriticalDamage",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1170021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Armor, Critical Damage",
+        "ja": "防御力, クリティカルダメージ"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          100602,
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "防御力550~600%増加",
+            "en": "550~600% Increased Armor"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T8 - T8"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "categoryId": "pets",
+  "entityId": "6002",
+  "slug": "6002-butterfly",
+  "title": {
+    "ja": "蝶",
+    "en": "Butterfly"
+  },
+  "subtitle": {
+    "ja": "DLC 4427390",
+    "en": "DLC 4427390"
+  },
+  "icon": "/generated/assets/game/ui/BG_Pet.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "DLC"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "6002"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "DLC"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.name",
+      "value": {
+        "ja": "4427390",
+        "en": "4427390"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetStatKey",
+          "6002"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseGoldAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetInfoData"
+  }
+}

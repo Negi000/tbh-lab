@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "514022",
+  "slug": "514022-empire-armor",
+  "title": {
+    "ja": "帝国のアーマー",
+    "en": "Empire Armor"
+  },
+  "subtitle": {
+    "en": "Immortal / Armor / ARMOR / Lv. 5",
+    "ja": "イモータル / アーマー / ARMOR / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "514022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "128"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "30"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "514022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510002"
+        ],
+        [
+          "GearKey",
+          "514022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Empire Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Empire Armor\", \"ja\": \"帝国のアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Empire Armor Description\", \"ja\": \"Empire Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Empire Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Empire Armor\", \"description\": \"Empire Armor Description\", \"display_type\": \"Armor - Lv. 5\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"armor\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "3206",
+  "slug": "3206-2-6-act-2-6-hell-normal",
+  "title": {
+    "ja": "2-6 ヘル",
+    "en": "2-6 Act 2-6 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 66 / Boss Ghoul",
+    "en": "Hell / Lv 66 / Boss Ghoul"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3206"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "66"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "26"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Ghoul"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20031,
+          {
+            "ja": "コブラ",
+            "en": "Cobra"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          20024,
+          {
+            "ja": "ラット族バーサーカー",
+            "en": "Ratfolk Berserker"
+          },
+          1000,
+          25,
+          25
+        ],
+        [
+          20061,
+          {
+            "ja": "コボルト衛兵",
+            "en": "Kobold Guard"
+          },
+          1000,
+          17,
+          17
+        ],
+        [
+          20071,
+          {
+            "ja": "ホムンクルス",
+            "en": "Homunculus"
+          },
+          1000,
+          13,
+          13
+        ],
+        [
+          20041,
+          {
+            "ja": "毒虫",
+            "en": "Venom Insect"
+          },
+          300,
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "66"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "9415"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "171570"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "18200"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "353400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

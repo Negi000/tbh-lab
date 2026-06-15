@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "305142",
+  "slug": "305142-vengeance-sword",
+  "title": {
+    "ja": "ヴェンジェンスソード",
+    "en": "Vengeance Sword"
+  },
+  "subtitle": {
+    "en": "Arcana / Sword / Main Weapon / Lv. 65",
+    "ja": "アルカナ / ソード / メイン武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300014.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "305142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "529"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "37"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "184"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "760"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "890"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "305142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300014"
+        ],
+        [
+          "GearKey",
+          "305142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Vengeance Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Vengeance Sword\", \"ja\": \"ヴェンジェンスソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

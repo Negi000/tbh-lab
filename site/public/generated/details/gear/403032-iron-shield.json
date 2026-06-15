@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "403032",
+  "slug": "403032-iron-shield",
+  "title": {
+    "ja": "アイアンシールド",
+    "en": "Iron Shield"
+  },
+  "subtitle": {
+    "en": "Legendary / Shield / Sub Weapon / Lv. 10",
+    "ja": "レジェンダリー / シールド / サブ武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400003.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "403032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "90"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "54"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "109"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "403032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400003"
+        ],
+        [
+          "GearKey",
+          "403032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Shield\", \"ja\": \"アイアンシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Cow Shield Description\", \"ja\": \"Cow Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Cow Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Cow Shield\", \"description\": \"Cow Shield Description\", \"display_type\": \"Shield - Lv. 10\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

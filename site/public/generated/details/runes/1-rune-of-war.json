@@ -1,0 +1,117 @@
+{
+  "categoryId": "runes",
+  "entityId": "1",
+  "slug": "1-rune-of-war",
+  "title": {
+    "ja": "戦争のルーン",
+    "en": "Rune of War"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AllHeroAttackDamage",
+    "AllHeroAttackDamage",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "全ヒーロー攻撃ダメージ",
+        "en": "All Hero Attack Damage"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "富のルーン",
+            "en": "Rune of Wealth"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "全ヒーロー攻撃ダメージ +1",
+            "en": "All Hero Attack Damage +1"
+          },
+          {
+            "ja": "100 ゴールド",
+            "en": "100 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "categoryId": "database",
+  "entityId": "StatModGroupInfoData",
+  "slug": "stat-mod-group-info-data",
+  "title": {
+    "ja": "StatModGroupInfoData",
+    "en": "StatModGroupInfoData"
+  },
+  "subtitle": {
+    "ja": "474 records",
+    "en": "474 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "StatModGroupInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "StatModGroupInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "474"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StatModGroupKey",
+          "1100011"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "StatModKey",
+          "102501"
+        ],
+        [
+          "MinTier",
+          "2"
+        ],
+        [
+          "MaxTier",
+          "2"
+        ],
+        [
+          "StatModGroupKey",
+          "1100011"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "StatModKey",
+          "101201"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100011"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "StatModKey",
+          "100101"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100021"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "StatModKey",
+          "102601"
+        ],
+        [
+          "MinTier",
+          "2"
+        ],
+        [
+          "MaxTier",
+          "2"
+        ],
+        [
+          "StatModGroupKey",
+          "1100021"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "StatModKey",
+          "100601"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100021"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "StatModKey",
+          "100302"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100031"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "StatModKey",
+          "102701"
+        ],
+        [
+          "MinTier",
+          "2"
+        ],
+        [
+          "MaxTier",
+          "2"
+        ],
+        [
+          "StatModGroupKey",
+          "1100031"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "StatModKey",
+          "100602"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100031"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "StatModKey",
+          "104901"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100041"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "StatModKey",
+          "100201"
+        ],
+        [
+          "MinTier",
+          "2"
+        ],
+        [
+          "MaxTier",
+          "2"
+        ],
+        [
+          "StatModGroupKey",
+          "1100041"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "StatModKey",
+          "104001"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ],
+        [
+          "StatModGroupKey",
+          "1100041"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "StatModKey",
+          "100801"
+        ],
+        [
+          "MinTier",
+          "1"
+        ],
+        [
+          "MaxTier",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

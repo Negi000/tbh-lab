@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "459151",
+  "slug": "459151-chaos-hatchet",
+  "title": {
+    "ja": "混沌のハチェット",
+    "en": "Chaos Hatchet"
+  },
+  "subtitle": {
+    "en": "Cosmic / Hatchet / Sub Weapon / Lv. 70",
+    "ja": "コズミック / 手斧 / サブ武器 / Lv. 70"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HATCHET_450015.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "HATCHET",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HATCHET_450015.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "459151"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1668"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "973"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "973"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "239"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "459151"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "HATCHET"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_450015"
+        ],
+        [
+          "GearKey",
+          "459151"
+        ],
+        [
+          "Level",
+          "70"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HATCHET_450015"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chaos Hatchet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chaos Hatchet\", \"ja\": \"混沌のハチェット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

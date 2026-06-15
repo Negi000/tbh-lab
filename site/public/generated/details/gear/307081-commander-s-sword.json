@@ -1,0 +1,198 @@
+{
+  "categoryId": "gear",
+  "entityId": "307081",
+  "slug": "307081-commander-s-sword",
+  "title": {
+    "ja": "司令官の剣",
+    "en": "Commander's Sword"
+  },
+  "subtitle": {
+    "en": "Celestial / Sword / Main Weapon / Lv. 35",
+    "ja": "セレスティアル / ソード / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300008.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "307081"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "325"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "50"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "653"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "8"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "68"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "10002"
+        ],
+        [
+          "UniqueMod",
+          "SkillMultiStrikeCountUp"
+        ],
+        [
+          "Param1ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param1",
+          "10101"
+        ],
+        [
+          "Param2ExchangeType",
+          "Divided"
+        ],
+        [
+          "Param2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "307081"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300008"
+        ],
+        [
+          "GearKey",
+          "307081"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Commander's Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Commander's Sword\", \"ja\": \"司令官の剣\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

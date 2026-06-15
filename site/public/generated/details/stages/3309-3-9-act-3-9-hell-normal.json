@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "3309",
+  "slug": "3309-3-9-act-3-9-hell-normal",
+  "title": {
+    "ja": "3-9 ヘル",
+    "en": "3-9 Act 3-9 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 77 / Boss Mummy",
+    "en": "Hell / Lv 77 / Boss Mummy"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3309"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "9"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "77"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "27"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Mummy"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30111,
+          {
+            "ja": "死の指",
+            "en": "Finger of Death"
+          },
+          1000,
+          30,
+          30
+        ],
+        [
+          30051,
+          {
+            "ja": "幽霊",
+            "en": "Ghost"
+          },
+          700,
+          15,
+          15
+        ],
+        [
+          30101,
+          {
+            "ja": "燃える地獄の神官",
+            "en": "Burning Hell Priest"
+          },
+          700,
+          30,
+          30
+        ],
+        [
+          30102,
+          {
+            "ja": "凍る地獄の神官",
+            "en": "Frozen Hell Priest"
+          },
+          700,
+          30,
+          30
+        ],
+        [
+          30103,
+          {
+            "ja": "雷電の地獄の神官",
+            "en": "Electric Hell Priest"
+          },
+          700,
+          30,
+          30
+        ],
+        [
+          30104,
+          {
+            "ja": "カオスの地獄の神官",
+            "en": "Chaos Hell Priest"
+          },
+          500,
+          30,
+          30
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          9200420,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "77"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "20945"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "241970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "25350"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "496400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

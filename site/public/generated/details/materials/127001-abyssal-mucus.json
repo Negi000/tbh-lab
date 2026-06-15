@@ -1,0 +1,282 @@
+{
+  "categoryId": "materials",
+  "entityId": "127001",
+  "slug": "127001-abyssal-mucus",
+  "title": {
+    "ja": "深淵の粘液",
+    "en": "Abyssal Mucus"
+  },
+  "subtitle": {
+    "en": "Celestial / Engraving material",
+    "ja": "セレスティアル / 刻印素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_127001.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_127001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "127001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3130007",
+            "en": "DropKey 3130007"
+          },
+          "20%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.materialPool",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          {
+            "ja": "火炎ダメージ強化",
+            "en": "Fire Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎ダメージ +1800~2500%",
+            "en": "Fire Damage +1800~2500%"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "防御力550~600%増加",
+            "en": "550~600% Increased Armor"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          {
+            "ja": "ブロック率",
+            "en": "Block Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ブロック率 +200~300%",
+            "en": "Block Chance +200~300%"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T8 - T8"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "127001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_127001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_127001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_127001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Abyssal Mucus"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Abyssal Mucus\", \"ja\": \"深淵の粘液\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.\", \"ja\": \"高級の彫刻材料。アイテムに彫刻し、装備種類に応じた2つの強力な能力向上効果のうち1つをランダムに付与する。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

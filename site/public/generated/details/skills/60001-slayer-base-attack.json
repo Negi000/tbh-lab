@@ -1,0 +1,135 @@
+{
+  "categoryId": "skills",
+  "entityId": "60001",
+  "slug": "60001-slayer-base-attack",
+  "title": {
+    "ja": "スレイヤー 通常攻撃",
+    "en": "Slayer Base Attack"
+  },
+  "subtitle": {
+    "en": "Base Attack / Base Attack",
+    "ja": "通常攻撃 / 通常攻撃"
+  },
+  "icon": null,
+  "rarity": "LEGENDARY",
+  "tags": [
+    "BASEATTACK",
+    "BASEATTACK",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "60001"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "120"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1000"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "60001"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "ActivationValue",
+          "0"
+        ],
+        [
+          "SLOTTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "600"
+        ],
+        [
+          "Param2",
+          "200"
+        ],
+        [
+          "Param3",
+          "200"
+        ],
+        [
+          "Range",
+          "120"
+        ],
+        [
+          "Order",
+          "999"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Melee"
+        ],
+        [
+          "Value",
+          "1000"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_60001"
+        ],
+        [
+          "AnimClipPath2",
+          "Animation/Skill/Skill_60001_2"
+        ],
+        [
+          "AnimClipPath3",
+          "Animation/Skill/Skill_60001_3"
+        ],
+        [
+          "SoundKey",
+          "1600011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

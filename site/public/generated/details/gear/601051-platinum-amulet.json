@@ -1,0 +1,241 @@
+{
+  "categoryId": "gear",
+  "entityId": "601051",
+  "slug": "601051-platinum-amulet",
+  "title": {
+    "ja": "プラチナのアミュレット",
+    "en": "Platinum Amulet"
+  },
+  "subtitle": {
+    "en": "Uncommon / Amulet / AMULET / Lv. 20",
+    "ja": "アンコモン / アミュレット / AMULET / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600005.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "601051"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv20",
+            "en": "Act Boss Treasure Chest Lv20"
+          },
+          "3.271%",
+          {
+            "ja": "ノーマル 2-10",
+            "en": "Normal 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3122051",
+            "en": "DropKey 3122051"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3602007",
+            "en": "DropKey 3602007"
+          },
+          "1.515%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3603007",
+            "en": "DropKey 3603007"
+          },
+          "1.364%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700002",
+            "en": "DropKey 3700002"
+          },
+          "0.01146%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.009583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "83"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "601051"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600005"
+        ],
+        [
+          "GearKey",
+          "601051"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600005"
+        ],
+        [
+          "display_name",
+          "Platinum Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Platinum Amulet\", \"ja\": \"プラチナのアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron amulet Description\", \"ja\": \"Iron amulet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron amulet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron amulet\", \"description\": \"Iron amulet Description\", \"display_type\": \"Amulet - Lv. 30\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"amulet\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

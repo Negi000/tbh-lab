@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "612061",
+  "slug": "612061-crystal-earring",
+  "title": {
+    "ja": "クリスタルのイヤリング",
+    "en": "Crystal Earring"
+  },
+  "subtitle": {
+    "en": "Rare / Earing / EARING / Lv. 25",
+    "ja": "レア / イヤリング / EARING / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610006.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "612061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "88"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "612061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610006"
+        ],
+        [
+          "GearKey",
+          "612061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Earring\", \"ja\": \"クリスタルのイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Magic earing Description\", \"ja\": \"Magic earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Magic earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Magic earing\", \"description\": \"Magic earing Description\", \"display_type\": \"Earring - Lv. 50\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"earring\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

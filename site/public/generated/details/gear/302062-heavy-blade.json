@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "302062",
+  "slug": "302062-heavy-blade",
+  "title": {
+    "ja": "ヘビーブレード",
+    "en": "Heavy Blade"
+  },
+  "subtitle": {
+    "en": "Rare / Sword / Main Weapon / Lv. 25",
+    "ja": "レア / ソード / メイン武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300006.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "302062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "30"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "268"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "302062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300006"
+        ],
+        [
+          "GearKey",
+          "302062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Blade"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Blade\", \"ja\": \"ヘビーブレード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Sword Description\", \"ja\": \"Heavy Sword Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Sword"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Sword\", \"description\": \"Heavy Sword Description\", \"display_type\": \"Sword - Lv. 50\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

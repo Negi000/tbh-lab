@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "10041",
+  "slug": "10041-orc",
+  "title": {
+    "ja": "オーク",
+    "en": "Orc"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10041"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "14"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "10041"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_10041"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "15"
+        ],
+        [
+          "RewardExp",
+          "15"
+        ],
+        [
+          "SkillKey",
+          "100411"
+        ],
+        [
+          "AttackDamage",
+          "14"
+        ],
+        [
+          "AttackSpeed",
+          "80"
+        ],
+        [
+          "MaxLife",
+          "65"
+        ],
+        [
+          "MovementSpeed",
+          "185"
+        ],
+        [
+          "DeadSoundKey",
+          "21004111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_10041"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/10041/Monster_10041"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

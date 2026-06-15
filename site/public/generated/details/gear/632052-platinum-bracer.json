@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "632052",
+  "slug": "632052-platinum-bracer",
+  "title": {
+    "ja": "プラチナブレイサー",
+    "en": "Platinum Bracer"
+  },
+  "subtitle": {
+    "en": "Rare / Bracer / BRACER / Lv. 20",
+    "ja": "レア / ブレイサー / BRACER / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630005.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "632052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "632052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630005"
+        ],
+        [
+          "GearKey",
+          "632052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Platinum Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Platinum Bracer\", \"ja\": \"プラチナブレイサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Magic bracer Description\", \"ja\": \"Magic bracer Description\"}"
+        ],
+        [
+          "mono_name",
+          "Magic bracer"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Magic bracer\", \"description\": \"Magic bracer Description\", \"display_type\": \"Bracer - Lv. 30\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"bracer\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

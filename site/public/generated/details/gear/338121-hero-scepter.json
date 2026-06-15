@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "338121",
+  "slug": "338121-hero-scepter",
+  "title": {
+    "ja": "ヒーローセプター",
+    "en": "Hero Scepter"
+  },
+  "subtitle": {
+    "en": "Divine / Scepter / Main Weapon / Lv. 55",
+    "ja": "ディバイン / セプター / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330012.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "338121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "823"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "36"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "23"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "31"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "224"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "338121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330012"
+        ],
+        [
+          "GearKey",
+          "338121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hero Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hero Scepter\", \"ja\": \"ヒーローセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

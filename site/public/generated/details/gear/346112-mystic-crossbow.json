@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "346112",
+  "slug": "346112-mystic-crossbow",
+  "title": {
+    "ja": "ミスティッククロスボウ",
+    "en": "Mystic Crossbow"
+  },
+  "subtitle": {
+    "en": "Beyond / Crossbow / Main Weapon / Lv. 50",
+    "ja": "ビヨンド / クロスボウ / メイン武器 / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340011.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "346112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "681"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "75"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "724"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "175"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "346112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340011"
+        ],
+        [
+          "GearKey",
+          "346112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Mystic Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Mystic Crossbow\", \"ja\": \"ミスティッククロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

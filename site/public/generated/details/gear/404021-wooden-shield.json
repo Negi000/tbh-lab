@@ -1,0 +1,261 @@
+{
+  "categoryId": "gear",
+  "entityId": "404021",
+  "slug": "404021-wooden-shield",
+  "title": {
+    "ja": "ウッデンシールド",
+    "en": "Wooden Shield"
+  },
+  "subtitle": {
+    "en": "Immortal / Shield / Sub Weapon / Lv. 5",
+    "ja": "イモータル / シールド / サブ武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "404021"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.02223%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.02223%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.02223%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "0.02223%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "DropKey 3111024",
+            "en": "DropKey 3111024"
+          },
+          "6.669%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601002",
+            "en": "DropKey 3601002"
+          },
+          "0.4444%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.1276%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "98"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "23"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "404021"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400002"
+        ],
+        [
+          "GearKey",
+          "404021"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Wooden Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Shield\", \"ja\": \"ウッデンシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Hero Shield Description\", \"ja\": \"Hero Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Hero Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Hero Shield\", \"description\": \"Hero Shield Description\", \"display_type\": \"Shield - Lv. 5\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

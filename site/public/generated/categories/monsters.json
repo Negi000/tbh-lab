@@ -1,0 +1,2115 @@
+{
+  "category": {
+    "id": "monsters",
+    "titleKey": "category.monsters.title",
+    "descriptionKey": "category.monsters.description",
+    "count": 61,
+    "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/monsters.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "gold",
+      "labelKey": "field.gold"
+    },
+    {
+      "key": "exp",
+      "labelKey": "field.exp"
+    },
+    {
+      "key": "maxHp",
+      "labelKey": "field.maxHp"
+    }
+  ],
+  "filters": [
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "MONSTER"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "monsters",
+      "entityId": "10011",
+      "slug": "10011-slime",
+      "title": {
+        "ja": "スライム",
+        "en": "Slime"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "10",
+        "attackDamage": "10",
+        "maxHp": "50",
+        "stages": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10011-slime.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10021",
+      "slug": "10021-goblin",
+      "title": {
+        "ja": "ゴブリン",
+        "en": "Goblin"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "12",
+        "exp": "12",
+        "attackDamage": "15",
+        "maxHp": "35",
+        "stages": "20"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10021-goblin.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10022",
+      "slug": "10022-goblin-thief",
+      "title": {
+        "ja": "ゴブリンシーフ",
+        "en": "Goblin Thief"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "10",
+        "maxHp": "45",
+        "stages": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10022-goblin-thief.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10023",
+      "slug": "10023-goblin-shaman",
+      "title": {
+        "ja": "ゴブリンシャーマン",
+        "en": "Goblin Shaman"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "18",
+        "maxHp": "30",
+        "stages": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10023-goblin-shaman.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10031",
+      "slug": "10031-bat",
+      "title": {
+        "ja": "コウモリ",
+        "en": "Bat"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "10",
+        "maxHp": "15",
+        "stages": "20"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10031-bat.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10041",
+      "slug": "10041-orc",
+      "title": {
+        "ja": "オーク",
+        "en": "Orc"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "14",
+        "maxHp": "65",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10041-orc.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10042",
+      "slug": "10042-orc-warrior",
+      "title": {
+        "ja": "オークウォリアー",
+        "en": "Orc Warrior"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "16",
+        "maxHp": "95",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10042-orc-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10043",
+      "slug": "10043-elite-orc",
+      "title": {
+        "ja": "エリートオーク",
+        "en": "Elite Orc"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "35",
+        "exp": "35",
+        "attackDamage": "17",
+        "maxHp": "185",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10043-elite-orc.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10051",
+      "slug": "10051-skeleton",
+      "title": {
+        "ja": "スケルトン",
+        "en": "Skeleton"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "11",
+        "attackDamage": "20",
+        "maxHp": "50",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10051-skeleton.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10052",
+      "slug": "10052-skeleton-archer",
+      "title": {
+        "ja": "スケルトンアーチャー",
+        "en": "Skeleton Archer"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "13",
+        "attackDamage": "20",
+        "maxHp": "35",
+        "stages": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10052-skeleton-archer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10053",
+      "slug": "10053-skeleton-warrior",
+      "title": {
+        "ja": "スケルトンウォリアー",
+        "en": "Skeleton Warrior"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "20",
+        "maxHp": "90",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10053-skeleton-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10901",
+      "slug": "10901-skeleton-king",
+      "title": {
+        "ja": "スケルトンキング",
+        "en": "Skeleton King"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "36",
+        "attackDamage": "50",
+        "maxHp": "1050",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10901-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10902",
+      "slug": "10902-skeleton-king",
+      "title": {
+        "ja": "スケルトンキング",
+        "en": "Skeleton King"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "12",
+        "attackDamage": "70",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10902-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10903",
+      "slug": "10903-skeleton-king",
+      "title": {
+        "ja": "スケルトンキング",
+        "en": "Skeleton King"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "18",
+        "attackDamage": "70",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10903-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "10904",
+      "slug": "10904-skeleton-king",
+      "title": {
+        "ja": "スケルトンキング",
+        "en": "Skeleton King"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "15",
+        "attackDamage": "70",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/10904-skeleton-king.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20011",
+      "slug": "20011-scorpion",
+      "title": {
+        "ja": "サソリ",
+        "en": "Scorpion"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "10",
+        "attackDamage": "10",
+        "maxHp": "50",
+        "stages": "24"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20011-scorpion.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20021",
+      "slug": "20021-ratfolk-warrior",
+      "title": {
+        "ja": "ラット族戦士",
+        "en": "Ratfolk Warrior"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "12",
+        "exp": "12",
+        "attackDamage": "15",
+        "maxHp": "35",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20021-ratfolk-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20022",
+      "slug": "20022-ratfolk-archer",
+      "title": {
+        "ja": "ラット族弓兵",
+        "en": "Ratfolk Archer"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "10",
+        "maxHp": "45",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20022-ratfolk-archer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20023",
+      "slug": "20023-plague-rat",
+      "title": {
+        "ja": "疫病ネズミ",
+        "en": "Plague Rat"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "20",
+        "maxHp": "110",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20023-plague-rat.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20024",
+      "slug": "20024-ratfolk-berserker",
+      "title": {
+        "ja": "ラット族バーサーカー",
+        "en": "Ratfolk Berserker"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "25",
+        "exp": "25",
+        "attackDamage": "17",
+        "maxHp": "75",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20024-ratfolk-berserker.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20031",
+      "slug": "20031-cobra",
+      "title": {
+        "ja": "コブラ",
+        "en": "Cobra"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "18",
+        "maxHp": "55",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20031-cobra.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20041",
+      "slug": "20041-venom-insect",
+      "title": {
+        "ja": "毒虫",
+        "en": "Venom Insect"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "23",
+        "maxHp": "45",
+        "stages": "10"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20041-venom-insect.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20042",
+      "slug": "20042-venom-lord",
+      "title": {
+        "ja": "猛毒の君主",
+        "en": "Venom Lord"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "35",
+        "exp": "35",
+        "attackDamage": "15",
+        "maxHp": "75",
+        "stages": "5"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20042-venom-lord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20051",
+      "slug": "20051-giant-fly",
+      "title": {
+        "ja": "巨大バエ",
+        "en": "Giant Fly"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "11",
+        "exp": "11",
+        "attackDamage": "20",
+        "maxHp": "45",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20051-giant-fly.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20061",
+      "slug": "20061-kobold-guard",
+      "title": {
+        "ja": "コボルト衛兵",
+        "en": "Kobold Guard"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "17",
+        "exp": "17",
+        "attackDamage": "20",
+        "maxHp": "90",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20061-kobold-guard.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20062",
+      "slug": "20062-kobold-slinger",
+      "title": {
+        "ja": "コボルト投石兵",
+        "en": "Kobold Slinger"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "14",
+        "exp": "14",
+        "attackDamage": "23",
+        "maxHp": "80",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20062-kobold-slinger.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20071",
+      "slug": "20071-homunculus",
+      "title": {
+        "ja": "ホムンクルス",
+        "en": "Homunculus"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "13",
+        "exp": "13",
+        "attackDamage": "16",
+        "maxHp": "115",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20071-homunculus.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20081",
+      "slug": "20081-ghoul",
+      "title": {
+        "ja": "グール",
+        "en": "Ghoul"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "45",
+        "exp": "45",
+        "attackDamage": "20",
+        "maxHp": "225",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20081-ghoul.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20091",
+      "slug": "20091-fire-elemental",
+      "title": {
+        "ja": "火の精霊",
+        "en": "Fire Elemental"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "23",
+        "exp": "23",
+        "attackDamage": "25",
+        "maxHp": "75",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20091-fire-elemental.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20111",
+      "slug": "20111-mummy",
+      "title": {
+        "ja": "ミイラ",
+        "en": "Mummy"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "17",
+        "maxHp": "260",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20111-mummy.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20121",
+      "slug": "20121-tick",
+      "title": {
+        "ja": "ダニ",
+        "en": "Tick"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "7",
+        "exp": "7",
+        "attackDamage": "10",
+        "maxHp": "55",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20121-tick.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20901",
+      "slug": "20901-desert-overlord",
+      "title": {
+        "ja": "砂漠の支配者",
+        "en": "Desert Overlord"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "12",
+        "attackDamage": "80",
+        "maxHp": "1850",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20901-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20902",
+      "slug": "20902-desert-overlord",
+      "title": {
+        "ja": "砂漠の支配者",
+        "en": "Desert Overlord"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "14",
+        "attackDamage": "100",
+        "maxHp": "1950",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20902-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20903",
+      "slug": "20903-desert-overlord",
+      "title": {
+        "ja": "砂漠の支配者",
+        "en": "Desert Overlord"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "31",
+        "attackDamage": "120",
+        "maxHp": "2050",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20903-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "20904",
+      "slug": "20904-desert-overlord",
+      "title": {
+        "ja": "砂漠の支配者",
+        "en": "Desert Overlord"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "31",
+        "attackDamage": "140",
+        "maxHp": "2350",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/20904-desert-overlord.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30011",
+      "slug": "30011-gremlin",
+      "title": {
+        "ja": "グレムリン",
+        "en": "Gremlin"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "10",
+        "attackDamage": "10",
+        "maxHp": "70",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30011-gremlin.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30012",
+      "slug": "30012-geonid",
+      "title": {
+        "ja": "ジオニド",
+        "en": "Geonid"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "12",
+        "exp": "12",
+        "attackDamage": "15",
+        "maxHp": "50",
+        "stages": "11"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30012-geonid.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30013",
+      "slug": "30013-fallen-angel-s-helm",
+      "title": {
+        "ja": "堕天使の兜",
+        "en": "Fallen Angel's Helm"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "25",
+        "maxHp": "40",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30013-fallen-angel-s-helm.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30021",
+      "slug": "30021-yeti",
+      "title": {
+        "ja": "イエティ",
+        "en": "Yeti"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "12",
+        "maxHp": "320",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30021-yeti.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30031",
+      "slug": "30031-dragon-hatchling",
+      "title": {
+        "ja": "ドラゴンハッチリング",
+        "en": "Dragon Hatchling"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "30",
+        "maxHp": "175",
+        "stages": "7"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30031-dragon-hatchling.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30041",
+      "slug": "30041-snow-mountain-warrior",
+      "title": {
+        "ja": "雪山戦士",
+        "en": "Snow Mountain Warrior"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "15",
+        "maxHp": "90",
+        "stages": "12"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30041-snow-mountain-warrior.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30042",
+      "slug": "30042-snow-mountain-archer",
+      "title": {
+        "ja": "雪山の弓兵",
+        "en": "Snow Mountain Archer"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "20",
+        "maxHp": "70",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30042-snow-mountain-archer.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30043",
+      "slug": "30043-snow-mountain-guard",
+      "title": {
+        "ja": "雪山衛兵",
+        "en": "Snow Mountain Guard"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "15",
+        "maxHp": "155",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30043-snow-mountain-guard.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30044",
+      "slug": "30044-snow-mountain-mage",
+      "title": {
+        "ja": "雪山の魔法使い",
+        "en": "Snow Mountain Mage"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "5",
+        "attackDamage": "25",
+        "maxHp": "55",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30044-snow-mountain-mage.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30051",
+      "slug": "30051-ghost",
+      "title": {
+        "ja": "幽霊",
+        "en": "Ghost"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "15",
+        "exp": "15",
+        "attackDamage": "10",
+        "maxHp": "65",
+        "stages": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30051-ghost.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30061",
+      "slug": "30061-lava-being",
+      "title": {
+        "ja": "溶岩の化身",
+        "en": "Lava Being"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "20",
+        "exp": "20",
+        "attackDamage": "20",
+        "maxHp": "75",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30061-lava-being.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30071",
+      "slug": "30071-blood-priest",
+      "title": {
+        "ja": "血の聖職者",
+        "en": "Blood Priest"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "35",
+        "exp": "35",
+        "attackDamage": "16",
+        "maxHp": "125",
+        "stages": "2"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30071-blood-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30081",
+      "slug": "30081-demon-soldier",
+      "title": {
+        "ja": "デーモン兵",
+        "en": "Demon Soldier"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "11",
+        "attackDamage": "20",
+        "maxHp": "70",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30081-demon-soldier.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30082",
+      "slug": "30082-demon-legion-commander",
+      "title": {
+        "ja": "デーモン軍団長",
+        "en": "Demon Legion Commander"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "10",
+        "exp": "13",
+        "attackDamage": "20",
+        "maxHp": "45",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30082-demon-legion-commander.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30083",
+      "slug": "30083-demon-shocktrooper",
+      "title": {
+        "ja": "デーモン突撃兵",
+        "en": "Demon Shocktrooper"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "20",
+        "maxHp": "90",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30083-demon-shocktrooper.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30084",
+      "slug": "30084-burning-piglet",
+      "title": {
+        "ja": "燃える子豚",
+        "en": "Burning Piglet"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "110",
+        "stages": "9"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30084-burning-piglet.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30091",
+      "slug": "30091-hell-golem",
+      "title": {
+        "ja": "地獄のゴーレム",
+        "en": "Hell Golem"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "40",
+        "maxHp": "185",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30091-hell-golem.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30101",
+      "slug": "30101-burning-hell-priest",
+      "title": {
+        "ja": "燃える地獄の神官",
+        "en": "Burning Hell Priest"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "95",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30101-burning-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30102",
+      "slug": "30102-frozen-hell-priest",
+      "title": {
+        "ja": "凍る地獄の神官",
+        "en": "Frozen Hell Priest"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "95",
+        "stages": "7"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30102-frozen-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30103",
+      "slug": "30103-electric-hell-priest",
+      "title": {
+        "ja": "雷電の地獄の神官",
+        "en": "Electric Hell Priest"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "95",
+        "stages": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30103-electric-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30104",
+      "slug": "30104-chaos-hell-priest",
+      "title": {
+        "ja": "カオスの地獄の神官",
+        "en": "Chaos Hell Priest"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "30",
+        "maxHp": "75",
+        "stages": "4"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30104-chaos-hell-priest.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30111",
+      "slug": "30111-finger-of-death",
+      "title": {
+        "ja": "死の指",
+        "en": "Finger of Death"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "30",
+        "exp": "30",
+        "attackDamage": "25",
+        "maxHp": "65",
+        "stages": "8"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30111-finger-of-death.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30901",
+      "slug": "30901-archon-morkar",
+      "title": {
+        "ja": "モルカル執政官",
+        "en": "Archon Morkar"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "70",
+        "maxHp": "2550",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30901-archon-morkar.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30902",
+      "slug": "30902-archon-morkar",
+      "title": {
+        "ja": "モルカル執政官",
+        "en": "Archon Morkar"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "80",
+        "maxHp": "2750",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30902-archon-morkar.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30903",
+      "slug": "30903-archon-morkar",
+      "title": {
+        "ja": "モルカル執政官",
+        "en": "Archon Morkar"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "90",
+        "maxHp": "3050",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30903-archon-morkar.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "monsters",
+      "entityId": "30904",
+      "slug": "30904-archon-morkar",
+      "title": {
+        "ja": "モルカル執政官",
+        "en": "Archon Morkar"
+      },
+      "subtitle": {
+        "ja": "MONSTER",
+        "en": "MONSTER"
+      },
+      "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+      "rarity": "COMMON",
+      "tags": [
+        "MONSTER"
+      ],
+      "fields": {
+        "type": "MONSTER",
+        "gold": "500",
+        "exp": "1",
+        "attackDamage": "100",
+        "maxHp": "3550",
+        "stages": "0"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "MONSTER",
+          "en": "MONSTER"
+        }
+      },
+      "detailPath": "/generated/details/monsters/30904-archon-morkar.json",
+      "tooltip": null
+    }
+  ]
+}

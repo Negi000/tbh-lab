@@ -1,0 +1,240 @@
+{
+  "categoryId": "database",
+  "entityId": "SoundInfoData",
+  "slug": "sound-info-data",
+  "title": {
+    "ja": "SoundInfoData",
+    "en": "SoundInfoData"
+  },
+  "subtitle": {
+    "ja": "312 records",
+    "en": "312 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "SoundInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "SoundInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "312"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SoundKey",
+          "10001"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/title_bgm"
+        ],
+        [
+          "SoundKey",
+          "11011"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1101"
+        ],
+        [
+          "SoundKey",
+          "11031"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1103"
+        ],
+        [
+          "SoundKey",
+          "11051"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1105"
+        ],
+        [
+          "SoundKey",
+          "11081"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1108"
+        ],
+        [
+          "SoundKey",
+          "11101"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1110"
+        ],
+        [
+          "SoundKey",
+          "12011"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1201"
+        ],
+        [
+          "SoundKey",
+          "12031"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1203"
+        ],
+        [
+          "SoundKey",
+          "12051"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1205"
+        ],
+        [
+          "SoundKey",
+          "12081"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1208"
+        ],
+        [
+          "SoundKey",
+          "12101"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1210"
+        ],
+        [
+          "SoundKey",
+          "13011"
+        ],
+        [
+          "SoundType",
+          "BGM"
+        ],
+        [
+          "Volume",
+          "70"
+        ],
+        [
+          "AudioClipPath",
+          "Sounds/BGM/stage_bgm_1301"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SoundInfoData"
+  }
+}

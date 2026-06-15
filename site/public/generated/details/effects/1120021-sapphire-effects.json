@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1120021",
+  "slug": "1120021-sapphire-effects",
+  "title": {
+    "ja": "サファイア 効果",
+    "en": "Sapphire Effects"
+  },
+  "subtitle": {
+    "en": "Cold Damage Enhancement, Cold Resistance, Critical Chance",
+    "ja": "冷気ダメージ強化, 氷冷耐性, クリティカル率"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_112002.png",
+  "rarity": "RARE",
+  "tags": [
+    "ColdDamagePercent",
+    "ColdResistance",
+    "CriticalChance",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1120021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Cold Damage Enhancement, Cold Resistance, Critical Chance",
+        "ja": "冷気ダメージ強化, 氷冷耐性, クリティカル率"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102601,
+          {
+            "ja": "冷気ダメージ強化",
+            "en": "Cold Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気ダメージ +1800~2500%",
+            "en": "Cold Damage +1800~2500%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101301,
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T3 - T3"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

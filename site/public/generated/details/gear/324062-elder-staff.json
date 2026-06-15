@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "324062",
+  "slug": "324062-elder-staff",
+  "title": {
+    "ja": "エルダースタッフ",
+    "en": "Elder Staff"
+  },
+  "subtitle": {
+    "en": "Immortal / Staff / Main Weapon / Lv. 25",
+    "ja": "イモータル / スタッフ / メイン武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320006.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "324062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "95"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "14"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "336"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "324062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320006"
+        ],
+        [
+          "GearKey",
+          "324062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elder Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elder Staff\", \"ja\": \"エルダースタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Magic Staff Description\", \"ja\": \"Magic Staff Description\"}"
+        ],
+        [
+          "mono_name",
+          "Magic Staff"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Magic Staff\", \"description\": \"Magic Staff Description\", \"display_type\": \"Staff - Lv. 50\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"mainweapon\", \"class\": \"sorcerer\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "336112",
+  "slug": "336112-fate-scepter",
+  "title": {
+    "ja": "フェイトセプター",
+    "en": "Fate Scepter"
+  },
+  "subtitle": {
+    "en": "Beyond / Scepter / Main Weapon / Lv. 50",
+    "ja": "ビヨンド / セプター / メイン武器 / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330011.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "336112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "420"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "115"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "836"
+        },
+        {
+          "labelKey": "CastSpeed / MULTIPLICATIVE",
+          "value": "228"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "336112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330011"
+        ],
+        [
+          "GearKey",
+          "336112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Scepter\", \"ja\": \"フェイトセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

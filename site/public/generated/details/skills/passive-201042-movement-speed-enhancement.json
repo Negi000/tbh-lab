@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-201042",
+  "slug": "passive-201042-movement-speed-enhancement",
+  "title": {
+    "ja": "移動速度強化",
+    "en": "Movement Speed Enhancement"
+  },
+  "subtitle": {
+    "ja": "移動速度 +20",
+    "en": "Movement Speed +20"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "MovementSpeed",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "201042"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "移動速度",
+        "en": "Movement Speed"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "201042"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_MovementSpeed"
+        ],
+        [
+          "STATTYPE",
+          "MovementSpeed"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "20"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

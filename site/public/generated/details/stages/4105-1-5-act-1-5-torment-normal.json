@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "4105",
+  "slug": "4105-1-5-act-1-5-torment-normal",
+  "title": {
+    "ja": "1-5 トーメント",
+    "en": "1-5 Act 1-5 TORMENT NORMAL"
+  },
+  "subtitle": {
+    "ja": "トーメント / Lv 82 / Boss Homunculus",
+    "en": "Torment / Lv 82 / Boss Homunculus"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "TORMENT",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "4105"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "TORMENT"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "82"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "29"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Homunculus"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10021,
+          {
+            "ja": "ゴブリン",
+            "en": "Goblin"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          10022,
+          {
+            "ja": "ゴブリンシーフ",
+            "en": "Goblin Thief"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          10023,
+          {
+            "ja": "ゴブリンシャーマン",
+            "en": "Goblin Shaman"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          10041,
+          {
+            "ja": "オーク",
+            "en": "Orc"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          10042,
+          {
+            "ja": "オークウォリアー",
+            "en": "Orc Warrior"
+          },
+          1000,
+          20,
+          20
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910801,
+          8
+        ],
+        [
+          "Boss box",
+          920801,
+          80
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "82"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "32245"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "277970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "29000"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "569400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

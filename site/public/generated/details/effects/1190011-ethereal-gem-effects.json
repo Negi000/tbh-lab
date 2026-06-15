@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1190011",
+  "slug": "1190011-ethereal-gem-effects",
+  "title": {
+    "ja": "エーテルジェム 効果",
+    "en": "Ethereal Gem Effects"
+  },
+  "subtitle": {
+    "en": "Attack Skill Enhancement, Damage Reduction Enhancement, Multistrike Enhancement",
+    "ja": "攻撃スキル強化, ダメージ軽減強化, マルチストライク強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_119001.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "BaseAttackCountReduction",
+    "DamageReduction",
+    "Multistrike",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1190011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Skill Enhancement, Damage Reduction Enhancement, Multistrike Enhancement",
+        "ja": "攻撃スキル強化, ダメージ軽減強化, マルチストライク強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102001,
+          {
+            "ja": "マルチストライク強化",
+            "en": "Multistrike Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "マルチストライク +1~1",
+            "en": "Multistrike +1~1"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          103401,
+          {
+            "ja": "ダメージ軽減強化",
+            "en": "Damage Reduction Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ軽減 +140~160%",
+            "en": "Damage Reduction +140~160%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          101001,
+          {
+            "ja": "攻撃スキル強化",
+            "en": "Attack Skill Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "基本攻撃要求減少 +1~1",
+            "en": "Basic Attack Requirement Reduction +1~1"
+          },
+          "T10 - T10"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

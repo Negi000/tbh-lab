@@ -1,0 +1,139 @@
+{
+  "categoryId": "skills",
+  "entityId": "20601",
+  "slug": "20601-skewer-shot",
+  "title": {
+    "ja": "スキュワーショット",
+    "en": "Skewer Shot"
+  },
+  "subtitle": {
+    "en": "Skill / Base Attack Count",
+    "ja": "スキル / 通常攻撃回数"
+  },
+  "icon": "/generated/assets/game/skills/Skill_20601.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "BASEATTACK_COUNT",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20601"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃回数",
+        "en": "Base Attack Count"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1200"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "20601"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_20601"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_20601"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK_COUNT"
+        ],
+        [
+          "ActivationValue",
+          "8"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "20601"
+        ],
+        [
+          "Param1",
+          "3000"
+        ],
+        [
+          "Param2",
+          "4"
+        ],
+        [
+          "Range",
+          "1200"
+        ],
+        [
+          "Order",
+          "900"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile"
+        ],
+        [
+          "SkillLevelKey",
+          "20601"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_20601"
+        ],
+        [
+          "AttributeKey",
+          "201043"
+        ],
+        [
+          "SoundKey",
+          "1201061"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

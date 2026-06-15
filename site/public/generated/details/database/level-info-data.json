@@ -1,0 +1,144 @@
+{
+  "categoryId": "database",
+  "entityId": "LevelInfoData",
+  "slug": "level-info-data",
+  "title": {
+    "ja": "LevelInfoData",
+    "en": "LevelInfoData"
+  },
+  "subtitle": {
+    "ja": "100 records",
+    "en": "100 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "LevelInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "LevelInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "ExpForLevelUp",
+          "30"
+        ],
+        [
+          "Level",
+          "2"
+        ],
+        [
+          "ExpForLevelUp",
+          "150"
+        ],
+        [
+          "Level",
+          "3"
+        ],
+        [
+          "ExpForLevelUp",
+          "500"
+        ],
+        [
+          "Level",
+          "4"
+        ],
+        [
+          "ExpForLevelUp",
+          "1000"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "ExpForLevelUp",
+          "2600"
+        ],
+        [
+          "Level",
+          "6"
+        ],
+        [
+          "ExpForLevelUp",
+          "6500"
+        ],
+        [
+          "Level",
+          "7"
+        ],
+        [
+          "ExpForLevelUp",
+          "13000"
+        ],
+        [
+          "Level",
+          "8"
+        ],
+        [
+          "ExpForLevelUp",
+          "23400"
+        ],
+        [
+          "Level",
+          "9"
+        ],
+        [
+          "ExpForLevelUp",
+          "37440"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "ExpForLevelUp",
+          "74880"
+        ],
+        [
+          "Level",
+          "11"
+        ],
+        [
+          "ExpForLevelUp",
+          "134784"
+        ],
+        [
+          "Level",
+          "12"
+        ],
+        [
+          "ExpForLevelUp",
+          "229133"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "LevelInfoData"
+  }
+}

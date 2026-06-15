@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "402022",
+  "slug": "402022-wooden-shield",
+  "title": {
+    "ja": "ウッデンシールド",
+    "en": "Wooden Shield"
+  },
+  "subtitle": {
+    "en": "Rare / Shield / Sub Weapon / Lv. 5",
+    "ja": "レア / シールド / サブ武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400002.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "402022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "72"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "31"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "402022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400002"
+        ],
+        [
+          "GearKey",
+          "402022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Wooden Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Shield\", \"ja\": \"ウッデンシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Hero Shield Description\", \"ja\": \"Hero Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Hero Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Hero Shield\", \"description\": \"Hero Shield Description\", \"display_type\": \"Shield - Lv. 5\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

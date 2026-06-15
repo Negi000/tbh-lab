@@ -1,0 +1,144 @@
+{
+  "categoryId": "stages",
+  "entityId": "3310",
+  "slug": "3310-3-10-act-3-10-hell-actboss",
+  "title": {
+    "ja": "3-10 ヘル",
+    "en": "3-10 Act 3-10 HELL ACTBOSS"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 77 / Boss Archon Morkar",
+    "en": "Hell / Lv 77 / Boss Archon Morkar"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "ACTBOSS",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3310"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "77"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Archon Morkar"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          null,
+          null
+        ],
+        [
+          "Boss box",
+          930701,
+          null
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "77"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "20945"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "241970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "25350"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "496400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

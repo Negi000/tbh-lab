@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "445102",
+  "slug": "445102-hero-bolt",
+  "title": {
+    "ja": "ヒーローボルト",
+    "en": "Hero Bolt"
+  },
+  "subtitle": {
+    "en": "Arcana / Bolt / Sub Weapon / Lv. 45",
+    "ja": "アルカナ / クロスボウボルト / サブ武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440010.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "445102"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1292"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "37"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "345"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "202"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "445102"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440010"
+        ],
+        [
+          "GearKey",
+          "445102"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hero Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hero Bolt\", \"ja\": \"ヒーローボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

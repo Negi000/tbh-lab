@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "327162",
+  "slug": "327162-chaos-staff",
+  "title": {
+    "ja": "カオススタッフ",
+    "en": "Chaos Staff"
+  },
+  "subtitle": {
+    "en": "Celestial / Staff / Main Weapon / Lv. 75",
+    "ja": "セレスティアル / スタッフ / メイン武器 / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320016.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "327162"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1949"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "325"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1530"
+        },
+        {
+          "labelKey": "CastSpeed / MULTIPLICATIVE",
+          "value": "390"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "327162"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320016"
+        ],
+        [
+          "GearKey",
+          "327162"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chaos Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chaos Staff\", \"ja\": \"カオススタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

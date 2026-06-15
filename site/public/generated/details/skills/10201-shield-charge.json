@@ -1,0 +1,135 @@
+{
+  "categoryId": "skills",
+  "entityId": "10201",
+  "slug": "10201-shield-charge",
+  "title": {
+    "ja": "シールドチャージ",
+    "en": "Shield Charge"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_10201.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10201"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "900"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "4"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "10201"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_10201"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_10201"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "4"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "3500"
+        ],
+        [
+          "Param2",
+          "150"
+        ],
+        [
+          "Range",
+          "900"
+        ],
+        [
+          "Order",
+          "500"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Melee"
+        ],
+        [
+          "SkillLevelKey",
+          "10201"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_10201"
+        ],
+        [
+          "AttributeKey",
+          "101004"
+        ],
+        [
+          "SoundKey",
+          "1102011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

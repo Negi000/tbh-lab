@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "20904",
+  "slug": "20904-desert-overlord",
+  "title": {
+    "ja": "砂漠の支配者",
+    "en": "Desert Overlord"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20904"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "500"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "31"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "140"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "2350"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "20904"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_20901"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "500"
+        ],
+        [
+          "RewardExp",
+          "31"
+        ],
+        [
+          "SkillKey",
+          "209011 209021 209031 209041 209051"
+        ],
+        [
+          "AttackDamage",
+          "140"
+        ],
+        [
+          "AttackSpeed",
+          "170"
+        ],
+        [
+          "MaxLife",
+          "2350"
+        ],
+        [
+          "MovementSpeed",
+          "120"
+        ],
+        [
+          "DeadSoundKey",
+          "22090111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_20904"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/20904/Monster_20904"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

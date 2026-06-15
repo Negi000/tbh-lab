@@ -1,0 +1,198 @@
+{
+  "categoryId": "gear",
+  "entityId": "325101",
+  "slug": "325101-crystal-staff",
+  "title": {
+    "ja": "クリスタルスタッフ",
+    "en": "Crystal Staff"
+  },
+  "subtitle": {
+    "en": "Arcana / Staff / Main Weapon / Lv. 45",
+    "ja": "アルカナ / スタッフ / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320010.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "325101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "431"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "73"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "17"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "607"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "30001"
+        ],
+        [
+          "UniqueMod",
+          "FlameHydraBerserk"
+        ],
+        [
+          "Param1ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param1",
+          "2000"
+        ],
+        [
+          "Param2ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param2",
+          "300"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "325101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320010"
+        ],
+        [
+          "GearKey",
+          "325101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Staff\", \"ja\": \"クリスタルスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "313042",
+  "slug": "313042-composite-bow",
+  "title": {
+    "ja": "コンポジットボウ",
+    "en": "Composite Bow"
+  },
+  "subtitle": {
+    "en": "Legendary / Bow / Main Weapon / Lv. 15",
+    "ja": "レジェンダリー / 弓 / メイン武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310004.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "313042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "21"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "40"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "6"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "332"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "313042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310004"
+        ],
+        [
+          "GearKey",
+          "313042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Composite Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Composite Bow\", \"ja\": \"コンポジットボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Exceptional Bow Description\", \"ja\": \"Exceptional Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Exceptional Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Exceptional Bow\", \"description\": \"Exceptional Bow Description\", \"display_type\": \"Bow - Lv. 20\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

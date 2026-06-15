@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "325061",
+  "slug": "325061-elder-staff",
+  "title": {
+    "ja": "エルダースタッフ",
+    "en": "Elder Staff"
+  },
+  "subtitle": {
+    "en": "Arcana / Staff / Main Weapon / Lv. 25",
+    "ja": "アルカナ / スタッフ / メイン武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320006.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "325061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "141"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "57"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "21"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "420"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "325061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320006"
+        ],
+        [
+          "GearKey",
+          "325061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elder Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elder Staff\", \"ja\": \"エルダースタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

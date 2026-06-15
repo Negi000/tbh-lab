@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "342032",
+  "slug": "342032-long-crossbow",
+  "title": {
+    "ja": "ロングクロスボウ",
+    "en": "Long Crossbow"
+  },
+  "subtitle": {
+    "en": "Rare / Crossbow / Main Weapon / Lv. 10",
+    "ja": "レア / クロスボウ / メイン武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340003.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "342032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "10"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "15"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "342032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340003"
+        ],
+        [
+          "GearKey",
+          "342032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Long Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Long Crossbow\", \"ja\": \"ロングクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "336082",
+  "slug": "336082-heavy-scepter",
+  "title": {
+    "ja": "ヘビーセプター",
+    "en": "Heavy Scepter"
+  },
+  "subtitle": {
+    "en": "Beyond / Scepter / Main Weapon / Lv. 35",
+    "ja": "ビヨンド / セプター / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330008.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "336082"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "216"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "567"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "64"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "53"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "336082"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330008"
+        ],
+        [
+          "GearKey",
+          "336082"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Scepter\", \"ja\": \"ヘビーセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150007",
+  "slug": "150007-beyond-crafting-material",
+  "title": {
+    "ja": "ビヨンド クラフト素材",
+    "en": "Beyond Crafting Material"
+  },
+  "subtitle": {
+    "en": "Beyond / Crafting material",
+    "ja": "ビヨンド / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150005.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150007"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150007"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150007"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150007"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150005"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150007"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Beyond Crafting Material\", \"ja\": \"ビヨンド クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as beyond crafting material.\", \"ja\": \"ビヨンド クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "categoryId": "effects",
+  "entityId": "1310011",
+  "slug": "1310011-scroll-of-uncommon-inscription-effects",
+  "title": {
+    "ja": "アンコモン刻印の巻物 効果",
+    "en": "Scroll of Uncommon Inscription Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Block Chance, Cold Damage Enhancement",
+    "ja": "攻撃力, ブロック率, 冷気ダメージ強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_131001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "AttackDamage",
+    "BlockChance",
+    "ColdDamagePercent",
+    "ColdResistance",
+    "CooldownReduction",
+    "CriticalChance",
+    "CriticalDamage",
+    "DodgeChance",
+    "FireDamagePercent",
+    "FireResistance",
+    "HpRegenPerSec",
+    "LightningDamagePercent",
+    "LightningResistance",
+    "MaxHp",
+    "PhysicalDamagePercent",
+    "COMMON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1310011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "16"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Common",
+        "ja": "コモン"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Block Chance, Cold Damage Enhancement, Cold Resistance, Cooldown Reduction, Critical Chance",
+        "ja": "攻撃力, ブロック率, 冷気ダメージ強化, 氷冷耐性, クールタイム短縮, クリティカル率"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100102,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101601,
+          {
+            "ja": "回避率",
+            "en": "Dodge Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "回避率 +200~300%",
+            "en": "Dodge Chance +200~300%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101701,
+          {
+            "ja": "ブロック率",
+            "en": "Block Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ブロック率 +200~300%",
+            "en": "Block Chance +200~300%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102401,
+          {
+            "ja": "物理ダメージ強化",
+            "en": "Physical Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "物理ダメージ +1800~2500%",
+            "en": "Physical Damage +1800~2500%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102501,
+          {
+            "ja": "火炎ダメージ強化",
+            "en": "Fire Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎ダメージ +1800~2500%",
+            "en": "Fire Damage +1800~2500%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102601,
+          {
+            "ja": "冷気ダメージ強化",
+            "en": "Cold Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気ダメージ +1800~2500%",
+            "en": "Cold Damage +1800~2500%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102701,
+          {
+            "ja": "雷ダメージ強化",
+            "en": "Lightning Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷ダメージ +1800~2500%",
+            "en": "Lightning Damage +1800~2500%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101201,
+          {
+            "ja": "火炎耐性",
+            "en": "Fire Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎耐性 +50~55%",
+            "en": "Fire Resistance +50~55%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101301,
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101401,
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T2 - T4"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T2 - T4"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

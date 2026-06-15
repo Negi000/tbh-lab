@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "622061",
+  "slug": "622061-crystal-ring",
+  "title": {
+    "ja": "クリスタルリング",
+    "en": "Crystal Ring"
+  },
+  "subtitle": {
+    "en": "Rare / Ring / RING / Lv. 25",
+    "ja": "レア / リング / RING / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620006.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "622061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "56"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "622061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620006"
+        ],
+        [
+          "GearKey",
+          "622061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Ring\", \"ja\": \"クリスタルリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Magic ring Description\", \"ja\": \"Magic ring Description\"}"
+        ],
+        [
+          "mono_name",
+          "Magic ring"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Magic ring\", \"description\": \"Magic ring Description\", \"display_type\": \"Ring - Lv. 50\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"ring\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

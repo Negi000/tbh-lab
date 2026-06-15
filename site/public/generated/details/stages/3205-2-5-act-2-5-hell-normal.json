@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "3205",
+  "slug": "3205-2-5-act-2-5-hell-normal",
+  "title": {
+    "ja": "2-5 ヘル",
+    "en": "2-5 Act 2-5 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 65 / Boss Homunculus",
+    "en": "Hell / Lv 65 / Boss Homunculus"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3205"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "65"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "26"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Homunculus"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20011,
+          {
+            "ja": "サソリ",
+            "en": "Scorpion"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          20021,
+          {
+            "ja": "ラット族戦士",
+            "en": "Ratfolk Warrior"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          20022,
+          {
+            "ja": "ラット族弓兵",
+            "en": "Ratfolk Archer"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          20051,
+          {
+            "ja": "巨大バエ",
+            "en": "Giant Fly"
+          },
+          2000,
+          11,
+          11
+        ],
+        [
+          20041,
+          {
+            "ja": "毒虫",
+            "en": "Venom Insect"
+          },
+          200,
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "65"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "8735"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "165770"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "17610"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "341600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

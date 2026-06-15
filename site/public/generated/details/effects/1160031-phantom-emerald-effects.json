@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1160031",
+  "slug": "1160031-phantom-emerald-effects",
+  "title": {
+    "ja": "ファントムエメラルド 効果",
+    "en": "Phantom Emerald Effects"
+  },
+  "subtitle": {
+    "en": "Attack Speed, Chaos Resistance Enhancement, Movement Speed",
+    "ja": "攻撃速度, カオス耐性強化, 移動速度"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_116003.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "AttackSpeed",
+    "ChaosResistance",
+    "MovementSpeed",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1160031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Speed, Chaos Resistance Enhancement, Movement Speed",
+        "ja": "攻撃速度, カオス耐性強化, 移動速度"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100201,
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101501,
+          {
+            "ja": "カオス耐性強化",
+            "en": "Chaos Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "カオス耐性 +50~55%",
+            "en": "Chaos Resistance +50~55%"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T7 - T7"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

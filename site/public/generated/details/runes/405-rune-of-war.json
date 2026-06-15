@@ -1,0 +1,205 @@
+{
+  "categoryId": "runes",
+  "entityId": "405",
+  "slug": "405-rune-of-war",
+  "title": {
+    "ja": "戦争のルーン",
+    "en": "Rune of War"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 10",
+    "en": "Max Lv 10"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamagePercent.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AllHeroAttackDamagePercent",
+    "AllHeroAttackDamagePercent",
+    "max:10"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "405"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "全ヒーロー攻撃ダメージ",
+        "en": "All Hero Attack Damage"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "疾風のルーン",
+            "en": "Rune of the Gale"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "15000 ゴールド",
+            "en": "15000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "20000 ゴールド",
+            "en": "20000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "25000 ゴールド",
+            "en": "25000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "30000 ゴールド",
+            "en": "30000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "35000 ゴールド",
+            "en": "35000 Gold"
+          }
+        ],
+        [
+          6,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "40000 ゴールド",
+            "en": "40000 Gold"
+          }
+        ],
+        [
+          7,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "50000 ゴールド",
+            "en": "50000 Gold"
+          }
+        ],
+        [
+          8,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "60000 ゴールド",
+            "en": "60000 Gold"
+          }
+        ],
+        [
+          9,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "70000 ゴールド",
+            "en": "70000 Gold"
+          }
+        ],
+        [
+          10,
+          {
+            "ja": "全ヒーロー攻撃ダメージ20%増加",
+            "en": "20% Increased All Hero Attack Damage"
+          },
+          {
+            "ja": "80000 ゴールド",
+            "en": "80000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

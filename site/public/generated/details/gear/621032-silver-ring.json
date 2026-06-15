@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "621032",
+  "slug": "621032-silver-ring",
+  "title": {
+    "ja": "シルバーリング",
+    "en": "Silver Ring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Ring / RING / Lv. 10",
+    "ja": "アンコモン / リング / RING / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620003.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "621032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AddHpPerKill / FLAT",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "621032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620003"
+        ],
+        [
+          "GearKey",
+          "621032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Silver Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Silver Ring\", \"ja\": \"シルバーリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron ring Description\", \"ja\": \"Iron ring Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron ring"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron ring\", \"description\": \"Iron ring Description\", \"display_type\": \"Ring - Lv. 10\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"ring\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "categoryId": "database",
+  "entityId": "StageLevelInfoData",
+  "slug": "stage-level-info-data",
+  "title": {
+    "ja": "StageLevelInfoData",
+    "en": "StageLevelInfoData"
+  },
+  "subtitle": {
+    "ja": "170 records",
+    "en": "170 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "StageLevelInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "StageLevelInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "170"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "1"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "100"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "100"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "100"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "100"
+        ],
+        [
+          "StageLevel",
+          "2"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "130"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "180"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "150"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "130"
+        ],
+        [
+          "StageLevel",
+          "3"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "160"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "220"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "200"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "160"
+        ],
+        [
+          "StageLevel",
+          "4"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "190"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "300"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "300"
+        ],
+        [
+          "StageLevel",
+          "5"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "220"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "320"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "350"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "450"
+        ],
+        [
+          "StageLevel",
+          "6"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "260"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "440"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "380"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "650"
+        ],
+        [
+          "StageLevel",
+          "7"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "310"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "590"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "410"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "950"
+        ],
+        [
+          "StageLevel",
+          "8"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "350"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "720"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "440"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "1350"
+        ],
+        [
+          "StageLevel",
+          "9"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "380"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "820"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "470"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "1800"
+        ],
+        [
+          "StageLevel",
+          "10"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "410"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "970"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "550"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "2300"
+        ],
+        [
+          "StageLevel",
+          "11"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "440"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "1070"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "600"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "2900"
+        ],
+        [
+          "StageLevel",
+          "12"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "470"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "1470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "650"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "3700"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageLevelInfoData"
+  }
+}

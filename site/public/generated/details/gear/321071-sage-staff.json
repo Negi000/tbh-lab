@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "321071",
+  "slug": "321071-sage-staff",
+  "title": {
+    "ja": "セージスタッフ",
+    "en": "Sage Staff"
+  },
+  "subtitle": {
+    "en": "Uncommon / Staff / Main Weapon / Lv. 30",
+    "ja": "アンコモン / スタッフ / メイン武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320007.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "321071"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "11.76%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "11.76%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "11.76%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "11.76%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "11.76%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "11.76%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "6.404%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "6.404%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "6.404%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "6.404%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "6.404%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "6.404%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "1.838%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "1.838%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "1.838%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "1.838%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "43"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "321071"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320007"
+        ],
+        [
+          "GearKey",
+          "321071"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320007"
+        ],
+        [
+          "display_name",
+          "Sage Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sage Staff\", \"ja\": \"セージスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

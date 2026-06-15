@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1260031",
+  "slug": "1260031-titan-marrow-effects",
+  "title": {
+    "ja": "タイタンマロウ 効果",
+    "en": "Titan Marrow Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Damage Reduction Enhancement, Fire Damage Enhancement",
+    "ja": "攻撃力, ダメージ軽減強化, 火炎ダメージ強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_126003.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "AttackDamage",
+    "DamageReduction",
+    "FireDamagePercent",
+    "HpRegenPerSec",
+    "LightningResistance",
+    "MaxHp",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1260031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Damage Reduction Enhancement, Fire Damage Enhancement, HP Regen Enhancement, Lightning Resistance, Max HP",
+        "ja": "攻撃力, ダメージ軽減強化, 火炎ダメージ強化, 毎秒HP回復強化, 雷電耐性, 最大HP"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100102,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102501,
+          {
+            "ja": "火炎ダメージ強化",
+            "en": "Fire Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎ダメージ +1800~2500%",
+            "en": "Fire Damage +1800~2500%"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101401,
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          103401,
+          {
+            "ja": "ダメージ軽減強化",
+            "en": "Damage Reduction Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ軽減 +140~160%",
+            "en": "Damage Reduction +140~160%"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T7 - T7"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

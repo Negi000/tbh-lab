@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150009",
+  "slug": "150009-divine-crafting-material",
+  "title": {
+    "ja": "ディバイン クラフト素材",
+    "en": "Divine Crafting Material"
+  },
+  "subtitle": {
+    "en": "Divine / Crafting material",
+    "ja": "ディバイン / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150008.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150009"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150009"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150009"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150009"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150008"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150009"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Divine Crafting Material\", \"ja\": \"ディバイン クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as divine crafting material.\", \"ja\": \"ディバイン クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

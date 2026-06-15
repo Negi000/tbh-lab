@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "10401",
+  "slug": "10401-aegis-field",
+  "title": {
+    "ja": "イージスフィールド",
+    "en": "Aegis Field"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_10401.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10401"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "10401"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_10401"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_10401"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "20"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "150"
+        ],
+        [
+          "Order",
+          "600"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "10401"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_10401"
+        ],
+        [
+          "AttributeKey",
+          "101023"
+        ],
+        [
+          "SoundKey",
+          "1104011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

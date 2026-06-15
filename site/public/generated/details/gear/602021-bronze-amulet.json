@@ -1,0 +1,205 @@
+{
+  "categoryId": "gear",
+  "entityId": "602021",
+  "slug": "602021-bronze-amulet",
+  "title": {
+    "ja": "ブロンズアミュレット",
+    "en": "Bronze Amulet"
+  },
+  "subtitle": {
+    "en": "Rare / Amulet / AMULET / Lv. 5",
+    "ja": "レア / アミュレット / AMULET / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600002.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "602021"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3121022",
+            "en": "DropKey 3121022"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601007",
+            "en": "DropKey 3601007"
+          },
+          "2.02%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.004113%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "82"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "602021"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600002"
+        ],
+        [
+          "GearKey",
+          "602021"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600002"
+        ],
+        [
+          "display_name",
+          "Bronze Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Bronze Amulet\", \"ja\": \"ブロンズアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Magic amulet Description\", \"ja\": \"Magic amulet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Magic amulet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Magic amulet\", \"description\": \"Magic amulet Description\", \"display_type\": \"Amulet - Lv. 5\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"amulet\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

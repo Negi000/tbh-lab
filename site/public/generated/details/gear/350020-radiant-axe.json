@@ -1,0 +1,141 @@
+{
+  "categoryId": "gear",
+  "entityId": "350020",
+  "slug": "350020-radiant-axe",
+  "title": {
+    "ja": "レイディアントアックス",
+    "en": "Radiant Axe"
+  },
+  "subtitle": {
+    "en": "Common / Axe / Main Weapon / Lv. 100",
+    "ja": "コモン / 斧 / メイン武器 / Lv. 100"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350020.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350020.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "350020"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "106"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "350020"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350020"
+        ],
+        [
+          "GearKey",
+          "350020"
+        ],
+        [
+          "Level",
+          "100"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350020"
+        ],
+        [
+          "display_name",
+          "Radiant Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Radiant Axe\", \"ja\": \"レイディアントアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

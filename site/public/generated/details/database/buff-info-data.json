@@ -1,0 +1,272 @@
+{
+  "categoryId": "database",
+  "entityId": "BuffInfoData",
+  "slug": "buff-info-data",
+  "title": {
+    "ja": "BuffInfoData",
+    "en": "BuffInfoData"
+  },
+  "subtitle": {
+    "ja": "29 records",
+    "en": "29 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "BuffInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "BuffInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "29"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "BuffKey",
+          "1011"
+        ],
+        [
+          "BuffType",
+          "Debuff"
+        ],
+        [
+          "STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "MODTYPE",
+          "MULTIPLICATIVE"
+        ],
+        [
+          "Value",
+          "300"
+        ],
+        [
+          "BuffKey",
+          "1012"
+        ],
+        [
+          "BuffType",
+          "Debuff"
+        ],
+        [
+          "STATTYPE",
+          "MovementSpeed"
+        ],
+        [
+          "MODTYPE",
+          "MULTIPLICATIVE"
+        ],
+        [
+          "Value",
+          "300"
+        ],
+        [
+          "BuffKey",
+          "1031"
+        ],
+        [
+          "BuffType",
+          "Debuff"
+        ],
+        [
+          "STATTYPE",
+          "FireDamageAddition"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "200"
+        ],
+        [
+          "BuffKey",
+          "1041"
+        ],
+        [
+          "BuffType",
+          "Debuff"
+        ],
+        [
+          "STATTYPE",
+          "LightningDamageAddition"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "200"
+        ],
+        [
+          "BuffKey",
+          "1051"
+        ],
+        [
+          "BuffType",
+          "Debuff"
+        ],
+        [
+          "STATTYPE",
+          "PhysicalDamageAddition"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "200"
+        ],
+        [
+          "BuffKey",
+          "1061"
+        ],
+        [
+          "BuffType",
+          "Debuff"
+        ],
+        [
+          "STATTYPE",
+          "DamageAddition"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ],
+        [
+          "BuffKey",
+          "105011"
+        ],
+        [
+          "BuffType",
+          "Buff"
+        ],
+        [
+          "STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "500"
+        ],
+        [
+          "BuffKey",
+          "204011"
+        ],
+        [
+          "BuffType",
+          "Buff"
+        ],
+        [
+          "STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "500"
+        ],
+        [
+          "BuffKey",
+          "402011"
+        ],
+        [
+          "BuffType",
+          "Buff"
+        ],
+        [
+          "STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "MODTYPE",
+          "MULTIPLICATIVE"
+        ],
+        [
+          "BuffKey",
+          "405011"
+        ],
+        [
+          "BuffType",
+          "Buff"
+        ],
+        [
+          "STATTYPE",
+          "FireResistance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BuffKey",
+          "405012"
+        ],
+        [
+          "BuffType",
+          "Buff"
+        ],
+        [
+          "STATTYPE",
+          "ColdResistance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "BuffKey",
+          "405013"
+        ],
+        [
+          "BuffType",
+          "Buff"
+        ],
+        [
+          "STATTYPE",
+          "LightningResistance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "BuffInfoData"
+  }
+}

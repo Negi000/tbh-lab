@@ -1,0 +1,109 @@
+{
+  "categoryId": "materials",
+  "entityId": "160008",
+  "slug": "160008-empire-100th-anniversary-coin",
+  "title": {
+    "ja": "帝国百周年記念コイン",
+    "en": "Empire 100th Anniversary Coin"
+  },
+  "subtitle": {
+    "en": "Celestial / Offering material",
+    "ja": "セレスティアル / 奉納素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_160008.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_160008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "160008"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "160008"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "NameKey",
+          "ItemName_160008"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_160008"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_160008"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Empire 100th Anniversary Coin"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Empire 100th Anniversary Coin\", \"ja\": \"帝国百周年記念コイン\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A commemorative coin. Toss it into the cube with all your wishes.\", \"ja\": \"記念コイン。願いを込めてキューブに投げ入れよう。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

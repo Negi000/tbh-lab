@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "611042",
+  "slug": "611042-gold-earring",
+  "title": {
+    "ja": "ゴールドイヤリング",
+    "en": "Gold Earring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Earing / EARING / Lv. 15",
+    "ja": "アンコモン / イヤリング / EARING / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610004.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "611042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "611042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610004"
+        ],
+        [
+          "GearKey",
+          "611042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Gold Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Gold Earring\", \"ja\": \"ゴールドイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron earing Description\", \"ja\": \"Iron earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron earing\", \"description\": \"Iron earing Description\", \"display_type\": \"Earring - Lv. 20\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"earring\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

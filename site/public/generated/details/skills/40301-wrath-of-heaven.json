@@ -1,0 +1,135 @@
+{
+  "categoryId": "skills",
+  "entityId": "40301",
+  "slug": "40301-wrath-of-heaven",
+  "title": {
+    "ja": "天上の怒り",
+    "en": "Wrath of Heaven"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_40301.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Lightning"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "40301"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1050"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "40301"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_40301"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_40301"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "20"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "40301"
+        ],
+        [
+          "Param1",
+          "650"
+        ],
+        [
+          "Range",
+          "1050"
+        ],
+        [
+          "Order",
+          "600"
+        ],
+        [
+          "DamageType",
+          "Lightning"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "40301"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_40301"
+        ],
+        [
+          "AttributeKey",
+          "401013"
+        ],
+        [
+          "SoundKey",
+          "1403011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

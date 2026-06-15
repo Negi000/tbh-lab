@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "524052",
+  "slug": "524052-chain-gloves",
+  "title": {
+    "ja": "チェイングローブ",
+    "en": "Chain Gloves"
+  },
+  "subtitle": {
+    "en": "Immortal / Gloves / GLOVES / Lv. 20",
+    "ja": "イモータル / グローブ / GLOVES / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520005.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "524052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "92"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "36"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "160"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "524052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520005"
+        ],
+        [
+          "GearKey",
+          "524052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chain Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chain Gloves\", \"ja\": \"チェイングローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fate Gloves Description\", \"ja\": \"Fate Gloves Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fate Gloves"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fate Gloves\", \"description\": \"Fate Gloves Description\", \"display_type\": \"Gloves - Lv. 30\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"gloves\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

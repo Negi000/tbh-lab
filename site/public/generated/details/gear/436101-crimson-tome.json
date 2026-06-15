@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "436101",
+  "slug": "436101-crimson-tome",
+  "title": {
+    "ja": "クリムゾントーム",
+    "en": "Crimson Tome"
+  },
+  "subtitle": {
+    "en": "Beyond / Tome / Sub Weapon / Lv. 45",
+    "ja": "ビヨンド / 古書 / サブ武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430010.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "436101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "217"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "190"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "690"
+        },
+        {
+          "labelKey": "SkillHealIncrease / FLAT",
+          "value": "224"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "436101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430010"
+        ],
+        [
+          "GearKey",
+          "436101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crimson Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crimson Tome\", \"ja\": \"クリムゾントーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

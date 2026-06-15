@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1180021",
+  "slug": "1180021-abyssal-pearl-effects",
+  "title": {
+    "ja": "深淵の真珠 効果",
+    "en": "Abyssal Pearl Effects"
+  },
+  "subtitle": {
+    "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+    "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_118002.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "AddHpPerHit",
+    "HpLeech",
+    "HpRegenPerSec",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1180021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+        "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          103301,
+          {
+            "ja": "命中毎HP回復強化",
+            "en": "HP Per Hit Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "命中毎HP回復 +10~12",
+            "en": "HP Per Hit +10~12"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T9 - T9"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          102101,
+          {
+            "ja": "ライフ吸収強化",
+            "en": "Life Leech Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ライフ吸収 +55~65%",
+            "en": "Life Leech +55~65%"
+          },
+          "T9 - T9"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

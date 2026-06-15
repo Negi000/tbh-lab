@@ -1,0 +1,128 @@
+{
+  "categoryId": "runes",
+  "entityId": "25",
+  "slug": "25-rune-of-wealth",
+  "title": {
+    "ja": "富のルーン",
+    "en": "Rune of Wealth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 3",
+    "en": "Max Lv 3"
+  },
+  "icon": "/generated/assets/game/runes/IncreaseGoldAmount.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "IncreaseGoldAmount",
+    "IncreaseGoldAmount",
+    "max:3"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "25"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "モンスター討伐ゴールド",
+        "en": "Gold Per Monster Kill"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          1
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "撃破時のゴールド獲得量 +50%",
+            "en": "50% Increased Gold Per Kill"
+          },
+          {
+            "ja": "500 ゴールド",
+            "en": "500 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "撃破時のゴールド獲得量 +50%",
+            "en": "50% Increased Gold Per Kill"
+          },
+          {
+            "ja": "1000 ゴールド",
+            "en": "1000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "撃破時のゴールド獲得量 +50%",
+            "en": "50% Increased Gold Per Kill"
+          },
+          {
+            "ja": "1500 ゴールド",
+            "en": "1500 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

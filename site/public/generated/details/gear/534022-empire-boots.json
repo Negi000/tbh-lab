@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "534022",
+  "slug": "534022-empire-boots",
+  "title": {
+    "ja": "帝国のブーツ",
+    "en": "Empire Boots"
+  },
+  "subtitle": {
+    "en": "Immortal / Boots / BOOTS / Lv. 5",
+    "ja": "イモータル / ブーツ / BOOTS / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "534022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "37"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "35"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "534022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530002"
+        ],
+        [
+          "GearKey",
+          "534022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Empire Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Empire Boots\", \"ja\": \"帝国のブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Empire Boots Description\", \"ja\": \"Empire Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Empire Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Empire Boots\", \"description\": \"Empire Boots Description\", \"display_type\": \"Boots - Lv. 5\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"boots\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

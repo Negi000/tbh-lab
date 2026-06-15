@@ -1,0 +1,139 @@
+{
+  "categoryId": "skills",
+  "entityId": "60501",
+  "slug": "60501-axe-spin",
+  "title": {
+    "ja": "アックススピン",
+    "en": "Axe Spin"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_60501.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "60501"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "18"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "60501"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_60501"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_60501"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "18"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "60501"
+        ],
+        [
+          "Param1",
+          "500"
+        ],
+        [
+          "Param2",
+          "500"
+        ],
+        [
+          "Range",
+          "150"
+        ],
+        [
+          "Order",
+          "800"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Melee, AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "60501"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_60501"
+        ],
+        [
+          "AttributeKey",
+          "601033"
+        ],
+        [
+          "SoundKey",
+          "1303011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

@@ -1,0 +1,3428 @@
+{
+  "category": {
+    "id": "effects",
+    "titleKey": "category.effects.title",
+    "descriptionKey": "category.effects.description",
+    "count": 79,
+    "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+    "layout": "table",
+    "navGroup": "nav.database",
+    "listPath": "/generated/categories/effects.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "gearType",
+      "labelKey": "field.gearType"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    }
+  ],
+  "filters": [
+    {
+      "id": "gearType",
+      "labelKey": "filter.gearType",
+      "options": [
+        "ACCESSORY, ARMOR, WEAPON",
+        "COMMON"
+      ]
+    },
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "AreaOfEffect, BlockChance, CastSpeed",
+        "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "AreaOfEffect, CriticalDamage, MaxHp",
+        "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "Armor, AttackSpeed, CriticalDamage",
+        "Armor, CastSpeed, LightningDamagePercent",
+        "Armor, ColdDamagePercent, CriticalChance",
+        "Armor, CriticalDamage",
+        "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "AttackDamage, BlockChance",
+        "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "effects",
+      "entityId": "1100011",
+      "slug": "1100011-minor-ruby-effects",
+      "title": {
+        "ja": "スモールルビー 効果",
+        "en": "Minor Ruby Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+        "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+          "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100011-minor-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100021",
+      "slug": "1100021-minor-sapphire-effects",
+      "title": {
+        "ja": "マイナーサファイア 効果",
+        "en": "Minor Sapphire Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Cold Damage Enhancement, Critical Chance",
+        "ja": "防御力, 冷気ダメージ強化, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, ColdDamagePercent, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Cold Damage Enhancement, Critical Chance",
+          "ja": "防御力, 冷気ダメージ強化, クリティカル率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100021-minor-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100031",
+      "slug": "1100031-minor-topaz-effects",
+      "title": {
+        "ja": "マイナートパーズ 効果",
+        "en": "Minor Topaz Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Cast Speed, Lightning Damage Enhancement",
+        "ja": "防御力, 詠唱速度, 雷ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "Armor",
+        "CastSpeed",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CastSpeed, LightningDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Cast Speed, Lightning Damage Enhancement",
+          "ja": "防御力, 詠唱速度, 雷ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100031-minor-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100041",
+      "slug": "1100041-minor-emerald-effects",
+      "title": {
+        "ja": "スモールエメラルド 効果",
+        "en": "Minor Emerald Effects"
+      },
+      "subtitle": {
+        "en": "Attack Speed, Damage Absorption, Movement Speed",
+        "ja": "攻撃速度, ダメージ吸収, 移動速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110004.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, DamageAbsorption, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Speed, Damage Absorption, Movement Speed",
+          "ja": "攻撃速度, ダメージ吸収, 移動速度"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100041-minor-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1100051",
+      "slug": "1100051-minor-amethyst-effects",
+      "title": {
+        "ja": "マイナーアメジスト 効果",
+        "en": "Minor Amethyst Effects"
+      },
+      "subtitle": {
+        "en": "Cooldown Reduction, Max HP, Physical Damage Enhancement",
+        "ja": "クールタイム短縮, 最大HP, 物理ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_110005.png",
+      "rarity": "COMMON",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cooldown Reduction, Max HP, Physical Damage Enhancement",
+          "ja": "クールタイム短縮, 最大HP, 物理ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1100051-minor-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110011",
+      "slug": "1110011-obsidian-shard-effects",
+      "title": {
+        "ja": "黒曜石の破片 効果",
+        "en": "Obsidian Shard Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Block Chance",
+        "ja": "攻撃力, ブロック率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Block Chance",
+          "ja": "攻撃力, ブロック率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110011-obsidian-shard-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110021",
+      "slug": "1110021-coral-piece-effects",
+      "title": {
+        "ja": "珊瑚の欠片 効果",
+        "en": "Coral Piece Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+        "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+          "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110021-coral-piece-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110031",
+      "slug": "1110031-jade-stone-effects",
+      "title": {
+        "ja": "翡翠石 効果",
+        "en": "Jade Stone Effects"
+      },
+      "subtitle": {
+        "en": "Attack Speed, Critical Chance, Dodge Chance",
+        "ja": "攻撃速度, クリティカル率, 回避率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackSpeed",
+        "CriticalChance",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Speed, Critical Chance, Dodge Chance",
+          "ja": "攻撃速度, クリティカル率, 回避率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110031-jade-stone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1110041",
+      "slug": "1110041-amber-gem-effects",
+      "title": {
+        "ja": "アンバージェム 効果",
+        "en": "Amber Gem Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Critical Damage, Max HP",
+        "ja": "効果範囲強化, クリティカルダメージ, 最大HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_111004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "CriticalDamage",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CriticalDamage, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Critical Damage, Max HP",
+          "ja": "効果範囲強化, クリティカルダメージ, 最大HP"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1110041-amber-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120011",
+      "slug": "1120011-ruby-effects",
+      "title": {
+        "ja": "ルビー 効果",
+        "en": "Ruby Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+        "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+          "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120011-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120021",
+      "slug": "1120021-sapphire-effects",
+      "title": {
+        "ja": "サファイア 効果",
+        "en": "Sapphire Effects"
+      },
+      "subtitle": {
+        "en": "Cold Damage Enhancement, Cold Resistance, Critical Chance",
+        "ja": "冷気ダメージ強化, 氷冷耐性, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112002.png",
+      "rarity": "RARE",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cold Damage Enhancement, Cold Resistance, Critical Chance",
+          "ja": "冷気ダメージ強化, 氷冷耐性, クリティカル率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120021-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120031",
+      "slug": "1120031-topaz-effects",
+      "title": {
+        "ja": "トパーズ 効果",
+        "en": "Topaz Effects"
+      },
+      "subtitle": {
+        "en": "Cast Speed, Lightning Damage Enhancement, Lightning Resistance",
+        "ja": "詠唱速度, 雷ダメージ強化, 雷電耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112003.png",
+      "rarity": "RARE",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cast Speed, Lightning Damage Enhancement, Lightning Resistance",
+          "ja": "詠唱速度, 雷ダメージ強化, 雷電耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120031-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120041",
+      "slug": "1120041-emerald-effects",
+      "title": {
+        "ja": "エメラルド 効果",
+        "en": "Emerald Effects"
+      },
+      "subtitle": {
+        "en": "Attack Speed, Chaos Resistance Enhancement, Movement Speed",
+        "ja": "攻撃速度, カオス耐性強化, 移動速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Speed, Chaos Resistance Enhancement, Movement Speed",
+          "ja": "攻撃速度, カオス耐性強化, 移動速度"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120041-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1120051",
+      "slug": "1120051-amethyst-effects",
+      "title": {
+        "ja": "アメジスト 効果",
+        "en": "Amethyst Effects"
+      },
+      "subtitle": {
+        "en": "Cooldown Reduction, Max HP, Physical Damage Enhancement",
+        "ja": "クールタイム短縮, 最大HP, 物理ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_112005.png",
+      "rarity": "RARE",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cooldown Reduction, Max HP, Physical Damage Enhancement",
+          "ja": "クールタイム短縮, 最大HP, 物理ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1120051-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130011",
+      "slug": "1130011-crystal-quartz-effects",
+      "title": {
+        "ja": "クリスタルクォーツ 効果",
+        "en": "Crystal Quartz Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Critical Damage, HP Regen Enhancement",
+        "ja": "攻撃力, クリティカルダメージ, 毎秒HP回復強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "CriticalDamage",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CriticalDamage, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Critical Damage, HP Regen Enhancement",
+          "ja": "攻撃力, クリティカルダメージ, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130011-crystal-quartz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130021",
+      "slug": "1130021-pearl-effects",
+      "title": {
+        "ja": "真珠 効果",
+        "en": "Pearl Effects"
+      },
+      "subtitle": {
+        "en": "Cooldown Reduction, Critical Chance, Damage Reduction Enhancement",
+        "ja": "クールタイム短縮, クリティカル率, ダメージ軽減強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cooldown Reduction, Critical Chance, Damage Reduction Enhancement",
+          "ja": "クールタイム短縮, クリティカル率, ダメージ軽減強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130021-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130031",
+      "slug": "1130031-turquoise-effects",
+      "title": {
+        "ja": "ターコイズ 効果",
+        "en": "Turquoise Effects"
+      },
+      "subtitle": {
+        "en": "Cooldown Reduction, Critical Chance, Max HP",
+        "ja": "クールタイム短縮, クリティカル率, 最大HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CooldownReduction",
+        "CriticalChance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, CriticalChance, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cooldown Reduction, Critical Chance, Max HP",
+          "ja": "クールタイム短縮, クリティカル率, 最大HP"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130031-turquoise-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1130041",
+      "slug": "1130041-garnet-effects",
+      "title": {
+        "ja": "ガーネット 効果",
+        "en": "Garnet Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Attack Speed, Critical Damage",
+        "ja": "防御力, 攻撃速度, クリティカルダメージ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_113004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Attack Speed, Critical Damage",
+          "ja": "防御力, 攻撃速度, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1130041-garnet-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140011",
+      "slug": "1140011-diamond-effects",
+      "title": {
+        "ja": "ダイヤモンド 効果",
+        "en": "Diamond Effects"
+      },
+      "subtitle": {
+        "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+        "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+          "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140011-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140021",
+      "slug": "1140021-opal-effects",
+      "title": {
+        "ja": "オパール 効果",
+        "en": "Opal Effects"
+      },
+      "subtitle": {
+        "en": "Attack Speed, HP Regen Enhancement, Max HP",
+        "ja": "攻撃速度, 毎秒HP回復強化, 最大HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackSpeed",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, HpRegenPerSec, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Speed, HP Regen Enhancement, Max HP",
+          "ja": "攻撃速度, 毎秒HP回復強化, 最大HP"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140021-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140031",
+      "slug": "1140031-lapis-lazuli-effects",
+      "title": {
+        "ja": "ラピスラズリ 効果",
+        "en": "Lapis Lazuli Effects"
+      },
+      "subtitle": {
+        "en": "Critical Chance, Dodge Chance, Movement Speed",
+        "ja": "クリティカル率, 回避率, 移動速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "CriticalChance",
+        "DodgeChance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DodgeChance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Critical Chance, Dodge Chance, Movement Speed",
+          "ja": "クリティカル率, 回避率, 移動速度"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140031-lapis-lazuli-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1140041",
+      "slug": "1140041-black-pearl-effects",
+      "title": {
+        "ja": "ブラックパール 効果",
+        "en": "Black Pearl Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Block Chance, Cast Speed",
+        "ja": "効果範囲強化, ブロック率, 詠唱速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_114004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CastSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CastSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Block Chance, Cast Speed",
+          "ja": "効果範囲強化, ブロック率, 詠唱速度"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1140041-black-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150011",
+      "slug": "1150011-arcane-crystal-effects",
+      "title": {
+        "ja": "アーケインクリスタル 効果",
+        "en": "Arcane Crystal Effects"
+      },
+      "subtitle": {
+        "en": "Cast Speed, Cooldown Reduction, Critical Damage",
+        "ja": "詠唱速度, クールタイム短縮, クリティカルダメージ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "CooldownReduction",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cast Speed, Cooldown Reduction, Critical Damage",
+          "ja": "詠唱速度, クールタイム短縮, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150011-arcane-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150021",
+      "slug": "1150021-mystic-topaz-effects",
+      "title": {
+        "ja": "ミスティックトパーズ 効果",
+        "en": "Mystic Topaz Effects"
+      },
+      "subtitle": {
+        "en": "Cast Speed, Lightning Damage Enhancement, Lightning Resistance",
+        "ja": "詠唱速度, 雷ダメージ強化, 雷電耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "CastSpeed",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, LightningDamagePercent, LightningResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cast Speed, Lightning Damage Enhancement, Lightning Resistance",
+          "ja": "詠唱速度, 雷ダメージ強化, 雷電耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150021-mystic-topaz-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150031",
+      "slug": "1150031-enchanted-ruby-effects",
+      "title": {
+        "ja": "エンチャントルビー 効果",
+        "en": "Enchanted Ruby Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+        "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "FireDamagePercent",
+        "FireResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Fire Damage Enhancement, Fire Resistance",
+          "ja": "攻撃力, 火炎ダメージ強化, 火炎耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150031-enchanted-ruby-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1150041",
+      "slug": "1150041-starlight-sapphire-effects",
+      "title": {
+        "ja": "星光のサファイア 効果",
+        "en": "Starlight Sapphire Effects"
+      },
+      "subtitle": {
+        "en": "Cold Damage Enhancement, Cold Resistance, Critical Chance",
+        "ja": "冷気ダメージ強化, 氷冷耐性, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_115004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "ColdDamagePercent, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cold Damage Enhancement, Cold Resistance, Critical Chance",
+          "ja": "冷気ダメージ強化, 氷冷耐性, クリティカル率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1150041-starlight-sapphire-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160011",
+      "slug": "1160011-void-opal-effects",
+      "title": {
+        "ja": "虚空のオパール 効果",
+        "en": "Void Opal Effects"
+      },
+      "subtitle": {
+        "en": "Cooldown Reduction, Max HP",
+        "ja": "クールタイム短縮, 最大HP"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cooldown Reduction, Max HP",
+          "ja": "クールタイム短縮, 最大HP"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160011-void-opal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160021",
+      "slug": "1160021-astral-diamond-effects",
+      "title": {
+        "ja": "アストラルダイヤ 効果",
+        "en": "Astral Diamond Effects"
+      },
+      "subtitle": {
+        "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+        "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+          "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160021-astral-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160031",
+      "slug": "1160031-phantom-emerald-effects",
+      "title": {
+        "ja": "ファントムエメラルド 効果",
+        "en": "Phantom Emerald Effects"
+      },
+      "subtitle": {
+        "en": "Attack Speed, Chaos Resistance Enhancement, Movement Speed",
+        "ja": "攻撃速度, カオス耐性強化, 移動速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackSpeed",
+        "ChaosResistance",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ChaosResistance, MovementSpeed",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Speed, Chaos Resistance Enhancement, Movement Speed",
+          "ja": "攻撃速度, カオス耐性強化, 移動速度"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160031-phantom-emerald-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1160041",
+      "slug": "1160041-twilight-amethyst-effects",
+      "title": {
+        "ja": "トワイライトアメジスト 効果",
+        "en": "Twilight Amethyst Effects"
+      },
+      "subtitle": {
+        "en": "Cooldown Reduction, Max HP, Physical Damage Enhancement",
+        "ja": "クールタイム短縮, 最大HP, 物理ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_116004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CooldownReduction, MaxHp, PhysicalDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cooldown Reduction, Max HP, Physical Damage Enhancement",
+          "ja": "クールタイム短縮, 最大HP, 物理ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1160041-twilight-amethyst-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170011",
+      "slug": "1170011-celestial-pearl-effects",
+      "title": {
+        "ja": "セレスティアルパール 効果",
+        "en": "Celestial Pearl Effects"
+      },
+      "subtitle": {
+        "en": "Critical Chance, Damage Absorption",
+        "ja": "クリティカル率, ダメージ吸収"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "CriticalChance",
+        "DamageAbsorption",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Critical Chance, Damage Absorption",
+          "ja": "クリティカル率, ダメージ吸収"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170011-celestial-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1170021",
+      "slug": "1170021-dragonite-crystal-effects",
+      "title": {
+        "ja": "ドラゴナイトクリスタル 効果",
+        "en": "Dragonite Crystal Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Critical Damage",
+        "ja": "防御力, クリティカルダメージ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_117002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "CriticalDamage",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Critical Damage",
+          "ja": "防御力, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1170021-dragonite-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180011",
+      "slug": "1180011-void-crystal-effects",
+      "title": {
+        "ja": "ヴォイドクリスタル 効果",
+        "en": "Void Crystal Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Cooldown Reduction",
+        "ja": "攻撃力, クールタイム短縮"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Cooldown Reduction",
+          "ja": "攻撃力, クールタイム短縮"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180011-void-crystal-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1180021",
+      "slug": "1180021-abyssal-pearl-effects",
+      "title": {
+        "ja": "深淵の真珠 効果",
+        "en": "Abyssal Pearl Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+        "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_118002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "HpLeech",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, HpLeech, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+          "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1180021-abyssal-pearl-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190011",
+      "slug": "1190011-ethereal-gem-effects",
+      "title": {
+        "ja": "エーテルジェム 効果",
+        "en": "Ethereal Gem Effects"
+      },
+      "subtitle": {
+        "en": "Attack Skill Enhancement, Damage Reduction Enhancement, Multistrike Enhancement",
+        "ja": "攻撃スキル強化, ダメージ軽減強化, マルチストライク強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "BaseAttackCountReduction",
+        "DamageReduction",
+        "Multistrike",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BaseAttackCountReduction, DamageReduction, Multistrike",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Skill Enhancement, Damage Reduction Enhancement, Multistrike Enhancement",
+          "ja": "攻撃スキル強化, ダメージ軽減強化, マルチストライク強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190011-ethereal-gem-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1190021",
+      "slug": "1190021-chaos-diamond-effects",
+      "title": {
+        "ja": "混沌のダイヤモンド 効果",
+        "en": "Chaos Diamond Effects"
+      },
+      "subtitle": {
+        "en": "All Elemental Resistance Enhancement, Critical Damage, Projectile Count Enhancement",
+        "ja": "全属性耐性強化, クリティカルダメージ, 投射物数強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_119002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "CriticalDamage",
+        "ProjectileCount",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, CriticalDamage, ProjectileCount",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "3"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "All Elemental Resistance Enhancement, Critical Damage, Projectile Count Enhancement",
+          "ja": "全属性耐性強化, クリティカルダメージ, 投射物数強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1190021-chaos-diamond-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200011",
+      "slug": "1200011-goblin-hide-effects",
+      "title": {
+        "ja": "ゴブリンの皮 効果",
+        "en": "Goblin Hide Effects"
+      },
+      "subtitle": {
+        "en": "Attack Speed, Cold Resistance, Fire Damage Enhancement",
+        "ja": "攻撃速度, 氷冷耐性, 火炎ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackSpeed",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackSpeed, ColdResistance, FireDamagePercent, FireResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Speed, Cold Resistance, Fire Damage Enhancement, Fire Resistance",
+          "ja": "攻撃速度, 氷冷耐性, 火炎ダメージ強化, 火炎耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200011-goblin-hide-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200021",
+      "slug": "1200021-skeleton-bone-effects",
+      "title": {
+        "ja": "スケルトンボーン 効果",
+        "en": "Skeleton Bone Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Armor, Attack Speed",
+        "ja": "命中毎HP回復強化, 防御力, 攻撃速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120002.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Armor, Attack Speed, Critical Damage",
+          "ja": "命中毎HP回復強化, 防御力, 攻撃速度, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200021-skeleton-bone-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1200031",
+      "slug": "1200031-slime-jelly-effects",
+      "title": {
+        "ja": "スライムゼリー 効果",
+        "en": "Slime Jelly Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Attack Speed, Block Chance",
+        "ja": "攻撃力, 攻撃速度, ブロック率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_120003.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, BlockChance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Attack Speed, Block Chance, Critical Chance",
+          "ja": "攻撃力, 攻撃速度, ブロック率, クリティカル率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1200031-slime-jelly-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210011",
+      "slug": "1210011-wolf-fang-effects",
+      "title": {
+        "ja": "ウルフファング 効果",
+        "en": "Wolf Fang Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Armor",
+        "ja": "命中毎HP回復強化, 効果範囲強化, 防御力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "CriticalChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Armor, Attack Damage",
+          "ja": "命中毎HP回復強化, 効果範囲強化, 防御力, 攻撃力"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210011-wolf-fang-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210021",
+      "slug": "1210021-spider-silk-effects",
+      "title": {
+        "ja": "スパイダーシルク 効果",
+        "en": "Spider Silk Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Cold Resistance, Cooldown Reduction",
+        "ja": "効果範囲強化, 氷冷耐性, クールタイム短縮"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121002.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AreaOfEffect",
+        "ColdResistance",
+        "CooldownReduction",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, ColdResistance, CooldownReduction, MaxHp",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Cold Resistance, Cooldown Reduction, Max HP",
+          "ja": "効果範囲強化, 氷冷耐性, クールタイム短縮, 最大HP"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210021-spider-silk-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210031",
+      "slug": "1210031-poisonous-herb-effects",
+      "title": {
+        "ja": "毒草 効果",
+        "en": "Poisonous Herb Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Attack Damage, Damage Absorption",
+        "ja": "防御力, 攻撃力, ダメージ吸収"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121003.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "DamageAbsorption",
+        "HpLeech",
+        "LightningDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, DamageAbsorption, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Attack Damage, Damage Absorption, Life Leech Enhancement",
+          "ja": "防御力, 攻撃力, ダメージ吸収, ライフ吸収強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210031-poisonous-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1210041",
+      "slug": "1210041-healing-herb-effects",
+      "title": {
+        "ja": "癒しの薬草 効果",
+        "en": "Healing Herb Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Cold Damage Enhancement, Critical Chance",
+        "ja": "攻撃力, 冷気ダメージ強化, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_121004.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "ColdDamagePercent",
+        "CriticalChance",
+        "DodgeChance",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ColdDamagePercent, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Cold Damage Enhancement, Critical Chance, Dodge Chance",
+          "ja": "攻撃力, 冷気ダメージ強化, クリティカル率, 回避率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1210041-healing-herb-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220011",
+      "slug": "1220011-bat-wing-membrane-effects",
+      "title": {
+        "ja": "コウモリの翼膜 効果",
+        "en": "Bat Wing Membrane Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Critical Damage, Damage Reduction Enhancement",
+        "ja": "命中毎HP回復強化, クリティカルダメージ, ダメージ軽減強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "CriticalDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "LightningDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, CriticalDamage, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Critical Damage, Damage Reduction Enhancement, Fire Damage Enhancement",
+          "ja": "命中毎HP回復強化, クリティカルダメージ, ダメージ軽減強化, 火炎ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220011-bat-wing-membrane-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220021",
+      "slug": "1220021-ogre-blood-effects",
+      "title": {
+        "ja": "オーガブラッド 効果",
+        "en": "Ogre Blood Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Attack Damage, Cold Resistance",
+        "ja": "効果範囲強化, 攻撃力, 氷冷耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122002.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Attack Damage, Cold Resistance, HP Regen Enhancement",
+          "ja": "効果範囲強化, 攻撃力, 氷冷耐性, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220021-ogre-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220031",
+      "slug": "1220031-mushroom-spore-effects",
+      "title": {
+        "ja": "キノコの胞子 効果",
+        "en": "Mushroom Spore Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Block Chance, Cooldown Reduction",
+        "ja": "命中毎HP回復強化, ブロック率, クールタイム短縮"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122003.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CooldownReduction, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Block Chance, Cooldown Reduction, HP Regen Enhancement",
+          "ja": "命中毎HP回復強化, ブロック率, クールタイム短縮, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220031-mushroom-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1220041",
+      "slug": "1220041-ancient-tree-sap-effects",
+      "title": {
+        "ja": "古代樹の樹液 効果",
+        "en": "Ancient Tree Sap Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Attack Speed, Critical Damage",
+        "ja": "効果範囲強化, 攻撃速度, クリティカルダメージ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_122004.png",
+      "rarity": "RARE",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "CriticalDamage",
+        "DamageReduction",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, CriticalDamage, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Attack Speed, Critical Damage, Damage Reduction Enhancement",
+          "ja": "効果範囲強化, 攻撃速度, クリティカルダメージ, ダメージ軽減強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1220041-ancient-tree-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230011",
+      "slug": "1230011-skull-effects",
+      "title": {
+        "ja": "スカル 効果",
+        "en": "Skull Effects"
+      },
+      "subtitle": {
+        "en": "Cast Speed, Chaos Resistance Enhancement, Cooldown Reduction",
+        "ja": "詠唱速度, カオス耐性強化, クールタイム短縮"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalDamage",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "CastSpeed, ChaosResistance, CooldownReduction, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Cast Speed, Chaos Resistance Enhancement, Cooldown Reduction, Critical Damage",
+          "ja": "詠唱速度, カオス耐性強化, クールタイム短縮, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230011-skull-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230021",
+      "slug": "1230021-harpy-feather-effects",
+      "title": {
+        "ja": "ハーピーの羽 効果",
+        "en": "Harpy Feather Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Block Chance, Damage Reduction Enhancement",
+        "ja": "攻撃力, ブロック率, ダメージ軽減強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123002.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "DamageReduction",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, DamageReduction, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Block Chance, Damage Reduction Enhancement, Fire Damage Enhancement",
+          "ja": "攻撃力, ブロック率, ダメージ軽減強化, 火炎ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230021-harpy-feather-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230031",
+      "slug": "1230031-mandrake-root-effects",
+      "title": {
+        "ja": "マンドレイクの根 効果",
+        "en": "Mandrake Root Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Cold Resistance, Fire Damage Enhancement",
+        "ja": "命中毎HP回復強化, 氷冷耐性, 火炎ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123003.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "FireDamagePercent",
+        "HpLeech",
+        "HpRegenPerSec",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, FireDamagePercent, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Cold Resistance, Fire Damage Enhancement, Life Leech Enhancement",
+          "ja": "命中毎HP回復強化, 氷冷耐性, 火炎ダメージ強化, ライフ吸収強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230031-mandrake-root-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1230041",
+      "slug": "1230041-nightshade-extract-effects",
+      "title": {
+        "ja": "ナイトシェードエキス 効果",
+        "en": "Nightshade Extract Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Attack Damage, Cold Resistance",
+        "ja": "命中毎HP回復強化, 攻撃力, 氷冷耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_123004.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "AddHpPerHit",
+        "AttackDamage",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AttackDamage, ColdResistance, CriticalChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Attack Damage, Cold Resistance, Critical Chance",
+          "ja": "命中毎HP回復強化, 攻撃力, 氷冷耐性, クリティカル率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1230041-nightshade-extract-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240011",
+      "slug": "1240011-basilisk-scale-effects",
+      "title": {
+        "ja": "バジリスクの鱗 効果",
+        "en": "Basilisk Scale Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Cast Speed, Damage Reduction Enhancement",
+        "ja": "攻撃力, 詠唱速度, ダメージ軽減強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "DamageReduction",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, DamageReduction, HpLeech",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Cast Speed, Damage Reduction Enhancement, Life Leech Enhancement",
+          "ja": "攻撃力, 詠唱速度, ダメージ軽減強化, ライフ吸収強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240011-basilisk-scale-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240021",
+      "slug": "1240021-wyvern-claw-effects",
+      "title": {
+        "ja": "ワイバーンの爪 効果",
+        "en": "Wyvern Claw Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Armor, Cold Damage Enhancement",
+        "ja": "命中毎HP回復強化, 防御力, 冷気ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124002.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CriticalChance",
+        "HpRegenPerSec",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, ColdDamagePercent, ColdResistance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Armor, Cold Damage Enhancement, Cold Resistance",
+          "ja": "命中毎HP回復強化, 防御力, 冷気ダメージ強化, 氷冷耐性"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240021-wyvern-claw-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240031",
+      "slug": "1240031-dice-effects",
+      "title": {
+        "ja": "ダイス 効果",
+        "en": "Dice Effects"
+      },
+      "subtitle": {
+        "en": "Block Chance, Cold Damage Enhancement, Cooldown Reduction",
+        "ja": "ブロック率, 冷気ダメージ強化, クールタイム短縮"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124003.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "BlockChance",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "DamageAbsorption",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "BlockChance, ColdDamagePercent, CooldownReduction, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Block Chance, Cold Damage Enhancement, Cooldown Reduction, Damage Absorption",
+          "ja": "ブロック率, 冷気ダメージ強化, クールタイム短縮, ダメージ吸収"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240031-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1240041",
+      "slug": "1240041-demon-blood-effects",
+      "title": {
+        "ja": "デーモンブラッド 効果",
+        "en": "Demon Blood Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Block Chance, Critical Chance",
+        "ja": "効果範囲強化, ブロック率, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_124004.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "BlockChance",
+        "CriticalChance",
+        "DodgeChance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, BlockChance, CriticalChance, DodgeChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Block Chance, Critical Chance, Dodge Chance",
+          "ja": "効果範囲強化, ブロック率, クリティカル率, 回避率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1240041-demon-blood-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250011",
+      "slug": "1250011-minotaur-horn-effects",
+      "title": {
+        "ja": "ミノタウロスの角 効果",
+        "en": "Minotaur Horn Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Attack Speed, Cold Damage Enhancement",
+        "ja": "効果範囲強化, 攻撃速度, 冷気ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AreaOfEffect",
+        "AttackSpeed",
+        "ColdDamagePercent",
+        "CooldownReduction",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackSpeed, ColdDamagePercent, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Attack Speed, Cold Damage Enhancement, Cooldown Reduction",
+          "ja": "効果範囲強化, 攻撃速度, 冷気ダメージ強化, クールタイム短縮"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250011-minotaur-horn-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250021",
+      "slug": "1250021-griffin-beak-effects",
+      "title": {
+        "ja": "グリフィンのくちばし 効果",
+        "en": "Griffin Beak Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Cast Speed, Cold Damage Enhancement",
+        "ja": "攻撃力, 詠唱速度, 冷気ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125002.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "CriticalDamage",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, ColdDamagePercent, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Cast Speed, Cold Damage Enhancement, Critical Damage",
+          "ja": "攻撃力, 詠唱速度, 冷気ダメージ強化, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250021-griffin-beak-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250031",
+      "slug": "1250031-phoenix-ash-effects",
+      "title": {
+        "ja": "フェニックスの灰 効果",
+        "en": "Phoenix Ash Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Attack Speed, Critical Chance",
+        "ja": "攻撃力, 攻撃速度, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125003.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AttackDamage",
+        "AttackSpeed",
+        "CriticalChance",
+        "CriticalDamage",
+        "DamageAbsorption",
+        "DamageReduction",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, AttackSpeed, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Attack Speed, Critical Chance, Critical Damage",
+          "ja": "攻撃力, 攻撃速度, クリティカル率, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250031-phoenix-ash-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1250041",
+      "slug": "1250041-dragon-bile-effects",
+      "title": {
+        "ja": "ドラゴンの胆汁 効果",
+        "en": "Dragon Bile Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Block Chance, Critical Chance",
+        "ja": "命中毎HP回復強化, ブロック率, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_125004.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Block Chance, Critical Chance, Critical Damage",
+          "ja": "命中毎HP回復強化, ブロック率, クリティカル率, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1250041-dragon-bile-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260011",
+      "slug": "1260011-wraith-essence-effects",
+      "title": {
+        "ja": "レイスの精髄 効果",
+        "en": "Wraith Essence Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Block Chance, Critical Damage",
+        "ja": "命中毎HP回復強化, ブロック率, クリティカルダメージ"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "BlockChance",
+        "CriticalDamage",
+        "FireDamagePercent",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, BlockChance, CriticalDamage, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Block Chance, Critical Damage, Fire Damage Enhancement",
+          "ja": "命中毎HP回復強化, ブロック率, クリティカルダメージ, 火炎ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260011-wraith-essence-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260021",
+      "slug": "1260021-kraken-ink-effects",
+      "title": {
+        "ja": "クラーケンインク 効果",
+        "en": "Kraken Ink Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Attack Damage",
+        "ja": "命中毎HP回復強化, 効果範囲強化, 攻撃力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126002.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "AttackDamage",
+        "ColdDamagePercent",
+        "DodgeChance",
+        "LightningResistance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, AttackDamage, ColdDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Attack Damage, Cold Damage Enhancement",
+          "ja": "命中毎HP回復強化, 効果範囲強化, 攻撃力, 冷気ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260021-kraken-ink-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260031",
+      "slug": "1260031-titan-marrow-effects",
+      "title": {
+        "ja": "タイタンマロウ 効果",
+        "en": "Titan Marrow Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Damage Reduction Enhancement, Fire Damage Enhancement",
+        "ja": "攻撃力, ダメージ軽減強化, 火炎ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126003.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AttackDamage",
+        "DamageReduction",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "LightningResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, DamageReduction, FireDamagePercent, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Damage Reduction Enhancement, Fire Damage Enhancement, HP Regen Enhancement",
+          "ja": "攻撃力, ダメージ軽減強化, 火炎ダメージ強化, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260031-titan-marrow-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1260041",
+      "slug": "1260041-void-ichor-effects",
+      "title": {
+        "ja": "ヴォイドの精髄 効果",
+        "en": "Void Ichor Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Cold Resistance, Critical Chance",
+        "ja": "命中毎HP回復強化, 氷冷耐性, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_126004.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerHit",
+        "ColdResistance",
+        "CriticalChance",
+        "DamageReduction",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, ColdResistance, CriticalChance, DamageReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Cold Resistance, Critical Chance, Damage Reduction Enhancement",
+          "ja": "命中毎HP回復強化, 氷冷耐性, クリティカル率, ダメージ軽減強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1260041-void-ichor-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270011",
+      "slug": "1270011-abyssal-mucus-effects",
+      "title": {
+        "ja": "深淵の粘液 効果",
+        "en": "Abyssal Mucus Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Attack Speed, Block Chance",
+        "ja": "防御力, 攻撃速度, ブロック率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "FireDamagePercent",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "Armor, AttackSpeed, BlockChance, CooldownReduction",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Attack Speed, Block Chance, Cooldown Reduction",
+          "ja": "防御力, 攻撃速度, ブロック率, クールタイム短縮"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270011-abyssal-mucus-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1270021",
+      "slug": "1270021-chaos-spore-effects",
+      "title": {
+        "ja": "カオススポア 効果",
+        "en": "Chaos Spore Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Chaos Resistance Enhancement, Cold Resistance",
+        "ja": "攻撃力, カオス耐性強化, 氷冷耐性"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_127002.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "PhysicalDamagePercent",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, ChaosResistance, ColdResistance, HpRegenPerSec",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Chaos Resistance Enhancement, Cold Resistance, HP Regen Enhancement",
+          "ja": "攻撃力, カオス耐性強化, 氷冷耐性, 毎秒HP回復強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1270021-chaos-spore-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280011",
+      "slug": "1280011-primordial-sap-effects",
+      "title": {
+        "ja": "原初の樹液 効果",
+        "en": "Primordial Sap Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Cast Speed, Chaos Resistance Enhancement",
+        "ja": "効果範囲強化, 詠唱速度, カオス耐性強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AreaOfEffect",
+        "CastSpeed",
+        "ChaosResistance",
+        "FireDamagePercent",
+        "HpRegenPerSec",
+        "MovementSpeed",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, CastSpeed, ChaosResistance, FireDamagePercent",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Cast Speed, Chaos Resistance Enhancement, Fire Damage Enhancement",
+          "ja": "効果範囲強化, 詠唱速度, カオス耐性強化, 火炎ダメージ強化"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280011-primordial-sap-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1280021",
+      "slug": "1280021-eldritch-venom-effects",
+      "title": {
+        "ja": "異界の毒 効果",
+        "en": "Eldritch Venom Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Armor, Attack Speed",
+        "ja": "命中毎HP回復強化, 防御力, 攻撃速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_128002.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackSpeed",
+        "BlockChance",
+        "CooldownReduction",
+        "CriticalChance",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackSpeed, BlockChance",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Armor, Attack Speed, Block Chance",
+          "ja": "命中毎HP回復強化, 防御力, 攻撃速度, ブロック率"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1280021-eldritch-venom-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290011",
+      "slug": "1290011-chaso-dice-effects",
+      "title": {
+        "ja": "チャソダイス 効果",
+        "en": "Chaso Dice Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Cast Speed, Critical Chance",
+        "ja": "攻撃力, 詠唱速度, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CastSpeed",
+        "CriticalChance",
+        "DamageAbsorption",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CastSpeed, CriticalChance, DamageAbsorption",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Cast Speed, Critical Chance, Damage Absorption",
+          "ja": "攻撃力, 詠唱速度, クリティカル率, ダメージ吸収"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290011-chaso-dice-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1290021",
+      "slug": "1290021-void-tendril-effects",
+      "title": {
+        "ja": "ヴォイドの触手 効果",
+        "en": "Void Tendril Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Cooldown Reduction, Critical Chance",
+        "ja": "攻撃力, クールタイム短縮, クリティカル率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_129002.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AttackDamage",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "MaxHp",
+        "ACCESSORY",
+        "ARMOR",
+        "WEAPON"
+      ],
+      "fields": {
+        "type": "AttackDamage, CooldownReduction, CriticalChance, CriticalDamage",
+        "gearType": "ACCESSORY, ARMOR, WEAPON",
+        "count": "6"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Cooldown Reduction, Critical Chance, Critical Damage",
+          "ja": "攻撃力, クールタイム短縮, クリティカル率, クリティカルダメージ"
+        },
+        "gearType": {
+          "en": "Accessory, Armor, Weapon",
+          "ja": "アクセサリー, アーマー, 武器"
+        }
+      },
+      "detailPath": "/generated/details/effects/1290021-void-tendril-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1300011",
+      "slug": "1300011-scroll-of-common-inscription-effects",
+      "title": {
+        "ja": "一般刻文の巻物 効果",
+        "en": "Scroll of Common Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Add Hp Per Kill, Area of Effect Enhancement, Armor",
+        "ja": "キルごとにHP追加, 効果範囲強化, 防御力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_130001.png",
+      "rarity": "COMMON",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Add Hp Per Kill, Area of Effect Enhancement, Armor, Attack Damage",
+          "ja": "キルごとにHP追加, 効果範囲強化, 防御力, 攻撃力"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1300011-scroll-of-common-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1310011",
+      "slug": "1310011-scroll-of-uncommon-inscription-effects",
+      "title": {
+        "ja": "アンコモン刻印の巻物 効果",
+        "en": "Scroll of Uncommon Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Attack Damage, Block Chance, Cold Damage Enhancement",
+        "ja": "攻撃力, ブロック率, 冷気ダメージ強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_131001.png",
+      "rarity": "UNCOMMON",
+      "tags": [
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AttackDamage, BlockChance, ColdDamagePercent, ColdResistance",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Attack Damage, Block Chance, Cold Damage Enhancement, Cold Resistance",
+          "ja": "攻撃力, ブロック率, 冷気ダメージ強化, 氷冷耐性"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1310011-scroll-of-uncommon-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1320011",
+      "slug": "1320011-scroll-of-rare-inscription-effects",
+      "title": {
+        "ja": "レア刻印の巻物 効果",
+        "en": "Scroll of Rare Inscription Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Armor",
+        "ja": "命中毎HP回復強化, 効果範囲強化, 防御力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_132001.png",
+      "rarity": "RARE",
+      "tags": [
+        "AddHpPerHit",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdResistance",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "16"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Area of Effect Enhancement, Armor, Attack Damage",
+          "ja": "命中毎HP回復強化, 効果範囲強化, 防御力, 攻撃力"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1320011-scroll-of-rare-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1330011",
+      "slug": "1330011-scroll-of-legendary-inscription-effects",
+      "title": {
+        "ja": "伝説の刻印の巻物 効果",
+        "en": "Scroll of Legendary Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Attack Damage, Block Chance",
+        "ja": "防御力, 攻撃力, ブロック率"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_133001.png",
+      "rarity": "LEGENDARY",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "BlockChance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, BlockChance, ColdDamagePercent",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Attack Damage, Block Chance, Cold Damage Enhancement",
+          "ja": "防御力, 攻撃力, ブロック率, 冷気ダメージ強化"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1330011-scroll-of-legendary-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1340011",
+      "slug": "1340011-scroll-of-immortal-inscription-effects",
+      "title": {
+        "ja": "不滅の刻文の巻物 効果",
+        "en": "Scroll of Immortal Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Area of Effect Enhancement, Attack Damage, Attack Speed",
+        "ja": "効果範囲強化, 攻撃力, 攻撃速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_134001.png",
+      "rarity": "IMMORTAL",
+      "tags": [
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpLeech",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AreaOfEffect, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "15"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Area of Effect Enhancement, Attack Damage, Attack Speed, Cast Speed",
+          "ja": "効果範囲強化, 攻撃力, 攻撃速度, 詠唱速度"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1340011-scroll-of-immortal-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1350011",
+      "slug": "1350011-scroll-of-arcana-inscription-effects",
+      "title": {
+        "ja": "アルカナ刻印の巻物 効果",
+        "en": "Scroll of Arcana Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Attack Damage, Chaos Resistance Enhancement",
+        "ja": "防御力, 攻撃力, カオス耐性強化"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_135001.png",
+      "rarity": "ARCANA",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "HpRegenPerSec",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, ChaosResistance, ColdResistance",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Attack Damage, Chaos Resistance Enhancement, Cold Resistance",
+          "ja": "防御力, 攻撃力, カオス耐性強化, 氷冷耐性"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1350011-scroll-of-arcana-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1360011",
+      "slug": "1360011-scroll-of-beyond-inscription-effects",
+      "title": {
+        "ja": "超越銘文の巻物 効果",
+        "en": "Scroll of Beyond Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Add Hp Per Kill, Area of Effect Enhancement, Armor",
+        "ja": "キルごとにHP追加, 効果範囲強化, 防御力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_136001.png",
+      "rarity": "BEYOND",
+      "tags": [
+        "AddHpPerKill",
+        "AreaOfEffect",
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerKill, AreaOfEffect, Armor, AttackDamage",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Add Hp Per Kill, Area of Effect Enhancement, Armor, Attack Damage",
+          "ja": "キルごとにHP追加, 効果範囲強化, 防御力, 攻撃力"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1360011-scroll-of-beyond-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1370011",
+      "slug": "1370011-scroll-of-celestial-inscription-effects",
+      "title": {
+        "ja": "天界文字の巻物 効果",
+        "en": "Scroll of Celestial Inscription Effects"
+      },
+      "subtitle": {
+        "en": "HP Per Hit Enhancement, Armor, Attack Damage",
+        "ja": "命中毎HP回復強化, 防御力, 攻撃力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_137001.png",
+      "rarity": "CELESTIAL",
+      "tags": [
+        "AddHpPerHit",
+        "Armor",
+        "AttackDamage",
+        "ChaosResistance",
+        "ColdResistance",
+        "CriticalChance",
+        "CriticalDamage",
+        "FireResistance",
+        "IncreaseAreaOfEffectDamage",
+        "IncreaseMeleeDamage",
+        "IncreaseProjectileDamage",
+        "IncreaseSummonDamage",
+        "LightningResistance",
+        "MaxHp",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AddHpPerHit, Armor, AttackDamage, ChaosResistance",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "HP Per Hit Enhancement, Armor, Attack Damage, Chaos Resistance Enhancement",
+          "ja": "命中毎HP回復強化, 防御力, 攻撃力, カオス耐性強化"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1370011-scroll-of-celestial-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1380011",
+      "slug": "1380011-scroll-of-divine-inscription-effects",
+      "title": {
+        "ja": "神聖刻印の巻物 効果",
+        "en": "Scroll of Divine Inscription Effects"
+      },
+      "subtitle": {
+        "en": "Armor, Attack Damage, Attack Speed",
+        "ja": "防御力, 攻撃力, 攻撃速度"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_138001.png",
+      "rarity": "DIVINE",
+      "tags": [
+        "Armor",
+        "AttackDamage",
+        "AttackSpeed",
+        "CastSpeed",
+        "ChaosResistance",
+        "ColdDamagePercent",
+        "ColdResistance",
+        "FireDamagePercent",
+        "FireResistance",
+        "HpRegenPerSec",
+        "LightningDamagePercent",
+        "LightningResistance",
+        "MaxHp",
+        "PhysicalDamagePercent",
+        "SkillHealIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "Armor, AttackDamage, AttackSpeed, CastSpeed",
+        "gearType": "COMMON",
+        "count": "17"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "Armor, Attack Damage, Attack Speed, Cast Speed",
+          "ja": "防御力, 攻撃力, 攻撃速度, 詠唱速度"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1380011-scroll-of-divine-inscription-effects.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "effects",
+      "entityId": "1390011",
+      "slug": "1390011-scroll-of-cosmic-inscription-effects",
+      "title": {
+        "ja": "宇宙刻文の巻物 効果",
+        "en": "Scroll of Cosmic Inscription Effects"
+      },
+      "subtitle": {
+        "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+        "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+      },
+      "icon": "/generated/assets/game/item/Materials/Item_139001.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "AllElementalResistance",
+        "AreaOfEffect",
+        "AttackDamage",
+        "AttackSpeed",
+        "BlockChance",
+        "CastSpeed",
+        "ChaosResistance",
+        "CooldownReduction",
+        "CriticalChance",
+        "CriticalDamage",
+        "DodgeChance",
+        "HpLeech",
+        "MaxHp",
+        "MovementSpeed",
+        "SkillDurationIncrease",
+        "COMMON"
+      ],
+      "fields": {
+        "type": "AllElementalResistance, AreaOfEffect, AttackDamage, AttackSpeed",
+        "gearType": "COMMON",
+        "count": "18"
+      },
+      "fieldDisplay": {
+        "type": {
+          "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage, Attack Speed",
+          "ja": "全属性耐性強化, 効果範囲強化, 攻撃力, 攻撃速度"
+        },
+        "gearType": {
+          "en": "Common",
+          "ja": "コモン"
+        }
+      },
+      "detailPath": "/generated/details/effects/1390011-scroll-of-cosmic-inscription-effects.json",
+      "tooltip": null
+    }
+  ]
+}

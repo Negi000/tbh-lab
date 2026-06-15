@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "20041",
+  "slug": "20041-venom-insect",
+  "title": {
+    "ja": "毒虫",
+    "en": "Venom Insect"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20041"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "20041"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_20041"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "15"
+        ],
+        [
+          "RewardExp",
+          "15"
+        ],
+        [
+          "SkillKey",
+          "200411"
+        ],
+        [
+          "AttackDamage",
+          "23"
+        ],
+        [
+          "AttackSpeed",
+          "130"
+        ],
+        [
+          "MaxLife",
+          "45"
+        ],
+        [
+          "MovementSpeed",
+          "320"
+        ],
+        [
+          "DeadSoundKey",
+          "22004111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_20041"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/20041/Monster_20041"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

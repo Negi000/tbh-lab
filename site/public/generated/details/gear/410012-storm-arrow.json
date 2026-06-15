@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "410012",
+  "slug": "410012-storm-arrow",
+  "title": {
+    "ja": "ストームアロー",
+    "en": "Storm Arrow"
+  },
+  "subtitle": {
+    "en": "Common / Arrow / Sub Weapon / Lv. 55",
+    "ja": "コモン / 矢 / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410012.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "410012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "240"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "410012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410012"
+        ],
+        [
+          "GearKey",
+          "410012"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Storm Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Storm Arrow\", \"ja\": \"ストームアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fear Arrow Description\", \"ja\": \"Fear Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fear Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fear Arrow\", \"description\": \"Fear Arrow Description\", \"display_type\": \"Arrow - Lv. 100\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"100\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

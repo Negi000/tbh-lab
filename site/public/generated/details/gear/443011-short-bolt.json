@@ -1,0 +1,245 @@
+{
+  "categoryId": "gear",
+  "entityId": "443011",
+  "slug": "443011-short-bolt",
+  "title": {
+    "ja": "ショートボルト",
+    "en": "Short Bolt"
+  },
+  "subtitle": {
+    "en": "Legendary / Bolt / Sub Weapon / Lv. 1",
+    "ja": "レジェンダリー / クロスボウボルト / サブ武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOLT_440001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "BOLT",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOLT_440001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "443011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOLT"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "0.02236%",
+          {
+            "ja": "ノーマル 1-1",
+            "en": "Normal 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "0.02236%",
+          {
+            "ja": "ノーマル 1-2",
+            "en": "Normal 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 4",
+            "en": "Stage Treasure Chest 4"
+          },
+          "0.02236%",
+          {
+            "ja": "ノーマル 1-3",
+            "en": "Normal 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "DropKey 3111013",
+            "en": "DropKey 3111013"
+          },
+          "1.315%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601002",
+            "en": "DropKey 3601002"
+          },
+          "0.4444%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.05317%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "330"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "2"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "127"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "443011"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOLT"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_440001"
+        ],
+        [
+          "GearKey",
+          "443011"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOLT_440001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Short Bolt"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Short Bolt\", \"ja\": \"ショートボルト\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

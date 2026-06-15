@@ -1,0 +1,94 @@
+{
+  "categoryId": "runes",
+  "entityId": "1252",
+  "slug": "1252-rune-of-infinity",
+  "title": {
+    "ja": "無限のルーン",
+    "en": "Rune of Infinity"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/MaxAmountActBossChest.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "MaxAmountActBossChest",
+    "MaxAmountActBossChest",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1252"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "アクトボス宝箱最大保管",
+        "en": "Act Boss Chest Max Capacity"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "アクトボス宝箱最大保管 +1",
+            "en": "Act Boss Chest Max Capacity +1"
+          },
+          {
+            "ja": "70000000 ゴールド",
+            "en": "70000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

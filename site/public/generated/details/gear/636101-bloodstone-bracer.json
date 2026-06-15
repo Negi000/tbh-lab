@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "636101",
+  "slug": "636101-bloodstone-bracer",
+  "title": {
+    "ja": "ブラッドストーンブレーサー",
+    "en": "Bloodstone Bracer"
+  },
+  "subtitle": {
+    "en": "Beyond / Bracer / BRACER / Lv. 45",
+    "ja": "ビヨンド / ブレイサー / BRACER / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630010.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "636101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "501"
+        },
+        {
+          "labelKey": "MovementSpeed / ADDITIVE",
+          "value": "112"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "128"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "636101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630010"
+        ],
+        [
+          "GearKey",
+          "636101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Bloodstone Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Bloodstone Bracer\", \"ja\": \"ブラッドストーンブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-301072",
+  "slug": "passive-301072-cooldown-reduction",
+  "title": {
+    "ja": "クールダウン短縮",
+    "en": "Cooldown Reduction"
+  },
+  "subtitle": {
+    "ja": "クールダウン短縮 +20%",
+    "en": "Cooldown Reduction +20%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "CooldownReduction",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301072"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "クールタイム短縮",
+        "en": "Cooldown Reduction"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "301072"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_CooldownReduction"
+        ],
+        [
+          "STATTYPE",
+          "CooldownReduction"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "20"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

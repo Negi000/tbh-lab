@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "400012",
+  "slug": "400012-grand-shield",
+  "title": {
+    "ja": "グランドシールド",
+    "en": "Grand Shield"
+  },
+  "subtitle": {
+    "en": "Common / Shield / Sub Weapon / Lv. 55",
+    "ja": "コモン / シールド / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400012.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "400012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "98"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "400012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400012"
+        ],
+        [
+          "GearKey",
+          "400012"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Grand Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Grand Shield\", \"ja\": \"グランドシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Hero Shield Description\", \"ja\": \"Hero Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Hero Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Hero Shield\", \"description\": \"Hero Shield Description\", \"display_type\": \"Shield - Lv. 100\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"100\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "categoryId": "materials",
+  "entityId": "132001",
+  "slug": "132001-scroll-of-rare-inscription",
+  "title": {
+    "ja": "レア刻印の巻物",
+    "en": "Scroll of Rare Inscription"
+  },
+  "subtitle": {
+    "en": "Rare / Inscription material",
+    "ja": "レア / 刻文素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_132001.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_132001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "132001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv60",
+            "en": "Act Boss Treasure Chest Lv60"
+          },
+          "0.4536%",
+          {
+            "ja": "ヘル 1-10",
+            "en": "Hell 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv70",
+            "en": "Act Boss Treasure Chest Lv70"
+          },
+          "0.2752%",
+          {
+            "ja": "ヘル 3-10",
+            "en": "Hell 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv85",
+            "en": "Act Boss Treasure Chest Lv85"
+          },
+          "0.2471%",
+          {
+            "ja": "トーメント 1-10",
+            "en": "Torment 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "0.2405%",
+          {
+            "ja": "トーメント 2-10",
+            "en": "Torment 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv90",
+            "en": "Act Boss Treasure Chest Lv90"
+          },
+          "0.2405%",
+          {
+            "ja": "トーメント 3-10",
+            "en": "Torment 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv50",
+            "en": "Act Boss Treasure Chest Lv50"
+          },
+          "0.2175%",
+          {
+            "ja": "ナイトメア 3-10",
+            "en": "Nightmare 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "0.0472%",
+          {
+            "ja": "トーメント 1-3",
+            "en": "Torment 1-3"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "0.0472%",
+          {
+            "ja": "トーメント 1-4",
+            "en": "Torment 1-4"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "0.0472%",
+          {
+            "ja": "トーメント 1-5",
+            "en": "Torment 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "0.0472%",
+          {
+            "ja": "トーメント 1-6",
+            "en": "Torment 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "0.0472%",
+          {
+            "ja": "トーメント 1-7",
+            "en": "Torment 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv80",
+            "en": "Stage Treasure Chest Lv80"
+          },
+          "0.0472%",
+          {
+            "ja": "トーメント 1-8",
+            "en": "Torment 1-8"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.04013%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.04013%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.04013%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.04013%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "100%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.materialPool",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "防御 +450~500",
+            "en": "Armor +450~500"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "防御力550~600%増加",
+            "en": "550~600% Increased Armor"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "範囲ダメージ増加",
+            "en": "Increase Area Of Effect Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "範囲ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Area of Effect Damage"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "近接ダメージ増加",
+            "en": "Increase Melee Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "近接ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Melee Damage"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "投射物ダメージ増加",
+            "en": "Increase Projectile Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "投射物ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Projectile Damage"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "召喚ダメージ増加",
+            "en": "Increase Summon Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "召喚ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Summon Damage"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "火炎耐性",
+            "en": "Fire Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎耐性 +50~55%",
+            "en": "Fire Resistance +50~55%"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T3 - T5"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "命中毎HP回復強化",
+            "en": "HP Per Hit Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "命中毎HP回復 +10~12",
+            "en": "HP Per Hit +10~12"
+          },
+          "T3 - T5"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "132001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_132001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_132001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_132001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Scroll of Rare Inscription"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Scroll of Rare Inscription\", \"ja\": \"レア刻印の巻物\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.\", \"ja\": \"特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

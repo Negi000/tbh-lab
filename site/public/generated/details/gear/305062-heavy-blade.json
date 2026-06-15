@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "305062",
+  "slug": "305062-heavy-blade",
+  "title": {
+    "ja": "ヘビーブレード",
+    "en": "Heavy Blade"
+  },
+  "subtitle": {
+    "en": "Arcana / Sword / Main Weapon / Lv. 25",
+    "ja": "アルカナ / ソード / メイン武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300006.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "305062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "98"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "37"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "107"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "380"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "57"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "305062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300006"
+        ],
+        [
+          "GearKey",
+          "305062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heavy Blade"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Blade\", \"ja\": \"ヘビーブレード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

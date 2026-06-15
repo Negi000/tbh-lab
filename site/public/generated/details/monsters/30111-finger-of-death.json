@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30111",
+  "slug": "30111-finger-of-death",
+  "title": {
+    "ja": "死の指",
+    "en": "Finger of Death"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30111"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "25"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30111"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30111"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "30"
+        ],
+        [
+          "RewardExp",
+          "30"
+        ],
+        [
+          "SkillKey",
+          "301111"
+        ],
+        [
+          "AttackDamage",
+          "25"
+        ],
+        [
+          "AttackSpeed",
+          "160"
+        ],
+        [
+          "MaxLife",
+          "65"
+        ],
+        [
+          "MovementSpeed",
+          "430"
+        ],
+        [
+          "DeadSoundKey",
+          "23011111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30111"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30111/Monster_30111"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

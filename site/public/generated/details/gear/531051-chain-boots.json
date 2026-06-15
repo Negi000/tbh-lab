@@ -1,0 +1,361 @@
+{
+  "categoryId": "gear",
+  "entityId": "531051",
+  "slug": "531051-chain-boots",
+  "title": {
+    "ja": "チェインブーツ",
+    "en": "Chain Boots"
+  },
+  "subtitle": {
+    "en": "Uncommon / Boots / BOOTS / Lv. 20",
+    "ja": "アンコモン / ブーツ / BOOTS / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530005.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "531051"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "11.12%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "11.12%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "11.12%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "11.12%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "11.12%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "11.12%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "5.409%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "5.409%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "5.409%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "5.409%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "5.409%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "5.409%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv20",
+            "en": "Act Boss Treasure Chest Lv20"
+          },
+          "0%",
+          {
+            "ja": "ノーマル 2-10",
+            "en": "Normal 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv25",
+            "en": "Stage Treasure Chest Lv25"
+          },
+          "11.12%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv25",
+            "en": "Common Treasure Chest Lv25"
+          },
+          "5.409%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3112051",
+            "en": "DropKey 3112051"
+          },
+          "46.67%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "19"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "24"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "531051"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530005"
+        ],
+        [
+          "GearKey",
+          "531051"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530005"
+        ],
+        [
+          "display_name",
+          "Chain Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chain Boots\", \"ja\": \"チェインブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fate Boots Description\", \"ja\": \"Fate Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fate Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fate Boots\", \"description\": \"Fate Boots Description\", \"display_type\": \"Boots - Lv. 30\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"boots\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

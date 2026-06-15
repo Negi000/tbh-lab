@@ -1,0 +1,260 @@
+{
+  "categoryId": "database",
+  "entityId": "PetInfoData",
+  "slug": "pet-info-data",
+  "title": {
+    "ja": "PetInfoData",
+    "en": "PetInfoData"
+  },
+  "subtitle": {
+    "ja": "8 records",
+    "en": "8 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "PetInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "PetInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetKey",
+          "1001"
+        ],
+        [
+          "NameKey",
+          "PetName_1001"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_1001"
+        ],
+        [
+          "StatDataKey",
+          "1001"
+        ],
+        [
+          "UnlockCondition",
+          "KillMonster"
+        ],
+        [
+          "Param1",
+          "10031"
+        ],
+        [
+          "Param2",
+          "5000"
+        ],
+        [
+          "PetKey",
+          "1002"
+        ],
+        [
+          "NameKey",
+          "PetName_1002"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_1002"
+        ],
+        [
+          "StatDataKey",
+          "1002"
+        ],
+        [
+          "UnlockCondition",
+          "KillMonster"
+        ],
+        [
+          "Param1",
+          "20051"
+        ],
+        [
+          "Param2",
+          "5000"
+        ],
+        [
+          "PetKey",
+          "1003"
+        ],
+        [
+          "NameKey",
+          "PetName_1003"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_1003"
+        ],
+        [
+          "StatDataKey",
+          "1003"
+        ],
+        [
+          "UnlockCondition",
+          "KillMonster"
+        ],
+        [
+          "Param1",
+          "20091"
+        ],
+        [
+          "Param2",
+          "5000"
+        ],
+        [
+          "PetKey",
+          "1004"
+        ],
+        [
+          "NameKey",
+          "PetName_1004"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_1004"
+        ],
+        [
+          "StatDataKey",
+          "1004"
+        ],
+        [
+          "UnlockCondition",
+          "KillMonster"
+        ],
+        [
+          "Param1",
+          "30091"
+        ],
+        [
+          "Param2",
+          "5000"
+        ],
+        [
+          "PetKey",
+          "1005"
+        ],
+        [
+          "NameKey",
+          "PetName_1005"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_1005"
+        ],
+        [
+          "StatDataKey",
+          "1005"
+        ],
+        [
+          "UnlockCondition",
+          "KillMonster"
+        ],
+        [
+          "Param1",
+          "30051"
+        ],
+        [
+          "Param2",
+          "5000"
+        ],
+        [
+          "PetKey",
+          "6001"
+        ],
+        [
+          "NameKey",
+          "PetName_6001"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_6001"
+        ],
+        [
+          "StatDataKey",
+          "6001"
+        ],
+        [
+          "UnlockCondition",
+          "DLC"
+        ],
+        [
+          "Param1",
+          "4427390"
+        ],
+        [
+          "PetKey",
+          "6002"
+        ],
+        [
+          "NameKey",
+          "PetName_6002"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_6002"
+        ],
+        [
+          "StatDataKey",
+          "6002"
+        ],
+        [
+          "UnlockCondition",
+          "DLC"
+        ],
+        [
+          "Param1",
+          "4427390"
+        ],
+        [
+          "PetKey",
+          "6003"
+        ],
+        [
+          "NameKey",
+          "PetName_6003"
+        ],
+        [
+          "DescriptionKey",
+          "PetDescription_6003"
+        ],
+        [
+          "StatDataKey",
+          "6003"
+        ],
+        [
+          "UnlockCondition",
+          "DLC"
+        ],
+        [
+          "Param1",
+          "4427390"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetInfoData"
+  }
+}

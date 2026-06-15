@@ -1,0 +1,119 @@
+{
+  "categoryId": "skills",
+  "entityId": "40601",
+  "slug": "40601-resurrection",
+  "title": {
+    "ja": "リザレクション",
+    "en": "Resurrection"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_40601.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "40601"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1100"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "40601"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_40601"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_40601"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "45"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1100"
+        ],
+        [
+          "Order",
+          "900"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "SkillLevelKey",
+          "40601"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_40601"
+        ],
+        [
+          "AttributeKey",
+          "401043"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

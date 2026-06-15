@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-101062",
+  "slug": "passive-101062-all-elemental-resistance-enhancement",
+  "title": {
+    "ja": "全属性耐性強化",
+    "en": "All Elemental Resistance Enhancement"
+  },
+  "subtitle": {
+    "ja": "全属性耐性 +30%",
+    "en": "All Elemental Resistance +30%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "AllElementalResistance",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "101062"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "全属性耐性強化",
+        "en": "All Elemental Resistance Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "101062"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AllElementalResistance"
+        ],
+        [
+          "STATTYPE",
+          "AllElementalResistance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

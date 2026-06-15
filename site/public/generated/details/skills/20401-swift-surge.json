@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "20401",
+  "slug": "20401-swift-surge",
+  "title": {
+    "ja": "スウィフトサージ",
+    "en": "Swift Surge"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_20401.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20401"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1200"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "21"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "20401"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_20401"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_20401"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "21"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "20401"
+        ],
+        [
+          "Param1",
+          "700"
+        ],
+        [
+          "Range",
+          "1200"
+        ],
+        [
+          "Order",
+          "700"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "SkillLevelKey",
+          "20401"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_20401"
+        ],
+        [
+          "AttributeKey",
+          "201023"
+        ],
+        [
+          "SoundKey",
+          "1201041"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

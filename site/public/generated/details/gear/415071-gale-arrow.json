@@ -1,0 +1,369 @@
+{
+  "categoryId": "gear",
+  "entityId": "415071",
+  "slug": "415071-gale-arrow",
+  "title": {
+    "ja": "ゲイルアロー",
+    "en": "Gale Arrow"
+  },
+  "subtitle": {
+    "en": "Arcana / Arrow / Sub Weapon / Lv. 30",
+    "ja": "アルカナ / 矢 / サブ武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410007.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "415071"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv30",
+            "en": "Act Boss Treasure Chest Lv30"
+          },
+          "0.01894%",
+          {
+            "ja": "ノーマル 3-10",
+            "en": "Normal 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.00665%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.00665%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.00665%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.00665%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.00665%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.00665%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv40",
+            "en": "Act Boss Treasure Chest Lv40"
+          },
+          "0.003738%",
+          {
+            "ja": "ナイトメア 1-10",
+            "en": "Nightmare 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.001644%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.001644%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.001644%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.001644%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.001644%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.001644%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.001426%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.001426%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "270"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "198"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "17"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "242"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "415071"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410007"
+        ],
+        [
+          "GearKey",
+          "415071"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410007"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Gale Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Gale Arrow\", \"ja\": \"ゲイルアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "314061",
+  "slug": "314061-scarlet-bow",
+  "title": {
+    "ja": "スカーレットボウ",
+    "en": "Scarlet Bow"
+  },
+  "subtitle": {
+    "en": "Immortal / Bow / Main Weapon / Lv. 25",
+    "ja": "イモータル / 弓 / メイン武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310006.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "314061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "65"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "50"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "8"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "55"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "314061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310006"
+        ],
+        [
+          "GearKey",
+          "314061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Scarlet Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Scarlet Bow\", \"ja\": \"スカーレットボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Wing Bow Description\", \"ja\": \"Wing Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Wing Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Wing Bow\", \"description\": \"Wing Bow Description\", \"display_type\": \"Bow - Lv. 50\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

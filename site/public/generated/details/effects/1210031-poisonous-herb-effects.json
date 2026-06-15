@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1210031",
+  "slug": "1210031-poisonous-herb-effects",
+  "title": {
+    "ja": "毒草 効果",
+    "en": "Poisonous Herb Effects"
+  },
+  "subtitle": {
+    "en": "Armor, Attack Damage, Damage Absorption",
+    "ja": "防御力, 攻撃力, ダメージ吸収"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_121003.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "Armor",
+    "AttackDamage",
+    "DamageAbsorption",
+    "HpLeech",
+    "LightningDamagePercent",
+    "MovementSpeed",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1210031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Armor, Attack Damage, Damage Absorption, Life Leech Enhancement, Lightning Damage Enhancement, Movement Speed",
+        "ja": "防御力, 攻撃力, ダメージ吸収, ライフ吸収強化, 雷ダメージ強化, 移動速度"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102101,
+          {
+            "ja": "ライフ吸収強化",
+            "en": "Life Leech Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ライフ吸収 +55~65%",
+            "en": "Life Leech +55~65%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102701,
+          {
+            "ja": "雷ダメージ強化",
+            "en": "Lightning Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷ダメージ +1800~2500%",
+            "en": "Lightning Damage +1800~2500%"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          100601,
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "防御 +450~500",
+            "en": "Armor +450~500"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          104001,
+          {
+            "ja": "ダメージ吸収",
+            "en": "Damage Absorption"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ吸収 +60~80",
+            "en": "Damage Absorption +60~80"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T2 - T2"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "10901",
+  "slug": "10901-skeleton-king",
+  "title": {
+    "ja": "スケルトンキング",
+    "en": "Skeleton King"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10901"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "500"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "36"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "50"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "1050"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "10901"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_10901"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "500"
+        ],
+        [
+          "RewardExp",
+          "36"
+        ],
+        [
+          "SkillKey",
+          "109011 109021"
+        ],
+        [
+          "AttackDamage",
+          "50"
+        ],
+        [
+          "AttackSpeed",
+          "115"
+        ],
+        [
+          "MaxLife",
+          "1050"
+        ],
+        [
+          "MovementSpeed",
+          "110"
+        ],
+        [
+          "DeadSoundKey",
+          "21090111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_10901"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/10901/Monster_10901"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

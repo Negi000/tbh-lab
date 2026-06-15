@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-601042",
+  "slug": "passive-601042-physical-damage-enhancement",
+  "title": {
+    "ja": "物理ダメージ強化",
+    "en": "Physical Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "物理ダメージ +150%",
+    "en": "Physical Damage +150%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "PhysicalDamagePercent",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "601042"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "物理ダメージ強化",
+        "en": "Physical Damage Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "150"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "601042"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_PhysicalDamagePercent"
+        ],
+        [
+          "STATTYPE",
+          "PhysicalDamagePercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "categoryId": "gear",
+  "entityId": "503071",
+  "slug": "503071-war-helmet",
+  "title": {
+    "ja": "ウォーヘルメット",
+    "en": "War Helmet"
+  },
+  "subtitle": {
+    "en": "Legendary / Helmet / HELMET / Lv. 30",
+    "ja": "レジェンダリー / ヘルメット / HELMET / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500007.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "503071"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv30",
+            "en": "Act Boss Treasure Chest Lv30"
+          },
+          "3.891%",
+          {
+            "ja": "ノーマル 3-10",
+            "en": "Normal 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "1.259%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "1.259%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "1.259%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "1.259%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "1.259%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "1.259%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.6957%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.6957%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.6957%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.6957%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.6957%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "0.6957%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv40",
+            "en": "Act Boss Treasure Chest Lv40"
+          },
+          "0.6849%",
+          {
+            "ja": "ナイトメア 1-10",
+            "en": "Nightmare 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.2044%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "0.2044%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "131"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "0"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "83"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "280"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "503071"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500007"
+        ],
+        [
+          "GearKey",
+          "503071"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500007"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "War Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"War Helmet\", \"ja\": \"ウォーヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

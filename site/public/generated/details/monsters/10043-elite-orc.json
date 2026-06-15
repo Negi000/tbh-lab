@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "10043",
+  "slug": "10043-elite-orc",
+  "title": {
+    "ja": "エリートオーク",
+    "en": "Elite Orc"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10043"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "35"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "35"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "17"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "185"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "10043"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_10043"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "35"
+        ],
+        [
+          "RewardExp",
+          "35"
+        ],
+        [
+          "SkillKey",
+          "100431"
+        ],
+        [
+          "AttackDamage",
+          "17"
+        ],
+        [
+          "AttackSpeed",
+          "65"
+        ],
+        [
+          "MaxLife",
+          "185"
+        ],
+        [
+          "MovementSpeed",
+          "120"
+        ],
+        [
+          "DeadSoundKey",
+          "21004311"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_10043"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/10043/Monster_10043"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

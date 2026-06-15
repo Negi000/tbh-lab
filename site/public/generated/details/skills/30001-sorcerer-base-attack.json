@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "30001",
+  "slug": "30001-sorcerer-base-attack",
+  "title": {
+    "ja": "ソーサラー 通常攻撃",
+    "en": "Sorcerer Base Attack"
+  },
+  "subtitle": {
+    "en": "Base Attack / Base Attack",
+    "ja": "通常攻撃 / 通常攻撃"
+  },
+  "icon": null,
+  "rarity": "LEGENDARY",
+  "tags": [
+    "BASEATTACK",
+    "BASEATTACK",
+    "Fire"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30001"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "900"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1000"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "30001"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "ActivationValue",
+          "0"
+        ],
+        [
+          "SLOTTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "700"
+        ],
+        [
+          "Param2",
+          "300"
+        ],
+        [
+          "Range",
+          "900"
+        ],
+        [
+          "Order",
+          "999"
+        ],
+        [
+          "DamageType",
+          "Fire"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile"
+        ],
+        [
+          "Value",
+          "1000"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_30001"
+        ],
+        [
+          "AnimClipPath2",
+          "Animation/Skill/Skill_30001_2"
+        ],
+        [
+          "AnimClipPath3",
+          "Animation/Skill/Skill_30001_3"
+        ],
+        [
+          "SoundKey",
+          "1300011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

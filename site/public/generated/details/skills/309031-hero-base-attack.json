@@ -1,0 +1,119 @@
+{
+  "categoryId": "skills",
+  "entityId": "309031",
+  "slug": "309031-hero-base-attack",
+  "title": {
+    "ja": "Hero 通常攻撃",
+    "en": "Hero Base Attack"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": null,
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "309031"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "800"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1500"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "309031"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "11"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "500"
+        ],
+        [
+          "Param2",
+          "300"
+        ],
+        [
+          "Range",
+          "800"
+        ],
+        [
+          "Order",
+          "999"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "Value",
+          "1500"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_309031"
+        ],
+        [
+          "SoundKey",
+          "13090311"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

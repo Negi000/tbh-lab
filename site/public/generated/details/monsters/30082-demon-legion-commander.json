@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30082",
+  "slug": "30082-demon-legion-commander",
+  "title": {
+    "ja": "デーモン軍団長",
+    "en": "Demon Legion Commander"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30082"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "13"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30082"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30082"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "10"
+        ],
+        [
+          "RewardExp",
+          "13"
+        ],
+        [
+          "SkillKey",
+          "300821"
+        ],
+        [
+          "AttackDamage",
+          "20"
+        ],
+        [
+          "AttackSpeed",
+          "80"
+        ],
+        [
+          "MaxLife",
+          "45"
+        ],
+        [
+          "MovementSpeed",
+          "190"
+        ],
+        [
+          "DeadSoundKey",
+          "23008211"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30082"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30082/Monster_30082"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "636082",
+  "slug": "636082-shadow-bracer",
+  "title": {
+    "ja": "シャドウブレーサー",
+    "en": "Shadow Bracer"
+  },
+  "subtitle": {
+    "en": "Beyond / Bracer / BRACER / Lv. 35",
+    "ja": "ビヨンド / ブレイサー / BRACER / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630008.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "636082"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "65"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "72"
+        },
+        {
+          "labelKey": "SkillHealIncrease / ADDITIVE",
+          "value": "85"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "636082"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630008"
+        ],
+        [
+          "GearKey",
+          "636082"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Bracer\", \"ja\": \"シャドウブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "categoryId": "gear",
+  "entityId": "631031",
+  "slug": "631031-silver-bracer",
+  "title": {
+    "ja": "シルバーブレイサー",
+    "en": "Silver Bracer"
+  },
+  "subtitle": {
+    "en": "Uncommon / Bracer / BRACER / Lv. 10",
+    "ja": "アンコモン / ブレイサー / BRACER / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630003.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "631031"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 1",
+            "en": "Act Boss Treasure Chest 1"
+          },
+          "3.484%",
+          {
+            "ja": "ノーマル 1-10",
+            "en": "Normal 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3121031",
+            "en": "DropKey 3121031"
+          },
+          "34.48%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601007",
+            "en": "DropKey 3601007"
+          },
+          "5.051%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3602007",
+            "en": "DropKey 3602007"
+          },
+          "3.03%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.009583%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "631031"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630003"
+        ],
+        [
+          "GearKey",
+          "631031"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630003"
+        ],
+        [
+          "display_name",
+          "Silver Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Silver Bracer\", \"ja\": \"シルバーブレイサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron bracer Description\", \"ja\": \"Iron bracer Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron bracer"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron bracer\", \"description\": \"Iron bracer Description\", \"display_type\": \"Bracer - Lv. 10\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"bracer\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

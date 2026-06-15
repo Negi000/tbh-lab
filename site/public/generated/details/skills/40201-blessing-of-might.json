@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "40201",
+  "slug": "40201-blessing-of-might",
+  "title": {
+    "ja": "力の祝福",
+    "en": "Blessing Of Might"
+  },
+  "subtitle": {
+    "en": "Skill / Continuous",
+    "ja": "スキル / 継続"
+  },
+  "icon": "/generated/assets/game/skills/Skill_40201.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "CONTINUOUS",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "40201"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "継続",
+        "en": "Continuous"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "950"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "40201"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_40201"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_40201"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "CONTINUOUS"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "40201"
+        ],
+        [
+          "Param1",
+          "1200"
+        ],
+        [
+          "Range",
+          "950"
+        ],
+        [
+          "Order",
+          "500"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "40201"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_40201"
+        ],
+        [
+          "AttributeKey",
+          "401004"
+        ],
+        [
+          "SoundKey",
+          "1402011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

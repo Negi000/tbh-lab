@@ -1,0 +1,112 @@
+{
+  "categoryId": "database",
+  "entityId": "AttributeGroupInfoData",
+  "slug": "attribute-group-info-data",
+  "title": {
+    "ja": "AttributeGroupInfoData",
+    "en": "AttributeGroupInfoData"
+  },
+  "subtitle": {
+    "ja": "8 records",
+    "en": "8 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "AttributeGroupInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "AttributeGroupInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "AttributeGroupKey",
+          "10001"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "0"
+        ],
+        [
+          "AttributeGroupKey",
+          "10002"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "10"
+        ],
+        [
+          "AttributeGroupKey",
+          "10003"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "20"
+        ],
+        [
+          "AttributeGroupKey",
+          "10004"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "30"
+        ],
+        [
+          "AttributeGroupKey",
+          "10005"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "40"
+        ],
+        [
+          "AttributeGroupKey",
+          "10006"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "50"
+        ],
+        [
+          "AttributeGroupKey",
+          "10007"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "60"
+        ],
+        [
+          "AttributeGroupKey",
+          "10008"
+        ],
+        [
+          "RequiredAllocatedPoint",
+          "70"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "AttributeGroupInfoData"
+  }
+}

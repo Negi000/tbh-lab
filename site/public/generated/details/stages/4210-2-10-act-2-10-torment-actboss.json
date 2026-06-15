@@ -1,0 +1,144 @@
+{
+  "categoryId": "stages",
+  "entityId": "4210",
+  "slug": "4210-2-10-act-2-10-torment-actboss",
+  "title": {
+    "ja": "2-10 トーメント",
+    "en": "2-10 Act 2-10 TORMENT ACTBOSS"
+  },
+  "subtitle": {
+    "ja": "トーメント / Lv 90 / Boss Desert Overlord",
+    "en": "Torment / Lv 90 / Boss Desert Overlord"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "TORMENT",
+    "ACTBOSS",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "4210"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "TORMENT"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "90"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Desert Overlord"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          null,
+          null
+        ],
+        [
+          "Boss box",
+          930901,
+          null
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "90"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "87185"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "340770"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "35360"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "696600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

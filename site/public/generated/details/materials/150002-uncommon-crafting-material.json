@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150002",
+  "slug": "150002-uncommon-crafting-material",
+  "title": {
+    "ja": "アンコモン クラフト素材",
+    "en": "Uncommon Crafting Material"
+  },
+  "subtitle": {
+    "en": "Uncommon / Crafting material",
+    "ja": "アンコモン / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150002"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150002"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150002"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150002"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Uncommon Crafting Material\", \"ja\": \"アンコモン クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as uncommon crafting material.\", \"ja\": \"アンコモン クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

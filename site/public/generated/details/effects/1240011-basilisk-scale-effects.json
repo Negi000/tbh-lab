@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1240011",
+  "slug": "1240011-basilisk-scale-effects",
+  "title": {
+    "ja": "バジリスクの鱗 効果",
+    "en": "Basilisk Scale Effects"
+  },
+  "subtitle": {
+    "en": "Attack Damage, Cast Speed, Damage Reduction Enhancement",
+    "ja": "攻撃力, 詠唱速度, ダメージ軽減強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_124001.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "AttackDamage",
+    "CastSpeed",
+    "DamageReduction",
+    "HpLeech",
+    "MaxHp",
+    "MovementSpeed",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1240011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Attack Damage, Cast Speed, Damage Reduction Enhancement, Life Leech Enhancement, Max HP, Movement Speed",
+        "ja": "攻撃力, 詠唱速度, ダメージ軽減強化, ライフ吸収強化, 最大HP, 移動速度"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102101,
+          {
+            "ja": "ライフ吸収強化",
+            "en": "Life Leech Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ライフ吸収 +55~65%",
+            "en": "Life Leech +55~65%"
+          },
+          "T6 - T6"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T6 - T6"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          103401,
+          {
+            "ja": "ダメージ軽減強化",
+            "en": "Damage Reduction Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ軽減 +140~160%",
+            "en": "Damage Reduction +140~160%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          104901,
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T5 - T5"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

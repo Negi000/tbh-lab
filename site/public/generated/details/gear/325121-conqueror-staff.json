@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "325121",
+  "slug": "325121-conqueror-staff",
+  "title": {
+    "ja": "コンカラースタッフ",
+    "en": "Conqueror Staff"
+  },
+  "subtitle": {
+    "en": "Arcana / Staff / Main Weapon / Lv. 55",
+    "ja": "アルカナ / スタッフ / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320012.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "325121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "563"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "72"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "756"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "95"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "325121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320012"
+        ],
+        [
+          "GearKey",
+          "325121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Conqueror Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Conqueror Staff\", \"ja\": \"コンカラースタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

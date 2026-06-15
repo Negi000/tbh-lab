@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "2308",
+  "slug": "2308-3-8-act-3-8-nightmare-normal",
+  "title": {
+    "ja": "3-8 ナイトメア",
+    "en": "3-8 Act 3-8 NIGHTMARE NORMAL"
+  },
+  "subtitle": {
+    "ja": "ナイトメア / Lv 51 / Boss Kobold Guard",
+    "en": "Nightmare / Lv 51 / Boss Kobold Guard"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NIGHTMARE",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2308"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NIGHTMARE"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "8"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "51"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Kobold Guard"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30083,
+          {
+            "ja": "デーモン突撃兵",
+            "en": "Demon Shocktrooper"
+          },
+          1000,
+          30,
+          30
+        ],
+        [
+          30111,
+          {
+            "ja": "死の指",
+            "en": "Finger of Death"
+          },
+          1000,
+          30,
+          30
+        ],
+        [
+          30051,
+          {
+            "ja": "幽霊",
+            "en": "Ghost"
+          },
+          500,
+          15,
+          15
+        ],
+        [
+          30101,
+          {
+            "ja": "燃える地獄の神官",
+            "en": "Burning Hell Priest"
+          },
+          700,
+          30,
+          30
+        ],
+        [
+          30102,
+          {
+            "ja": "凍る地獄の神官",
+            "en": "Frozen Hell Priest"
+          },
+          400,
+          30,
+          30
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910501,
+          15
+        ],
+        [
+          "Boss box",
+          920501,
+          150
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "51"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "3265"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "95070"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "10400"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "197400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

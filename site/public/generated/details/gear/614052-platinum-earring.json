@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "614052",
+  "slug": "614052-platinum-earring",
+  "title": {
+    "ja": "プラチナイヤリング",
+    "en": "Platinum Earring"
+  },
+  "subtitle": {
+    "en": "Immortal / Earing / EARING / Lv. 20",
+    "ja": "イモータル / イヤリング / EARING / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610005.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "614052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "19"
+        },
+        {
+          "labelKey": "HpLeech / FLAT",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "614052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610005"
+        ],
+        [
+          "GearKey",
+          "614052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Platinum Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Platinum Earring\", \"ja\": \"プラチナイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Saphaire earing Description\", \"ja\": \"Saphaire earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Saphaire earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Saphaire earing\", \"description\": \"Saphaire earing Description\", \"display_type\": \"Earring - Lv. 30\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"earring\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

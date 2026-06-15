@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "326092",
+  "slug": "326092-comet-staff",
+  "title": {
+    "ja": "コメットスタッフ",
+    "en": "Comet Staff"
+  },
+  "subtitle": {
+    "en": "Beyond / Staff / Main Weapon / Lv. 40",
+    "ja": "ビヨンド / スタッフ / メイン武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320009.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "326092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "454"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "69"
+        },
+        {
+          "labelKey": "CastSpeed / MULTIPLICATIVE",
+          "value": "191"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "619"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "326092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320009"
+        ],
+        [
+          "GearKey",
+          "326092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Comet Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Comet Staff\", \"ja\": \"コメットスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

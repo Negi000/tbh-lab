@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "300012",
+  "slug": "300012-hero-sword",
+  "title": {
+    "ja": "ヒーローソード",
+    "en": "Hero Sword"
+  },
+  "subtitle": {
+    "en": "Common / Sword / Main Weapon / Lv. 55",
+    "ja": "コモン / ソード / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300012.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "300012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "111"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "300012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300012"
+        ],
+        [
+          "GearKey",
+          "300012"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hero Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hero Sword\", \"ja\": \"ヒーローソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Dimensional Blade Description\", \"ja\": \"Dimensional Blade Description\"}"
+        ],
+        [
+          "mono_name",
+          "Dimensional Blade"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Dimensional Blade\", \"description\": \"Dimensional Blade Description\", \"display_type\": \"Sword - Lv. 100\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"100\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

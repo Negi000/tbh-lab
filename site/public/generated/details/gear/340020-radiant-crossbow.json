@@ -1,0 +1,141 @@
+{
+  "categoryId": "gear",
+  "entityId": "340020",
+  "slug": "340020-radiant-crossbow",
+  "title": {
+    "ja": "レイディアントクロスボウ",
+    "en": "Radiant Crossbow"
+  },
+  "subtitle": {
+    "en": "Common / Crossbow / Main Weapon / Lv. 100",
+    "ja": "コモン / クロスボウ / メイン武器 / Lv. 100"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340020.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340020.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "340020"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "114"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "340020"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340020"
+        ],
+        [
+          "GearKey",
+          "340020"
+        ],
+        [
+          "Level",
+          "100"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340020"
+        ],
+        [
+          "display_name",
+          "Radiant Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Radiant Crossbow\", \"ja\": \"レイディアントクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

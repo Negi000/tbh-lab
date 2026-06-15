@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "20061",
+  "slug": "20061-kobold-guard",
+  "title": {
+    "ja": "コボルト衛兵",
+    "en": "Kobold Guard"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20061"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "17"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "17"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "20061"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_20061"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "17"
+        ],
+        [
+          "RewardExp",
+          "17"
+        ],
+        [
+          "SkillKey",
+          "200611"
+        ],
+        [
+          "AttackDamage",
+          "20"
+        ],
+        [
+          "AttackSpeed",
+          "80"
+        ],
+        [
+          "MaxLife",
+          "90"
+        ],
+        [
+          "MovementSpeed",
+          "250"
+        ],
+        [
+          "DeadSoundKey",
+          "22006111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_20061"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/20061/Monster_20061"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "308101",
+  "slug": "308101-legend-sword",
+  "title": {
+    "ja": "レジェンドソード",
+    "en": "Legend Sword"
+  },
+  "subtitle": {
+    "en": "Divine / Sword / Main Weapon / Lv. 45",
+    "ja": "ディバイン / ソード / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300010.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "308101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "702"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "57"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1040"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "18"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "83"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "308101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300010"
+        ],
+        [
+          "GearKey",
+          "308101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Legend Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Legend Sword\", \"ja\": \"レジェンドソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

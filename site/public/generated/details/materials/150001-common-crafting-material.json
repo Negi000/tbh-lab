@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150001",
+  "slug": "150001-common-crafting-material",
+  "title": {
+    "ja": "コモン クラフト素材",
+    "en": "Common Crafting Material"
+  },
+  "subtitle": {
+    "en": "Common / Crafting material",
+    "ja": "コモン / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150001.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150001"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Common Crafting Material\", \"ja\": \"コモン クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as common crafting material.\", \"ja\": \"コモン クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

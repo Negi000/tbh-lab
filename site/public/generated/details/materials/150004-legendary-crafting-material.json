@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150004",
+  "slug": "150004-legendary-crafting-material",
+  "title": {
+    "ja": "レジェンダリー クラフト素材",
+    "en": "Legendary Crafting Material"
+  },
+  "subtitle": {
+    "en": "Legendary / Crafting material",
+    "ja": "レジェンダリー / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150004"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150004"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150004"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150004"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150004"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Legendary Crafting Material\", \"ja\": \"レジェンダリー クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as legendary crafting material.\", \"ja\": \"レジェンダリー クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

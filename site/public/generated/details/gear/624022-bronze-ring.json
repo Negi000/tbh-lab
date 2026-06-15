@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "624022",
+  "slug": "624022-bronze-ring",
+  "title": {
+    "ja": "ブロンズリング",
+    "en": "Bronze Ring"
+  },
+  "subtitle": {
+    "en": "Immortal / Ring / RING / Lv. 5",
+    "ja": "イモータル / リング / RING / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "624022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "21"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "89"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "624022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620002"
+        ],
+        [
+          "GearKey",
+          "624022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Bronze Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Bronze Ring\", \"ja\": \"ブロンズリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Saphaire ring Description\", \"ja\": \"Saphaire ring Description\"}"
+        ],
+        [
+          "mono_name",
+          "Saphaire ring"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Saphaire ring\", \"description\": \"Saphaire ring Description\", \"display_type\": \"Ring - Lv. 5\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"ring\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

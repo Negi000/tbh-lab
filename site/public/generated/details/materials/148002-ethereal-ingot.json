@@ -1,0 +1,145 @@
+{
+  "categoryId": "materials",
+  "entityId": "148002",
+  "slug": "148002-ethereal-ingot",
+  "title": {
+    "ja": "エーテルインゴット",
+    "en": "Ethereal Ingot"
+  },
+  "subtitle": {
+    "en": "Divine / Crafting material",
+    "ja": "ディバイン / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_148002.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_148002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "148002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3130008",
+            "en": "DropKey 3130008"
+          },
+          "40%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "148002"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_148002"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_148002"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_148002"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ethereal Ingot"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ethereal Ingot\", \"ja\": \"エーテルインゴット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A premium crafting material used to make something.\", \"ja\": \"何かを作るために使う、最高級の素材。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

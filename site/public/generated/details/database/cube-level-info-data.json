@@ -1,0 +1,144 @@
+{
+  "categoryId": "database",
+  "entityId": "CubeLevelInfoData",
+  "slug": "cube-level-info-data",
+  "title": {
+    "ja": "CubeLevelInfoData",
+    "en": "CubeLevelInfoData"
+  },
+  "subtitle": {
+    "ja": "100 records",
+    "en": "100 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "CubeLevelInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "CubeLevelInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "ExpForLevelUp",
+          "15"
+        ],
+        [
+          "Level",
+          "2"
+        ],
+        [
+          "ExpForLevelUp",
+          "40"
+        ],
+        [
+          "Level",
+          "3"
+        ],
+        [
+          "ExpForLevelUp",
+          "100"
+        ],
+        [
+          "Level",
+          "4"
+        ],
+        [
+          "ExpForLevelUp",
+          "250"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "ExpForLevelUp",
+          "400"
+        ],
+        [
+          "Level",
+          "6"
+        ],
+        [
+          "ExpForLevelUp",
+          "600"
+        ],
+        [
+          "Level",
+          "7"
+        ],
+        [
+          "ExpForLevelUp",
+          "850"
+        ],
+        [
+          "Level",
+          "8"
+        ],
+        [
+          "ExpForLevelUp",
+          "1150"
+        ],
+        [
+          "Level",
+          "9"
+        ],
+        [
+          "ExpForLevelUp",
+          "1550"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "ExpForLevelUp",
+          "2150"
+        ],
+        [
+          "Level",
+          "11"
+        ],
+        [
+          "ExpForLevelUp",
+          "2950"
+        ],
+        [
+          "Level",
+          "12"
+        ],
+        [
+          "ExpForLevelUp",
+          "4050"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "CubeLevelInfoData"
+  }
+}

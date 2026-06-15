@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "428121",
+  "slug": "428121-sky-orb",
+  "title": {
+    "ja": "スカイオーブ",
+    "en": "Sky Orb"
+  },
+  "subtitle": {
+    "en": "Divine / Orb / Sub Weapon / Lv. 55",
+    "ja": "ディバイン / オーブ / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420012.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "428121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "273"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CastSpeed / ADDITIVE",
+          "value": "213"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "619"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "112"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "428121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420012"
+        ],
+        [
+          "GearKey",
+          "428121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sky Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sky Orb\", \"ja\": \"スカイオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

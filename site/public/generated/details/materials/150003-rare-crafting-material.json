@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150003",
+  "slug": "150003-rare-crafting-material",
+  "title": {
+    "ja": "レア クラフト素材",
+    "en": "Rare Crafting Material"
+  },
+  "subtitle": {
+    "en": "Rare / Crafting material",
+    "ja": "レア / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150001.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150003"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150003"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150003"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150003"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150003"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rare Crafting Material\", \"ja\": \"レア クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as rare crafting material.\", \"ja\": \"レア クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "category": {
+    "id": "pets",
+    "titleKey": "category.pets.title",
+    "descriptionKey": "category.pets.description",
+    "count": 8,
+    "icon": "/generated/assets/game/ui/BG_Pet.png",
+    "layout": "cards",
+    "navGroup": "nav.collection",
+    "listPath": "/generated/categories/pets.json"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "labelKey": "field.type"
+    },
+    {
+      "key": "count",
+      "labelKey": "field.count"
+    },
+    {
+      "key": "gold",
+      "labelKey": "field.gold"
+    },
+    {
+      "key": "exp",
+      "labelKey": "field.exp"
+    }
+  ],
+  "filters": [
+    {
+      "id": "type",
+      "labelKey": "filter.type",
+      "options": [
+        "DLC",
+        "KillMonster"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "categoryId": "pets",
+      "entityId": "1001",
+      "slug": "1001-bat",
+      "title": {
+        "ja": "コウモリ",
+        "en": "Bat"
+      },
+      "subtitle": {
+        "ja": "KillMonster コウモリ",
+        "en": "KillMonster Bat"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "Kill Monster",
+          "en": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1001-bat.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1002",
+      "slug": "1002-watcher",
+      "title": {
+        "ja": "監視者",
+        "en": "Watcher"
+      },
+      "subtitle": {
+        "ja": "KillMonster 巨大バエ",
+        "en": "KillMonster Giant Fly"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "Kill Monster",
+          "en": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1002-watcher.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1003",
+      "slug": "1003-burning-skeleton",
+      "title": {
+        "ja": "燃える骸骨",
+        "en": "Burning Skeleton"
+      },
+      "subtitle": {
+        "ja": "KillMonster 火の精霊",
+        "en": "KillMonster Fire Elemental"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "Kill Monster",
+          "en": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1003-burning-skeleton.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1004",
+      "slug": "1004-blue-golem",
+      "title": {
+        "ja": "ブルー\nゴーレム",
+        "en": "Blue Golem"
+      },
+      "subtitle": {
+        "ja": "KillMonster 地獄のゴーレム",
+        "en": "KillMonster Hell Golem"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "Kill Monster",
+          "en": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1004-blue-golem.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "1005",
+      "slug": "1005-dark-spirit",
+      "title": {
+        "ja": "闇の精霊",
+        "en": "Dark Spirit"
+      },
+      "subtitle": {
+        "ja": "KillMonster 幽霊",
+        "en": "KillMonster Ghost"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "RARE",
+      "tags": [
+        "KillMonster"
+      ],
+      "fields": {
+        "type": "KillMonster",
+        "count": "5000",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "Kill Monster",
+          "en": "Kill Monster"
+        }
+      },
+      "detailPath": "/generated/details/pets/1005-dark-spirit.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "6001",
+      "slug": "6001-sword",
+      "title": {
+        "ja": "剣",
+        "en": "Sword"
+      },
+      "subtitle": {
+        "ja": "DLC 4427390",
+        "en": "DLC 4427390"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "DLC"
+      ],
+      "fields": {
+        "type": "DLC",
+        "count": "-",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "DLC",
+          "en": "DLC"
+        }
+      },
+      "detailPath": "/generated/details/pets/6001-sword.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "6002",
+      "slug": "6002-butterfly",
+      "title": {
+        "ja": "蝶",
+        "en": "Butterfly"
+      },
+      "subtitle": {
+        "ja": "DLC 4427390",
+        "en": "DLC 4427390"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "DLC"
+      ],
+      "fields": {
+        "type": "DLC",
+        "count": "-",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "DLC",
+          "en": "DLC"
+        }
+      },
+      "detailPath": "/generated/details/pets/6002-butterfly.json",
+      "tooltip": null
+    },
+    {
+      "categoryId": "pets",
+      "entityId": "6003",
+      "slug": "6003-dragon",
+      "title": {
+        "ja": "ドラゴン",
+        "en": "Dragon"
+      },
+      "subtitle": {
+        "ja": "DLC 4427390",
+        "en": "DLC 4427390"
+      },
+      "icon": "/generated/assets/game/ui/BG_Pet.png",
+      "rarity": "COSMIC",
+      "tags": [
+        "DLC"
+      ],
+      "fields": {
+        "type": "DLC",
+        "count": "-",
+        "gold": "-",
+        "exp": "-"
+      },
+      "fieldDisplay": {
+        "type": {
+          "ja": "DLC",
+          "en": "DLC"
+        }
+      },
+      "detailPath": "/generated/details/pets/6003-dragon.json",
+      "tooltip": null
+    }
+  ]
+}

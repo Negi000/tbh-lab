@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-601011",
+  "slug": "passive-601011-area-of-effect-enhancement",
+  "title": {
+    "ja": "効果範囲強化",
+    "en": "Area of Effect Enhancement"
+  },
+  "subtitle": {
+    "ja": "効果範囲30%増加",
+    "en": "30% Increased Area of Effect"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "AreaOfEffect",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "601011"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "効果範囲強化",
+        "en": "Area of Effect Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "601011"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AreaOfEffect"
+        ],
+        [
+          "STATTYPE",
+          "AreaOfEffect"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

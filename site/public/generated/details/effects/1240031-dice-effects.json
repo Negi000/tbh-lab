@@ -1,0 +1,201 @@
+{
+  "categoryId": "effects",
+  "entityId": "1240031",
+  "slug": "1240031-dice-effects",
+  "title": {
+    "ja": "ダイス 効果",
+    "en": "Dice Effects"
+  },
+  "subtitle": {
+    "en": "Block Chance, Cold Damage Enhancement, Cooldown Reduction",
+    "ja": "ブロック率, 冷気ダメージ強化, クールタイム短縮"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_124003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "BlockChance",
+    "ColdDamagePercent",
+    "CooldownReduction",
+    "DamageAbsorption",
+    "MovementSpeed",
+    "PhysicalDamagePercent",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1240031"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "6"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Block Chance, Cold Damage Enhancement, Cooldown Reduction, Damage Absorption, Movement Speed, Physical Damage Enhancement",
+        "ja": "ブロック率, 冷気ダメージ強化, クールタイム短縮, ダメージ吸収, 移動速度, 物理ダメージ強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102401,
+          {
+            "ja": "物理ダメージ強化",
+            "en": "Physical Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "物理ダメージ +1800~2500%",
+            "en": "Physical Damage +1800~2500%"
+          },
+          "T6 - T6"
+        ],
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102601,
+          {
+            "ja": "冷気ダメージ強化",
+            "en": "Cold Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気ダメージ +1800~2500%",
+            "en": "Cold Damage +1800~2500%"
+          },
+          "T6 - T6"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          104001,
+          {
+            "ja": "ダメージ吸収",
+            "en": "Damage Absorption"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ吸収 +60~80",
+            "en": "Damage Absorption +60~80"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          101701,
+          {
+            "ja": "ブロック率",
+            "en": "Block Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ブロック率 +200~300%",
+            "en": "Block Chance +200~300%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100801,
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T5 - T5"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

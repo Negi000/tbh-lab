@@ -1,0 +1,150 @@
+{
+  "categoryId": "runes",
+  "entityId": "127",
+  "slug": "127-rune-of-exploration",
+  "title": {
+    "ja": "探索のルーン",
+    "en": "Rune of Exploration"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/DropChanceNormalChest.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "DropChanceNormalChest",
+    "DropChanceNormalChestPercent",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "127"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "通常宝箱のドロップ率",
+        "en": "Common Chest Drop Chance"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "征服のルーン",
+            "en": "Rune of Conquest"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "通常宝箱ドロップ率係数50%増加",
+            "en": "50% Increased Common Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "220040000 ゴールド",
+            "en": "220040000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "通常宝箱ドロップ率係数50%増加",
+            "en": "50% Increased Common Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "273090000 ゴールド",
+            "en": "273090000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "通常宝箱ドロップ率係数50%増加",
+            "en": "50% Increased Common Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "292800000 ゴールド",
+            "en": "292800000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "通常宝箱ドロップ率係数50%増加",
+            "en": "50% Increased Common Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "311630000 ゴールド",
+            "en": "311630000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "通常宝箱ドロップ率係数50%増加",
+            "en": "50% Increased Common Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "332100000 ゴールド",
+            "en": "332100000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

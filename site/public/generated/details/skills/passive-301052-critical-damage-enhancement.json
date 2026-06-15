@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-301052",
+  "slug": "passive-301052-critical-damage-enhancement",
+  "title": {
+    "ja": "クリティカルダメージ強化",
+    "en": "Critical Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "クリティカル威力 +200%",
+    "en": "Critical Damage +200%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "CriticalDamage",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301052"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "クリティカルダメージ",
+        "en": "Critical Damage"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "200"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "301052"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_CriticalDamage"
+        ],
+        [
+          "STATTYPE",
+          "CriticalDamage"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "200"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

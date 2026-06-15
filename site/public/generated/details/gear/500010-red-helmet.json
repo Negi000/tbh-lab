@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "500010",
+  "slug": "500010-red-helmet",
+  "title": {
+    "ja": "レッドヘルメット",
+    "en": "Red Helmet"
+  },
+  "subtitle": {
+    "en": "Common / Helmet / HELMET / Lv. 45",
+    "ja": "コモン / ヘルメット / HELMET / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500010.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "500010"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "102"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "500010"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500010"
+        ],
+        [
+          "GearKey",
+          "500010"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Red Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Red Helmet\", \"ja\": \"レッドヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fighter's Helmet Description\", \"ja\": \"Fighter's Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fighter's Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fighter's Helmet\", \"description\": \"Fighter's Helmet Description\", \"display_type\": \"Helmet - Lv. 80\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"helmet\", \"level\": \"80\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

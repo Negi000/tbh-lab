@@ -1,0 +1,369 @@
+{
+  "categoryId": "gear",
+  "entityId": "335041",
+  "slug": "335041-steel-scepter",
+  "title": {
+    "ja": "スチールセプター",
+    "en": "Steel Scepter"
+  },
+  "subtitle": {
+    "en": "Arcana / Scepter / Main Weapon / Lv. 15",
+    "ja": "アルカナ / セプター / メイン武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330004.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "335041"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv20",
+            "en": "Act Boss Treasure Chest Lv20"
+          },
+          "0.06111%",
+          {
+            "ja": "ノーマル 2-10",
+            "en": "Normal 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.02698%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.02698%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.02698%",
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.02698%",
+          {
+            "ja": "ノーマル 2-6",
+            "en": "Normal 2-6"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "0.02698%",
+          {
+            "ja": "ノーマル 2-7",
+            "en": "Normal 2-7"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.01175%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.01175%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.01175%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.01175%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.01175%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.01175%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.002719%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.002719%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.002719%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.002719%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "38"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "24"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "2"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "292"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "361"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "335041"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330004"
+        ],
+        [
+          "GearKey",
+          "335041"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330004"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Steel Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Steel Scepter\", \"ja\": \"スチールセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

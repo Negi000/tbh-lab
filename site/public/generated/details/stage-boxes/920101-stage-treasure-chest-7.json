@@ -1,0 +1,327 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "920101",
+  "slug": "920101-stage-treasure-chest-7",
+  "title": {
+    "ja": "ステージ宝箱 7",
+    "en": "Stage Treasure Chest 7"
+  },
+  "subtitle": {
+    "en": "Rare / Stage Box",
+    "ja": "レア / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_920011.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_920011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "920101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 10레벨",
+          13541572,
+          20.90788
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON MAIN_WEAPON",
+          3385393,
+          5.22697
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON MAIN_WEAPON",
+          3385393,
+          5.22697
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 10레벨",
+          1624989,
+          2.508946
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON SUB_WEAPON",
+          406247,
+          0.627236
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON SUB_WEAPON",
+          406247,
+          0.627236
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 10레벨",
+          13541572,
+          20.90788
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 10레벨",
+          4486586,
+          6.927187
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE MAIN_WEAPON",
+          1121647,
+          1.731798
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE MAIN_WEAPON",
+          1121647,
+          1.731798
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 10레벨",
+          538390,
+          0.831262
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE SUB_WEAPON",
+          134598,
+          0.207816
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE SUB_WEAPON",
+          134598,
+          0.207816
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 10레벨",
+          4486586,
+          6.927187
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 10레벨",
+          704672,
+          1.087998
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY MAIN_WEAPON",
+          176146,
+          0.271965
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY MAIN_WEAPON",
+          176146,
+          0.271965
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 10레벨",
+          84564,
+          0.130565
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY SUB_WEAPON",
+          21141,
+          0.032641
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY SUB_WEAPON",
+          21141,
+          0.032641
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 10레벨",
+          704672,
+          1.087998
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 10레벨",
+          182234,
+          0.281365
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL MAIN_WEAPON",
+          45559,
+          0.070342
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL MAIN_WEAPON",
+          45559,
+          0.070342
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 10레벨",
+          21960,
+          0.033906
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL SUB_WEAPON",
+          5244,
+          0.008097
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL SUB_WEAPON",
+          5244,
+          0.008097
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 10레벨",
+          182234,
+          0.281365
+        ],
+        [
+          "ITEM",
+          "Soulstone - Normal",
+          7066514,
+          10.910537
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          2888312,
+          4.459488
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          3792309,
+          5.855239
+        ],
+        [
+          "ITEM",
+          "Soulstone - Normal",
+          7751,
+          0.011967
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Decoration",
+          320924,
+          0.495499
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "920101"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "NameKey",
+          "Stage Boss Box 7"
+        ],
+        [
+          "DropKey",
+          "9201011"
+        ],
+        [
+          "DropCooldown",
+          "2"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_920011"
+        ],
+        [
+          "display_name",
+          "Stage Boss Box 7"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Stage Treasure Chest 7\", \"ja\": \"ステージ宝箱 7\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

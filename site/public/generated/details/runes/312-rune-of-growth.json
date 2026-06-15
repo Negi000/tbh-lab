@@ -1,0 +1,161 @@
+{
+  "categoryId": "runes",
+  "entityId": "312",
+  "slug": "312-rune-of-growth",
+  "title": {
+    "ja": "成長のルーン",
+    "en": "Rune of Growth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/IncreaseExpAmount.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "IncreaseExpAmount",
+    "IncreaseExpAmount",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "312"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "経験値増加",
+        "en": "Increase Exp Amount"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "組合のルーン",
+            "en": "Rune of Forging"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "経験値獲得50%増加",
+            "en": "50% Increased Exp Gain"
+          },
+          {
+            "ja": "2000000 ゴールド",
+            "en": "2000000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "経験値獲得50%増加",
+            "en": "50% Increased Exp Gain"
+          },
+          {
+            "ja": "3000000 ゴールド",
+            "en": "3000000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "経験値獲得50%増加",
+            "en": "50% Increased Exp Gain"
+          },
+          {
+            "ja": "4000000 ゴールド",
+            "en": "4000000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "経験値獲得50%増加",
+            "en": "50% Increased Exp Gain"
+          },
+          {
+            "ja": "5000000 ゴールド",
+            "en": "5000000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "経験値獲得50%増加",
+            "en": "50% Increased Exp Gain"
+          },
+          {
+            "ja": "6000000 ゴールド",
+            "en": "6000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

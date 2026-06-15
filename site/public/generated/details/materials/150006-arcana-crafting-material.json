@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150006",
+  "slug": "150006-arcana-crafting-material",
+  "title": {
+    "ja": "アルカナ クラフト素材",
+    "en": "Arcana Crafting Material"
+  },
+  "subtitle": {
+    "en": "Arcana / Crafting material",
+    "ja": "アルカナ / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150005.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150006"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150006"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150006"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150006"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150005"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150006"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Arcana Crafting Material\", \"ja\": \"アルカナ クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as arcana crafting material.\", \"ja\": \"アルカナ クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

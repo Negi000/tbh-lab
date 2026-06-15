@@ -1,0 +1,185 @@
+{
+  "categoryId": "stages",
+  "entityId": "4108",
+  "slug": "4108-1-8-act-1-8-torment-normal",
+  "title": {
+    "ja": "1-8 トーメント",
+    "en": "1-8 Act 1-8 TORMENT NORMAL"
+  },
+  "subtitle": {
+    "ja": "トーメント / Lv 84 / Boss Kobold Guard",
+    "en": "Torment / Lv 84 / Boss Kobold Guard"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "TORMENT",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "4108"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "TORMENT"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "8"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "84"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "29"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Kobold Guard"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10051,
+          {
+            "ja": "スケルトン",
+            "en": "Skeleton"
+          },
+          1000,
+          10,
+          11
+        ],
+        [
+          10052,
+          {
+            "ja": "スケルトンアーチャー",
+            "en": "Skeleton Archer"
+          },
+          700,
+          10,
+          13
+        ],
+        [
+          10053,
+          {
+            "ja": "スケルトンウォリアー",
+            "en": "Skeleton Warrior"
+          },
+          500,
+          30,
+          30
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910801,
+          8
+        ],
+        [
+          "Boss box",
+          920801,
+          80
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "84"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "40105"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "293070"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "30530"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "600000"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

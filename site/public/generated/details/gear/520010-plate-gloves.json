@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "520010",
+  "slug": "520010-plate-gloves",
+  "title": {
+    "ja": "プレートグローブ",
+    "en": "Plate Gloves"
+  },
+  "subtitle": {
+    "en": "Common / Gloves / GLOVES / Lv. 45",
+    "ja": "コモン / グローブ / GLOVES / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520010.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "520010"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "87"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "520010"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520010"
+        ],
+        [
+          "GearKey",
+          "520010"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Plate Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Plate Gloves\", \"ja\": \"プレートグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Shine Gloves Description\", \"ja\": \"Shine Gloves Description\"}"
+        ],
+        [
+          "mono_name",
+          "Shine Gloves"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Shine Gloves\", \"description\": \"Shine Gloves Description\", \"display_type\": \"Gloves - Lv. 80\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"gloves\", \"level\": \"80\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "categoryId": "database",
+  "entityId": "TradingStashInfoData",
+  "slug": "trading-stash-info-data",
+  "title": {
+    "ja": "TradingStashInfoData",
+    "en": "TradingStashInfoData"
+  },
+  "subtitle": {
+    "ja": "10 records",
+    "en": "10 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "TradingStashInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "TradingStashInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Index",
+          "0"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "1"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "2"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "3"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "4"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "5"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "6"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "7"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "8"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "9"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "TradingStashInfoData"
+  }
+}

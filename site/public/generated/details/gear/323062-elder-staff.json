@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "323062",
+  "slug": "323062-elder-staff",
+  "title": {
+    "ja": "エルダースタッフ",
+    "en": "Elder Staff"
+  },
+  "subtitle": {
+    "en": "Legendary / Staff / Main Weapon / Lv. 25",
+    "ja": "レジェンダリー / スタッフ / メイン武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320006.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "323062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "64"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "10"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "323062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320006"
+        ],
+        [
+          "GearKey",
+          "323062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elder Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elder Staff\", \"ja\": \"エルダースタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Magic Staff Description\", \"ja\": \"Magic Staff Description\"}"
+        ],
+        [
+          "mono_name",
+          "Magic Staff"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Magic Staff\", \"description\": \"Magic Staff Description\", \"display_type\": \"Staff - Lv. 50\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"mainweapon\", \"class\": \"sorcerer\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

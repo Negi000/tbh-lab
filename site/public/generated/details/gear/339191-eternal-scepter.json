@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "339191",
+  "slug": "339191-eternal-scepter",
+  "title": {
+    "ja": "エターナルセプター",
+    "en": "Eternal Scepter"
+  },
+  "subtitle": {
+    "en": "Cosmic / Scepter / Main Weapon / Lv. 90",
+    "ja": "コズミック / セプター / メイン武器 / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330019.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "339191"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2950"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "40"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "120"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1500"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "339191"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330019"
+        ],
+        [
+          "GearKey",
+          "339191"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Scepter\", \"ja\": \"エターナルセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

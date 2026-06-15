@@ -1,0 +1,150 @@
+{
+  "categoryId": "runes",
+  "entityId": "411",
+  "slug": "411-rune-of-war",
+  "title": {
+    "ja": "戦争のルーン",
+    "en": "Rune of War"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AllHeroAttackDamage",
+    "AllHeroAttackDamage",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "411"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "全ヒーロー攻撃ダメージ",
+        "en": "All Hero Attack Damage"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "盾のルーン",
+            "en": "Rune of the Shield"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "全ヒーロー攻撃ダメージ +1",
+            "en": "All Hero Attack Damage +1"
+          },
+          {
+            "ja": "80000 ゴールド",
+            "en": "80000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "全ヒーロー攻撃ダメージ +1",
+            "en": "All Hero Attack Damage +1"
+          },
+          {
+            "ja": "100000 ゴールド",
+            "en": "100000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "全ヒーロー攻撃ダメージ +1",
+            "en": "All Hero Attack Damage +1"
+          },
+          {
+            "ja": "120000 ゴールド",
+            "en": "120000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "全ヒーロー攻撃ダメージ +1",
+            "en": "All Hero Attack Damage +1"
+          },
+          {
+            "ja": "140000 ゴールド",
+            "en": "140000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "全ヒーロー攻撃ダメージ +1",
+            "en": "All Hero Attack Damage +1"
+          },
+          {
+            "ja": "160000 ゴールド",
+            "en": "160000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

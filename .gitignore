@@ -1,0 +1,31 @@
+# Local reverse-engineering inputs and intermediate exports
+/リソース/
+/output/
+/__pycache__/
+/tools/__pycache__/
+*.pyc
+
+# Site build outputs and local tooling
+/site/node_modules/
+/site/dist/
+/site/.wrangler/
+/site/*.log
+
+# Local env and OS/editor noise
+.env
+.env.*
+!.env.example
+/site/.env
+/site/.env.*
+!/site/.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Never commit local game saves or diagnostics
+*.es3
+*.es3.bak
+Player.log
+Player-prev.log

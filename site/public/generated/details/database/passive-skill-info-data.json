@@ -1,0 +1,288 @@
+{
+  "categoryId": "database",
+  "entityId": "PassiveSkillInfoData",
+  "slug": "passive-skill-info-data",
+  "title": {
+    "ja": "PassiveSkillInfoData",
+    "en": "PassiveSkillInfoData"
+  },
+  "subtitle": {
+    "ja": "108 records",
+    "en": "108 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "PassiveSkillInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "PassiveSkillInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "108"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "101001"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AttackDamage"
+        ],
+        [
+          "STATTYPE",
+          "AttackDamage"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "1"
+        ],
+        [
+          "PassiveSkillKey",
+          "101002"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_MaxHp"
+        ],
+        [
+          "STATTYPE",
+          "MaxHp"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "15"
+        ],
+        [
+          "PassiveSkillKey",
+          "101011"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_Armor"
+        ],
+        [
+          "STATTYPE",
+          "Armor"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "10"
+        ],
+        [
+          "PassiveSkillKey",
+          "101012"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_HpRegenPerSec"
+        ],
+        [
+          "STATTYPE",
+          "HpRegenPerSec"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ],
+        [
+          "PassiveSkillKey",
+          "101021"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AddHpPerKill"
+        ],
+        [
+          "STATTYPE",
+          "AddHpPerKill"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "3"
+        ],
+        [
+          "PassiveSkillKey",
+          "101022"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_BlockChance"
+        ],
+        [
+          "STATTYPE",
+          "BlockChance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "30"
+        ],
+        [
+          "PassiveSkillKey",
+          "101031"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_PhysicalDamagePercent"
+        ],
+        [
+          "STATTYPE",
+          "PhysicalDamagePercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ],
+        [
+          "PassiveSkillKey",
+          "101032"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_MaxHp"
+        ],
+        [
+          "STATTYPE",
+          "MaxHp"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "50"
+        ],
+        [
+          "PassiveSkillKey",
+          "101041"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_CooldownReduction"
+        ],
+        [
+          "STATTYPE",
+          "CooldownReduction"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "20"
+        ],
+        [
+          "PassiveSkillKey",
+          "101042"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_HpRegenPerSec"
+        ],
+        [
+          "STATTYPE",
+          "HpRegenPerSec"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ],
+        [
+          "PassiveSkillKey",
+          "101051"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AddHpPerKill"
+        ],
+        [
+          "STATTYPE",
+          "AddHpPerKill"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "5"
+        ],
+        [
+          "PassiveSkillKey",
+          "101052"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_BlockChance"
+        ],
+        [
+          "STATTYPE",
+          "BlockChance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

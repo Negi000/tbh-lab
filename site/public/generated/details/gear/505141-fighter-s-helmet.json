@@ -1,0 +1,410 @@
+{
+  "categoryId": "gear",
+  "entityId": "505141",
+  "slug": "505141-fighter-s-helmet",
+  "title": {
+    "ja": "ファイターズヘルメット",
+    "en": "Fighter's Helmet"
+  },
+  "subtitle": {
+    "en": "Arcana / Helmet / HELMET / Lv. 65",
+    "ja": "アルカナ / ヘルメット / HELMET / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500014.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "505141"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv70",
+            "en": "Act Boss Treasure Chest Lv70"
+          },
+          "0.2923%",
+          {
+            "ja": "ヘル 3-10",
+            "en": "Hell 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv65",
+            "en": "Act Boss Treasure Chest Lv65"
+          },
+          "0.2251%",
+          {
+            "ja": "ヘル 2-10",
+            "en": "Hell 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.09418%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.09418%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.09418%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.09418%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.09418%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.09418%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.02498%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.02498%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.02498%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.02498%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.02498%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.02498%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv70",
+            "en": "Stage Treasure Chest Lv70"
+          },
+          "0.09418%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv75",
+            "en": "Stage Treasure Chest Lv75"
+          },
+          "0.09418%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1069"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "127"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "767"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "1181"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "30001"
+        ],
+        [
+          "UniqueMod",
+          "FlameHydraBerserk"
+        ],
+        [
+          "Param1ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param1",
+          "2000"
+        ],
+        [
+          "Param2ExchangeType",
+          "Raw_Divide1000"
+        ],
+        [
+          "Param2",
+          "300"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "505141"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500014"
+        ],
+        [
+          "GearKey",
+          "505141"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500014"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fighter's Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fighter's Helmet\", \"ja\": \"ファイターズヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

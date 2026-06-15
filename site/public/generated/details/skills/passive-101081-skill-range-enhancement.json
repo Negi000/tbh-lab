@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-101081",
+  "slug": "passive-101081-skill-range-enhancement",
+  "title": {
+    "ja": "スキル射程強化",
+    "en": "Skill Range Enhancement"
+  },
+  "subtitle": {
+    "ja": "スキル射程30%増加",
+    "en": "30% Increased Skill Range"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "SkillRangeExpansion",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "101081"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "スキル射程",
+        "en": "Skill Range"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "101081"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_SkillRangeExpansion"
+        ],
+        [
+          "STATTYPE",
+          "SkillRangeExpansion"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1110021",
+  "slug": "1110021-coral-piece-effects",
+  "title": {
+    "ja": "珊瑚の欠片 効果",
+    "en": "Coral Piece Effects"
+  },
+  "subtitle": {
+    "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+    "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_111002.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "AddHpPerHit",
+    "HpLeech",
+    "HpRegenPerSec",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1110021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "HP Per Hit Enhancement, Life Leech Enhancement, HP Regen Enhancement",
+        "ja": "命中毎HP回復強化, ライフ吸収強化, 毎秒HP回復強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          103301,
+          {
+            "ja": "命中毎HP回復強化",
+            "en": "HP Per Hit Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "命中毎HP回復 +10~12",
+            "en": "HP Per Hit +10~12"
+          },
+          "T3 - T3"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          102301,
+          {
+            "ja": "毎秒HP回復強化",
+            "en": "HP Regen Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "毎秒HP回復 +1500~2000",
+            "en": "HP Regen Per Sec +1500~2000"
+          },
+          "T2 - T2"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          102101,
+          {
+            "ja": "ライフ吸収強化",
+            "en": "Life Leech Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ライフ吸収 +55~65%",
+            "en": "Life Leech +55~65%"
+          },
+          "T2 - T2"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

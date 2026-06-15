@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "402032",
+  "slug": "402032-iron-shield",
+  "title": {
+    "ja": "アイアンシールド",
+    "en": "Iron Shield"
+  },
+  "subtitle": {
+    "en": "Rare / Shield / Sub Weapon / Lv. 10",
+    "ja": "レア / シールド / サブ武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400003.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "402032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "77"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "22"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "402032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400003"
+        ],
+        [
+          "GearKey",
+          "402032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Shield\", \"ja\": \"アイアンシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Cow Shield Description\", \"ja\": \"Cow Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Cow Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Cow Shield\", \"description\": \"Cow Shield Description\", \"display_type\": \"Shield - Lv. 10\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

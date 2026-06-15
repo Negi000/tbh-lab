@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "532032",
+  "slug": "532032-iron-boots",
+  "title": {
+    "ja": "アイアンブーツ",
+    "en": "Iron Boots"
+  },
+  "subtitle": {
+    "en": "Rare / Boots / BOOTS / Lv. 10",
+    "ja": "レア / ブーツ / BOOTS / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530003.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "532032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "19"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "33"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "532032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530003"
+        ],
+        [
+          "GearKey",
+          "532032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Boots\", \"ja\": \"アイアンブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Golden Boots Description\", \"ja\": \"Golden Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Golden Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Golden Boots\", \"description\": \"Golden Boots Description\", \"display_type\": \"Boots - Lv. 10\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"boots\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

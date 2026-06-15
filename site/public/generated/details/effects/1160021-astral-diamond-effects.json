@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1160021",
+  "slug": "1160021-astral-diamond-effects",
+  "title": {
+    "ja": "アストラルダイヤ 効果",
+    "en": "Astral Diamond Effects"
+  },
+  "subtitle": {
+    "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+    "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_116002.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "AllElementalResistance",
+    "AreaOfEffect",
+    "AttackDamage",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1160021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "All Elemental Resistance Enhancement, Area of Effect Enhancement, Attack Damage",
+        "ja": "全属性耐性強化, 効果範囲強化, 攻撃力"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T8 - T8"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          105201,
+          {
+            "ja": "全属性耐性強化",
+            "en": "All Elemental Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "全属性耐性 +25~30%",
+            "en": "All Elemental Resistance +25~30%"
+          },
+          "T7 - T7"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100901,
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T7 - T7"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

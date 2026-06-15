@@ -1,0 +1,369 @@
+{
+  "categoryId": "gear",
+  "entityId": "326141",
+  "slug": "326141-sacred-staff",
+  "title": {
+    "ja": "セイクリッドスタッフ",
+    "en": "Sacred Staff"
+  },
+  "subtitle": {
+    "en": "Beyond / Staff / Main Weapon / Lv. 65",
+    "ja": "ビヨンド / スタッフ / メイン武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320014.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "326141"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv70",
+            "en": "Act Boss Treasure Chest Lv70"
+          },
+          "0.02733%",
+          {
+            "ja": "ヘル 3-10",
+            "en": "Hell 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv65",
+            "en": "Act Boss Treasure Chest Lv65"
+          },
+          "0.0207%",
+          {
+            "ja": "ヘル 2-10",
+            "en": "Hell 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.00952%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.00952%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.00952%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.00952%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.00952%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv65",
+            "en": "Stage Treasure Chest Lv65"
+          },
+          "0.00952%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.00034%",
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.00034%",
+          {
+            "ja": "ヘル 2-6",
+            "en": "Hell 2-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.00034%",
+          {
+            "ja": "ヘル 2-7",
+            "en": "Hell 2-7"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.00034%",
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.00034%",
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv65",
+            "en": "Common Treasure Chest Lv65"
+          },
+          "0.00034%",
+          {
+            "ja": "ヘル 3-1",
+            "en": "Hell 3-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv70",
+            "en": "Stage Treasure Chest Lv70"
+          },
+          "0.00952%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv75",
+            "en": "Stage Treasure Chest Lv75"
+          },
+          "0.00952%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1026"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "28"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "26"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "172"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "866"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "326141"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320014"
+        ],
+        [
+          "GearKey",
+          "326141"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320014"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sacred Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sacred Staff\", \"ja\": \"セイクリッドスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

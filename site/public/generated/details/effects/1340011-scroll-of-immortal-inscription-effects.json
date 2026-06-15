@@ -1,0 +1,387 @@
+{
+  "categoryId": "effects",
+  "entityId": "1340011",
+  "slug": "1340011-scroll-of-immortal-inscription-effects",
+  "title": {
+    "ja": "不滅の刻文の巻物 効果",
+    "en": "Scroll of Immortal Inscription Effects"
+  },
+  "subtitle": {
+    "en": "Area of Effect Enhancement, Attack Damage, Attack Speed",
+    "ja": "効果範囲強化, 攻撃力, 攻撃速度"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_134001.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "AreaOfEffect",
+    "AttackDamage",
+    "AttackSpeed",
+    "CastSpeed",
+    "ColdDamagePercent",
+    "ColdResistance",
+    "FireDamagePercent",
+    "FireResistance",
+    "HpLeech",
+    "LightningDamagePercent",
+    "LightningResistance",
+    "MaxHp",
+    "PhysicalDamagePercent",
+    "SkillDurationIncrease",
+    "COMMON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1340011"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Common",
+        "ja": "コモン"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Area of Effect Enhancement, Attack Damage, Attack Speed, Cast Speed, Cold Damage Enhancement, Cold Resistance",
+        "ja": "効果範囲強化, 攻撃力, 攻撃速度, 詠唱速度, 冷気ダメージ強化, 氷冷耐性"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100101,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100102,
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100501,
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100201,
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          104901,
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          100901,
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          105801,
+          {
+            "ja": "スキル持続時間増加",
+            "en": "Skill Duration Increase"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "453~500% 増加したスキル持続時間",
+            "en": "453~500% Increased Skill Duration"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102401,
+          {
+            "ja": "物理ダメージ強化",
+            "en": "Physical Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "物理ダメージ +1800~2500%",
+            "en": "Physical Damage +1800~2500%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102501,
+          {
+            "ja": "火炎ダメージ強化",
+            "en": "Fire Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎ダメージ +1800~2500%",
+            "en": "Fire Damage +1800~2500%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102601,
+          {
+            "ja": "冷気ダメージ強化",
+            "en": "Cold Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気ダメージ +1800~2500%",
+            "en": "Cold Damage +1800~2500%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102701,
+          {
+            "ja": "雷ダメージ強化",
+            "en": "Lightning Damage Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷ダメージ +1800~2500%",
+            "en": "Lightning Damage +1800~2500%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101201,
+          {
+            "ja": "火炎耐性",
+            "en": "Fire Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎耐性 +50~55%",
+            "en": "Fire Resistance +50~55%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101301,
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          101401,
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T5 - T7"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          102101,
+          {
+            "ja": "ライフ吸収強化",
+            "en": "Life Leech Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ライフ吸収 +55~65%",
+            "en": "Life Leech +55~65%"
+          },
+          "T5 - T7"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "categoryId": "database",
+  "entityId": "StatusEffectInfoData",
+  "slug": "status-effect-info-data",
+  "title": {
+    "ja": "StatusEffectInfoData",
+    "en": "StatusEffectInfoData"
+  },
+  "subtitle": {
+    "ja": "6 records",
+    "en": "6 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "StatusEffectInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "StatusEffectInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "6"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StatusEffectKey",
+          "101"
+        ],
+        [
+          "StatusEffectType",
+          "Chill"
+        ],
+        [
+          "Duration",
+          "400"
+        ],
+        [
+          "BuffKeys",
+          "1011 1012"
+        ],
+        [
+          "OverrideType",
+          "InitDuration"
+        ],
+        [
+          "StatusEffectKey",
+          "102"
+        ],
+        [
+          "StatusEffectType",
+          "Freeze"
+        ],
+        [
+          "Duration",
+          "150"
+        ],
+        [
+          "OverrideType",
+          "NotOverride"
+        ],
+        [
+          "StatusEffectKey",
+          "103"
+        ],
+        [
+          "StatusEffectType",
+          "Ignite"
+        ],
+        [
+          "Duration",
+          "400"
+        ],
+        [
+          "BuffKeys",
+          "1031"
+        ],
+        [
+          "OverrideType",
+          "NotOverride"
+        ],
+        [
+          "Param0",
+          "50"
+        ],
+        [
+          "Param1",
+          "2"
+        ],
+        [
+          "StatusEffectKey",
+          "104"
+        ],
+        [
+          "StatusEffectType",
+          "Shock"
+        ],
+        [
+          "Duration",
+          "600"
+        ],
+        [
+          "BuffKeys",
+          "1041"
+        ],
+        [
+          "OverrideType",
+          "InitDuration"
+        ],
+        [
+          "Param0",
+          "800"
+        ],
+        [
+          "Param1",
+          "100"
+        ],
+        [
+          "StatusEffectKey",
+          "105"
+        ],
+        [
+          "StatusEffectType",
+          "Bleed"
+        ],
+        [
+          "Duration",
+          "700"
+        ],
+        [
+          "BuffKeys",
+          "1051"
+        ],
+        [
+          "OverrideType",
+          "NotOverride"
+        ],
+        [
+          "Param0",
+          "30"
+        ],
+        [
+          "Param1",
+          "2"
+        ],
+        [
+          "StatusEffectKey",
+          "106"
+        ],
+        [
+          "StatusEffectType",
+          "Stun"
+        ],
+        [
+          "Duration",
+          "200"
+        ],
+        [
+          "BuffKeys",
+          "1061"
+        ],
+        [
+          "OverrideType",
+          "InitDuration"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatusEffectInfoData"
+  }
+}

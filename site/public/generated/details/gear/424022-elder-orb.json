@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "424022",
+  "slug": "424022-elder-orb",
+  "title": {
+    "ja": "エルダーオーブ",
+    "en": "Elder Orb"
+  },
+  "subtitle": {
+    "en": "Immortal / Orb / Sub Weapon / Lv. 5",
+    "ja": "イモータル / オーブ / サブ武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "424022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "100"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "3"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "139"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "424022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420002"
+        ],
+        [
+          "GearKey",
+          "424022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elder Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elder Orb\", \"ja\": \"エルダーオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elder Spellbook Description\", \"ja\": \"Elder Spellbook Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elder Spellbook"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elder Spellbook\", \"description\": \"Elder Spellbook Description\", \"display_type\": \"Spellbook - Lv. 5\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"subweapon\", \"class\": \"priest\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

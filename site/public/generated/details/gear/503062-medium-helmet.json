@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "503062",
+  "slug": "503062-medium-helmet",
+  "title": {
+    "ja": "ミディアムヘルメット",
+    "en": "Medium Helmet"
+  },
+  "subtitle": {
+    "en": "Legendary / Helmet / HELMET / Lv. 25",
+    "ja": "レジェンダリー / ヘルメット / HELMET / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500006.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "503062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "100"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "35"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "51"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "503062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500006"
+        ],
+        [
+          "GearKey",
+          "503062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Medium Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Medium Helmet\", \"ja\": \"ミディアムヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Helmet Description\", \"ja\": \"Heavy Helmet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Helmet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Helmet\", \"description\": \"Heavy Helmet Description\", \"display_type\": \"Helmet - Lv. 50\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"helmet\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

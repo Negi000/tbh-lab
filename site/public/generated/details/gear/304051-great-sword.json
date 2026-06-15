@@ -1,0 +1,369 @@
+{
+  "categoryId": "gear",
+  "entityId": "304051",
+  "slug": "304051-great-sword",
+  "title": {
+    "ja": "グレートソード",
+    "en": "Great Sword"
+  },
+  "subtitle": {
+    "en": "Immortal / Sword / Main Weapon / Lv. 20",
+    "ja": "イモータル / ソード / メイン武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300005.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "304051"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv20",
+            "en": "Act Boss Treasure Chest Lv20"
+          },
+          "0.7379%",
+          {
+            "ja": "ノーマル 2-10",
+            "en": "Normal 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.2095%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.2095%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.2095%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.2095%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.2095%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.2095%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.04812%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.04812%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.04812%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.04812%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.04812%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.04812%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv25",
+            "en": "Stage Treasure Chest Lv25"
+          },
+          "0.2095%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv25",
+            "en": "Common Treasure Chest Lv25"
+          },
+          "0.04812%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3112054",
+            "en": "DropKey 3112054"
+          },
+          "46.67%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "44"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "10"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "301"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "304051"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300005"
+        ],
+        [
+          "GearKey",
+          "304051"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300005"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Great Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Great Sword\", \"ja\": \"グレートソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Katana Description\", \"ja\": \"Katana Description\"}"
+        ],
+        [
+          "mono_name",
+          "Katana"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Katana\", \"description\": \"Katana Description\", \"display_type\": \"Sword - Lv. 30\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

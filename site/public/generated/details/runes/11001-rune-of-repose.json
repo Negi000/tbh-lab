@@ -1,0 +1,117 @@
+{
+  "categoryId": "runes",
+  "entityId": "11001",
+  "slug": "11001-rune-of-repose",
+  "title": {
+    "ja": "安息のルーン",
+    "en": "Rune of Repose"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/UnlockOfflineReward.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "UnlockOfflineReward",
+    "UnlockOfflineReward",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "11001"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "安息のルーン",
+        "en": "Rune of Repose"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "蓄積のルーン",
+            "en": "Rune of Hoarding"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "修練のルーン",
+            "en": "Rune of Training"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "オフライン報酬解放(オフライン時にゴールドと経験値獲得可能)",
+            "en": "Unlock Offline Reward (gain gold and EXP while offline)"
+          },
+          {
+            "ja": "100 ゴールド",
+            "en": "100 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

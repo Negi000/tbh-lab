@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "633012",
+  "slug": "633012-copper-bracer",
+  "title": {
+    "ja": "コパーブレーサー",
+    "en": "Copper Bracer"
+  },
+  "subtitle": {
+    "en": "Legendary / Bracer / BRACER / Lv. 1",
+    "ja": "レジェンダリー / ブレイサー / BRACER / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "633012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DamageAbsorption / FLAT",
+          "value": "32"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "633012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630001"
+        ],
+        [
+          "GearKey",
+          "633012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Copper Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Copper Bracer\", \"ja\": \"コパーブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Special bracer Description\", \"ja\": \"Special bracer Description\"}"
+        ],
+        [
+          "mono_name",
+          "Special bracer"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Special bracer\", \"description\": \"Special bracer Description\", \"display_type\": \"Bracer - Lv. 1\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"bracer\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

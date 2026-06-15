@@ -1,0 +1,344 @@
+{
+  "categoryId": "database",
+  "entityId": "RuneInfoData",
+  "slug": "rune-info-data",
+  "title": {
+    "ja": "RuneInfoData",
+    "en": "RuneInfoData"
+  },
+  "subtitle": {
+    "ja": "197 records",
+    "en": "197 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "RuneInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "RuneInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "197"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "RuneKey",
+          "1"
+        ],
+        [
+          "NameKey",
+          "RuneName_AllHeroAttackDamage"
+        ],
+        [
+          "MaxLevel",
+          "1"
+        ],
+        [
+          "NextRuneKey",
+          "10 20"
+        ],
+        [
+          "LevelDataKey",
+          "1"
+        ],
+        [
+          "IconPath",
+          "AllHeroAttackDamage"
+        ],
+        [
+          "RuneKey",
+          "10"
+        ],
+        [
+          "NameKey",
+          "RuneName_AdditionalGoldStageBoss"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "11 101 201"
+        ],
+        [
+          "PreviewRuneKey",
+          "11001 11002"
+        ],
+        [
+          "LevelDataKey",
+          "10"
+        ],
+        [
+          "IconPath",
+          "AdditionalGoldStageBoss"
+        ],
+        [
+          "RuneKey",
+          "20"
+        ],
+        [
+          "NameKey",
+          "RuneName_AdditionalExpStageBoss"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "21 301 401"
+        ],
+        [
+          "LevelDataKey",
+          "20"
+        ],
+        [
+          "IconPath",
+          "AdditionalExpStageBoss"
+        ],
+        [
+          "RuneKey",
+          "11"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "12 11001 11002"
+        ],
+        [
+          "PreviewRuneKey",
+          "13002"
+        ],
+        [
+          "LevelDataKey",
+          "11"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "12"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "13"
+        ],
+        [
+          "LevelDataKey",
+          "12"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "13"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "14 13001 13002"
+        ],
+        [
+          "LevelDataKey",
+          "13"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "14"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "15"
+        ],
+        [
+          "LevelDataKey",
+          "14"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "15"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "16 15001 15002"
+        ],
+        [
+          "LevelDataKey",
+          "15"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "16"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "1801 1901 16001"
+        ],
+        [
+          "LevelDataKey",
+          "16"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "1801"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "1802"
+        ],
+        [
+          "LevelDataKey",
+          "1801"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "1802"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "1803 180201"
+        ],
+        [
+          "LevelDataKey",
+          "1802"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ],
+        [
+          "RuneKey",
+          "1803"
+        ],
+        [
+          "NameKey",
+          "RuneName_MaxInventorySlot"
+        ],
+        [
+          "MaxLevel",
+          "3"
+        ],
+        [
+          "NextRuneKey",
+          "1804 180301"
+        ],
+        [
+          "LevelDataKey",
+          "1803"
+        ],
+        [
+          "IconPath",
+          "MaxInventorySlot"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

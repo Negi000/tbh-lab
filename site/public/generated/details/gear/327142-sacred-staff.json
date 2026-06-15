@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "327142",
+  "slug": "327142-sacred-staff",
+  "title": {
+    "ja": "セイクリッドスタッフ",
+    "en": "Sacred Staff"
+  },
+  "subtitle": {
+    "en": "Celestial / Staff / Main Weapon / Lv. 65",
+    "ja": "セレスティアル / スタッフ / メイン武器 / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320014.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "327142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1385"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "31"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1247"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "232"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "327142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320014"
+        ],
+        [
+          "GearKey",
+          "327142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sacred Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sacred Staff\", \"ja\": \"セイクリッドスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

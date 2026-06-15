@@ -1,0 +1,138 @@
+{
+  "categoryId": "runes",
+  "entityId": "3151",
+  "slug": "3151-rune-of-growth",
+  "title": {
+    "ja": "成長のルーン",
+    "en": "Rune of Growth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalExp.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AdditionalExp",
+    "AdditionalExp",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3151"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "追加経験値",
+        "en": "Additional Exp"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "追加経験値 +5",
+            "en": "Additional Exp +5"
+          },
+          {
+            "ja": "5000000 ゴールド",
+            "en": "5000000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "追加経験値 +5",
+            "en": "Additional Exp +5"
+          },
+          {
+            "ja": "5500000 ゴールド",
+            "en": "5500000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "追加経験値 +5",
+            "en": "Additional Exp +5"
+          },
+          {
+            "ja": "6000000 ゴールド",
+            "en": "6000000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "追加経験値 +5",
+            "en": "Additional Exp +5"
+          },
+          {
+            "ja": "6500000 ゴールド",
+            "en": "6500000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "追加経験値 +5",
+            "en": "Additional Exp +5"
+          },
+          {
+            "ja": "7000000 ゴールド",
+            "en": "7000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

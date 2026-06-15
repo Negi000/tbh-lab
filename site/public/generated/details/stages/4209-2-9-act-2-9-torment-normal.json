@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "4209",
+  "slug": "4209-2-9-act-2-9-torment-normal",
+  "title": {
+    "ja": "2-9 トーメント",
+    "en": "2-9 Act 2-9 TORMENT NORMAL"
+  },
+  "subtitle": {
+    "ja": "トーメント / Lv 90 / Boss Mummy",
+    "en": "Torment / Lv 90 / Boss Mummy"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "TORMENT",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "4209"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "TORMENT"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "9"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "90"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Mummy"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20061,
+          {
+            "ja": "コボルト衛兵",
+            "en": "Kobold Guard"
+          },
+          1000,
+          17,
+          17
+        ],
+        [
+          20062,
+          {
+            "ja": "コボルト投石兵",
+            "en": "Kobold Slinger"
+          },
+          1000,
+          14,
+          14
+        ],
+        [
+          20091,
+          {
+            "ja": "火の精霊",
+            "en": "Fire Elemental"
+          },
+          1000,
+          23,
+          23
+        ],
+        [
+          20101,
+          {
+            "ja": "20101",
+            "en": "20101"
+          },
+          1000,
+          null,
+          null
+        ],
+        [
+          20111,
+          {
+            "ja": "ミイラ",
+            "en": "Mummy"
+          },
+          1000,
+          30,
+          30
+        ],
+        [
+          20081,
+          {
+            "ja": "グール",
+            "en": "Ghoul"
+          },
+          500,
+          45,
+          45
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910801,
+          8
+        ],
+        [
+          "Boss box",
+          920801,
+          80
+        ],
+        [
+          "First clear",
+          9200520,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "90"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "87185"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "340770"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "35360"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "696600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

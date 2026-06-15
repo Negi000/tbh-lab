@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "10011",
+  "slug": "10011-slime",
+  "title": {
+    "ja": "スライム",
+    "en": "Slime"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10011"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "10011"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_10011"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "10"
+        ],
+        [
+          "RewardExp",
+          "10"
+        ],
+        [
+          "SkillKey",
+          "100111"
+        ],
+        [
+          "AttackDamage",
+          "10"
+        ],
+        [
+          "AttackSpeed",
+          "40"
+        ],
+        [
+          "MaxLife",
+          "50"
+        ],
+        [
+          "MovementSpeed",
+          "110"
+        ],
+        [
+          "DeadSoundKey",
+          "21001111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_10011"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/10011/Monster_10011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

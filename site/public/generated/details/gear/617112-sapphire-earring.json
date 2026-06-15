@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "617112",
+  "slug": "617112-sapphire-earring",
+  "title": {
+    "ja": "サファイアイヤリング",
+    "en": "Sapphire Earring"
+  },
+  "subtitle": {
+    "en": "Celestial / Earing / EARING / Lv. 50",
+    "ja": "セレスティアル / イヤリング / EARING / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610011.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "617112"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "IncreaseExpAmount / ADDITIVE",
+          "value": "104"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "307"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "302"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "617112"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610011"
+        ],
+        [
+          "GearKey",
+          "617112"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610011"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Sapphire Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Sapphire Earring\", \"ja\": \"サファイアイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

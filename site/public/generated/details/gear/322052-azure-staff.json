@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "322052",
+  "slug": "322052-azure-staff",
+  "title": {
+    "ja": "アズールスタッフ",
+    "en": "Azure Staff"
+  },
+  "subtitle": {
+    "en": "Rare / Staff / Main Weapon / Lv. 20",
+    "ja": "レア / スタッフ / メイン武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320005.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "322052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "29"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "322052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320005"
+        ],
+        [
+          "GearKey",
+          "322052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Azure Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Azure Staff\", \"ja\": \"アズールスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elder Staff Description\", \"ja\": \"Elder Staff Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elder Staff"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elder Staff\", \"description\": \"Elder Staff Description\", \"display_type\": \"Staff - Lv. 30\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"sorcerer\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1130021",
+  "slug": "1130021-pearl-effects",
+  "title": {
+    "ja": "真珠 効果",
+    "en": "Pearl Effects"
+  },
+  "subtitle": {
+    "en": "Cooldown Reduction, Critical Chance, Damage Reduction Enhancement",
+    "ja": "クールタイム短縮, クリティカル率, ダメージ軽減強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_113002.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "CooldownReduction",
+    "CriticalChance",
+    "DamageReduction",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1130021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "Cooldown Reduction, Critical Chance, Damage Reduction Enhancement",
+        "ja": "クールタイム短縮, クリティカル率, ダメージ軽減強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          100701,
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T5 - T5"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          103401,
+          {
+            "ja": "ダメージ軽減強化",
+            "en": "Damage Reduction Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ダメージ軽減 +140~160%",
+            "en": "Damage Reduction +140~160%"
+          },
+          "T4 - T4"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100302,
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T4 - T4"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

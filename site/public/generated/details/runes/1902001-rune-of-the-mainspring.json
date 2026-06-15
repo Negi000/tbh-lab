@@ -1,0 +1,106 @@
+{
+  "categoryId": "runes",
+  "entityId": "1902001",
+  "slug": "1902001-rune-of-the-mainspring",
+  "title": {
+    "ja": "ぜんまいのルーン",
+    "en": "Rune of the Mainspring"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/UnlockAutoOpenActBossChest.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "UnlockAutoOpenActBossChest",
+    "UnlockAutoOpenActBossChest",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1902001"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ぜんまいのルーン",
+        "en": "Rune of the Mainspring"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "潤滑のルーン",
+            "en": "Rune of Lubrication"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "アクトボスチェスト自動開封解放",
+            "en": "Unlock Auto-Open Act Boss Chest"
+          },
+          {
+            "ja": "1000000 ゴールド",
+            "en": "1000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "337102",
+  "slug": "337102-legend-scepter",
+  "title": {
+    "ja": "レジェンドセプター",
+    "en": "Legend Scepter"
+  },
+  "subtitle": {
+    "en": "Celestial / Scepter / Main Weapon / Lv. 45",
+    "ja": "セレスティアル / セプター / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330010.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "337102"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "470"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "77"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "890"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "760"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "337102"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330010"
+        ],
+        [
+          "GearKey",
+          "337102"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Legend Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Legend Scepter\", \"ja\": \"レジェンドセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

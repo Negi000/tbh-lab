@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "455122",
+  "slug": "455122-swift-hatchet",
+  "title": {
+    "ja": "スウィフトハチェット",
+    "en": "Swift Hatchet"
+  },
+  "subtitle": {
+    "en": "Arcana / Hatchet / Sub Weapon / Lv. 55",
+    "ja": "アルカナ / 手斧 / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HATCHET_450012.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "HATCHET",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HATCHET_450012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "455122"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "998"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "48"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "392"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "224"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "455122"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "HATCHET"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_450012"
+        ],
+        [
+          "GearKey",
+          "455122"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HATCHET_450012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Swift Hatchet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Swift Hatchet\", \"ja\": \"スウィフトハチェット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

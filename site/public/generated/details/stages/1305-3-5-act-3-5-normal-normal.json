@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "1305",
+  "slug": "1305-3-5-act-3-5-normal-normal",
+  "title": {
+    "ja": "3-5 ノーマル",
+    "en": "3-5 Act 3-5 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 27 / Boss Homunculus",
+    "en": "Normal / Lv 27 / Boss Homunculus"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1305"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "27"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "17"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Homunculus"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30031,
+          {
+            "ja": "ドラゴンハッチリング",
+            "en": "Dragon Hatchling"
+          },
+          300,
+          10,
+          5
+        ],
+        [
+          30051,
+          {
+            "ja": "幽霊",
+            "en": "Ghost"
+          },
+          700,
+          15,
+          15
+        ],
+        [
+          30043,
+          {
+            "ja": "雪山衛兵",
+            "en": "Snow Mountain Guard"
+          },
+          1000,
+          10,
+          5
+        ],
+        [
+          30011,
+          {
+            "ja": "グレムリン",
+            "en": "Gremlin"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          30012,
+          {
+            "ja": "ジオニド",
+            "en": "Geonid"
+          },
+          1000,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910201,
+          20
+        ],
+        [
+          "Boss box",
+          920201,
+          200
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "27"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "920"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "19470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "2600"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "41400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

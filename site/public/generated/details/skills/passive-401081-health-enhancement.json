@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-401081",
+  "slug": "passive-401081-health-enhancement",
+  "title": {
+    "ja": "体力強化",
+    "en": "Health Enhancement"
+  },
+  "subtitle": {
+    "ja": "最大HP +20",
+    "en": "Max HP +20"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "MaxHp",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401081"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "最大HP",
+        "en": "Max HP"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "401081"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_MaxHp"
+        ],
+        [
+          "STATTYPE",
+          "MaxHp"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "20"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "317082",
+  "slug": "317082-jade-bow",
+  "title": {
+    "ja": "ジェイドボウ",
+    "en": "Jade Bow"
+  },
+  "subtitle": {
+    "en": "Celestial / Bow / Main Weapon / Lv. 35",
+    "ja": "セレスティアル / 弓 / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310008.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "317082"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "327"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "160"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "71"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "653"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "68"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "317082"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310008"
+        ],
+        [
+          "GearKey",
+          "317082"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Jade Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Jade Bow\", \"ja\": \"ジェイドボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

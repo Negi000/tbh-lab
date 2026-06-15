@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-301021",
+  "slug": "passive-301021-fire-damage-enhancement",
+  "title": {
+    "ja": "火炎ダメージ強化",
+    "en": "Fire Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "火炎ダメージ +100%",
+    "en": "Fire Damage +100%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "FireDamagePercent",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301021"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "火炎ダメージ強化",
+        "en": "Fire Damage Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "301021"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_FireDamagePercent"
+        ],
+        [
+          "STATTYPE",
+          "FireDamagePercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

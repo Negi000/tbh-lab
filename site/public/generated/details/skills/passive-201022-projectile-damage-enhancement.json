@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-201022",
+  "slug": "passive-201022-projectile-damage-enhancement",
+  "title": {
+    "ja": "投射物ダメージ強化",
+    "en": "Projectile Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "投射物ダメージ150%増加",
+    "en": "150% Increased Projectile Damage"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "IncreaseProjectileDamage",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "201022"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "投射物ダメージ増加",
+        "en": "Increase Projectile Damage"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "150"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "201022"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_IncreaseProjectileDamage"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseProjectileDamage"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "150"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

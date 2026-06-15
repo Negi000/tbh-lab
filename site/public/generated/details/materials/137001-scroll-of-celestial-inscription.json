@@ -1,0 +1,459 @@
+{
+  "categoryId": "materials",
+  "entityId": "137001",
+  "slug": "137001-scroll-of-celestial-inscription",
+  "title": {
+    "ja": "天界文字の巻物",
+    "en": "Scroll of Celestial Inscription"
+  },
+  "subtitle": {
+    "en": "Celestial / Inscription material",
+    "ja": "セレスティアル / 刻文素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_137001.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_137001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "137001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.materialPool",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "防御 +450~500",
+            "en": "Armor +450~500"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "防御力",
+            "en": "Armor"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "防御力550~600%増加",
+            "en": "550~600% Increased Armor"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "最大HP400~500%増加",
+            "en": "400~500% Increased Max HP"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "スキル持続時間増加",
+            "en": "Skill Duration Increase"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "453~500% 増加したスキル持続時間",
+            "en": "453~500% Increased Skill Duration"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "範囲ダメージ増加",
+            "en": "Increase Area Of Effect Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "範囲ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Area of Effect Damage"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "近接ダメージ増加",
+            "en": "Increase Melee Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "近接ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Melee Damage"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "投射物ダメージ増加",
+            "en": "Increase Projectile Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "投射物ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Projectile Damage"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "召喚ダメージ増加",
+            "en": "Increase Summon Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "召喚ダメージ1800~2500%増加",
+            "en": "1800~2500% Increased Summon Damage"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "火炎耐性",
+            "en": "Fire Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "火炎耐性 +50~55%",
+            "en": "Fire Resistance +50~55%"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "氷冷耐性",
+            "en": "Cold Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "冷気耐性 +50~55%",
+            "en": "Cold Resistance +50~55%"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "雷電耐性",
+            "en": "Lightning Resistance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "雷耐性 +50~55%",
+            "en": "Lightning Resistance +50~55%"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "カオス耐性強化",
+            "en": "Chaos Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "カオス耐性 +50~55%",
+            "en": "Chaos Resistance +50~55%"
+          },
+          "T8 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "命中毎HP回復強化",
+            "en": "HP Per Hit Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "命中毎HP回復 +10~12",
+            "en": "HP Per Hit +10~12"
+          },
+          "T8 - T10"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "137001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_137001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_137001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_137001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Scroll of Celestial Inscription"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Scroll of Celestial Inscription\", \"ja\": \"天界文字の巻物\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.\", \"ja\": \"特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

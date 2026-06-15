@@ -1,0 +1,165 @@
+{
+  "categoryId": "stages",
+  "entityId": "1101",
+  "slug": "1101-1-1-act-1-1-normal-normal",
+  "title": {
+    "ja": "1-1 ノーマル",
+    "en": "1-1 Act 1-1 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 1 / Boss Goblin Thief",
+    "en": "Normal / Lv 1 / Boss Goblin Thief"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1101"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Goblin Thief"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10011,
+          {
+            "ja": "スライム",
+            "en": "Slime"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          10021,
+          {
+            "ja": "ゴブリン",
+            "en": "Goblin"
+          },
+          1000,
+          12,
+          12
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910011,
+          160
+        ],
+        [
+          "Boss box",
+          920011,
+          1000
+        ],
+        [
+          "First clear",
+          9200010,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "1"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "100"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "100"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "100"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "100"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

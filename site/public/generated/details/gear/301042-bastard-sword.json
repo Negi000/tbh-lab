@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "301042",
+  "slug": "301042-bastard-sword",
+  "title": {
+    "ja": "バスタードソード",
+    "en": "Bastard Sword"
+  },
+  "subtitle": {
+    "en": "Uncommon / Sword / Main Weapon / Lv. 15",
+    "ja": "アンコモン / ソード / メイン武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300004.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "7"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "83"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "301042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300004"
+        ],
+        [
+          "GearKey",
+          "301042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Bastard Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Bastard Sword\", \"ja\": \"バスタードソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Bastard Sword Description\", \"ja\": \"Bastard Sword Description\"}"
+        ],
+        [
+          "mono_name",
+          "Bastard Sword"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Bastard Sword\", \"description\": \"Bastard Sword Description\", \"display_type\": \"Sword - Lv. 20\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

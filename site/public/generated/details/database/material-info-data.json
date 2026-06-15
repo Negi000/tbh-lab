@@ -1,0 +1,192 @@
+{
+  "categoryId": "database",
+  "entityId": "MaterialInfoData",
+  "slug": "material-info-data",
+  "title": {
+    "ja": "MaterialInfoData",
+    "en": "MaterialInfoData"
+  },
+  "subtitle": {
+    "ja": "125 records",
+    "en": "125 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "MaterialInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "MaterialInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "125"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "110001"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1100011"
+        ],
+        [
+          "ItemKey",
+          "110002"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1100021"
+        ],
+        [
+          "ItemKey",
+          "110003"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1100031"
+        ],
+        [
+          "ItemKey",
+          "110004"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1100041"
+        ],
+        [
+          "ItemKey",
+          "110005"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1100051"
+        ],
+        [
+          "ItemKey",
+          "111001"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1110011"
+        ],
+        [
+          "ItemKey",
+          "111002"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1110021"
+        ],
+        [
+          "ItemKey",
+          "111003"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1110031"
+        ],
+        [
+          "ItemKey",
+          "111004"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1110041"
+        ],
+        [
+          "ItemKey",
+          "112001"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1120011"
+        ],
+        [
+          "ItemKey",
+          "112002"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1120021"
+        ],
+        [
+          "ItemKey",
+          "112003"
+        ],
+        [
+          "MATERIALTYPE",
+          "DECORATION"
+        ],
+        [
+          "StatModGroupKey",
+          "1120031"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MaterialInfoData"
+  }
+}

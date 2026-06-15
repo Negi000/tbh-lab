@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "611012",
+  "slug": "611012-copper-earring",
+  "title": {
+    "ja": "コッパーイヤリング",
+    "en": "Copper Earring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Earing / EARING / Lv. 1",
+    "ja": "アンコモン / イヤリング / EARING / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "611012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "150"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "611012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610001"
+        ],
+        [
+          "GearKey",
+          "611012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Copper Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Copper Earring\", \"ja\": \"コッパーイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron earing Description\", \"ja\": \"Iron earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron earing\", \"description\": \"Iron earing Description\", \"display_type\": \"Earring - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"earring\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

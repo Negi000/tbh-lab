@@ -1,0 +1,161 @@
+{
+  "categoryId": "runes",
+  "entityId": "21",
+  "slug": "21-rune-of-command",
+  "title": {
+    "ja": "指揮のルーン",
+    "en": "Rune of Command"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/UnlockArrangeSlotCount.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "UnlockArrangeSlotCount",
+    "UnlockArrangeSlotCount",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "21"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ヒーロー配置枠",
+        "en": "Hero Formation Slot"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "拡張のルーン",
+            "en": "Rune of Expansion"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "富のルーン",
+            "en": "Rune of Wealth"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "拡張のルーン",
+            "en": "Rune of Expansion"
+          },
+          1
+        ],
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "指揮のルーン",
+            "en": "Rune of Command"
+          },
+          1
+        ],
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "成長のルーン",
+            "en": "Rune of Growth"
+          },
+          1
+        ],
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "覚醒のルーン",
+            "en": "Rune of Awakening"
+          },
+          1
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "ヒーロー枠 +1",
+            "en": "Hero Slot +1"
+          },
+          {
+            "ja": "1000 ゴールド",
+            "en": "1000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

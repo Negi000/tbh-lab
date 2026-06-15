@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "420007",
+  "slug": "420007-rune-orb",
+  "title": {
+    "ja": "ルーンオーブ",
+    "en": "Rune Orb"
+  },
+  "subtitle": {
+    "en": "Common / Orb / Sub Weapon / Lv. 30",
+    "ja": "コモン / オーブ / サブ武器 / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420007.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "420007"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "3.046%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "3.046%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "3.046%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "3.046%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "3.046%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv30",
+            "en": "Common Treasure Chest Lv30"
+          },
+          "3.046%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.7463%",
+          {
+            "ja": "ナイトメア 1-1",
+            "en": "Nightmare 1-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.7463%",
+          {
+            "ja": "ナイトメア 1-2",
+            "en": "Nightmare 1-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.7463%",
+          {
+            "ja": "ナイトメア 1-3",
+            "en": "Nightmare 1-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.7463%",
+          {
+            "ja": "ナイトメア 1-4",
+            "en": "Nightmare 1-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.7463%",
+          {
+            "ja": "ナイトメア 1-5",
+            "en": "Nightmare 1-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv30",
+            "en": "Stage Treasure Chest Lv30"
+          },
+          "0.7463%",
+          {
+            "ja": "ナイトメア 1-6",
+            "en": "Nightmare 1-6"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "0.4909%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "0.4909%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "0.4909%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "0.4909%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "125"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "420007"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420007"
+        ],
+        [
+          "GearKey",
+          "420007"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420007"
+        ],
+        [
+          "display_name",
+          "Rune Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Orb\", \"ja\": \"ルーンオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Shine Spellbook Description\", \"ja\": \"Shine Spellbook Description\"}"
+        ],
+        [
+          "mono_name",
+          "Shine Spellbook"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Shine Spellbook\", \"description\": \"Shine Spellbook Description\", \"display_type\": \"Spellbook - Lv. 50\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"subweapon\", \"class\": \"priest\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

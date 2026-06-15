@@ -1,0 +1,132 @@
+{
+  "categoryId": "database",
+  "entityId": "BuffGroupInfoData",
+  "slug": "buff-group-info-data",
+  "title": {
+    "ja": "BuffGroupInfoData",
+    "en": "BuffGroupInfoData"
+  },
+  "subtitle": {
+    "ja": "16 records",
+    "en": "16 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "BuffGroupInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "BuffGroupInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "16"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "BuffGroupKey",
+          "10501"
+        ],
+        [
+          "BuffKeys",
+          "105011"
+        ],
+        [
+          "BuffGroupKey",
+          "20401"
+        ],
+        [
+          "BuffKeys",
+          "204011"
+        ],
+        [
+          "BuffGroupKey",
+          "20601"
+        ],
+        [
+          "BuffKeys",
+          "206011"
+        ],
+        [
+          "BuffGroupKey",
+          "40201"
+        ],
+        [
+          "BuffKeys",
+          "402011"
+        ],
+        [
+          "BuffGroupKey",
+          "40301"
+        ],
+        [
+          "BuffGroupKey",
+          "40501"
+        ],
+        [
+          "BuffKeys",
+          "405011 405012 405013"
+        ],
+        [
+          "BuffGroupKey",
+          "50301"
+        ],
+        [
+          "BuffKeys",
+          "503011"
+        ],
+        [
+          "BuffGroupKey",
+          "50601"
+        ],
+        [
+          "BuffGroupKey",
+          "60301"
+        ],
+        [
+          "BuffKeys",
+          "603011"
+        ],
+        [
+          "BuffGroupKey",
+          "60501"
+        ],
+        [
+          "BuffKeys",
+          "605011"
+        ],
+        [
+          "BuffGroupKey",
+          "60601"
+        ],
+        [
+          "BuffKeys",
+          "606011"
+        ],
+        [
+          "BuffGroupKey",
+          "60601"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "BuffGroupInfoData"
+  }
+}

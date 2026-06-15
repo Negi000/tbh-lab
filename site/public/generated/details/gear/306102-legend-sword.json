@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "306102",
+  "slug": "306102-legend-sword",
+  "title": {
+    "ja": "レジェンドソード",
+    "en": "Legend Sword"
+  },
+  "subtitle": {
+    "en": "Beyond / Sword / Main Weapon / Lv. 45",
+    "ja": "ビヨンド / ソード / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300010.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "306102"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "393"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "43"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "164"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "759"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "96"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "306102"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300010"
+        ],
+        [
+          "GearKey",
+          "306102"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Legend Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Legend Sword\", \"ja\": \"レジェンドソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

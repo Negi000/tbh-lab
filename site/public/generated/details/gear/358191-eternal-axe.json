@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "358191",
+  "slug": "358191-eternal-axe",
+  "title": {
+    "ja": "エターナルアックス",
+    "en": "Eternal Axe"
+  },
+  "subtitle": {
+    "en": "Divine / Axe / Main Weapon / Lv. 90",
+    "ja": "ディバイン / 斧 / メイン武器 / Lv. 90"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AXE_350019.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "AXE",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AXE_350019.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "358191"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "90"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "3404"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "36"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "50"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1500"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "358191"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "AXE"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_350019"
+        ],
+        [
+          "GearKey",
+          "358191"
+        ],
+        [
+          "Level",
+          "90"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AXE_350019"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Eternal Axe"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Eternal Axe\", \"ja\": \"エターナルアックス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

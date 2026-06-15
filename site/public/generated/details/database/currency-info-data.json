@@ -1,0 +1,68 @@
+{
+  "categoryId": "database",
+  "entityId": "CurrencyInfoData",
+  "slug": "currency-info-data",
+  "title": {
+    "ja": "CurrencyInfoData",
+    "en": "CurrencyInfoData"
+  },
+  "subtitle": {
+    "ja": "1 records",
+    "en": "1 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "CurrencyInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "CurrencyInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "CurrencyKey",
+          "100001"
+        ],
+        [
+          "CurrencyNameStringKey",
+          "CurrencyName_100001"
+        ],
+        [
+          "Description",
+          "기본화폐"
+        ],
+        [
+          "InitialAmount",
+          "100"
+        ],
+        [
+          "IconPath",
+          "UI/Icon/Item/Item_100001"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "CurrencyInfoData"
+  }
+}

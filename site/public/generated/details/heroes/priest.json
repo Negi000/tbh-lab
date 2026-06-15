@@ -1,0 +1,617 @@
+{
+  "categoryId": "heroes",
+  "entityId": "401",
+  "slug": "priest",
+  "title": {
+    "ja": "プリースト",
+    "en": "Priest"
+  },
+  "subtitle": {
+    "ja": "回復魔法で仲間を支援する\n神聖なヒーラー。",
+    "en": "A holy healer who supports allies\nwith restoration magic."
+  },
+  "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Priest_Mid_Anim_0.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "Priest",
+    "SCEPTER",
+    "TOME"
+  ],
+  "heroImage": "/generated/assets/game/hero/Arrage_ChaAnim_Priest_Large_0.png",
+  "overview": [
+    {
+      "labelKey": "field.class",
+      "value": "Priest"
+    },
+    {
+      "labelKey": "field.mainWeapon",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.subWeapon",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.unlock",
+      "value": "500"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.maxHp",
+          "value": "95"
+        },
+        {
+          "labelKey": "field.armor",
+          "value": "30"
+        },
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "90"
+        },
+        {
+          "labelKey": "field.castSpeed",
+          "value": "100%"
+        },
+        {
+          "labelKey": "field.criticalChance",
+          "value": "2%"
+        },
+        {
+          "labelKey": "field.criticalDamage",
+          "value": "140%"
+        },
+        {
+          "labelKey": "field.cooldown",
+          "value": "0%"
+        },
+        {
+          "labelKey": "field.moveSpeed",
+          "value": "700"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.skills",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "filter.slot"
+        },
+        {
+          "labelKey": "field.activation"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.range"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.type"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "プリースト 通常攻撃",
+            "en": "Priest Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          0,
+          170,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "近接",
+            "en": "Melee"
+          }
+        ],
+        [
+          {
+            "ja": "ヒール",
+            "en": "Heal"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          8,
+          950,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          }
+        ],
+        [
+          {
+            "ja": "力の祝福",
+            "en": "Blessing Of Might"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "継続",
+            "en": "Continuous"
+          },
+          null,
+          950,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "天上の怒り",
+            "en": "Wrath of Heaven"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          20,
+          1050,
+          {
+            "ja": "雷",
+            "en": "Lightning"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "サンクチュアリ",
+            "en": "Sanctuary"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          17,
+          1100,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "守護の祝福",
+            "en": "Blessing of Warding"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "継続",
+            "en": "Continuous"
+          },
+          null,
+          1100,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "リザレクション",
+            "en": "Resurrection"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          45,
+          1100,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          }
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.attributes",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.max"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          401001,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401002,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401003,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401004,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401011,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401012,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401013,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401021,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401022,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401023,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401031,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401032,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401033,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401041,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401042,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401043,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401051,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401052,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401061,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401062,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401071,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          401072,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "HeroInfoData"
+  }
+}

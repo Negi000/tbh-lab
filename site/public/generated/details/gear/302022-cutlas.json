@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "302022",
+  "slug": "302022-cutlas",
+  "title": {
+    "ja": "カトラス",
+    "en": "Cutlas"
+  },
+  "subtitle": {
+    "en": "Rare / Sword / Main Weapon / Lv. 5",
+    "ja": "レア / ソード / メイン武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300002.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "302022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "5"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "15"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "82"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "302022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300002"
+        ],
+        [
+          "GearKey",
+          "302022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Cutlas"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Cutlas\", \"ja\": \"カトラス\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Cutlas Description\", \"ja\": \"Cutlas Description\"}"
+        ],
+        [
+          "mono_name",
+          "Cutlas"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Cutlas\", \"description\": \"Cutlas Description\", \"display_type\": \"Sword - Lv. 5\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"warrior\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "20101",
+  "slug": "20101-rapid-fire",
+  "title": {
+    "ja": "連射",
+    "en": "Rapid Fire"
+  },
+  "subtitle": {
+    "en": "Skill / Base Attack Count",
+    "ja": "スキル / 通常攻撃回数"
+  },
+  "icon": "/generated/assets/game/skills/Skill_20101.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "BASEATTACK_COUNT",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20101"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃回数",
+        "en": "Base Attack Count"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "20101"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_20101"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_20101"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK_COUNT"
+        ],
+        [
+          "ActivationValue",
+          "5"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "3"
+        ],
+        [
+          "Range",
+          "1150"
+        ],
+        [
+          "Order",
+          "400"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile"
+        ],
+        [
+          "SkillLevelKey",
+          "20101"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_20101"
+        ],
+        [
+          "AttributeKey",
+          "201003"
+        ],
+        [
+          "SoundKey",
+          "1201011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

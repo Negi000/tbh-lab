@@ -1,0 +1,111 @@
+{
+  "categoryId": "skills",
+  "entityId": "200611",
+  "slug": "200611-hero-base-attack",
+  "title": {
+    "ja": "Hero 通常攻撃",
+    "en": "Hero Base Attack"
+  },
+  "subtitle": {
+    "en": "Base Attack / Base Attack",
+    "ja": "通常攻撃 / 通常攻撃"
+  },
+  "icon": null,
+  "rarity": "LEGENDARY",
+  "tags": [
+    "BASEATTACK",
+    "BASEATTACK",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "200611"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃",
+        "en": "Base Attack"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "170"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1000"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "200611"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "ActivationValue",
+          "0"
+        ],
+        [
+          "SLOTTYPE",
+          "BASEATTACK"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "170"
+        ],
+        [
+          "Order",
+          "999"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "Value",
+          "1000"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_200611"
+        ],
+        [
+          "SoundKey",
+          "12006111"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

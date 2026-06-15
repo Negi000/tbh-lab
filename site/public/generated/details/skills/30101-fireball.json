@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "30101",
+  "slug": "30101-fireball",
+  "title": {
+    "ja": "ファイアボール",
+    "en": "Fireball"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_30101.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Fire"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30101"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "950"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "6"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "30101"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_30101"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_30101"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "6"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "600"
+        ],
+        [
+          "Range",
+          "950"
+        ],
+        [
+          "Order",
+          "400"
+        ],
+        [
+          "DamageType",
+          "Fire"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile, AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "30101"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_30101"
+        ],
+        [
+          "AttributeKey",
+          "301003"
+        ],
+        [
+          "SoundKey",
+          "1301011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

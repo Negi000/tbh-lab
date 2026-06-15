@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "310008",
+  "slug": "310008-jade-bow",
+  "title": {
+    "ja": "ジェイドボウ",
+    "en": "Jade Bow"
+  },
+  "subtitle": {
+    "en": "Common / Bow / Main Weapon / Lv. 35",
+    "ja": "コモン / 弓 / メイン武器 / Lv. 35"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310008.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "310008"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "35"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "29"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "310008"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310008"
+        ],
+        [
+          "GearKey",
+          "310008"
+        ],
+        [
+          "Level",
+          "35"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310008"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Jade Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Jade Bow\", \"ja\": \"ジェイドボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Large Bow Description\", \"ja\": \"Large Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Large Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Large Bow\", \"description\": \"Large Bow Description\", \"display_type\": \"Bow - Lv. 60\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"60\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

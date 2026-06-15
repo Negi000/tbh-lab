@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "333012",
+  "slug": "333012-novice-scepter",
+  "title": {
+    "ja": "ノービスセプター",
+    "en": "Novice Scepter"
+  },
+  "subtitle": {
+    "en": "Legendary / Scepter / Main Weapon / Lv. 1",
+    "ja": "レジェンダリー / セプター / メイン武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "333012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "5"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "10"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "51"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "215"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "333012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330001"
+        ],
+        [
+          "GearKey",
+          "333012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Novice Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Novice Scepter\", \"ja\": \"ノービスセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

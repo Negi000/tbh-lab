@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "343012",
+  "slug": "343012-short-crossbow",
+  "title": {
+    "ja": "ショートクロスボウ",
+    "en": "Short Crossbow"
+  },
+  "subtitle": {
+    "en": "Legendary / Crossbow / Main Weapon / Lv. 1",
+    "ja": "レジェンダリー / クロスボウ / メイン武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340001.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "343012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "6"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "10"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "3"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "215"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "343012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340001"
+        ],
+        [
+          "GearKey",
+          "343012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Short Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Short Crossbow\", \"ja\": \"ショートクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

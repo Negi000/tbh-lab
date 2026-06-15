@@ -1,0 +1,94 @@
+{
+  "categoryId": "runes",
+  "entityId": "27",
+  "slug": "27-rune-of-awakening",
+  "title": {
+    "ja": "覚醒のルーン",
+    "en": "Rune of Awakening"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 1",
+    "en": "Max Lv 1"
+  },
+  "icon": "/generated/assets/game/runes/UnlockSkillSlotCount.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "UnlockSkillSlotCount",
+    "UnlockSkillSlotCount",
+    "max:1"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "27"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "スキル枠（全ヒーロー）",
+        "en": "Skill Slot (All Heroes)"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "スキル枠（全ヒーロー） +1",
+            "en": "Skill Slot (All Heroes) +1"
+          },
+          {
+            "ja": "50000 ゴールド",
+            "en": "50000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "50201",
+  "slug": "50201-frost-bolt",
+  "title": {
+    "ja": "フロストボルト",
+    "en": "Frost Bolt"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_50201.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Cold"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "50201"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1100"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "8"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "50201"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_50201"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_50201"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "8"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1100"
+        ],
+        [
+          "Order",
+          "500"
+        ],
+        [
+          "DamageType",
+          "Cold"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile"
+        ],
+        [
+          "SkillLevelKey",
+          "50201"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_50201"
+        ],
+        [
+          "AttributeKey",
+          "501004"
+        ],
+        [
+          "SoundKey",
+          "1502011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

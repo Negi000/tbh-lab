@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-101071",
+  "slug": "passive-101071-damage-reduction-enhancement",
+  "title": {
+    "ja": "ダメージ軽減強化",
+    "en": "Damage Reduction Enhancement"
+  },
+  "subtitle": {
+    "ja": "ダメージ軽減 +20%",
+    "en": "Damage Reduction +20%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "DamageReduction",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "101071"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "ダメージ軽減強化",
+        "en": "Damage Reduction Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "101071"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_DamageReduction"
+        ],
+        [
+          "STATTYPE",
+          "DamageReduction"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "20"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

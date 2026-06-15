@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "621012",
+  "slug": "621012-copper-ring",
+  "title": {
+    "ja": "コッパーリング",
+    "en": "Copper Ring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Ring / RING / Lv. 1",
+    "ja": "アンコモン / リング / RING / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620001.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "621012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "621012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620001"
+        ],
+        [
+          "GearKey",
+          "621012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Copper Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Copper Ring\", \"ja\": \"コッパーリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron ring Description\", \"ja\": \"Iron ring Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron ring"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron ring\", \"description\": \"Iron ring Description\", \"display_type\": \"Ring - Lv. 1\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"ring\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

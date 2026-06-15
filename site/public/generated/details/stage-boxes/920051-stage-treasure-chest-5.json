@@ -1,0 +1,367 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "920051",
+  "slug": "920051-stage-treasure-chest-5",
+  "title": {
+    "ja": "ステージ宝箱 5",
+    "en": "Stage Treasure Chest 5"
+  },
+  "subtitle": {
+    "en": "Rare / Stage Box",
+    "ja": "レア / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_920011.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_920011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "920051"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 5레벨",
+          7385565,
+          8.036328
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON MAIN_WEAPON",
+          2109603,
+          2.295486
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON MAIN_WEAPON",
+          2109603,
+          2.295486
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 5레벨",
+          1772535,
+          1.928718
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON SUB_WEAPON",
+          506305,
+          0.550917
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON SUB_WEAPON",
+          506305,
+          0.550917
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 5레벨",
+          7385565,
+          8.036328
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 5레벨",
+          16033451,
+          17.446204
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON MAIN_WEAPON",
+          4579774,
+          4.983311
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON MAIN_WEAPON",
+          4579774,
+          4.983311
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 5레벨",
+          1924014,
+          2.093544
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON SUB_WEAPON",
+          549573,
+          0.597997
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON SUB_WEAPON",
+          549573,
+          0.597997
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 5레벨",
+          16033451,
+          17.446204
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 5레벨",
+          5348703,
+          5.819992
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE MAIN_WEAPON",
+          1527786,
+          1.662404
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE MAIN_WEAPON",
+          1527786,
+          1.662404
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 5레벨",
+          641851,
+          0.698406
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE SUB_WEAPON",
+          183305,
+          0.199457
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE SUB_WEAPON",
+          183305,
+          0.199457
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 5레벨",
+          5348703,
+          5.819992
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 5레벨",
+          733095,
+          0.79769
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY MAIN_WEAPON",
+          209387,
+          0.227837
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY MAIN_WEAPON",
+          209387,
+          0.227837
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 5레벨",
+          87982,
+          0.095734
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY SUB_WEAPON",
+          25118,
+          0.027331
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY SUB_WEAPON",
+          25118,
+          0.027331
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 5레벨",
+          733095,
+          0.79769
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 5레벨",
+          170026,
+          0.185007
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL MAIN_WEAPON",
+          48456,
+          0.052726
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL MAIN_WEAPON",
+          48456,
+          0.052726
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 5레벨",
+          20434,
+          0.022234
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL SUB_WEAPON",
+          5726,
+          0.006231
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL SUB_WEAPON",
+          5726,
+          0.006231
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 5레벨",
+          170026,
+          0.185007
+        ],
+        [
+          "ITEM",
+          "Soulstone - Normal",
+          1978358,
+          2.152677
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          5068852,
+          5.515483
+        ],
+        [
+          "ITEM",
+          "Soulstone - Normal",
+          3957,
+          0.004306
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          1572503,
+          1.711061
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "920051"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "NameKey",
+          "Stage Boss Box 5"
+        ],
+        [
+          "DropKey",
+          "9200511"
+        ],
+        [
+          "DropCooldown",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_920011"
+        ],
+        [
+          "display_name",
+          "Stage Boss Box 4"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Stage Treasure Chest 5\", \"ja\": \"ステージ宝箱 5\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"3-1(난이도:NIGHTMARE) ~ 1-9 (난이도 : HELL)\", \"ja\": \"3-1(난이도:NIGHTMARE) ~ 1-9 (난이도 : HELL)\"}"
+        ],
+        [
+          "mono_name",
+          "Stage Boss Box 4"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Stage Boss Box 4\", \"description\": \"3-1(난이도:NIGHTMARE) ~ 1-9 (난이도 : HELL)\", \"display_type\": \"Chest\", \"type\": \"chest\", \"rarity\": \"rare\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

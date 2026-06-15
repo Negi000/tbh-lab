@@ -1,0 +1,349 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "920011",
+  "slug": "920011-stage-treasure-chest-4",
+  "title": {
+    "ja": "ステージ宝箱 4",
+    "en": "Stage Treasure Chest 4"
+  },
+  "subtitle": {
+    "en": "Rare / Stage Box",
+    "ja": "レア / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_920011.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_920011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "920011"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 1레벨",
+          9643094,
+          10.481236
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON MAIN_WEAPON",
+          2410773,
+          2.620309
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON MAIN_WEAPON",
+          2410773,
+          2.620309
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 1레벨",
+          2314342,
+          2.515496
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON SUB_WEAPON",
+          578586,
+          0.628875
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON SUB_WEAPON",
+          578586,
+          0.628875
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 1레벨",
+          9643094,
+          10.481236
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 1레벨",
+          17357088,
+          18.865703
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON MAIN_WEAPON",
+          4339272,
+          4.716426
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON MAIN_WEAPON",
+          4339272,
+          4.716426
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 1레벨",
+          2082851,
+          2.263885
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON SUB_WEAPON",
+          520713,
+          0.565971
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON SUB_WEAPON",
+          520713,
+          0.565971
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 1레벨",
+          17357088,
+          18.865703
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 1레벨",
+          5831459,
+          6.338308
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE MAIN_WEAPON",
+          1457855,
+          1.584566
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE MAIN_WEAPON",
+          1457855,
+          1.584566
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 1레벨",
+          699782,
+          0.760604
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE SUB_WEAPON",
+          174915,
+          0.190118
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE SUB_WEAPON",
+          174915,
+          0.190118
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 1레벨",
+          5831459,
+          6.338308
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 1레벨",
+          686060,
+          0.74569
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY MAIN_WEAPON",
+          171505,
+          0.186412
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY MAIN_WEAPON",
+          171505,
+          0.186412
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 1레벨",
+          82338,
+          0.089495
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY SUB_WEAPON",
+          20574,
+          0.022362
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY SUB_WEAPON",
+          20574,
+          0.022362
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 1레벨",
+          686060,
+          0.74569
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 1레벨",
+          137312,
+          0.149247
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL MAIN_WEAPON",
+          34250,
+          0.037227
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL MAIN_WEAPON",
+          34250,
+          0.037227
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 1레벨",
+          16502,
+          0.017936
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL SUB_WEAPON",
+          4048,
+          0.0044
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL SUB_WEAPON",
+          4048,
+          0.0044
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 1레벨",
+          137312,
+          0.149247
+        ],
+        [
+          "ITEM",
+          "Soulstone - Normal",
+          72578,
+          0.078886
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "920011"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "NameKey",
+          "Stage Boss Box 4"
+        ],
+        [
+          "DropKey",
+          "9200111"
+        ],
+        [
+          "DropCooldown",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_920011"
+        ],
+        [
+          "display_name",
+          "Stage Boss Box 1"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Stage Treasure Chest 4\", \"ja\": \"ステージ宝箱 4\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"스테이지 1-1~1-3 상자 (난이도 : NORMAL)\", \"ja\": \"스테이지 1-1~1-3 상자 (난이도 : NORMAL)\"}"
+        ],
+        [
+          "mono_name",
+          "Stage Boss Box 1"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Stage Boss Box 1\", \"description\": \"스테이지 1-1~1-3 상자 (난이도 : NORMAL)\", \"display_type\": \"Chest\", \"type\": \"chest\", \"rarity\": \"rare\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

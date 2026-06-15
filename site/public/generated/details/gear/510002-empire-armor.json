@@ -1,0 +1,273 @@
+{
+  "categoryId": "gear",
+  "entityId": "510002",
+  "slug": "510002-empire-armor",
+  "title": {
+    "ja": "帝国のアーマー",
+    "en": "Empire Armor"
+  },
+  "subtitle": {
+    "en": "Common / Armor / ARMOR / Lv. 5",
+    "ja": "コモン / アーマー / ARMOR / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510002.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "510002"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "29.77%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "8.036%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.09723%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "19"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "510002"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510002"
+        ],
+        [
+          "GearKey",
+          "510002"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510002"
+        ],
+        [
+          "display_name",
+          "Empire Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Empire Armor\", \"ja\": \"帝国のアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Empire Armor Description\", \"ja\": \"Empire Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Empire Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Empire Armor\", \"description\": \"Empire Armor Description\", \"display_type\": \"Armor - Lv. 5\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"armor\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

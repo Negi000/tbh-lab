@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "614012",
+  "slug": "614012-copper-earring",
+  "title": {
+    "ja": "コッパーイヤリング",
+    "en": "Copper Earring"
+  },
+  "subtitle": {
+    "en": "Immortal / Earing / EARING / Lv. 1",
+    "ja": "イモータル / イヤリング / EARING / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610001.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "614012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AreaOfEffect / ADDITIVE",
+          "value": "54"
+        },
+        {
+          "labelKey": "SkillDurationIncrease / ADDITIVE",
+          "value": "83"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "614012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610001"
+        ],
+        [
+          "GearKey",
+          "614012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Copper Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Copper Earring\", \"ja\": \"コッパーイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Saphaire earing Description\", \"ja\": \"Saphaire earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Saphaire earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Saphaire earing\", \"description\": \"Saphaire earing Description\", \"display_type\": \"Earring - Lv. 1\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"earring\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

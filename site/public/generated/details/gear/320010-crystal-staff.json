@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "320010",
+  "slug": "320010-crystal-staff",
+  "title": {
+    "ja": "クリスタルスタッフ",
+    "en": "Crystal Staff"
+  },
+  "subtitle": {
+    "en": "Common / Staff / Main Weapon / Lv. 45",
+    "ja": "コモン / スタッフ / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320010.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "320010"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "93"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "320010"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320010"
+        ],
+        [
+          "GearKey",
+          "320010"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Staff\", \"ja\": \"クリスタルスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Holy Staff Description\", \"ja\": \"Holy Staff Description\"}"
+        ],
+        [
+          "mono_name",
+          "Holy Staff"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Holy Staff\", \"description\": \"Holy Staff Description\", \"display_type\": \"Staff - Lv. 80\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"mainweapon\", \"class\": \"sorcerer\", \"level\": \"80\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

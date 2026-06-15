@@ -1,0 +1,587 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "930701",
+  "slug": "930701-act-boss-treasure-chest-lv70",
+  "title": {
+    "ja": "アクトボス宝箱 Lv70",
+    "en": "Act Boss Treasure Chest Lv70"
+  },
+  "subtitle": {
+    "en": "Legendary / Stage Box",
+    "ja": "レジェンダリー / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_930011.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_930011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "930701"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON MAIN_WEAPON lv65",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON MAIN_WEAPON lv65",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON SUB_WEAPON lv65",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON SUB_WEAPON lv65",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 65레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 65레벨",
+          546102,
+          10.525949
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 65레벨",
+          136625,
+          2.633405
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 65레벨",
+          136625,
+          2.633405
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 65레벨",
+          81750,
+          1.575706
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 65레벨",
+          20537,
+          0.395844
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 65레벨",
+          20537,
+          0.395844
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 65레벨",
+          655719,
+          12.638783
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 65레벨",
+          201354,
+          3.881037
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 65레벨",
+          50301,
+          0.969536
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 65레벨",
+          50301,
+          0.969536
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 65레벨",
+          30288,
+          0.583792
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 65레벨",
+          7534,
+          0.145216
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 65레벨",
+          7534,
+          0.145216
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 65레벨",
+          241654,
+          4.657807
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 65레벨",
+          113809,
+          2.193634
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 65레벨",
+          28431,
+          0.547999
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 65레벨",
+          28431,
+          0.547999
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 65레벨",
+          17119,
+          0.329963
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 65레벨",
+          4259,
+          0.082091
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 65레벨",
+          4259,
+          0.082091
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 65레벨",
+          136587,
+          2.632673
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 65레벨",
+          12651,
+          0.243844
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 65레벨",
+          3157,
+          0.06085
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 주무기 65레벨",
+          3157,
+          0.06085
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 보조무기 65레벨",
+          1914,
+          0.036892
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 보조무기 65레벨",
+          466,
+          0.008982
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 보조무기 65레벨",
+          466,
+          0.008982
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 방어구 65레벨",
+          15165,
+          0.292301
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 주무기 65레벨",
+          1418,
+          0.027332
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 비욘드 주무기 65레벨",
+          315,
+          0.006072
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 비욘드 주무기 65레벨",
+          315,
+          0.006072
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 보조무기 65레벨",
+          394,
+          0.007594
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 방어구 65레벨",
+          1654,
+          0.03188
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Crafting",
+          18972,
+          0.365679
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Crafting",
+          139125,
+          2.681592
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Crafting",
+          309868,
+          5.972611
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop IMMORTAL Crafting",
+          347813,
+          6.703989
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop ARCANA Crafting",
+          196039,
+          3.778592
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop BEYOND Crafting",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Decoration",
+          12132,
+          0.233841
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Decoration",
+          103122,
+          1.987645
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Decoration",
+          291169,
+          5.612193
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop IMMORTAL Decoration",
+          363960,
+          7.015217
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop ARCANA Decoration",
+          200178,
+          3.85837
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop BEYOND Decoration",
+          0,
+          0.0
+        ],
+        [
+          "ITEM",
+          "Kingdom 1st Anniversary Coin",
+          2464,
+          0.047493
+        ],
+        [
+          "ITEM",
+          "Empire 1st Anniversary Coin",
+          10778,
+          0.207743
+        ],
+        [
+          "ITEM",
+          "Kingdom 10th Anniversary Coin",
+          14473,
+          0.278963
+        ],
+        [
+          "ITEM",
+          "Empire 10th Anniversary Coin",
+          14165,
+          0.273026
+        ],
+        [
+          "ITEM",
+          "Kingdom 50th Anniversary Coin",
+          14165,
+          0.273026
+        ],
+        [
+          "ITEM",
+          "Scroll of Common Inscription",
+          2500,
+          0.048187
+        ],
+        [
+          "ITEM",
+          "Scroll of Uncommon Inscription",
+          10486,
+          0.202114
+        ],
+        [
+          "ITEM",
+          "Scroll of Rare Inscription",
+          14276,
+          0.275166
+        ],
+        [
+          "ITEM",
+          "Scroll of Legendary Inscription",
+          13914,
+          0.268188
+        ],
+        [
+          "ITEM",
+          "Scroll of Immortal Inscription",
+          13914,
+          0.268188
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Engraving",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Engraving",
+          4853,
+          0.09354
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Engraving",
+          58234,
+          1.122442
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Engraving",
+          160143,
+          3.086707
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop IMMORTAL Engraving",
+          198965,
+          3.834989
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop ARCANA Engraving",
+          111614,
+          2.151326
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "930701"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "NameKey",
+          "Act Boss Box Lv70"
+        ],
+        [
+          "DropKey",
+          "9307011"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_930011"
+        ],
+        [
+          "display_name",
+          "Act Boss Box Lv70"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Act Boss Treasure Chest Lv70\", \"ja\": \"アクトボス宝箱 Lv70\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

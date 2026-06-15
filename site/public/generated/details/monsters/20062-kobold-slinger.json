@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "20062",
+  "slug": "20062-kobold-slinger",
+  "title": {
+    "ja": "コボルト投石兵",
+    "en": "Kobold Slinger"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20062"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "14"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "14"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "23"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "20062"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_20062"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "14"
+        ],
+        [
+          "RewardExp",
+          "14"
+        ],
+        [
+          "SkillKey",
+          "200621"
+        ],
+        [
+          "AttackDamage",
+          "23"
+        ],
+        [
+          "AttackSpeed",
+          "110"
+        ],
+        [
+          "MaxLife",
+          "80"
+        ],
+        [
+          "MovementSpeed",
+          "180"
+        ],
+        [
+          "DeadSoundKey",
+          "22006211"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_20062"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/20062/Monster_20062"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

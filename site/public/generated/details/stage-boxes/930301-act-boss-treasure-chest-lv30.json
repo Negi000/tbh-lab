@@ -1,0 +1,593 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "930301",
+  "slug": "930301-act-boss-treasure-chest-lv30",
+  "title": {
+    "ja": "アクトボス宝箱 Lv30",
+    "en": "Act Boss Treasure Chest Lv30"
+  },
+  "subtitle": {
+    "en": "Legendary / Stage Box",
+    "ja": "レジェンダリー / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_930011.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_930011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "930301"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 주무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 주무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 보조무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 보조무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 30레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 30레벨",
+          841866,
+          11.695519
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 30레벨",
+          210748,
+          2.92779
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 30레벨",
+          210748,
+          2.92779
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 30레벨",
+          126223,
+          1.753537
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 30레벨",
+          31556,
+          0.438388
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 30레벨",
+          31556,
+          0.438388
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 30레벨",
+          1010351,
+          14.036175
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 30레벨",
+          233450,
+          3.243175
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 30레벨",
+          58321,
+          0.810217
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 30레벨",
+          58321,
+          0.810217
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 30레벨",
+          34992,
+          0.486122
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 30레벨",
+          8831,
+          0.122684
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 30레벨",
+          8831,
+          0.122684
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 30레벨",
+          280106,
+          3.891338
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 30레벨",
+          81707,
+          1.135104
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 30레벨",
+          20412,
+          0.283571
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 30레벨",
+          20412,
+          0.283571
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 30레벨",
+          12247,
+          0.17014
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 30레벨",
+          3091,
+          0.042941
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 30레벨",
+          3091,
+          0.042941
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 30레벨",
+          98037,
+          1.361967
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 30레벨",
+          9096,
+          0.126365
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 30레벨",
+          2265,
+          0.031466
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 주무기 30레벨",
+          2265,
+          0.031466
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 보조무기 30레벨",
+          1363,
+          0.018935
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 보조무기 30레벨",
+          336,
+          0.004668
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 보조무기 30레벨",
+          336,
+          0.004668
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 방어구 30레벨",
+          10901,
+          0.151441
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 주무기 30레벨",
+          1047,
+          0.014545
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 비욘드 주무기 30레벨",
+          299,
+          0.004154
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 비욘드 주무기 30레벨",
+          299,
+          0.004154
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 보조무기 30레벨",
+          150,
+          0.002084
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 방어구 30레벨",
+          1197,
+          0.016629
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Crafting",
+          183872,
+          2.554419
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Crafting",
+          321777,
+          4.470247
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Crafting",
+          229841,
+          3.193037
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Decoration",
+          132313,
+          1.838142
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Decoration",
+          317551,
+          4.411538
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Decoration",
+          255805,
+          3.553739
+        ],
+        [
+          "ITEM",
+          "Kingdom 1st Anniversary Coin",
+          26001,
+          0.361216
+        ],
+        [
+          "ITEM",
+          "Empire 1st Anniversary Coin",
+          14560,
+          0.202273
+        ],
+        [
+          "ITEM",
+          "Scroll of Common Inscription",
+          40200,
+          0.558473
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Engraving",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Engraving",
+          70567,
+          0.980343
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Engraving",
+          176417,
+          2.450851
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 아뮬렛 30레벨",
+          257635,
+          3.579162
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 이어링 30레벨",
+          257635,
+          3.579162
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 링 30레벨",
+          257635,
+          3.579162
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 브레이서 30레벨",
+          257635,
+          3.579162
+        ],
+        [
+          "ITEMGROUP",
+          "레어 아뮬렛 30레벨",
+          154580,
+          2.147483
+        ],
+        [
+          "ITEMGROUP",
+          "레어 이어링 30레벨",
+          154580,
+          2.147483
+        ],
+        [
+          "ITEMGROUP",
+          "레어 링 30레벨",
+          154580,
+          2.147483
+        ],
+        [
+          "ITEMGROUP",
+          "레어 브레이서 30레벨",
+          154580,
+          2.147483
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 아뮬렛 30레벨",
+          51527,
+          0.715832
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 이어링 30레벨",
+          51527,
+          0.715832
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 링 30레벨",
+          51527,
+          0.715832
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 브레이서 30레벨",
+          51527,
+          0.715832
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 아뮬렛 30레벨",
+          4684,
+          0.065072
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 이어링 30레벨",
+          4684,
+          0.065072
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 링 30레벨",
+          4684,
+          0.065072
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 브레이서 30레벨",
+          4684,
+          0.065072
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop LEGENDARY Engraving",
+          141134,
+          1.960687
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "930301"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "NameKey",
+          "Act Boss Box Lv30"
+        ],
+        [
+          "DropKey",
+          "9303011"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_930011"
+        ],
+        [
+          "display_name",
+          "Act Boss Box Lv30"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Act Boss Treasure Chest Lv30\", \"ja\": \"アクトボス宝箱 Lv30\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

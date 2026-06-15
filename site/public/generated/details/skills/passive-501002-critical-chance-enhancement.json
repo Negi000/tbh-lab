@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-501002",
+  "slug": "passive-501002-critical-chance-enhancement",
+  "title": {
+    "ja": "クリティカル率強化",
+    "en": "Critical Chance Enhancement"
+  },
+  "subtitle": {
+    "ja": "クリティカル率係数200%増加",
+    "en": "200% Increased Critical Chance Multiplier"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "CriticalChance",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "501002"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "クリティカル率",
+        "en": "Critical Chance"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "200"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "501002"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_CriticalChance"
+        ],
+        [
+          "STATTYPE",
+          "CriticalChance"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "200"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

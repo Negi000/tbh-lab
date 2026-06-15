@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "604042",
+  "slug": "604042-gold-amulet",
+  "title": {
+    "ja": "ゴールドアミュレット",
+    "en": "Gold Amulet"
+  },
+  "subtitle": {
+    "en": "Immortal / Amulet / AMULET / Lv. 15",
+    "ja": "イモータル / アミュレット / AMULET / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600004.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "604042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "32"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "167"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "604042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600004"
+        ],
+        [
+          "GearKey",
+          "604042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Gold Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Gold Amulet\", \"ja\": \"ゴールドアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Diamond amulet Description\", \"ja\": \"Diamond amulet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Diamond amulet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Diamond amulet\", \"description\": \"Diamond amulet Description\", \"display_type\": \"Amulet - Lv. 20\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"amulet\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

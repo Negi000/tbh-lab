@@ -1,0 +1,144 @@
+{
+  "categoryId": "stages",
+  "entityId": "1110",
+  "slug": "1110-1-10-act-1-10-normal-actboss",
+  "title": {
+    "ja": "1-10 ノーマル",
+    "en": "1-10 Act 1-10 NORMAL ACTBOSS"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 12 / Boss Skeleton King",
+    "en": "Normal / Lv 12 / Boss Skeleton King"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "ACTBOSS",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1110"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "12"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Skeleton King"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          null,
+          null
+        ],
+        [
+          "Boss box",
+          930101,
+          null
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "12"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "470"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "1470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "650"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "3700"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

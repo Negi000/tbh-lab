@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-501071",
+  "slug": "passive-501071-attack-speed-enhancement",
+  "title": {
+    "ja": "攻撃速度強化",
+    "en": "Attack Speed Enhancement"
+  },
+  "subtitle": {
+    "ja": "攻撃速度40%増加",
+    "en": "40% Increased Attack Speed"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "AttackSpeed",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "501071"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "攻撃速度",
+        "en": "Attack Speed"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "501071"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_AttackSpeed"
+        ],
+        [
+          "STATTYPE",
+          "AttackSpeed"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "40"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

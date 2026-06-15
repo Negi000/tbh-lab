@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "601032",
+  "slug": "601032-silver-amulet",
+  "title": {
+    "ja": "シルバーアミュレット",
+    "en": "Silver Amulet"
+  },
+  "subtitle": {
+    "en": "Uncommon / Amulet / AMULET / Lv. 10",
+    "ja": "アンコモン / アミュレット / AMULET / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/AMULET_600003.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "AMULET",
+    "AMULET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/AMULET_600003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "601032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "AMULET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "601032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "AMULET"
+        ],
+        [
+          "GEARTYPE",
+          "AMULET"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_600003"
+        ],
+        [
+          "GearKey",
+          "601032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "AMULET_600003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Silver Amulet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Silver Amulet\", \"ja\": \"シルバーアミュレット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron amulet Description\", \"ja\": \"Iron amulet Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron amulet"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron amulet\", \"description\": \"Iron amulet Description\", \"display_type\": \"Amulet - Lv. 10\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"amulet\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

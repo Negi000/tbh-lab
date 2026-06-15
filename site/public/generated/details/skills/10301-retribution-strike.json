@@ -1,0 +1,147 @@
+{
+  "categoryId": "skills",
+  "entityId": "10301",
+  "slug": "10301-retribution-strike",
+  "title": {
+    "ja": "応報の打撃",
+    "en": "Retribution Strike"
+  },
+  "subtitle": {
+    "en": "Skill / Base Attack Count",
+    "ja": "スキル / 通常攻撃回数"
+  },
+  "icon": "/generated/assets/game/skills/Skill_10301.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "BASEATTACK_COUNT",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10301"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃回数",
+        "en": "Base Attack Count"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "10301"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_10301"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_10301"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK_COUNT"
+        ],
+        [
+          "ActivationValue",
+          "5"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "2"
+        ],
+        [
+          "Param2",
+          "500"
+        ],
+        [
+          "Param3",
+          "3"
+        ],
+        [
+          "Param4",
+          "8"
+        ],
+        [
+          "Param5",
+          "235"
+        ],
+        [
+          "Range",
+          "150"
+        ],
+        [
+          "Order",
+          "600"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Melee"
+        ],
+        [
+          "SkillLevelKey",
+          "10301"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_10301"
+        ],
+        [
+          "AttributeKey",
+          "101013"
+        ],
+        [
+          "SoundKey",
+          "1103011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

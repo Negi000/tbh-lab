@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "423022",
+  "slug": "423022-elder-orb",
+  "title": {
+    "ja": "エルダーオーブ",
+    "en": "Elder Orb"
+  },
+  "subtitle": {
+    "en": "Legendary / Orb / Sub Weapon / Lv. 5",
+    "ja": "レジェンダリー / オーブ / サブ武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420002.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "423022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "95"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "132"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "423022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420002"
+        ],
+        [
+          "GearKey",
+          "423022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elder Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elder Orb\", \"ja\": \"エルダーオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elder Spellbook Description\", \"ja\": \"Elder Spellbook Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elder Spellbook"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elder Spellbook\", \"description\": \"Elder Spellbook Description\", \"display_type\": \"Spellbook - Lv. 5\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"subweapon\", \"class\": \"priest\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

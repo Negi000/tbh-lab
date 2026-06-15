@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "635062",
+  "slug": "635062-crystal-bracer",
+  "title": {
+    "ja": "クリスタルブレイサー",
+    "en": "Crystal Bracer"
+  },
+  "subtitle": {
+    "en": "Arcana / Bracer / BRACER / Lv. 25",
+    "ja": "アルカナ / ブレイサー / BRACER / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630006.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "635062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DodgeChance / FLAT",
+          "value": "42"
+        },
+        {
+          "labelKey": "SkillHealIncrease / ADDITIVE",
+          "value": "57"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "47"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "635062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630006"
+        ],
+        [
+          "GearKey",
+          "635062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Bracer\", \"ja\": \"クリスタルブレイサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

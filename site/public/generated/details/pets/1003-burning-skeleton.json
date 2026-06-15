@@ -1,0 +1,166 @@
+{
+  "categoryId": "pets",
+  "entityId": "1003",
+  "slug": "1003-burning-skeleton",
+  "title": {
+    "ja": "燃える骸骨",
+    "en": "Burning Skeleton"
+  },
+  "subtitle": {
+    "ja": "KillMonster 火の精霊",
+    "en": "KillMonster Fire Elemental"
+  },
+  "icon": "/generated/assets/game/ui/BG_Pet.png",
+  "rarity": "RARE",
+  "tags": [
+    "KillMonster"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1003"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "KillMonster"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "5000"
+    },
+    {
+      "labelKey": "field.name",
+      "value": {
+        "ja": "火の精霊",
+        "en": "Fire Elemental"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetStatKey",
+          "1003"
+        ],
+        [
+          "STATTYPE",
+          "DropChanceStageBossChestPercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.farmStages",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.spawn"
+        },
+        {
+          "labelKey": "field.stageLevel"
+        },
+        {
+          "labelKey": "field.wave"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "トーメント 2-8",
+            "en": "Torment 2-8"
+          },
+          "20%",
+          89,
+          30
+        ],
+        [
+          {
+            "ja": "ヘル 2-9",
+            "en": "Hell 2-9"
+          },
+          "18.18%",
+          69,
+          26
+        ],
+        [
+          {
+            "ja": "トーメント 2-9",
+            "en": "Torment 2-9"
+          },
+          "18.18%",
+          90,
+          30
+        ],
+        [
+          {
+            "ja": "ヘル 2-8",
+            "en": "Hell 2-8"
+          },
+          "17.86%",
+          68,
+          26
+        ],
+        [
+          {
+            "ja": "ナイトメア 2-8",
+            "en": "Nightmare 2-8"
+          },
+          "16.67%",
+          44,
+          22
+        ],
+        [
+          {
+            "ja": "ナイトメア 2-9",
+            "en": "Nightmare 2-9"
+          },
+          "15.09%",
+          45,
+          23
+        ],
+        [
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "8.163%",
+          21,
+          16
+        ],
+        [
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "4.762%",
+          20,
+          16
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetInfoData"
+  }
+}

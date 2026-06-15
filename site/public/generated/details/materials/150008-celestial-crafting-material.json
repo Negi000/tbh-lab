@@ -1,0 +1,113 @@
+{
+  "categoryId": "materials",
+  "entityId": "150008",
+  "slug": "150008-celestial-crafting-material",
+  "title": {
+    "ja": "セレスティアル クラフト素材",
+    "en": "Celestial Crafting Material"
+  },
+  "subtitle": {
+    "en": "Celestial / Crafting material",
+    "ja": "セレスティアル / クラフト素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_150008.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_150008.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "150008"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "150008"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_150008"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_150008"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_150008"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "ItemName_150008"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Celestial Crafting Material\", \"ja\": \"セレスティアル クラフト素材\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Used as celestial crafting material.\", \"ja\": \"セレスティアル クラフト素材として使用します。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

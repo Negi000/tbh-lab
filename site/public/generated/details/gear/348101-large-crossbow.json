@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "348101",
+  "slug": "348101-large-crossbow",
+  "title": {
+    "ja": "ラージクロスボウ",
+    "en": "Large Crossbow"
+  },
+  "subtitle": {
+    "en": "Divine / Crossbow / Main Weapon / Lv. 45",
+    "ja": "ディバイン / クロスボウ / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340010.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "348101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1017"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "36"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "83"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "860"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "170"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "348101"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340010"
+        ],
+        [
+          "GearKey",
+          "348101"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Large Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Large Crossbow\", \"ja\": \"ラージクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "50401",
+  "slug": "50401-charge-trap",
+  "title": {
+    "ja": "チャージトラップ",
+    "en": "Charge Trap"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_50401.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "50401"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "50401"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_50401"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_50401"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "5"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1150"
+        ],
+        [
+          "Order",
+          "700"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Trap"
+        ],
+        [
+          "SkillLevelKey",
+          "50401"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_50401"
+        ],
+        [
+          "AttributeKey",
+          "501023"
+        ],
+        [
+          "SoundKey",
+          "1504011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

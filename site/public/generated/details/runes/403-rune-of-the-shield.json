@@ -1,0 +1,216 @@
+{
+  "categoryId": "runes",
+  "entityId": "403",
+  "slug": "403-rune-of-the-shield",
+  "title": {
+    "ja": "盾のルーン",
+    "en": "Rune of the Shield"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 10",
+    "en": "Max Lv 10"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroArmor.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AllHeroArmor",
+    "AllHeroArmor",
+    "max:10"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "403"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "全ヒーロー防御",
+        "en": "All Hero Armor"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "2"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "疾風のルーン",
+            "en": "Rune of the Gale"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "戦争のルーン",
+            "en": "Rune of War"
+          },
+          1
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "2000 ゴールド",
+            "en": "2000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "4000 ゴールド",
+            "en": "4000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "6000 ゴールド",
+            "en": "6000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "8000 ゴールド",
+            "en": "8000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "10000 ゴールド",
+            "en": "10000 Gold"
+          }
+        ],
+        [
+          6,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "12000 ゴールド",
+            "en": "12000 Gold"
+          }
+        ],
+        [
+          7,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "15000 ゴールド",
+            "en": "15000 Gold"
+          }
+        ],
+        [
+          8,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "18000 ゴールド",
+            "en": "18000 Gold"
+          }
+        ],
+        [
+          9,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "21000 ゴールド",
+            "en": "21000 Gold"
+          }
+        ],
+        [
+          10,
+          {
+            "ja": "全ヒーロー防御 +5",
+            "en": "All Hero Armor +5"
+          },
+          {
+            "ja": "25000 ゴールド",
+            "en": "25000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "611061",
+  "slug": "611061-crystal-earring",
+  "title": {
+    "ja": "クリスタルのイヤリング",
+    "en": "Crystal Earring"
+  },
+  "subtitle": {
+    "en": "Uncommon / Earing / EARING / Lv. 25",
+    "ja": "アンコモン / イヤリング / EARING / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/EARING_610006.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "EARING",
+    "EARING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/EARING_610006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "611061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "EARING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "158"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "611061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "EARING"
+        ],
+        [
+          "GEARTYPE",
+          "EARING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_610006"
+        ],
+        [
+          "GearKey",
+          "611061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "EARING_610006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Earring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Earring\", \"ja\": \"クリスタルのイヤリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Iron earing Description\", \"ja\": \"Iron earing Description\"}"
+        ],
+        [
+          "mono_name",
+          "Iron earing"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Iron earing\", \"description\": \"Iron earing Description\", \"display_type\": \"Earring - Lv. 50\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"earring\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "414012",
+  "slug": "414012-wooden-arrow",
+  "title": {
+    "ja": "ウッドアロー",
+    "en": "Wooden Arrow"
+  },
+  "subtitle": {
+    "en": "Immortal / Arrow / Sub Weapon / Lv. 1",
+    "ja": "イモータル / 矢 / サブ武器 / Lv. 1"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410001.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "414012"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "1"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "120"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalChance / ADDITIVE",
+          "value": "155"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "54"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "414012"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410001"
+        ],
+        [
+          "GearKey",
+          "414012"
+        ],
+        [
+          "Level",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410001"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Wooden Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Wooden Arrow\", \"ja\": \"ウッドアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Short Arrow Description\", \"ja\": \"Short Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Short Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Short Arrow\", \"description\": \"Short Arrow Description\", \"display_type\": \"Arrow - Lv. 1\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"1\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

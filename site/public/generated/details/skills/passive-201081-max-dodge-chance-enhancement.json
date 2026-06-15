@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-201081",
+  "slug": "passive-201081-max-dodge-chance-enhancement",
+  "title": {
+    "ja": "最大回避率強化",
+    "en": "Max Dodge Chance Enhancement"
+  },
+  "subtitle": {
+    "ja": "最大回避率 +10%",
+    "en": "Max Dodge Chance +10%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "MaxDodgeChance",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "201081"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "最大回避率強化",
+        "en": "Max Dodge Chance Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "201081"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_MaxDodgeChance"
+        ],
+        [
+          "STATTYPE",
+          "MaxDodgeChance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "10"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

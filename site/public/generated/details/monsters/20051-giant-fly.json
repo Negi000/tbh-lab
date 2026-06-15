@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "20051",
+  "slug": "20051-giant-fly",
+  "title": {
+    "ja": "巨大バエ",
+    "en": "Giant Fly"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "20051"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "11"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "11"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "20051"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_20051"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "11"
+        ],
+        [
+          "RewardExp",
+          "11"
+        ],
+        [
+          "SkillKey",
+          "200511"
+        ],
+        [
+          "AttackDamage",
+          "20"
+        ],
+        [
+          "AttackSpeed",
+          "120"
+        ],
+        [
+          "MaxLife",
+          "45"
+        ],
+        [
+          "MovementSpeed",
+          "440"
+        ],
+        [
+          "DeadSoundKey",
+          "22005111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_20051"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/20051/Monster_20051"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

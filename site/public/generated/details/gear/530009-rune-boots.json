@@ -1,0 +1,357 @@
+{
+  "categoryId": "gear",
+  "entityId": "530009",
+  "slug": "530009-rune-boots",
+  "title": {
+    "ja": "ルーンブーツ",
+    "en": "Rune Boots"
+  },
+  "subtitle": {
+    "en": "Common / Boots / BOOTS / Lv. 40",
+    "ja": "コモン / ブーツ / BOOTS / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530009.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "530009"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "19.59%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "19.59%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "19.59%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "19.59%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "19.59%",
+          {
+            "ja": "ナイトメア 2-4",
+            "en": "Nightmare 2-4"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv40",
+            "en": "Common Treasure Chest Lv40"
+          },
+          "19.59%",
+          {
+            "ja": "ナイトメア 2-5",
+            "en": "Nightmare 2-5"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "5.242%",
+          {
+            "ja": "ヘル 1-1",
+            "en": "Hell 1-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "5.242%",
+          {
+            "ja": "ヘル 1-2",
+            "en": "Hell 1-2"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "5.242%",
+          {
+            "ja": "ヘル 1-3",
+            "en": "Hell 1-3"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "5.242%",
+          {
+            "ja": "ヘル 1-4",
+            "en": "Hell 1-4"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "5.242%",
+          {
+            "ja": "ヘル 1-5",
+            "en": "Hell 1-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "5.242%",
+          {
+            "ja": "ヘル 1-6",
+            "en": "Hell 1-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "4.626%",
+          {
+            "ja": "ナイトメア 1-9",
+            "en": "Nightmare 1-9"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "4.626%",
+          {
+            "ja": "ナイトメア 2-1",
+            "en": "Nightmare 2-1"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "4.626%",
+          {
+            "ja": "ナイトメア 2-2",
+            "en": "Nightmare 2-2"
+          },
+          "15%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv40",
+            "en": "Stage Treasure Chest Lv40"
+          },
+          "4.626%",
+          {
+            "ja": "ナイトメア 2-3",
+            "en": "Nightmare 2-3"
+          },
+          "15%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "43"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "530009"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530009"
+        ],
+        [
+          "GearKey",
+          "530009"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530009"
+        ],
+        [
+          "display_name",
+          "Rune Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Boots\", \"ja\": \"ルーンブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Great Boots Description\", \"ja\": \"Great Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Great Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Great Boots\", \"description\": \"Great Boots Description\", \"display_type\": \"Boots - Lv. 68\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"boots\", \"level\": \"68\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

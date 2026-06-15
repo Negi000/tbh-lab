@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "316172",
+  "slug": "316172-shadow-bow",
+  "title": {
+    "ja": "シャドウボウ",
+    "en": "Shadow Bow"
+  },
+  "subtitle": {
+    "en": "Beyond / Bow / Main Weapon / Lv. 80",
+    "ja": "ビヨンド / 弓 / メイン武器 / Lv. 80"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310017.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310017.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "316172"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1144"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "85"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "276"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1384"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "96"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "316172"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310017"
+        ],
+        [
+          "GearKey",
+          "316172"
+        ],
+        [
+          "Level",
+          "80"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310017"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Shadow Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Shadow Bow\", \"ja\": \"シャドウボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

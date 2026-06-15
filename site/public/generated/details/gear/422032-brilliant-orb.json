@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "422032",
+  "slug": "422032-brilliant-orb",
+  "title": {
+    "ja": "ブリリアントオーブ",
+    "en": "Brilliant Orb"
+  },
+  "subtitle": {
+    "en": "Rare / Orb / Sub Weapon / Lv. 10",
+    "ja": "レア / オーブ / サブ武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420003.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "422032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "100"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "131"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "422032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420003"
+        ],
+        [
+          "GearKey",
+          "422032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Brilliant Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Brilliant Orb\", \"ja\": \"ブリリアントオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Frozen Spellbook Description\", \"ja\": \"Frozen Spellbook Description\"}"
+        ],
+        [
+          "mono_name",
+          "Frozen Spellbook"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Frozen Spellbook\", \"description\": \"Frozen Spellbook Description\", \"display_type\": \"Spellbook - Lv. 10\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"priest\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

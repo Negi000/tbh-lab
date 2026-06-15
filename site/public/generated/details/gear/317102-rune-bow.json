@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "317102",
+  "slug": "317102-rune-bow",
+  "title": {
+    "ja": "ルーンボウ",
+    "en": "Rune Bow"
+  },
+  "subtitle": {
+    "en": "Celestial / Bow / Main Weapon / Lv. 45",
+    "ja": "セレスティアル / 弓 / メイン武器 / Lv. 45"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310010.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310010.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "317102"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "45"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "532"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "160"
+        },
+        {
+          "labelKey": "CriticalChance / FLAT",
+          "value": "22"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "760"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "129"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "317102"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310010"
+        ],
+        [
+          "GearKey",
+          "317102"
+        ],
+        [
+          "Level",
+          "45"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310010"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Rune Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Rune Bow\", \"ja\": \"ルーンボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

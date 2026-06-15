@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "10501",
+  "slug": "10501-sacred-blade",
+  "title": {
+    "ja": "セイクリッドブレード",
+    "en": "Sacred Blade"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_10501.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10501"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "150"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "17"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "10501"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_10501"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_10501"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "17"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "10501"
+        ],
+        [
+          "Param1",
+          "800"
+        ],
+        [
+          "Range",
+          "150"
+        ],
+        [
+          "Order",
+          "600"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "SkillLevelKey",
+          "10501"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_10501"
+        ],
+        [
+          "AttributeKey",
+          "101033"
+        ],
+        [
+          "SoundKey",
+          "1105011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

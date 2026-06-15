@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-601072",
+  "slug": "passive-601072-duration-enhancement",
+  "title": {
+    "ja": "持続時間強化",
+    "en": "Duration Enhancement"
+  },
+  "subtitle": {
+    "ja": "80% 増加したスキル持続時間",
+    "en": "80% Increased Skill Duration"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "SkillDurationIncrease",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "601072"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "スキル持続時間増加",
+        "en": "Skill Duration Increase"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "80"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "601072"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_Duration"
+        ],
+        [
+          "STATTYPE",
+          "SkillDurationIncrease"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "80"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

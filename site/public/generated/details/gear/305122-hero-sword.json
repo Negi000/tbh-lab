@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "305122",
+  "slug": "305122-hero-sword",
+  "title": {
+    "ja": "ヒーローソード",
+    "en": "Hero Sword"
+  },
+  "subtitle": {
+    "en": "Arcana / Sword / Main Weapon / Lv. 55",
+    "ja": "アルカナ / ソード / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300012.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "305122"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "389"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "37"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "95"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "756"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "72"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "305122"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300012"
+        ],
+        [
+          "GearKey",
+          "305122"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hero Sword"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hero Sword\", \"ja\": \"ヒーローソード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

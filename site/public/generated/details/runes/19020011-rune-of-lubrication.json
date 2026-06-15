@@ -1,0 +1,116 @@
+{
+  "categoryId": "runes",
+  "entityId": "19020011",
+  "slug": "19020011-rune-of-lubrication",
+  "title": {
+    "ja": "潤滑のルーン",
+    "en": "Rune of Lubrication"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 3",
+    "en": "Max Lv 3"
+  },
+  "icon": null,
+  "rarity": "ARCANA",
+  "tags": [
+    "ReduceAutoOpenActBossChestTime",
+    "ReduceAutoOpenActBossChestTime",
+    "max:3"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "19020011"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "潤滑のルーン",
+        "en": "Rune of Lubrication"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "アクトボスチェスト自動開封時間 -1秒",
+            "en": "Auto-Open Act Boss Chest Time -1s"
+          },
+          {
+            "ja": "500000 ゴールド",
+            "en": "500000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "アクトボスチェスト自動開封時間 -1秒",
+            "en": "Auto-Open Act Boss Chest Time -1s"
+          },
+          {
+            "ja": "700000 ゴールド",
+            "en": "700000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "アクトボスチェスト自動開封時間 -1秒",
+            "en": "Auto-Open Act Boss Chest Time -1s"
+          },
+          {
+            "ja": "900000 ゴールド",
+            "en": "900000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

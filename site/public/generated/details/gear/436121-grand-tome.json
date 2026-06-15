@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "436121",
+  "slug": "436121-grand-tome",
+  "title": {
+    "ja": "グランドトーム",
+    "en": "Grand Tome"
+  },
+  "subtitle": {
+    "en": "Beyond / Tome / Sub Weapon / Lv. 55",
+    "ja": "ビヨンド / 古書 / サブ武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/TOME_430012.png",
+  "rarity": "BEYOND",
+  "tags": [
+    "BEYOND",
+    "GEAR",
+    "TOME",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/TOME_430012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "436121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "BEYOND"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "TOME"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "255"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "94"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "817"
+        },
+        {
+          "labelKey": "SkillHealIncrease / FLAT",
+          "value": "251"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "436121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "BEYOND"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "TOME"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_430012"
+        ],
+        [
+          "GearKey",
+          "436121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "TOME_430012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Grand Tome"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Grand Tome\", \"ja\": \"グランドトーム\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

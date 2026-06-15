@@ -1,0 +1,182 @@
+{
+  "categoryId": "gear",
+  "entityId": "339121",
+  "slug": "339121-hero-scepter",
+  "title": {
+    "ja": "ヒーローセプター",
+    "en": "Hero Scepter"
+  },
+  "subtitle": {
+    "en": "Cosmic / Scepter / Main Weapon / Lv. 55",
+    "ja": "コズミック / セプター / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SCEPTER_330012.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "SCEPTER",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SCEPTER_330012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "339121"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SCEPTER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1070"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "40"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "98"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1427"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1118"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.unique",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "UniqueModKey",
+          "40001"
+        ],
+        [
+          "UniqueMod",
+          "WrathOfHeavenHeal"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "339121"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SCEPTER"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_330012"
+        ],
+        [
+          "GearKey",
+          "339121"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SCEPTER_330012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Hero Scepter"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hero Scepter\", \"ja\": \"ヒーローセプター\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

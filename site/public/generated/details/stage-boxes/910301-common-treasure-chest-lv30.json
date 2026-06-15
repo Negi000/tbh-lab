@@ -1,0 +1,459 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "910301",
+  "slug": "910301-common-treasure-chest-lv30",
+  "title": {
+    "ja": "一般宝箱 Lv30",
+    "en": "Common Treasure Chest Lv30"
+  },
+  "subtitle": {
+    "en": "Common / Stage Box",
+    "ja": "コモン / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_910011.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_910011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "910301"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 30레벨",
+          802768,
+          20.307899
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 주무기 30레벨",
+          200744,
+          5.07829
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 주무기 30레벨",
+          200744,
+          5.07829
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 30레벨",
+          120405,
+          3.045927
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 보조무기 30레벨",
+          30075,
+          0.760818
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 보조무기 30레벨",
+          30075,
+          0.760818
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 30레벨",
+          963343,
+          24.37002
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 30레벨",
+          253151,
+          6.404048
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 30레벨",
+          63313,
+          1.601651
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 30레벨",
+          63313,
+          1.601651
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 30레벨",
+          37926,
+          0.959427
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 30레벨",
+          9456,
+          0.239212
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 30레벨",
+          9456,
+          0.239212
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 30레벨",
+          303719,
+          7.683284
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 30레벨",
+          80533,
+          2.037271
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 30레벨",
+          20160,
+          0.509994
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 30레벨",
+          20160,
+          0.509994
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 30레벨",
+          12075,
+          0.305465
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 30레벨",
+          3019,
+          0.076373
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 30레벨",
+          3019,
+          0.076373
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 30레벨",
+          96597,
+          2.443648
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 30레벨",
+          22918,
+          0.579765
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 30레벨",
+          5762,
+          0.145763
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 30레벨",
+          5762,
+          0.145763
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 30레벨",
+          3470,
+          0.087782
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 30레벨",
+          851,
+          0.021528
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 30레벨",
+          851,
+          0.021528
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 30레벨",
+          27501,
+          0.695702
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 30레벨",
+          3825,
+          0.096762
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 30레벨",
+          956,
+          0.024184
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 30레벨",
+          956,
+          0.024184
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 30레벨",
+          576,
+          0.014571
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 30레벨",
+          144,
+          0.003643
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 30레벨",
+          144,
+          0.003643
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 30레벨",
+          4584,
+          0.115963
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 30레벨",
+          425,
+          0.010751
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 30레벨",
+          105,
+          0.002656
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 주무기 30레벨",
+          105,
+          0.002656
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 보조무기 30레벨",
+          65,
+          0.001644
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 보조무기 30레벨",
+          16,
+          0.000405
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 보조무기 30레벨",
+          16,
+          0.000405
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 방어구 30레벨",
+          510,
+          0.012902
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 주무기 30레벨",
+          7,
+          0.000177
+        ],
+        [
+          "ITEMGROUP",
+          "비욘드 방어구 30레벨",
+          7,
+          0.000177
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          147736,
+          3.737329
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Crafting",
+          92335,
+          2.33583
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          143723,
+          3.63581
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Decoration",
+          89827,
+          2.272385
+        ],
+        [
+          "ITEM",
+          "Kingdom 1st Anniversary Coin",
+          1864,
+          0.047154
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Engraving",
+          35931,
+          0.908959
+        ],
+        [
+          "ITEM",
+          "Scroll of Common Inscription",
+          1864,
+          0.047154
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Crafting",
+          6155,
+          0.155705
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Decoration",
+          5988,
+          0.151481
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Engraving",
+          1198,
+          0.030306
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Engraving",
+          22756,
+          0.575666
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "910301"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "NameKey",
+          "Normal Monster Box Lv30"
+        ],
+        [
+          "DropKey",
+          "9103011"
+        ],
+        [
+          "DropCooldown",
+          "2"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_910011"
+        ],
+        [
+          "display_name",
+          "Normal Monster Box Lv30"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Common Treasure Chest Lv30\", \"ja\": \"一般宝箱 Lv30\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

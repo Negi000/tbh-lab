@@ -1,0 +1,225 @@
+{
+  "categoryId": "gear",
+  "entityId": "624031",
+  "slug": "624031-silver-ring",
+  "title": {
+    "ja": "シルバーリング",
+    "en": "Silver Ring"
+  },
+  "subtitle": {
+    "en": "Immortal / Ring / RING / Lv. 10",
+    "ja": "イモータル / リング / RING / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/RING_620003.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "RING",
+    "RING"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/RING_620003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "624031"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "RING"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 3121034",
+            "en": "DropKey 3121034"
+          },
+          "27.59%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3602007",
+            "en": "DropKey 3602007"
+          },
+          "0.3636%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601007",
+            "en": "DropKey 3601007"
+          },
+          "0.1616%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.005754%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "55"
+        },
+        {
+          "labelKey": "AddHpPerHit / FLAT",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "624031"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "RING"
+        ],
+        [
+          "GEARTYPE",
+          "RING"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_620003"
+        ],
+        [
+          "GearKey",
+          "624031"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "RING_620003"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Silver Ring"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Silver Ring\", \"ja\": \"シルバーリング\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Saphaire ring Description\", \"ja\": \"Saphaire ring Description\"}"
+        ],
+        [
+          "mono_name",
+          "Saphaire ring"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Saphaire ring\", \"description\": \"Saphaire ring Description\", \"display_type\": \"Ring - Lv. 10\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"ring\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

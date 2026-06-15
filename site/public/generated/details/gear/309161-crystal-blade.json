@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "309161",
+  "slug": "309161-crystal-blade",
+  "title": {
+    "ja": "クリスタルブレード",
+    "en": "Crystal Blade"
+  },
+  "subtitle": {
+    "en": "Cosmic / Sword / Main Weapon / Lv. 75",
+    "ja": "コズミック / ソード / メイン武器 / Lv. 75"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SWORD_300016.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "GEAR",
+    "SWORD",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SWORD_300016.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "309161"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SWORD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2323"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "63"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "500"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "2000"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "1500"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "309161"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SWORD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_300016"
+        ],
+        [
+          "GearKey",
+          "309161"
+        ],
+        [
+          "Level",
+          "75"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SWORD_300016"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Crystal Blade"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Crystal Blade\", \"ja\": \"クリスタルブレード\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "categoryId": "gear",
+  "entityId": "523111",
+  "slug": "523111-mystic-gloves",
+  "title": {
+    "ja": "ミスティックグローブ",
+    "en": "Mystic Gloves"
+  },
+  "subtitle": {
+    "en": "Legendary / Gloves / GLOVES / Lv. 50",
+    "ja": "レジェンダリー / グローブ / GLOVES / Lv. 50"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520011.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "523111"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv50",
+            "en": "Act Boss Treasure Chest Lv50"
+          },
+          "3.36%",
+          {
+            "ja": "ナイトメア 3-10",
+            "en": "Nightmare 3-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "アクトボス宝箱 Lv60",
+            "en": "Act Boss Treasure Chest Lv60"
+          },
+          "3.134%",
+          {
+            "ja": "ヘル 1-10",
+            "en": "Hell 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "1.044%",
+          {
+            "ja": "ヘル 1-1",
+            "en": "Hell 1-1"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "1.044%",
+          {
+            "ja": "ヘル 1-2",
+            "en": "Hell 1-2"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "1.044%",
+          {
+            "ja": "ヘル 1-3",
+            "en": "Hell 1-3"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "1.044%",
+          {
+            "ja": "ヘル 1-4",
+            "en": "Hell 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "1.044%",
+          {
+            "ja": "ヘル 1-5",
+            "en": "Hell 1-5"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv50",
+            "en": "Stage Treasure Chest Lv50"
+          },
+          "1.044%",
+          {
+            "ja": "ヘル 1-6",
+            "en": "Hell 1-6"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "0.8541%",
+          {
+            "ja": "ヘル 1-1",
+            "en": "Hell 1-1"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "0.8541%",
+          {
+            "ja": "ヘル 1-2",
+            "en": "Hell 1-2"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "0.8541%",
+          {
+            "ja": "ヘル 1-3",
+            "en": "Hell 1-3"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "0.8541%",
+          {
+            "ja": "ヘル 1-4",
+            "en": "Hell 1-4"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "0.8541%",
+          {
+            "ja": "ヘル 1-5",
+            "en": "Hell 1-5"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv50",
+            "en": "Common Treasure Chest Lv50"
+          },
+          "0.8541%",
+          {
+            "ja": "ヘル 1-6",
+            "en": "Hell 1-6"
+          },
+          "10%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv55",
+            "en": "Stage Treasure Chest Lv55"
+          },
+          "1.044%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv60",
+            "en": "Stage Treasure Chest Lv60"
+          },
+          "1.044%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "242"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "113"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "187"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "523111"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520011"
+        ],
+        [
+          "GearKey",
+          "523111"
+        ],
+        [
+          "Level",
+          "50"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520011"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Mystic Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Mystic Gloves\", \"ja\": \"ミスティックグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

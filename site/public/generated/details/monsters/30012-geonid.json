@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30012",
+  "slug": "30012-geonid",
+  "title": {
+    "ja": "ジオニド",
+    "en": "Geonid"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30012"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "12"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "12"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "15"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "50"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30012"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30012"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "12"
+        ],
+        [
+          "RewardExp",
+          "12"
+        ],
+        [
+          "SkillKey",
+          "300121"
+        ],
+        [
+          "AttackDamage",
+          "15"
+        ],
+        [
+          "AttackSpeed",
+          "90"
+        ],
+        [
+          "MaxLife",
+          "50"
+        ],
+        [
+          "MovementSpeed",
+          "300"
+        ],
+        [
+          "DeadSoundKey",
+          "23001211"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30012"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30012/Monster_30012"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

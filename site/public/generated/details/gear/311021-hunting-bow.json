@@ -1,0 +1,301 @@
+{
+  "categoryId": "gear",
+  "entityId": "311021",
+  "slug": "311021-hunting-bow",
+  "title": {
+    "ja": "ハンティングボウ",
+    "en": "Hunting Bow"
+  },
+  "subtitle": {
+    "en": "Uncommon / Bow / Main Weapon / Lv. 5",
+    "ja": "アンコモン / 弓 / メイン武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310002.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "311021"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "17.45%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "100%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "17.45%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "17.45%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 5",
+            "en": "Stage Treasure Chest 5"
+          },
+          "17.45%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "60%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "7.349%",
+          {
+            "ja": "ノーマル 1-4",
+            "en": "Normal 1-4"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "7.349%",
+          {
+            "ja": "ノーマル 1-5",
+            "en": "Normal 1-5"
+          },
+          "12%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "7.349%",
+          {
+            "ja": "ノーマル 1-6",
+            "en": "Normal 1-6"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 2",
+            "en": "Common Treasure Chest 2"
+          },
+          "7.349%",
+          {
+            "ja": "ノーマル 1-7",
+            "en": "Normal 1-7"
+          },
+          "80%"
+        ],
+        [
+          {
+            "ja": "DropKey 3111021",
+            "en": "DropKey 3111021"
+          },
+          "46.67%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3601001",
+            "en": "DropKey 3601001"
+          },
+          "11.11%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3700001",
+            "en": "DropKey 3700001"
+          },
+          "0.2917%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "5"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "30"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "311021"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310002"
+        ],
+        [
+          "GearKey",
+          "311021"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310002"
+        ],
+        [
+          "display_name",
+          "Hunting Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Hunting Bow\", \"ja\": \"ハンティングボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Leather Bow Description\", \"ja\": \"Leather Bow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Leather Bow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Leather Bow\", \"description\": \"Leather Bow Description\", \"display_type\": \"Bow - Lv. 5\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"mainweapon\", \"class\": \"arbalist\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

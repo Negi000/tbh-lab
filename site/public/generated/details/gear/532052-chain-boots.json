@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "532052",
+  "slug": "532052-chain-boots",
+  "title": {
+    "ja": "チェインブーツ",
+    "en": "Chain Boots"
+  },
+  "subtitle": {
+    "en": "Rare / Boots / BOOTS / Lv. 20",
+    "ja": "レア / ブーツ / BOOTS / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530005.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "532052"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "28"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "35"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "532052"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530005"
+        ],
+        [
+          "GearKey",
+          "532052"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530005"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Chain Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Chain Boots\", \"ja\": \"チェインブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Fate Boots Description\", \"ja\": \"Fate Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Fate Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Fate Boots\", \"description\": \"Fate Boots Description\", \"display_type\": \"Boots - Lv. 30\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"boots\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

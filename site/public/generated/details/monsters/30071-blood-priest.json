@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30071",
+  "slug": "30071-blood-priest",
+  "title": {
+    "ja": "血の聖職者",
+    "en": "Blood Priest"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30071"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "35"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "35"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "16"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "125"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30071"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30071"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "35"
+        ],
+        [
+          "RewardExp",
+          "35"
+        ],
+        [
+          "SkillKey",
+          "300711"
+        ],
+        [
+          "AttackDamage",
+          "16"
+        ],
+        [
+          "AttackSpeed",
+          "65"
+        ],
+        [
+          "MaxLife",
+          "125"
+        ],
+        [
+          "MovementSpeed",
+          "180"
+        ],
+        [
+          "DeadSoundKey",
+          "23007111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30071"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30071/Monster_30071"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

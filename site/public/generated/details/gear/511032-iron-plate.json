@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "511032",
+  "slug": "511032-iron-plate",
+  "title": {
+    "ja": "アイアンプレート",
+    "en": "Iron Plate"
+  },
+  "subtitle": {
+    "en": "Uncommon / Armor / ARMOR / Lv. 10",
+    "ja": "アンコモン / アーマー / ARMOR / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510003.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "511032"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "41"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / ADDITIVE",
+          "value": "73"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "511032"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510003"
+        ],
+        [
+          "GearKey",
+          "511032"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510003"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Iron Plate"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Iron Plate\", \"ja\": \"アイアンプレート\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Golden Armor Description\", \"ja\": \"Golden Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Golden Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Golden Armor\", \"description\": \"Golden Armor Description\", \"display_type\": \"Armor - Lv. 10\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"armor\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

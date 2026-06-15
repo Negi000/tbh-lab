@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "633022",
+  "slug": "633022-bronze-bracer",
+  "title": {
+    "ja": "ブロンズブレーサー",
+    "en": "Bronze Bracer"
+  },
+  "subtitle": {
+    "en": "Legendary / Bracer / BRACER / Lv. 5",
+    "ja": "レジェンダリー / ブレイサー / BRACER / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630002.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "633022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "BlockChance / FLAT",
+          "value": "32"
+        },
+        {
+          "labelKey": "SkillHealIncrease / ADDITIVE",
+          "value": "34"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "633022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630002"
+        ],
+        [
+          "GearKey",
+          "633022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Bronze Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Bronze Bracer\", \"ja\": \"ブロンズブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Special bracer Description\", \"ja\": \"Special bracer Description\"}"
+        ],
+        [
+          "mono_name",
+          "Special bracer"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Special bracer\", \"description\": \"Special bracer Description\", \"display_type\": \"Bracer - Lv. 5\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"bracer\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

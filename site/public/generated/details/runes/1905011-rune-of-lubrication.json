@@ -1,0 +1,138 @@
+{
+  "categoryId": "runes",
+  "entityId": "1905011",
+  "slug": "1905011-rune-of-lubrication",
+  "title": {
+    "ja": "潤滑のルーン",
+    "en": "Rune of Lubrication"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": null,
+  "rarity": "ARCANA",
+  "tags": [
+    "ReduceAutoOpenNormalChestTime",
+    "ReduceAutoOpenNormalChestTime",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1905011"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "潤滑のルーン",
+        "en": "Rune of Lubrication"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "0"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "通常チェスト自動開封時間 -2秒",
+            "en": "Auto-Open Normal Chest Time -2s"
+          },
+          {
+            "ja": "25000000 ゴールド",
+            "en": "25000000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "通常チェスト自動開封時間 -2秒",
+            "en": "Auto-Open Normal Chest Time -2s"
+          },
+          {
+            "ja": "27500000 ゴールド",
+            "en": "27500000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "通常チェスト自動開封時間 -2秒",
+            "en": "Auto-Open Normal Chest Time -2s"
+          },
+          {
+            "ja": "30000000 ゴールド",
+            "en": "30000000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "通常チェスト自動開封時間 -2秒",
+            "en": "Auto-Open Normal Chest Time -2s"
+          },
+          {
+            "ja": "32500000 ゴールド",
+            "en": "32500000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "通常チェスト自動開封時間 -2秒",
+            "en": "Auto-Open Normal Chest Time -2s"
+          },
+          {
+            "ja": "35000000 ゴールド",
+            "en": "35000000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

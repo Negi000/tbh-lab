@@ -1,0 +1,141 @@
+{
+  "categoryId": "gear",
+  "entityId": "320020",
+  "slug": "320020-radiant-staff",
+  "title": {
+    "ja": "レイディアントスタッフ",
+    "en": "Radiant Staff"
+  },
+  "subtitle": {
+    "en": "Common / Staff / Main Weapon / Lv. 100",
+    "ja": "コモン / スタッフ / メイン武器 / Lv. 100"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320020.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320020.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "320020"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "114"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "320020"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320020"
+        ],
+        [
+          "GearKey",
+          "320020"
+        ],
+        [
+          "Level",
+          "100"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320020"
+        ],
+        [
+          "display_name",
+          "Radiant Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Radiant Staff\", \"ja\": \"レイディアントスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "521062",
+  "slug": "521062-fate-gloves",
+  "title": {
+    "ja": "フェイトグローブ",
+    "en": "Fate Gloves"
+  },
+  "subtitle": {
+    "en": "Uncommon / Gloves / GLOVES / Lv. 25",
+    "ja": "アンコモン / グローブ / GLOVES / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/GLOVES_520006.png",
+  "rarity": "UNCOMMON",
+  "tags": [
+    "UNCOMMON",
+    "GEAR",
+    "GLOVES",
+    "GLOVES"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/GLOVES_520006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "521062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "UNCOMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "GLOVES"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "39"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackSpeed / ADDITIVE",
+          "value": "75"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "521062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "UNCOMMON"
+        ],
+        [
+          "PARTS",
+          "GLOVES"
+        ],
+        [
+          "GEARTYPE",
+          "GLOVES"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_520006"
+        ],
+        [
+          "GearKey",
+          "521062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "GLOVES_520006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Gloves"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Gloves\", \"ja\": \"フェイトグローブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Gloves Description\", \"ja\": \"Heavy Gloves Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Gloves"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Gloves\", \"description\": \"Heavy Gloves Description\", \"display_type\": \"Gloves - Lv. 50\", \"type\": \"gear\", \"rarity\": \"uncommon\", \"parts\": \"gloves\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

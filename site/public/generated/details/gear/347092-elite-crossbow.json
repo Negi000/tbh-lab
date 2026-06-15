@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "347092",
+  "slug": "347092-elite-crossbow",
+  "title": {
+    "ja": "エリートクロスボウ",
+    "en": "Elite Crossbow"
+  },
+  "subtitle": {
+    "en": "Celestial / Crossbow / Main Weapon / Lv. 40",
+    "ja": "セレスティアル / クロスボウ / メイン武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Equipment/CROSSBOW_340009.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "CROSSBOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/CROSSBOW_340009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "347092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "CROSSBOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "611"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "32"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "103"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "73"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "693"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "347092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "CROSSBOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_340009"
+        ],
+        [
+          "GearKey",
+          "347092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "CROSSBOW_340009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Elite Crossbow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Elite Crossbow\", \"ja\": \"エリートクロスボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-201052",
+  "slug": "passive-201052-life-leech-enhancement",
+  "title": {
+    "ja": "ライフ吸収強化",
+    "en": "Life Leech Enhancement"
+  },
+  "subtitle": {
+    "ja": "ライフ吸収 +5%",
+    "en": "Life Leech +5%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "HpLeech",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "201052"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "ライフ吸収強化",
+        "en": "Life Leech Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "201052"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_HpLeech"
+        ],
+        [
+          "STATTYPE",
+          "HpLeech"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "5"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

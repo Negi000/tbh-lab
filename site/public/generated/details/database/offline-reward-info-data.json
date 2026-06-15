@@ -1,0 +1,288 @@
+{
+  "categoryId": "database",
+  "entityId": "OfflineRewardInfoData",
+  "slug": "offline-reward-info-data",
+  "title": {
+    "ja": "OfflineRewardInfoData",
+    "en": "OfflineRewardInfoData"
+  },
+  "subtitle": {
+    "ja": "116 records",
+    "en": "116 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "OfflineRewardInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "OfflineRewardInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "116"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "1"
+        ],
+        [
+          "BaseGold",
+          "1"
+        ],
+        [
+          "BaseExp",
+          "1"
+        ],
+        [
+          "KillCount",
+          "180"
+        ],
+        [
+          "ClearCount",
+          "20"
+        ],
+        [
+          "StageLevel",
+          "2"
+        ],
+        [
+          "BaseGold",
+          "2"
+        ],
+        [
+          "BaseExp",
+          "2"
+        ],
+        [
+          "KillCount",
+          "300"
+        ],
+        [
+          "ClearCount",
+          "15"
+        ],
+        [
+          "StageLevel",
+          "3"
+        ],
+        [
+          "BaseGold",
+          "3"
+        ],
+        [
+          "BaseExp",
+          "2"
+        ],
+        [
+          "KillCount",
+          "423"
+        ],
+        [
+          "ClearCount",
+          "15"
+        ],
+        [
+          "StageLevel",
+          "4"
+        ],
+        [
+          "BaseGold",
+          "4"
+        ],
+        [
+          "BaseExp",
+          "4"
+        ],
+        [
+          "KillCount",
+          "423"
+        ],
+        [
+          "ClearCount",
+          "15"
+        ],
+        [
+          "StageLevel",
+          "5"
+        ],
+        [
+          "BaseGold",
+          "5"
+        ],
+        [
+          "BaseExp",
+          "6"
+        ],
+        [
+          "KillCount",
+          "423"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "6"
+        ],
+        [
+          "BaseGold",
+          "6"
+        ],
+        [
+          "BaseExp",
+          "11"
+        ],
+        [
+          "KillCount",
+          "528"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "7"
+        ],
+        [
+          "BaseGold",
+          "6"
+        ],
+        [
+          "BaseExp",
+          "15"
+        ],
+        [
+          "KillCount",
+          "660"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "8"
+        ],
+        [
+          "BaseGold",
+          "6"
+        ],
+        [
+          "BaseExp",
+          "15"
+        ],
+        [
+          "KillCount",
+          "792"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "9"
+        ],
+        [
+          "BaseGold",
+          "6"
+        ],
+        [
+          "BaseExp",
+          "21"
+        ],
+        [
+          "KillCount",
+          "828"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "10"
+        ],
+        [
+          "BaseGold",
+          "7"
+        ],
+        [
+          "BaseExp",
+          "29"
+        ],
+        [
+          "KillCount",
+          "864"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "11"
+        ],
+        [
+          "BaseGold",
+          "10"
+        ],
+        [
+          "BaseExp",
+          "49"
+        ],
+        [
+          "KillCount",
+          "939"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ],
+        [
+          "StageLevel",
+          "12"
+        ],
+        [
+          "BaseGold",
+          "10"
+        ],
+        [
+          "BaseExp",
+          "53"
+        ],
+        [
+          "KillCount",
+          "939"
+        ],
+        [
+          "ClearCount",
+          "12"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "OfflineRewardInfoData"
+  }
+}

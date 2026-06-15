@@ -1,0 +1,617 @@
+{
+  "categoryId": "heroes",
+  "entityId": "301",
+  "slug": "sorcerer",
+  "title": {
+    "ja": "ソーサラー",
+    "en": "Sorcerer"
+  },
+  "subtitle": {
+    "ja": "広範囲に破壊的魔法ダメージを\n与える強力な魔法使い。",
+    "en": "A powerful mage dealing\ndevastating area\nmagic damage."
+  },
+  "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Sorcerer_Mid_Anim_0.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "Sorcerer",
+    "STAFF",
+    "ORB"
+  ],
+  "heroImage": "/generated/assets/game/hero/Arrage_ChaAnim_Sorcerer_Large_0.png",
+  "overview": [
+    {
+      "labelKey": "field.class",
+      "value": "Sorcerer"
+    },
+    {
+      "labelKey": "field.mainWeapon",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.subWeapon",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.unlock",
+      "value": "500"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.maxHp",
+          "value": "50"
+        },
+        {
+          "labelKey": "field.armor",
+          "value": "5"
+        },
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "55"
+        },
+        {
+          "labelKey": "field.castSpeed",
+          "value": "100%"
+        },
+        {
+          "labelKey": "field.criticalChance",
+          "value": "5%"
+        },
+        {
+          "labelKey": "field.criticalDamage",
+          "value": "165%"
+        },
+        {
+          "labelKey": "field.cooldown",
+          "value": "0%"
+        },
+        {
+          "labelKey": "field.moveSpeed",
+          "value": "770"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.skills",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "filter.slot"
+        },
+        {
+          "labelKey": "field.activation"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.range"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.type"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ソーサラー 通常攻撃",
+            "en": "Sorcerer Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          0,
+          900,
+          {
+            "ja": "火炎",
+            "en": "Fire"
+          },
+          {
+            "ja": "投射物",
+            "en": "Projectile"
+          }
+        ],
+        [
+          {
+            "ja": "ファイアボール",
+            "en": "Fireball"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          6,
+          950,
+          {
+            "ja": "火炎",
+            "en": "Fire"
+          },
+          {
+            "en": "Projectile, Area",
+            "ja": "投射物, 範囲"
+          }
+        ],
+        [
+          {
+            "ja": "アイスオーブ",
+            "en": "Ice Orb"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          8,
+          950,
+          {
+            "ja": "冷気",
+            "en": "Cold"
+          },
+          {
+            "en": "Projectile, Area",
+            "ja": "投射物, 範囲"
+          }
+        ],
+        [
+          {
+            "ja": "ライトニング",
+            "en": "Lightning"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          15,
+          1050,
+          {
+            "ja": "雷",
+            "en": "Lightning"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "フレイムヒュドラ",
+            "en": "Flame Hydra"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          13,
+          1100,
+          {
+            "ja": "火炎",
+            "en": "Fire"
+          },
+          {
+            "en": "Projectile, Summon",
+            "ja": "投射物, 召喚"
+          }
+        ],
+        [
+          {
+            "ja": "スノーストーム",
+            "en": "Snowstorm"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          22,
+          1100,
+          {
+            "ja": "冷気",
+            "en": "Cold"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "メテオストライク",
+            "en": "Meteor Strike"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          18,
+          1100,
+          {
+            "ja": "火炎",
+            "en": "Fire"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.attributes",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.max"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          301001,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301002,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301003,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301004,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301011,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301012,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301013,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301021,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301022,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301023,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301031,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301032,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301033,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301041,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301042,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301043,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301051,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301052,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301061,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301062,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301071,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          301072,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "HeroInfoData"
+  }
+}

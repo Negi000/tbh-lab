@@ -1,0 +1,361 @@
+{
+  "categoryId": "gear",
+  "entityId": "402051",
+  "slug": "402051-heavy-shield",
+  "title": {
+    "ja": "ヘビーシールド",
+    "en": "Heavy Shield"
+  },
+  "subtitle": {
+    "en": "Rare / Shield / Sub Weapon / Lv. 20",
+    "ja": "レア / シールド / サブ武器 / Lv. 20"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400005.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400005.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "402051"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 Lv20",
+            "en": "Act Boss Treasure Chest Lv20"
+          },
+          "1.537%",
+          {
+            "ja": "ノーマル 2-10",
+            "en": "Normal 2-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.5542%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.5542%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.5542%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.5542%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.5542%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv20",
+            "en": "Stage Treasure Chest Lv20"
+          },
+          "0.5542%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.1476%",
+          {
+            "ja": "ノーマル 2-8",
+            "en": "Normal 2-8"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.1476%",
+          {
+            "ja": "ノーマル 2-9",
+            "en": "Normal 2-9"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.1476%",
+          {
+            "ja": "ノーマル 3-1",
+            "en": "Normal 3-1"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.1476%",
+          {
+            "ja": "ノーマル 3-2",
+            "en": "Normal 3-2"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.1476%",
+          {
+            "ja": "ノーマル 3-3",
+            "en": "Normal 3-3"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv20",
+            "en": "Common Treasure Chest Lv20"
+          },
+          "0.1476%",
+          {
+            "ja": "ノーマル 3-4",
+            "en": "Normal 3-4"
+          },
+          "20%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv25",
+            "en": "Stage Treasure Chest Lv25"
+          },
+          "0.5542%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv25",
+            "en": "Common Treasure Chest Lv25"
+          },
+          "0.1476%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "DropKey 3603002",
+            "en": "DropKey 3603002"
+          },
+          "18.67%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "87"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "Armor / FLAT",
+          "value": "62"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "402051"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400005"
+        ],
+        [
+          "GearKey",
+          "402051"
+        ],
+        [
+          "Level",
+          "20"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400005"
+        ],
+        [
+          "display_name",
+          "Heavy Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heavy Shield\", \"ja\": \"ヘビーシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elden Shield Description\", \"ja\": \"Elden Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elden Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elden Shield\", \"description\": \"Elden Shield Description\", \"display_type\": \"Shield - Lv. 30\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"30\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

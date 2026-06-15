@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "3207",
+  "slug": "3207-2-7-act-2-7-hell-normal",
+  "title": {
+    "ja": "2-7 ヘル",
+    "en": "2-7 Act 2-7 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 67 / Boss Plague Rat",
+    "en": "Hell / Lv 67 / Boss Plague Rat"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3207"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "7"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "67"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "26"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Plague Rat"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20081,
+          {
+            "ja": "グール",
+            "en": "Ghoul"
+          },
+          300,
+          45,
+          45
+        ],
+        [
+          20071,
+          {
+            "ja": "ホムンクルス",
+            "en": "Homunculus"
+          },
+          1000,
+          13,
+          13
+        ],
+        [
+          20042,
+          {
+            "ja": "猛毒の君主",
+            "en": "Venom Lord"
+          },
+          500,
+          35,
+          35
+        ],
+        [
+          20011,
+          {
+            "ja": "サソリ",
+            "en": "Scorpion"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          20023,
+          {
+            "ja": "疫病ネズミ",
+            "en": "Plague Rat"
+          },
+          700,
+          20,
+          20
+        ],
+        [
+          10052,
+          {
+            "ja": "スケルトンアーチャー",
+            "en": "Skeleton Archer"
+          },
+          550,
+          10,
+          13
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "67"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "10145"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "177470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "18800"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "365400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

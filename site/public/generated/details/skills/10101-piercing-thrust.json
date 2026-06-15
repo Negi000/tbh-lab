@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "10101",
+  "slug": "10101-piercing-thrust",
+  "title": {
+    "ja": "貫通突き",
+    "en": "Piercing Thrust"
+  },
+  "subtitle": {
+    "en": "Skill / Base Attack Count",
+    "ja": "スキル / 通常攻撃回数"
+  },
+  "icon": "/generated/assets/game/skills/Skill_10101.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "BASEATTACK_COUNT",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10101"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃回数",
+        "en": "Base Attack Count"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "200"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "6"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "10101"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_10101"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_10101"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK_COUNT"
+        ],
+        [
+          "ActivationValue",
+          "6"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Param1",
+          "700"
+        ],
+        [
+          "Range",
+          "200"
+        ],
+        [
+          "Order",
+          "400"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Melee, AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "10101"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_10101"
+        ],
+        [
+          "AttributeKey",
+          "101003"
+        ],
+        [
+          "SoundKey",
+          "1101011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "categoryId": "stages",
+  "entityId": "4204",
+  "slug": "4204-2-4-act-2-4-torment-normal",
+  "title": {
+    "ja": "2-4 トーメント",
+    "en": "2-4 Act 2-4 TORMENT NORMAL"
+  },
+  "subtitle": {
+    "ja": "トーメント / Lv 87 / Boss Venom Insect",
+    "en": "Torment / Lv 87 / Boss Venom Insect"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "TORMENT",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "4204"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "TORMENT"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "4"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "87"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Venom Insect"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20011,
+          {
+            "ja": "サソリ",
+            "en": "Scorpion"
+          },
+          1000,
+          10,
+          10
+        ],
+        [
+          20031,
+          {
+            "ja": "コブラ",
+            "en": "Cobra"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          20023,
+          {
+            "ja": "疫病ネズミ",
+            "en": "Plague Rat"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          20041,
+          {
+            "ja": "毒虫",
+            "en": "Venom Insect"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          20042,
+          {
+            "ja": "猛毒の君主",
+            "en": "Venom Lord"
+          },
+          500,
+          35,
+          35
+        ],
+        [
+          20051,
+          {
+            "ja": "巨大バエ",
+            "en": "Giant Fly"
+          },
+          1000,
+          11,
+          11
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910801,
+          8
+        ],
+        [
+          "Boss box",
+          920801,
+          80
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "87"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "57145"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "316470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "32900"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "647400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

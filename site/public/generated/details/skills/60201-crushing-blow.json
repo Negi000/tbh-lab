@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "60201",
+  "slug": "60201-crushing-blow",
+  "title": {
+    "ja": "クラッシングブロー",
+    "en": "Crushing Blow"
+  },
+  "subtitle": {
+    "en": "Skill / Base Attack Count",
+    "ja": "スキル / 通常攻撃回数"
+  },
+  "icon": "/generated/assets/game/skills/Skill_60201.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "BASEATTACK_COUNT",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "60201"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "通常攻撃回数",
+        "en": "Base Attack Count"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "200"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "60201"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_60201"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_60201"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "BASEATTACK_COUNT"
+        ],
+        [
+          "ActivationValue",
+          "5"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "200"
+        ],
+        [
+          "Order",
+          "500"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Melee"
+        ],
+        [
+          "SkillLevelKey",
+          "60201"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_60201"
+        ],
+        [
+          "AttributeKey",
+          "601004"
+        ],
+        [
+          "SoundKey",
+          "1602011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

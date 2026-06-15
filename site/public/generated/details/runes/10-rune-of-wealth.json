@@ -1,0 +1,172 @@
+{
+  "categoryId": "runes",
+  "entityId": "10",
+  "slug": "10-rune-of-wealth",
+  "title": {
+    "ja": "富のルーン",
+    "en": "Rune of Wealth"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 3",
+    "en": "Max Lv 3"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldStageBoss.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "AdditionalGoldStageBoss",
+    "AdditionalGoldStageBoss",
+    "max:3"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ステージボスゴールド",
+        "en": "Gold From Stage Boss"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "拡張のルーン",
+            "en": "Rune of Expansion"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "探索のルーン",
+            "en": "Rune of Exploration"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "富のルーン",
+            "en": "Rune of Wealth"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "安息のルーン",
+            "en": "Rune of Repose"
+          },
+          1
+        ],
+        [
+          {
+            "ja": "プレビュー",
+            "en": "Preview"
+          },
+          {
+            "ja": "収納のルーン",
+            "en": "Rune of Containment"
+          },
+          1
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "ステージボスゴールド +10",
+            "en": "Gold From Stage Boss Kill +10"
+          },
+          {
+            "ja": "200 ゴールド",
+            "en": "200 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "ステージボスゴールド +10",
+            "en": "Gold From Stage Boss Kill +10"
+          },
+          {
+            "ja": "300 ゴールド",
+            "en": "300 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "ステージボスゴールド +10",
+            "en": "Gold From Stage Boss Kill +10"
+          },
+          {
+            "ja": "500 ゴールド",
+            "en": "500 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

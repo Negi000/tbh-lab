@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "318131",
+  "slug": "318131-ancient-bow",
+  "title": {
+    "ja": "エンシェントボウ",
+    "en": "Ancient Bow"
+  },
+  "subtitle": {
+    "en": "Divine / Bow / Main Weapon / Lv. 60",
+    "ja": "ディバイン / 弓 / メイン武器 / Lv. 60"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310013.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310013.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "318131"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "60"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "1015"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "235"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "244"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "243"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "92"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "318131"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310013"
+        ],
+        [
+          "GearKey",
+          "318131"
+        ],
+        [
+          "Level",
+          "60"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310013"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Ancient Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Ancient Bow\", \"ja\": \"エンシェントボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

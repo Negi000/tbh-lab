@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-401042",
+  "slug": "passive-401042-block-chance-enhancement",
+  "title": {
+    "ja": "ブロック率強化",
+    "en": "Block Chance Enhancement"
+  },
+  "subtitle": {
+    "ja": "ブロック率 +30%",
+    "en": "Block Chance +30%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "BlockChance",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401042"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "ブロック率",
+        "en": "Block Chance"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "401042"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_BlockChance"
+        ],
+        [
+          "STATTYPE",
+          "BlockChance"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

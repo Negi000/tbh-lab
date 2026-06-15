@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "635072",
+  "slug": "635072-obsidian-bracer",
+  "title": {
+    "ja": "オブシディアンブレーサー",
+    "en": "Obsidian Bracer"
+  },
+  "subtitle": {
+    "en": "Arcana / Bracer / BRACER / Lv. 30",
+    "ja": "アルカナ / ブレイサー / BRACER / Lv. 30"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BRACER_630007.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "ARCANA",
+    "GEAR",
+    "BRACER",
+    "BRACER"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BRACER_630007.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "635072"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "ARCANA"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BRACER"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "0"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "DamageReduction / FLAT",
+          "value": "61"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "251"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "363"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "635072"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "ARCANA"
+        ],
+        [
+          "PARTS",
+          "BRACER"
+        ],
+        [
+          "GEARTYPE",
+          "BRACER"
+        ],
+        [
+          "GearGroup",
+          "ACCESSORY"
+        ],
+        [
+          "ItemSynthesisType",
+          "Accessory"
+        ],
+        [
+          "NameKey",
+          "ItemName_630007"
+        ],
+        [
+          "GearKey",
+          "635072"
+        ],
+        [
+          "Level",
+          "30"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BRACER_630007"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Obsidian Bracer"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Obsidian Bracer\", \"ja\": \"オブシディアンブレーサー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

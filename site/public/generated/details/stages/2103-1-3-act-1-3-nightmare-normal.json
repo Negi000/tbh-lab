@@ -1,0 +1,185 @@
+{
+  "categoryId": "stages",
+  "entityId": "2103",
+  "slug": "2103-1-3-act-1-3-nightmare-normal",
+  "title": {
+    "ja": "1-3 ナイトメア",
+    "en": "1-3 Act 1-3 NIGHTMARE NORMAL"
+  },
+  "subtitle": {
+    "ja": "ナイトメア / Lv 35 / Boss Cobra",
+    "en": "Nightmare / Lv 35 / Boss Cobra"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NIGHTMARE",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "2103"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NIGHTMARE"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "35"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Cobra"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10021,
+          {
+            "ja": "ゴブリン",
+            "en": "Goblin"
+          },
+          1000,
+          12,
+          12
+        ],
+        [
+          10022,
+          {
+            "ja": "ゴブリンシーフ",
+            "en": "Goblin Thief"
+          },
+          1000,
+          15,
+          15
+        ],
+        [
+          10023,
+          {
+            "ja": "ゴブリンシャーマン",
+            "en": "Goblin Shaman"
+          },
+          1000,
+          20,
+          20
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910301,
+          15
+        ],
+        [
+          "Boss box",
+          920301,
+          150
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "35"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "1235"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "38270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "4560"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "80600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

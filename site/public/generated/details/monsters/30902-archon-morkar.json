@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30902",
+  "slug": "30902-archon-morkar",
+  "title": {
+    "ja": "モルカル執政官",
+    "en": "Archon Morkar"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30902"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "500"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "80"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "2750"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30902"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30901"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "500"
+        ],
+        [
+          "RewardExp",
+          "1"
+        ],
+        [
+          "SkillKey",
+          "309011 309021 309031"
+        ],
+        [
+          "AttackDamage",
+          "80"
+        ],
+        [
+          "AttackSpeed",
+          "150"
+        ],
+        [
+          "MaxLife",
+          "2750"
+        ],
+        [
+          "MovementSpeed",
+          "120"
+        ],
+        [
+          "DeadSoundKey",
+          "21090111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30902"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30902/Monster_30902"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

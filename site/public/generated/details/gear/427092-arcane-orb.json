@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "427092",
+  "slug": "427092-arcane-orb",
+  "title": {
+    "ja": "アルケインオーブ",
+    "en": "Arcane Orb"
+  },
+  "subtitle": {
+    "en": "Celestial / Orb / Sub Weapon / Lv. 40",
+    "ja": "セレスティアル / オーブ / サブ武器 / Lv. 40"
+  },
+  "icon": "/generated/assets/game/item/Materials/ORB_420009.png",
+  "rarity": "CELESTIAL",
+  "tags": [
+    "CELESTIAL",
+    "GEAR",
+    "ORB",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/ORB_420009.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "427092"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "CELESTIAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ORB"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "40"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "219"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CastSpeed / ADDITIVE",
+          "value": "165"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "408"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "52"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "427092"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "CELESTIAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ORB"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_420009"
+        ],
+        [
+          "GearKey",
+          "427092"
+        ],
+        [
+          "Level",
+          "40"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ORB_420009"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Arcane Orb"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Arcane Orb\", \"ja\": \"アルケインオーブ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

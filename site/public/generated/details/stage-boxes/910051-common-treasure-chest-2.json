@@ -1,0 +1,271 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "910051",
+  "slug": "910051-common-treasure-chest-2",
+  "title": {
+    "ja": "一般宝箱 2",
+    "en": "Common Treasure Chest 2"
+  },
+  "subtitle": {
+    "en": "Common / Stage Box",
+    "ja": "コモン / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_910011.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_910011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "910051"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 5레벨",
+          885429,
+          24.359846
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON MAIN_WEAPON",
+          221357,
+          6.089955
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON MAIN_WEAPON",
+          221357,
+          6.089955
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 5레벨",
+          126518,
+          3.480752
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter COMMON SUB_WEAPON",
+          31580,
+          0.868826
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer COMMON SUB_WEAPON",
+          31580,
+          0.868826
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 5레벨",
+          1082190,
+          29.773118
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 5레벨",
+          267119,
+          7.348955
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON MAIN_WEAPON",
+          66780,
+          1.837246
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON MAIN_WEAPON",
+          66780,
+          1.837246
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 5레벨",
+          38160,
+          1.049855
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter UNCOMMON SUB_WEAPON",
+          9540,
+          0.262464
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer UNCOMMON SUB_WEAPON",
+          9540,
+          0.262464
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 5레벨",
+          305278,
+          8.398782
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 5레벨",
+          17724,
+          0.487621
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE MAIN_WEAPON",
+          4431,
+          0.121905
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE MAIN_WEAPON",
+          4431,
+          0.121905
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 5레벨",
+          2532,
+          0.06966
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE SUB_WEAPON",
+          633,
+          0.017415
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE SUB_WEAPON",
+          633,
+          0.017415
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 5레벨",
+          20255,
+          0.557254
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          148307,
+          4.080209
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          72635,
+          1.998328
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "910051"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "NameKey",
+          "Normal Monster Box 2"
+        ],
+        [
+          "DropKey",
+          "9100511"
+        ],
+        [
+          "DropCooldown",
+          "1"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_910011"
+        ],
+        [
+          "display_name",
+          "Normal Monster Box 4"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Common Treasure Chest 2\", \"ja\": \"一般宝箱 2\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"스테이지 2-1~3-9 상자 (난이도 : NIGHTMARE)\", \"ja\": \"스테이지 2-1~3-9 상자 (난이도 : NIGHTMARE)\"}"
+        ],
+        [
+          "mono_name",
+          "Normal Monster Box 4"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Normal Monster Box 4\", \"description\": \"스테이지 2-1~3-9 상자 (난이도 : NIGHTMARE)\", \"display_type\": \"Chest\", \"type\": \"chest\", \"rarity\": \"common\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

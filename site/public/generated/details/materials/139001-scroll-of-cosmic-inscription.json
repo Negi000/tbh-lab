@@ -1,0 +1,478 @@
+{
+  "categoryId": "materials",
+  "entityId": "139001",
+  "slug": "139001-scroll-of-cosmic-inscription",
+  "title": {
+    "ja": "宇宙刻文の巻物",
+    "en": "Scroll of Cosmic Inscription"
+  },
+  "subtitle": {
+    "en": "Cosmic / Inscription material",
+    "ja": "コズミック / 刻文素材"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_139001.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "COSMIC",
+    "MATERIAL"
+  ],
+  "heroImage": "/generated/assets/game/item/Materials/Item_139001.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "139001"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COSMIC"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MATERIAL"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.materialPool",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "攻撃力 +150~300",
+            "en": "Attack Damage +150~300"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃力",
+            "en": "Attack Damage"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃力1000~1500%増加",
+            "en": "1000~1500% Increased Attack Damage"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "最大HP +270~300",
+            "en": "Max HP +270~300"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "最大HP",
+            "en": "Max HP"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "最大HP400~500%増加",
+            "en": "400~500% Increased Max HP"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "回避率",
+            "en": "Dodge Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "回避率 +200~300%",
+            "en": "Dodge Chance +200~300%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "ブロック率",
+            "en": "Block Chance"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ブロック率 +200~300%",
+            "en": "Block Chance +200~300%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "攻撃速度",
+            "en": "Attack Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "攻撃速度200~250%増加",
+            "en": "200~250% Increased Attack Speed"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "詠唱速度",
+            "en": "Cast Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "詠唱速度400~500%増加",
+            "en": "400~500% Increased Cast Speed"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "効果範囲強化",
+            "en": "Area of Effect Enhancement"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "効果範囲280~350%増加",
+            "en": "280~350% Increased Area of Effect"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "クールタイム短縮",
+            "en": "Cooldown Reduction"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クールダウン短縮 +145~160%",
+            "en": "Cooldown Reduction +145~160%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "スキル持続時間増加",
+            "en": "Skill Duration Increase"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "453~500% 増加したスキル持続時間",
+            "en": "453~500% Increased Skill Duration"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "移動速度 +76~83",
+            "en": "Movement Speed +76~83"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "移動速度",
+            "en": "Movement Speed"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "移動速度550~600%増加",
+            "en": "550~600% Increased Movement Speed"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "クリティカル率",
+            "en": "Critical Chance"
+          },
+          {
+            "ja": "増加",
+            "en": "Increased"
+          },
+          {
+            "ja": "クリティカル率係数550~600%増加",
+            "en": "550~600% Increased Critical Chance Multiplier"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "全属性耐性強化",
+            "en": "All Elemental Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "全属性耐性 +25~30%",
+            "en": "All Elemental Resistance +25~30%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "カオス耐性強化",
+            "en": "Chaos Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "カオス耐性 +50~55%",
+            "en": "Chaos Resistance +50~55%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "コモン",
+            "en": "Common"
+          },
+          {
+            "ja": "ライフ吸収強化",
+            "en": "Life Leech Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "ライフ吸収 +55~65%",
+            "en": "Life Leech +55~65%"
+          },
+          "T9 - T10"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "139001"
+        ],
+        [
+          "ITEMTYPE",
+          "MATERIAL"
+        ],
+        [
+          "GRADE",
+          "COSMIC"
+        ],
+        [
+          "ItemSynthesisType",
+          "Material"
+        ],
+        [
+          "NameKey",
+          "ItemName_139001"
+        ],
+        [
+          "DescriptionKey",
+          "ItemDescription_139001"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_139001"
+        ],
+        [
+          "IsCanExchangeMarketable",
+          "true"
+        ],
+        [
+          "display_name",
+          "Scroll of Cosmic Inscription"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Scroll of Cosmic Inscription\", \"ja\": \"宇宙刻文の巻物\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.\", \"ja\": \"特別な能力を秘めた巻物。アイテムに碑文を刻み、複数の能力向上効果のうち1つをランダムに付与する。\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

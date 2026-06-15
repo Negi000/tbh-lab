@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "324022",
+  "slug": "324022-herald-staff",
+  "title": {
+    "ja": "伝令のスタッフ",
+    "en": "Herald Staff"
+  },
+  "subtitle": {
+    "en": "Immortal / Staff / Main Weapon / Lv. 5",
+    "ja": "イモータル / スタッフ / メイン武器 / Lv. 5"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320002.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320002.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "324022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "20"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "15"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "52"
+        },
+        {
+          "labelKey": "CastSpeed / MULTIPLICATIVE",
+          "value": "89"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "324022"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320002"
+        ],
+        [
+          "GearKey",
+          "324022"
+        ],
+        [
+          "Level",
+          "5"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320002"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Herald Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Herald Staff\", \"ja\": \"伝令のスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Herald Staff Description\", \"ja\": \"Herald Staff Description\"}"
+        ],
+        [
+          "mono_name",
+          "Herald Staff"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Herald Staff\", \"description\": \"Herald Staff Description\", \"display_type\": \"Staff - Lv. 5\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"mainweapon\", \"class\": \"sorcerer\", \"level\": \"5\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

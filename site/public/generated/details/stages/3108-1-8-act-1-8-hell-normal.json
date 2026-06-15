@@ -1,0 +1,185 @@
+{
+  "categoryId": "stages",
+  "entityId": "3108",
+  "slug": "3108-1-8-act-1-8-hell-normal",
+  "title": {
+    "ja": "1-8 ヘル",
+    "en": "1-8 Act 1-8 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 59 / Boss Kobold Guard",
+    "en": "Hell / Lv 59 / Boss Kobold Guard"
+  },
+  "icon": "/generated/assets/game/map/Act1_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 1"
+  ],
+  "heroImage": "/generated/assets/game/map/Act1_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3108"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "1"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "8"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "59"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "25"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Kobold Guard"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          10051,
+          {
+            "ja": "スケルトン",
+            "en": "Skeleton"
+          },
+          1000,
+          10,
+          11
+        ],
+        [
+          10052,
+          {
+            "ja": "スケルトンアーチャー",
+            "en": "Skeleton Archer"
+          },
+          700,
+          10,
+          13
+        ],
+        [
+          10053,
+          {
+            "ja": "スケルトンウォリアー",
+            "en": "Skeleton Warrior"
+          },
+          500,
+          30,
+          30
+        ],
+        [
+          10031,
+          {
+            "ja": "コウモリ",
+            "en": "Bat"
+          },
+          1000,
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910501,
+          10
+        ],
+        [
+          "Boss box",
+          920501,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "59"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "5705"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "133070"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "14280"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "275000"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

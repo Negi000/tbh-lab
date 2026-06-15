@@ -1,0 +1,166 @@
+{
+  "categoryId": "pets",
+  "entityId": "1002",
+  "slug": "1002-watcher",
+  "title": {
+    "ja": "監視者",
+    "en": "Watcher"
+  },
+  "subtitle": {
+    "ja": "KillMonster 巨大バエ",
+    "en": "KillMonster Giant Fly"
+  },
+  "icon": "/generated/assets/game/ui/BG_Pet.png",
+  "rarity": "RARE",
+  "tags": [
+    "KillMonster"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1002"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "KillMonster"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "5000"
+    },
+    {
+      "labelKey": "field.name",
+      "value": {
+        "ja": "巨大バエ",
+        "en": "Giant Fly"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PetStatKey",
+          "1002"
+        ],
+        [
+          "STATTYPE",
+          "IncreaseGoldAmount"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "150"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.farmStages",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.spawn"
+        },
+        {
+          "labelKey": "field.stageLevel"
+        },
+        {
+          "labelKey": "field.wave"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "40%",
+          17,
+          15
+        ],
+        [
+          {
+            "ja": "ナイトメア 2-5",
+            "en": "Nightmare 2-5"
+          },
+          "40%",
+          43,
+          22
+        ],
+        [
+          {
+            "ja": "トーメント 2-5",
+            "en": "Torment 2-5"
+          },
+          "40%",
+          88,
+          30
+        ],
+        [
+          {
+            "ja": "ヘル 2-5",
+            "en": "Hell 2-5"
+          },
+          "38.46%",
+          65,
+          26
+        ],
+        [
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "23.81%",
+          16,
+          15
+        ],
+        [
+          {
+            "ja": "ナイトメア 2-4",
+            "en": "Nightmare 2-4"
+          },
+          "22.73%",
+          42,
+          22
+        ],
+        [
+          {
+            "ja": "ヘル 2-4",
+            "en": "Hell 2-4"
+          },
+          "18.87%",
+          64,
+          26
+        ],
+        [
+          {
+            "ja": "トーメント 2-4",
+            "en": "Torment 2-4"
+          },
+          "18.18%",
+          87,
+          30
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PetInfoData"
+  }
+}

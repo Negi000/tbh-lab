@@ -1,0 +1,131 @@
+{
+  "categoryId": "skills",
+  "entityId": "60601",
+  "slug": "60601-bloodlust",
+  "title": {
+    "ja": "ブラッドラスト",
+    "en": "Bloodlust"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_60601.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "60601"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "900"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "60601"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_60601"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_60601"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "25"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Buff"
+        ],
+        [
+          "BuffGroupKey",
+          "60601"
+        ],
+        [
+          "Param1",
+          "800"
+        ],
+        [
+          "Range",
+          "900"
+        ],
+        [
+          "Order",
+          "900"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "SkillLevelKey",
+          "60601"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_60601"
+        ],
+        [
+          "AttributeKey",
+          "601043"
+        ],
+        [
+          "SoundKey",
+          "1303011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

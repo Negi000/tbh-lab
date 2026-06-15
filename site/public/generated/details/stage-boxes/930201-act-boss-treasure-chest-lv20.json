@@ -1,0 +1,605 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "930201",
+  "slug": "930201-act-boss-treasure-chest-lv20",
+  "title": {
+    "ja": "アクトボス宝箱 Lv20",
+    "en": "Act Boss Treasure Chest Lv20"
+  },
+  "subtitle": {
+    "en": "Legendary / Stage Box",
+    "ja": "レジェンダリー / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_930011.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_930011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "930201"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "커먼 주무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 주무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 주무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 보조무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 보조무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 20레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 20레벨",
+          892343,
+          10.252501
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 20레벨",
+          223303,
+          2.565621
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 20레벨",
+          223303,
+          2.565621
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 20레벨",
+          133808,
+          1.537376
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 20레벨",
+          33886,
+          0.38933
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 20레벨",
+          33886,
+          0.38933
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 20레벨",
+          1071333,
+          12.308991
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 20레벨",
+          210178,
+          2.414823
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 20레벨",
+          52432,
+          0.602413
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 20레벨",
+          52432,
+          0.602413
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 20레벨",
+          31504,
+          0.361963
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 20레벨",
+          7876,
+          0.090491
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 20레벨",
+          7876,
+          0.090491
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 20레벨",
+          252259,
+          2.898309
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 20레벨",
+          64221,
+          0.737862
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 20레벨",
+          16021,
+          0.184072
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 20레벨",
+          16021,
+          0.184072
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 20레벨",
+          9626,
+          0.110597
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 20레벨",
+          2407,
+          0.027655
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 20레벨",
+          2407,
+          0.027655
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 20레벨",
+          77079,
+          0.885593
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 20레벨",
+          8863,
+          0.101831
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 20레벨",
+          2207,
+          0.025357
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 주무기 20레벨",
+          2207,
+          0.025357
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 보조무기 20레벨",
+          1328,
+          0.015258
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 보조무기 20레벨",
+          327,
+          0.003757
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 아르카나 보조무기 20레벨",
+          327,
+          0.003757
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 방어구 20레벨",
+          10623,
+          0.122052
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 주무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 주무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 주무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 보조무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 커먼 보조무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 커먼 보조무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "커먼 방어구 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 주무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 주무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 주무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 보조무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 언커먼 보조무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 언커먼 보조무기 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 방어구 15레벨",
+          0,
+          0.0
+        ],
+        [
+          "ITEMGROUP",
+          "레어 주무기 15레벨",
+          446893,
+          5.13454
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 주무기 15레벨",
+          111287,
+          1.278623
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 주무기 15레벨",
+          111287,
+          1.278623
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 15레벨",
+          67486,
+          0.775375
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레어 보조무기 15레벨",
+          16656,
+          0.191368
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레어 보조무기 15레벨",
+          16656,
+          0.191368
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 15레벨",
+          535666,
+          6.15449
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 15레벨",
+          104938,
+          1.205676
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 주무기 15레벨",
+          26290,
+          0.302057
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 주무기 15레벨",
+          26290,
+          0.302057
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 15레벨",
+          15604,
+          0.179281
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 레전더리 보조무기 15레벨",
+          4012,
+          0.046096
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 레전더리 보조무기 15레벨",
+          4012,
+          0.046096
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 15레벨",
+          126129,
+          1.449149
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 15레벨",
+          32064,
+          0.368397
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 주무기 15레벨",
+          8033,
+          0.092294
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 주무기 15레벨",
+          8033,
+          0.092294
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 15레벨",
+          4768,
+          0.054782
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 임모탈 보조무기 15레벨",
+          1226,
+          0.014086
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer 임모탈 보조무기 15레벨",
+          1226,
+          0.014086
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 15레벨",
+          38540,
+          0.442802
+        ],
+        [
+          "ITEMGROUP",
+          "아르카나 주무기 15레벨",
+          5319,
+          0.061112
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 15레벨",
+          1324,
+          0.015212
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter 아르카나 주무기 15레벨",
+          1324,
+          0.015212
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "930201"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "NameKey",
+          "Act Boss Box Lv20"
+        ],
+        [
+          "DropKey",
+          "9302011"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_930011"
+        ],
+        [
+          "display_name",
+          "Act Boss Box Lv20"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Act Boss Treasure Chest Lv20\", \"ja\": \"アクトボス宝箱 Lv20\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

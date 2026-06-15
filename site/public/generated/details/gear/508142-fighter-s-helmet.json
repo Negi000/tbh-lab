@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "508142",
+  "slug": "508142-fighter-s-helmet",
+  "title": {
+    "ja": "ファイターズヘルメット",
+    "en": "Fighter's Helmet"
+  },
+  "subtitle": {
+    "en": "Divine / Helmet / HELMET / Lv. 65",
+    "ja": "ディバイン / ヘルメット / HELMET / Lv. 65"
+  },
+  "icon": "/generated/assets/game/item/Equipment/HELMET_500014.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "HELMET",
+    "HELMET"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/HELMET_500014.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "508142"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "HELMET"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "65"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2569"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "218"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "61"
+        },
+        {
+          "labelKey": "Armor / ADDITIVE",
+          "value": "2139"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "508142"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "HELMET"
+        ],
+        [
+          "GEARTYPE",
+          "HELMET"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_500014"
+        ],
+        [
+          "GearKey",
+          "508142"
+        ],
+        [
+          "Level",
+          "65"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "HELMET_500014"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fighter's Helmet"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fighter's Helmet\", \"ja\": \"ファイターズヘルメット\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

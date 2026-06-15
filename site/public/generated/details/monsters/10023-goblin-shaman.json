@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "10023",
+  "slug": "10023-goblin-shaman",
+  "title": {
+    "ja": "ゴブリンシャーマン",
+    "en": "Goblin Shaman"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "10023"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "18"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "30"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "10023"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_10023"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "20"
+        ],
+        [
+          "RewardExp",
+          "20"
+        ],
+        [
+          "SkillKey",
+          "100231"
+        ],
+        [
+          "AttackDamage",
+          "18"
+        ],
+        [
+          "AttackSpeed",
+          "70"
+        ],
+        [
+          "MaxLife",
+          "30"
+        ],
+        [
+          "MovementSpeed",
+          "135"
+        ],
+        [
+          "DeadSoundKey",
+          "21002311"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_10023"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/10023/Monster_10023"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

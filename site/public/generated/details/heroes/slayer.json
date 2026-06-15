@@ -1,0 +1,617 @@
+{
+  "categoryId": "heroes",
+  "entityId": "601",
+  "slug": "slayer",
+  "title": {
+    "ja": "スレイヤー",
+    "en": "Slayer"
+  },
+  "subtitle": {
+    "ja": "怒りで近接破壊ダメージを\n与える野生のバーサーカー。",
+    "en": "A wild berserker\ndealing devastating melee\ndamage through rage."
+  },
+  "icon": "/generated/assets/game/hero/Inventory_ChaIllust_Slayer_Mid_Anim_0.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "Slayer",
+    "AXE",
+    "HATCHET"
+  ],
+  "heroImage": "/generated/assets/game/hero/Arrage_ChaAnim_Slayer_Large_0.png",
+  "overview": [
+    {
+      "labelKey": "field.class",
+      "value": "Slayer"
+    },
+    {
+      "labelKey": "field.mainWeapon",
+      "value": "AXE"
+    },
+    {
+      "labelKey": "field.subWeapon",
+      "value": "HATCHET"
+    },
+    {
+      "labelKey": "field.unlock",
+      "value": "DLC"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.baseStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.maxHp",
+          "value": "115"
+        },
+        {
+          "labelKey": "field.armor",
+          "value": "40"
+        },
+        {
+          "labelKey": "field.attackDamage",
+          "value": "2"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "70"
+        },
+        {
+          "labelKey": "field.castSpeed",
+          "value": "100%"
+        },
+        {
+          "labelKey": "field.criticalChance",
+          "value": "2.5%"
+        },
+        {
+          "labelKey": "field.criticalDamage",
+          "value": "180%"
+        },
+        {
+          "labelKey": "field.cooldown",
+          "value": "0%"
+        },
+        {
+          "labelKey": "field.moveSpeed",
+          "value": "850"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.skills",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "filter.slot"
+        },
+        {
+          "labelKey": "field.activation"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.range"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.type"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "スレイヤー 通常攻撃",
+            "en": "Slayer Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          {
+            "ja": "通常攻撃",
+            "en": "Base Attack"
+          },
+          0,
+          120,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "近接",
+            "en": "Melee"
+          }
+        ],
+        [
+          {
+            "ja": "スラムジャンプ",
+            "en": "Slam Jump"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          6,
+          850,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "en": "Melee, Area",
+            "ja": "近接, 範囲"
+          }
+        ],
+        [
+          {
+            "ja": "クラッシングブロー",
+            "en": "Crushing Blow"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "通常攻撃回数",
+            "en": "Base Attack Count"
+          },
+          5,
+          200,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "近接",
+            "en": "Melee"
+          }
+        ],
+        [
+          {
+            "ja": "コマンダーズクライ",
+            "en": "Commander’s Cry"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          12,
+          150,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "範囲",
+            "en": "Area"
+          }
+        ],
+        [
+          {
+            "ja": "グラウンドスラム",
+            "en": "Ground Slam"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "通常攻撃回数",
+            "en": "Base Attack Count"
+          },
+          9,
+          300,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "en": "Melee, Area",
+            "ja": "近接, 範囲"
+          }
+        ],
+        [
+          {
+            "ja": "アックススピン",
+            "en": "Axe Spin"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          18,
+          150,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "en": "Melee, Area",
+            "ja": "近接, 範囲"
+          }
+        ],
+        [
+          {
+            "ja": "ブラッドラスト",
+            "en": "Bloodlust"
+          },
+          {
+            "ja": "スキル",
+            "en": "Skill"
+          },
+          {
+            "ja": "クールダウン",
+            "en": "Cooldown"
+          },
+          25,
+          900,
+          {
+            "ja": "物理",
+            "en": "Physical"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          }
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.attributes",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.max"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          601001,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601002,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601003,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601004,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601011,
+          null,
+          8,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601012,
+          null,
+          3,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601013,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601021,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601022,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601023,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601031,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601032,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601033,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601041,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601042,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601043,
+          null,
+          5,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601051,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601052,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601061,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601062,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601071,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ],
+        [
+          601072,
+          null,
+          10,
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          null
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "HeroInfoData"
+  }
+}

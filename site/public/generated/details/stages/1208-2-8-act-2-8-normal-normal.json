@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "1208",
+  "slug": "1208-2-8-act-2-8-normal-normal",
+  "title": {
+    "ja": "2-8 ノーマル",
+    "en": "2-8 Act 2-8 NORMAL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ノーマル / Lv 20 / Boss Kobold Guard",
+    "en": "Normal / Lv 20 / Boss Kobold Guard"
+  },
+  "icon": "/generated/assets/game/map/Act2_Bg.png",
+  "rarity": null,
+  "tags": [
+    "NORMAL",
+    "NORMAL",
+    "Act 2"
+  ],
+  "heroImage": "/generated/assets/game/map/Act2_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1208"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "NORMAL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "2"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "8"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "16"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Kobold Guard"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          20061,
+          {
+            "ja": "コボルト衛兵",
+            "en": "Kobold Guard"
+          },
+          1000,
+          17,
+          17
+        ],
+        [
+          20062,
+          {
+            "ja": "コボルト投石兵",
+            "en": "Kobold Slinger"
+          },
+          1000,
+          14,
+          14
+        ],
+        [
+          20091,
+          {
+            "ja": "火の精霊",
+            "en": "Fire Elemental"
+          },
+          200,
+          23,
+          23
+        ],
+        [
+          20101,
+          {
+            "ja": "20101",
+            "en": "20101"
+          },
+          1000,
+          null,
+          null
+        ],
+        [
+          20071,
+          {
+            "ja": "ホムンクルス",
+            "en": "Homunculus"
+          },
+          1000,
+          13,
+          13
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910201,
+          20
+        ],
+        [
+          "Boss box",
+          920201,
+          200
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "20"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "710"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "8270"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "1410"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "17600"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

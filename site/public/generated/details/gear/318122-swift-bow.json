@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "318122",
+  "slug": "318122-swift-bow",
+  "title": {
+    "ja": "スウィフトボウ",
+    "en": "Swift Bow"
+  },
+  "subtitle": {
+    "en": "Divine / Bow / Main Weapon / Lv. 55",
+    "ja": "ディバイン / 弓 / メイン武器 / Lv. 55"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOW_310012.png",
+  "rarity": "DIVINE",
+  "tags": [
+    "DIVINE",
+    "GEAR",
+    "BOW",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOW_310012.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "318122"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "DIVINE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "55"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "929"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "235"
+        },
+        {
+          "labelKey": "AttackSpeed / MULTIPLICATIVE",
+          "value": "233"
+        },
+        {
+          "labelKey": "CriticalDamage / FLAT",
+          "value": "981"
+        },
+        {
+          "labelKey": "AttackDamage / ADDITIVE",
+          "value": "1221"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "318122"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "DIVINE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "BOW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_310012"
+        ],
+        [
+          "GearKey",
+          "318122"
+        ],
+        [
+          "Level",
+          "55"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOW_310012"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Swift Bow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Swift Bow\", \"ja\": \"スウィフトボウ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"\", \"ja\": \"\"}"
+        ],
+        [
+          "mono_fields",
+          "{}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

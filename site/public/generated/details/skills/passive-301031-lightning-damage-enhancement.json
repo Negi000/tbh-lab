@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-301031",
+  "slug": "passive-301031-lightning-damage-enhancement",
+  "title": {
+    "ja": "雷ダメージ強化",
+    "en": "Lightning Damage Enhancement"
+  },
+  "subtitle": {
+    "ja": "雷ダメージ +100%",
+    "en": "Lightning Damage +100%"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "LightningDamagePercent",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "301031"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "雷ダメージ強化",
+        "en": "Lightning Damage Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "301031"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_LightningDamagePercent"
+        ],
+        [
+          "STATTYPE",
+          "LightningDamagePercent"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

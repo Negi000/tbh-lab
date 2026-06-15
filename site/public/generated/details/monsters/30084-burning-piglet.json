@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30084",
+  "slug": "30084-burning-piglet",
+  "title": {
+    "ja": "燃える子豚",
+    "en": "Burning Piglet"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30084"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "110"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30084"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30084"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "30"
+        ],
+        [
+          "RewardExp",
+          "30"
+        ],
+        [
+          "SkillKey",
+          "300841"
+        ],
+        [
+          "AttackDamage",
+          "30"
+        ],
+        [
+          "AttackSpeed",
+          "80"
+        ],
+        [
+          "MaxLife",
+          "110"
+        ],
+        [
+          "MovementSpeed",
+          "470"
+        ],
+        [
+          "DeadSoundKey",
+          "23008411"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30084"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30084/Monster_30084"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

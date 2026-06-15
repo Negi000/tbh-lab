@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-401011",
+  "slug": "passive-401011-armor-enhancement",
+  "title": {
+    "ja": "防御力強化",
+    "en": "Armor Enhancement"
+  },
+  "subtitle": {
+    "ja": "防御力 +10",
+    "en": "Armor +10"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "Armor",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401011"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "防御力",
+        "en": "Armor"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "401011"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_Armor"
+        ],
+        [
+          "STATTYPE",
+          "Armor"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "10"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

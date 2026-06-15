@@ -1,0 +1,171 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "920022",
+  "slug": "920022-stage-treasure-chest-6",
+  "title": {
+    "ja": "ステージ宝箱 6",
+    "en": "Stage Treasure Chest 6"
+  },
+  "subtitle": {
+    "en": "Rare / Stage Box",
+    "ja": "レア / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_920011.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_920011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "920022"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "DropKey 9200220",
+            "en": "DropKey 9200220"
+          },
+          "100%",
+          {
+            "ja": "-",
+            "en": "-"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEM",
+          "Soulstone - Normal",
+          10000,
+          100.0
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "920022"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "NameKey",
+          "Stage Boss Box 6"
+        ],
+        [
+          "DropKey",
+          "9200221"
+        ],
+        [
+          "DropCooldown",
+          "300"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_920011"
+        ],
+        [
+          "display_name",
+          "Stage Boss Box 1"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Stage Treasure Chest 6\", \"ja\": \"ステージ宝箱 6\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"스테이지 1-9 첫 완료시 획득 상자 (소울스톤 획득)\", \"ja\": \"스테이지 1-9 첫 완료시 획득 상자 (소울스톤 획득)\"}"
+        ],
+        [
+          "mono_name",
+          "Stage Boss Box 1"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Stage Boss Box 1\", \"description\": \"스테이지 1-9 첫 완료시 획득 상자 (소울스톤 획득)\", \"display_type\": \"Chest\", \"type\": \"chest\", \"rarity\": \"rare\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

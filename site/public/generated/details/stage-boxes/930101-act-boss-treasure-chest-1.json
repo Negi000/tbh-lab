@@ -1,0 +1,357 @@
+{
+  "categoryId": "stage-boxes",
+  "entityId": "930101",
+  "slug": "930101-act-boss-treasure-chest-1",
+  "title": {
+    "ja": "アクトボス宝箱 1",
+    "en": "Act Boss Treasure Chest 1"
+  },
+  "subtitle": {
+    "en": "Legendary / Stage Box",
+    "ja": "レジェンダリー / ステージボックス"
+  },
+  "icon": "/generated/assets/game/item/Item_930011.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "STAGEBOX"
+  ],
+  "heroImage": "/generated/assets/game/item/Item_930011.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "930101"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "STAGEBOX"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "-"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.dropTable",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.percent"
+        }
+      ],
+      "rows": [
+        [
+          "ITEMGROUP",
+          "레어 주무기 10레벨",
+          17413254,
+          18.608347
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE MAIN_WEAPON",
+          4353314,
+          4.652087
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE MAIN_WEAPON",
+          4353314,
+          4.652087
+        ],
+        [
+          "ITEMGROUP",
+          "레어 보조무기 10레벨",
+          2089590,
+          2.233001
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter RARE SUB_WEAPON",
+          522398,
+          0.558251
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer RARE SUB_WEAPON",
+          522398,
+          0.558251
+        ],
+        [
+          "ITEMGROUP",
+          "레어 방어구 10레벨",
+          17413254,
+          18.608347
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 주무기 10레벨",
+          3747156,
+          4.004328
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY MAIN_WEAPON",
+          936789,
+          1.001082
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY MAIN_WEAPON",
+          936789,
+          1.001082
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 보조무기 10레벨",
+          449659,
+          0.48052
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter LEGENDARY SUB_WEAPON",
+          112415,
+          0.12013
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer LEGENDARY SUB_WEAPON",
+          112415,
+          0.12013
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 방어구 10레벨",
+          3747156,
+          4.004328
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 주무기 10레벨",
+          881696,
+          0.942208
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL MAIN_WEAPON",
+          220408,
+          0.235535
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL MAIN_WEAPON",
+          220408,
+          0.235535
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 보조무기 10레벨",
+          105803,
+          0.113064
+        ],
+        [
+          "ITEMGROUP",
+          "Hunter IMMORTAL SUB_WEAPON",
+          26451,
+          0.028266
+        ],
+        [
+          "ITEMGROUP",
+          "Slayer IMMORTAL SUB_WEAPON",
+          26451,
+          0.028266
+        ],
+        [
+          "ITEMGROUP",
+          "임모탈 방어구 10레벨",
+          881696,
+          0.942208
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Decoration",
+          3566355,
+          3.811118
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop UNCOMMON Crafting",
+          3655534,
+          3.906418
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 아뮬렛 10레벨",
+          3259922,
+          3.483655
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 이어링 10레벨",
+          3259922,
+          3.483655
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 반지 10레벨",
+          3259922,
+          3.483655
+        ],
+        [
+          "ITEMGROUP",
+          "언커먼 팔찌 10레벨",
+          3259922,
+          3.483655
+        ],
+        [
+          "ITEMGROUP",
+          "레어 아뮬렛 10레벨",
+          1504580,
+          1.607841
+        ],
+        [
+          "ITEMGROUP",
+          "레어 이어링 10레벨",
+          1504580,
+          1.607841
+        ],
+        [
+          "ITEMGROUP",
+          "레어 반지 10레벨",
+          1504580,
+          1.607841
+        ],
+        [
+          "ITEMGROUP",
+          "레어 팔찌 10레벨",
+          1504580,
+          1.607841
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 아뮬렛 10레벨",
+          250762,
+          0.267972
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 이어링 10레벨",
+          250762,
+          0.267972
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 반지 10레벨",
+          250762,
+          0.267972
+        ],
+        [
+          "ITEMGROUP",
+          "레전더리 팔찌 10레벨",
+          250764,
+          0.267974
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Crafting",
+          3655534,
+          3.906418
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop COMMON Decoration",
+          3120560,
+          3.334728
+        ],
+        [
+          "ITEMGROUP",
+          "Box Drop RARE Decoration",
+          445794,
+          0.476389
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "930101"
+        ],
+        [
+          "ITEMTYPE",
+          "STAGEBOX"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "NameKey",
+          "Act Boss Box 1"
+        ],
+        [
+          "DropKey",
+          "9301011"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "Item_930011"
+        ],
+        [
+          "display_name",
+          "Act Boss Box 10"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Act Boss Treasure Chest 1\", \"ja\": \"アクトボス宝箱 1\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"1-10 (난이도 : TORMENT)\", \"ja\": \"1-10 (난이도 : TORMENT)\"}"
+        ],
+        [
+          "mono_name",
+          "Act Boss Box 10"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Act Boss Box 10\", \"description\": \"1-10 (난이도 : TORMENT)\", \"display_type\": \"Chest\", \"type\": \"chest\", \"rarity\": \"legendary\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

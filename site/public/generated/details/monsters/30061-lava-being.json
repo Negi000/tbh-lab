@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30061",
+  "slug": "30061-lava-being",
+  "title": {
+    "ja": "溶岩の化身",
+    "en": "Lava Being"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30061"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "75"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30061"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30061"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "20"
+        ],
+        [
+          "RewardExp",
+          "20"
+        ],
+        [
+          "SkillKey",
+          "300611"
+        ],
+        [
+          "AttackDamage",
+          "20"
+        ],
+        [
+          "AttackSpeed",
+          "75"
+        ],
+        [
+          "MaxLife",
+          "75"
+        ],
+        [
+          "MovementSpeed",
+          "330"
+        ],
+        [
+          "DeadSoundKey",
+          "23006111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30061"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30061/Monster_30061"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

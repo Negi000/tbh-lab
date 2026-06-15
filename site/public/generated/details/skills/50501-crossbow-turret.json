@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "50501",
+  "slug": "50501-crossbow-turret",
+  "title": {
+    "ja": "クロスボウタレット",
+    "en": "Crossbow Turret"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_50501.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Physical"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "50501"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1100"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "12"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "50501"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_50501"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_50501"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "12"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1100"
+        ],
+        [
+          "Order",
+          "800"
+        ],
+        [
+          "DamageType",
+          "Physical"
+        ],
+        [
+          "DamageDeliveryType",
+          "Projectile, Summon"
+        ],
+        [
+          "SkillLevelKey",
+          "50501"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_50501"
+        ],
+        [
+          "AttributeKey",
+          "501033"
+        ],
+        [
+          "SoundKey",
+          "1505011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "categoryId": "database",
+  "entityId": "GearTypeScaleInfoData",
+  "slug": "gear-type-scale-info-data",
+  "title": {
+    "ja": "GearTypeScaleInfoData",
+    "en": "GearTypeScaleInfoData"
+  },
+  "subtitle": {
+    "ja": "20 records",
+    "en": "20 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "GearTypeScaleInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "GearTypeScaleInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "20"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "GearType",
+          "SWORD"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "GearType",
+          "AXE"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "GearType",
+          "BOW"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "GearType",
+          "CROSSBOW"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "GearType",
+          "SCEPTER"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "GearType",
+          "STAFF"
+        ],
+        [
+          "AlchemyGoldScale",
+          "1000"
+        ],
+        [
+          "CubeExpScale",
+          "1000"
+        ],
+        [
+          "GearType",
+          "ARROW"
+        ],
+        [
+          "AlchemyGoldScale",
+          "2000"
+        ],
+        [
+          "CubeExpScale",
+          "2000"
+        ],
+        [
+          "GearType",
+          "ORB"
+        ],
+        [
+          "AlchemyGoldScale",
+          "2000"
+        ],
+        [
+          "CubeExpScale",
+          "2000"
+        ],
+        [
+          "GearType",
+          "SHIELD"
+        ],
+        [
+          "AlchemyGoldScale",
+          "2000"
+        ],
+        [
+          "CubeExpScale",
+          "2000"
+        ],
+        [
+          "GearType",
+          "BOLT"
+        ],
+        [
+          "AlchemyGoldScale",
+          "2000"
+        ],
+        [
+          "CubeExpScale",
+          "2000"
+        ],
+        [
+          "GearType",
+          "HATCHET"
+        ],
+        [
+          "AlchemyGoldScale",
+          "2000"
+        ],
+        [
+          "CubeExpScale",
+          "2000"
+        ],
+        [
+          "GearType",
+          "TOME"
+        ],
+        [
+          "AlchemyGoldScale",
+          "2000"
+        ],
+        [
+          "CubeExpScale",
+          "2000"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "GearTypeScaleInfoData"
+  }
+}

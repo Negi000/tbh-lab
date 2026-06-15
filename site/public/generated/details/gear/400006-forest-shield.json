@@ -1,0 +1,149 @@
+{
+  "categoryId": "gear",
+  "entityId": "400006",
+  "slug": "400006-forest-shield",
+  "title": {
+    "ja": "フォレストシールド",
+    "en": "Forest Shield"
+  },
+  "subtitle": {
+    "en": "Common / Shield / Sub Weapon / Lv. 25",
+    "ja": "コモン / シールド / サブ武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400006.png",
+  "rarity": "COMMON",
+  "tags": [
+    "COMMON",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "400006"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "COMMON"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "68"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "400006"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "COMMON"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400006"
+        ],
+        [
+          "GearKey",
+          "400006"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Forest Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Forest Shield\", \"ja\": \"フォレストシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Elden Shield Description\", \"ja\": \"Elden Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Elden Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Elden Shield\", \"description\": \"Elden Shield Description\", \"display_type\": \"Shield - Lv. 40\", \"type\": \"gear\", \"rarity\": \"common\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"40\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

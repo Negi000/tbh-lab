@@ -1,0 +1,153 @@
+{
+  "categoryId": "gear",
+  "entityId": "412062",
+  "slug": "412062-brutal-arrow",
+  "title": {
+    "ja": "ブルータルアロー",
+    "en": "Brutal Arrow"
+  },
+  "subtitle": {
+    "en": "Rare / Arrow / Sub Weapon / Lv. 25",
+    "ja": "レア / 矢 / サブ武器 / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARROW_410006.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "ARROW",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARROW_410006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "412062"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARROW"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "200"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "412062"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "ARROW"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_410006"
+        ],
+        [
+          "GearKey",
+          "412062"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARROW_410006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Brutal Arrow"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Brutal Arrow\", \"ja\": \"ブルータルアロー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Leather Arrow Description\", \"ja\": \"Leather Arrow Description\"}"
+        ],
+        [
+          "mono_name",
+          "Leather Arrow"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Leather Arrow\", \"description\": \"Leather Arrow Description\", \"display_type\": \"Arrow - Lv. 50\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"subweapon\", \"class\": \"ranger\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

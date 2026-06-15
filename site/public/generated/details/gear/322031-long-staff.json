@@ -1,0 +1,361 @@
+{
+  "categoryId": "gear",
+  "entityId": "322031",
+  "slug": "322031-long-staff",
+  "title": {
+    "ja": "ロングスタッフ",
+    "en": "Long Staff"
+  },
+  "subtitle": {
+    "en": "Rare / Staff / Main Weapon / Lv. 10",
+    "ja": "レア / スタッフ / メイン武器 / Lv. 10"
+  },
+  "icon": "/generated/assets/game/item/Equipment/STAFF_320003.png",
+  "rarity": "RARE",
+  "tags": [
+    "RARE",
+    "GEAR",
+    "STAFF",
+    "MAIN_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/STAFF_320003.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "322031"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "RARE"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "STAFF"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "10"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.sources",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.chest"
+        },
+        {
+          "labelKey": "field.percent"
+        },
+        {
+          "labelKey": "field.stage"
+        },
+        {
+          "labelKey": "field.drop"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "アクトボス宝箱 1",
+            "en": "Act Boss Treasure Chest 1"
+          },
+          "18.61%",
+          {
+            "ja": "ノーマル 1-10",
+            "en": "Normal 1-10"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 7",
+            "en": "Stage Treasure Chest 7"
+          },
+          "6.927%",
+          {
+            "ja": "ノーマル 1-8",
+            "en": "Normal 1-8"
+          },
+          "40%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 7",
+            "en": "Stage Treasure Chest 7"
+          },
+          "6.927%",
+          {
+            "ja": "ノーマル 1-9",
+            "en": "Normal 1-9"
+          },
+          "40%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 7",
+            "en": "Stage Treasure Chest 7"
+          },
+          "6.927%",
+          {
+            "ja": "ノーマル 2-1",
+            "en": "Normal 2-1"
+          },
+          "40%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 7",
+            "en": "Stage Treasure Chest 7"
+          },
+          "6.927%",
+          {
+            "ja": "ノーマル 2-2",
+            "en": "Normal 2-2"
+          },
+          "40%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "1.755%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "1.755%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "1.755%",
+          {
+            "ja": "ノーマル 2-5",
+            "en": "Normal 2-5"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "1.755%",
+          {
+            "ja": "ノーマル 2-6",
+            "en": "Normal 2-6"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "ステージ宝箱 Lv15",
+            "en": "Stage Treasure Chest Lv15"
+          },
+          "1.755%",
+          {
+            "ja": "ノーマル 2-7",
+            "en": "Normal 2-7"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "0.8423%",
+          {
+            "ja": "ノーマル 1-8",
+            "en": "Normal 1-8"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "0.8423%",
+          {
+            "ja": "ノーマル 1-9",
+            "en": "Normal 1-9"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "0.8423%",
+          {
+            "ja": "ノーマル 2-1",
+            "en": "Normal 2-1"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 3",
+            "en": "Common Treasure Chest 3"
+          },
+          "0.8423%",
+          {
+            "ja": "ノーマル 2-2",
+            "en": "Normal 2-2"
+          },
+          "30%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "0.378%",
+          {
+            "ja": "ノーマル 2-3",
+            "en": "Normal 2-3"
+          },
+          "25%"
+        ],
+        [
+          {
+            "ja": "一般宝箱 Lv15",
+            "en": "Common Treasure Chest Lv15"
+          },
+          "0.378%",
+          {
+            "ja": "ノーマル 2-4",
+            "en": "Normal 2-4"
+          },
+          "25%"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "12"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "15"
+        },
+        {
+          "labelKey": "AttackDamage / FLAT",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "322031"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "RARE"
+        ],
+        [
+          "PARTS",
+          "MAIN_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "STAFF"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_320003"
+        ],
+        [
+          "GearKey",
+          "322031"
+        ],
+        [
+          "Level",
+          "10"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "STAFF_320003"
+        ],
+        [
+          "display_name",
+          "Long Staff"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Long Staff\", \"ja\": \"ロングスタッフ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Witch Staff Description\", \"ja\": \"Witch Staff Description\"}"
+        ],
+        [
+          "mono_name",
+          "Witch Staff"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Witch Staff\", \"description\": \"Witch Staff Description\", \"display_type\": \"Staff - Lv. 10\", \"type\": \"gear\", \"rarity\": \"rare\", \"parts\": \"mainweapon\", \"class\": \"sorcerer\", \"level\": \"10\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

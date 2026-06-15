@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-401012",
+  "slug": "passive-401012-damage-absorption-enhancement",
+  "title": {
+    "ja": "ダメージ吸収強化",
+    "en": "Damage Absorption Enhancement"
+  },
+  "subtitle": {
+    "ja": "ダメージ吸収 +5",
+    "en": "Damage Absorption +5"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "DamageAbsorption",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401012"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "ダメージ吸収",
+        "en": "Damage Absorption"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "5"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "401012"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_DamageAbsorption"
+        ],
+        [
+          "STATTYPE",
+          "DamageAbsorption"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "5"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

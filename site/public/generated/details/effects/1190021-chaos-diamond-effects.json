@@ -1,0 +1,138 @@
+{
+  "categoryId": "effects",
+  "entityId": "1190021",
+  "slug": "1190021-chaos-diamond-effects",
+  "title": {
+    "ja": "混沌のダイヤモンド 効果",
+    "en": "Chaos Diamond Effects"
+  },
+  "subtitle": {
+    "en": "All Elemental Resistance Enhancement, Critical Damage, Projectile Count Enhancement",
+    "ja": "全属性耐性強化, クリティカルダメージ, 投射物数強化"
+  },
+  "icon": "/generated/assets/game/item/Materials/Item_119002.png",
+  "rarity": "COSMIC",
+  "tags": [
+    "AllElementalResistance",
+    "CriticalDamage",
+    "ProjectileCount",
+    "ACCESSORY",
+    "ARMOR",
+    "WEAPON"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "1190021"
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": {
+        "en": "Accessory, Armor, Weapon",
+        "ja": "アクセサリー, アーマー, 武器"
+      }
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "en": "All Elemental Resistance Enhancement, Critical Damage, Projectile Count Enhancement",
+        "ja": "全属性耐性強化, クリティカルダメージ, 投射物数強化"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.gearType"
+        },
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.value"
+        },
+        {
+          "labelKey": "field.tier"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "武器",
+            "en": "Weapon"
+          },
+          102201,
+          {
+            "ja": "投射物数強化",
+            "en": "Projectile Count Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "投射物数 +1~1",
+            "en": "Projectile Count +1~1"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アーマー",
+            "en": "Armor"
+          },
+          105201,
+          {
+            "ja": "全属性耐性強化",
+            "en": "All Elemental Resistance Enhancement"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "全属性耐性 +25~30%",
+            "en": "All Elemental Resistance +25~30%"
+          },
+          "T10 - T10"
+        ],
+        [
+          {
+            "ja": "アクセサリー",
+            "en": "Accessory"
+          },
+          100401,
+          {
+            "ja": "クリティカルダメージ",
+            "en": "Critical Damage"
+          },
+          {
+            "ja": "固定値",
+            "en": "Flat"
+          },
+          {
+            "ja": "クリティカルダメージ +1000~1500%",
+            "en": "Critical Damage +1000~1500%"
+          },
+          "T10 - T10"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StatModGroupInfoData"
+  }
+}

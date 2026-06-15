@@ -1,0 +1,172 @@
+{
+  "categoryId": "runes",
+  "entityId": "126",
+  "slug": "126-rune-of-conquest",
+  "title": {
+    "ja": "征服のルーン",
+    "en": "Rune of Conquest"
+  },
+  "subtitle": {
+    "ja": "最大 Lv 5",
+    "en": "Max Lv 5"
+  },
+  "icon": "/generated/assets/game/runes/DropChanceStageBossChest.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "DropChanceStageBossChest",
+    "DropChanceStageBossChestPercent",
+    "max:5"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "126"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "-"
+    },
+    {
+      "labelKey": "field.effect",
+      "value": {
+        "ja": "ステージボス宝箱のドロップ率",
+        "en": "Stage Boss Chest Drop Chance"
+      }
+    },
+    {
+      "labelKey": "field.count",
+      "value": "3"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.connections",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "rune.requiredLevel"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "探索のルーン",
+            "en": "Rune of Exploration"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "金庫のルーン",
+            "en": "Rune of the Vault"
+          },
+          "-"
+        ],
+        [
+          {
+            "ja": "接続",
+            "en": "Connected"
+          },
+          {
+            "ja": "無限のルーン",
+            "en": "Rune of Infinity"
+          },
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.level"
+        },
+        {
+          "labelKey": "field.effect"
+        },
+        {
+          "labelKey": "field.cost"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          {
+            "ja": "ステージボス宝箱ドロップ率係数100%増加",
+            "en": "100% Increased Stage Boss Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "146690000 ゴールド",
+            "en": "146690000 Gold"
+          }
+        ],
+        [
+          2,
+          {
+            "ja": "ステージボス宝箱ドロップ率係数100%増加",
+            "en": "100% Increased Stage Boss Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "182060000 ゴールド",
+            "en": "182060000 Gold"
+          }
+        ],
+        [
+          3,
+          {
+            "ja": "ステージボス宝箱ドロップ率係数100%増加",
+            "en": "100% Increased Stage Boss Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "195200000 ゴールド",
+            "en": "195200000 Gold"
+          }
+        ],
+        [
+          4,
+          {
+            "ja": "ステージボス宝箱ドロップ率係数100%増加",
+            "en": "100% Increased Stage Boss Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "207750000 ゴールド",
+            "en": "207750000 Gold"
+          }
+        ],
+        [
+          5,
+          {
+            "ja": "ステージボス宝箱ドロップ率係数100%増加",
+            "en": "100% Increased Stage Boss Chest Drop Chance Multiplier"
+          },
+          {
+            "ja": "221400000 ゴールド",
+            "en": "221400000 Gold"
+          }
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "RuneInfoData"
+  }
+}

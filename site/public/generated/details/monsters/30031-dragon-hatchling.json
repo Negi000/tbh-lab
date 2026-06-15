@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30031",
+  "slug": "30031-dragon-hatchling",
+  "title": {
+    "ja": "ドラゴンハッチリング",
+    "en": "Dragon Hatchling"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30031"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "30"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "175"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30031"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30031"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "10"
+        ],
+        [
+          "RewardExp",
+          "5"
+        ],
+        [
+          "SkillKey",
+          "300311"
+        ],
+        [
+          "AttackDamage",
+          "30"
+        ],
+        [
+          "AttackSpeed",
+          "70"
+        ],
+        [
+          "MaxLife",
+          "175"
+        ],
+        [
+          "MovementSpeed",
+          "195"
+        ],
+        [
+          "DeadSoundKey",
+          "23003111"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30031"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30031/Monster_30031"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

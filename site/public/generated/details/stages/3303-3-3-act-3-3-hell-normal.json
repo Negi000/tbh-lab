@@ -1,0 +1,195 @@
+{
+  "categoryId": "stages",
+  "entityId": "3303",
+  "slug": "3303-3-3-act-3-3-hell-normal",
+  "title": {
+    "ja": "3-3 ヘル",
+    "en": "3-3 Act 3-3 HELL NORMAL"
+  },
+  "subtitle": {
+    "ja": "ヘル / Lv 72 / Boss Cobra",
+    "en": "Hell / Lv 72 / Boss Cobra"
+  },
+  "icon": "/generated/assets/game/map/Act3_Bg.png",
+  "rarity": null,
+  "tags": [
+    "HELL",
+    "NORMAL",
+    "Act 3"
+  ],
+  "heroImage": "/generated/assets/game/map/Act3_Bg.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "3303"
+    },
+    {
+      "labelKey": "filter.difficulty",
+      "value": "HELL"
+    },
+    {
+      "labelKey": "field.act",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stage",
+      "value": "3"
+    },
+    {
+      "labelKey": "field.stageLevel",
+      "value": "72"
+    },
+    {
+      "labelKey": "field.wave",
+      "value": "27"
+    },
+    {
+      "labelKey": "field.boss",
+      "value": "Cobra"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.monsters",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.id"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.weight"
+        },
+        {
+          "labelKey": "field.gold"
+        },
+        {
+          "labelKey": "field.exp"
+        }
+      ],
+      "rows": [
+        [
+          30041,
+          {
+            "ja": "雪山戦士",
+            "en": "Snow Mountain Warrior"
+          },
+          1000,
+          10,
+          5
+        ],
+        [
+          30042,
+          {
+            "ja": "雪山の弓兵",
+            "en": "Snow Mountain Archer"
+          },
+          700,
+          10,
+          5
+        ],
+        [
+          30044,
+          {
+            "ja": "雪山の魔法使い",
+            "en": "Snow Mountain Mage"
+          },
+          500,
+          10,
+          5
+        ],
+        [
+          30021,
+          {
+            "ja": "イエティ",
+            "en": "Yeti"
+          },
+          200,
+          20,
+          20
+        ],
+        [
+          30013,
+          {
+            "ja": "堕天使の兜",
+            "en": "Fallen Angel's Helm"
+          },
+          1000,
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.rewards",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.type"
+        },
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Monster box",
+          910651,
+          10
+        ],
+        [
+          "Boss box",
+          920651,
+          100
+        ],
+        [
+          "First clear",
+          null,
+          "-"
+        ]
+      ]
+    },
+    {
+      "titleKey": "detail.section.scaling",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "StageLevel",
+          "72"
+        ],
+        [
+          "MonsterAtkDmgMultiplier",
+          "14545"
+        ],
+        [
+          "MonsterHpMultiplier",
+          "208470"
+        ],
+        [
+          "MonsterGoldMultiplier",
+          "21950"
+        ],
+        [
+          "MonsterExpMultiplier",
+          "428400"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "StageInfoData"
+  }
+}

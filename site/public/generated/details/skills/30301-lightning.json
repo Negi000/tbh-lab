@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "30301",
+  "slug": "30301-lightning",
+  "title": {
+    "ja": "ライトニング",
+    "en": "Lightning"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_30301.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Lightning"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30301"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1050"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "30301"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_30301"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_30301"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "15"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1050"
+        ],
+        [
+          "Order",
+          "600"
+        ],
+        [
+          "DamageType",
+          "Lightning"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "30301"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_30301"
+        ],
+        [
+          "AttributeKey",
+          "301013"
+        ],
+        [
+          "SoundKey",
+          "1303011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

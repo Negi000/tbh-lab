@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "513061",
+  "slug": "513061-fate-armor",
+  "title": {
+    "ja": "フェイトアーマー",
+    "en": "Fate Armor"
+  },
+  "subtitle": {
+    "en": "Legendary / Armor / ARMOR / Lv. 25",
+    "ja": "レジェンダリー / アーマー / ARMOR / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/ARMOR_510006.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "LEGENDARY",
+    "GEAR",
+    "ARMOR",
+    "ARMOR"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/ARMOR_510006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "513061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "LEGENDARY"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "ARMOR"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "200"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "HpRegenPerSec / FLAT",
+          "value": "363"
+        },
+        {
+          "labelKey": "MaxHp / ADDITIVE",
+          "value": "93"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "513061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "LEGENDARY"
+        ],
+        [
+          "PARTS",
+          "ARMOR"
+        ],
+        [
+          "GEARTYPE",
+          "ARMOR"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_510006"
+        ],
+        [
+          "GearKey",
+          "513061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "ARMOR_510006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Armor"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Armor\", \"ja\": \"フェイトアーマー\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Armor Description\", \"ja\": \"Heavy Armor Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Armor"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Armor\", \"description\": \"Heavy Armor Description\", \"display_type\": \"Armor - Lv. 50\", \"type\": \"gear\", \"rarity\": \"legendary\", \"parts\": \"armor\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

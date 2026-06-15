@@ -1,0 +1,115 @@
+{
+  "categoryId": "monsters",
+  "entityId": "30042",
+  "slug": "30042-snow-mountain-archer",
+  "title": {
+    "ja": "雪山の弓兵",
+    "en": "Snow Mountain Archer"
+  },
+  "subtitle": {
+    "ja": "MONSTER",
+    "en": "MONSTER"
+  },
+  "icon": "/generated/assets/game/runes/AdditionalGoldNormalMonster.png",
+  "rarity": "COMMON",
+  "tags": [
+    "MONSTER"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30042"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "MONSTER"
+    },
+    {
+      "labelKey": "field.gold",
+      "value": "10"
+    },
+    {
+      "labelKey": "field.exp",
+      "value": "5"
+    },
+    {
+      "labelKey": "field.attackDamage",
+      "value": "20"
+    },
+    {
+      "labelKey": "field.maxHp",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "MonsterKey",
+          "30042"
+        ],
+        [
+          "MonsterNameStringKey",
+          "MonsterName_30042"
+        ],
+        [
+          "MONSTERTYPE",
+          "MONSTER"
+        ],
+        [
+          "RewardGold",
+          "10"
+        ],
+        [
+          "RewardExp",
+          "5"
+        ],
+        [
+          "SkillKey",
+          "300421"
+        ],
+        [
+          "AttackDamage",
+          "20"
+        ],
+        [
+          "AttackSpeed",
+          "130"
+        ],
+        [
+          "MaxLife",
+          "70"
+        ],
+        [
+          "MovementSpeed",
+          "260"
+        ],
+        [
+          "DeadSoundKey",
+          "23004211"
+        ],
+        [
+          "PrefabPath",
+          "Prefab/Monster/Monster_30042"
+        ],
+        [
+          "AnimatorPath",
+          "Animation/Monster/30042/Monster_30042"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "MonsterInfoData"
+  }
+}

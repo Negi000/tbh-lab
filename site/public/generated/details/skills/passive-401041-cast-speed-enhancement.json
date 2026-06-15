@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-401041",
+  "slug": "passive-401041-cast-speed-enhancement",
+  "title": {
+    "ja": "詠唱速度強化",
+    "en": "Cast Speed Enhancement"
+  },
+  "subtitle": {
+    "ja": "詠唱速度70%増加",
+    "en": "70% Increased Cast Speed"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "CastSpeed",
+    "ADDITIVE"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "401041"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "詠唱速度",
+        "en": "Cast Speed"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "70"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "401041"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_CastSpeed"
+        ],
+        [
+          "STATTYPE",
+          "CastSpeed"
+        ],
+        [
+          "MODTYPE",
+          "ADDITIVE"
+        ],
+        [
+          "Value",
+          "70"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}

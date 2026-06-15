@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "404042",
+  "slug": "404042-heater-shield",
+  "title": {
+    "ja": "ヒータシールド",
+    "en": "Heater Shield"
+  },
+  "subtitle": {
+    "en": "Immortal / Shield / Sub Weapon / Lv. 15",
+    "ja": "イモータル / シールド / サブ武器 / Lv. 15"
+  },
+  "icon": "/generated/assets/game/item/Equipment/SHIELD_400004.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "SHIELD",
+    "SUB_WEAPON"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/SHIELD_400004.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "404042"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "SHIELD"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "15"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "111"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "CooldownReduction / FLAT",
+          "value": "25"
+        },
+        {
+          "labelKey": "AllElementalResistance / FLAT",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "404042"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "SUB_WEAPON"
+        ],
+        [
+          "GEARTYPE",
+          "SHIELD"
+        ],
+        [
+          "GearGroup",
+          "WEAPON"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_400004"
+        ],
+        [
+          "GearKey",
+          "404042"
+        ],
+        [
+          "Level",
+          "15"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "SHIELD_400004"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Heater Shield"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Heater Shield\", \"ja\": \"ヒータシールド\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Shield Description\", \"ja\": \"Heavy Shield Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Shield"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Shield\", \"description\": \"Heavy Shield Description\", \"display_type\": \"Shield - Lv. 20\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"subweapon\", \"class\": \"paladin\", \"level\": \"20\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

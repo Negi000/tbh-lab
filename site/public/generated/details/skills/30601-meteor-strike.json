@@ -1,0 +1,127 @@
+{
+  "categoryId": "skills",
+  "entityId": "30601",
+  "slug": "30601-meteor-strike",
+  "title": {
+    "ja": "メテオストライク",
+    "en": "Meteor Strike"
+  },
+  "subtitle": {
+    "en": "Skill / Cooldown",
+    "ja": "スキル / クールダウン"
+  },
+  "icon": "/generated/assets/game/skills/Skill_30601.png",
+  "rarity": "LEGENDARY",
+  "tags": [
+    "SKILL",
+    "COOLDOWN",
+    "Fire"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "30601"
+    },
+    {
+      "labelKey": "filter.slot",
+      "value": {
+        "ja": "スキル",
+        "en": "Skill"
+      }
+    },
+    {
+      "labelKey": "field.activation",
+      "value": {
+        "ja": "クールダウン",
+        "en": "Cooldown"
+      }
+    },
+    {
+      "labelKey": "field.range",
+      "value": "1100"
+    },
+    {
+      "labelKey": "field.value",
+      "value": "18"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "SkillKey",
+          "30601"
+        ],
+        [
+          "SkillNameKey",
+          "SkillName_30601"
+        ],
+        [
+          "SkillDescriptionKey",
+          "SkillDescription_30601"
+        ],
+        [
+          "ACTIVATIONTYPE",
+          "COOLDOWN"
+        ],
+        [
+          "ActivationValue",
+          "18"
+        ],
+        [
+          "SLOTTYPE",
+          "SKILL"
+        ],
+        [
+          "SkillBuffType",
+          "Normal"
+        ],
+        [
+          "Range",
+          "1100"
+        ],
+        [
+          "Order",
+          "900"
+        ],
+        [
+          "DamageType",
+          "Fire"
+        ],
+        [
+          "DamageDeliveryType",
+          "AOE"
+        ],
+        [
+          "SkillLevelKey",
+          "30601"
+        ],
+        [
+          "AnimClipPath1",
+          "Animation/Skill/Skill_30601"
+        ],
+        [
+          "AttributeKey",
+          "301043"
+        ],
+        [
+          "SoundKey",
+          "1306011"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "SkillInfoData"
+  }
+}

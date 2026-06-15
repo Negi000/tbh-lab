@@ -1,0 +1,144 @@
+{
+  "categoryId": "database",
+  "entityId": "InventoryInfoData",
+  "slug": "inventory-info-data",
+  "title": {
+    "ja": "InventoryInfoData",
+    "en": "InventoryInfoData"
+  },
+  "subtitle": {
+    "ja": "260 records",
+    "en": "260 records"
+  },
+  "icon": "/generated/assets/game/ui/MenuButton_Stat_Active.png",
+  "rarity": "COMMON",
+  "tags": [
+    "InfoData",
+    "InventoryInfoData"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.table",
+      "value": "InventoryInfoData"
+    },
+    {
+      "labelKey": "field.records",
+      "value": "260"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.entries",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "Index",
+          "0"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "1"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "2"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "3"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "4"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "5"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "6"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "7"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "8"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "9"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "10"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ],
+        [
+          "Index",
+          "11"
+        ],
+        [
+          "CostForUnlock",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "InventoryInfoData"
+  }
+}

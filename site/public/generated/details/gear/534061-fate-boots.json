@@ -1,0 +1,157 @@
+{
+  "categoryId": "gear",
+  "entityId": "534061",
+  "slug": "534061-fate-boots",
+  "title": {
+    "ja": "フェイトブーツ",
+    "en": "Fate Boots"
+  },
+  "subtitle": {
+    "en": "Immortal / Boots / BOOTS / Lv. 25",
+    "ja": "イモータル / ブーツ / BOOTS / Lv. 25"
+  },
+  "icon": "/generated/assets/game/item/Equipment/BOOTS_530006.png",
+  "rarity": "IMMORTAL",
+  "tags": [
+    "IMMORTAL",
+    "GEAR",
+    "BOOTS",
+    "BOOTS"
+  ],
+  "heroImage": "/generated/assets/game/item/Equipment/BOOTS_530006.png",
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "534061"
+    },
+    {
+      "labelKey": "field.grade",
+      "value": "IMMORTAL"
+    },
+    {
+      "labelKey": "field.type",
+      "value": "GEAR"
+    },
+    {
+      "labelKey": "field.gearType",
+      "value": "BOOTS"
+    },
+    {
+      "labelKey": "field.level",
+      "value": "25"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.gearStats",
+      "type": "stats",
+      "items": [
+        {
+          "labelKey": "field.attackDamage",
+          "value": "85"
+        },
+        {
+          "labelKey": "field.attackSpeed",
+          "value": "-"
+        },
+        {
+          "labelKey": "MovementSpeed / FLAT",
+          "value": "47"
+        },
+        {
+          "labelKey": "MaxHp / FLAT",
+          "value": "41"
+        }
+      ]
+    },
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "ItemKey",
+          "534061"
+        ],
+        [
+          "ITEMTYPE",
+          "GEAR"
+        ],
+        [
+          "GRADE",
+          "IMMORTAL"
+        ],
+        [
+          "PARTS",
+          "BOOTS"
+        ],
+        [
+          "GEARTYPE",
+          "BOOTS"
+        ],
+        [
+          "GearGroup",
+          "ARMOR"
+        ],
+        [
+          "ItemSynthesisType",
+          "Gear"
+        ],
+        [
+          "NameKey",
+          "ItemName_530006"
+        ],
+        [
+          "GearKey",
+          "534061"
+        ],
+        [
+          "Level",
+          "25"
+        ],
+        [
+          "IsSteamItem",
+          "true"
+        ],
+        [
+          "IconPath",
+          "BOOTS_530006"
+        ],
+        [
+          "IsDeletedInServer",
+          "true"
+        ],
+        [
+          "display_name",
+          "Fate Boots"
+        ],
+        [
+          "localized_name",
+          "{\"en\": \"Fate Boots\", \"ja\": \"フェイトブーツ\"}"
+        ],
+        [
+          "localized_description",
+          "{\"en\": \"Heavy Boots Description\", \"ja\": \"Heavy Boots Description\"}"
+        ],
+        [
+          "mono_name",
+          "Heavy Boots"
+        ],
+        [
+          "mono_fields",
+          "{\"name\": \"Heavy Boots\", \"description\": \"Heavy Boots Description\", \"display_type\": \"Boots - Lv. 50\", \"type\": \"gear\", \"rarity\": \"immortal\", \"parts\": \"boots\", \"level\": \"50\"}"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "ItemInfoData"
+  }
+}

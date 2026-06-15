@@ -1,0 +1,76 @@
+{
+  "categoryId": "skills",
+  "entityId": "passive-101012",
+  "slug": "passive-101012-hp-regen-enhancement",
+  "title": {
+    "ja": "毎秒HP回復強化",
+    "en": "HP Regen Enhancement"
+  },
+  "subtitle": {
+    "ja": "毎秒HP回復 +100",
+    "en": "HP Regen Per Sec +100"
+  },
+  "icon": "/generated/assets/game/runes/AllHeroAttackDamage.png",
+  "rarity": "ARCANA",
+  "tags": [
+    "Passive",
+    "HpRegenPerSec",
+    "FLAT"
+  ],
+  "overview": [
+    {
+      "labelKey": "field.id",
+      "value": "101012"
+    },
+    {
+      "labelKey": "field.type",
+      "value": {
+        "ja": "毎秒HP回復強化",
+        "en": "HP Regen Enhancement"
+      }
+    },
+    {
+      "labelKey": "field.value",
+      "value": "100"
+    }
+  ],
+  "sections": [
+    {
+      "titleKey": "detail.section.raw",
+      "type": "table",
+      "columns": [
+        {
+          "labelKey": "field.name"
+        },
+        {
+          "labelKey": "field.value"
+        }
+      ],
+      "rows": [
+        [
+          "PassiveSkillKey",
+          "101012"
+        ],
+        [
+          "SkillNameKey",
+          "Passive_HpRegenPerSec"
+        ],
+        [
+          "STATTYPE",
+          "HpRegenPerSec"
+        ],
+        [
+          "MODTYPE",
+          "FLAT"
+        ],
+        [
+          "Value",
+          "100"
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "table": "PassiveSkillInfoData"
+  }
+}
