@@ -2,8 +2,11 @@
 
 TBH Lab is arranged so the public repository can build without private local game resources.
 
+Repository: https://github.com/Negi000/tbh-lab
+
 ## Pages Settings
 
+- GitHub repository: `Negi000/tbh-lab`
 - Project root: `site`
 - Build command: `npm ci && npm run build`
 - Build output directory: `dist`
@@ -14,6 +17,14 @@ The generated wiki payload in `site/public/generated` must be committed. Cloudfl
 ## Wrangler
 
 `site/wrangler.toml` declares the Pages project and output directory. Cloudflare Pages uses `pages_build_output_dir` for Pages projects.
+
+Before local deployment commands can work, authenticate Wrangler:
+
+```powershell
+cd E:\THB_Lab\site
+npx wrangler login
+npx wrangler whoami
+```
 
 ## What Not To Commit
 

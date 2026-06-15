@@ -2,6 +2,8 @@
 
 TBH Lab is a generated TaskbarHero wiki and tooling lab. It turns local text, dump, Mono, and image resources into static JSON, then ships a Vite/React frontend with Cloudflare Pages Functions for market data.
 
+GitHub: https://github.com/Negi000/tbh-lab
+
 ## Repository Layout
 
 - `site/` - Cloudflare Pages project root. Build this directory on Cloudflare.
@@ -29,7 +31,7 @@ python build.py
 
 ## Cloudflare Pages
 
-Use `site` as the Cloudflare Pages project root.
+Connect the GitHub repository `Negi000/tbh-lab` and use `site` as the Cloudflare Pages project root.
 
 - Build command: `npm ci && npm run build`
 - Build output directory: `dist`
@@ -37,6 +39,14 @@ Use `site` as the Cloudflare Pages project root.
 - Wrangler config: `site/wrangler.toml`
 
 Do not run `python build.py` in Cloudflare. The public build uses the committed `site/public/generated` payload.
+
+Local Wrangler deployment requires Cloudflare authentication first:
+
+```powershell
+cd E:\THB_Lab\site
+npx wrangler login
+npx wrangler whoami
+```
 
 ## Privacy
 
