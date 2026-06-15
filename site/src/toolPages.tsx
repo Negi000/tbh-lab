@@ -210,6 +210,19 @@ type PlannerRow = {
   haystack: string;
 };
 
+type DropLabKind = "chest" | "item";
+
+type DropLabRow = {
+  key: string;
+  id: string;
+  kind: DropLabKind;
+  ref: RefData | null | undefined;
+  title: string;
+  subtitle: string;
+  score: number;
+  haystack: string;
+};
+
 const STEAM_APP_ID = "3678970";
 const MARKET_PAGE_SIZE = 48;
 const VALUATION_LIMIT = 120;
@@ -464,6 +477,228 @@ function plannerKindLabel(kind: PlannerKind, t: Translator) {
     stage: "farm.stages",
   };
   return t(keys[kind]);
+}
+
+function dropLabKindLabel(kind: DropLabKind, t: Translator) {
+  return kind === "chest" ? t("drop.chests") : t("drop.items");
+}
+
+export function DropLabWorkbench({
+  t,
+  text,
+  locale,
+  saveSnapshot,
+}: {
+  t: Translator;
+  text: TextResolver;
+  locale: LocaleCode;
+  saveSnapshot: SaveSnapshot | null;
+}) {
+  const relationshipsState = useJson<RelationshipPayload>("/generated/relationships.json");
+  const [query, setQuery] = useState("");
+  const [mode, setMode] = useState<DropLabKind | "all">("all");
+  const [selectedKey, setSelectedKey] = useState<string | null>(null);
+  const owned = useMemo(() => ownedLookup(saveSnapshot), [saveSnapshot]);
+  const rows = useMemo(() => {
+    const relationships = relationshipsState.data;
+    if (!relationships) {
+      return [];
+    }
+    const makeHaystack = (parts: Array<string | number | null | undefined>) => parts.filter(Boolean).join(" ").toLowerCase();
+    const chestRows: DropLabRow[] = Object.entries(relationships.chests).map(([id, relation]) => {
+      const title = text(relation.chest?.title) || id;
+      const samples = relation.contents.flatMap((content) => [text(content.groupName), ...content.items.slice(0, 4).map((item) => text(item.title))]);
+      return {
+        key: `chest:${id}`,
+        id,
+        kind: "chest",
+        ref: relation.chest,
+        title,
+        subtitle: `${t("drop.dropKey")} ${relation.dropKey ?? "-"} / ${t("drop.contents")} ${numberText(relation.contents.length, locale)}`,
+        score: relation.contents.length + relation.sources.length,
+        haystack: makeHaystack([id, title, relation.dropKey, relation.chest?.slug, relation.chest?.rarity, ...samples]),
+      };
+    });
+    const itemRows: DropLabRow[] = Object.entries(relationships.items)
+      .filter(([, relation]) => relation.sources.length > 0)
+      .map(([id, relation]) => {
+        const title = text(relation.item?.title) || id;
+        const chests = relation.sources.slice(0, 6).map((source) => text(source.chest?.title));
+        const stages = relation.sources.slice(0, 6).map((source) => text(source.stage?.title));
+        return {
+          key: `item:${id}`,
+          id,
+          kind: "item",
+          ref: relation.item,
+          title,
+          subtitle: `${t("drop.bestSources")} ${numberText(relation.sources.length, locale)}`,
+          score: relation.sources.length,
+          haystack: makeHaystack([id, title, relation.item?.slug, relation.item?.rarity, ...chests, ...stages]),
+        };
+      });
+    return [...chestRows, ...itemRows].sort((a, b) => b.score - a.score || a.title.localeCompare(b.title));
+  }, [locale, relationshipsState.data, t, text]);
+  const visibleRows = useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    return rows
+      .filter((row) => (mode === "all" || row.kind === mode) && (!needle || row.haystack.includes(needle)))
+      .slice(0, 100);
+  }, [mode, query, rows]);
+  const selected = visibleRows.find((row) => row.key === selectedKey) ?? visibleRows[0] ?? null;
+  const relationships = relationshipsState.data;
+
+  function submitSearch(event: FormEvent) {
+    event.preventDefault();
+    setSelectedKey(null);
+  }
+
+  return (
+    <div className="page-stack tool-page drop-page">
+      <section className="page-header panel drop-hero-panel">
+        <div>
+          <a className="back-link" href="#/">{t("nav.back")}</a>
+          <h1>{t("drop.title")}</h1>
+          <p>{t("drop.subtitle")}</p>
+          <small>{t("drop.rateHint")}</small>
+        </div>
+        <form className="drop-search-card" onSubmit={submitSearch}>
+          <label>
+            <span>{t("drop.search")}</span>
+            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t("drop.placeholder")} />
+          </label>
+          <label>
+            <span>{t("drop.viewMode")}</span>
+            <select value={mode} onChange={(event) => setMode(event.target.value as DropLabKind | "all")}>
+              <option value="all">{t("drop.all")}</option>
+              <option value="chest">{t("drop.chests")}</option>
+              <option value="item">{t("drop.items")}</option>
+            </select>
+          </label>
+        </form>
+      </section>
+
+      {relationshipsState.loading ? (
+        <section className="panel state-panel compact-state"><h2>{t("state.loading")}</h2></section>
+      ) : relationshipsState.error || !relationships ? (
+        <section className="panel state-panel compact-state"><h2>{t("state.error")}</h2><p>{relationshipsState.error}</p></section>
+      ) : (
+        <section className="panel section drop-workbench">
+          <div className="section-heading">
+            <h2>{t("drop.results")} {numberText(visibleRows.length, locale)}</h2>
+            <span>{t("farm.routeCount")} {numberText(rows.length, locale)}</span>
+          </div>
+          <div className="drop-layout">
+            <div className="drop-result-list">
+              {visibleRows.length ? (
+                visibleRows.map((row) => (
+                  <button type="button" className={selected?.key === row.key ? "active" : ""} key={row.key} onClick={() => setSelectedKey(row.key)}>
+                    <span>{dropLabKindLabel(row.kind, t)}</span>
+                    <strong>{row.title}</strong>
+                    <small>{row.subtitle}</small>
+                  </button>
+                ))
+              ) : (
+                <p className="empty">{t("state.empty")}</p>
+              )}
+            </div>
+            <aside className="drop-detail-panel">
+              {selected ? (
+                <>
+                  <div className="drop-selected-card">
+                    <small>{dropLabKindLabel(selected.kind, t)} / #{selected.id}</small>
+                    <h2>{selected.title}</h2>
+                    <p>{selected.subtitle}</p>
+                    <div className="market-card-actions inline">
+                      {selected.ref?.href ? <a href={selected.ref.href}>{selected.kind === "chest" ? t("drop.openChest") : t("drop.openItem")}</a> : null}
+                    </div>
+                  </div>
+                  <DropLabDetails selected={selected} relationships={relationships} owned={owned} t={t} text={text} locale={locale} />
+                </>
+              ) : (
+                <p className="empty">{t("drop.noSelection")}</p>
+              )}
+            </aside>
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}
+
+function DropLabDetails({
+  selected,
+  relationships,
+  owned,
+  t,
+  text,
+  locale,
+}: {
+  selected: DropLabRow;
+  relationships: RelationshipPayload;
+  owned: Map<string, SaveOwnedItem>;
+  t: Translator;
+  text: TextResolver;
+  locale: LocaleCode;
+}) {
+  if (selected.kind === "chest") {
+    const relation = relationships.chests[selected.id];
+    return (
+      <>
+        <RelationList title={t("drop.sources")}>
+          {(relation?.sources ?? []).slice(0, 16).map((source, index) => (
+            <li key={index}>
+              {refLink(source.stage, text)}
+              <span>{percentText(source.stageRate, locale)}</span>
+              <strong>{t(source.sourceType ?? "")}</strong>
+            </li>
+          ))}
+        </RelationList>
+        <div className="drop-content-list">
+          <h3>{t("drop.contents")}</h3>
+          {(relation?.contents ?? []).slice(0, 20).map((content) => (
+            <article className="drop-content-row" key={`${content.rewardType}:${content.rewardKey}`}>
+              <div>
+                <strong>{text(content.groupName) || content.rewardKey}</strong>
+                <span>{content.rewardType} / {percentText(content.weightPercent, locale)}</span>
+              </div>
+              <div className="drop-item-chip-list">
+                {content.items.slice(0, 10).map((item) => (
+                  <a href={item.href ?? "#"} className={`mini-rarity-chip rarity-${item.rarity ?? "NONE"}`} key={`${content.rewardKey}:${item.entityId}`}>
+                    {text(item.title) || item.entityId}
+                  </a>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+      </>
+    );
+  }
+  const relation = relationships.items[selected.id];
+  const ownedRow = owned.get(selected.id);
+  return (
+    <>
+      {ownedRow ? (
+        <RelationCard
+          title={t("drop.ownedHint")}
+          rows={[
+            [t("save.owned"), numberText(ownedRow.quantity, locale)],
+            [t("save.stash"), numberText(ownedRow.sources.stash, locale)],
+            [t("save.equipped"), numberText(ownedRow.sources.equipped, locale)],
+          ]}
+        />
+      ) : null}
+      <RelationList title={t("drop.bestSources")}>
+        {(relation?.sources ?? []).slice(0, 20).map((source, index) => (
+          <li key={index}>
+            {refLink(source.chest, text)}
+            <span>{percentText(source.chance, locale)}</span>
+            {refLink(source.stage, text)}
+          </li>
+        ))}
+      </RelationList>
+    </>
+  );
 }
 
 export function FarmPlannerWorkbench({

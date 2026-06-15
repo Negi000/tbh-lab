@@ -2467,6 +2467,195 @@ a {
   font-weight: 900;
 }
 
+.drop-hero-panel {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 78% 22%, rgba(240, 207, 128, 0.16), transparent 34%),
+    linear-gradient(135deg, rgba(103, 197, 191, 0.12), transparent 48%),
+    linear-gradient(180deg, rgba(18, 22, 24, 0.97), rgba(7, 9, 10, 0.98));
+}
+
+.drop-hero-panel small {
+  display: block;
+  margin-top: 10px;
+  color: #b7aa93;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.drop-search-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(150px, 0.45fr);
+  gap: 10px;
+  align-self: center;
+  width: min(520px, 100%);
+  padding: 12px;
+  border: 1px solid rgba(91, 131, 124, 0.62);
+  border-radius: 6px;
+  background: rgba(4, 8, 10, 0.76);
+}
+
+.drop-search-card label {
+  display: grid;
+  gap: 6px;
+  color: #cdbd9a;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.drop-search-card input,
+.drop-search-card select {
+  min-width: 0;
+  border-color: rgba(86, 104, 112, 0.82);
+  background: #080d10;
+}
+
+.drop-workbench {
+  border-color: rgba(116, 88, 48, 0.72);
+}
+
+.drop-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.42fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+.drop-result-list {
+  display: grid;
+  gap: 8px;
+  max-height: 680px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.drop-result-list button {
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  border: 1px solid rgba(69, 83, 94, 0.72);
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(8, 12, 14, 0.94), rgba(3, 6, 8, 0.96));
+  color: #ded2bf;
+  text-align: left;
+}
+
+.drop-result-list button.active,
+.drop-result-list button:hover {
+  border-color: rgba(240, 207, 128, 0.72);
+  background: linear-gradient(180deg, rgba(37, 24, 12, 0.94), rgba(7, 7, 7, 0.96));
+}
+
+.drop-result-list span,
+.drop-result-list small {
+  color: #92a2a6;
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.drop-result-list strong {
+  overflow: hidden;
+  color: #ffedb7;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.drop-detail-panel {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.drop-selected-card {
+  padding: 13px;
+  border: 1px solid rgba(103, 197, 191, 0.36);
+  border-radius: 6px;
+  background:
+    linear-gradient(135deg, rgba(103, 197, 191, 0.08), transparent 48%),
+    linear-gradient(180deg, rgba(9, 15, 16, 0.95), rgba(3, 6, 7, 0.97));
+}
+
+.drop-selected-card small {
+  color: #8ee8df;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.drop-selected-card h2 {
+  margin: 4px 0;
+  color: #fff0bf;
+  font-size: 24px;
+}
+
+.drop-selected-card p {
+  margin: 0 0 10px;
+  color: #b7aa93;
+}
+
+.drop-content-list {
+  display: grid;
+  gap: 8px;
+}
+
+.drop-content-list h3 {
+  margin: 4px 0;
+  color: #ffd77b;
+  font-size: 15px;
+}
+
+.drop-content-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.38fr) minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  padding: 10px;
+  border: 1px solid rgba(77, 96, 110, 0.62);
+  border-radius: 4px;
+  background: rgba(4, 7, 9, 0.72);
+}
+
+.drop-content-row > div:first-child {
+  display: grid;
+  gap: 4px;
+}
+
+.drop-content-row strong {
+  color: #ffe8aa;
+  font-size: 13px;
+}
+
+.drop-content-row span {
+  color: #96a4a7;
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.drop-item-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.mini-rarity-chip {
+  max-width: 180px;
+  overflow: hidden;
+  padding: 5px 7px;
+  border: 1px solid rgba(240, 207, 128, 0.36);
+  border-radius: 3px;
+  background: rgba(8, 10, 12, 0.88);
+  color: #dfd2ba;
+  font-size: 11px;
+  font-weight: 850;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mini-rarity-chip:hover {
+  border-color: rgba(103, 197, 191, 0.76);
+  color: #fff0bf;
+}
+
 .farm-hero-panel {
   overflow: hidden;
   background:
@@ -3246,7 +3435,12 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .farm-result-list {
+  .drop-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .farm-result-list,
+  .drop-result-list {
     max-height: 360px;
   }
 
@@ -3346,6 +3540,7 @@ a {
   .save-goal-grid,
   .save-mini-metrics,
   .progress-mini-metrics,
+  .drop-search-card,
   .farm-search-card {
     grid-template-columns: 1fr;
   }
@@ -3355,7 +3550,8 @@ a {
   }
 
   .progress-stage-row,
-  .progress-pet-row {
+  .progress-pet-row,
+  .drop-content-row {
     grid-template-columns: 1fr;
   }
 

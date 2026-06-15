@@ -52,7 +52,7 @@ export const onRequest = async (context: {
   const upstreamResponse = await fetch(upstream.toString(), {
     headers: {
       accept: "application/json",
-      "user-agent": "TaskBarHeroWiki/1.0 (+https://taskbarhero.wiki)",
+      "user-agent": "TBHLab/1.0 (+https://tbh.negi-lab.com)",
     },
     cf: { cacheTtl: ttl, cacheEverything: true },
   });

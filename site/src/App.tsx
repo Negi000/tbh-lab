@@ -7,7 +7,7 @@ import {
   type CSSProperties,
   type FormEvent,
 } from "react";
-import { DetailAugmentPanel, FarmPlannerWorkbench, LabStatusWorkbench, MarketWorkbench, ProgressPlannerWorkbench, SaveWorkbench } from "./toolPages";
+import { DetailAugmentPanel, DropLabWorkbench, FarmPlannerWorkbench, LabStatusWorkbench, MarketWorkbench, ProgressPlannerWorkbench, SaveWorkbench } from "./toolPages";
 import type { SaveSnapshot } from "./saveReader";
 
 type LocaleCode = "ja" | "en";
@@ -443,6 +443,8 @@ function App() {
             <MarketWorkbench key={route.query ?? ""} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} initialQuery={route.query} />
           ) : route.kind === "category" && activeCategory?.id === "farm-planner" ? (
             <FarmPlannerWorkbench t={t} text={text} locale={locale} />
+          ) : route.kind === "category" && activeCategory?.id === "drop-lab" ? (
+            <DropLabWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
           ) : route.kind === "category" && activeCategory?.id === "progress-planner" ? (
             <ProgressPlannerWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} onSaveLoaded={setSaveSnapshot} />
           ) : route.kind === "category" && activeCategory?.id === "lab-status" ? (

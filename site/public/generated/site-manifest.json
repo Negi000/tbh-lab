@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T12:22:29.277659+00:00",
+  "generatedAt": "2026-06-15T12:38:05.524475+00:00",
   "locales": [
     "ja",
     "en"
@@ -35,6 +35,16 @@
       "layout": "cards",
       "navGroup": "nav.tools",
       "listPath": "/generated/categories/farm-planner.json"
+    },
+    {
+      "id": "drop-lab",
+      "titleKey": "category.drop-lab.title",
+      "descriptionKey": "category.drop-lab.description",
+      "count": 6309,
+      "icon": "/generated/assets/game/item/Item_910011.png",
+      "layout": "cards",
+      "navGroup": "nav.tools",
+      "listPath": "/generated/categories/drop-lab.json"
     },
     {
       "id": "progress-planner",
@@ -184,6 +194,7 @@
         "my-save",
         "market",
         "farm-planner",
+        "drop-lab",
         "progress-planner",
         "lab-status"
       ]
