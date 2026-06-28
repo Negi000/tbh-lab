@@ -45,7 +45,7 @@ type ChestContent = {
   items: RefData[];
 };
 
-type MarketManifestItem = {
+export type MarketManifestItem = {
   itemKey: number;
   categoryId: string | null;
   slug: string | null;
@@ -61,7 +61,7 @@ type MarketManifestItem = {
   queries: string[];
 };
 
-type MarketManifest = {
+export type MarketManifest = {
   api: { sameOriginBase: string; upstreamReference: string; steamAppId?: string };
   items: MarketManifestItem[];
 };
@@ -567,14 +567,14 @@ export function DropLabWorkbench({
 
   return (
     <div className="page-stack tool-page drop-page">
-      <section className="page-header panel drop-hero-panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href="#/">{t("nav.back")}</a>
-          <h1>{t("drop.title")}</h1>
-          <p>{t("drop.subtitle")}</p>
-          <small>{t("drop.rateHint")}</small>
+          <a className="back-link" href="#/" style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>DROP ANALYSIS LAB</h1>
+          <p>{t("drop.subtitle")} // {t("drop.rateHint")}</p>
         </div>
-        <form className="drop-search-card" onSubmit={submitSearch}>
+      </div>
+      <form className="drop-search-card" onSubmit={submitSearch}>
           <label>
             <span>{t("drop.search")}</span>
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t("drop.placeholder")} />
@@ -588,7 +588,6 @@ export function DropLabWorkbench({
             </select>
           </label>
         </form>
-      </section>
 
       {relationshipsState.loading ? (
         <section className="panel state-panel compact-state"><h2>{t("state.loading")}</h2></section>
@@ -805,14 +804,14 @@ export function FarmPlannerWorkbench({
 
   return (
     <div className="page-stack tool-page farm-page">
-      <section className="page-header panel farm-hero-panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href="#/">{t("nav.back")}</a>
-          <h1>{t("farm.title")}</h1>
-          <p>{t("farm.subtitle")}</p>
-          <small>{t("farm.sourceHint")}</small>
+          <a className="back-link" href="#/" style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>FARM EFFICIENCY PLANNER</h1>
+          <p>{t("farm.subtitle")} // {t("farm.sourceHint")}</p>
         </div>
-        <form className="farm-search-card" onSubmit={submitSearch}>
+      </div>
+      <form className="farm-search-card" onSubmit={submitSearch}>
           <label>
             <span>{t("farm.search")}</span>
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t("farm.placeholder")} />
@@ -828,7 +827,7 @@ export function FarmPlannerWorkbench({
             </select>
           </label>
         </form>
-      </section>
+
 
       {relationshipsState.loading ? (
         <section className="panel state-panel compact-state"><h2>{t("state.loading")}</h2></section>
@@ -1105,21 +1104,19 @@ export function ProgressPlannerWorkbench({
 
   return (
     <div className="page-stack tool-page progress-page">
-      <section className="page-header panel progress-hero-panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href="#/">{t("nav.back")}</a>
-          <h1>{t("plan.title")}</h1>
-          <p>{t("plan.subtitle")}</p>
-          <small>{t("plan.loadHint")}</small>
+          <a className="back-link" href="#/" style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>PROGRESS ROUTE PLANNER</h1>
+          <p>{t("plan.subtitle")} // {t("plan.loadHint")}</p>
         </div>
-        <div className="progress-load-card">
-          <label className="file-button">
+        <div className="progress-load-card" style={{ display: "flex", alignItems: "center", gap: "10px", background: "rgba(212, 165, 57, 0.08)", border: "1px solid rgba(212, 165, 57, 0.2)", borderRadius: "4px", padding: "6px 12px" }}>
+          <label className="file-button" style={{ margin: 0 }}>
             <input type="file" accept=".es3,.bak,application/octet-stream" onChange={handleFile} />
-            <span>{busy ? t("state.loading") : t("plan.loadSave")}</span>
+            <span style={{ fontSize: "11px", fontFamily: "var(--font-display)" }}>{busy ? t("state.loading") : t("plan.loadSave").toUpperCase()}</span>
           </label>
-          <a className="inline-link" href="#/category/my-save">{t("plan.openSave")}</a>
         </div>
-      </section>
+      </div>
 
       {error ? <section className="panel state-panel compact-state"><h2>{t("save.error")}</h2><p>{error}</p></section> : null}
       {!saveSnapshot ? <section className="panel progress-static-note"><p>{t("plan.staticMode")}</p></section> : null}
@@ -1330,18 +1327,16 @@ export function LabStatusWorkbench({
 
   return (
     <div className="page-stack tool-page lab-page">
-      <section className="page-header panel lab-hero-panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href="#/">{t("nav.back")}</a>
-          <h1>{t("lab.title")}</h1>
-          <p>{t("lab.subtitle")}</p>
-          <small>{t("lab.lastBuildNote")}</small>
+          <a className="back-link" href="#/" style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>LABORATORY DIAGNOSTICS</h1>
+          <p>{t("lab.subtitle")} // {t("lab.lastBuildNote")}</p>
         </div>
-        <div className="lab-status-sigil">
-          <strong>TBH</strong>
-          <span>LAB</span>
+        <div className="tech-badge" style={{ fontSize: "12px", background: "rgba(212, 165, 57, 0.1)", color: "var(--brass-soft)" }}>
+          SYSTEM ACTIVE
         </div>
-      </section>
+      </div>
 
       <section className="panel section lab-summary-panel">
         <div className="stat-grid save-stat-grid">
@@ -1548,18 +1543,19 @@ export function SaveWorkbench({
 
   return (
     <div className="page-stack tool-page">
-      <section className="page-header panel save-hero-panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href="#/">{t("nav.back")}</a>
-          <h1>{t("save.title")}</h1>
-          <p>{t("save.subtitle")}</p>
-          <small>{t("save.privacy")}</small>
+          <a className="back-link" href="#/" style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>SAVE DATAスキャナー</h1>
+          <p>{t("save.subtitle")} // {t("save.privacy")}</p>
         </div>
-        <label className="file-button">
-          <input type="file" accept=".es3,.bak,application/octet-stream" onChange={handleFile} />
-          <span>{busy ? t("state.loading") : t("save.pickFile")}</span>
-        </label>
-      </section>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px", background: "rgba(212, 165, 57, 0.08)", border: "1px solid rgba(212, 165, 57, 0.2)", borderRadius: "4px", padding: "6px 12px" }}>
+          <label className="file-button" style={{ margin: 0 }}>
+            <input type="file" accept=".es3,.bak,application/octet-stream" onChange={handleFile} />
+            <span style={{ fontSize: "11px", fontFamily: "var(--font-display)" }}>{busy ? t("state.loading") : t("save.pickFile").toUpperCase()}</span>
+          </label>
+        </div>
+      </div>
 
       {error ? <section className="panel state-panel compact-state"><h2>{t("save.error")}</h2><p>{error}</p></section> : null}
 
@@ -1870,20 +1866,23 @@ export function MarketWorkbench({
 
   return (
     <div className="page-stack tool-page">
-      <section className="page-header panel market-hero-panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href="#/">{t("nav.back")}</a>
-          <h1>{t("market.title")}</h1>
-          <p>{t("market.subtitle")}</p>
-          <small>{t("market.endpoint")}: {marketBase()}</small>
+          <a className="back-link" href="#/" style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>STEAM MARKET ANALYZER</h1>
+          <p>{t("market.subtitle")} // {t("market.endpoint")}: {marketBase()}</p>
         </div>
-        <div className="overview">
-          <SaveMetric label={t("market.status")} value={stats?.market?.state ?? stats?.status ?? "-"} />
-          <SaveMetric label={t("home.stat.items")} value={numberText(stats?.items ?? manifestState.data?.items.length, locale)} />
-          <SaveMetric label={t("market.updated")} value={dateText(stats?.lastRunAt, locale)} />
-          <SaveMetric label={t("market.currency")} value={currency === "jpy" ? t("market.jpy") : t("market.usd")} />
+        <div style={{ display: "flex", gap: "12px", background: "rgba(212, 165, 57, 0.05)", border: "1px solid rgba(212, 165, 57, 0.15)", borderRadius: "6px", padding: "8px 14px" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>
+            <span style={{ fontFamily: "var(--font-mono)", fontSize: "8px", color: "var(--muted)" }}>Status</span>
+            <strong style={{ fontSize: "12px", color: "#27ae60" }}>{stats?.market?.state ?? stats?.status ?? "READY"}</strong>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", borderLeft: "1px solid rgba(212, 165, 57, 0.2)", paddingLeft: "12px" }}>
+            <span style={{ fontFamily: "var(--font-mono)", fontSize: "8px", color: "var(--muted)" }}>Scanned items</span>
+            <strong style={{ fontSize: "12px", color: "var(--brass-soft)" }}>{numberText(stats?.items ?? manifestState.data?.items.length, locale)}</strong>
+          </div>
         </div>
-      </section>
+      </div>
 
       <section className="panel market-alert">
         <strong>{stats?.market?.state ?? "ready"}</strong>

@@ -8,7 +8,9 @@ import {
   type FormEvent,
 } from "react";
 import { DetailAugmentPanel, DropLabWorkbench, FarmPlannerWorkbench, LabStatusWorkbench, MarketWorkbench, ProgressPlannerWorkbench, SaveWorkbench } from "./toolPages";
-import type { SaveSnapshot } from "./saveReader";
+import type { MarketManifest, MarketManifestItem } from "./toolPages";
+import type { SaveSnapshot, SaveOwnedItem } from "./saveReader";
+import { readTaskbarHeroSave } from "./saveReader";
 
 type LocaleCode = string;
 type Localized = Partial<Record<string, string>>;
@@ -504,7 +506,7 @@ function App() {
   return (
     <div className={`app ${menuOpen ? "menu-open" : ""}`}>
       <div className="background-map" />
-      <header className="topbar">
+      <header className="topbar scan-line">
         <button
           type="button"
           className="menu-toggle"
@@ -516,13 +518,22 @@ function App() {
           <span className="burger-line"></span>
           <span className="burger-line"></span>
         </button>
-        <a className="brand" href={href({ kind: "home" })}>
-          <span className="brand-badge">T</span>
-          <span>
-            <strong>{t("app.title")}</strong>
-            <small>{t("app.subtitle")}</small>
-          </span>
+        <a className="brand magitech-brand" href={href({ kind: "home" })}>
+          <span className="magitech-badge">▲</span>
+          <div>
+            <strong style={{ fontFamily: "var(--font-display)", letterSpacing: "1px" }}>TBH LAB</strong>
+            <small style={{ fontFamily: "var(--font-mono)", fontSize: "9px", opacity: 0.7, color: "var(--brass)" }}>DATA ANALYSIS SYSTEM</small>
+          </div>
         </a>
+
+        {/* Save Scan Status Indicator */}
+        <div className="save-scan-status">
+          <span className={`status-dot ${saveSnapshot ? "online" : "offline"}`}></span>
+          <span className="status-text">
+            {saveSnapshot ? "SCANNER // ONLINE" : "SCANNER // OFFLINE"}
+          </span>
+        </div>
+
         <form className="top-search" onSubmit={submitSearch}>
           <input
             value={globalQuery}
@@ -530,10 +541,10 @@ function App() {
             placeholder={t("filter.search.placeholder")}
             aria-label={t("nav.search")}
           />
-          <button type="submit">{t("nav.search")}</button>
+          <button type="submit" style={{ fontFamily: "var(--font-display)" }}>SCAN</button>
         </form>
         <label className="language-control">
-          <span>{t("nav.locale")}</span>
+          <span style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.5px" }}>LOCALE</span>
           <select value={locale} onChange={(event) => setLocale(event.target.value as LocaleCode)}>
             {localeOptions.map((option) => (
               <option value={option.code} key={option.code}>
@@ -566,7 +577,7 @@ function App() {
           ) : error || !manifest ? (
             <StatePanel label={t("state.error")} detail={error ?? "manifest"} />
           ) : route.kind === "home" ? (
-            <HomePage manifest={manifest} t={t} text={text} locale={locale} categoryMap={categoryMap} />
+            <HomePage manifest={manifest} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} onSaveLoaded={setSaveSnapshot} />
           ) : route.kind === "category" && activeCategory?.id === "my-save" ? (
             <SaveWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} onSaveLoaded={setSaveSnapshot} />
           ) : route.kind === "category" && activeCategory?.id === "market" ? (
@@ -756,12 +767,12 @@ function Sidebar({
   setMenuOpen: (open: boolean) => void;
 }) {
   return (
-    <aside className={`sidebar ${menuOpen ? "open" : ""}`}>
-      <div className="sidebar-title">
-        <span className="gear-dot" />
+    <aside className={`sidebar ${menuOpen ? "open" : ""}`} style={{ borderColor: "rgba(212, 165, 57, 0.15)" }}>
+      <div className="sidebar-title" style={{ background: "linear-gradient(145deg, rgba(20, 16, 12, 0.95), rgba(8, 6, 4, 0.98))", border: "1px solid rgba(212, 165, 57, 0.25)" }}>
+        <span className="status-dot online" style={{ background: "var(--brass)", boxShadow: "0 0 10px rgba(212, 165, 57, 0.8)", animation: "none" }} />
         <div>
-          <strong>{t("nav.menu")}</strong>
-          <small>TaskbarHero Data Lab</small>
+          <strong style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "11px", letterSpacing: "1px" }}>LAB CONTROL</strong>
+          <small style={{ fontFamily: "var(--font-mono)", fontSize: "9px", color: "var(--muted)", opacity: 0.8 }}>SYSTEM NAVIGATION</small>
         </div>
         <button
           type="button"
@@ -774,7 +785,9 @@ function Sidebar({
       </div>
       {manifest.navGroups.map((group) => (
         <section className="nav-group" key={group.id}>
-          <h2>{t(group.id)}</h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "9px", color: "var(--brass-soft)", letterSpacing: "1px", marginBottom: "8px", opacity: 0.8 }}>
+            // {t(group.id)}
+          </h2>
           {group.items.map((id) => {
             const category = categoryMap.get(id);
             if (!category) {
@@ -785,10 +798,11 @@ function Sidebar({
                 className={`nav-link ${activeCategoryId === id ? "active" : ""}`}
                 href={href({ kind: "category", categoryId: id })}
                 key={id}
+                style={{ padding: "8px 10px" }}
               >
                 <Icon src={category.icon} />
-                <span>{t(category.titleKey)}</span>
-                <small>{formatNumber(category.count)}</small>
+                <span style={{ fontSize: "13px", fontWeight: activeCategoryId === id ? 700 : 400 }}>{t(category.titleKey)}</span>
+                <span className="tech-badge" style={{ fontSize: "9px", padding: "1px 5px" }}>{formatNumber(category.count)}</span>
               </a>
             );
           })}
@@ -822,125 +836,269 @@ function HomePage({
   t,
   text,
   locale,
-  categoryMap,
+  saveSnapshot,
+  onSaveLoaded,
 }: {
   manifest: Manifest;
   t: (key: string) => string;
   text: (value: Localized | undefined) => string;
   locale: LocaleCode;
-  categoryMap: Map<string, CategorySummary>;
+  saveSnapshot: SaveSnapshot | null;
+  onSaveLoaded: (snapshot: SaveSnapshot) => void;
 }) {
-  const jumpCategories = manifest.categories.slice(0, 10);
-  const heroes = categoryMap.get("heroes");
+  const [dragActive, setDragActive] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  // Asset Valuation States
+  const [assetValueJpy, setAssetValueJpy] = useState<number | null>(null);
+  const [assetValueUsd, setAssetValueUsd] = useState<number | null>(null);
+  const [valLoading, setValLoading] = useState(false);
+
+  const marketManifestState = useJson<MarketManifest>("/generated/market-manifest.json");
+
+  // File loading handlers
+  const handleFile = async (file: File) => {
+    setBusy(true);
+    setError(null);
+    try {
+      const snapshot = await readTaskbarHeroSave(file);
+      onSaveLoaded(snapshot);
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : t("save.error"));
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const handleDrag = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (e.type === "dragenter" || e.type === "dragover") {
+      setDragActive(true);
+    } else if (e.type === "dragleave") {
+      setDragActive(false);
+    }
+  };
+
+  const handleDrop = async (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setDragActive(false);
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      await handleFile(e.dataTransfer.files[0]);
+    }
+  };
+
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
+      await handleFile(e.target.files[0]);
+    }
+  };
+
+  // Asset Valuation calculation
+  useEffect(() => {
+    if (!saveSnapshot || !marketManifestState.data) {
+      return;
+    }
+
+    const calculateAssetValue = async () => {
+      setValLoading(true);
+      try {
+        const manifest = marketManifestState.data;
+        if (!manifest) return;
+        const ownedMap = new Map<number, number>();
+        saveSnapshot.ownedItems.forEach((item: SaveOwnedItem) => {
+          ownedMap.set(item.itemKey, item.quantity);
+        });
+
+        // Let's fetch rate
+        const rateEndpoint = import.meta.env.VITE_TBH_MARKET_ENDPOINT || "/api/market";
+        let rate = 160.0; // Default fallback
+        try {
+          const rateRes = await fetch(`${rateEndpoint.replace(/\/$/, "")}/rate`);
+          const rateData = await rateRes.json();
+          if (rateData && typeof rateData.usdjpy === "number") {
+            rate = rateData.usdjpy;
+          }
+        } catch {
+          // ignore
+        }
+
+        // We fetch quotes for the top items to get real-time valuation, or fallback to metadata JPY equivalent if available.
+        // For simplicity on home dashboard, let's fetch movers or a chunk of data, or lookup from manifest.
+        // In order to not spam the server, we fetch in batches the top 8 marketable items owned.
+        const manifestByItem = new Map<number, MarketManifestItem>();
+        manifest.items.forEach((item: MarketManifestItem) => {
+          manifestByItem.set(item.itemKey, item);
+        });
+
+        const targetItems = saveSnapshot.ownedItems
+          .map((owned) => ({ owned, manifest: manifestByItem.get(owned.itemKey) }))
+          .filter((row): row is { owned: SaveOwnedItem; manifest: MarketManifestItem } => !!row.manifest && row.manifest.marketable)
+          .slice(0, 15);
+
+        let totalUsd = 0;
+
+        // Fetch quotes in parallel
+        await Promise.all(
+          targetItems.map(async ({ owned, manifest }) => {
+            const queryName = manifest.queries[0] || text(manifest.title);
+            if (!queryName) return;
+            try {
+              const res = await fetch(`${rateEndpoint.replace(/\/$/, "")}/items?q=${encodeURIComponent(queryName)}`);
+              const data = await res.json();
+              if (data && data.items && data.items[0]) {
+                const quote = data.items[0];
+                const sellPrice = Number(quote.sell_price) || 0; // in USD or JPY based on quote? (upstream API is USD)
+                totalUsd += sellPrice * owned.quantity;
+              }
+            } catch {
+              // ignore
+            }
+          })
+        );
+
+        setAssetValueUsd(totalUsd);
+        setAssetValueJpy(Math.round(totalUsd * rate));
+      } catch {
+        // ignore
+      } finally {
+        setValLoading(false);
+      }
+    };
+
+    calculateAssetValue();
+  }, [saveSnapshot, marketManifestState.data]);
+
+  const jumpCategories = manifest.categories.filter((c) => c.navGroup === "nav.database" || c.navGroup === "nav.combat").slice(0, 8);
+
   return (
-    <div className="page-stack">
-      <section className="home-hero panel">
-        <div className="home-copy">
-          <p className="kicker">{t("home.kicker")}</p>
-          <h1>{t("home.title")}</h1>
-          <p>{t("home.description")}</p>
-          <div className="hero-actions">
-            <a className="game-button primary" href={href({ kind: "category", categoryId: "gear" })}>
-              <Icon src={categoryMap.get("gear")?.icon ?? null} />
-              {t("home.cta.gear")}
-            </a>
-            <a className="game-button" href={href({ kind: "category", categoryId: "stages" })}>
-              <Icon src={categoryMap.get("stages")?.icon ?? null} />
-              {t("home.cta.stages")}
-            </a>
-          </div>
-          <div className="stat-strip">
-            {manifest.home.stats.map((stat) => (
-              <Metric key={stat.labelKey} label={t(stat.labelKey)} value={formatNumber(stat.value, locale)} />
-            ))}
-          </div>
-        </div>
-        <div className="home-art">
-          <div className="mini-window">
-            <div className="mini-window-title">HERO</div>
-            <div className="mini-window-body">
-              <img src={manifest.home.rosterArt ?? ""} alt="" />
-              <div className="mini-slots">
-                {manifest.categories.slice(0, 8).map((category) => (
-                  <Icon key={category.id} src={category.icon} />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="lab-dashboard">
+      {/* Title block */}
+      <div className="lab-header">
+        <h1 style={{ fontSize: "28px", margin: 0 }}>MAGITECH CONTROL CENTRE</h1>
+        <p>// DECIPHERING AND ANALYZING TASKBARHERO DATA METRICS</p>
+      </div>
 
-      <section className="panel section">
-        <div className="section-heading">
-          <h2>{t("home.section.jump")}</h2>
-        </div>
-        <div className="category-grid">
-          {jumpCategories.map((category) => (
-            <a className="category-card" href={href({ kind: "category", categoryId: category.id })} key={category.id}>
-              <Icon src={category.icon} large />
-              <div>
-                <h3>
-                  {t(category.titleKey)}
-                  <span>{formatNumber(category.count, locale)}</span>
-                </h3>
-                <p>{t(category.descriptionKey)}</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
-
-      {heroes ? (
-        <section className="panel section">
-          <div className="section-heading">
-            <h2>{t("home.section.heroes")}</h2>
-            <a href={href({ kind: "category", categoryId: "heroes" })}>{t("detail.open")}</a>
-          </div>
-          <HeroPreview category={heroes} text={text} locale={locale} />
+      {/* Main console row */}
+      {!saveSnapshot ? (
+        <section 
+          className={`lab-dropzone ${dragActive ? "drag-active" : ""}`}
+          onDragEnter={handleDrag}
+          onDragOver={handleDrag}
+          onDragLeave={handleDrag}
+          onDrop={handleDrop}
+          onClick={() => document.getElementById("dashboard-file-input")?.click()}
+        >
+          <input 
+            type="file" 
+            id="dashboard-file-input" 
+            accept=".es3,.bak,application/octet-stream"
+            onChange={handleFileChange}
+          />
+          <div className="lab-dropzone-icon">▲</div>
+          <h2>{busy ? "DECRYPTING SAVE DATA..." : "DRAG & DROP SAVE FILE TO SCAN"}</h2>
+          <p>{busy ? "Reading encrypted ES3 file contents..." : "Click or drop your TaskbarHero save file (.es3) here to initiate laboratory scan"}</p>
+          {error && <p style={{ color: "var(--ember)", marginTop: "12px", fontFamily: "var(--font-mono)" }}>[ERROR] {error}</p>}
         </section>
-      ) : null}
-
-      <section className="panel section">
-        <div className="section-heading">
-          <h2>{t("home.section.research")}</h2>
-        </div>
-        <div className="note-grid">
-          {manifest.home.notes.map((note) => (
-            <div className="note" key={note.labelKey}>
-              <p>{t(note.labelKey)}</p>
-              {note.value ? <strong>{note.value}</strong> : null}
+      ) : (
+        <div className="lab-panel-grid">
+          {/* Left panel: Player analysis snapshot */}
+          <article className="magitech-panel lab-subpanel scan-line">
+            <h3>// SCAN ANALYSIS RESULT</h3>
+            <div className="lab-stat-row">
+              <div className="lab-metric">
+                <small>Player Status</small>
+                <strong>ACTIVE</strong>
+              </div>
+              <div className="lab-metric">
+                <small>Game Version</small>
+                <strong>{saveSnapshot.version || "Unknown"}</strong>
+              </div>
             </div>
+            <div className="lab-stat-row">
+              <div className="lab-metric">
+                <small>Gold Reserves</small>
+                <strong>{formatNumber(saveSnapshot.gold, locale)} G</strong>
+              </div>
+              <div className="lab-metric">
+                <small>Operational clears</small>
+                <strong>{formatNumber(saveSnapshot.totalClears, locale)}</strong>
+              </div>
+            </div>
+            <div className="lab-stat-row">
+              <div className="lab-metric">
+                <small>Active Zone</small>
+                <strong style={{ fontSize: "12px" }}>
+                  {saveSnapshot.currentStage ? text(saveSnapshot.currentStage.label) : "Unknown"}
+                </strong>
+              </div>
+              <div className="lab-metric">
+                <small>Deployment Roster</small>
+                <strong>{saveSnapshot.arrangedHeroKeys.length} Heroes</strong>
+              </div>
+            </div>
+            <button 
+              type="button" 
+              className="game-button" 
+              style={{ width: "100%", marginTop: "10px", borderColor: "rgba(192, 57, 43, 0.4)", color: "var(--ember)", background: "rgba(192, 57, 43, 0.05)" }}
+              onClick={() => {
+                onSaveLoaded(null as any);
+                setAssetValueUsd(null);
+                setAssetValueJpy(null);
+              }}
+            >
+              PURGE LOADED SNAPSHOT
+            </button>
+          </article>
+
+          {/* Right panel: Live Asset valuation */}
+          <article className="magitech-panel lab-subpanel scan-line blueprint-grid">
+            <h3>// STEAM MARKET VALUATION</h3>
+            <div className="value-meter">
+              <div className="value-amount">
+                {valLoading ? (
+                  <span style={{ fontSize: "20px", color: "var(--brass-soft)", fontFamily: "var(--font-mono)" }}>CALCULATING VALUATION...</span>
+                ) : assetValueJpy !== null ? (
+                  `¥${formatNumber(assetValueJpy, locale)}`
+                ) : (
+                  "¥0"
+                )}
+              </div>
+              <div className="value-currency">
+                {valLoading ? "" : assetValueUsd !== null ? `~ $${assetValueUsd.toFixed(2)} USD` : "$0.00 USD"}
+              </div>
+            </div>
+            <p style={{ fontSize: "11px", color: "var(--muted)", marginTop: "12px", lineHeight: "1.45" }}>
+              * Calculated based on the top marketable items detected in your scanned inventory and stash, using real-time price statistics from the Steam Community Market.
+            </p>
+            <a 
+              href="#/category/market" 
+              className="game-button primary" 
+              style={{ width: "100%", marginTop: "16px", display: "flex", justifyContent: "center" }}
+            >
+              OPEN MARKET SCANNER
+            </a>
+          </article>
+        </div>
+      )}
+
+      {/* Database Quick Scan area */}
+      <section className="magitech-panel lab-subpanel" style={{ marginTop: "10px" }}>
+        <h3>// ARCHIVE DATA SCAN (DATABASE)</h3>
+        <div className="quick-scan-grid">
+          {jumpCategories.map((category) => (
+            <a className="quick-scan-card" href={href({ kind: "category", categoryId: category.id })} key={category.id}>
+              <Icon src={category.icon} />
+              <div>
+                <h4>{t(category.titleKey)}</h4>
+                <p>{formatNumber(category.count, locale)} records scanned</p>
+              </div>
+            </a>
           ))}
         </div>
       </section>
-    </div>
-  );
-}
-
-function HeroPreview({
-  category,
-  text,
-  locale,
-}: {
-  category: CategorySummary;
-  text: (value: Localized | undefined) => string;
-  locale: LocaleCode;
-}) {
-  const { data } = useJson<CategoryPayload>(categoryListPath(category, locale));
-  if (!data) {
-    return null;
-  }
-  return (
-    <div className="hero-preview">
-      {data.entries.map((entry) => (
-        <a href={href({ kind: "detail", categoryId: entry.categoryId, slug: entry.slug })} key={entry.slug}>
-          <Icon src={entry.icon} hero />
-          <strong>{text(entry.title)}</strong>
-          <small>
-            {text(entry.fieldDisplay?.mainWeapon) || entry.fields.mainWeapon} / {text(entry.fieldDisplay?.subWeapon) || entry.fields.subWeapon}
-          </small>
-        </a>
-      ))}
     </div>
   );
 }
@@ -1078,17 +1236,20 @@ function CategoryPageBody({
 
   return (
     <div className={`page-stack ${isRuneCategory ? "rune-category-page" : ""} ${isStageCategory ? "stage-category-page" : ""}`}>
-      <section className="page-header panel">
+      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
         <div>
-          <a className="back-link" href={href({ kind: "home" })}>{t("nav.back")}</a>
-          <h1>{t(category.titleKey)}</h1>
+          <a className="back-link" href={href({ kind: "home" })} style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>{t(category.titleKey).toUpperCase()} DATABASE</h1>
           <p>{t(category.descriptionKey)}</p>
         </div>
-        <div className="category-count">
-          <Icon src={category.icon} large />
-          <strong>{formatNumber(category.count, locale)}</strong>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px", background: "rgba(212, 165, 57, 0.08)", border: "1px solid rgba(212, 165, 57, 0.2)", borderRadius: "4px", padding: "6px 12px" }}>
+          <Icon src={category.icon} />
+          <div style={{ textAlign: "right" }}>
+            <div style={{ fontFamily: "var(--font-mono)", fontSize: "8px", color: "var(--muted)", textTransform: "uppercase" }}>Records Scanned</div>
+            <strong style={{ fontFamily: "var(--font-display)", color: "var(--brass-soft)", fontSize: "16px" }}>{formatNumber(category.count, locale)}</strong>
+          </div>
         </div>
-      </section>
+      </div>
 
       {isRuneCategory ? (
         <RuneWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
@@ -1830,15 +1991,41 @@ function EntryCard({
   text: (value: Localized | undefined) => string;
   t: (key: string) => string;
 }) {
+  const rarityColors: Record<string, string> = {
+    COMMON: "var(--grade-common)",
+    UNCOMMON: "var(--grade-uncommon)",
+    RARE: "var(--grade-rare)",
+    LEGENDARY: "var(--grade-legendary)",
+    IMMORTAL: "var(--grade-immortal)",
+    ARCANA: "var(--grade-arcana)",
+    BEYOND: "var(--grade-beyond)",
+    CELESTIAL: "var(--grade-celestial)",
+    DIVINE: "var(--grade-divine)",
+    COSMIC: "var(--grade-cosmic)"
+  };
+  const glowColor = rarityColors[entry.rarity ?? "COMMON"] || "var(--border)";
+
   return (
-    <a className={`entry-card tooltip-trigger rarity-${entry.rarity ?? "NONE"}`} href={href({ kind: "detail", categoryId: entry.categoryId, slug: entry.slug })}>
+    <a 
+      className="entry-card tooltip-trigger magitech-panel hologram-glow" 
+      href={href({ kind: "detail", categoryId: entry.categoryId, slug: entry.slug })}
+      style={{ 
+        "--glow-color": glowColor,
+        display: "grid",
+        gridTemplateColumns: "58px minmax(0, 1fr)",
+        gap: "14px",
+        alignItems: "center",
+        padding: "14px",
+        minHeight: "104px"
+      } as React.CSSProperties}
+    >
       <Icon src={entry.icon} large rarity={entry.rarity} />
       <div>
-        <h3>{text(entry.title)}</h3>
-        <p>{text(entry.subtitle)}</p>
-        <div className="tag-row">
-          {entry.tags.slice(0, 4).map((tag, index) => (
-            <span key={`${entry.slug}:${tag}:${index}`}>{tag}</span>
+        <h3 style={{ margin: 0, fontSize: "15px", fontFamily: "var(--font-body)", color: "#ede6d7" }}>{text(entry.title)}</h3>
+        <p style={{ margin: "4px 0 0", fontSize: "11px", color: "var(--muted)" }}>{text(entry.subtitle)}</p>
+        <div className="tag-row" style={{ marginTop: "8px", display: "flex", gap: "6px" }}>
+          {entry.tags.slice(0, 2).map((tag, index) => (
+            <span className="tech-badge" style={{ fontSize: "8px", padding: "1px 5px" }} key={`${entry.slug}:${tag}:${index}`}>{tag}</span>
           ))}
         </div>
       </div>
@@ -1949,36 +2136,65 @@ function DetailPage({
   }
 
   return (
-    <div className="page-stack">
-      <section className="detail-header panel">
-        <div className="detail-image">
-          {data.heroImage || data.icon ? <img src={data.heroImage ?? data.icon ?? ""} alt="" /> : <Icon src={data.icon} large />}
-        </div>
-        <div className="detail-title">
-          <a className="back-link" href={href({ kind: "category", categoryId: category.id })}>{t("nav.back")}</a>
-          <p className="kicker">{t(category.titleKey)} · #{data.entityId}</p>
-          <h1>{text(data.title)}</h1>
-          <p>{text(data.subtitle)}</p>
-          <div className="tag-row">
-            {data.tags.slice(0, 8).map((tag, index) => (
-              <span key={`${tag}:${index}`}>{tag}</span>
-            ))}
+    <div className="lab-dashboard">
+      {/* Blueprint Header */}
+      <div className="lab-header">
+        <a className="back-link" href={href({ kind: "category", categoryId: category.id })} style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
+        <h1 style={{ fontSize: "24px", marginTop: "4px" }}>{text(data.title).toUpperCase()} SPECIFICATIONS</h1>
+        <p>// DATABASE ARCHIVE RECORD: #{data.entityId}</p>
+      </div>
+
+      <section className="lab-panel-grid" style={{ gridTemplateColumns: "320px minmax(0, 1fr)" }}>
+        {/* Left: Blueprint Visualizer */}
+        <article className="magitech-panel scan-line blueprint-grid" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "360px", padding: "20px" }}>
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "240px", background: "rgba(10, 8, 6, 0.4)", borderRadius: "6px", border: "1px solid rgba(212, 165, 57, 0.15)" }}>
+            {data.heroImage || data.icon ? (
+              <img src={data.heroImage ?? data.icon ?? ""} alt="" style={{ maxWidth: "90%", maxHeight: "90%", objectFit: "contain", imageRendering: "pixelated" }} />
+            ) : (
+              <Icon src={data.icon} large />
+            )}
           </div>
-        </div>
-        <div className="overview">
-          {data.overview.map((item, index) => (
-            <Metric key={`${item.labelKey}:${index}`} label={t(item.labelKey)} value={formatValue(item.value, locale)} />
-          ))}
-        </div>
+          <div style={{ marginTop: "16px", textAlign: "center", width: "100%" }}>
+            <span className="tech-badge" style={{ fontSize: "10px", borderColor: "var(--glow-color, var(--border))", color: "var(--glow-color, var(--brass-soft))" }}>
+              {data.rarity || "COMMON"}
+            </span>
+            <div style={{ fontFamily: "var(--font-mono)", fontSize: "10px", color: "var(--muted)", marginTop: "10px" }}>
+              TAGS: {data.tags.join(" | ") || "NONE"}
+            </div>
+          </div>
+        </article>
+
+        {/* Right: Technical metrics */}
+        <article className="magitech-panel lab-subpanel scan-line" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+          <div>
+            <h3 style={{ margin: 0, paddingBottom: "8px", borderBottom: "1px solid rgba(212, 165, 57, 0.15)", color: "var(--brass-soft)", fontFamily: "var(--font-display)", fontSize: "12px" }}>
+              // BASE SPECIFICATIONS & ATTRIBUTES
+            </h3>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px", marginTop: "16px" }}>
+              {data.overview.map((item, index) => (
+                <div key={`${item.labelKey}:${index}`} style={{ background: "rgba(18, 14, 10, 0.6)", border: "1px solid var(--border)", borderRadius: "6px", padding: "10px 14px", display: "flex", flexDirection: "column", gap: "4px" }}>
+                  <small style={{ fontFamily: "var(--font-mono)", fontSize: "9px", color: "var(--muted)", textTransform: "uppercase" }}>{t(item.labelKey)}</small>
+                  <strong style={{ fontFamily: "var(--font-display)", fontSize: "14px", color: "var(--brass-soft)" }}>{formatValue(item.value, locale)}</strong>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div style={{ borderTop: "1px solid rgba(212, 165, 57, 0.15)", paddingTop: "14px", marginTop: "20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <div style={{ fontFamily: "var(--font-mono)", fontSize: "9px", color: "var(--muted)" }}>
+              SYSTEM ID: TBH-DB-{category.id.toUpperCase()}-{data.entityId}
+            </div>
+            <span className="tech-badge" style={{ fontSize: "8px", background: "rgba(39, 174, 96, 0.08)", borderColor: "rgba(39, 174, 96, 0.3)", color: "#27ae60" }}>
+              SCAN COMPLETED
+            </span>
+          </div>
+        </article>
       </section>
 
       <DetailAugmentPanel categoryId={data.categoryId} entityId={data.entityId} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
 
       {data.sections.map((section, index) => (
-        <section className="panel section" key={`${section.titleKey}:${index}`}>
-          <div className="section-heading">
-            <h2>{t(section.titleKey)}</h2>
-          </div>
+        <section className="magitech-panel lab-subpanel scan-line" key={`${section.titleKey}:${index}`} style={{ marginTop: "10px" }}>
+          <h3>// {t(section.titleKey).toUpperCase()}</h3>
           <DetailSectionView section={section} t={t} locale={locale} />
         </section>
       ))}
