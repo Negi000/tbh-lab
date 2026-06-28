@@ -2156,7 +2156,7 @@ function DetailPage({
     const title = `${nameStr} | ${catTitle} | TBH Lab`;
 
     // Dynamic precise multilingual description based on category
-    let description = "";
+    let description: string;
     if (locale === "ja-JP" || locale === "ja") {
       if (category.id === "gear") {
         description = `${nameStr}のステータス、ドロップ確率、レシピ、Steamコミュニティマーケット価格統計。TaskbarHero（タスクバーヒーロー）装備データベース。`;
