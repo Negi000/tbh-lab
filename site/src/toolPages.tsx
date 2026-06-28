@@ -14,7 +14,20 @@ type RefData = {
 };
 
 type RelationshipPayload = {
-  items: Record<string, { item?: RefData | null; sources: RelationSource[]; recipes?: any[] }>;
+  items: Record<
+    string,
+    {
+      item?: RefData | null;
+      sources: RelationSource[];
+      recipes?: Array<{
+        recipeType?: string;
+        tier?: number | string;
+        craftingType?: string;
+        synthesisType?: string;
+        recipeKey?: number | string;
+      }>;
+    }
+  >;
   chests: Record<string, { chest?: RefData | null; dropKey?: string | number | null; contents: ChestContent[]; sources: RelationSource[] }>;
   monsters: Record<string, { monster?: RefData | null; stages: MonsterStage[]; petTargets: Array<{ pet?: RefData | null; required?: number | null }> }>;
   pets: Record<string, { pet?: RefData | null; targetMonster?: RefData | null; required?: number | null; recommendedStages: MonsterStage[] }>;

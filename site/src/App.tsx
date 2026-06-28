@@ -474,7 +474,10 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    setMenuOpen(false);
+    const handle = requestAnimationFrame(() => {
+      setMenuOpen(false);
+    });
+    return () => cancelAnimationFrame(handle);
   }, [route]);
 
   const manifest = manifestState.data;
@@ -652,6 +655,7 @@ function applyDocumentSeo({
   locale,
   locales,
   siteUrl,
+  jsonLdData,
 }: {
   title: string;
   description: string;
@@ -659,6 +663,7 @@ function applyDocumentSeo({
   locale: LocaleCode;
   locales: LocaleCode[];
   siteUrl: string;
+  jsonLdData?: Record<string, unknown>;
 }) {
   const canonical = seoUrl(route, locale, siteUrl);
   document.title = title;
@@ -705,7 +710,7 @@ function applyDocumentSeo({
     jsonLd.id = "tbh-jsonld";
     document.head.appendChild(jsonLd);
   }
-  jsonLd.textContent = JSON.stringify({
+  const defaultJsonLd = {
     "@context": "https://schema.org",
     "@type": route.kind === "home" ? "WebSite" : "WebPage",
     name: title,
@@ -717,7 +722,8 @@ function applyDocumentSeo({
       name: "TBH Lab",
       url: siteUrl,
     },
-  });
+  };
+  jsonLd.textContent = JSON.stringify(jsonLdData ? { ...defaultJsonLd, ...jsonLdData } : defaultJsonLd);
 }
 
 function SeoManager({
@@ -739,6 +745,29 @@ function SeoManager({
     const detailTail = route.kind === "detail" ? ` #${route.slug.replace(/-/g, " ")}` : "";
     const title = route.kind === "home" ? `${titleRoot} | ${suffix}` : `${titleRoot}${detailTail} | TBH Lab`;
     const description = route.kind === "home" ? t("seo.defaultDescription") : activeCategory ? t(activeCategory.descriptionKey) : t("seo.defaultDescription");
+
+    // Dynamic Rich JSON-LD Data for Homepage & Category lists
+    let jsonLdData: Record<string, unknown> | undefined;
+    if (route.kind === "home") {
+      jsonLdData = {
+        "@type": "WebSite",
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${manifest?.seo?.siteUrl ?? SITE_ORIGIN}/?q={search_term_string}`,
+          "query-input": "required name=search_term_string"
+        }
+      };
+    } else if (route.kind === "category" && activeCategory) {
+      jsonLdData = {
+        "@type": "CollectionPage",
+        about: {
+          "@type": "Thing",
+          name: t(activeCategory.titleKey),
+          description: t(activeCategory.descriptionKey)
+        }
+      };
+    }
+
     applyDocumentSeo({
       title,
       description,
@@ -746,6 +775,7 @@ function SeoManager({
       locale,
       locales: manifest?.locales?.length ? manifest.locales : SUPPORTED_LOCALES.map((option) => option.code),
       siteUrl: manifest?.seo?.siteUrl ?? SITE_ORIGIN,
+      jsonLdData,
     });
   }, [activeCategory, locale, manifest, route, t]);
   return null;
@@ -844,7 +874,7 @@ function HomePage({
   text: (value: Localized | undefined) => string;
   locale: LocaleCode;
   saveSnapshot: SaveSnapshot | null;
-  onSaveLoaded: (snapshot: SaveSnapshot) => void;
+  onSaveLoaded: (snapshot: SaveSnapshot | null) => void;
 }) {
   const [dragActive, setDragActive] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -1044,7 +1074,7 @@ function HomePage({
               className="game-button" 
               style={{ width: "100%", marginTop: "10px", borderColor: "rgba(192, 57, 43, 0.4)", color: "var(--ember)", background: "rgba(192, 57, 43, 0.05)" }}
               onClick={() => {
-                onSaveLoaded(null as any);
+                onSaveLoaded(null);
                 setAssetValueUsd(null);
                 setAssetValueJpy(null);
               }}
@@ -1099,6 +1129,8 @@ function HomePage({
           ))}
         </div>
       </section>
+      <AdUnit />
+      <MagitechFooter t={t} />
     </div>
   );
 }
@@ -1280,6 +1312,8 @@ function CategoryPageBody({
         )}
         <Pager page={currentPage} pageCount={pageCount} setPage={setPage} t={t} locale={locale} bottom />
       </section>
+      <AdUnit />
+      <MagitechFooter t={t} />
     </div>
   );
 }
@@ -2117,8 +2151,79 @@ function DetailPage({
     if (!data) {
       return;
     }
-    const title = `${text(data.title)} | ${t(category.titleKey)} | TBH Lab`;
-    const description = text(data.subtitle) || `${text(data.title)} ${t(category.descriptionKey)}`;
+    const nameStr = text(data.title);
+    const catTitle = t(category.titleKey);
+    const title = `${nameStr} | ${catTitle} | TBH Lab`;
+
+    // Dynamic precise multilingual description based on category
+    let description = "";
+    if (locale === "ja-JP" || locale === "ja") {
+      if (category.id === "gear") {
+        description = `${nameStr}のステータス、ドロップ確率、レシピ、Steamコミュニティマーケット価格統計。TaskbarHero（タスクバーヒーロー）装備データベース。`;
+      } else if (category.id === "heroes") {
+        description = `ヒーロー「${nameStr}」のステータス成長度、使用可能スキル、スキルツリー分析。TaskbarHero攻略データ。`;
+      } else if (category.id === "stages") {
+        description = `ステージ「${nameStr}」の出現モンスター、クリア報酬宝箱、ドロップアイテム確率情報。TaskbarHeroマップ攻略。`;
+      } else {
+        description = `${nameStr}（${catTitle}）の詳細ステータス、関連データ、ドロップ・マーケット情報。TaskbarHero攻略データベース。`;
+      }
+    } else {
+      // English & other locales
+      if (category.id === "gear") {
+        description = `Stats, recipe requirements, drop rates, and Steam community market prices for ${nameStr} in TaskbarHero.`;
+      } else if (category.id === "heroes") {
+        description = `Character profile, level growth stats, and active/passive skill tree details for ${nameStr} in TaskbarHero.`;
+      } else if (category.id === "stages") {
+        description = `Stage map details for ${nameStr}, featuring monster spawn weights and chest drop rate probabilities in TaskbarHero.`;
+      } else {
+        description = `Comprehensive stats, drop sources, and market overview for ${nameStr} (${catTitle}) in TaskbarHero database.`;
+      }
+    }
+
+    // AEO/LLMO/GEO Optimization: Rich Structured Data
+    let jsonLdData: Record<string, unknown> | undefined;
+    if (category.id === "gear") {
+      jsonLdData = {
+        "@type": "Product",
+        name: nameStr,
+        image: data.heroImage || data.icon || undefined,
+        description: description,
+        category: data.rarity || "Gear",
+        model: data.overview.find((item) => item.labelKey === "field.level")?.value?.toString() || undefined,
+        offers: {
+          "@type": "AggregateOffer",
+          priceCurrency: "USD",
+          lowPrice: "0.03",
+          offerCount: "1"
+        }
+      };
+    } else if (category.id === "heroes") {
+      jsonLdData = {
+        "@type": "ItemPage",
+        mainEntity: {
+          "@type": "GameCharacter",
+          name: nameStr,
+          description: description,
+          image: data.heroImage || data.icon || undefined,
+          characterAttribute: data.overview.map((item) => ({
+            "@type": "PropertyValue",
+            name: t(item.labelKey),
+            value: String(item.value)
+          }))
+        }
+      };
+    } else {
+      jsonLdData = {
+        "@type": "ItemPage",
+        mainEntity: {
+          "@type": "Thing",
+          name: nameStr,
+          description: description,
+          image: data.icon || undefined
+        }
+      };
+    }
+
     applyDocumentSeo({
       title,
       description,
@@ -2126,6 +2231,7 @@ function DetailPage({
       locale,
       locales: SUPPORTED_LOCALES.map((option) => option.code),
       siteUrl: SITE_ORIGIN,
+      jsonLdData,
     });
   }, [category, data, locale, slug, t, text]);
   if (loading) {
@@ -2198,9 +2304,53 @@ function DetailPage({
           <DetailSectionView section={section} t={t} locale={locale} />
         </section>
       ))}
+      <AdUnit />
+      <MagitechFooter t={t} />
     </div>
   );
 }
+
+function AdUnit() {
+  useEffect(() => {
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+    } catch {
+      // ignore
+    }
+  }, []);
+  return (
+    <div className="ad-wrapper">
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block" }}
+        data-ad-client="ca-pub-1835873052239386"
+        data-ad-slot="default"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    </div>
+  );
+}
+
+function MagitechFooter({ t }: { t: (key: string) => string }) {
+  return (
+    <footer className="magitech-footer">
+      <div className="magitech-footer-links">
+        <a href="https://ko-fi.com/X8X11KVU5K" target="_blank" rel="noreferrer">
+          {t("support.kofi").toUpperCase()}
+        </a>
+        <a href="https://ofuse.me/o?uid=116462" target="_blank" rel="noreferrer">
+          {t("support.ofuse").toUpperCase()}
+        </a>
+      </div>
+      <div className="magitech-footer-text">
+        TBH LAB // CORE ENGINE STATUS: NOMINAL // AD NOTICE ACTIVE
+      </div>
+    </footer>
+  );
+}
+
 
 function DetailSectionView({
   section,
