@@ -1,9 +1,0 @@
-{
-  "name": "tbh-lab-root",
-  "private": true,
-  "version": "1.0.0",
-  "description": "Root build redirect for Cloudflare Pages",
-  "scripts": {
-    "build": "cd site && npm ci && npm run build && cd .. && cp -r site/dist ./dist && cp -r site/functions ./functions"
-  }
-}
