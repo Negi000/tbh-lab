@@ -3272,6 +3272,31 @@ def build_relationships(entry_map: dict[str, list[dict[str, Any]]], stage_rows: 
     items_by_key = {str(item.get("ItemKey")): item for item in items}
     sources_by_item = build_item_source_index(items, stage_rows, drops_by_key)
 
+    # Build index for material usages in crafting and cube sub recipes
+    material_usages = defaultdict(list)
+    try:
+        recipes = load_data("recipes")
+        for recipe in recipes.get("crafting_recipes", []):
+            mat_key = recipe.get("Material")
+            if mat_key:
+                material_usages[str(mat_key)].append({
+                    "recipeKey": recipe.get("CraftingRecipeKey"),
+                    "recipeType": "Crafting",
+                    "craftingType": recipe.get("ItemCraftingType"),
+                    "tier": recipe.get("RecipeTier")
+                })
+        for recipe in recipes.get("cube_sub_recipes", []):
+            mat_key = recipe.get("Material")
+            if mat_key:
+                material_usages[str(mat_key)].append({
+                    "recipeKey": recipe.get("CubeSubRecipeKey"),
+                    "recipeType": "CubeSub",
+                    "synthesisType": recipe.get("RECIPETYPE"),
+                    "tier": recipe.get("RecipeTier")
+                })
+    except Exception as e:
+        print(f"[relationships] Warning: failed to load recipe data for reverse lookup: {e}")
+
     item_sources: dict[str, Any] = {}
     for item_key, sources in sources_by_item.items():
         rows = []
@@ -3288,7 +3313,12 @@ def build_relationships(entry_map: dict[str, list[dict[str, Any]]], stage_rows: 
                     "stage": stage_entry_ref(stage, stage_entries_by_key) if stage else None,
                 }
             )
-        item_sources[str(item_key)] = {"item": entry_ref(item_entries_by_key.get(str(item_key))), "sources": rows}
+        usages = material_usages.get(str(item_key), [])
+        item_sources[str(item_key)] = {
+            "item": entry_ref(item_entries_by_key.get(str(item_key))),
+            "sources": rows,
+            "recipes": usages
+        }
 
     chest_sources: dict[str, list[dict[str, Any]]] = defaultdict(list)
     stage_rewards: dict[str, Any] = {}

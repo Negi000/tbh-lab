@@ -469,6 +469,11 @@ function App() {
   const dictionaryState = useJson<Record<string, string>>(`/generated/locales/${locale}.json`);
   const [globalQuery, setGlobalQuery] = useState("");
   const [saveSnapshot, setSaveSnapshot] = useState<SaveSnapshot | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [route]);
 
   const manifest = manifestState.data;
   const dictionary = dictionaryState.data;
@@ -497,9 +502,20 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className={`app ${menuOpen ? "menu-open" : ""}`}>
       <div className="background-map" />
       <header className="topbar">
+        <button
+          type="button"
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={t("nav.menu")}
+          aria-expanded={menuOpen}
+        >
+          <span className="burger-line"></span>
+          <span className="burger-line"></span>
+          <span className="burger-line"></span>
+        </button>
         <a className="brand" href={href({ kind: "home" })}>
           <span className="brand-badge">T</span>
           <span>
@@ -531,12 +547,17 @@ function App() {
       <div className="shell">
         <SeoManager route={route} manifest={manifest} activeCategory={activeCategory} locale={locale} t={t} />
         {manifest ? (
-          <Sidebar
-            manifest={manifest}
-            activeCategoryId={route.kind === "home" ? null : route.categoryId}
-            t={t}
-            categoryMap={categoryMap}
-          />
+          <>
+            <div className={`sidebar-overlay ${menuOpen ? "open" : ""}`} onClick={() => setMenuOpen(false)} />
+            <Sidebar
+              manifest={manifest}
+              activeCategoryId={route.kind === "home" ? null : route.categoryId}
+              t={t}
+              categoryMap={categoryMap}
+              menuOpen={menuOpen}
+              setMenuOpen={setMenuOpen}
+            />
+          </>
         ) : null}
 
         <main className="content">
@@ -724,20 +745,32 @@ function Sidebar({
   activeCategoryId,
   t,
   categoryMap,
+  menuOpen,
+  setMenuOpen,
 }: {
   manifest: Manifest;
   activeCategoryId: string | null;
   t: (key: string) => string;
   categoryMap: Map<string, CategorySummary>;
+  menuOpen: boolean;
+  setMenuOpen: (open: boolean) => void;
 }) {
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${menuOpen ? "open" : ""}`}>
       <div className="sidebar-title">
         <span className="gear-dot" />
         <div>
           <strong>{t("nav.menu")}</strong>
           <small>TaskbarHero Data Lab</small>
         </div>
+        <button
+          type="button"
+          className="menu-close-btn"
+          onClick={() => setMenuOpen(false)}
+          aria-label="Close menu"
+        >
+          &times;
+        </button>
       </div>
       {manifest.navGroups.map((group) => (
         <section className="nav-group" key={group.id}>

@@ -14,7 +14,7 @@ type RefData = {
 };
 
 type RelationshipPayload = {
-  items: Record<string, { item?: RefData | null; sources: RelationSource[] }>;
+  items: Record<string, { item?: RefData | null; sources: RelationSource[]; recipes?: any[] }>;
   chests: Record<string, { chest?: RefData | null; dropKey?: string | number | null; contents: ChestContent[]; sources: RelationSource[] }>;
   monsters: Record<string, { monster?: RefData | null; stages: MonsterStage[]; petTargets: Array<{ pet?: RefData | null; required?: number | null }> }>;
   pets: Record<string, { pet?: RefData | null; targetMonster?: RefData | null; required?: number | null; recommendedStages: MonsterStage[] }>;
@@ -2485,6 +2485,22 @@ export function DetailAugmentPanel({
             {itemRelation.sources.slice(0, 5).map((source, index) => (
               <li key={index}>
                 {refLink(source.chest, text)} <span>{percentText(source.chance, locale)}</span> {refLink(source.stage, text)}
+              </li>
+            ))}
+          </RelationList>
+        ) : null}
+        {itemRelation?.recipes && itemRelation.recipes.length > 0 ? (
+          <RelationList title={locale.startsWith("ja") ? "使用先レシピ" : "Used in Recipes"}>
+            {itemRelation.recipes.slice(0, 8).map((recipe, index) => (
+              <li key={index}>
+                <a className="inline-link" href={`#/category/cube`}>
+                  {recipe.recipeType === "Crafting"
+                    ? (locale.startsWith("ja") ? `クラフト [ティア ${recipe.tier}]` : `Craft [Tier ${recipe.tier}]`)
+                    : (locale.startsWith("ja") ? `サブレシピ [ティア ${recipe.tier}]` : `Sub Recipe [Tier ${recipe.tier}]`)
+                  }
+                </a>
+                <span>{recipe.craftingType || recipe.synthesisType || ""}</span>
+                <strong style={{ opacity: 0.5 }}>#{recipe.recipeKey}</strong>
               </li>
             ))}
           </RelationList>
