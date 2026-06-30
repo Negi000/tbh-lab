@@ -1,5 +1,4 @@
 import {
-  useDeferredValue,
   useEffect,
   useMemo,
   useRef,
@@ -7,95 +6,15 @@ import {
   type CSSProperties,
   type FormEvent,
 } from "react";
-import { DetailAugmentPanel, DropLabWorkbench, FarmPlannerWorkbench, LabStatusWorkbench, MarketWorkbench, ProgressPlannerWorkbench, SaveWorkbench } from "./toolPages";
-import type { MarketManifest, MarketManifestItem } from "./toolPages";
-import type { SaveSnapshot, SaveOwnedItem } from "./saveReader";
-import { readTaskbarHeroSave } from "./saveReader";
+import { DropLabWorkbench, FarmPlannerWorkbench, LabStatusWorkbench, MarketWorkbench, ProgressPlannerWorkbench, SaveWorkbench } from "./toolPages";
+import type { SaveSnapshot } from "./saveReader";
+import { MagitechDashboard } from "./components/MagitechDashboard";
+import { MagitechCatalog } from "./components/MagitechCatalog";
+import { BlueprintDetail } from "./components/BlueprintDetail";
 
-type LocaleCode = string;
-type Localized = Partial<Record<string, string>>;
 
-type CategorySummary = {
-  id: string;
-  titleKey: string;
-  descriptionKey: string;
-  count: number;
-  icon: string | null;
-  layout: "table" | "cards";
-  navGroup: string;
-  listPath: string;
-};
 
-type NavGroup = {
-  id: string;
-  items: string[];
-};
 
-type Manifest = {
-  generatedAt: string;
-  locales: LocaleCode[];
-  localeLabels?: Record<string, string>;
-  defaultLocale?: LocaleCode;
-  seo?: {
-    siteUrl?: string;
-    defaultLocale?: LocaleCode;
-    alternateStrategy?: string;
-  };
-  version: string;
-  categories: CategorySummary[];
-  navGroups: NavGroup[];
-  home: {
-    heroArt: string | null;
-    rosterArt: string | null;
-    stats: Array<{ labelKey: string; value: string | number }>;
-    notes: Array<{ labelKey: string; value?: string | number }>;
-  };
-  featured: Array<{ categoryId: string; slug: string }>;
-};
-
-type Entry = {
-  categoryId: string;
-  entityId: string;
-  slug: string;
-  title: Localized;
-  subtitle: Localized;
-  icon: string | null;
-  rarity: string | null;
-  tags: string[];
-  fields: Record<string, string>;
-  fieldDisplay?: Record<string, Localized>;
-  detailPath: string;
-  tooltip?: TooltipData | null;
-};
-
-type TooltipRow = {
-  label?: Localized;
-  labelKey?: string;
-  value: Localized;
-  tone?: string;
-};
-
-type TooltipSection = {
-  titleKey: string;
-  rows: TooltipRow[];
-};
-
-type TooltipData = {
-  title: Localized;
-  subtitle: Localized;
-  description?: Localized;
-  icon: string | null;
-  rarity: string | null;
-  rows: TooltipRow[];
-  sections: TooltipSection[];
-};
-
-type CategoryPayload = {
-  category: CategorySummary;
-  columns: Array<{ key: string; labelKey: string }>;
-  filters: Array<{ id: string; labelKey: string; options: string[] }>;
-  entries: Entry[];
-};
 
 type RuneLevel = {
   level: number;
@@ -216,253 +135,28 @@ type StageAtlasPayload = {
   generatedFrom: string[];
 };
 
-type DetailPayload = {
-  categoryId: string;
-  entityId: string;
-  slug: string;
-  title: Localized;
-  subtitle: Localized;
-  icon: string | null;
-  heroImage?: string | null;
-  rarity: string | null;
-  tags: string[];
-  overview: Array<{ labelKey: string; value: CellValue }>;
-  sections: DetailSection[];
-  source?: { table?: string };
-};
-
-type CellValue = string | number | null | Localized;
-
-type DetailSection =
-  | {
-      titleKey: string;
-      type: "stats";
-      items: Array<{ labelKey: string; value: string }>;
-    }
-  | {
-      titleKey: string;
-      type: "table";
-      columns: Array<{ labelKey: string }>;
-      rows: Array<Array<CellValue>>;
-    }
-  | {
-      titleKey: string;
-      type: "cards";
-      items: Array<{ title: Localized; subtitle?: Localized; meta?: Array<{ labelKey: string; value: string }> }>;
-    };
-
-type Route =
-  | { kind: "home" }
-  | { kind: "category"; categoryId: string; query?: string }
-  | { kind: "detail"; categoryId: string; slug: string };
-
-const PAGE_SIZE = 48;
-const LOCALE_KEY = "thb-wiki-locale";
-const DEFAULT_LOCALE = "ja-JP";
-const SITE_ORIGIN = "https://tbh.negi-lab.com";
-const SUPPORTED_LOCALES: Array<{ code: LocaleCode; label: string }> = [
-  { code: "de-DE", label: "Deutsch" },
-  { code: "en-US", label: "English" },
-  { code: "es-ES", label: "Español" },
-  { code: "fr-FR", label: "Français" },
-  { code: "id-ID", label: "Bahasa Indonesia" },
-  { code: "ja-JP", label: "日本語" },
-  { code: "ko-KR", label: "한국어" },
-  { code: "pl-PL", label: "Polski" },
-  { code: "pt-BR", label: "Português do Brasil" },
-  { code: "ru-RU", label: "Русский" },
-  { code: "th-TH", label: "ไทย" },
-  { code: "tr-TR", label: "Türkçe" },
-  { code: "uk-UA", label: "Українська" },
-  { code: "vi-VN", label: "Tiếng Việt" },
-  { code: "zh-Hans", label: "简体中文" },
-  { code: "zh-Hant", label: "繁體中文" },
-];
-const LOCALE_ALIASES: Record<string, LocaleCode> = { ja: "ja-JP", en: "en-US" };
-
-const FALLBACK_TEXT: Record<LocaleCode, Record<string, string>> = {
-  ja: {
-    "app.title": "TBH Lab",
-    "nav.home": "ホーム",
-    "nav.search": "検索",
-    "state.loading": "読み込み中",
-    "state.error": "読み込み失敗",
-  },
-  en: {
-    "app.title": "TBH Lab",
-    "nav.home": "Home",
-    "nav.search": "Search",
-    "state.loading": "Loading",
-    "state.error": "Failed to load",
-  },
-};
-
-function localeBase(locale: LocaleCode) {
-  return locale.split("-")[0];
-}
-
-function normalizeLocale(value: string | null | undefined): LocaleCode {
-  const candidate = value ? LOCALE_ALIASES[value] ?? value : "";
-  if (SUPPORTED_LOCALES.some((option) => option.code === candidate)) {
-    return candidate;
-  }
-  const baseMatch = SUPPORTED_LOCALES.find((option) => localeBase(option.code) === localeBase(candidate));
-  return baseMatch?.code ?? DEFAULT_LOCALE;
-}
-
-function isJapaneseLocale(locale: LocaleCode) {
-  return localeBase(locale) === "ja";
-}
-
-function intlLocale(locale: LocaleCode) {
-  return normalizeLocale(locale);
-}
-
-function fallbackDictionary(locale: LocaleCode) {
-  return isJapaneseLocale(locale) ? FALLBACK_TEXT.ja : FALLBACK_TEXT.en;
-}
-
-function localizedText(value: Localized | undefined, locale: LocaleCode) {
-  const normalized = normalizeLocale(locale);
-  const base = localeBase(normalized);
-  return value?.[normalized] ?? value?.[base] ?? value?.["en-US"] ?? value?.en ?? value?.["ja-JP"] ?? value?.ja ?? "";
-}
-
-function parseRouteString(rawInput: string): Route {
-  const raw = rawInput || "/";
-  const [path, queryString = ""] = raw.split("?");
-  const parts = path.split("/").filter(Boolean);
-  if (parts[0] === "category" && parts[1]) {
-    return {
-      kind: "category",
-      categoryId: parts[1],
-      query: new URLSearchParams(queryString).get("q") ?? undefined,
-    };
-  }
-  if (parts[0] === "detail" && parts[1] && parts[2]) {
-    return { kind: "detail", categoryId: parts[1], slug: decodeURIComponent(parts[2]) };
-  }
-  return { kind: "home" };
-}
-
-function parseRoute(): Route {
-  const hashRoute = window.location.hash.replace(/^#/, "");
-  if (hashRoute && hashRoute !== "/") {
-    return parseRouteString(hashRoute);
-  }
-  const queryRoute = new URLSearchParams(window.location.search).get("route");
-  return parseRouteString(queryRoute || hashRoute || "/");
-}
-
-function routePath(route: Route): string {
-  if (route.kind === "category") {
-    const query = route.query ? `?q=${encodeURIComponent(route.query)}` : "";
-    return `/category/${route.categoryId}${query}`;
-  }
-  if (route.kind === "detail") {
-    return `/detail/${route.categoryId}/${encodeURIComponent(route.slug)}`;
-  }
-  return "/";
-}
-
-function href(route: Route): string {
-  if (route.kind === "category") {
-    const query = route.query ? `?q=${encodeURIComponent(route.query)}` : "";
-    return `#/category/${route.categoryId}${query}`;
-  }
-  if (route.kind === "detail") {
-    return `#/detail/${route.categoryId}/${encodeURIComponent(route.slug)}`;
-  }
-  return "#/";
-}
-
-function seoUrl(route: Route, locale: LocaleCode, origin = SITE_ORIGIN): string {
-  const url = new URL(origin);
-  url.searchParams.set("lang", normalizeLocale(locale));
-  const path = routePath(route);
-  if (path !== "/") {
-    url.searchParams.set("route", path);
-  }
-  return url.toString();
-}
-
-function categoryListPath(category: CategorySummary, locale: LocaleCode) {
-  return category.listPath.replace("{locale}", normalizeLocale(locale));
-}
-
-function useRoute() {
-  const [route, setRoute] = useState<Route>(parseRoute);
-  useEffect(() => {
-    const onHashChange = () => setRoute(parseRoute());
-    const onPopState = () => setRoute(parseRoute());
-    window.addEventListener("hashchange", onHashChange);
-    window.addEventListener("popstate", onPopState);
-    return () => {
-      window.removeEventListener("hashchange", onHashChange);
-      window.removeEventListener("popstate", onPopState);
-    };
-  }, []);
-  return route;
-}
-
-function useLocale() {
-  const [locale, setLocale] = useState<LocaleCode>(() => {
-    const requested = new URLSearchParams(window.location.search).get("lang");
-    if (requested) {
-      return normalizeLocale(requested);
-    }
-    const saved = window.localStorage.getItem(LOCALE_KEY);
-    return normalizeLocale(saved);
-  });
-  useEffect(() => {
-    window.localStorage.setItem(LOCALE_KEY, locale);
-    document.documentElement.lang = normalizeLocale(locale);
-  }, [locale]);
-  return { locale, setLocale };
-}
-
-function useJson<T>(path: string | null) {
-  const [state, setState] = useState<{
-    path: string | null;
-    data: T | null;
-    error: string | null;
-  }>({ path: null, data: null, error: null });
-
-  useEffect(() => {
-    if (!path) {
-      return;
-    }
-    let cancelled = false;
-    fetch(path)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(path);
-        }
-        return response.json() as Promise<T>;
-      })
-      .then((result) => {
-        if (!cancelled) {
-          setState({ path, data: result, error: null });
-        }
-      })
-      .catch((err: Error) => {
-        if (!cancelled) {
-          setState({ path, data: null, error: err.message });
-        }
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [path]);
-
-  if (!path) {
-    return { data: null, error: null, loading: false };
-  }
-  if (state.path !== path) {
-    return { data: null, error: null, loading: true };
-  }
-  return { data: state.data, error: state.error, loading: false };
-}
+import { 
+  SITE_ORIGIN, 
+  SUPPORTED_LOCALES,
+  normalizeLocale,
+  localizedText,
+  href,
+  useJson,
+  formatValue,
+  useRoute,
+  useLocale,
+  seoUrl,
+  formatNumber,
+  fallbackDictionary
+} from "./lib/utils";
+import type { 
+  LocaleCode, 
+  Localized, 
+  CategorySummary, 
+  Manifest, 
+  DetailSection, 
+  Route 
+} from "./lib/utils";
 
 function App() {
   const route = useRoute();
@@ -580,7 +274,7 @@ function App() {
           ) : error || !manifest ? (
             <StatePanel label={t("state.error")} detail={error ?? "manifest"} />
           ) : route.kind === "home" ? (
-            <HomePage manifest={manifest} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} onSaveLoaded={setSaveSnapshot} />
+            <MagitechDashboard manifest={manifest} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} onSaveLoaded={setSaveSnapshot} />
           ) : route.kind === "category" && activeCategory?.id === "my-save" ? (
             <SaveWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} onSaveLoaded={setSaveSnapshot} />
           ) : route.kind === "category" && activeCategory?.id === "market" ? (
@@ -594,9 +288,9 @@ function App() {
           ) : route.kind === "category" && activeCategory?.id === "lab-status" ? (
             <LabStatusWorkbench t={t} text={text} locale={locale} />
           ) : route.kind === "category" && activeCategory ? (
-            <CategoryPage category={activeCategory} t={t} text={text} locale={locale} initialQuery={route.query} saveSnapshot={saveSnapshot} />
+            <MagitechCatalog category={activeCategory} t={t} text={text} locale={locale} initialQuery={route.query} saveSnapshot={saveSnapshot} />
           ) : route.kind === "detail" && activeCategory ? (
-            <DetailPage category={activeCategory} slug={route.slug} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
+            <BlueprintDetail category={activeCategory} slug={route.slug} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
           ) : (
             <StatePanel label={t("state.error")} detail="route" />
           )}
@@ -838,487 +532,11 @@ function Sidebar({
           })}
         </section>
       ))}
-      <SupportPanel t={t} />
     </aside>
   );
 }
 
-function SupportPanel({ t }: { t: (key: string) => string }) {
-  return (
-    <section className="support-panel" aria-label={t("support.title")}>
-      <h2>{t("support.title")}</h2>
-      <p>{t("support.copy")}</p>
-      <div className="support-actions">
-        <a href="https://ko-fi.com/X8X11KVU5K" target="_blank" rel="noreferrer">
-          {t("support.kofi")}
-        </a>
-        <a data-ofuse-widget-button href="https://ofuse.me/o?uid=116462" data-ofuse-id="116462" data-ofuse-style="rectangle">
-          {t("support.ofuse")}
-        </a>
-      </div>
-      <small>{t("support.adNotice")}</small>
-    </section>
-  );
-}
-
-function HomePage({
-  manifest,
-  t,
-  text,
-  locale,
-  saveSnapshot,
-  onSaveLoaded,
-}: {
-  manifest: Manifest;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-  locale: LocaleCode;
-  saveSnapshot: SaveSnapshot | null;
-  onSaveLoaded: (snapshot: SaveSnapshot | null) => void;
-}) {
-  const [dragActive, setDragActive] = useState(false);
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  // Asset Valuation States
-  const [assetValueJpy, setAssetValueJpy] = useState<number | null>(null);
-  const [assetValueUsd, setAssetValueUsd] = useState<number | null>(null);
-  const [valLoading, setValLoading] = useState(false);
-
-  const marketManifestState = useJson<MarketManifest>("/generated/market-manifest.json");
-
-  // File loading handlers
-  const handleFile = async (file: File) => {
-    setBusy(true);
-    setError(null);
-    try {
-      const snapshot = await readTaskbarHeroSave(file);
-      onSaveLoaded(snapshot);
-    } catch (caught) {
-      setError(caught instanceof Error ? caught.message : t("save.error"));
-    } finally {
-      setBusy(false);
-    }
-  };
-
-  const handleDrag = (e: React.DragEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (e.type === "dragenter" || e.type === "dragover") {
-      setDragActive(true);
-    } else if (e.type === "dragleave") {
-      setDragActive(false);
-    }
-  };
-
-  const handleDrop = async (e: React.DragEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragActive(false);
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      await handleFile(e.dataTransfer.files[0]);
-    }
-  };
-
-  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      await handleFile(e.target.files[0]);
-    }
-  };
-
-  // Asset Valuation calculation
-  useEffect(() => {
-    if (!saveSnapshot || !marketManifestState.data) {
-      return;
-    }
-
-    const calculateAssetValue = async () => {
-      setValLoading(true);
-      try {
-        const manifest = marketManifestState.data;
-        if (!manifest) return;
-        const ownedMap = new Map<number, number>();
-        saveSnapshot.ownedItems.forEach((item: SaveOwnedItem) => {
-          ownedMap.set(item.itemKey, item.quantity);
-        });
-
-        // Let's fetch rate
-        const rateEndpoint = import.meta.env.VITE_TBH_MARKET_ENDPOINT || "/api/market";
-        let rate = 160.0; // Default fallback
-        try {
-          const rateRes = await fetch(`${rateEndpoint.replace(/\/$/, "")}/rate`);
-          const rateData = await rateRes.json();
-          if (rateData && typeof rateData.usdjpy === "number") {
-            rate = rateData.usdjpy;
-          }
-        } catch {
-          // ignore
-        }
-
-        // We fetch quotes for the top items to get real-time valuation, or fallback to metadata JPY equivalent if available.
-        // For simplicity on home dashboard, let's fetch movers or a chunk of data, or lookup from manifest.
-        // In order to not spam the server, we fetch in batches the top 8 marketable items owned.
-        const manifestByItem = new Map<number, MarketManifestItem>();
-        manifest.items.forEach((item: MarketManifestItem) => {
-          manifestByItem.set(item.itemKey, item);
-        });
-
-        const targetItems = saveSnapshot.ownedItems
-          .map((owned) => ({ owned, manifest: manifestByItem.get(owned.itemKey) }))
-          .filter((row): row is { owned: SaveOwnedItem; manifest: MarketManifestItem } => !!row.manifest && row.manifest.marketable)
-          .slice(0, 15);
-
-        let totalUsd = 0;
-
-        // Fetch quotes in parallel
-        await Promise.all(
-          targetItems.map(async ({ owned, manifest }) => {
-            const queryName = manifest.queries[0] || text(manifest.title);
-            if (!queryName) return;
-            try {
-              const res = await fetch(`${rateEndpoint.replace(/\/$/, "")}/items?q=${encodeURIComponent(queryName)}`);
-              const data = await res.json();
-              if (data && data.items && data.items[0]) {
-                const quote = data.items[0];
-                const sellPrice = Number(quote.sell_price) || 0; // in USD or JPY based on quote? (upstream API is USD)
-                totalUsd += sellPrice * owned.quantity;
-              }
-            } catch {
-              // ignore
-            }
-          })
-        );
-
-        setAssetValueUsd(totalUsd);
-        setAssetValueJpy(Math.round(totalUsd * rate));
-      } catch {
-        // ignore
-      } finally {
-        setValLoading(false);
-      }
-    };
-
-    calculateAssetValue();
-  }, [saveSnapshot, marketManifestState.data]);
-
-  const jumpCategories = manifest.categories.filter((c) => c.navGroup === "nav.database" || c.navGroup === "nav.combat").slice(0, 8);
-
-  return (
-    <div className="lab-dashboard">
-      {/* Title block */}
-      <div className="lab-header">
-        <h1 style={{ fontSize: "28px", margin: 0 }}>MAGITECH CONTROL CENTRE</h1>
-        <p>// DECIPHERING AND ANALYZING TASKBARHERO DATA METRICS</p>
-      </div>
-
-      {/* Main console row */}
-      {!saveSnapshot ? (
-        <section 
-          className={`lab-dropzone ${dragActive ? "drag-active" : ""}`}
-          onDragEnter={handleDrag}
-          onDragOver={handleDrag}
-          onDragLeave={handleDrag}
-          onDrop={handleDrop}
-          onClick={() => document.getElementById("dashboard-file-input")?.click()}
-        >
-          <input 
-            type="file" 
-            id="dashboard-file-input" 
-            accept=".es3,.bak,application/octet-stream"
-            onChange={handleFileChange}
-          />
-          <div className="lab-dropzone-icon">▲</div>
-          <h2>{busy ? "DECRYPTING SAVE DATA..." : "DRAG & DROP SAVE FILE TO SCAN"}</h2>
-          <p>{busy ? "Reading encrypted ES3 file contents..." : "Click or drop your TaskbarHero save file (.es3) here to initiate laboratory scan"}</p>
-          {error && <p style={{ color: "var(--ember)", marginTop: "12px", fontFamily: "var(--font-mono)" }}>[ERROR] {error}</p>}
-        </section>
-      ) : (
-        <div className="lab-panel-grid">
-          {/* Left panel: Player analysis snapshot */}
-          <article className="magitech-panel lab-subpanel scan-line">
-            <h3>// SCAN ANALYSIS RESULT</h3>
-            <div className="lab-stat-row">
-              <div className="lab-metric">
-                <small>Player Status</small>
-                <strong>ACTIVE</strong>
-              </div>
-              <div className="lab-metric">
-                <small>Game Version</small>
-                <strong>{saveSnapshot.version || "Unknown"}</strong>
-              </div>
-            </div>
-            <div className="lab-stat-row">
-              <div className="lab-metric">
-                <small>Gold Reserves</small>
-                <strong>{formatNumber(saveSnapshot.gold, locale)} G</strong>
-              </div>
-              <div className="lab-metric">
-                <small>Operational clears</small>
-                <strong>{formatNumber(saveSnapshot.totalClears, locale)}</strong>
-              </div>
-            </div>
-            <div className="lab-stat-row">
-              <div className="lab-metric">
-                <small>Active Zone</small>
-                <strong style={{ fontSize: "12px" }}>
-                  {saveSnapshot.currentStage ? text(saveSnapshot.currentStage.label) : "Unknown"}
-                </strong>
-              </div>
-              <div className="lab-metric">
-                <small>Deployment Roster</small>
-                <strong>{saveSnapshot.arrangedHeroKeys.length} Heroes</strong>
-              </div>
-            </div>
-            <button 
-              type="button" 
-              className="game-button" 
-              style={{ width: "100%", marginTop: "10px", borderColor: "rgba(192, 57, 43, 0.4)", color: "var(--ember)", background: "rgba(192, 57, 43, 0.05)" }}
-              onClick={() => {
-                onSaveLoaded(null);
-                setAssetValueUsd(null);
-                setAssetValueJpy(null);
-              }}
-            >
-              PURGE LOADED SNAPSHOT
-            </button>
-          </article>
-
-          {/* Right panel: Live Asset valuation */}
-          <article className="magitech-panel lab-subpanel scan-line blueprint-grid">
-            <h3>// STEAM MARKET VALUATION</h3>
-            <div className="value-meter">
-              <div className="value-amount">
-                {valLoading ? (
-                  <span style={{ fontSize: "20px", color: "var(--brass-soft)", fontFamily: "var(--font-mono)" }}>CALCULATING VALUATION...</span>
-                ) : assetValueJpy !== null ? (
-                  `¥${formatNumber(assetValueJpy, locale)}`
-                ) : (
-                  "¥0"
-                )}
-              </div>
-              <div className="value-currency">
-                {valLoading ? "" : assetValueUsd !== null ? `~ $${assetValueUsd.toFixed(2)} USD` : "$0.00 USD"}
-              </div>
-            </div>
-            <p style={{ fontSize: "11px", color: "var(--muted)", marginTop: "12px", lineHeight: "1.45" }}>
-              * Calculated based on the top marketable items detected in your scanned inventory and stash, using real-time price statistics from the Steam Community Market.
-            </p>
-            <a 
-              href="#/category/market" 
-              className="game-button primary" 
-              style={{ width: "100%", marginTop: "16px", display: "flex", justifyContent: "center" }}
-            >
-              OPEN MARKET SCANNER
-            </a>
-          </article>
-        </div>
-      )}
-
-      {/* Database Quick Scan area */}
-      <section className="magitech-panel lab-subpanel" style={{ marginTop: "10px" }}>
-        <h3>// ARCHIVE DATA SCAN (DATABASE)</h3>
-        <div className="quick-scan-grid">
-          {jumpCategories.map((category) => (
-            <a className="quick-scan-card" href={href({ kind: "category", categoryId: category.id })} key={category.id}>
-              <Icon src={category.icon} />
-              <div>
-                <h4>{t(category.titleKey)}</h4>
-                <p>{formatNumber(category.count, locale)} records scanned</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
-      <AdUnit />
-      <MagitechFooter t={t} />
-    </div>
-  );
-}
-
-function CategoryPage({
-  category,
-  t,
-  text,
-  locale,
-  initialQuery,
-  saveSnapshot,
-}: {
-  category: CategorySummary;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-  locale: LocaleCode;
-  initialQuery?: string;
-  saveSnapshot: SaveSnapshot | null;
-}) {
-  return (
-    <CategoryPageBody
-      key={`${category.id}:${initialQuery ?? ""}`}
-      category={category}
-      t={t}
-      text={text}
-      locale={locale}
-      initialQuery={initialQuery}
-      saveSnapshot={saveSnapshot}
-    />
-  );
-}
-
-function CategoryPageBody({
-  category,
-  t,
-  text,
-  locale,
-  initialQuery,
-  saveSnapshot,
-}: {
-  category: CategorySummary;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-  locale: LocaleCode;
-  initialQuery?: string;
-  saveSnapshot: SaveSnapshot | null;
-}) {
-  const { data, loading, error } = useJson<CategoryPayload>(categoryListPath(category, locale));
-  const [query, setQuery] = useState(initialQuery ?? "");
-  const [filters, setFilters] = useState<Record<string, string>>({});
-  const [page, setPage] = useState(1);
-  const deferredQuery = useDeferredValue(query);
-
-  const filteredEntries = useMemo(() => {
-    if (!data) {
-      return [];
-    }
-    const needle = deferredQuery.trim().toLowerCase();
-    return data.entries.filter((entry) => {
-      const filterMatch = Object.entries(filters).every(([field, value]) => !value || entry.fields[field] === value);
-      if (!filterMatch) {
-        return false;
-      }
-      if (!needle) {
-        return true;
-      }
-      const haystack = [
-        entry.entityId,
-        ...Object.values(entry.title),
-        ...Object.values(entry.subtitle),
-        ...entry.tags,
-        ...Object.values(entry.fields),
-        ...Object.values(entry.fieldDisplay ?? {}).flatMap((value) => Object.values(value)),
-      ]
-        .join(" ")
-        .toLowerCase();
-      return haystack.includes(needle);
-    });
-  }, [data, deferredQuery, filters]);
-
-  if (loading) {
-    return <StatePanel label={t("state.loading")} />;
-  }
-  if (error || !data) {
-    return <StatePanel label={t("state.error")} detail={error ?? category.id} />;
-  }
-
-  const pageCount = Math.max(1, Math.ceil(filteredEntries.length / PAGE_SIZE));
-  const currentPage = Math.min(page, pageCount);
-  const visible = filteredEntries.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
-  const filterLabel = (filterId: string, option: string) => {
-    const matched = data.entries.find((entry) => entry.fields[filterId] === option && entry.fieldDisplay?.[filterId]);
-    return text(matched?.fieldDisplay?.[filterId]) || option;
-  };
-  const isRuneCategory = category.id === "runes";
-  const isStageCategory = category.id === "stages";
-  const filterPanel = (
-    <section className="panel filters">
-      <input
-        value={query}
-        onChange={(event) => {
-          setQuery(event.target.value);
-          setPage(1);
-        }}
-        placeholder={t("filter.search.placeholder")}
-      />
-      {data.filters.map((filter) => (
-        <div className="filter-row" key={filter.id}>
-          <span>{t(filter.labelKey)}</span>
-          <button
-            className={!filters[filter.id] ? "chip active" : "chip"}
-            onClick={() => {
-              setFilters((current) => ({ ...current, [filter.id]: "" }));
-              setPage(1);
-            }}
-          >
-            {t("filter.all")}
-          </button>
-          {filter.options.map((option) => (
-            <button
-              className={filters[filter.id] === option ? "chip active" : "chip"}
-              onClick={() => {
-                setFilters((current) => ({ ...current, [filter.id]: option }));
-                setPage(1);
-              }}
-              key={`${filter.id}:${option}`}
-            >
-              {filterLabel(filter.id, option)}
-            </button>
-          ))}
-        </div>
-      ))}
-    </section>
-  );
-
-  return (
-    <div className={`page-stack ${isRuneCategory ? "rune-category-page" : ""} ${isStageCategory ? "stage-category-page" : ""}`}>
-      <div className="lab-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
-        <div>
-          <a className="back-link" href={href({ kind: "home" })} style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
-          <h1 style={{ fontSize: "24px", marginTop: "4px" }}>{t(category.titleKey).toUpperCase()} DATABASE</h1>
-          <p>{t(category.descriptionKey)}</p>
-        </div>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px", background: "rgba(212, 165, 57, 0.08)", border: "1px solid rgba(212, 165, 57, 0.2)", borderRadius: "4px", padding: "6px 12px" }}>
-          <Icon src={category.icon} />
-          <div style={{ textAlign: "right" }}>
-            <div style={{ fontFamily: "var(--font-mono)", fontSize: "8px", color: "var(--muted)", textTransform: "uppercase" }}>Records Scanned</div>
-            <strong style={{ fontFamily: "var(--font-display)", color: "var(--brass-soft)", fontSize: "16px" }}>{formatNumber(category.count, locale)}</strong>
-          </div>
-        </div>
-      </div>
-
-      {isRuneCategory ? (
-        <RuneWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
-      ) : isStageCategory ? (
-        <StageAtlasWorkbench t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
-      ) : (
-        filterPanel
-      )}
-      {isRuneCategory || isStageCategory ? filterPanel : null}
-
-      <section className="panel section">
-        <div className="section-heading">
-          <h2>
-            {formatNumber(filteredEntries.length, locale)} / {formatNumber(data.entries.length, locale)}
-          </h2>
-          <Pager page={currentPage} pageCount={pageCount} setPage={setPage} t={t} locale={locale} />
-        </div>
-        {visible.length === 0 ? (
-          <p className="empty">{t("state.empty")}</p>
-        ) : category.layout === "cards" ? (
-          <div className="entry-grid">
-            {visible.map((entry) => (
-              <EntryCard entry={entry} text={text} t={t} key={entry.slug} />
-            ))}
-          </div>
-        ) : (
-          <EntryTable entries={visible} columns={data.columns} t={t} text={text} />
-        )}
-        <Pager page={currentPage} pageCount={pageCount} setPage={setPage} t={t} locale={locale} bottom />
-      </section>
-      <AdUnit />
-      <MagitechFooter t={t} />
-    </div>
-  );
-}
-
-function StageAtlasWorkbench({
+export function StageAtlasWorkbench({
   t,
   text,
   locale,
@@ -1579,7 +797,7 @@ function StageAtlasWorkbench({
   );
 }
 
-function RuneWorkbench({
+export function RuneWorkbench({
   t,
   text,
   locale,
@@ -1965,352 +1183,11 @@ function RuneWorkbench({
   );
 }
 
-function EntryTable({
-  entries,
-  columns,
-  t,
-  text,
-}: {
-  entries: Entry[];
-  columns: Array<{ key: string; labelKey: string }>;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-}) {
-  return (
-    <div className="table-wrap">
-      <table className="data-table">
-        <thead>
-          <tr>
-            <th>{t("field.name")}</th>
-            {columns.map((column) => (
-              <th key={column.key}>{t(column.labelKey)}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {entries.map((entry) => (
-            <tr key={entry.slug}>
-              <td>
-                <a className="table-name tooltip-trigger" href={href({ kind: "detail", categoryId: entry.categoryId, slug: entry.slug })}>
-                  <Icon src={entry.icon} rarity={entry.rarity} />
-                  <span>
-                    <strong>{text(entry.title)}</strong>
-                    <small>#{entry.entityId}</small>
-                  </span>
-                  <EntryTooltip data={entry.tooltip} t={t} text={text} />
-                </a>
-              </td>
-              {columns.map((column) => (
-                <td key={`${entry.slug}:${column.key}`}>
-                  <FieldValue
-                    value={text(entry.fieldDisplay?.[column.key]) || entry.fields[column.key]}
-                    rarity={column.key === "grade" ? entry.fields[column.key] : undefined}
-                  />
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-}
 
-function EntryCard({
-  entry,
-  text,
-  t,
-}: {
-  entry: Entry;
-  text: (value: Localized | undefined) => string;
-  t: (key: string) => string;
-}) {
-  const rarityColors: Record<string, string> = {
-    COMMON: "var(--grade-common)",
-    UNCOMMON: "var(--grade-uncommon)",
-    RARE: "var(--grade-rare)",
-    LEGENDARY: "var(--grade-legendary)",
-    IMMORTAL: "var(--grade-immortal)",
-    ARCANA: "var(--grade-arcana)",
-    BEYOND: "var(--grade-beyond)",
-    CELESTIAL: "var(--grade-celestial)",
-    DIVINE: "var(--grade-divine)",
-    COSMIC: "var(--grade-cosmic)"
-  };
-  const glowColor = rarityColors[entry.rarity ?? "COMMON"] || "var(--border)";
 
-  return (
-    <a 
-      className="entry-card tooltip-trigger magitech-panel hologram-glow" 
-      href={href({ kind: "detail", categoryId: entry.categoryId, slug: entry.slug })}
-      style={{ 
-        "--glow-color": glowColor,
-        display: "grid",
-        gridTemplateColumns: "58px minmax(0, 1fr)",
-        gap: "14px",
-        alignItems: "center",
-        padding: "14px",
-        minHeight: "104px"
-      } as React.CSSProperties}
-    >
-      <Icon src={entry.icon} large rarity={entry.rarity} />
-      <div>
-        <h3 style={{ margin: 0, fontSize: "15px", fontFamily: "var(--font-body)", color: "#ede6d7" }}>{text(entry.title)}</h3>
-        <p style={{ margin: "4px 0 0", fontSize: "11px", color: "var(--muted)" }}>{text(entry.subtitle)}</p>
-        <div className="tag-row" style={{ marginTop: "8px", display: "flex", gap: "6px" }}>
-          {entry.tags.slice(0, 2).map((tag, index) => (
-            <span className="tech-badge" style={{ fontSize: "8px", padding: "1px 5px" }} key={`${entry.slug}:${tag}:${index}`}>{tag}</span>
-          ))}
-        </div>
-      </div>
-      <EntryTooltip data={entry.tooltip} t={t} text={text} />
-    </a>
-  );
-}
 
-function EntryTooltip({
-  data,
-  t,
-  text,
-}: {
-  data?: TooltipData | null;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-}) {
-  if (!data) {
-    return null;
-  }
-  const description = text(data.description);
-  return (
-    <span className="game-tooltip" aria-hidden="true">
-      <span className="tooltip-cap">{text(data.title)}</span>
-      <span className="tooltip-body">
-        <span className="tooltip-head">
-          <Icon src={data.icon} rarity={data.rarity} />
-          <span>
-            <strong className={`rarity-${data.rarity ?? "NONE"}`}>{text(data.title)}</strong>
-            <small>{text(data.subtitle)}</small>
-          </span>
-        </span>
-        {description ? <span className="tooltip-description">{description}</span> : null}
-        <span className="tooltip-rows">
-          {data.rows.map((row, index) => (
-            <TooltipLine row={row} t={t} text={text} key={`top:${index}`} />
-          ))}
-        </span>
-        {data.sections.map((section, index) => (
-          <span className="tooltip-section" key={`${section.titleKey}:${index}`}>
-            <span className="tooltip-section-title">{t(section.titleKey)}</span>
-            <span className="tooltip-rows">
-              {section.rows.map((row, rowIndex) => (
-                <TooltipLine row={row} t={t} text={text} key={`${section.titleKey}:${rowIndex}`} />
-              ))}
-            </span>
-          </span>
-        ))}
-      </span>
-    </span>
-  );
-}
 
-function TooltipLine({
-  row,
-  t,
-  text,
-}: {
-  row: TooltipRow;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-}) {
-  const label = row.labelKey ? t(row.labelKey) : text(row.label);
-  return (
-    <span className={`tooltip-line tone-${row.tone ?? "normal"}`}>
-      {label ? <span className="tooltip-label">{label}</span> : null}
-      <span className="tooltip-value">{text(row.value)}</span>
-    </span>
-  );
-}
-
-function DetailPage({
-  category,
-  slug,
-  t,
-  text,
-  locale,
-  saveSnapshot,
-}: {
-  category: CategorySummary;
-  slug: string;
-  t: (key: string) => string;
-  text: (value: Localized | undefined) => string;
-  locale: LocaleCode;
-  saveSnapshot: SaveSnapshot | null;
-}) {
-  const { data, loading, error } = useJson<DetailPayload>(`/generated/details/${category.id}/${slug}.json`);
-  useEffect(() => {
-    if (!data) {
-      return;
-    }
-    const nameStr = text(data.title);
-    const catTitle = t(category.titleKey);
-    const title = `${nameStr} | ${catTitle} | TBH Lab`;
-
-    // Dynamic precise multilingual description based on category
-    let description: string;
-    if (locale === "ja-JP" || locale === "ja") {
-      if (category.id === "gear") {
-        description = `${nameStr}のステータス、ドロップ確率、レシピ、Steamコミュニティマーケット価格統計。TaskbarHero（タスクバーヒーロー）装備データベース。`;
-      } else if (category.id === "heroes") {
-        description = `ヒーロー「${nameStr}」のステータス成長度、使用可能スキル、スキルツリー分析。TaskbarHero攻略データ。`;
-      } else if (category.id === "stages") {
-        description = `ステージ「${nameStr}」の出現モンスター、クリア報酬宝箱、ドロップアイテム確率情報。TaskbarHeroマップ攻略。`;
-      } else {
-        description = `${nameStr}（${catTitle}）の詳細ステータス、関連データ、ドロップ・マーケット情報。TaskbarHero攻略データベース。`;
-      }
-    } else {
-      // English & other locales
-      if (category.id === "gear") {
-        description = `Stats, recipe requirements, drop rates, and Steam community market prices for ${nameStr} in TaskbarHero.`;
-      } else if (category.id === "heroes") {
-        description = `Character profile, level growth stats, and active/passive skill tree details for ${nameStr} in TaskbarHero.`;
-      } else if (category.id === "stages") {
-        description = `Stage map details for ${nameStr}, featuring monster spawn weights and chest drop rate probabilities in TaskbarHero.`;
-      } else {
-        description = `Comprehensive stats, drop sources, and market overview for ${nameStr} (${catTitle}) in TaskbarHero database.`;
-      }
-    }
-
-    // AEO/LLMO/GEO Optimization: Rich Structured Data
-    let jsonLdData: Record<string, unknown> | undefined;
-    if (category.id === "gear") {
-      jsonLdData = {
-        "@type": "Product",
-        name: nameStr,
-        image: data.heroImage || data.icon || undefined,
-        description: description,
-        category: data.rarity || "Gear",
-        model: data.overview.find((item) => item.labelKey === "field.level")?.value?.toString() || undefined,
-        offers: {
-          "@type": "AggregateOffer",
-          priceCurrency: "USD",
-          lowPrice: "0.03",
-          offerCount: "1"
-        }
-      };
-    } else if (category.id === "heroes") {
-      jsonLdData = {
-        "@type": "ItemPage",
-        mainEntity: {
-          "@type": "GameCharacter",
-          name: nameStr,
-          description: description,
-          image: data.heroImage || data.icon || undefined,
-          characterAttribute: data.overview.map((item) => ({
-            "@type": "PropertyValue",
-            name: t(item.labelKey),
-            value: String(item.value)
-          }))
-        }
-      };
-    } else {
-      jsonLdData = {
-        "@type": "ItemPage",
-        mainEntity: {
-          "@type": "Thing",
-          name: nameStr,
-          description: description,
-          image: data.icon || undefined
-        }
-      };
-    }
-
-    applyDocumentSeo({
-      title,
-      description,
-      route: { kind: "detail", categoryId: category.id, slug },
-      locale,
-      locales: SUPPORTED_LOCALES.map((option) => option.code),
-      siteUrl: SITE_ORIGIN,
-      jsonLdData,
-    });
-  }, [category, data, locale, slug, t, text]);
-  if (loading) {
-    return <StatePanel label={t("state.loading")} />;
-  }
-  if (error || !data) {
-    return <StatePanel label={t("state.error")} detail={error ?? slug} />;
-  }
-
-  return (
-    <div className="lab-dashboard">
-      {/* Blueprint Header */}
-      <div className="lab-header">
-        <a className="back-link" href={href({ kind: "category", categoryId: category.id })} style={{ fontFamily: "var(--font-display)", fontSize: "11px", color: "var(--brass-soft)" }}>// {t("nav.back")}</a>
-        <h1 style={{ fontSize: "24px", marginTop: "4px" }}>{text(data.title).toUpperCase()} SPECIFICATIONS</h1>
-        <p>// DATABASE ARCHIVE RECORD: #{data.entityId}</p>
-      </div>
-
-      <section className="lab-panel-grid" style={{ gridTemplateColumns: "320px minmax(0, 1fr)" }}>
-        {/* Left: Blueprint Visualizer */}
-        <article className="magitech-panel scan-line blueprint-grid" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "360px", padding: "20px" }}>
-          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "240px", background: "rgba(10, 8, 6, 0.4)", borderRadius: "6px", border: "1px solid rgba(212, 165, 57, 0.15)" }}>
-            {data.heroImage || data.icon ? (
-              <img src={data.heroImage ?? data.icon ?? ""} alt="" style={{ maxWidth: "90%", maxHeight: "90%", objectFit: "contain", imageRendering: "pixelated" }} />
-            ) : (
-              <Icon src={data.icon} large />
-            )}
-          </div>
-          <div style={{ marginTop: "16px", textAlign: "center", width: "100%" }}>
-            <span className="tech-badge" style={{ fontSize: "10px", borderColor: "var(--glow-color, var(--border))", color: "var(--glow-color, var(--brass-soft))" }}>
-              {data.rarity || "COMMON"}
-            </span>
-            <div style={{ fontFamily: "var(--font-mono)", fontSize: "10px", color: "var(--muted)", marginTop: "10px" }}>
-              TAGS: {data.tags.join(" | ") || "NONE"}
-            </div>
-          </div>
-        </article>
-
-        {/* Right: Technical metrics */}
-        <article className="magitech-panel lab-subpanel scan-line" style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-          <div>
-            <h3 style={{ margin: 0, paddingBottom: "8px", borderBottom: "1px solid rgba(212, 165, 57, 0.15)", color: "var(--brass-soft)", fontFamily: "var(--font-display)", fontSize: "12px" }}>
-              // BASE SPECIFICATIONS & ATTRIBUTES
-            </h3>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px", marginTop: "16px" }}>
-              {data.overview.map((item, index) => (
-                <div key={`${item.labelKey}:${index}`} style={{ background: "rgba(18, 14, 10, 0.6)", border: "1px solid var(--border)", borderRadius: "6px", padding: "10px 14px", display: "flex", flexDirection: "column", gap: "4px" }}>
-                  <small style={{ fontFamily: "var(--font-mono)", fontSize: "9px", color: "var(--muted)", textTransform: "uppercase" }}>{t(item.labelKey)}</small>
-                  <strong style={{ fontFamily: "var(--font-display)", fontSize: "14px", color: "var(--brass-soft)" }}>{formatValue(item.value, locale)}</strong>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div style={{ borderTop: "1px solid rgba(212, 165, 57, 0.15)", paddingTop: "14px", marginTop: "20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <div style={{ fontFamily: "var(--font-mono)", fontSize: "9px", color: "var(--muted)" }}>
-              SYSTEM ID: TBH-DB-{category.id.toUpperCase()}-{data.entityId}
-            </div>
-            <span className="tech-badge" style={{ fontSize: "8px", background: "rgba(39, 174, 96, 0.08)", borderColor: "rgba(39, 174, 96, 0.3)", color: "#27ae60" }}>
-              SCAN COMPLETED
-            </span>
-          </div>
-        </article>
-      </section>
-
-      <DetailAugmentPanel categoryId={data.categoryId} entityId={data.entityId} t={t} text={text} locale={locale} saveSnapshot={saveSnapshot} />
-
-      {data.sections.map((section, index) => (
-        <section className="magitech-panel lab-subpanel scan-line" key={`${section.titleKey}:${index}`} style={{ marginTop: "10px" }}>
-          <h3>// {t(section.titleKey).toUpperCase()}</h3>
-          <DetailSectionView section={section} t={t} locale={locale} />
-        </section>
-      ))}
-      <AdUnit />
-      <MagitechFooter t={t} />
-    </div>
-  );
-}
-
-function AdUnit() {
+export function AdUnit() {
   useEffect(() => {
     try {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -2333,7 +1210,7 @@ function AdUnit() {
   );
 }
 
-function MagitechFooter({ t }: { t: (key: string) => string }) {
+export function MagitechFooter({ t }: { t: (key: string) => string }) {
   return (
     <footer className="magitech-footer">
       <div className="magitech-footer-links">
@@ -2352,7 +1229,7 @@ function MagitechFooter({ t }: { t: (key: string) => string }) {
 }
 
 
-function DetailSectionView({
+export function DetailSectionView({
   section,
   t,
   locale,
@@ -2408,7 +1285,7 @@ function DetailSectionView({
   );
 }
 
-function Pager({
+export function Pager({
   page,
   pageCount,
   setPage,
@@ -2438,7 +1315,7 @@ function Pager({
   );
 }
 
-function Icon({
+export function Icon({
   src,
   large,
   hero,
@@ -2465,17 +1342,7 @@ function Metric({ label, value }: { label: string; value: string }) {
   );
 }
 
-function FieldValue({ value, rarity }: { value?: string; rarity?: string }) {
-  if (!value || value === "-") {
-    return <span className="muted">-</span>;
-  }
-  if (rarity) {
-    return <span className={`badge rarity-${rarity}`}>{value}</span>;
-  }
-  return <span>{value}</span>;
-}
-
-function StatePanel({ label, detail }: { label: string; detail?: string }) {
+export function StatePanel({ label, detail }: { label: string; detail?: string }) {
   return (
     <section className="panel state-panel">
       <div className="loading-rune" />
@@ -2484,26 +1351,4 @@ function StatePanel({ label, detail }: { label: string; detail?: string }) {
     </section>
   );
 }
-
-function formatNumber(value: string | number, locale: LocaleCode = "en") {
-  const number = Number(value);
-  if (Number.isFinite(number)) {
-    return new Intl.NumberFormat(intlLocale(locale)).format(number);
-  }
-  return String(value);
-}
-
-function formatValue(value: CellValue | undefined, locale: LocaleCode) {
-  if (value === null || value === undefined || value === "") {
-    return "-";
-  }
-  if (typeof value === "object") {
-    return localizedText(value, locale) || "-";
-  }
-  if (typeof value === "number") {
-    return formatNumber(value, locale);
-  }
-  return value;
-}
-
 export default App;
